@@ -16,7 +16,8 @@ const vi = (n) => n.toLocaleString('vi-VN');
 
 const CHAPTERS = [8, 12];      // số chương
 const WORDS = [700, 1100];     // chữ mỗi chương
-const MIN_CLIPS = 8;
+const MIN_CLIPS = 4;      // clip nền từ 5 phút nên cần ít clip
+const MIN_CLIP_SEC = 300;
 
 export function status(arg) {
   const E = epPaths(arg);
@@ -78,7 +79,7 @@ export function status(arg) {
   const tag = ep?.footageTag;
   const clips = manifest.filter((f) => (!tag || f.src.startsWith(`footage/${tag}-`)) && fs.existsSync(path.join(ROOT, 'public', f.src)));
   step('Footage', clips.length >= MIN_CLIPS ? 'done' : clips.length ? 'partial' : 'todo',
-    `${clips.length} clip${tag ? ` tag "${tag}"` : ''} (cần ≥ ${MIN_CLIPS})`);
+    `${clips.length} clip${tag ? ` tag "${tag}"` : ''} (cần ≥ ${MIN_CLIPS})${clips.some((f) => f.sec < MIN_CLIP_SEC) ? `; ${clips.filter((f) => f.sec < MIN_CLIP_SEC).length} clip ngắn hơn 5 phút` : ''}`);
 
   // 7. Dựng, render
   const nParts = ep?.parts?.length ?? 0;

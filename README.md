@@ -89,7 +89,7 @@ Chạy ở thư mục gốc, `ep001` là mã tập. Cú pháp giống nhau trên
 ```bash
 node scripts/normalize-vi.mjs ep001        # 4: chuẩn hóa văn bản
 node scripts/gen-voice.mjs ep001           # 5: gen giọng (cài đặt ở voice trong episode.json; --dry-run để xem trước)
-node scripts/prep-footage.mjs raw craft    # 6: chuẩn hóa clip trong thư mục raw/ vào public/footage
+node scripts/prep-footage.mjs raw cook     # 6: chuẩn hóa clip trong thư mục raw/ vào public/footage
 node scripts/build-audio.mjs ep001         # 7: ghép audio, ghi mốc chương
 npm run studio                             # 7: xem trước
 node scripts/render-episode.mjs ep001      # 7: render (--only=, --parts=1,3, --cut)

@@ -37,12 +37,16 @@ File sống. Đọc trước khi sửa `src/`, chọn footage hay render. Thắn
 
 ## Footage
 
-- **Kiểu dùng**: cận cảnh tay làm thủ công, pha chế, trang trí; màu bão hòa hoặc pastel; gần như không thấy mặt; mỗi cảnh một thao tác liền mạch khá dài; không có chữ chồng lên hình. Học từ các kênh người dùng thấy cuốn: cận cảnh tay nấu ăn và pha đồ uống màu, tay làm đồ thủ công mini.
-- **Bị chê, không dùng làm nền chính**: cảnh đời thường nhạt (cà phê, mưa trên kính, nấu ăn bình thường).
+- **Kiểu dùng**: cận cảnh tay làm thủ công, pha chế, trang trí; màu bão hòa hoặc pastel; gần như không thấy mặt; mỗi cảnh một thao tác liền mạch khá dài; không có chữ chồng lên hình. Học từ các kênh hiệu suất cao: cận cảnh tay nấu ăn và pha đồ uống màu, tay làm đồ thủ công mini.
+- **Không dùng làm nền chính**: cảnh đời thường nhạt (cà phê, mưa trên kính, nấu ăn bình thường).
 - **Người trong hình là người châu Á** khi lộ mặt hoặc dáng rõ. Clip chỉ có tay, đồ vật thì không ràng buộc. Từ khóa: asian, korean, japanese, chinese.
-- **Ít xao nhãng**: clip nguồn từ 30 giây; dùng hết clip rồi mới lặp; không để hai cảnh giống nhau liền nhau; muốn đổi cảnh theo nhịp truyện thì chỉ đổi ở đầu chương.
-- Từ khóa tìm: satisfying, asmr, handmade craft diy, palette knife paint, pink cream piping, knitting yarn, miniature, pastel, decorating, resin, clay, watercolor.
-- Nguồn: Pexels (chính). Pixabay cần đăng nhập, clip dọc thường ngắn. Videvo chặn tải tự động.
+- **Một tập, một chủ đề, một tag** (2026-11-19): chỉ dùng footage của đúng một chủ đề trong mỗi tập; mỗi chủ đề một tag riêng (bảng tag ở `san-xuat.md` mục 4), không trộn clip khác chủ đề vào cùng tag.
+- **Ít xao nhãng**: clip nguồn từ 5 phút (ưu tiên 30 phút–1 giờ); dùng hết clip rồi mới lặp; không để hai cảnh giống nhau liền nhau; muốn đổi cảnh theo nhịp truyện thì chỉ đổi ở đầu chương.
+- **Chủ đề footage** (2026-11-19): nấu ăn cận cảnh; làm bánh; trang trí đồ ngọt; pha chế đồ uống màu; đồ thủ công pastel; làm gốm; vẽ tranh, tô màu, tô số hóa; ambience đêm; làm nail; ghép hình cận cảnh, dán sticker DIY cận cảnh. Thay bảng "thể loại -> footage" cũ ở `san-xuat.md` mục 4.
+- Từ khóa tìm: ghép chủ đề với `asmr`, `long`, `1 hour` (ví dụ `pottery asmr 1 hour`, `cake decorating long`). Chủ đề: satisfying, handmade craft diy, palette knife paint, pink cream piping, knitting yarn, miniature, pastel, decorating, resin, clay, watercolor, pottery, ceramic, nail art, paint by number, coloring, jigsaw puzzle, sticker diy, night ambience.
+- **Độ dài và nguồn** (2026-11-19): mỗi video nền từ 5 phút trở lên, vì Pexels và Pixabay gần như toàn clip ngắn. Dùng nhiều nguồn khác nhau (kho clip miễn phí, kho lưu trữ công khai, kho trả phí, tự quay, do AI tạo, đặt làm), chỉ lấy clip có giấy phép dùng thương mại; danh sách nguồn ở `san-xuat.md` mục 4. Pexels, Pixabay chỉ là hai trong nhiều nguồn.
+
+- **Tải footage tự động bằng Claude in Chrome** (2026-11-19): YouTube qua https://ytsave.to/en2/, TikTok qua https://snaptik.app/en3 (bản không logo), nền tảng khác thì tìm `download <tên nền tảng> + no watermark`. Mục đích: Claude tự thao tác tải, người dùng không phải làm tay. Chi tiết quy trình ở `san-xuat.md` mục 4; trước mỗi lô tải Claude gửi danh sách clip và chờ yes một lần.
 
 ## Giọng
 
@@ -52,3 +56,6 @@ File sống. Đọc trước khi sửa `src/`, chọn footage hay render. Thắn
 
 - 2026-11-19: tắt phụ đề, gỡ whisper; footage tay làm thủ công màu sắc từ Pexels, clip từ 30 giây, đổi cảnh mỗi 28 giây, mờ chéo 1 giây; người trong hình là người châu Á; tốc độ giọng 1,2; thêm câu chào kênh, nghỉ sau câu chào còn 0,8 giây; chữ đẹp hơn; không chạy chữ; làm YouTube trước, TikTok sau.
 - 2026-11-19 (sau): gỡ gói `@remotion/install-whisper-cpp` cùng hai script `transcribe.mjs`, `align-captions.mjs`; phụ đề bật lại chỉ còn `rough-captions.mjs`. Màu nhấn, câu chào, nhãn "Phần n/N", tên chương mặc định chuyển vào `channel/channel.json`; thẻ chào không còn khóa cứng chữ "Chào mừng đến với".
+- 2026-11-19 (sau nữa): cập nhật 10 chủ đề footage; nền từ 5 phút trở lên, đa dạng nguồn thay vì chỉ Pexels/Pixabay; thêm từ khóa `asmr`, `long`, `1 hour`.
+- 2026-11-19 (tải tự động): thêm quy trình tải footage bằng Claude in Chrome (ytsave.to cho YouTube, snaptik.app cho TikTok, tìm "no watermark" cho nền tảng khác).
+- 2026-11-19 (tiếp): mỗi tập một chủ đề footage, mỗi chủ đề một tag (`cook`, `bake`, `dessert`, `drink`, `craft`, `pottery`, `paint`, `night`, `nail`, `puzzle`).

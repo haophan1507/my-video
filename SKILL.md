@@ -37,7 +37,7 @@ Khi người dùng nói "làm truyện số N", "tiếp tục tập X", "tập n
 | 3 | Viết chương | `chNN.txt` | Đủ chương, mỗi chương 700–1.100 chữ, qua bảng soát | Duyệt chương 1 trước khi viết tiếp | `van-phong.md` |
 | 4 | Chuẩn hóa | `chNN.tts.txt` | Đã chạy script, xử lý hết báo cáo | — | `san-xuat.md` 1 |
 | 5 | Giọng đọc | `episodes/epNNN-*/audio/chNN.mp3` | Mỗi chương một file, cùng giọng và tốc độ; đã nghe thử chương 1 | Dịch vụ, giọng, tốc độ | `san-xuat.md` 2 |
-| 6 | Footage | `public/footage/<tag>-*.mp4`, `manifest.json` | Đủ clip, đã chuẩn hóa | Chủ đề, nguồn | `edit-yeu-cau.md`, `san-xuat.md` 4 |
+| 6 | Footage | `public/footage/<tag>-*.mp4`, `manifest.json` | Đủ clip, đã chuẩn hóa; clip YouTube/TikTok tải tự động bằng Claude in Chrome | Chủ đề, duyệt danh sách clip trước khi tải | `edit-yeu-cau.md`, `san-xuat.md` 4 |
 | 7 | Dựng, render | `episode.json`; `out/` trong thư mục tập | Render xong, đã xem lướt đầu và cuối | Chữ ảnh bìa, có teaser không | `edit-yeu-cau.md`, `san-xuat.md` 5 |
 | 8 | Đăng | Mục Đăng trong `tap.md` | Có tiêu đề (chọn từ 5 phương án), ảnh bìa đã qua checklist, mô tả, caption từng phần, lịch | Tiêu đề cuối, mẫu bìa, lịch | `dang-bai.md` |
 
@@ -51,7 +51,7 @@ Chạy ở thư mục gốc, truyền mã tập ngắn (`ep001`). Chi tiết và
 ```bash
 node scripts/normalize-vi.mjs ep001                   # 4: ra chNN.tts.txt + báo cáo
 node scripts/gen-voice.mjs ep001 [--dry-run]          # 5: GenMax; khóa trong .env, cài đặt giọng ở voice trong episode.json; chỉ gen chương đã đổi
-node scripts/prep-footage.mjs raw craft             # 6: chuẩn hóa clip vào public/footage + manifest
+node scripts/prep-footage.mjs raw cook              # 6: chuẩn hóa clip vào public/footage + manifest
 node scripts/build-audio.mjs ep001                    # 7: ghép chương, ghi mốc, out/chapters.txt
 npx remotion studio src/index.ts                     # 7: xem trước
 node scripts/render-episode.mjs ep001 [--only=youtube|tiktok|thumb] [--parts=1,3] [--cut]

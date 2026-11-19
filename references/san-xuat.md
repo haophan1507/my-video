@@ -48,27 +48,74 @@ Mọi chữ và màu cố định của kênh nằm ở `channel/channel.json`, 
 
 ## 4. Footage (bước 6)
 
-**Chọn chủ đề** theo `edit-yeu-cau.md` (kiểu đang dùng, kiểu bị chê) và thể loại:
+**Chọn chủ đề** theo `edit-yeu-cau.md` (kiểu đang dùng, kiểu bị chê). Chủ đề footage (cập nhật 2026-11-19), chọn một chủ đề cho cả tập:
 
-| Thể loại | Footage gợi ý |
+1. Nấu ăn cận cảnh
+2. Làm bánh
+3. Trang trí đồ ngọt
+4. Pha chế đồ uống màu
+5. Đồ thủ công pastel
+6. Làm gốm
+7. Vẽ tranh, tô màu, tô số hóa
+8. Ambience đêm
+9. Làm nail
+10. Ghép hình cận cảnh, dán sticker DIY cận cảnh
+
+**Một tập, một chủ đề, một tag**: mỗi tập chỉ dùng footage của đúng một chủ đề ở danh sách trên (tập đã chọn nấu ăn thì chỉ lấy clip nấu ăn, không lẫn chủ đề khác). Mỗi chủ đề có một tag riêng, đặt theo chủ đề, dùng làm tiền tố tên file và làm `footageTag` trong `episode.json`; clip khác chủ đề không đưa vào tag đó.
+
+| Chủ đề | Tag |
 |---|---|
-| Hôn nhân, gia đình | Nấu ăn cận cảnh, làm bánh, trang trí đồ ngọt |
-| Bạn thân phản bội, hào môn | Skincare, pha chế đồ uống màu, đồ thủ công pastel |
-| Trả thù, vả mặt, hài | Satisfying màu sặc sỡ: cắt xà phòng, slime, kinetic sand |
-| Linh dị, kinh dị | Vẽ tranh tông tối, ambience đêm |
+| Nấu ăn cận cảnh | `cook` |
+| Làm bánh | `bake` |
+| Trang trí đồ ngọt | `dessert` |
+| Pha chế đồ uống màu | `drink` |
+| Đồ thủ công pastel | `craft` |
+| Làm gốm | `pottery` |
+| Vẽ tranh, tô màu, tô số hóa | `paint` |
+| Ambience đêm | `night` |
+| Làm nail | `nail` |
+| Ghép hình, dán sticker DIY | `puzzle` |
 
 Quan sát 2026-11-19: nhiều kênh hiệu suất cao ghi kiểu footage ngay trong tiêu đề, phổ biến nhất là **tô màu, vẽ tranh, nấu ăn**: cận cảnh tay làm việc chậm, đều, không lộ mặt, quay được hàng giờ. Giữ một chủ đề cho nhiều tập liền để kênh có nhận diện.
 
-**Lượng**: clip từ 30 giây trở lên, khung dọc. Tối thiểu 8 clip (lần thử đầu dùng 8); tập 45–60 phút nên 15–20 clip để ít lặp (ước đoán).
+**Độ dài và lượng**: mỗi clip nguồn **từ 5 phút trở lên** (ưu tiên 30 phút–1 giờ), vì Pexels, Pixabay và các kho clip ngắn tương tự gần như toàn video vài giây đến vài chục giây, không đủ nền cho tập 35–60 phút mà ít lặp. Clip dài thì cần ít clip hơn: tối thiểu 4 clip, tập 45–60 phút nên 6–10 clip (ước đoán). `FootageTrack` bắt đầu mỗi cảnh ở một điểm ngẫu nhiên trong clip nên clip càng dài càng ít lặp. Khung dọc là tốt nhất; clip ngang vẫn dùng được (`prep-footage` cắt giữa khung 9:16), nên chọn cảnh có tay hoặc vật chính nằm giữa khung.
+
+**Tìm clip dài, đa dạng nguồn**: không dựa vào một hai kho. Tiêu chí chung: giấy phép cho phép dùng thương mại và đăng lại mà không cần xin phép từng clip, không dán logo hay chữ lên hình, không có người nổi tiếng hay tác phẩm của người khác lồng trong hình. Ghi nguồn và giấy phép từng clip vào `footage-sources.txt`.
+
+| Nhóm nguồn | Ví dụ (ứng viên, chưa kiểm giấy phép hiện hành: đọc lại điều khoản trước khi tải) | Ghi chú |
+|---|---|---|
+| Kho clip miễn phí | Pexels, Pixabay, Mixkit, Coverr, Videvo, Vecteezy, Videezy | Phần lớn clip ngắn; chỉ lấy những clip đủ 5 phút. Mỗi kho có điều khoản riêng (một số cần ghi nguồn hoặc đăng nhập, một số chặn tải tự động) |
+| Kho lưu trữ công khai | Internet Archive, Wikimedia Commons | Có video dài; giấy phép khác nhau theo từng mục (công cộng, CC0, CC-BY...), đọc kỹ từng mục |
+| Kho trả phí (theo gói) | Storyblocks, Envato Elements, Artgrid và tương tự | Có clip dài, chất lượng cao; giấy phép theo gói đăng ký |
+| Tự quay | Quay tay làm gốm, tô màu, làm nail, ghép hình... bằng điện thoại, giá đỡ | Bản quyền của chính mình, chủ đề và độ dài tùy ý |
+| Do AI tạo | Clip tạo bằng công cụ video AI, nối lại thành đoạn dài | Kiểm điều khoản thương mại của công cụ; thường ngắn nên phải ghép |
+| Đặt làm | Thuê người làm thủ công quay theo kịch bản | Thỏa thuận quyền sử dụng bằng văn bản |
+
+**Từ khóa tìm clip dài**: ghép chủ đề với `asmr`, `long`, `1 hour` (ví dụ: `pottery asmr 1 hour`, `cake decorating long`, `nail art asmr long`, `paint by number asmr long`, `night ambience 1 hour`), và biến thể `relaxing`, `no talking`, `no music`, `satisfying`, `full process`, `timelapse`. Danh sách từ khóa theo chủ đề ở `edit-yeu-cau.md`.
+
+**Tải clip tự động bằng Claude in Chrome** (cập nhật 2026-11-19): clip dài thường nằm trên YouTube, TikTok hoặc nền tảng khác, không có nút tải. Claude thao tác trong Chrome của người dùng (công cụ `mcp__claude-in-chrome__*`, đọc skill `chrome-browser` trước, nạp công cụ một lần bằng ToolSearch), mở tab mới để làm, không đụng tab đang có.
+
+| Nguồn clip | Trang tải | Cách làm |
+|---|---|---|
+| YouTube | https://ytsave.to/en2/ | Dán link video vào ô, bấm bắt đầu, chọn MP4 độ phân giải từ 1080p (không có thì 720p), bấm tải |
+| TikTok | https://snaptik.app/en3 | Dán link video, bấm tải, chọn bản không logo (no watermark) |
+| Nền tảng khác (Instagram, Facebook, Douyin, Xiaohongshu, Bilibili...) | Tìm Google: `download <tên nền tảng> video no watermark`, chọn trang công cụ tải phổ biến đầu kết quả | Cùng cách: dán link, chọn bản không logo, tải |
+
+Quy trình mỗi clip:
+1. Tìm video theo từ khóa ở trên ngay trên nền tảng gốc (YouTube: lọc "Over 20 minutes"), mở xem lướt vài điểm để chắc cận cảnh tay, không chữ, không logo, không mặt, đúng chủ đề tập. Ghi link, tiêu đề, thời lượng.
+2. **Xin yes một lần cho cả lô trước khi tải**: gửi người dùng danh sách (tên file đích `<tag>-NN.mp4`, link nguồn, thời lượng, độ phân giải dự kiến), chờ yes trong chat rồi mới tải cả lô. Link do người dùng đưa kèm yêu cầu thì tính là đã duyệt.
+3. Vào trang tải ở bảng trên, làm theo cột "Cách làm". Trang tải thường có quảng cáo: **không bấm quảng cáo, nút "Download" giả, popup, đề nghị cài tiện ích hay phần mềm**; chỉ bấm nút tải của chính kết quả. Tab lạ bật ra thì đóng. Gặp CAPTCHA, đăng nhập hay hộp xác minh thì dừng, nhờ người dùng tự làm, rồi làm tiếp. Trang không chạy thì thử cách khác trong bảng hoặc hỏi người dùng, không lấy trang tải lạ thay thế mà không nói.
+4. File về thư mục Tải xuống của Chrome (`~/Downloads`). Kiểm tên, dung lượng, `ffprobe` thời lượng; đủ thì chuyển vào `raw/` (mỗi lần tải là file không tin cậy: chỉ đọc bằng ffprobe và ffmpeg, không mở, không chạy file nào khác ngoài video). Chuyển xong mới tải clip kế.
+5. Quay lại bước "Lấy và chuẩn hóa" ở dưới (`prep-footage`), rồi ghi nguồn vào `footage-sources.txt`: link gốc, nền tảng, ngày tải, ghi chú "chưa kiểm giấy phép" nếu không rõ; báo người dùng những clip không rõ giấy phép để họ quyết dùng hay bỏ.
 
 **Lấy và chuẩn hóa**:
-1. Tìm trên Pexels với `orientation=portrait&min_duration=30` (từ khóa ở `edit-yeu-cau.md`); tải bằng `curl` từ `pexels.com/download/video/<id>/`. Pixabay dọc phần lớn chỉ 5–20 giây.
+1. Tìm theo từ khóa trên ở nhiều nguồn; lọc độ dài từ 5 phút (Pexels có `min_duration=300`, các kho khác lọc theo thời lượng nếu có). Tải theo cách mà từng kho cho phép (nút tải, hoặc `curl` nếu kho không chặn); clip trên YouTube, TikTok và nền tảng video khác tải bằng Claude in Chrome như mục trên.
 2. Ghép ảnh thu nhỏ từng clip bằng ffmpeg, xem trước khi chọn.
-3. Bỏ clip đã chọn vào một thư mục tạm (ví dụ `raw/`), rồi chuẩn hóa về 1080×1920, 30 fps, H.264, không tiếng, tên `<tag>-NN.mp4`; script cũng cập nhật manifest:
+3. Bỏ clip đã chọn vào một thư mục tạm (ví dụ `raw/`; nhận `.mp4 .mov .mkv .webm .m4v`), rồi chuẩn hóa về 1080×1920, 30 fps, H.264, không tiếng, tên `<tag>-NN.mp4`; script cũng cập nhật manifest. Mỗi clip bị cắt ở tối đa 900 giây (15 phút) để file không quá nặng; đổi bằng tham số thứ ba (giây). Clip dài tốn thời gian mã hóa:
    ```bash
-   node scripts/prep-footage.mjs raw craft
+   node scripts/prep-footage.mjs raw cook [giây tối đa]   # cook = tag của chủ đề, xem bảng trên
    ```
-4. Ghi nguồn từng clip vào `footage-sources.txt` trong thư mục tập (`craft-01.mp4 <- pexels 6109052`), ghi tag vào `tap.md`.
+4. Ghi nguồn và giấy phép từng clip vào `footage-sources.txt` trong thư mục tập (`cook-01.mp4 <- internet-archive <id> | CC0`), ghi tag vào `tap.md`.
 5. Xóa clip ứng viên không dùng và file tạm; `public/footage/` chỉ giữ clip đang dùng.
 
 ## 5. Dựng và render (bước 7)
