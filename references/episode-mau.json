@@ -1,0 +1,25 @@
+{
+  "title": "Hook một câu cho thẻ 3 giây đầu bản YouTube",
+  "footageTag": "craft",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "hookSec": 3,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {"title": "Tên chương 1 (có từ khóa)"},
+    {"title": "Tên chương 2"}
+  ],
+  "parts": [
+    {"chapters": [1, 2], "hook": "Hook của Phần 1"}
+  ],
+  "thumbText": "Chữ bìa 3–6 từ",
+  "thumbBg": null,
+  "introSec": 0
+}

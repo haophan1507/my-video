@@ -1,0 +1,6 @@
+# Cùng kết thúc dòng trên macOS và Windows
+* text=auto eol=lf
+*.mp4 binary
+*.mp3 binary
+*.png binary
+*.jpg binary

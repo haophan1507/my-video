@@ -1,0 +1,19 @@
+# Phụ thuộc và khóa
+node_modules/
+.env
+
+# Hệ điều hành, editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# File sinh ra hoặc nặng: dựng lại được từ kịch bản
+.tmp/
+raw/
+public/footage/
+public/ep*/
+episodes/*/audio/
+episodes/*/out/
+channel/*.mp3
+channel/voice-meta.json

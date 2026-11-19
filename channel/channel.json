@@ -1,0 +1,9 @@
+{
+  "name": "Dưa Hấu Audio",
+  "introText": "Chào mừng bạn đến với {name}.",
+  "introLabel": "CHÀO MỪNG ĐẾN VỚI",
+  "partLabel": "Phần {n}/{total}",
+  "chapterLabel": "Chương {n}",
+  "accent": "#FF5D73",
+  "voice": {"speed": 1.2}
+}
