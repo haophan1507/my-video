@@ -1,0 +1,133 @@
+{
+  "title": "Chồng đòi ly hôn để về với tình đầu, tôi chưa kịp nói mình mang thai hai tháng",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Cô làm tôi thấy ghê tởm"
+    },
+    {
+      "title": "Cô gái lọ lem trên màn ảnh"
+    },
+    {
+      "title": "Bạn trai tạm thời ở vũ hội mặt nạ"
+    },
+    {
+      "title": "Bản ghi âm trong vườn sau"
+    },
+    {
+      "title": "Chiếc vòng ngọc gia truyền"
+    },
+    {
+      "title": "Hot search"
+    },
+    {
+      "title": "Ba ngày"
+    },
+    {
+      "title": "Thùng sơn đỏ"
+    },
+    {
+      "title": "Mối tình đầu qua một tấm ảnh"
+    },
+    {
+      "title": "Anh không xứng"
+    },
+    {
+      "title": "Chiếc vòng trong viện dưỡng lão"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Tỉnh dậy sau tai nạn, chồng đòi ly hôn để về với tình đầu"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Chồng bỏ đi tìm tình đầu, bật tivi là thấy mặt cô ta"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Kéo bừa người lạ nhảy, hóa ra là chú của chồng cũ"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Gặp tình đầu của chồng, tôi lại phải ra tay cứu cô ta"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Bác sĩ gọi chú của chồng cũ là chồng tôi"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Một đêm, tôi thành kẻ ngoại tình trên hot search"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Ba ngày sau khi quyết định giữ con, săn ảnh chặn cửa"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Ngày xuất viện, có người hắt cả thùng sơn đỏ vào tôi"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Anh nói ba năm trước, suýt nữa anh đã là chồng tôi"
+    },
+    {
+      "chapters": [
+        10,
+        10
+      ],
+      "hook": "Chồng cũ quỳ xin tái hôn, tôi chỉ nói: Anh không xứng"
+    },
+    {
+      "chapters": [
+        11,
+        11
+      ],
+      "hook": "Một triệu tệ cho sự thật chồng cũ không chịu nổi"
+    }
+  ],
+  "thumbText": "Chồng bỏ tôi|theo *tình đầu*|khi tôi đang|*mang thai*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

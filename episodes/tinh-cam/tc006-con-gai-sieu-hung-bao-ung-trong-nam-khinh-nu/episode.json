@@ -1,0 +1,103 @@
+{
+  "title": "Ông nội bán tôi ba nghìn tệ, người bị dắt đi lại là đứa cháu đích tôn",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Đồ lỗ vốn"
+    },
+    {
+      "title": "Đôi hoa tai vàng"
+    },
+    {
+      "title": "Que diêm"
+    },
+    {
+      "title": "Ba nghìn tệ"
+    },
+    {
+      "title": "Chuồng trâu"
+    },
+    {
+      "title": "Người bị dắt đi"
+    },
+    {
+      "title": "Quán mì bên bến xe"
+    },
+    {
+      "title": "Món nợ cuối cùng"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Ông nội bán tôi ba nghìn tệ, người bị dắt đi lại là anh trai"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Tôi xúi anh trai giật hoa tai vàng của bà"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Anh trai đốt nhà chỉ vì một câu nói của tôi"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Nhà cháy bảy ngày, ông nội chốt giá bán tôi"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Cả nhà trọng nam khinh nữ cắn xé nhau trong chuồng trâu"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Ngày lão góa vợ đến dắt người, người khóc lại là anh trai"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Mười ba tuổi, tôi trốn lên huyện với bảy mươi tệ"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Ngày khai trương, bố và anh trai đến đòi nợ"
+    }
+  ],
+  "thumbText": "Ông nội bán tôi|*ba nghìn tệ*|người bị dắt đi|là anh trai",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

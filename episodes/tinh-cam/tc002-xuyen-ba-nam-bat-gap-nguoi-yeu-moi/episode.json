@@ -1,0 +1,113 @@
+{
+  "title": "Mở mắt ra đã là ba năm sau, tôi không nhận ra người bạn trai bên giường",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Mở mắt ra là ba năm sau"
+    },
+    {
+      "title": "Người tôi theo đuổi nửa năm"
+    },
+    {
+      "title": "Đoạn camera cầu thang"
+    },
+    {
+      "title": "Quán nướng Phúc Điền"
+    },
+    {
+      "title": "Chào mừng Hoan về nhà"
+    },
+    {
+      "title": "Ai sống phần nấy"
+    },
+    {
+      "title": "Cặp vé đi châu Phi"
+    },
+    {
+      "title": "Ngày kỷ niệm tôi quên"
+    },
+    {
+      "title": "Ba năm trong bó hoa"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Tỉnh dậy đã là ba năm sau, người yêu cũ đã cưới vợ"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Tôi theo đuổi người lạ này suốt nửa năm?"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Lần thứ hai tôi ngã, lại sau một trận cãi nhau"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Bạn trai đưa tôi ra sân bay đi tìm người yêu cũ"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Người yêu cũ muốn lợi dụng việc tôi mất trí nhớ"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Tôi cầu hôn với điều kiện ai sống phần nấy"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Tôi ghen với chính mình của ba năm trước"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Kỷ niệm một năm ngày cưới, tôi quên sạch"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Trong bó hoa là ba năm tôi đã quên"
+    }
+  ],
+  "thumbText": "Tỉnh dậy|*ba năm sau*|không nhớ|người yêu mới",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

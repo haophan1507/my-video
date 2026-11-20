@@ -7,7 +7,7 @@ Khác quy trình thường: không dừng chờ duyệt dàn ý và chương 1. 
 ## Điều phối (phiên chính)
 
 1. Mở tập: `node scripts/new-episode.mjs <mã> [...]` (hoặc `--all [--genre=tc]`).
-2. Chạy mỗi đợt 4–5 agent song song, mỗi agent một mã, prompt là: "Làm theo `references/kich-ban-hang-loat.md` mục Brief cho tập `<mã>`. Họ dành cho tập này: nữ chính `<họ>`, nam chính `<họ>`." Các agent trong một đợt không thấy nhau, nên phát trước họ riêng cho từng agent, lấy họ chưa có trong `node scripts/names.mjs --surnames`.
+2. Agent chạy model Sonnet (từ đợt 2 hàng loạt; Opus chạm giới hạn 5 giờ sau ~8 truyện). Chạy mỗi đợt 4–5 agent song song, mỗi agent một mã, prompt là: "Làm theo `references/kich-ban-hang-loat.md` mục Brief cho tập `<mã>`. Họ dành cho tập này: nữ chính `<họ>`, nam chính `<họ>`." Các agent trong một đợt không thấy nhau, nên phát trước họ riêng cho từng agent, lấy họ chưa có trong `node scripts/names.mjs --surnames`.
 3. Hết đợt: `node scripts/status.mjs` (mỗi tập phải ở bước 5), `node scripts/names.mjs` (không trùng họ tên vai chính giữa các tập), đọc lướt hook và chương 1 của vài tập, commit theo đợt.
 
 Thử 3 tập (tc004, tc007, ts003) ngày 2026-11-21: khi chưa có quy tắc tên, cả 3 nữ chính cùng tên "Giang Ninh", 2 nam chính cùng họ Hoắc, 3 bạn hóng hớt cùng họ Chu. Câu chào kênh nằm ở chữ 190–320 (1–1,8 phút) thay vì giây 50–60. Mỗi agent ~9–10 phút, ~170.000 token.
