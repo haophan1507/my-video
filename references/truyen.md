@@ -39,7 +39,7 @@ Nguồn nguyên liệu khi kho hết: bảng xếp hạng truyện ngắn Trung 
 1. Rút **khung** từ bản gốc: nhân vật chính muốn gì, cản trở là gì, 3–5 điểm ngoặt, kết.
 2. Đặt **tên Hán Việt mới** (`van-phong.md` mục 2).
 3. Chia khung thành **vòng vả mặt**, mỗi vòng một chương (`van-phong.md` mục 4). Thêm một nhân vật phụ hóng hớt nếu bản gốc chưa có.
-4. **Đủ độ dài**: viết dày hoặc thêm vòng vả mặt mới ngay trong truyện. Chỉ gộp với truyện khác khi thành một mạch liền (cùng nhân vật, nửa sau nối tiếp nửa trước); không cắm truyện này vào truyện kia. Ghi cách đã chọn vào `tap.md`.
+4. **Độ dài theo truyện** (25–60 phút, lệch nhẹ được; 2026-11-21): độ dài không phải chỉ tiêu. Truyện còn đất sáng tạo thì cứ viết thêm cảnh, vòng vả mặt, twist; không thấy chỗ mở hợp lý thì để ~25–30 phút, không cố kéo. Chỉ gộp với truyện khác khi thành một mạch liền (cùng nhân vật, nửa sau nối tiếp nửa trước); không cắm truyện này vào truyện kia. Ghi cách đã chọn vào `tap.md`.
 5. Đổi trình tự vài cảnh, cách mở và kết; thêm một twist riêng nếu được. Khi dùng LLM, đưa **khung và bảng tên**, không đưa văn bản gốc, để ra truyện mới chứ không phải bản dịch.
 
 ## 4. Hook, nhịp, cliffhanger

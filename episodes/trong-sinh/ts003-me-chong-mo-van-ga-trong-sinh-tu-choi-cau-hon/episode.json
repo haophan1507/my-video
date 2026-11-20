@@ -1,0 +1,123 @@
+{
+  "title": "Mẹ chồng mở van ga giết tôi và con gái, trọng sinh về ngày cầu hôn tôi hét: Không cưới!",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Van ga và chiếc nhẫn"
+    },
+    {
+      "title": "Quả bom trước ống kính"
+    },
+    {
+      "title": "Bố còn sống"
+    },
+    {
+      "title": "Đứng lại"
+    },
+    {
+      "title": "Chàng trai nghèo bị hào môn chà đạp"
+    },
+    {
+      "title": "Tấm ảnh gia đình ba người"
+    },
+    {
+      "title": "Cú quật vai"
+    },
+    {
+      "title": "Lần này tôi không ký"
+    },
+    {
+      "title": "Trước cửa trung tâm thương mại"
+    },
+    {
+      "title": "Chương trình hòa giải"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Mẹ chồng mở van ga giết tôi và con gái mới sinh"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Tôi hét không cưới vào mặt chàng rể vàng trước chục máy quay"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Kiếp trước bố tôi chết, kiếp này ông đang ngồi bóc vải"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Chàng rể hụt xông vào văn phòng bố tôi như nhà mình"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Hắn bán thảm trên mạng, cả thành phố gọi tôi là thiên kim độc ác"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Em gái nuôi đăng ảnh gia đình ba người lúc nửa đêm"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Gã bạn trai cũ chặn cổng, tôi quật hắn một cú ngã ngửa"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Kẻ mở van ga giết mẹ con tôi ngồi ăn vạ trước cổng công ty"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Hắn đạp mẹ của con mình ngay giữa trung tâm thương mại"
+    },
+    {
+      "chapters": [
+        10,
+        10
+      ],
+      "hook": "Kẻ hại tôi ngồi xe lăn trên chương trình hòa giải"
+    }
+  ],
+  "thumbText": "Mẹ chồng mở van ga|giết mẹ con tôi|trọng sinh tôi hét|*Không cưới!*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

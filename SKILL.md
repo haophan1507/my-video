@@ -12,7 +12,7 @@ Mỗi truyện thành **một video dài khung ngang** cho YouTube và **nhiều
 | | YouTube (bản dài) | TikTok (theo chương) |
 |---|---|---|
 | Khung | Ngang 1920×1080, 30 fps, H.264; footage lệch tỉ lệ thì viền đen hai bên | Dọc 1080×1920, 30 fps, H.264 |
-| Độ dài | 25–60 phút ≈ 4.500–11.000 chữ (~180 chữ/phút); truyện nguồn có base ≥ 15 phút | Phần = 1–2 chương, 3–8 phút |
+| Độ dài | 25–60 phút ≈ 4.500–11.000 chữ (~180 chữ/phút), lệch nhẹ hai đầu được; độ dài theo truyện, không phải chỉ tiêu (2026-11-21); truyện nguồn có base ≥ 15 phút | Phần = 1–2 chương, 3–8 phút |
 | Cấu trúc | 6–12 chương, mỗi chương 700–1.100 chữ | Mở bằng hook chương, kết bằng cliffhanger |
 | Chữ trên màn | Câu chào kênh bằng giọng, watermark logo; không thẻ chữ | Watermark logo, nhãn "Phần n/N"; không thẻ chữ |
 | Ảnh bìa | 1280×720 render từ Remotion: nền kem, logo + hook + nút Subscribe bên trái, ảnh nhân vật khung tròn bên phải (`dang-bai.md` mục 2) | 1080×1920 mỗi phần, cùng mẫu: logo, nút "PHẦN n/N", hook phần ở trên, ảnh tròn ở dưới (`dang-bai.md` mục 5) |
@@ -33,7 +33,7 @@ Khi người dùng nói "làm truyện số N", "tiếp tục tập X", "tập n
 | # | Bước | Đầu ra | Xong khi | Hỏi người dùng | Đọc |
 |---|---|---|---|---|---|
 | 1 | Chọn truyện | Mục Quyết định trong `tap.md` | Có truyện nguồn, thể loại, điểm ≥ 15/25 | Truyện nào | `truyen.md` 1–2 |
-| 2 | Dàn ý | `episodes/<thể-loại>/<mã>-*/outline.md` | 6–12 chương, mỗi chương có hook mở và cliffhanger; có bảng tên, chia phần TikTok, tổng chữ 4.500–11.000 | Duyệt dàn ý, tên, tiêu đề | `truyen.md` 3–5; `dang-bai.md` 1 |
+| 2 | Dàn ý | `episodes/<thể-loại>/<mã>-*/outline.md` | 6–12 chương, mỗi chương có hook mở và cliffhanger; có bảng tên, chia phần TikTok, tổng chữ quanh 4.500–11.000 | Duyệt dàn ý, tên, tiêu đề | `truyen.md` 3–5; `dang-bai.md` 1 |
 | 3 | Viết chương | `chNN.tts.txt` (một file mỗi chương, viết sẵn dạng máy đọc được: số, tiền, viết tắt thành chữ) | Đủ chương, mỗi chương 700–1.100 chữ, qua bảng soát | Duyệt chương 1 trước khi viết tiếp | `van-phong.md` |
 | 4 | Soát TTS | Báo cáo của `normalize-vi.mjs` (sửa trực tiếp `chNN.tts.txt`) | Hết chữ số, ngoặc; đã xử lý tên ngoại, câu dài | — | `san-xuat.md` 1 |
 | 5 | Giọng đọc | `episodes/<thể-loại>/<mã>-*/audio/chNN.mp3` | Mỗi chương một file, cùng giọng và tốc độ; đã nghe thử chương 1 | Dịch vụ, giọng, tốc độ | `san-xuat.md` 2 |
@@ -41,13 +41,15 @@ Khi người dùng nói "làm truyện số N", "tiếp tục tập X", "tập n
 | 7 | Dựng, render | `episode.json`; `out/` trong thư mục tập | Render xong, đã xem lướt đầu và cuối | Ảnh nhân vật và chữ ảnh bìa (duyệt danh sách ảnh trước khi tải), có teaser không | `edit-yeu-cau.md`, `san-xuat.md` 5 |
 
 - Bước 6 làm song song với 3–5 được.
-- Truyện trong kho có hai dạng: bản dịch sát (lô L01) hoặc khung tiếng Việt + nguyên văn tiếng Trung (từ lô L02). Mỗi truyện có base ≥ 15 phút. Ở bước 2 gom thành 6–12 chương và chỉnh độ dài: truyện ngắn thì viết dày hoặc thêm vòng ngay trong truyện; truyện dài thì cắt cảnh phụ. Không ghép hai truyện khác nhân vật vào một tập.
+- Truyện trong kho có hai dạng: bản dịch sát (lô L01) hoặc khung tiếng Việt + nguyên văn tiếng Trung (từ lô L02). Mỗi truyện có base ≥ 15 phút. Ở bước 2 gom thành 6–12 chương; độ dài theo sức của truyện: còn đất sáng tạo thì cứ viết thêm cảnh, vòng, twist; không thấy chỗ mở hợp lý thì để 25–30 phút, không cố kéo; truyện dài thì cắt cảnh phụ. Tự do đổi cảnh, thêm twist, sửa kết nếu hay hơn. Không ghép hai truyện khác nhân vật vào một tập.
 
 ## Lệnh
 
 Chạy ở thư mục gốc, truyền mã tập ngắn (`tc005`). Chi tiết và lỗi hay gặp: `references/san-xuat.md`.
 
 ```bash
+node scripts/new-episode.mjs tc005 [...] | --all [--genre=tc]   # 1: mở tập (tap.md, episode.json, dòng ở stories/README.md)
+node scripts/names.mjs [--surnames]                  # 2: tên nhân vật đã dùng ở các tập, tránh đặt trùng
 node scripts/normalize-vi.mjs tc005 [--fix]           # 4: báo cáo chNN.tts.txt; --fix tự đổi số, tiền, viết tắt tại chỗ
 node scripts/gen-voice.mjs tc005 [--dry-run]          # 5: GenMax; khóa trong .env, cài đặt giọng ở voice trong episode.json; chỉ gen chương đã đổi
 node scripts/dl-video.mjs <link> --name=craft-01 [--list]   # 6: tải video từ link nền tảng vào raw/ (API gendownload.com)
@@ -76,6 +78,7 @@ Mỗi chủ đề chỉ có một nơi chi tiết. Chỉ đọc khi tới bướ
 | `references/tap-mau.md` | Mẫu hồ sơ tập | mở tập |
 | `references/truyen.md` | Thể loại, chấm điểm, hook, nhịp, cliffhanger, prompt dàn ý | 1–2 |
 | `references/van-phong.md` | Tên, xưng hô, giọng kể, prompt viết chương, bảng soát | 3 |
+| `references/kich-ban-hang-loat.md` | Sinh sẵn bước 1–4 cho nhiều truyện bằng agent, brief cho từng agent | 1–4 |
 | `references/san-xuat.md` | Soát TTS, giọng, footage, dựng, render, quy tắc code Remotion | 4–7 |
 | `references/edit-yeu-cau.md` | **Tiêu chuẩn đang áp dụng** về khung hình, chữ, footage, giọng; thắng mọi mặc định | 5–7 |
 | `references/dang-bai.md` | Tiêu đề, ảnh bìa, A/B test, mô tả, caption TikTok, lịch, khai báo AI, đo và sửa | 2, 7 |

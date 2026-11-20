@@ -78,9 +78,9 @@ export function status(arg) {
   // 6. Footage
   const manifest = readJson(path.join(ROOT, 'public', 'footage', 'manifest.json')) ?? [];
   const tag = ep?.footageTag;
-  const clips = manifest.filter((f) => (!tag || f.tag === tag) && fs.existsSync(path.join(ROOT, 'public', f.src)));
+  const clips = !tag ? [] : manifest.filter((f) => f.tag === tag && fs.existsSync(path.join(ROOT, 'public', f.src)));
   step('Footage', clips.length >= MIN_CLIPS ? 'done' : clips.length ? 'partial' : 'todo',
-    `${clips.length} clip${tag ? ` tag "${tag}"` : ''} (cần ≥ ${MIN_CLIPS})${clips.some((f) => f.sec < MIN_CLIP_SEC) ? `; ${clips.filter((f) => f.sec < MIN_CLIP_SEC).length} clip ngắn hơn 5 phút` : ''}`);
+    !tag ? 'chưa chọn footageTag trong episode.json' : `${clips.length} clip tag "${tag}" (cần ≥ ${MIN_CLIPS})${clips.some((f) => f.sec < MIN_CLIP_SEC) ? `; ${clips.filter((f) => f.sec < MIN_CLIP_SEC).length} clip ngắn hơn 5 phút` : ''}`);
 
   // 7. Dựng, render
   const nParts = ep?.parts?.length ?? 0;

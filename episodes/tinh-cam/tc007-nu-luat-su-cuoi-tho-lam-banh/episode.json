@@ -1,0 +1,123 @@
+{
+  "title": "Chồng thợ làm bánh nghèo của tôi nửa đêm một tay ghìm côn đồ vào tường",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Bản thỏa thuận mười trang"
+    },
+    {
+      "title": "Vết sẹo và lá thư không tên"
+    },
+    {
+      "title": "Chiếc xe điện cũ"
+    },
+    {
+      "title": "Chiếc khuy măng sét mười lăm tệ"
+    },
+    {
+      "title": "Anh phục vụ nhặt mảnh ly"
+    },
+    {
+      "title": "Một nghìn vạn xin đừng ly hôn"
+    },
+    {
+      "title": "Chiếc vali ở cửa"
+    },
+    {
+      "title": "Một tay ghìm vào tường"
+    },
+    {
+      "title": "Khai đi, Kỷ tổng"
+    },
+    {
+      "title": "Tờ thỏa thuận bay như tuyết"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Chồng thợ làm bánh nửa đêm một tay ghìm côn đồ vào tường"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Thợ làm bánh lấy đâu ra vết dao chém suýt đứt đôi người?"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Một tiếng nữa ra tòa, chồng tôi đến cứu bằng xe điện cũ"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Khuy kim cương giá cả căn hộ trong túi áo chồng nghèo"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Kỷ tổng quay lại, người nhặt mảnh ly lại là chồng tôi"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Mẹ chồng mang một nghìn vạn xin tôi đừng ly hôn"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Tôi kéo vali đuổi chồng, anh khóa trái cửa"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Một dòng chữ nhỏ trong phụ lục trói tôi cả đời"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Cảnh sát đứng nghiêm chào chồng tôi"
+    },
+    {
+      "chapters": [
+        10,
+        10
+      ],
+      "hook": "Tôi xé bản thỏa thuận ngay trong đám cưới"
+    }
+  ],
+  "thumbText": "Chồng thợ bánh|một tay ghìm|*côn đồ*|vào tường",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

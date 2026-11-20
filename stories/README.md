@@ -158,5 +158,8 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 |---|---|---|---|
 | tc005 | minimax speech-2.8-hd, tốc độ 1,2 | `cook` | Base ~13 phút (dưới chuẩn); ngoại lệ vì đang làm tập, dàn ý đã mở lên 39 phút |
 | tc001 | chưa chốt | chưa chốt | Base ~18 phút (dưới chuẩn 25–60); sẽ viết dày lên ~30–35 phút |
+| tc004 | chưa chốt | chưa chốt | mở 2026-11-21 |
+| tc007 | chưa chốt | chưa chốt | mở 2026-11-21 |
+| ts003 | chưa chốt | chưa chốt | mở 2026-11-21 |
 
 Mỗi tập mới thêm một dòng.
