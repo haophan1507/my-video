@@ -1,0 +1,103 @@
+{
+  "title": "Bạn trai cho đồng nghiệp ngồi ghế phụ xe tôi mua, tôi tát cô ta rồi bảo: gà phải bỏ vào cốp!",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Gà phải bỏ vào cốp"
+    },
+    {
+      "title": "Bảy năm và một bà mẹ chồng tương lai"
+    },
+    {
+      "title": "Tờ giấy trong túi áo"
+    },
+    {
+      "title": "Thỏ con của anh Phong"
+    },
+    {
+      "title": "Khổ nhục kế ở sảnh công ty"
+    },
+    {
+      "title": "Quà mừng của phu nhân Thạch"
+    },
+    {
+      "title": "Câu hỏi trên mạng: con của ai"
+    },
+    {
+      "title": "Chiếc dây chuyền vàng"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Tôi tát nhân tình ngồi ghế phụ: gà phải bỏ vào cốp!"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Bạn trai chia tay tôi trước mặt nhân tình, tôi đã biết từ bảy ngày trước"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Tờ giấy bệnh viện nói anh ta không thể có con"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Nhân tình gửi tôi ảnh khách sạn lúc nửa đêm"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Cô ta tự ngã ở sảnh công ty và hét rằng tôi đẩy"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Đám cưới của họ bị phu nhân họ Thạch phá giữa chừng"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Người từng chê tôi đanh đá ngồi trước cửa nhà tôi"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Mẹ anh ta bảo tôi là con gái, tôi gọi bảo vệ"
+    }
+  ],
+  "thumbText": "Nhân tình ngồi|*ghế phụ* xe tôi|tôi tát ngay",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

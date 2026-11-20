@@ -1,0 +1,113 @@
+{
+  "title": "Đòi ly hôn xong cùng chồng rơi xuống hồ bơi, tôi tỉnh dậy trong thân xác anh ấy",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Câu ly hôn bên hồ bơi"
+    },
+    {
+      "title": "Tôi là anh, anh là tôi"
+    },
+    {
+      "title": "Bữa sáng lúc bảy giờ"
+    },
+    {
+      "title": "Cái tát qua màn hình"
+    },
+    {
+      "title": "Ông cậu đầu hói"
+    },
+    {
+      "title": "Người một nhà, sao phải tính toán"
+    },
+    {
+      "title": "Bữa cơm tiễn khách"
+    },
+    {
+      "title": "Nồi canh gà xin lỗi"
+    },
+    {
+      "title": "Con do ba sinh"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Vừa đòi ly hôn xong, tôi rơi xuống hồ bơi và tỉnh dậy trong thân xác chồng"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Tôi là anh, anh là tôi: ba điều dặn trước khi đổi chỗ"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Bữa sáng lúc bảy giờ, người ở trong thân tôi bị mẹ chồng sai như người ở"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Cú tát tôi chỉ xem qua màn hình mà má vẫn rát"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Cậu họ của trà xanh đầu hói bị sa thải trước cả phòng họp"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Tôi trả cho chồng đúng câu anh từng nói: người một nhà, sao phải tính toán"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Bữa cơm tiễn khách và lời đòi chuộc lỗi của chồng"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Gì cũng được, trừ chuyện này"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Chồng tôi sinh con gái, còn tôi nhận về nửa công ty"
+    }
+  ],
+  "thumbText": "Ly hôn xong|tôi thành *chồng*|chồng thành tôi",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

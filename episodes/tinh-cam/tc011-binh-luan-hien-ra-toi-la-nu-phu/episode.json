@@ -1,0 +1,133 @@
+{
+  "title": "Trước mắt tôi hiện chữ: nữ phụ sắp sảy thai, bị chồng đuổi nhường chỗ nữ chính",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Hàng chữ bay ngang mắt"
+    },
+    {
+      "title": "Bác sĩ Doãn"
+    },
+    {
+      "title": "Giả vờ ngủ"
+    },
+    {
+      "title": "Con của anh hay của hắn"
+    },
+    {
+      "title": "Dự án Ngân Sơn"
+    },
+    {
+      "title": "Bàn tay vàng"
+    },
+    {
+      "title": "Bữa cơm với Vu Khiêm"
+    },
+    {
+      "title": "Câu hỏi tám mươi phần trăm"
+    },
+    {
+      "title": "Người cũ trong cơn mưa"
+    },
+    {
+      "title": "Chiếc bánh trứng caramel"
+    },
+    {
+      "title": "Phần anh chưa kể"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Hàng chữ báo: nữ phụ sắp sảy thai, bị chồng đuổi"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Tôi biết mình có thai, và gặp lại người cũ ở khoa sản"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Tôi giấu chồng suốt mười ngày, anh đã biết hết"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Anh hỏi: con của anh hay của hắn? Ly hôn, đừng hòng"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Tôi lao vào phòng bố để cứu công ty trước khi bị phá sản"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Tôi tìm ra bàn tay vàng: nhịp tim của chồng"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Bạn chồng kể: cả phòng cược mình cưới được ba tháng"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Hội đồng hỏi: bên kia rẻ hơn hai mươi phần trăm, sao chọn cô"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Vì sao tôi chia tay người cũ bằng những lời độc nhất"
+    },
+    {
+      "chapters": [
+        10,
+        10
+      ],
+      "hook": "Nữ chính chặn tôi trong nhà vệ sinh: đứa bé này không có trong kịch bản"
+    },
+    {
+      "chapters": [
+        11,
+        11
+      ],
+      "hook": "Chồng suýt phá hôn sự này ngay lần gặp đầu tiên"
+    }
+  ],
+  "thumbText": "Chữ lạ báo tôi|*sắp sảy thai*|bị chồng đuổi|nhường nữ chính",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

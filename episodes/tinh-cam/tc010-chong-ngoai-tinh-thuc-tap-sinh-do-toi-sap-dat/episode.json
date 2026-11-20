@@ -1,0 +1,123 @@
+{
+  "title": "Chồng tăng ca, tôi thấy anh ôm thực tập sinh vào căn hộ đứng tên tôi",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Tăng ca dưới mưa"
+    },
+    {
+      "title": "Sợi tóc nâu và người tên Mỉm Cười"
+    },
+    {
+      "title": "Tiệc cuối năm và người chú họ"
+    },
+    {
+      "title": "Chuyến công tác Hải Thành không có thật"
+    },
+    {
+      "title": "Mười hai tờ hóa đơn"
+    },
+    {
+      "title": "Người tôi đặt vào đời anh ta"
+    },
+    {
+      "title": "Lần quỳ thứ hai"
+    },
+    {
+      "title": "Chiếc váy hồng"
+    },
+    {
+      "title": "Màn hình lớn ngày kỷ niệm"
+    },
+    {
+      "title": "Ăn kem không, tôi mời"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Chồng nói tăng ca, tôi thấy anh ta che ô cho một cô gái"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Đếm số lần chồng bước ra ban công là biết anh ta nói dối"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Cô thực tập sinh nhìn chiếc nhẫn của tôi bằng nụ cười đo giá"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Tôi nói đi công tác Hải Thành, thực ra chỉ đi hai trạm tàu điện"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Mười hai hóa đơn dưới ngưỡng duyệt trong máy tính bảng của chồng"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Người đặt cô ta vào đời chồng tôi chính là tôi"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Chồng quỳ lần hai, đọc đúng kịch bản của ba năm trước"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Tôi tặng nhân tình của chồng chiếc váy hồng đến tiệc cưới"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Cả hội trường nhìn chồng tôi hôn người khác trên màn hình lớn"
+    },
+    {
+      "chapters": [
+        10,
+        10
+      ],
+      "hook": "Một tuần sau tiệc, tôi đến thăm chồng qua tấm kính"
+    }
+  ],
+  "thumbText": "Chồng tăng ca|tôi thấy anh ôm|*thực tập sinh*|vào nhà tôi",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}
