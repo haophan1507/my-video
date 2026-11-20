@@ -1,17 +1,29 @@
 # tc006. Cả nhà ta trọng nam khinh nữ, nhưng ta sinh ra đã khác người
 
-- **Thể loại**: gia đình trọng nam khinh nữ / báo thù đen tối, nhân vật chính lạnh lùng
-- **Nguồn**: Zhihu, truyện ngôi một có chữ "（全文完）" ở cuối. Đã đọc toàn văn. Bản gốc dùng thuật ngữ y khoa "超雄"; ở đây dịch thành "bẩm sinh hung dữ, khác người" để tránh gán nhãn.
-- **Văn phong**: theo `references/van-phong.md`. Bối cảnh nông thôn Trung Quốc, tiền tệ là tệ, tên Hán Việt **mới**, người kể xưng "tôi", câu ngắn, tiếng động một chữ.
-- **Nhân vật (4 tên)**: Khâu Lai Đệ (tôi), Khâu Bảo Quý (anh trai), lão Đoàn (người mua), cùng ông, bà, bố, mẹ gọi theo vai.
-- **Điểm chấm (tự đánh giá)**: hook 5 / twist 4 / độ dài 4 / dễ nghe 4 / hợp gu khán giả Việt 4 (gia đình trọng nam khinh nữ, đòi nợ) = 21/25
-- **Cảnh báo nội dung**: bạo lực gia đình, thao túng trẻ em, cháy nhà, chết người. Nếu đăng, cân nhắc quy định nền tảng và làm nhẹ cảnh cháy.
-- **Tiêu đề gợi ý**: `[Truyện Audio] Cả nhà trọng nam khinh nữ, tôi là đứa bị bỏ đói, nhưng đến cuối cùng ai đã chôn ai | <Tên kênh>`
-- **Phần TikTok gợi ý**: Phần 1 = ch.1–3, Phần 2 = ch.4–6, Phần 3 = ch.7–9.
+- **Thể loại**: Gia đình trọng nam khinh nữ, báo thù đen tối, nhân vật chính lạnh lùng; tự lập
+- **Nguồn**: Zhihu, truyện ngôi một có chữ "（全文完）" ở cuối. Bản gốc dùng thuật ngữ y khoa "超雄"; bản dịch dùng 'bẩm sinh hung dữ, khác người' để tránh gán nhãn. Link: chưa ghi. Lấy qua Chrome 2026-11-19, lô L01.
+- **Dạng lưu**: bản dịch sát tiếng Việt, đã chia chương (chưa viết theo văn phong kênh). Bối cảnh nông thôn, tiền là tệ, tên Hán Việt mới, xưng 'tôi', câu ngắn, tiếng động một chữ.
+- **Độ dài bản dịch**: 3.192 chữ ≈ 18 phút (180 chữ/phút).
+- **Nhân vật (tên Hán Việt mới)**: Khâu Lai Đệ (tôi); Khâu Bảo Quý (anh trai); lão Đoàn (người mua); ông, bà, bố, mẹ gọi theo vai.
+- **Điểm chấm (tự đánh giá)**: hook 5 / twist 4 / độ dài 4 / dễ nghe 4 / hợp gu 4 = 21/25.
+- **Hook gợi ý**: Cả nhà tôi đều trọng nam khinh nữ. Nhưng tôi sinh ra đã khác người.
+- **Cần làm ở bước 2**: Viết dày; làm nhẹ cảnh nặng (cháy nhà, chết người); viết lại hook mở. Bạo lực gia đình, thao túng trẻ em: cân nhắc quy định nền tảng. Lệch nhất so với thể loại tc. Tiêu đề gợi ý (bản cũ): '[Truyện Audio] Cả nhà trọng nam khinh nữ, tôi là đứa bị bỏ đói, nhưng đến cuối cùng ai đã chôn ai'. Chia TikTok (bản cũ): ch.1–3 / 4–6 / 7–9.
+
+## Khung truyện
+
+1. Trạm y tế nói mẹ mang thai con trai, sinh ra là gái; cả nhà ghét bỏ, bỏ đói tôi, coi như đồ lỗ vốn.
+2. Tôi xúi anh trai giành đồ, gieo hiềm khích giữa ông bà, cha mẹ và đứa cháu cưng.
+3. Anh trai đốt nhà tranh; cả nhà dọn vào chuồng trâu; ông bà đánh nhau, bà thành điên; nhờ anh trai làm ầm mà vụ bán tôi cho lão Đoàn hỏng.
+4. Bố thua bạc, lại định bán tôi; tôi đã tìm gặp lão Đoàn từ trước; một đám cháy thiêu sạch mọi thứ, tôi rời làng.
+5. Lên huyện làm tạp vụ quán ăn, học chữ, học buôn bán; ba năm sau có tiền riêng, lần đầu tiên được sống yên.
+
+**Kết**: Đen tối nhưng giải thoát; câu hỏi chia phe.
 
 ---
 
-## Chương 1
+## Bản dịch sát (tiếng Việt)
+
+### Chương 1
 
 Cả nhà tôi đều trọng nam khinh nữ. Nhưng tôi sinh ra đã khác người.
 
@@ -33,7 +45,7 @@ Mẹ tôi là bố tôi bỏ năm trăm tệ mua về, vì người vợ trướ
 
 Thế là trong hoàn cảnh ấy, tôi chỉ nhờ mạng cứng mà sống sót. Tay không tấc sắt, tôi chỉ biết nhẫn nhịn.
 
-## Chương 2
+### Chương 2
 
 Tôi càng lớn càng không chịu nổi chuyện cả nhà đối xử với tôi và Bảo Quý khác nhau một trời một vực. Tại sao nó được ăn đùi gà còn tôi đến bát canh cũng không được uống?
 
@@ -59,7 +71,7 @@ Lúc bà rửa bát, tôi sán đến bên cạnh nịnh bợ, vừa nói lời 
 
 Tôi biết cả nhà này chỉ thương mỗi Bảo Quý. Chỉ cần nắm được nó, tôi xoay cả nhà thế nào cũng được.
 
-## Chương 3
+### Chương 3
 
 Đợi bà khóc lóc về phòng, tôi lại sán đến bên Bảo Quý, làm bộ thân thiết hơn ai hết.
 
@@ -85,7 +97,7 @@ Tôi cúi đầu, che khóe môi đang cười. Mới chỉ bắt đầu thôi.
 
 Họ chẳng thích nuôi tôi như chó sao? Chẳng muốn bán tôi cho ông già độc thân sao? Chẳng nghĩ con gái là đồ lỗ vốn sao? Tôi sẽ để từng người từ từ nếm thử, thế nào là muốn chết không được, muốn sống không xong. Gốc rễ nhà này đã mục nát. Vậy để tôi tự tay chôn tất cả.
 
-## Chương 4
+### Chương 4
 
 Nhà tranh cháy thành than đen. Chút đồ ít ỏi cũng thành tro. Ông run người vì giận, vớ gậy đánh Bảo Quý. Đứa cháu cưng ngày nào bỗng thành tội đồ phá nhà, khóc xé ruột. Bà ngồi trong đống tro đập đùi gào khóc, chửi ông ra tay độc, chửi cháu không hiểu chuyện, chửi mẹ tôi đẻ không ra giống tốt. Duy nhất không ai dám hỏi, đám cháy này tự nhiên bùng lên kiểu gì.
 
@@ -109,7 +121,7 @@ Câu này chọc trúng bản tính hèn của nó. Nó sợ nhất bị ngườ
 
 Muốn bán tôi? Hỏi thằng cháu cưng của bà có đồng ý không đã.
 
-## Chương 5
+### Chương 5
 
 Mất nhà, cả nhà phải chen chúc trong chuồng trâu bỏ hoang của làng. Vừa hôi vừa lạnh. Mâu thuẫn ông bà ngày càng lớn. Bà luôn nhớ mối thù ông giật hoa tai vàng, ngày nào cũng cạnh khóe. Ông vốn nóng tính, ba câu là ra tay. Trong chuồng trâu ngày nào cũng vang tiếng đánh chửi và khóc than.
 
@@ -127,7 +139,7 @@ Tôi đứng ở cửa, lặng lẽ nhìn, nhặt mấy mảnh tiền vụn trê
 
 Bà vỡ đầu không có tiền chữa, thành điên, lúc khóc lúc cười, gặp ai cũng nói về đôi hoa tai vàng, nói đứa cháu ngoan muốn giết bà. Ông tức đến ngã bệnh không dậy nổi, nằm trên đống rơm trong chuồng trâu, đến ngụm nước cũng không có. Bố thấy nhà chẳng còn ra nhà, phó mặc cho số phận, ngày ngày đi đánh bạc, thua thì về đánh mẹ, đánh Bảo Quý. Bảo Quý không còn ai chiều, vừa ngốc vừa lười, thành trò cười của làng, đến trẻ con cũng dám bắt nạt.
 
-## Chương 6
+### Chương 6
 
 Cuối cùng một hôm, bố thua một món lớn, bị chủ nợ chặn ở đầu làng, dọa đánh gãy chân. Cùng đường, ông lại nhớ tới lão Đoàn, lại nảy ý bán tôi.
 
@@ -147,7 +159,7 @@ Lửa bùng lên, thiêu sạch mọi bẩn thỉu, đau đớn, tội lỗi. T�
 
 Họ bảo tôi là đồ lỗ vốn, là phận con gái, là thừa thãi. Nhưng họ không biết tôi mạng cứng, lòng dạ độc, sinh ra đã là để đòi nợ. Nợ trọng nam khinh nữ. Nợ thiên vị. Nợ nuôi người như nuôi chó. Tôi đòi từng khoản, cả gốc lẫn lãi.
 
-## Chương 7
+### Chương 7
 
 Tôi đi dọc con đường đất ngoài làng, đôi dép vải rách mài ra mụn máu cũng không dám dừng. Trời hửng sáng, tôi bắt kịp một chiếc máy cày đi lên huyện. Người lái, một ông chú, thấy một đứa con gái lẻ loi cũng không hỏi nhiều, chỉ bảo tôi ngồi trong thùng xe, đừng để gió thổi.
 
@@ -161,7 +173,7 @@ Tôi xin làm tạp vụ ở một quán ăn. Bà chủ là một dì tốt bụ
 
 Tôi hiểu, muốn đứng vững, không để ai coi là "đồ lỗ vốn" mà nắm thóp nữa, thì phải biết chữ, hiểu lý lẽ, nắm một cái nghề đủ để tự lập. Bảo Quý bị bán làm lao động nặng, cả đời chỉ sống trong bùn. Tôi thì khác. Tôi phải từ bùn bò vào ánh sáng.
 
-## Chương 8
+### Chương 8
 
 Ba năm trôi qua trong chớp mắt. Từ tạp vụ, tôi lên làm thu ngân, rồi theo dì học buôn bán, giúp dì coi sổ sách và nhập hàng cho cửa hàng nhỏ. Tôi dành được món tiền đầu tiên của riêng mình, cũng biết hết các chữ thông dụng, đọc sách báo trôi chảy, thậm chí tính rõ từng khoản sổ phức tạp.
 
@@ -177,7 +189,7 @@ Không còn đánh chửi. Không còn tính toán. Không còn nỗi sợ bất
 
 Tôi đứng ban công, nhìn xe cộ dưới đường, gió chiều thổi qua má, cuối cùng khẽ cười. Đó là lần đầu trong mười mấy năm tôi cười từ tận đáy lòng.
 
-## Chương 9
+### Chương 9
 
 Từng có người bảo tôi bẩm sinh hung dữ, là dị loại, là điềm xấu. Bảo con gái thì định sẵn thấp kém, chỉ để đổi sính lễ, làm gánh nặng. Nhưng tôi cố chống lại số trời. Tôi không dựa vào đàn ông, không dựa vào gia đình, không dựa vào lòng thương hại của ai. Chỉ bằng đôi tay và một trái tim, tôi bò ra khỏi địa ngục.
 

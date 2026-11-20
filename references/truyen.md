@@ -26,11 +26,11 @@ Mỗi mục 1–5, **dưới 15/25 thì bỏ**:
 |---|---|
 | Hook | 30 giây đầu có xung đột, bất công hoặc câu hỏi đủ mạnh |
 | Twist | Có ít nhất một cú đảo ngược khiến muốn nghe hết |
-| Độ dài | Đủ cho 35–60 phút (≥ 5 điểm ngoặt), hoặc ghép được 2–3 truyện cùng chủ đề. Truyện 10–15 phút đứng riêng thì thấp |
+| Độ dài | Đủ cho 25–60 phút (≥ 5 điểm ngoặt). Base dưới 15 phút thì không nhận vào kho, trừ khi gộp liền mạch được với truyện khác thành một mạch |
 | Dễ nghe | ≤ 5 nhân vật, tên phân biệt rõ khi nghe, không cần hình để hiểu |
 | Hợp gu | Motif quen với người nghe ngôn tình Việt (hào môn, trà xanh, trọng sinh, thiên kim); không cần giải thích phong tục |
 
-Nguồn nguyên liệu khi kho hết: bảng xếp hạng truyện ngắn Trung Quốc (Fanqie, Qimao, Zhihu), tình huống đời thật trên Reddit (chuyển sang bối cảnh Trung Quốc), hoặc LLM viết theo khung. Từ khóa tìm: 短篇小说, 重生, 复仇, 打脸, 闺蜜背叛, 先婚后爱, 隐藏身份, 完结, kèm 热榜.
+Nguồn nguyên liệu khi kho hết: bảng xếp hạng truyện ngắn Trung Quốc (Fanqie, Qimao, Zhihu), tình huống đời thật trên Reddit (chuyển sang bối cảnh Trung Quốc), hoặc LLM viết theo khung. Kiểm chứng qua Chrome 2026-11-20: Zhihu (câu trả lời, chuyên mục miễn phí) đọc được toàn văn; Fanqie mã hóa font nên mất chữ; bài WeChat (tìm qua Sogou) và Douban Đọc chủ yếu là đoạn mồi dẫn sang trang trả phí; Reddit bị Chrome chặn; Tấn Giang chỉ có truyện dài. Trên Zhihu, bỏ bài có đuôi "后续 / 盐选 / 点击阅读" (phần kết nằm ở trang trả phí). Đa dạng nguồn bằng cách lấy nhiều tác giả, nhiều câu hỏi khác nhau. Từ khóa tìm: 短篇小说, 重生, 复仇, 打脸, 闺蜜背叛, 先婚后爱, 隐藏身份, 完结, kèm 热榜.
 
 ## 3. Biến đổi thành truyện của kênh
 
@@ -39,7 +39,7 @@ Nguồn nguyên liệu khi kho hết: bảng xếp hạng truyện ngắn Trung 
 1. Rút **khung** từ bản gốc: nhân vật chính muốn gì, cản trở là gì, 3–5 điểm ngoặt, kết.
 2. Đặt **tên Hán Việt mới** (`van-phong.md` mục 2).
 3. Chia khung thành **vòng vả mặt**, mỗi vòng một chương (`van-phong.md` mục 4). Thêm một nhân vật phụ hóng hớt nếu bản gốc chưa có.
-4. **Đủ độ dài**: viết dày, thêm vòng vả mặt mới, hoặc ghép truyện cùng chủ đề. Ghi cách đã chọn vào `tap.md`.
+4. **Đủ độ dài**: viết dày hoặc thêm vòng vả mặt mới ngay trong truyện. Chỉ gộp với truyện khác khi thành một mạch liền (cùng nhân vật, nửa sau nối tiếp nửa trước); không cắm truyện này vào truyện kia. Ghi cách đã chọn vào `tap.md`.
 5. Đổi trình tự vài cảnh, cách mở và kết; thêm một twist riêng nếu được. Khi dùng LLM, đưa **khung và bảng tên**, không đưa văn bản gốc, để ra truyện mới chứ không phải bản dịch.
 
 ## 4. Hook, nhịp, cliffhanger
@@ -78,7 +78,7 @@ Câu đầu tránh: lời chào, giới thiệu kênh, giải thích bối cản
 Viết bằng LLM theo hai bước, vì một lần viết 8.000 chữ thường đuối ở nửa sau. Bước này lập dàn ý; bước viết chương ở `van-phong.md` mục 6.
 
 ```
-Lập dàn ý truyện audio ngôi thứ nhất, giọng nữ tâm sự, tổng ~[số] phút (≈[số] chữ), [8–12] chương, mỗi chương 4–6 phút.
+Lập dàn ý truyện audio ngôi thứ nhất, giọng nữ tâm sự, tổng ~[số] phút (≈[số] chữ), [6–12] chương, mỗi chương 4–6 phút.
 Bối cảnh: Trung Quốc [hiện đại/cổ đại], [thành phố, gia tộc]. Tên người, địa danh, chức danh theo âm Hán Việt; tiền là tệ.
 Nhân vật (mỗi người một họ, một âm đầu): [bảng tên].
 Khung: [muốn gì / cản trở / ngoặt 1-2-3 / kết].

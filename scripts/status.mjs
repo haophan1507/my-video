@@ -15,7 +15,7 @@ const mtime = (f) => { try { return fs.statSync(f).mtimeMs; } catch { return 0; 
 const words = (s) => (s.match(/[\p{L}\p{N}]+/gu) ?? []).length;
 const vi = (n) => n.toLocaleString('vi-VN');
 
-const CHAPTERS = [8, 12];      // số chương
+const CHAPTERS = [6, 12];      // số chương
 const WORDS = [700, 1100];     // chữ mỗi chương
 const MIN_CLIPS = 4;      // clip nền từ 5 phút nên cần ít clip
 const MIN_CLIP_SEC = 300;

@@ -1,17 +1,29 @@
 # tc005. Bạn thân cướp người yêu ngay ngày sinh nhật, người đứng sau cánh cửa là cha nuôi của cô ta
 
-- **Thể loại**: bạn thân phản bội / ngọt sủng nhẹ (hả hê êm)
-- **Nguồn**: Zhihu, truyện ngôi một có chữ "完" ở cuối. Đã đọc toàn văn.
-- **Văn phong**: theo `references/van-phong.md`. Bối cảnh Trung Quốc (Hải Thành), tên Hán Việt **mới**, ba lớp giọng kể, câu ngắn cho tai, kết chương bằng chiêu tiếp theo.
-- **Nhân vật (5 tên)**: Ôn Lạc (tôi), Giang Thần (người yêu cũ), Bạch Linh (bạn thân phản bội), Hạ Trầm (cha nuôi của Linh), Chu Dĩnh (bạn chung, vai hóng hớt).
-- **Điểm chấm (tự đánh giá)**: hook 5 / twist 3 / độ dài 3 / dễ nghe 5 / hợp gu khán giả Việt 5 (trà xanh, bạn thân phản bội) = 21/25
-- **Lưu ý**: có chi tiết "cha nuôi của bạn". Nhân vật chính và Hạ Trầm chênh lệch tuổi, nên giữ nguyên chi tiết chú chỉ đưa lựa chọn, không thổ lộ.
-- **Tiêu đề gợi ý**: `[Truyện Audio] Sinh nhật hai mươi hai tuổi, tôi bắt gặp bạn thân hôn người yêu mình trong kho | <Tên kênh>`
-- **Phần TikTok gợi ý**: Phần 1 = ch.1 (hook), Phần 2 = ch.2–3, Phần 3 = ch.4–5.
+- **Thể loại**: Bạn thân/trà xanh cướp người yêu ngày sinh nhật; người lớn chín chắn (cha nuôi của bạn) đứng ra; hả hê êm
+- **Nguồn**: Zhihu, truyện ngôi một có chữ "完" ở cuối. Link: chưa ghi. Lấy qua Chrome 2026-11-19, lô L01.
+- **Dạng lưu**: bản dịch sát tiếng Việt, đã chia chương (chưa viết theo văn phong kênh). Bối cảnh Hải Thành, tên Hán Việt mới, ba lớp giọng kể, câu ngắn cho tai, kết chương bằng chiêu tiếp theo.
+- **Độ dài bản dịch**: 2.407 chữ ≈ 13 phút (180 chữ/phút).
+- **Nhân vật (tên Hán Việt mới)**: Ôn Lạc (tôi); Giang Thần (người yêu cũ); Bạch Linh (bạn thân phản bội); Hạ Trầm (cha nuôi của Bạch Linh); Chu Dĩnh (bạn chung, vai hóng hớt).
+- **Điểm chấm (tự đánh giá)**: hook 5 / twist 3 / độ dài 3 / dễ nghe 5 / hợp gu 5 = 21/25.
+- **Hook gợi ý**: Ngày sinh nhật hai mươi hai tuổi, tôi mở cửa kho và thấy bạn thân đang hôn người yêu mình.
+- **Cần làm ở bước 2**: Đang làm tập (bước 3). Base ngắn (~13 phút, dưới chuẩn 15 phút); đã xử lý trong dàn ý tập: viết dày + 4 vòng mới, 9 chương ~39 phút. Chi tiết 'cha nuôi của bạn': nhân vật chính và Hạ Trầm chênh tuổi, giữ ở mức chú chỉ đưa lựa chọn, không thổ lộ. Có dòng 'Lưu ý' trong thân truyện, không đưa vào chNN.tts.txt. Tiêu đề gợi ý (bản cũ): '[Truyện Audio] Sinh nhật hai mươi hai tuổi, tôi bắt gặp bạn thân hôn người yêu mình trong kho'. Chia TikTok (bản cũ): ch.1 / 2–3 / 4–5.
+
+## Khung truyện
+
+1. Tiệc sinh nhật: tôi bắt gặp Bạch Linh và Giang Thần trong kho; tôi không cãi, bỏ đi; ở góc hành lang Hạ Trầm đã nghe hết.
+2. Hạ Trầm hỏi 'thế là bỏ qua à?'; tôi suy nghĩ hai ngày, nhận ra tình yêu và tình bạn đã mục từ lâu.
+3. Tôi hẹn Hạ Trầm nói chuyện; chú thẳng thắn với Bạch Linh: 'chú nuôi con để giữ lời hứa với bố mẹ con, không phải để con giành giật làm tổn thương người khác'.
+4. Bạch Linh và Giang Thần nghi kỵ, cãi nhau liên miên; Linh cầu cứu, Hạ Trầm từ chối che chắn.
+5. Nửa năm sau ở tiệc giao lưu, hai người vẫn trách móc nhau; tôi bình thản đi tiếp.
+
+**Kết**: Hả hê êm.
 
 ---
 
-## Chương 1
+## Bản dịch sát (tiếng Việt)
+
+### Chương 1
 
 Ngày sinh nhật hai mươi hai tuổi, tôi mở cửa kho và thấy cả thế giới mình sụp đổ.
 
@@ -43,7 +55,7 @@ Tôi quay đi, không cãi vã, không chất vấn, đi thẳng ra khỏi kho. 
 
 Là Hạ Trầm.
 
-## Chương 2
+### Chương 2
 
 Chắc chú đã đứng đó một lúc, nghe được gần hết lời thoại trong kho. Bộ vest sẫm màu làm vai chú thêm gọn gàng. Đôi mắt sâu đặt lên người tôi, bắt trọn nỗi chua xót tôi đang cố nén.
 
@@ -71,7 +83,7 @@ Tôi im lặng hai ngày, nghĩ lại mãi lời Hạ Trầm. Sự dao động c
 
 Tôi do dự rất lâu, rồi chủ động nhắn cho chú, hẹn một quán cà phê kín đáo.
 
-## Chương 3
+### Chương 3
 
 Nắng chiều lọt qua cửa kính rơi trên mặt bàn. Hạ Trầm ngồi đối diện, đầu ngón tay khẽ xoay thành ly.
 
@@ -97,7 +109,7 @@ Tôi nói rất rõ, từng chữ một. "Bạch Linh, thứ nhất, tôi và ch
 
 Điều Bạch Linh sợ nhất là Hạ Trầm rút lại sự nâng đỡ. Bao năm nay học phí, đồ xa xỉ, các mối quan hệ của cô đều dựa cả vào chú. Cô không dám đối đầu với chú, cơn giận không có chỗ xả, đành quay sang cãi nhau với Giang Thần.
 
-## Chương 4
+### Chương 4
 
 Hết mới mẻ, những nghi kỵ giữa hai người bùng nổ hoàn toàn. Bạch Linh luôn nghi Giang Thần còn nhớ tôi, chuyện nhỏ cũng chất vấn đến cuồng loạn. Giang Thần dần chán tính nhạy cảm cố chấp của Linh, hối hận vì bồng bột phản bội tôi. Hai người ba ngày một trận cãi nhau, vẻ ngọt ngào giả tạo nhanh chóng tan vỡ.
 
@@ -119,7 +131,7 @@ Hạ Trầm lạnh nhạt từ chối. "Làm sai thì phải gánh hậu quả. 
 
 Những người bạn từng vây quanh Linh lần lượt xa lánh. Tính toán đủ đường, cuối cùng công dã tràng.
 
-## Chương 5
+### Chương 5
 
 Nửa năm sau, trong một bữa tiệc giao lưu ngành, tôi và Hạ Trầm cùng tham dự, từ xa thấy Bạch Linh và Giang Thần. Hai người tình cờ gặp lại, vẫn trách móc nhau, oán khí ngập tràn. Thứ tình cảm cướp được bằng phản bội, nền móng vốn đã mục ruỗng, định sẵn không thể bền lâu.
 

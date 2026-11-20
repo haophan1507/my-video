@@ -1,16 +1,29 @@
 # tc001. Ta ngoại tình với người nói lời ngọt, rồi mất người chồng ít nói nhất thế gian
 
-- **Thể loại**: hôn nhân / ngoại tình (người có lỗi tự kể, hối hận). Kết buồn.
-- **Nguồn**: Zhihu, câu trả lời có chữ "（完）" ở cuối, ngôi một. Đã đọc toàn văn.
-- **Văn phong**: theo `references/van-phong.md`. Bối cảnh Hàng Châu, tiền là tệ, tên Hán Việt **mới**. Giọng "tôi" tự giễu và ăn năn thay cho giọng hả hê; các lớp giọng kể vẫn giữ: chi tiết cụ thể, nội tâm châm biếm, phản ứng của người ngoài.
-- **Nhân vật (5 tên)**: Tô Mạn (tôi), Giang Hạo (chồng), Lục Thừa (người thứ ba), luật sư Hoắc, Tô mẫu (mẹ tôi).
-- **Điểm chấm (tự đánh giá)**: hook 4 / twist 3 / độ dài 3 / dễ nghe 5 / hợp gu khán giả Việt 5 (ngoại tình, ly hôn) = 20/25. Kết bài học nên khác nhịp "hả hê", hợp tập nghe ngẫm.
-- **Tiêu đề gợi ý**: `[Truyện Audio] Tôi ngoại tình đúng ba tháng, chồng không hề to tiếng, chỉ nói một câu: ly hôn đi | <Tên kênh>`
-- **Phần TikTok gợi ý**: Phần 1 = ch.1–2, Phần 2 = ch.3–4, Phần 3 = ch.5–6.
+- **Thể loại**: Hôn nhân, ngoại tình; người có lỗi tự kể và hối hận; chồng ít nói, ly hôn lạnh
+- **Nguồn**: Zhihu, câu trả lời có chữ "（完）" ở cuối, ngôi một. Link: chưa ghi. Lấy qua Chrome 2026-11-19, lô L01.
+- **Dạng lưu**: bản dịch sát tiếng Việt, đã chia chương (chưa viết theo văn phong kênh). Bối cảnh Hàng Châu, tiền là tệ, tên Hán Việt mới. Giọng 'tôi' tự giễu và ăn năn thay cho giọng hả hê; giữ chi tiết cụ thể, nội tâm châm biếm, phản ứng người ngoài.
+- **Độ dài bản dịch**: 3.268 chữ ≈ 18 phút (180 chữ/phút).
+- **Nhân vật (tên Hán Việt mới)**: Tô Mạn (tôi, giám đốc kinh doanh); Giang Hạo (chồng, giám đốc kỹ thuật); Lục Thừa (người thứ ba, giám đốc thiết kế); luật sư Hoắc; Tô mẫu (mẹ tôi).
+- **Điểm chấm (tự đánh giá)**: hook 4 / twist 3 / độ dài 3 / dễ nghe 5 / hợp gu 5 = 20/25.
+- **Hook gợi ý**: Hôm chồng tôi nói 'ly hôn đi', anh không hề to tiếng. Điều đó đáng sợ hơn mọi cú đánh.
+- **Cần làm ở bước 2**: Ngắn (~18 phút): viết dày lên ~30–35 phút ngay trong truyện (thêm cảnh Lục Thừa bỏ rơi, cảnh mẹ tôi, cảnh gặp lại chồng). Kết buồn, hợp tập 'ngẫm'. Tiêu đề gợi ý (bản cũ): '[Truyện Audio] Tôi ngoại tình đúng ba tháng, chồng không hề to tiếng, chỉ nói một câu: ly hôn đi'. Chia TikTok (bản cũ): ch.1–2 / 3–4 / 5–6.
+
+## Khung truyện
+
+1. Năm năm cưới, chồng thu nhập cao, đáng tin nhưng ít nói, sống như cỗ máy; tôi thấy mình chỉ là một chi tiết nhỏ.
+2. Lục Thừa xuất hiện, ngọt ngào, chặn tôi ở phòng pha trà; tôi sa vào, tự nhủ chỉ bồng bột, sẽ không rời chồng.
+3. Ba tháng sau chồng phát hiện; không gào thét, không hỏi người kia là ai, chỉ nói 'Tô Mạn, mình ly hôn đi'.
+4. Tôi sụp đổ vì sợ mất nhà, xe, hình ảnh hạnh phúc; chồng thuê luật sư Hoắc ngay hôm sau; Lục Thừa chỉ nhắn một câu hời hợt rồi biến mất.
+5. Một tuần sau tôi về nhà dọn đồ lần cuối, nhà đã rao bán; gặp lại chồng và hiểu mình đã mất gì.
+
+**Kết**: Buồn, bài học; câu hỏi chia phe 'bạn có tha thứ cho cô ấy không?'.
 
 ---
 
-## Chương 1
+## Bản dịch sát (tiếng Việt)
+
+### Chương 1
 
 Hôm chồng tôi nói "ly hôn đi", anh không hề to tiếng. Điều đó đáng sợ hơn mọi cú đánh.
 
@@ -40,7 +53,7 @@ Anh như một cỗ máy chạy chính xác. Còn tôi, chỉ là một chi ti�
 
 Rồi Lục Thừa xuất hiện.
 
-## Chương 2
+### Chương 2
 
 Lục Thừa là giám đốc thiết kế mới của công ty tôi, ba mươi tuổi, chưa vợ, nhìn như diễn viên thời trẻ. Lần đầu gặp, anh ta chặn tôi ở phòng pha trà. "Chị là Tô Mạn đúng không? Tổng giám đốc kể chị là giám đốc kinh doanh giỏi nhất công ty."
 
@@ -60,7 +73,7 @@ Anh trả lời đúng một chữ: "Ừ."
 
 Anh thậm chí không hỏi thêm một câu.
 
-## Chương 3
+### Chương 3
 
 Ngoại tình giống như nghiện. Lần đầu thấy kích thích, lần hai thấy cuốn, lần ba thấy hiển nhiên.
 
@@ -96,7 +109,7 @@ Xem xong, anh đóng máy tính, quay lại nhìn tôi. Mắt anh đỏ, nhưng 
 
 Không gào thét, không chất vấn. Anh thậm chí không hỏi người đàn ông ấy là ai.
 
-## Chương 4
+### Chương 4
 
 Tôi sụp đổ. Nhưng không phải vì hối hận. Mà vì sợ.
 
@@ -130,7 +143,7 @@ Nhưng ngay trong khoảnh khắc ấy, trong đầu tôi vẫn không phải l�
 
 Nhưng tôi không nghĩ ra cách nào cả. Giang Hạo đã quyết thì chín con trâu cũng không kéo lại được.
 
-## Chương 5
+### Chương 5
 
 Hôm sau, anh đã thuê xong luật sư. Nhanh đến mức tôi nghi anh muốn ly hôn từ trước. Về sau tôi mới biết luật sư do trưởng phòng pháp chế công ty anh giới thiệu, chuyên về ly hôn.
 
@@ -174,7 +187,7 @@ Nhìn tin nhắn, tôi chợt thấy buồn nôn. Lúc tôi thảm hại nhất,
 
 Tôi xóa hết mọi liên lạc của Lục Thừa. Nhưng mọi thứ đã muộn.
 
-## Chương 6
+### Chương 6
 
 Bước ngoặt đến sau một tuần. Trợ lý của Giang Hạo bất ngờ liên lạc, bảo giám đốc Giang muốn tôi cuối tuần về nhà một chuyến thu dọn nốt đồ cá nhân. Nhà đã rao bán, tuần sau bàn giao.
 

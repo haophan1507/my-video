@@ -12,8 +12,8 @@ Mỗi truyện thành **một video dài khung ngang** cho YouTube và **nhiều
 | | YouTube (bản dài) | TikTok (theo chương) |
 |---|---|---|
 | Khung | Ngang 1920×1080, 30 fps, H.264; footage lệch tỉ lệ thì viền đen hai bên | Dọc 1080×1920, 30 fps, H.264 |
-| Độ dài | 35–60 phút ≈ 6.500–11.000 chữ (~180 chữ/phút) | Phần = 1–2 chương, 3–8 phút |
-| Cấu trúc | 8–12 chương, mỗi chương 700–1.100 chữ | Mở bằng hook chương, kết bằng cliffhanger |
+| Độ dài | 25–60 phút ≈ 4.500–11.000 chữ (~180 chữ/phút); truyện nguồn có base ≥ 15 phút | Phần = 1–2 chương, 3–8 phút |
+| Cấu trúc | 6–12 chương, mỗi chương 700–1.100 chữ | Mở bằng hook chương, kết bằng cliffhanger |
 | Chữ trên màn | Câu chào kênh bằng giọng, watermark logo; không thẻ chữ | Watermark logo, nhãn "Phần n/N"; không thẻ chữ |
 | Ảnh bìa | 1280×720 render từ Remotion: nền kem, logo + hook + nút Subscribe bên trái, ảnh nhân vật khung tròn bên phải (`dang-bai.md` mục 2) | 1080×1920 mỗi phần, cùng mẫu: logo, nút "PHẦN n/N", hook phần ở trên, ảnh tròn ở dưới (`dang-bai.md` mục 5) |
 
@@ -23,7 +23,7 @@ Số trong bảng này thắng số ở file khác.
 
 Khi người dùng nói "làm truyện số N", "tiếp tục tập X", "tập này còn thiếu gì":
 
-1. **Tìm tập** trong `stories/README.md` (mã truyện như `tc005`; chạy `node scripts/stories.mjs` để xem truyện nào chưa/đang/đã làm). Tập mới: tạo `episodes/<thể-loại>/<mã>-slug/` (cùng mã và slug với truyện nguồn; tập ghép nhiều truyện lấy truyện chính, ghi các truyện còn lại trong `tap.md`), chép `references/tap-mau.md` thành `tap.md` và `references/episode-mau.json` thành `episode.json` trong đó, thêm một dòng vào bảng Các tập. Không rõ truyện nào thì hỏi.
+1. **Tìm tập** trong `stories/README.md` (mã truyện như `tc005`; chạy `node scripts/stories.mjs` để xem truyện nào chưa/đang/đã làm). Tập mới: tạo `episodes/<thể-loại>/<mã>-slug/` (cùng mã và slug với truyện nguồn; truyện gộp từ nhiều nguồn đã là một file, một mã), chép `references/tap-mau.md` thành `tap.md` và `references/episode-mau.json` thành `episode.json` trong đó, thêm một dòng vào bảng Các tập. Không rõ truyện nào thì hỏi.
 2. **Tìm bước hiện tại**: chạy `node scripts/status.mjs <mã>` (tính từ file thật: số chương, số chữ, mốc sửa file), rồi đi qua bảng 8 bước, mở file đầu ra và so với cột "Xong khi" những chỗ script không đo được (không chỉ tin dấu tick). Bước đầu tiên chưa xong là bước hiện tại.
 3. **Báo cáo ngắn**: tập, truyện nguồn, bước hiện tại; đã có gì, thiếu gì (kèm đường dẫn); **Cần bạn quyết**: gom mọi quyết định còn trống của bước này, cộng giọng đọc và footage nếu chưa chốt (cần thời gian chuẩn bị). Mỗi mục một gợi ý mặc định kèm lý do một dòng.
 4. **Làm bước đó.** Chỉ dùng gợi ý mặc định khi người dùng đã đồng ý. Xong thì: ghi file đầu ra; trong `tap.md` tick tiến độ, ghi quyết định, thêm một dòng nhật ký; sửa cột "Bước" ở `stories/README.md`.
@@ -33,7 +33,7 @@ Khi người dùng nói "làm truyện số N", "tiếp tục tập X", "tập n
 | # | Bước | Đầu ra | Xong khi | Hỏi người dùng | Đọc |
 |---|---|---|---|---|---|
 | 1 | Chọn truyện | Mục Quyết định trong `tap.md` | Có truyện nguồn, thể loại, điểm ≥ 15/25 | Truyện nào | `truyen.md` 1–2 |
-| 2 | Dàn ý | `episodes/<thể-loại>/<mã>-*/outline.md` | 8–12 chương, mỗi chương có hook mở và cliffhanger; có bảng tên, chia phần TikTok, tổng chữ 6.500–11.000 | Duyệt dàn ý, tên, tiêu đề | `truyen.md` 3–5; `dang-bai.md` 1 |
+| 2 | Dàn ý | `episodes/<thể-loại>/<mã>-*/outline.md` | 6–12 chương, mỗi chương có hook mở và cliffhanger; có bảng tên, chia phần TikTok, tổng chữ 4.500–11.000 | Duyệt dàn ý, tên, tiêu đề | `truyen.md` 3–5; `dang-bai.md` 1 |
 | 3 | Viết chương | `chNN.tts.txt` (một file mỗi chương, viết sẵn dạng máy đọc được: số, tiền, viết tắt thành chữ) | Đủ chương, mỗi chương 700–1.100 chữ, qua bảng soát | Duyệt chương 1 trước khi viết tiếp | `van-phong.md` |
 | 4 | Soát TTS | Báo cáo của `normalize-vi.mjs` (sửa trực tiếp `chNN.tts.txt`) | Hết chữ số, ngoặc; đã xử lý tên ngoại, câu dài | — | `san-xuat.md` 1 |
 | 5 | Giọng đọc | `episodes/<thể-loại>/<mã>-*/audio/chNN.mp3` | Mỗi chương một file, cùng giọng và tốc độ; đã nghe thử chương 1 | Dịch vụ, giọng, tốc độ | `san-xuat.md` 2 |
@@ -42,7 +42,7 @@ Khi người dùng nói "làm truyện số N", "tiếp tục tập X", "tập n
 | 8 | Đăng | Mục Đăng trong `tap.md` | Có tiêu đề (chọn từ 5 phương án), ảnh bìa đã qua checklist, mô tả, caption từng phần, lịch | Tiêu đề cuối, mẫu bìa, lịch | `dang-bai.md` |
 
 - Bước 6 làm song song với 3–5 được.
-- Truyện trong kho là bản dịch sát, thường ngắn. Ở bước 2 phải gom thành 8–12 chương và chọn cách đủ độ dài: viết dày, thêm vòng vả mặt, hoặc ghép truyện.
+- Truyện trong kho có hai dạng: bản dịch sát (lô L01) hoặc khung tiếng Việt + nguyên văn tiếng Trung (từ lô L02). Mỗi truyện có base ≥ 15 phút. Ở bước 2 gom thành 6–12 chương và chỉnh độ dài: truyện ngắn thì viết dày hoặc thêm vòng ngay trong truyện; truyện dài thì cắt cảnh phụ. Không ghép hai truyện khác nhân vật vào một tập.
 
 ## Lệnh
 

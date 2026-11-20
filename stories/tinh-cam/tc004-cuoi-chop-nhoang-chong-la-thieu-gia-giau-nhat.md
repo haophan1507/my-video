@@ -1,17 +1,29 @@
 # tc004. Cưới chớp nhoáng với anh thợ sửa xe, hóa ra anh là thái tử tập đoàn giàu nhất Hải Thành
 
-- **Thể loại**: thân phận ẩn / cưới chớp nhoáng / vả mặt (hả hê ngọt)
-- **Nguồn**: Zhihu, truyện có chữ "（全文完）" ở cuối. Đã đọc toàn văn, bản dài nhất trong mười truyện.
-- **Văn phong**: theo `references/van-phong.md`. Bối cảnh Hải Thành, tiền là tệ và vạn tệ, tên Hán Việt **mới**. Nam chính được kể ngôi ba bằng "anh" (ấm), mẹ chồng xưng "ta", gọi nữ chính là "cô". Lớp châm biếm và phản ứng của bạn cùng phòng, người ngoài được giữ.
-- **Nhân vật (5 tên)**: Thẩm Chi (tôi), Dư Tử Hiên (bạn trai cũ), Bạch Nhã Lam (bạn thân phản bội), Phó Yến Châu (chồng), Phó phu nhân (mẹ chồng).
-- **Điểm chấm (tự đánh giá)**: hook 5 / twist 4 / độ dài 5 / dễ nghe 4 / hợp gu khán giả Việt 5 (thân phận ẩn, tổng tài, vả mặt) = 23/25. Một truyện đủ 35–40 phút nếu giữ trọn.
-- **Lưu ý chất lượng nội dung gốc**: nhiều chi tiết dễ dãi (bằng sáng chế, cổ phần). Nên giữ làm "ngọt sảng" nhẹ, tránh nhấn mạnh con số khi đọc audio.
-- **Tiêu đề gợi ý**: `[Truyện Audio] Bị bạn trai bỏ ngay cửa quán cà phê, tôi cưới luôn anh thợ sửa xe, sáng hôm sau anh lái xe hơn trăm vạn tệ | <Tên kênh>`
-- **Phần TikTok gợi ý**: Phần 1 = ch.1–3, Phần 2 = ch.4–6, Phần 3 = ch.7–9.
+- **Thể loại**: Thân phận ẩn, cưới chớp nhoáng, vả mặt bạn trai cũ và bạn thân; nữ chính cũng có thân phận ẩn
+- **Nguồn**: Zhihu, truyện có chữ "（全文完）" ở cuối; bản dài nhất của L01. Link: chưa ghi. Lấy qua Chrome 2026-11-19, lô L01.
+- **Dạng lưu**: bản dịch sát tiếng Việt, đã chia chương (chưa viết theo văn phong kênh). Bối cảnh Hải Thành, tiền là tệ và vạn tệ, tên Hán Việt mới. Nam chính kể bằng 'anh', mẹ chồng xưng 'ta', gọi nữ chính là 'cô'. Giữ châm biếm và phản ứng bạn cùng phòng, người ngoài.
+- **Độ dài bản dịch**: 3.458 chữ ≈ 19 phút (180 chữ/phút).
+- **Nhân vật (tên Hán Việt mới)**: Thẩm Chi (tôi, lớn lên ở cô nhi viện); Dư Tử Hiên (bạn trai cũ); Bạch Nhã Lam (bạn thân phản bội); Phó Yến Châu (chồng, 'thợ sửa xe'); Phó phu nhân (mẹ chồng).
+- **Điểm chấm (tự đánh giá)**: hook 5 / twist 4 / độ dài 5 / dễ nghe 4 / hợp gu 5 = 23/25.
+- **Hook gợi ý**: Bị bạn trai bỏ ngay cửa quán cà phê, tối đó trước cửa Cục dân chính một người đàn ông lạ hỏi tôi: 'Kết hôn không?'
+- **Cần làm ở bước 2**: Viết lại hook mở; viết dày lên ~40 phút. Nhiều chi tiết dễ dãi (bằng sáng chế, cổ phần): giữ nhẹ, tránh nhấn con số. Không xếp chung tập với tc007 (cấu trúc gần). Tiêu đề gợi ý (bản cũ): '[Truyện Audio] Bị bạn trai bỏ ngay cửa quán cà phê, tôi cưới luôn anh thợ sửa xe, sáng hôm sau anh lái xe hơn trăm vạn tệ'. Chia TikTok (bản cũ): ch.1–3 / 4–6 / 7–9.
+
+## Khung truyện
+
+1. Dư Tử Hiên chia tay tôi để cưới bạn thân Bạch Nhã Lam; tối đó tôi cưới chớp nhoáng Phó Yến Châu, tự giới thiệu là thợ sửa xe.
+2. Về nhà anh là biệt thự ba tầng; ở buổi họp lớp, hai kẻ phản bội chế giễu, anh đến đón bằng Maybach, có người gọi 'Phó tổng'.
+3. Anh là thái tử tập đoàn Phó thị; lộ ra tôi là người thừa kế duy nhất của Thẩm thị phá sản, ba mươi phần trăm cổ phần đứng tên tôi đang nằm ở Phó thị.
+4. Mẹ chồng đưa thỏa thuận ly hôn, nghi tôi vì cổ phần; Bạch Nhã Lam đưa ảnh mẹ ruột tôi để ly gián; anh nói 'anh cưới em vì chính em'.
+5. Nhã Lam và Tử Hiên cấu kết lừa cổ phần, bị bắt, phá sản; tôi mở xưởng độ xe, livestream, thành nền tảng ô tô cho phụ nữ lớn nhất Hải Thành.
+
+**Kết**: Ngọt sảng, hả hê nhẹ.
 
 ---
 
-## Chương 1. Cưới chớp nhoáng trước cửa Cục dân chính
+## Bản dịch sát (tiếng Việt)
+
+### Chương 1. Cưới chớp nhoáng trước cửa Cục dân chính
 
 "Thẩm Chi, mình chia tay đi."
 
@@ -69,7 +81,7 @@ Vừa ra khỏi Cục dân chính, điện thoại tôi nổ tung. Bạch Nhã L
 
 Tôi nhét điện thoại vào túi, cười khẩy. Mai họp lớp, tôi muốn xem hai đứa này diễn được trò gì.
 
-## Chương 2. Về nhà họ Phó
+### Chương 2. Về nhà họ Phó
 
 "Đây là nhà anh?"
 
@@ -117,7 +129,7 @@ Tôi ngẩn ra. Anh rút từ túi ra một tấm thẻ đưa tôi. "Trong này 
 
 Nụ cười ấy khiến tim tôi hụt một nhịp.
 
-## Chương 3. Họp lớp, vả mặt
+### Chương 3. Họp lớp, vả mặt
 
 Buổi họp lớp tổ chức ở sảnh tiệc khách sạn năm sao. Lúc tôi đến, Dư Tử Hiên và Bạch Nhã Lam đang được một đám người vây quanh tâng bốc. "Công ty Tử Hiên sắp lên sàn rồi!" "Nhã Lam hạnh phúc thật, lấy được vua độc thân!"
 
@@ -151,7 +163,7 @@ Phó Yến Châu không giải thích. Anh đi tới bên tôi, tự nhiên cho�
 
 Anh đưa tôi rời sảnh tiệc. Sau lưng bàn tán rền trời.
 
-## Chương 4. Thái tử tập đoàn Phó thị
+### Chương 4. Thái tử tập đoàn Phó thị
 
 Trên xe, tôi không nhịn được hỏi. "Anh rốt cuộc là ai?"
 
@@ -189,7 +201,7 @@ Tôi cố giữ bình tĩnh. "Anh biết thân thế của tôi không?"
 
 Tôi đơ cả người. "Em tưởng anh cưới em vì cổ phần?" Anh nhìn tôi. "Thẩm Chi, anh cưới em vì anh thích em."
 
-## Chương 5. Mẹ chồng bị vả
+### Chương 5. Mẹ chồng bị vả
 
 Hôm sau đi làm, trước cửa cửa hàng đỗ một chiếc Porsche 911 mới tinh, thắt nơ to đùng. Bên cạnh đứng một hàng người vest đen. Người đứng đầu thấy tôi liền tiến lại. "Thẩm tiểu thư, Phó tổng bảo đưa chiếc xe này đến công ty cô, quà nhận việc."
 
@@ -215,7 +227,7 @@ Nửa giờ sau, tôi ngồi đối diện cô ta. Cô ta đẩy tấm ảnh. "T
 
 "Ba mươi phần trăm cổ phần của cậu bây giờ nằm trong tay Phó thị." Cô ta nghiêng người sát tai tôi. "Chi Chi, cậu biết vì sao Phó Yến Châu cưới cậu không? Vì cậu là mỏ vàng biết đi."
 
-## Chương 6. Thỏa thuận ly hôn
+### Chương 6. Thỏa thuận ly hôn
 
 Tôi ngồi một mình trong quán cà phê, đầu óc rối bời. Đúng lúc ấy điện thoại reo.
 
@@ -269,7 +281,7 @@ Nước mắt tôi rơi. "Khóc gì?" Anh lau nước mắt cho tôi. "Đồ ng�
 
 Tôi nhào vào lòng anh, ôm chặt.
 
-## Chương 7. Sự thật phơi bày
+### Chương 7. Sự thật phơi bày
 
 Bạch Nhã Lam bị bắt. Phó Yến Châu đã sớm điều tra rõ mọi chuyện. Cô ta và Dư Tử Hiên cấu kết, muốn dùng cô ta tiếp cận tôi, lừa cổ phần của tôi. Còn Dư Tử Hiên nợ ngập đầu, công ty phá sản. Lúc Nhã Lam bị dẫn đi, cô ta nhìn tôi một cái. Trong ánh mắt ấy có oán hận, có không cam lòng, nhiều hơn cả là mê mang.
 
@@ -293,7 +305,7 @@ Nói xong, tôi khoác tay Phó Yến Châu, không quay đầu bước ra khỏ
 
 "Em chỉ thấy so đo với kẻ tồi mệt lắm."
 
-## Chương 8. Chiếc áo choàng khác của tôi
+### Chương 8. Chiếc áo choàng khác của tôi
 
 Ba tháng sau, xưởng độ xe của tôi khai trương. Tôi còn mở livestream dạy mọi người chọn xe, độ xe, không bị đại lý chặt chém. Tháng đầu có mười vạn người theo dõi, tháng hai năm mươi vạn, tháng ba lên hot search. Viện nghiên cứu kỹ thuật ô tô quốc gia tìm đến cửa.
 
@@ -323,7 +335,7 @@ Khi người ấy đi rồi, tôi vẫn chưa hoàn hồn. "Anh… sao anh biế
 
 "Nói gì? Nói em là nữ tỷ phú ẩn mình? Anh sợ em kiêu lên, không cần anh nữa." Anh ghé tai tôi. "Với lại vợ anh giỏi thế này, anh phải giấu bớt. Không thì người khác biết, đến đào góc tường thì sao?"
 
-## Chương 9. Kết hạnh phúc
+### Chương 9. Kết hạnh phúc
 
 Một năm sau, xưởng độ xe của tôi phát triển thành nền tảng dịch vụ ô tô dành cho phụ nữ lớn nhất Hải Thành. Tôi còn ra cuốn *Cẩm nang tránh bẫy khi phụ nữ mua xe*, doanh số vượt một triệu bản. Phó Yến Châu chính thức tiếp quản tập đoàn Phó thị, thành chủ tịch mới. Tôi là giám đốc kỹ thuật khối ô tô.
 

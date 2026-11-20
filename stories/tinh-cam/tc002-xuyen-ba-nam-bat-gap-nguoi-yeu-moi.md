@@ -1,16 +1,32 @@
-# tc002. Mở mắt ra là ba năm sau: ta khóc đi tìm người yêu cũ, hóa ra anh ta đã lấy vợ
+# tc002. Mở mắt ra là ba năm sau, tôi không nhớ người bạn trai bên giường; cưới anh với lời "ai sống phần nấy", đến ngày kỷ niệm tôi tìm thấy ba năm mình đã quên
 
-- **Thể loại**: xuyên thời gian / tình cảm trưởng thành / "thoát khỏi mối quan hệ độc hại" (kết ấm, không bạo)
-- **Nguồn**: Zhihu, truyện có chữ "（完）" ở cuối, ngôi một. Đã đọc toàn văn.
-- **Văn phong**: theo `references/van-phong.md`. Bối cảnh Thâm Quyến và Hàng Châu, tiền là tệ, tên Hán Việt **mới**, WeChat giữ nguyên. Giọng tôi tự giễu, lớp châm biếm nhẹ, phản ứng của bạn bè người ngoài được giữ.
-- **Nhân vật (5 tên)**: Quý Giai Thiến (tôi), Triệu Xương (người yêu cũ), Chu Tư Lượng (bạn trai hiện tại), Dương Duyệt (bạn đại học), Hoàng ca (chủ quán nướng).
-- **Điểm chấm (tự đánh giá)**: hook 5 / twist 4 / độ dài 2 (ghép tập) / dễ nghe 5 / hợp gu khán giả Việt 4 (thoát mối quan hệ độc hại) = 20/25
-- **Tiêu đề gợi ý**: `[Truyện Audio] Bị người yêu đẩy ngã, tôi tỉnh dậy ba năm sau và có một người bạn trai lạ | <Tên kênh>`
-- **Phần TikTok gợi ý**: Phần 1 = ch.1–2, Phần 2 = ch.3–4.
+- **Thể loại**: Mất ký ức ba năm, thoát mối quan hệ độc hại, cưới vì thực tế rồi yêu lại người mình đã quên; ngọt, kết ấm
+- **Nguồn**: gộp liền mạch hai truyện L01 (2026-11-20): (1) Zhihu, truyện có chữ "（完）" ở cuối, ngôi một (bản cũ tc002); (2) Zhihu, truyện có chữ "（完）" ở cuối (bản cũ tc003, mã tc003 bỏ, không tái dùng). Link: chưa ghi. Lấy qua Chrome 2026-11-19, lô L01.
+- **Dạng lưu**: hai bản dịch sát tiếng Việt, xếp theo thứ tự trong truyện gộp. Bối cảnh Thâm Quyến và Hàng Châu, tiền là tệ, tên Hán Việt mới, WeChat giữ nguyên. Tên ở nguồn 2 đổi theo nguồn 1 khi viết: Tạ Vãn → Quý Giai Thiến, Lục Thời Lăng → Chu Tư Lượng, Lục phu nhân → mẹ Chu Tư Lượng, tài xế Trần giữ.
+- **Độ dài bản dịch**: 4.073 chữ ≈ 23 phút (180 chữ/phút), cộng cầu nối ở bước 2.
+- **Nhân vật (tên Hán Việt mới)**: Quý Giai Thiến (tôi); Triệu Xương (người yêu cũ); Chu Tư Lượng (bạn trai, sau là chồng); mẹ Chu Tư Lượng; Dương Duyệt (bạn đại học); Hoàng ca (chủ quán nướng); tài xế Trần.
+- **Điểm chấm (tự đánh giá)**: hook 5 / twist 4 / độ dài 3 / dễ nghe 5 / hợp gu 5 = 22/25.
+- **Hook gợi ý**: Năm 2023 người yêu đẩy tôi ngã. Tỉnh dậy đã là năm 2026, một người đàn ông lạ nắm tay tôi. Một năm sau tôi cưới anh, và chính tôi là người nói: 'Sau này ai sống phần nấy.'
+- **Cần làm ở bước 2**: Viết cầu nối (bước 4 của khung): vì sao cô chủ động đề nghị cưới khi vẫn chưa nhớ ra mình yêu anh. Đảo người nói câu 'ai sống phần nấy' (bản gốc nguồn 2 là chồng nói) sang cô. Ở cảnh bó hoa, ảnh và thư phải là của ba năm cô đã quên, để cú lật khép lại cả hai nửa. Mục tiêu 30–40 phút. Bỏ các dòng 'Lưu ý' nằm trong thân truyện khi viết chNN.tts.txt.
+
+## Khung truyện
+
+1. Năm 2023 ở Thâm Quyến, cãi nhau chuyện tiền nhà, Triệu Xương đẩy tôi đập gáy vào bàn. (nguồn 1)
+2. Tỉnh dậy năm 2026 ở Hàng Châu, mất ba năm ký ức; bên giường là Chu Tư Lượng. Tôi đối xử tệ với anh, bay về Thâm Quyến tìm Triệu Xương: hắn đã lấy vợ, từng chỉ 'ồ' một tiếng khi biết tôi nằm viện. (nguồn 1)
+3. Hoàng ca kể ba năm qua anh đối với tôi thế nào; tôi về Hàng Châu, anh cầm bảng 'Chào mừng Giai Thiến về nhà'. Tôi ở lại, nhưng vẫn không nhớ ra mình yêu anh. (nguồn 1)
+4. Cầu nối (viết mới): mẹ anh giục cưới, tôi muốn yên ổn và thấy nợ anh; tôi đề nghị cưới vì thực tế: 'Sau này ai sống phần nấy.' Anh đồng ý, không nói gì thêm.
+5. Một năm lạnh nhạt; sáng kỷ niệm một năm tôi quên, hỏi 'tối nay không về hả?', rồi vội chạy đi mua quà cho có. (nguồn 2)
+6. Anh về sớm với bó hoa; trong bó hoa là ảnh và thư: ảnh ba năm tôi đã quên, thư kể anh đã chờ tôi thế nào. Tôi nhận ra người mình quên chính là người mình từng yêu. (nguồn 2 + cú lật nối hai nửa)
+
+**Kết**: Ấm, chữa lành.
 
 ---
 
-## Chương 1
+## Bản dịch sát (tiếng Việt)
+
+### Nguồn 1 (bản cũ tc002)
+
+#### Chương 1
 
 Năm 2023, Triệu Xương đẩy tôi một cái. Mắt tôi tối sầm. Tỉnh lại thì đã là năm 2026, trong một bệnh viện ở Hàng Châu.
 
@@ -46,7 +62,7 @@ Tháng mười năm 2023, Thâm Quyến chưa vào thu. Hôm ấy lại cãi nha
 
 Anh nổi nóng, đẩy tôi một cái. Gáy tôi đập vào góc bàn ăn. Mắt tối sầm.
 
-## Chương 2
+#### Chương 2
 
 Tỉnh lại, tôi ở Hàng Châu. Bệnh viện. Tường trắng, mùi thuốc sát trùng, mu bàn tay cắm kim truyền. Một người đàn ông gục bên giường, nghe tiếng động ngẩng đầu, mắt đỏ như thức ba đêm.
 
@@ -96,7 +112,7 @@ Anh đứng dậy, nhìn tôi, mỉm cười. "Em từng nói anh giống nam th
 
 "…Nói bậy."
 
-## Chương 3
+#### Chương 3
 
 Mấy ngày sau, tôi làm rất nhiều chuyện đáng ghét. Tôi hất đổ cháo anh mua, bảo dở. Anh gọt táo cho tôi, tôi bảo anh gọt dày, lãng phí. Nửa đêm tôi nói muốn ăn bột sen Tây Hồ, anh lái xe đi mua, đi về bốn mươi phút, về tôi giả vờ ngủ. Anh không nói gì, đặt bột sen cạnh đầu giường.
 
@@ -122,7 +138,7 @@ Hoàng ca thở dài. "Trước khi cưới nó gọi hỏi tôi cậu nằm b�
 
 Tôi ngồi trong quán nướng, mùi than xộc vào mũi. Hoàng ca nói thêm. "Giai Thiến, hồi cậu ở với thằng Triệu Xương, ngày nào cũng mặt ủ mày chau. Chia tay nó xong cả người cậu sáng bừng lên. Cậu không biết à?"
 
-## Chương 4
+#### Chương 4
 
 Hôm tôi bay về Hàng Châu, Chu Tư Lượng ra đón. Anh đứng ở cổng đón, tay giơ tấm bìa viết nguệch ngoạc "Chào mừng Giai Thiến về nhà". Tôi bước tới. Anh nhận vali. "Đói không? Anh hầm sườn rồi."
 
@@ -151,5 +167,173 @@ Thế giới này thật lớn. Nó không xóa được năm năm ấm ức c�
 Giai Thiến, trước kia ngươi đúng là bướng. Nhưng may là, bây giờ cũng chưa muộn.
 
 Nếu là bạn, bạn có xóa tin nhắn ấy không? Chia sẻ trong phần bình luận, và đừng quên đăng ký kênh <Tên kênh>.
+
+*(Hết)*
+
+### Nguồn 2 (bản cũ tc003)
+
+#### Chương 1
+
+"Tạ Vãn, em nhớ cho kỹ. Chúng ta chỉ cưới vì lợi ích. Sau này ai sống phần nấy, đừng làm phiền nhau."
+
+Đó là câu anh nói với tôi vào đêm tân hôn.
+
+Một năm sau, anh ôm tôi, nói: "Vợ ơi, mới có một buổi chiều không gặp mà anh nhớ em quá."
+
+Các bạn đang nghe truyện tại <Tên kênh>, đừng quên đăng ký kênh nha.
+
+Nhưng chuyện bắt đầu từ lúc gặp mặt. Ngày hôm sau khi tôi gặp Lục Thời Lăng lần đầu, hai nhà Lục Tạ đã chốt ngày cưới, đúng một tuần sau.
+
+"Vãn Vãn à, con yên tâm. Sau này nếu Thời Lăng làm con buồn, con cứ nói với bác. Bác trị nó cho."
+
+Lục phu nhân âu yếm xoa tay tôi, cười nói. Bà là kiểu quý phụ hào môn nhìn qua đã thấy hiền, thật ra tinh như cáo.
+
+"Dạ vâng ạ." Tôi cúi đầu, cũng cười.
+
+"Đứa trẻ ngoan thế này, vừa xinh vừa giỏi, nhà bác thằng Lăng đúng là không xứng với con."
+
+"Đâu có ạ, bác. Anh Thời Lăng rất tốt."
+
+"Ha ha, tốt. Xem ra hai đứa hai hôm nay ở chung hợp nhau rồi. Có đứa con dâu như con, bác đúng là may mắn." Bà càng nhìn càng thích, thậm chí nghĩ nếu Tạ Vãn là con gái ruột thì hay biết mấy.
+
+Một giọng đàn ông trầm, trưởng thành vang lên cắt ngang. "Mẹ, con về rồi."
+
+Lục Thời Lăng bước vào. Liếc tôi một cái. Rồi ngồi xuống chỗ xa tôi hơn một chút.
+
+"Thằng ranh này, ngồi xa Vãn Vãn thế làm gì! Lại đây ngồi!" Lục phu nhân mắng.
+
+Anh đứng dậy, bước đôi chân dài lại gần. Tôi nghe tiếng tài xế Trần ngoài cửa sổ xe ho khan, cố nhịn cười.
+
+#### Chương 2
+
+Một tuần trôi qua rất nhanh. Sau đám cưới, hai người vào căn nhà tân hôn Lục phu nhân chuẩn bị.
+
+Lục Thời Lăng đứng trước cửa phòng ngủ, giọng nhàn nhạt. "Tạ Vãn, chúng ta chỉ cưới vì lợi ích. Sau này ai sống phần nấy, đừng làm phiền nhau."
+
+Tôi nhìn anh. Trong lòng mừng thầm, vì đó đúng là điều tôi muốn. Nhưng ngoài mặt giả bộ buồn buồn, gật đầu.
+
+"Anh ngủ phòng khách." Anh buông một câu rồi bước về phòng khách.
+
+Tôi đóng cửa phòng ngủ, lao lên chiếc giường mềm mại. Chiếc giường êm thế này mà một mình tôi ngủ. Sướng quá!
+
+Hôm sau tôi ngủ đến chiều mới lò dò dậy. Lục Thời Lăng đã đi công ty. Tôi đặt cây đàn guitar mộc lên giá cạnh sofa, nằm xuống lướt điện thoại, chơi vài ván thì buồn ngủ.
+
+Mười một giờ đêm, đang ngủ, tôi mơ hồ nghe tiếng mở cửa. Một lúc sau tôi thấy người mình bị nhấc bổng lên. Có người bế tôi về phòng ngủ, nhẹ nhàng đặt lên giường, đắp chăn xong rồi lui ra.
+
+Nửa đêm tôi tỉnh, dụi mắt, thấy mình nằm trên giường. Sao mình lại ở phòng ngủ? Tôi khẽ mở cửa, xuống lầu lấy điện thoại bỏ quên trên sofa. Vừa cầm lên, cửa phòng khách mở ra. Lục Thời Lăng thấy tôi, nhíu mày. "Nửa đêm không ngủ ở đây làm gì?"
+
+"Lấy điện thoại." Tôi ngước nhìn anh một cái rồi về phòng.
+
+Anh nhìn cánh cửa phòng đóng lại, thở dài, quay đi ngủ tiếp.
+
+Ngày tháng trôi, hai người đúng như đêm ấy đã nói, ngoài việc cần thiết thì không can thiệp nhau. Tôi luôn lạnh nhạt với anh, dù sao chỉ là sống chung cho qua ngày. Còn anh thường âm thầm để ý tôi. Nói chuyện với tôi tuy không nhiều, nhưng giọng luôn có chút dè dặt.
+
+#### Chương 3
+
+Rất nhanh đã đến kỷ niệm một năm ngày cưới.
+
+Sáng hôm đó, hai người ngồi ăn cơm. Lục Thời Lăng nhìn tôi, giọng mang chút mong đợi khó nhận ra. "Hôm nay…"
+
+Tôi ngẩng lên. "Sao thế? Công ty có việc, tối nay không về hả?"
+
+"…Không phải. Em không thấy hôm nay đặc biệt sao?"
+
+"Đặc biệt?"
+
+"Ừ."
+
+Tôi nghĩ một lát. Có gì đặc biệt đâu. "Ha ha, em quên. Hôm nay là ngày gì vậy?"
+
+Anh sững lại, lòng hơi buồn. "Không có gì. Anh đi công ty."
+
+Anh rời nhà. Bóng lưng trông hơi hiu quạnh. Tôi cầm điện thoại, thật sự quên mất hôm nay là ngày gì. Rồi tôi nhìn lại lịch.
+
+"Gì? Kỷ niệm một năm ngày cưới?!"
+
+Tôi ngẩn ra. Chuyện quan trọng thế này mà tôi quên. Quên sạch. Lòng dâng lên cảm giác hổ thẹn. Anh trông rất mong chờ, mà tôi lại hỏi hôm nay là ngày gì. Chết thật. Phải bù đắp!
+
+"A lô, tiệm hoa ạ? Chị làm giúp em một bó hồng, hôm nay là kỷ niệm một năm ngày cưới của em và chồng. Chị cứ cắm đẹp giúp em. Cảm ơn chị."
+
+Gọi xong, tôi lái xe đến trung tâm thương mại mua quà. Đi hết mấy trung tâm, về đến nhà đã bảy giờ. Còn hai tiếng nữa anh về. Bánh kem để trong tủ lạnh, quà chuyển vào phòng anh, bó hoa đợi lúc thích hợp mới đưa.
+
+Bên kia, Lục Thời Lăng ngồi trên ghế văn phòng, trước mặt là mấy bản báo cáo. Anh lật xem, nhưng thật ra đang nghĩ vì sao Tạ Vãn lại quên cả ngày quan trọng như thế. Rồi anh vào tiệm trang sức chọn nhẫn và dây chuyền cho vợ. Đều nằm trong giỏ hàng của cô. Ra khỏi tiệm, anh mua thêm một bó hồng đỏ lớn, bên trong cài mấy tấm ảnh thỉnh thoảng hai người chụp. Và một bức thư tình.
+
+#### Chương 4
+
+Tám giờ rưỡi Lục Thời Lăng về. Nhìn cánh cửa mở, tôi không khỏi nghĩ: hôm nay anh về sớm thế, chẳng lẽ ngày kỷ niệm này quan trọng với anh đến vậy? Dù sao cũng chỉ là cưới vì lợi ích. Tôi mua quà cho anh cũng chỉ làm cho có.
+
+…Thật sao? Thôi được rồi. Tôi có hơi thích anh rồi.
+
+"Vãn Vãn, anh về rồi." Anh thay dép bước lại.
+
+Thấy trong tay anh xách mấy túi lớn và một bó hồng to, tôi sững ra, rồi nhanh chóng phản ứng. "Cảm ơn…" Hai chữ "chồng", tôi ngập ngừng mãi, rốt cuộc vẫn không nói ra.
+
+Anh hơi khựng lại, rồi đặt bó hoa cạnh tôi, mấy túi quà để lên bàn trà. "Chúc mừng kỷ niệm một năm." Anh nhìn tôi, nở nụ cười.
+
+Đó là lần đầu tiên anh cười với tôi như vậy. Lục Thời Lăng có đôi mắt đào hoa rất đẹp, dưới mắt phải có nốt ruồi nhỏ, nhìn đầy câu hồn. Lúc không cười trông lạnh nhạt, nhưng nụ cười ấy lập tức cuốn trái tim tôi đi mất.
+
+"Ừm, chúc mừng kỷ niệm một năm. Anh ăn cơm chưa?" Tôi cúi đầu, không dám nhìn anh.
+
+Đẹp trai quá.
+
+"Chưa. Ăn cùng không?"
+
+"Ừm."
+
+Thấy tôi vẫn như ngày thường, lòng anh thoáng thất vọng. Nhưng anh phát hiện tai tôi đỏ ửng, đỏ đến trong suốt.
+
+"Anh đi nấu cơm." Anh rửa tay vào bếp. Tôi nhìn theo bóng anh, đứng dậy đi lấy bó hồng.
+
+Một lúc sau anh bưng đồ ăn ra gọi tôi. Không thấy tôi ra, anh xoay người đi tìm.
+
+"Chúc mừng kỷ niệm một năm!" Tôi cười, nụ cười rực rỡ khiến anh không rời mắt được.
+
+Anh đón lấy hoa, khẽ mỉm cười. Nhưng trong lòng hoa nở rộ. Thì ra trong lòng cô ấy vẫn có mình. Lúc này anh mới phát hiện, trong lúc anh nấu cơm, tôi đã đi thay bộ đồ, đúng bộ tôi mặc lần đầu gặp anh. Anh nhìn người trước mặt, bỗng ôm chầm lấy tôi.
+
+"Cảm ơn em, Vãn Vãn."
+
+Cảm nhận hơi ấm trong vòng tay anh, mặt tôi từ từ đỏ lên. Lúc buông ra, mặt tôi đỏ như quả táo. Anh nhìn tôi mà cười. Em dễ thương quá.
+
+Hai người ngồi đối diện nhau, lặng lẽ ăn cơm. Tôi nghe tiếng bát đũa của mình lớn bất thường. Tài xế Trần lái xe ngang cửa sổ, nhìn vào, giơ ngón cái lên rồi rón rén đi.
+
+"Vãn Vãn."
+
+"Sao thế?"
+
+"Về phòng nhớ mang theo hoa. Bên trong có thứ này."
+
+#### Chương 5
+
+Mười một giờ, tôi ôm bó hồng Lục Thời Lăng mua về phòng. Mấy món trang sức tôi định mai xem. Khẽ đóng cửa, tôi ngắm kỹ bó hoa, thấy những tấm ảnh giấu bên trong. Tôi rút ra, bất giác mỉm cười. Đều là ảnh chụp hồi cưới. Vài hôm nữa chụp thêm vài tấm mới vậy. Còn nhiều thời gian.
+
+Tôi đặt ảnh lên bàn, nhìn lại bó hoa, thấy một góc trắng nho nhỏ. "Cái gì đây?" Tôi kéo nhẹ ra. Một phong bì trắng.
+
+Nhìn phong bì ấy, trong lòng tôi trào lên sự tò mò mãnh liệt. Phải biết rằng trước giờ tôi chẳng hứng thú gì với những thứ này.
+
+Tôi mở phong bì, lấy tờ giấy bên trong.
+
+*[Vợ yêu của anh. Anh biết chúng ta chỉ là cuộc hôn nhân vì lợi ích không có tình cảm. Lúc đầu anh quả thật không có cảm giác gì với em, chỉ muốn hai bên không làm phiền nhau, yên ổn sống cuộc sống của mình. Nhưng anh phát hiện mình ngày càng không rời khỏi em được. Mỗi lần nghe giọng em, anh bất giác nhìn về phía em. Mỗi lần em quan tâm anh, tim anh bất giác đập nhanh hơn. Nhưng anh hiểu em chỉ làm cho có. Vậy mà anh vẫn muốn em nhìn anh nhiều hơn, quan tâm anh nhiều hơn.]*
+
+Đầu ngón tay tôi khẽ run.
+
+*[Anh thích em rồi, Tạ Vãn. Em có thể thử thích anh không.]*
+
+"Vãn Vãn."
+
+Không biết từ lúc nào cánh cửa phòng đã mở. Tôi ngẩng lên, chạm phải ánh mắt tràn đầy yêu thương của anh.
+
+"Anh yêu em."
+
+Tôi mím môi, đứng dậy, cất kỹ bức thư. "Thật ra… em cũng có chút thích anh rồi."
+
+Sau đêm đó, Lục Thời Lăng chuyển hết đồ sang phòng ngủ chính. Hai người mỗi ngày nói cười, trong nhà cũng dần có thêm hơi ấm.
+
+"Vợ ơi, mới có một buổi chiều không gặp, anh nhớ em quá."
+
+Anh ôm lấy tôi, dụi đầu lên vai. Tôi cười, xoa mái tóc mềm của anh. Lúc này anh như một chú chó lớn lông xù.
+
+"Em cũng nhớ anh."
+
+Nếu là bạn, bạn có đủ can đảm viết một bức thư như thế không? Chia sẻ trong phần bình luận, và đừng quên đăng ký kênh <Tên kênh>.
 
 *(Hết)*

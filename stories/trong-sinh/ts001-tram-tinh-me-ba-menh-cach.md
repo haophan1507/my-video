@@ -1,16 +1,29 @@
 # ts001. Ba mệnh cách bị đánh cắp
 
-- **Thể loại**: cổ trang / trùng sinh trả thù (hả hê)
-- **Nguồn**: Zhihu, câu trả lời của 含羞草开枙子花 cho câu hỏi "有没有什么好看的复仇爽文？", bản chỉnh sửa 2026-11-10, ghi "全文免费已完结". Đã đọc toàn văn.
-- **Văn phong**: theo `references/van-phong.md`. Giữ bối cảnh cổ đại Trung Quốc, tên Hán Việt **mới** (đã đổi so với bản gốc), xưng "ta", viết lại lời kể theo ba lớp (hành động, nội tâm châm biếm, phản ứng người ngoài), câu ngắn cho tai.
-- **Nhân vật (5 tên)**: Mục Vãn Ninh (ta, đích nữ), Bạch Uyển Nhu (thứ muội), Tạ Hoài An (vị hôn phu), Liễu Mộ Yên (bạn khuê phòng), Diêu đạo trưởng (phương sĩ).
-- **Điểm chấm (tự đánh giá)**: hook 5 / twist 4 / độ dài 3 / dễ nghe 4 / hợp gu khán giả Việt 5 (trùng sinh, trà xanh) = 21/25
-- **Tiêu đề gợi ý**: `[Truyện Audio] Ba mệnh cách của ta bị người thân chia nhau, sống lại ba ngày trước khi bị hiến tế | <Tên kênh>`
-- **Phần TikTok gợi ý**: Phần 1 = ch.1–2, Phần 2 = ch.3–5, Phần 3 = ch.6–8, Phần 4 = ch.9–10, Phần 5 = ch.11–12.
+- **Thể loại**: Trọng sinh trả thù, bối cảnh cổ trang; mệnh cách bị người thân và vị hôn phu đánh cắp, thứ muội trà xanh, bạn khuê phòng đạo thơ
+- **Nguồn**: Zhihu, câu trả lời của 含羞草开枙子花 cho câu hỏi "有没有什么好看的复仇爽文？", bản chỉnh sửa 2026-11-10, ghi "全文免费已完结". Link: chưa ghi. Lấy qua Chrome 2026-11-19, lô L01.
+- **Dạng lưu**: bản dịch sát tiếng Việt, đã chia chương (chưa viết theo văn phong kênh). Giữ bối cảnh cổ đại, tên Hán Việt mới (đã đổi so với bản gốc), xưng "ta", lời kể ba lớp (hành động, nội tâm châm biếm, phản ứng người ngoài), câu ngắn cho tai.
+- **Độ dài bản dịch**: 5.661 chữ ≈ 31 phút (180 chữ/phút).
+- **Nhân vật (tên Hán Việt mới)**: Mục Vãn Ninh (ta, đích nữ); Bạch Uyển Nhu (thứ muội); Tạ Hoài An (vị hôn phu); Liễu Mộ Yên (bạn khuê phòng); Diêu đạo trưởng (phương sĩ); Chu di nương; lão phu nhân Quốc công phủ.
+- **Điểm chấm (tự đánh giá)**: hook 5 / twist 4 / độ dài 3 / dễ nghe 4 / hợp gu 5 = 21/25.
+- **Hook gợi ý**: Câu cuối cùng ta nghe trước khi chết là của muội muội ruột thịt: 'Hoài An ca ca, tỷ ấy còn chưa tắt thở. Có cần bổ thêm một nhát không?'
+- **Cần làm ở bước 2**: Lệch phạm vi (cổ trang) nhưng giữ vì là truyện ts duy nhất của L01. Bản dịch đã chia 12 chương ngắn: gộp thành ~9, thêm cliffhanger. Tiêu đề gợi ý (bản cũ): '[Truyện Audio] Ba mệnh cách của ta bị người thân chia nhau, sống lại ba ngày trước khi bị hiến tế'. Chia TikTok gợi ý (bản cũ): ch.1–2 / 3–5 / 6–8 / 9–10 / 11–12.
+
+## Khung truyện
+
+1. Kiếp trước: ta mang ba tầng mệnh cách; thứ muội, vị hôn phu và bạn khuê phòng thuê đạo sĩ lập trận hiến tế để chia nhau, rồi giết ta.
+2. Trọng sinh ba ngày trước buổi lập trận: ta giả vờ nghe theo, lén tìm Diêu đạo trưởng, đưa ngân phiếu bảo ông đổi phù, rót sát khí ngược vào ba kẻ kia.
+3. Ngày lập trận: ta tự nguyện đứng vào; ba luồng khói đen chui vào trán ba người. Từ đó họ gặp vận rủi liên tiếp: Uyển Nhu ngã, gãy lược, đập phá; Mộ Yên mất tài thơ.
+4. Ta tự gây dựng quan hệ: được lão phu nhân Quốc công phủ nhận làm thi hữu, đi lại các vương phủ; vạch chuyện Uyển Nhu tính kế, Chu di nương lôi con về.
+5. Tạ gia đến bàn hủy hôn, ta nhận; tin đồn Uyển Nhu quyến rũ anh rể lan khắp kinh thành, nàng bị đưa ra trang trại; Mộ Yên bị vạch đạo thơ tại thi hội. Kết: ta đứng vững trong giới quý phụ.
+
+**Kết**: Hả hê mạnh, kết câu hỏi chia phe ('ngươi có tha cho ba kẻ ấy không?').
 
 ---
 
-## Chương 1
+## Bản dịch sát (tiếng Việt)
+
+### Chương 1
 
 Câu cuối cùng ta nghe được trước khi chết, là từ miệng muội muội ruột thịt của ta.
 
@@ -66,7 +79,7 @@ Tay nàng ta đang múc yến sào khựng lại một nhịp. Rồi nàng ta c�
 
 Thuận buồm xuôi gió. Ừ. Ta chờ xem cánh buồm của ai bị gió thổi bay.
 
-## Chương 2
+### Chương 2
 
 Uyển Nhu vừa đi khỏi, ta tắt hẳn nụ cười.
 
@@ -102,7 +115,7 @@ Lão nuốt nước bọt nhìn ngân phiếu, rồi nhìn ta. "Vậy cô nươn
 
 "Đến ngày, ta sẽ nói trước mặt họ rằng ta tự nguyện. Còn ông, khi động trận thì đổi phù đảm, rót sát khí ngược vào người ba kẻ đó."
 
-## Chương 3
+### Chương 3
 
 Lão già gãi râu. "Như thế không đúng quy củ…"
 
@@ -136,7 +149,7 @@ Chắc chắn không. Cuộn sớ này chính là vật dẫn. Kiếp trước t
 
 Bạch Uyển Nhu nhìn tờ sớ như nhìn một đĩa thịt kho. Ta nhìn nàng ta nhìn. Ánh mắt ấy ta nhớ rõ, vì nó cũng chính là ánh mắt cuối cùng ta thấy trước khi chết.
 
-## Chương 4
+### Chương 4
 
 Buổi trưa hôm sau, Tạ Hoài An tới.
 
@@ -168,7 +181,7 @@ Khóe môi nàng ta nhếch lên, không giấu nổi. "Chuyện đó chắc ch�
 
 Kiếp trước ta chính là đút từng bài một như thế, đút đến mức nàng ta tin thật rằng mình biết làm thơ. Đấy gọi là nuôi ong tay áo. Còn đời này, ong sắp biết thế nào là hết mật.
 
-## Chương 5
+### Chương 5
 
 Sáng ngày mười lăm tháng mười, trời chưa sáng, Uyển Nhu đã đến gõ cửa.
 
@@ -202,7 +215,7 @@ Lão đổi phù, niệm chú. Ánh đỏ bùng lên, ngưng giữa không trung
 
 Ba luồng khói chui thẳng vào trán ba người.
 
-## Chương 6
+### Chương 6
 
 Uyển Nhu thét lên the thé. "Cái gì vậy!"
 
@@ -232,7 +245,7 @@ Sau lưng vang tiếng gầm bực tức của Tạ Hoài An. "Mục Vãn Ninh! 
 
 Chân ta không dừng. "Học từ các người đấy."
 
-## Chương 7
+### Chương 7
 
 Hôm sau, báo ứng đến nhanh hơn ta tưởng.
 
@@ -270,7 +283,7 @@ Bà nhận ta làm "thi hữu" ngay tại chỗ. Lúc về còn nắm tay ta d�
 
 Ta cảm ơn mãi. Ra khỏi cổng Quốc công phủ, chân ta nhẹ bẫng.
 
-## Chương 8
+### Chương 8
 
 Mấy ngày sau, ta đi từng nhà một.
 
@@ -294,7 +307,7 @@ Lần thứ hai nàng ta dẫn Chu di nương đến đánh vào tình cảm. Ch
 
 Chu di nương tức xanh mặt, lôi Uyển Nhu ra khỏi cửa, y như lôi một con gà bị vặt lông.
 
-## Chương 9
+### Chương 9
 
 Tạ Hoài An mãi không lộ mặt. Chắc hắn vẫn mơ rằng quyền hủy hôn nằm trong tay hắn. Ta không vội. Ta chờ hắn ra chiêu.
 
@@ -324,7 +337,7 @@ Hắn ngoái lại, ánh mắt muốn nuốt sống ta. Ta cười tủm tỉm n
 
 Hắn phất tay áo bỏ đi. Còn ta quay vào, bảo tiểu nha hoàn mở cửa sổ. Hôm nay gió đẹp.
 
-## Chương 10
+### Chương 10
 
 Tin hủy hôn lan rất nhanh. Giới quý nhân kinh thành không thiếu nhất là người nhai lưỡi.
 
@@ -346,7 +359,7 @@ Cuối cùng phụ thân ta quyết định: đưa Uyển Nhu ra trang trại ng
 
 Ta đứng bên cửa sổ nhìn, nghĩ bụng: mới có thế thôi.
 
-## Chương 11
+### Chương 11
 
 Liễu Mộ Yên cũng không dễ chịu.
 
@@ -404,7 +417,7 @@ Cả người nàng ta run lên. Ta đứng dậy, mỉm cười với mọi ng�
 
 Tối đó Mộ Yên "ốm", đóng cửa tạ khách. Cha nàng ta thấy xấu hổ, đưa nàng ta ra am ni cô ngoại thành "tĩnh dưỡng". Ba người, ta xử xong hai. Chỉ còn một con đường dài trước mặt.
 
-## Chương 12
+### Chương 12
 
 Lão phu nhân Quốc công phủ nói là làm. Trong tiệc thưởng hoa mùng mười, bà giới thiệu ta với cả một nhóm quý phụ.
 
