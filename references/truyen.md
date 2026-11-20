@@ -2,26 +2,21 @@
 
 Người nghe bị cuốn bởi ba cảm giác, mạnh dần: **bất công** (muốn kẻ xấu trả giá) → **tò mò** (muốn biết tiếp) → **hả hê** (vả mặt, lật kèo; muốn nghe lại, chia sẻ). Mọi lựa chọn dưới đây phục vụ: tạo bất công sớm, giữ tò mò, trả hả hê đúng lúc.
 
-## 1. Thể loại
+## 1. Thể loại: chỉ làm hai
 
-Số liệu: quét 52 kênh truyện audio YouTube, 2026-11-19. Lượt xem là trung vị mỗi video mới đã đăng ≥ 7 ngày.
+Số liệu: quét 52 kênh truyện audio YouTube, 2026-11-19. Lượt xem là trung vị mỗi video mới đã đăng ≥ 7 ngày. Phạm vi kênh: hai thể loại dưới đây, áp dụng từ 2026-11-20 (mã và thư mục ở `stories/README.md`). Ưu tiên `tc`.
 
-| Ưu tiên | Thể loại | Motif | Số liệu |
+| Mã | Thể loại | Motif | Số liệu |
 |---|---|---|---|
-| 1 | Ngôn tình sủng hiện đại | thái tử gia, quân trưởng cưng chiều; cưới trước yêu sau; trà xanh bị vả | ~14K/video; kênh nhỏ đạt lượt xem ≈ số sub; đỉnh 1,9 triệu |
-| 1 | Nữ cường vả mặt | trọng sinh trừng trị gia đình thiên vị, thiên kim thật/giả, học bá vả trà xanh | ~8K; đỉnh ~1–1,4 triệu |
-| 2 | Hài, tính cách cực đoan | lười, mỏ hỗn, cá mặn, mặt dày đối đầu trà xanh | ~10K; có video viral lớn nhất mẫu (2,7 triệu) |
-| 2 | Linh dị, trinh thám ngắn | đạo sĩ thành pháp y, quẻ bói người chết | ~18K; kênh mới (58 video) đã đạt lượt xem gấp 1,6 lần sub |
-| 3 | Tâm sự đời thực, hôn nhân | mẹ chồng, con cái coi thường mẹ già | ~6,5K, đều; khán giả lớn tuổi, ít hợp TikTok |
-| 3 | Ma Việt, pháp sư | làng quê, trừ tà | ~90K nhưng toàn kênh lâu năm sống nhờ giọng MC; kênh mới khó chen |
-| Tránh | Truyện dài kỳ nhiều giờ | tiên hiệp, cổ đại, đam mỹ dài | vài trăm lượt/video |
+| `tc` | Hôn nhân, tình cảm, trà xanh, ngoại tình | cưới trước yêu sau, hào môn, thân phận ẩn; bạn thân/trà xanh cướp người; ngoại tình trả thù; gia đình thiên vị | ~14K/video; kênh nhỏ đạt lượt xem ≈ số sub; đỉnh 1,9 triệu |
+| `ts` | Trọng sinh, trùng sinh (nữ cường vả mặt) | sống lại trừng trị gia đình thiên vị, thiên kim thật/giả, học bá vả trà xanh | ~8K; đỉnh ~1–1,4 triệu |
 
-Ghi nhận thêm (ước đoán từ cùng mẫu):
-- Lượt xem có đuôi dài: đa số tập vài nghìn, vài tập vọt gấp 10–30 lần nhờ **một hook tính cách hoặc ý tưởng cực rõ**, không nhờ chất lượng dựng. Nên thử nhiều ý tưởng nhanh, rồi nhân bản thể loại thắng.
+- Hào môn, đời thường, thân phận ẩn là **motif trong `tc`**, không phải thể loại riêng. Xuyên sách, hệ thống, showbiz chỉ làm *bối cảnh* cho hai nhóm trên.
+- **Ngoài phạm vi**: cổ trang, linh dị, hài cực đoan, truyện dài kỳ nhiều giờ (tiên hiệp, cổ đại, đam mỹ dài: vài trăm lượt/video).
+- Lượt xem có đuôi dài (ước đoán từ cùng mẫu): đa số tập vài nghìn, vài tập vọt gấp 10–30 lần nhờ **một hook tính cách hoặc ý tưởng cực rõ**, không nhờ chất lượng dựng. Thử nhiều ý tưởng nhanh, rồi nhân bản motif thắng.
 - Trên TikTok, drama hôn nhân, ngoại tình, bạn thân phản bội, trùng sinh, trả thù chạy mạnh hơn trên YouTube.
-- Xuyên sách, hệ thống, showbiz dùng làm *bối cảnh* cho các nhóm trên được, đứng riêng thì không nổi.
 
-**Chiến lược kênh**: chính là ngôn tình sủng + nữ cường vả mặt (cùng khán giả nữ trẻ, ghép được trong một truyện); phụ thử linh dị ngắn hoặc hài cực đoan. Mẻ 10 tập đầu: 4 sủng, 3 vả mặt, 2 hài, 1 linh dị. Sau mẻ đầu, giữ thể loại có lượt xem trung vị cao nhất.
+**Chiến lược kênh**: ngôn tình sủng và nữ cường vả mặt cùng một khán giả nữ trẻ, ghép được trong một truyện. Mẻ 10 tập đầu: 6 `tc`, 4 `ts`. Sau mẻ đầu, giữ thể loại có lượt xem trung vị cao nhất.
 
 ## 2. Chấm điểm truyện
 

@@ -1,4 +1,4 @@
-# s001. Ba mệnh cách bị đánh cắp
+# ts001. Ba mệnh cách bị đánh cắp
 
 - **Thể loại**: cổ trang / trùng sinh trả thù (hả hê)
 - **Nguồn**: Zhihu, câu trả lời của 含羞草开枙子花 cho câu hỏi "有没有什么好看的复仇爽文？", bản chỉnh sửa 2026-11-10, ghi "全文免费已完结". Đã đọc toàn văn.

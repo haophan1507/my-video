@@ -1,4 +1,4 @@
-# s003. Bạn thân cướp người yêu ngay ngày sinh nhật, người đứng sau cánh cửa là cha nuôi của cô ta
+# tc005. Bạn thân cướp người yêu ngay ngày sinh nhật, người đứng sau cánh cửa là cha nuôi của cô ta
 
 - **Thể loại**: bạn thân phản bội / ngọt sủng nhẹ (hả hê êm)
 - **Nguồn**: Zhihu, truyện ngôi một có chữ "完" ở cuối. Đã đọc toàn văn.

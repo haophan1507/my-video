@@ -24,20 +24,95 @@ Cách chọn: viết **5 phương án** theo 5 khuôn khác nhau, chấm mỗi c
 
 ## 2. Ảnh bìa (1280×720)
 
-Thông số: JPG/PNG, 16:9, dưới 2 MB nếu tải từ điện thoại, cần tài khoản đã xác minh. Bìa không được hứa thứ video không có.
+Thông số YouTube: JPG/PNG, 16:9, dưới 2 MB nếu tải từ điện thoại, cần tài khoản đã xác minh. Bìa không được hứa thứ video không có. Bản YouTube là video ngang nên bìa 16:9 hiện ở mọi bề mặt (trang chủ, đề xuất, tìm kiếm).
 
-**Video dọc**: YouTube thay bìa 16:9 của video dọc bằng bìa 4:5 tự tạo ở trang chủ, khám phá, đăng ký trên điện thoại; bìa riêng vẫn hiện ở tìm kiếm máy tính và lịch sử xem. Nên **tiêu đề phải tự đủ sức** và thẻ hook 3 giây đầu cũng nên đọc được như một bìa. Chưa rõ khung nào được chọn: sau tập đầu, xem tập hiện ở Home trên điện thoại và ghi lại vào `tap.md`.
+**Mục tiêu**: ở cỡ thu nhỏ, trong khoảng 1 giây người xem thấy được quan hệ và cảm xúc nhân vật (qua ảnh) và đọc được xung đột (qua chữ).
 
-**Bố cục** (quan sát ngách, ước đoán): chia hai nửa, một nửa ảnh nền, một nửa khối chữ sáng hoặc đặc màu (~50% chiều ngang). Chữ là **hook rút gọn 4–8 từ**, in hoa, đậm, ≤ 4 dòng, **1–2 từ đổi màu nhấn** `#FF5D73`. Nhãn nhỏ ở góc ("Full", "Truyện chọn lọc"), tên kênh nhỏ ở đáy. Ngách này lặp gần nguyên tiêu đề trên bìa và vẫn đạt hàng trăm nghìn lượt, nên chữ bìa không cần khác tiêu đề.
+**Mẫu tham khảo** (quan sát 2026-11-20, các kênh truyện audio ngôn tình có video đạt 40–220 nghìn lượt): nửa trái là ảnh người châu Á đẹp, hoặc cặp đôi trong khoảnh khắc thân mật, căng thẳng, hoặc nữ chính trang phục sang trọng nhìn vào ống kính; nửa phải là mảng giấy sáng màu có mép xé, chữ hook in hoa đậm màu tối 3–4 dòng, gần như trùng tiêu đề; có một chi tiết trang trí nhỏ (đinh ghim, chấm tròn) và nhãn kênh ở góc. Các kênh giữ một mẫu cho mọi video nên cả lưới video nhìn đồng bộ.
 
-**Ảnh nền** (ghi lựa chọn vào `tap.md`): A. một khung đẹp từ footage (`ffmpeg -ss 12 -i public/footage/<tag>-03.mp4 -frames:v 1 public/epNNN/thumb-bg.jpg`), đồng bộ với video; B. ảnh người châu Á (minh họa hoặc stock có điều khoản thương mại), kiểu bìa người xem ngách này quen mắt. Kênh không lộ mặt: dùng minh họa nhân vật, không dùng mặt bạn.
+### Bố cục chuẩn (composition `Thumbnail`, `src/Thumbnail.tsx`)
 
-**Kiểm tra trước khi tải lên**:
-- [ ] Thu nhỏ còn ~120 px ngang vẫn đọc được chữ chính.
-- [ ] Chữ không nằm góc dưới phải (đè nhãn thời lượng) và không đè mặt nhân vật.
-- [ ] Một điểm nhấn, 2–3 màu, tương phản tốt ở cả chế độ sáng và tối.
+| Vùng | Nội dung |
+|---|---|
+| Trái ~55% | Ảnh nhân vật (`thumbBg`), phủ kín; chỉnh khung bằng `thumbFocus` (object-position, ví dụ `"40% 25%"`) |
+| Phải ~45% | Mảng giấy màu ngà, mép xé hơi nghiêng, đổ bóng sang ảnh |
+| Hook | `thumbText`: in hoa, font Phudu 800, màu mực gần đen, căn giữa, tự co cỡ chữ cho vừa; `\|` ngắt dòng, `*cụm*` tô màu nhấn |
+| Trang trí | Đinh ghim màu nhấn trên mảng giấy; nhãn tên kênh góc trên phải (lấy từ `channel/channel.json`) |
+| Nhãn phụ | `thumbTag` dưới hook ("Trọn bộ", "Full"); bỏ trống thì ẩn |
+| Góc dưới phải | Để trống: YouTube đặt nhãn thời lượng ở đây |
 
-Render: `node scripts/render-episode.mjs epNNN --only=thumb` ra `out/thumb.png` (`thumbText`, `thumbBg` trong `episode.json`). Muốn 2–3 mẫu, đổi `thumbText` hoặc `thumbBg` rồi render lại.
+### Ảnh nhân vật
+
+Tiêu chí, theo thứ tự ưu tiên:
+1. **Kể đúng quan hệ chính của truyện**: truyện tình cảm dùng cặp đôi (ôm từ sau, kéo tay, áp sát, ánh mắt giằng co); truyện nữ cường, trọng sinh dùng một nữ chính khí chất (váy dạ hội, sườn xám, cổ phục khi bối cảnh cổ trang). Tình tiết bìa phải có trong truyện.
+2. **Sinh động**: chụp giữa một hành động hoặc cảm xúc (quay đầu, chạm tay, tóc hoặc váy chuyển động, nhìn thẳng ống kính có thần). Không dùng ảnh đứng tạo dáng tĩnh, mặt vô cảm.
+3. **Người châu Á, đẹp, chỉn chu**: ảnh chụp kiểu phim điện ảnh hoặc minh họa bán thực (semi-realistic), da sáng, trang phục và bối cảnh sang (nhà hàng, khách sạn, văn phòng, vườn hoa, đêm thành phố).
+4. **Rõ ở cỡ nhỏ**: mặt nhân vật chiếm ≥ 1/3 chiều cao ảnh; nền mờ hoặc gọn; ánh sáng ấm, mềm; tông pastel hoặc tối sang trọng, không xám nhạt.
+5. **Đặt được vào nửa trái**: ảnh dọc hoặc vuông; chủ thể nằm giữa hoặc lệch trái; mảng giấy không che mặt.
+6. **Sạch**: không chữ, logo, watermark, khung viền trên ảnh.
+
+Không dùng khung cắt từ footage làm ảnh chính: cận cảnh tay và đồ vật không kể được quan hệ nhân vật.
+
+### Nguồn ảnh
+
+| Nguồn | Cách làm |
+|---|---|
+| Pinterest (qua Claude in Chrome) | Tìm theo từ khóa dưới, mở pin, lấy ảnh gốc độ phân giải cao (`i.pinimg.com/originals/...`) |
+| Ảnh tạo bằng AI | Theo prompt mẫu dưới; hợp khi cần đúng cảnh hoặc trang phục của truyện; giữ cùng phong cách cho cả series |
+| Kho ảnh stock | Tìm cùng từ khóa |
+
+Từ khóa Pinterest (ghép một chủ thể với một cảm xúc hoặc bối cảnh):
+- Chủ thể: `asian couple aesthetic`, `korean couple photoshoot`, `chinese couple photography`, `cdrama couple`, `douyin couple`, `ulzzang couple`, `asian woman elegant dress`, `qipao photoshoot`, `hanfu girl` (cổ trang).
+- Cảm xúc, bối cảnh: `back hug`, `forehead kiss`, `jealous`, `cold ceo`, `office romance`, `birthday party`, `wedding`, `rain night`, `luxury hotel`, `dinner date`.
+
+Quy trình mỗi tập (cùng nguyên tắc với tải footage, `san-xuat.md` mục 4):
+1. Đọc hook và cảnh đắt nhất trong `outline.md`; chọn kiểu ảnh (cặp đôi hay nữ chính) và 2–3 cụm từ khóa.
+2. Tìm 6–10 ứng viên qua Claude in Chrome (mở tab mới). Lọc theo tiêu chí ở trên.
+3. Gửi danh sách để duyệt một lần: link pin, mô tả ngắn, khớp cảnh nào, đề xuất dùng cho bìa A/B/C.
+4. Tải ảnh đã duyệt vào `raw/`, chuẩn hóa:
+   ```bash
+   node scripts/prep-thumb.mjs tc005 raw/anh.jpg                 # -> public/tc005/thumb-bg.jpg
+   node scripts/prep-thumb.mjs tc005 raw/anh2.webp --name=thumb-bg-2
+   ```
+5. Ghi nguồn từng ảnh (link, ngày tải) vào mục Quyết định của `tap.md`.
+
+Prompt mẫu cho ảnh AI (thay phần trong ngoặc theo truyện):
+```
+Cinematic photo, [a young Chinese couple / an elegant young Chinese woman], [hành động: he hugs her from behind, she turns her head away],
+[bối cảnh: luxury restaurant at night], warm soft lighting, shallow depth of field, pastel tones, emotional tension,
+faces clearly visible, subject on the left half of a vertical frame, no text, no watermark, photorealistic, 4:5
+```
+
+### Chữ bìa
+
+- **Nội dung**: hook rút gọn, có thể trùng tiêu đề rút gọn. Cấu trúc gợi ý: [thân phận nhân vật] + [hành động bất ngờ] + [đối tượng hoặc hệ quả gây tò mò].
+- **Độ dài**: 3–4 dòng, mỗi dòng 2–4 từ (≤ 16 ký tự), tổng 8–14 từ. Dòng dài nhất quyết định cỡ chữ: giữ các dòng gần bằng nhau.
+- **Ngắt dòng** bằng `|` theo cụm nghĩa; không để từ nối, giới từ ở cuối dòng.
+- **Nhấn** đúng một cụm bằng `*...*` (từ gây tò mò nhất: thân phận, hành động, con số). Có thể đặt cụm đặc biệt trong ngoặc kép.
+- Ví dụ: `"Bạn thân hôn|người yêu tôi|ngay *sinh nhật*"`.
+
+### Kiểm tra trước khi tải lên
+
+- [ ] Thu nhỏ còn ~160 px ngang vẫn đọc được chữ và nhận ra mặt nhân vật.
+- [ ] Ảnh và chữ cùng nói một xung đột; tình tiết có trong truyện.
+- [ ] Mặt nhân vật không bị mảng giấy hay nhãn che; góc dưới phải trống.
+- [ ] Không có chữ, logo, watermark sót trên ảnh.
+- [ ] Đặt cạnh bìa các tập trước vẫn cùng một mẫu.
+
+### Render và A/B test
+
+```bash
+node scripts/render-episode.mjs tc005 --only=thumb    # out/thumb.png, thêm thumb-2.png, thumb-3.png nếu có thumbAlt
+```
+
+Phương án A/B ghi ở `thumbAlt` trong `episode.json`, mỗi mục chỉ ghi trường khác với bản chính:
+```json
+"thumbAlt": [
+  {"thumbBg": "tc005/thumb-bg-2.jpg", "thumbFocus": "35% 20%"},
+  {"thumbText": "Người đứng sau cửa|là *cha nuôi*|của bạn thân"}
+]
+```
+Nên đổi một biến mỗi phương án (ảnh hoặc chữ) để biết yếu tố nào thắng (mục 3).
 
 ## 3. A/B test trong YouTube Studio
 
@@ -56,9 +131,14 @@ Render: `node scripts/render-episode.mjs epNNN --only=thumb` ra `out/thumb.png` 
 
 - Mô tả **riêng cho từng video**; chọn 1–2 từ khóa chính, đặt cả ở tiêu đề lẫn mô tả. Tối đa 5.000 ký tự; 3–5 hashtag; tag video gần như vô dụng.
 - Chapters: dòng đầu `00:00`, ít nhất 3 mốc, mỗi chương ≥ 10 giây; đặt tên chương có từ khóa (nhân vật, sự kiện), đừng chỉ "Chương 3".
-- Video dọc dài hơn 3 phút là video thường, không phải Shorts.
+- Bản YouTube là video ngang dài, đăng như video thường. (Video dọc hoặc vuông từ 3 phút trở xuống mới được xếp vào Shorts.)
 
 ## 5. TikTok
+
+**Bìa từng phần** (`tiktok-NN-cover.png`, 1080×1920, composition `TikTokCover`): cùng ảnh nhân vật và mẫu giấy xé với bìa YouTube (mục 2); ảnh nửa trên, mảng giấy nửa dưới mang "PHẦN n/N" màu nhấn và hook của phần (`parts[].hook`, dùng được `|` và `*cụm*`). Mọi phần cùng ảnh, chỉ đổi số phần và hook, để lưới hồ sơ thành một bộ.
+- Chữ nằm trong dải giữa y ~240–1.680: lưới hồ sơ cắt bìa còn khoảng 3:4 (ước đoán, kiểm lại sau tập đầu). Khung ảnh dọc chỉnh bằng `coverFocus` (mặc định theo `thumbFocus`).
+- Render cùng các phần TikTok, hoặc riêng: `node scripts/render-episode.mjs <mã> --only=cover [--parts=1,3]`.
+- Khi đăng: tải ảnh lên làm bìa tùy chỉnh. Nếu nơi đăng chỉ cho chọn khung từ video, chọn khung đầu (thẻ hook) (chưa kiểm chứng tùy chọn tải ảnh trên từng phiên bản app).
 
 ```
 <hook của phần> (Phần n/N)

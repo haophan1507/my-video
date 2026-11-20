@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 // Gen giọng hàng loạt qua API GenMax (https://genmax.io/docs).
-// Dùng: node scripts/gen-voice.mjs ep001|channel [--only 1,3] [--force] [--dry-run]
+// Dùng: node scripts/gen-voice.mjs tc005|channel [--only 1,3] [--force] [--dry-run]
 //        [--speed 1.2] [--voice <voice_id>] [--provider minimax|elevenlabs|capcut] [--model <model_id>] [--lang Vietnamese]
 // Cài đặt giọng lấy theo thứ tự: tham số dòng lệnh > "voice" trong episode.json (với "channel": trong channel/channel.json)
 //   > VOICE_ID trong .env và mặc định (minimax, speech-2.8-hd, tốc độ 1.0).
-// Tập (ep001): đọc episodes/<tập>/script/chNN.tts.txt, ghi episodes/<tập>/audio/chNN.mp3.
+// Tập (tc005): đọc episodes/<tập>/script/chNN.tts.txt, ghi episodes/<tập>/audio/chNN.mp3.
 // channel: tự viết intro.tts.txt từ tên trong channel/channel.json, rồi đọc channel/*.tts.txt, ghi channel/*.mp3.
 // Ghi nhớ chữ + cài đặt của từng file trong voice-meta.json: chạy lại chỉ gen chương đã đổi (--force: gen lại hết,
 // --dry-run: chỉ liệt kê việc sẽ làm). File đã có mà chưa có meta (gen từ bản cũ) thì giữ nguyên.
@@ -26,7 +26,7 @@ const opt = (name) => { const i = args.indexOf(`--${name}`); return i >= 0 ? arg
 const force = args.includes("--force");
 const dryRun = args.includes("--dry-run");
 const only = opt("only")?.split(",").map(Number);
-if (!tap) { console.error("Dùng: node scripts/gen-voice.mjs <ep001|channel> [--speed 1.2] [--only 1,3] [--force] [--dry-run]"); process.exit(1); }
+if (!tap) { console.error("Dùng: node scripts/gen-voice.mjs <tc005|channel> [--speed 1.2] [--only 1,3] [--force] [--dry-run]"); process.exit(1); }
 
 const isChannel = tap === "channel";
 const E = isChannel ? null : epPaths(tap);

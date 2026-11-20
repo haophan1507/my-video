@@ -1,0 +1,13 @@
+{
+  "intro.mp3": {
+    "hash": "26afaf9195083f47",
+    "chars": 36,
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voice": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
+    "speed": 1.2,
+    "lang": "Vietnamese",
+    "credits": 36,
+    "at": "2026-11-19T17:54:02.247Z"
+  }
+}

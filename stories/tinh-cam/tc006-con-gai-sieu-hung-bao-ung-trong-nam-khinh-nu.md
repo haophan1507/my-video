@@ -1,4 +1,4 @@
-# s007. Cả nhà ta trọng nam khinh nữ, nhưng ta sinh ra đã khác người
+# tc006. Cả nhà ta trọng nam khinh nữ, nhưng ta sinh ra đã khác người
 
 - **Thể loại**: gia đình trọng nam khinh nữ / báo thù đen tối, nhân vật chính lạnh lùng
 - **Nguồn**: Zhihu, truyện ngôi một có chữ "（全文完）" ở cuối. Đã đọc toàn văn. Bản gốc dùng thuật ngữ y khoa "超雄"; ở đây dịch thành "bẩm sinh hung dữ, khác người" để tránh gán nhãn.

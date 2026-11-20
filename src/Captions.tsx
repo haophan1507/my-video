@@ -2,23 +2,24 @@ import {useMemo} from 'react';
 import {AbsoluteFill, Sequence, interpolate, useCurrentFrame, useVideoConfig} from 'remotion';
 import type {Caption} from '@remotion/captions';
 import {buildPages, toWords, type Page} from './captionPages';
-import {SAFE} from './ui';
+import {useLayout} from './ui';
 
 const PageView = ({page, durationFrames}: {page: Page; durationFrames: number}) => {
   const frame = useCurrentFrame();
-  const {fps, height} = useVideoConfig();
+  const {height} = useVideoConfig();
+  const L = useLayout();
   const pop = interpolate(frame, [0, 5], [0.94, 1], {extrapolateRight: 'clamp'});
   const fadeIn = interpolate(frame, [0, 4], [0, 1], {extrapolateRight: 'clamp'});
   const fadeOut = interpolate(frame, [durationFrames - 4, durationFrames], [1, 0],
     {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   return (
-    <AbsoluteFill style={{alignItems: 'center', paddingTop: Math.round(height * 0.6),
-                          paddingLeft: SAFE.left, paddingRight: SAFE.right}}>
+    <AbsoluteFill style={{alignItems: 'center', paddingTop: Math.round(height * L.captionTop),
+                          paddingLeft: L.safe.left, paddingRight: L.safe.right}}>
       <div style={{
         opacity: Math.min(fadeIn, fadeOut), transform: `scale(${pop})`,
         background: 'rgba(12, 12, 16, 0.5)', borderRadius: 36, padding: '22px 38px 26px',
         boxShadow: '0 10px 40px rgba(0,0,0,0.35)',
-        color: '#fff', fontSize: 64, fontWeight: 800, lineHeight: 1.28, textAlign: 'center',
+        color: '#fff', fontSize: L.captionFont, fontWeight: 800, lineHeight: 1.28, textAlign: 'center',
         textWrap: 'balance', letterSpacing: 0.2,
       }}>
         {page.words.map((w) => w.text).join(' ')}

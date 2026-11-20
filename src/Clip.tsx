@@ -13,7 +13,7 @@ export const Clip = (p: EpisodeProps) => {
       <Sequence trimBefore={Math.round(startSec * fps)}>
         <Story {...p} showTitle={false} corner={brand.partLabel(p.part, p.parts.length)} />
       </Sequence>
-      <TitleCard text={part.hook} durationInFrames={Math.round(p.hookSec * fps)} />
+      <TitleCard text={part.hook.replace(/\*/g, '').replace(/\s*\|\s*/g, ' ')}durationInFrames={Math.round(p.hookSec * fps)} />
     </AbsoluteFill>
   );
 };

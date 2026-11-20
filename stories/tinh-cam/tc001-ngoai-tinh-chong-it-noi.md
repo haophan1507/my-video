@@ -1,4 +1,4 @@
-# s002. Ta ngoại tình với người nói lời ngọt, rồi mất người chồng ít nói nhất thế gian
+# tc001. Ta ngoại tình với người nói lời ngọt, rồi mất người chồng ít nói nhất thế gian
 
 - **Thể loại**: hôn nhân / ngoại tình (người có lỗi tự kể, hối hận). Kết buồn.
 - **Nguồn**: Zhihu, câu trả lời có chữ "（完）" ở cuối, ngôi một. Đã đọc toàn văn.

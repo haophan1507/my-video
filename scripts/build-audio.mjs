@@ -1,4 +1,4 @@
-// node scripts/build-audio.mjs ep001 — ghép audio chương, điền startSec, in timestamp YouTube
+// node scripts/build-audio.mjs tc005 — ghép audio chương, điền startSec, in timestamp YouTube
 import fs from 'node:fs';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';

@@ -1,18 +1,19 @@
-# Sản xuất: chuẩn hóa, giọng, footage, render (bước 4–7)
+# Sản xuất: soát TTS, giọng, footage, render (bước 4–7)
 
-Đường dẫn: `episodes/epNNN-slug/` (gọi tắt "thư mục tập") chứa `script/`, `audio/`, `out/`, `episode.json`. Mọi lệnh nhận mã ngắn `ep001`; script tự tìm thư mục. Chi tiết quy ước: `stories/README.md`.
+Đường dẫn: `episodes/<thể-loại>/<mã>-slug/` (gọi tắt "thư mục tập") chứa `script/`, `audio/`, `out/`, `episode.json`. Mọi lệnh nhận mã ngắn `tc005`; script tự tìm thư mục. Chi tiết quy ước: `stories/README.md`.
 
 Thiết lập đang dùng (tốc độ giọng, nhịp đổi cảnh, kiểu chữ, phụ đề) nằm ở `edit-yeu-cau.md` và thắng mọi số ở đây. Code trong `src/` và `scripts/` là chuẩn; file này chỉ ghi cách dùng.
 
-## 1. Chuẩn hóa văn bản (bước 4)
+## 1. Soát văn bản TTS (bước 4)
 
 ```bash
-node scripts/normalize-vi.mjs ep001
+node scripts/normalize-vi.mjs tc005          # chỉ báo cáo
+node scripts/normalize-vi.mjs tc005 --fix    # báo cáo + ghi đè tại chỗ
 ```
 
-Script ghi `chNN.tts.txt`: đổi số, tiền, giờ, ngày, phần trăm thành chữ; mở viết tắt trong bảng `ABBR` đầu script (bổ sung khi gặp); bỏ emoji, markdown, gạch thoại.
+Mỗi chương chỉ có một file `chNN.tts.txt`, viết sẵn dạng máy đọc được. Script làm việc trực tiếp trên file đó. `--fix` đổi số, tiền, giờ, ngày, phần trăm thành chữ; mở viết tắt trong bảng `ABBR` đầu script (bổ sung khi gặp); bỏ emoji, markdown, gạch thoại. Chạy lại nhiều lần vẫn an toàn.
 
-Xử lý tay mọi mục trong báo cáo, sửa ở `chNN.txt` rồi chạy lại:
+Xử lý tay mọi mục trong báo cáo, sửa thẳng ở `chNN.tts.txt` rồi chạy lại:
 - Từ có `f j w z` hoặc viết hoa toàn bộ (pinyin, tên ngoại, viết tắt) → âm Hán Việt hoặc viết theo cách đọc.
 - Câu trên 35 chữ → tách.
 - Ngoặc `()` `[]` → bỏ hoặc viết thành câu.
@@ -23,7 +24,7 @@ Báo cáo cũng in số ký tự (tính giá TTS) và phút ước tính.
 ## 2. Giọng đọc (bước 5)
 
 ```bash
-node scripts/gen-voice.mjs ep001 [--only 1,3] [--force] [--dry-run]
+node scripts/gen-voice.mjs tc005 [--only 1,3] [--force] [--dry-run]
 ```
 
 - Đọc `script/chNN.tts.txt`, ghi `audio/chNN.mp3` trong thư mục tập (ghi ra file tạm rồi đổi tên, nên file hỏng không bao giờ mang tên `.mp3`).
@@ -31,7 +32,7 @@ node scripts/gen-voice.mjs ep001 [--only 1,3] [--force] [--dry-run]
 - **Cài đặt giọng nằm ở `voice` trong `episode.json`** (`provider`, `model`, `voiceId`, `language`, `speed`; mẫu ở `references/episode-mau.json`). Thứ tự ưu tiên: tham số dòng lệnh > `episode.json` > `VOICE_ID` trong `.env` > mặc định. Chưa đặt tốc độ thì script cảnh báo và dùng 1.0, nên chốt `voice.speed` trước khi gen.
 - Mọi chương trong một tập dùng đúng một bộ cài đặt; tóm tắt vào `tap.md` cho người đọc. Script ghi chữ + cài đặt từng chương vào `audio/voice-meta.json`: chạy lại chỉ gen chương đã đổi chữ hoặc cài đặt (đỡ tốn credit); `--dry-run` liệt kê việc sẽ làm và số ký tự mà không gọi API; `--force` gen lại hết. Audio đã có mà chưa có meta (gen từ bản cũ) được giữ nguyên.
 - Lỗi mạng, 429, 5xx được thử lại có chờ; riêng lệnh tạo tác vụ (tốn credit) chỉ thử lại khi chắc chưa tạo. Một chương quá 15 phút chưa xong thì dừng và báo, kiểm tra lịch sử trên GenMax trước khi gen lại.
-- Gen chương 1, cho người dùng nghe, rồi mới gen cả tập.
+- Gen chương 1, nghe duyệt, rồi mới gen cả tập.
 
 **Chọn giọng mới**: gen cùng một đoạn 60 giây (có thoại, cảm xúc, số, vài tên Hán Việt như Phó Cảnh Thâm, Hoắc Đình) trên 2–3 lựa chọn, nghe ở tốc độ thật, chọn theo: tự nhiên → thanh điệu và tên đúng → giá. Kiểu giọng của thể loại: nữ, ấm, ngắt nghỉ có cảm xúc, đổi sắc thái khi vào vai. Lựa chọn khác GenMax: ElevenLabs (biểu cảm, có mốc thời gian từng chữ), FPT.AI / Viettel AI / Vbee (giọng Việt bản địa, rẻ), CapCut TTS (miễn phí). Giá và phiên bản đổi nhanh, kiểm tra lại trước khi chốt.
 
@@ -48,7 +49,7 @@ Mọi chữ và màu cố định của kênh nằm ở `channel/channel.json`, 
 
 ## 4. Footage (bước 6)
 
-**Chọn chủ đề** theo `edit-yeu-cau.md` (kiểu đang dùng, kiểu bị chê). Chủ đề footage (cập nhật 2026-11-19), chọn một chủ đề cho cả tập:
+**Chọn chủ đề** theo `edit-yeu-cau.md` (kiểu hình dùng và không dùng). Chọn một chủ đề cho cả tập:
 
 1. Nấu ăn cận cảnh
 2. Làm bánh
@@ -61,7 +62,22 @@ Mọi chữ và màu cố định của kênh nằm ở `channel/channel.json`, 
 9. Làm nail
 10. Ghép hình cận cảnh, dán sticker DIY cận cảnh
 
-**Một tập, một chủ đề, một tag**: mỗi tập chỉ dùng footage của đúng một chủ đề ở danh sách trên (tập đã chọn nấu ăn thì chỉ lấy clip nấu ăn, không lẫn chủ đề khác). Mỗi chủ đề có một tag riêng, đặt theo chủ đề, dùng làm tiền tố tên file và làm `footageTag` trong `episode.json`; clip khác chủ đề không đưa vào tag đó.
+**Một tập, một chủ đề, một tag**: mỗi tập chỉ dùng footage của đúng một chủ đề ở danh sách trên. Mỗi chủ đề có một tag, dùng làm tên thư mục, tiền tố tên file và `footageTag` trong `episode.json`; clip khác chủ đề không đưa vào tag đó.
+
+**Cấu trúc thư mục** (dùng chung mọi tập, không nằm trong thư mục tập):
+
+```
+public/footage/
+  manifest.json        # do script sinh: {tag, src, sec, width, height} từng clip
+  cook/
+    cook-01.mp4        # clip đã chuẩn hóa
+    cook-02.mp4
+    sources.txt        # nguồn, giấy phép, ngày tải, cách crop từng clip (có trong git)
+  pottery/
+    ...
+```
+
+Kiểm kho: `node scripts/footage-manifest.mjs` quét lại mọi thư mục tag, ghi manifest và in bảng số clip, tổng phút, số clip dọc/ngang/vuông theo từng tag. File `.mp4` và `manifest.json` không vào git (tải lại theo `sources.txt`).
 
 | Chủ đề | Tag |
 |---|---|
@@ -78,9 +94,9 @@ Mọi chữ và màu cố định của kênh nằm ở `channel/channel.json`, 
 
 Quan sát 2026-11-19: nhiều kênh hiệu suất cao ghi kiểu footage ngay trong tiêu đề, phổ biến nhất là **tô màu, vẽ tranh, nấu ăn**: cận cảnh tay làm việc chậm, đều, không lộ mặt, quay được hàng giờ. Giữ một chủ đề cho nhiều tập liền để kênh có nhận diện.
 
-**Độ dài và lượng**: mỗi clip nguồn **từ 5 phút trở lên** (ưu tiên 30 phút–1 giờ), vì Pexels, Pixabay và các kho clip ngắn tương tự gần như toàn video vài giây đến vài chục giây, không đủ nền cho tập 35–60 phút mà ít lặp. Clip dài thì cần ít clip hơn: tối thiểu 4 clip, tập 45–60 phút nên 6–10 clip (ước đoán). `FootageTrack` bắt đầu mỗi cảnh ở một điểm ngẫu nhiên trong clip nên clip càng dài càng ít lặp. Khung dọc là tốt nhất; clip ngang vẫn dùng được (`prep-footage` cắt giữa khung 9:16), nên chọn cảnh có tay hoặc vật chính nằm giữa khung.
+**Độ dài và lượng**: mỗi clip nguồn **từ 5 phút trở lên** (ưu tiên 30 phút–1 giờ), vì Pexels, Pixabay và các kho clip ngắn tương tự gần như toàn video vài giây đến vài chục giây, không đủ nền cho tập 35–60 phút mà ít lặp. Clip dài thì cần ít clip hơn: tối thiểu 4 clip, tập 45–60 phút nên 6–10 clip (ước đoán). `FootageTrack` bắt đầu mỗi cảnh ở một điểm ngẫu nhiên trong clip nên clip càng dài càng ít lặp. **Hướng clip**: `prep-footage` giữ tỉ lệ gốc; Remotion khớp clip vào từng khung (phủ kín nếu cắt ≤ 20% diện tích, ngược lại hiện trọn với viền đen). Clip ngang 16:9 phủ kín bản YouTube; ở bản TikTok dọc nó hiện thành dải ngang giữa khung. Clip dọc phủ kín bản TikTok; ở bản YouTube có viền đen hai bên. Tag dùng cho cả hai bản nên có cả hai hướng; chọn cảnh có tay hoặc vật chính nằm giữa khung.
 
-**Tìm clip dài, đa dạng nguồn**: không dựa vào một hai kho. Tiêu chí chung: giấy phép cho phép dùng thương mại và đăng lại mà không cần xin phép từng clip, không dán logo hay chữ lên hình, không có người nổi tiếng hay tác phẩm của người khác lồng trong hình. Ghi nguồn và giấy phép từng clip vào `footage-sources.txt`.
+**Tìm clip dài, đa dạng nguồn**: không dựa vào một hai kho. Tiêu chí chung: giấy phép cho phép dùng thương mại và đăng lại mà không cần xin phép từng clip, không dán logo hay chữ lên hình, không có người nổi tiếng hay tác phẩm của người khác lồng trong hình. Ghi nguồn và giấy phép từng clip vào `public/footage/<tag>/sources.txt`.
 
 | Nhóm nguồn | Ví dụ (ứng viên, chưa kiểm giấy phép hiện hành: đọc lại điều khoản trước khi tải) | Ghi chú |
 |---|---|---|
@@ -93,30 +109,34 @@ Quan sát 2026-11-19: nhiều kênh hiệu suất cao ghi kiểu footage ngay tr
 
 **Từ khóa tìm clip dài**: ghép chủ đề với `asmr`, `long`, `1 hour` (ví dụ: `pottery asmr 1 hour`, `cake decorating long`, `nail art asmr long`, `paint by number asmr long`, `night ambience 1 hour`), và biến thể `relaxing`, `no talking`, `no music`, `satisfying`, `full process`, `timelapse`. Danh sách từ khóa theo chủ đề ở `edit-yeu-cau.md`.
 
-**Tải clip tự động bằng Claude in Chrome** (cập nhật 2026-11-19): clip dài thường nằm trên YouTube, TikTok hoặc nền tảng khác, không có nút tải. Claude thao tác trong Chrome của người dùng (công cụ `mcp__claude-in-chrome__*`, đọc skill `chrome-browser` trước, nạp công cụ một lần bằng ToolSearch), mở tab mới để làm, không đụng tab đang có.
+**Tải clip tự động bằng Claude in Chrome** (cập nhật 2026-11-19): clip dài thường nằm trên YouTube, TikTok hoặc nền tảng khác, không có nút tải. Claude thao tác trong Chrome qua Claude in Chrome (công cụ `mcp__claude-in-chrome__*`, đọc skill `chrome-browser` trước, nạp công cụ một lần bằng ToolSearch), mở tab mới để làm, không đụng tab đang có.
 
 | Nguồn clip | Trang tải | Cách làm |
 |---|---|---|
 | YouTube | https://ytsave.to/en2/ | Dán link video vào ô, bấm bắt đầu, chọn MP4 độ phân giải từ 1080p (không có thì 720p), bấm tải |
-| TikTok | https://snaptik.app/en3 | Dán link video, bấm tải, chọn bản không logo (no watermark) |
+| TikTok | https://snaptik.app/en3 (dự phòng: snaptik.vn) | Dán link video, bấm tải, chọn bản không logo (no watermark) |
 | Nền tảng khác (Instagram, Facebook, Douyin, Xiaohongshu, Bilibili...) | Tìm Google: `download <tên nền tảng> video no watermark`, chọn trang công cụ tải phổ biến đầu kết quả | Cùng cách: dán link, chọn bản không logo, tải |
 
 Quy trình mỗi clip:
 1. Tìm video theo từ khóa ở trên ngay trên nền tảng gốc (YouTube: lọc "Over 20 minutes"), mở xem lướt vài điểm để chắc cận cảnh tay, không chữ, không logo, không mặt, đúng chủ đề tập. Ghi link, tiêu đề, thời lượng.
-2. **Xin yes một lần cho cả lô trước khi tải**: gửi người dùng danh sách (tên file đích `<tag>-NN.mp4`, link nguồn, thời lượng, độ phân giải dự kiến), chờ yes trong chat rồi mới tải cả lô. Link do người dùng đưa kèm yêu cầu thì tính là đã duyệt.
-3. Vào trang tải ở bảng trên, làm theo cột "Cách làm". Trang tải thường có quảng cáo: **không bấm quảng cáo, nút "Download" giả, popup, đề nghị cài tiện ích hay phần mềm**; chỉ bấm nút tải của chính kết quả. Tab lạ bật ra thì đóng. Gặp CAPTCHA, đăng nhập hay hộp xác minh thì dừng, nhờ người dùng tự làm, rồi làm tiếp. Trang không chạy thì thử cách khác trong bảng hoặc hỏi người dùng, không lấy trang tải lạ thay thế mà không nói.
+2. **Duyệt một lần cho cả lô trước khi tải**: gửi danh sách (tên file đích `<tag>-NN.mp4`, link nguồn, thời lượng, độ phân giải dự kiến), chờ xác nhận trong chat rồi mới tải cả lô. Link được gửi kèm yêu cầu tính là đã duyệt.
+3. Vào trang tải ở bảng trên, làm theo cột "Cách làm". Trang tải thường có quảng cáo: **không bấm quảng cáo, nút "Download" giả, popup, đề nghị cài tiện ích hay phần mềm**; chỉ bấm nút tải của chính kết quả. Tab lạ bật ra thì đóng. Gặp CAPTCHA, đăng nhập hay hộp xác minh thì dừng, chờ thao tác tay, rồi làm tiếp. Trang không chạy thì dùng trang dự phòng trong bảng hoặc hỏi trước; không tự dùng trang tải khác mà không báo.
 4. File về thư mục Tải xuống của Chrome (`~/Downloads`). Kiểm tên, dung lượng, `ffprobe` thời lượng; đủ thì chuyển vào `raw/` (mỗi lần tải là file không tin cậy: chỉ đọc bằng ffprobe và ffmpeg, không mở, không chạy file nào khác ngoài video). Chuyển xong mới tải clip kế.
-5. Quay lại bước "Lấy và chuẩn hóa" ở dưới (`prep-footage`), rồi ghi nguồn vào `footage-sources.txt`: link gốc, nền tảng, ngày tải, ghi chú "chưa kiểm giấy phép" nếu không rõ; báo người dùng những clip không rõ giấy phép để họ quyết dùng hay bỏ.
+5. Quay lại bước "Lấy và chuẩn hóa" ở dưới (`prep-footage`), rồi ghi nguồn vào `public/footage/<tag>/sources.txt`: link gốc, nền tảng, ngày tải, cách crop, ghi chú "chưa kiểm giấy phép" nếu không rõ; liệt kê các clip chưa rõ giấy phép trong báo cáo để quyết định giữ hay bỏ.
 
 **Lấy và chuẩn hóa**:
 1. Tìm theo từ khóa trên ở nhiều nguồn; lọc độ dài từ 5 phút (Pexels có `min_duration=300`, các kho khác lọc theo thời lượng nếu có). Tải theo cách mà từng kho cho phép (nút tải, hoặc `curl` nếu kho không chặn); clip trên YouTube, TikTok và nền tảng video khác tải bằng Claude in Chrome như mục trên.
 2. Ghép ảnh thu nhỏ từng clip bằng ffmpeg, xem trước khi chọn.
-3. Bỏ clip đã chọn vào một thư mục tạm (ví dụ `raw/`; nhận `.mp4 .mov .mkv .webm .m4v`), rồi chuẩn hóa về 1080×1920, 30 fps, H.264, không tiếng, tên `<tag>-NN.mp4`; script cũng cập nhật manifest. Mỗi clip bị cắt ở tối đa 900 giây (15 phút) để file không quá nặng; đổi bằng tham số thứ ba (giây). Clip dài tốn thời gian mã hóa:
+3. Bỏ clip đã chọn vào một thư mục tạm (ví dụ `raw/`; nhận `.mp4 .mov .mkv .webm .m4v`), rồi chuẩn hóa: giữ tỉ lệ gốc, cạnh ngắn 1080 px (dọc 1080×1920, ngang 1920×1080), 30 fps, H.264, không tiếng. Script ghi `public/footage/<tag>/<tag>-NN.mp4` (số tiếp theo của tag) và cập nhật manifest. Clip dài tốn thời gian mã hóa:
    ```bash
-   node scripts/prep-footage.mjs raw cook [giây tối đa]   # cook = tag của chủ đề, xem bảng trên
+   node scripts/prep-footage.mjs raw cook                          # cook = tag của chủ đề
+   node scripts/prep-footage.mjs raw cook --start=12 --max=600     # bỏ 12 giây đầu, lấy tối đa 600 giây
+   node scripts/prep-footage.mjs raw cook --crop=top               # bỏ 28% dải dưới (watermark, chữ ở đáy)
+   node scripts/prep-footage.mjs raw cook --crop=square            # ô vuông giữa khung, bỏ logo hai bên và dải dưới
    ```
-4. Ghi nguồn và giấy phép từng clip vào `footage-sources.txt` trong thư mục tập (`cook-01.mp4 <- internet-archive <id> | CC0`), ghi tag vào `tap.md`.
-5. Xóa clip ứng viên không dùng và file tạm; `public/footage/` chỉ giữ clip đang dùng.
+   `--max` mặc định 900 giây (15 phút) để file không quá nặng. Mọi clip trong thư mục dùng chung `--start` và `--crop`; clip cần mốc hoặc crop khác nhau thì chạy từng clip một.
+4. Ghi nguồn và giấy phép từng clip vào `public/footage/<tag>/sources.txt` (`cook-01.mp4 <- internet-archive <id> | CC0 | crop top`), ghi tag vào `tap.md`.
+5. Xóa clip ứng viên không dùng và file tạm; mỗi thư mục tag chỉ giữ clip đang dùng. Xóa hoặc đổi tên clip thì chạy lại `node scripts/footage-manifest.mjs`.
 
 ## 5. Dựng và render (bước 7)
 
@@ -127,44 +147,55 @@ Quy trình mỗi clip:
 | `title` | Chữ thẻ hook 3 giây đầu bản YouTube |
 | `voice` | Cài đặt giọng của tập cho `gen-voice` (mục 2); Remotion không dùng |
 | `episodeLabel` | Nhãn góc trên trái và thẻ chào; `build-audio` tự điền từ `channel/channel.json`, không sửa tay |
-| `audioSrc` | `epNNN/audio.mp3` (do `build-audio` điền) |
-| `captionsSrc` | `""` = tắt phụ đề; `epNNN/captions.json` khi bật |
+| `audioSrc` | `<mã>/audio.mp3` (do `build-audio` điền) |
+| `captionsSrc` | `""` = tắt phụ đề; `<mã>/captions.json` khi bật |
 | `footageTag`, `cutEverySec`, `dim` | Tag footage, giây mỗi cảnh, độ tối nền (giá trị trong `edit-yeu-cau.md`) |
 | `chapters[].title` | Tên chương (thành timestamp YouTube). `startSec` do script điền |
 | `parts[]` | `{"chapters": [đầu, cuối], "hook": "chữ hook phần"}` theo bảng chia phần trong `outline.md` |
-| `thumbText`, `thumbBg` | Chữ ảnh bìa (4–8 từ, `dang-bai.md` mục 2) và ảnh nền `epNNN/thumb-bg.jpg` (`build-audio` điền sẵn đường dẫn) |
+| `thumbText`, `thumbBg`, `thumbFocus`, `thumbTag`, `thumbAlt` | Ảnh bìa: chữ hook (`|` ngắt dòng, `*cụm*` tô màu nhấn), ảnh nhân vật `<mã>/thumb-bg.jpg` (tạo bằng `prep-thumb`), khung ảnh, nhãn phụ, các phương án A/B. Quy tắc ở `dang-bai.md` mục 2 |
 | `introSec` | Do `build-audio` điền |
 
 **Chạy**:
 ```bash
-node scripts/build-audio.mjs ep001       # ghép intro + chương, điền startSec, ghi out/chapters.txt
-ffmpeg -ss 12 -i public/footage/<tag>-03.mp4 -frames:v 1 public/ep001/thumb-bg.jpg   # nền ảnh bìa
-npx remotion studio src/index.ts         # xem trước Episode / Clip / Thumbnail
-node scripts/render-episode.mjs ep001     # youtube.mp4, tiktok-NN.mp4, thumb.png (thêm --only=, --parts=1,3, --cut: xem "Render chậm")
+node scripts/build-audio.mjs tc005       # ghép intro + chương, điền startSec, ghi out/chapters.txt
+node scripts/prep-thumb.mjs tc005 raw/anh.jpg   # ảnh nhân vật cho bìa -> public/tc005/thumb-bg.jpg (dang-bai.md mục 2)
+npx remotion studio src/index.ts         # xem trước Episode (ngang) / Clip (dọc) / Thumbnail
+node scripts/render-episode.mjs tc005     # youtube.mp4, tiktok-NN.mp4, thumb.png (thêm --only=, --parts=1,3)
 ```
 
-Thử nhanh một đoạn: `npx remotion render src/index.ts Episode .tmp/test.mp4 --props=episodes/ep001-<slug>/episode.json --frames=0-300 --scale=0.5`.
+| Đầu ra | Composition | Khung |
+|---|---|---|
+| `out/youtube.mp4` | `Episode` | Ngang 1920×1080; câu chào, thẻ hook, nhãn tên kênh |
+| `out/tiktok-NN.mp4` | `Clip` | Dọc 1080×1920; thẻ hook phần, nhãn "Phần n/N"; không câu chào |
+| `out/tiktok-NN-cover.png` | `TikTokCover` | 1080×1920; bìa phần (`--only=cover` để render riêng) |
+| `out/thumb.png` (+ `thumb-2.png`... từ `thumbAlt`) | `Thumbnail` | 1280×720 |
+
+Thử nhanh một đoạn: `npx remotion render src/index.ts Episode .tmp/test.mp4 --props=episodes/<thể-loại>/<mã>-<slug>/episode.json --frames=0-300 --scale=0.5`.
 
 **Kiểm tra trước khi báo xong**: xem lướt đầu (câu chào, thẻ hook), một chỗ chuyển chương, đoạn cuối; thời lượng khớp tổng audio; mỗi `tiktok-NN.mp4` bắt đầu đúng đầu chương. Xem một khung bất kỳ không cần mở video: `ffmpeg -ss 00:00:05 -i out/youtube.mp4 -frames:v 1 .tmp/khung.png` (hoặc `npx remotion still src/index.ts Episode .tmp/khung.png --frame=150 --props=...`). Ghi `--overwrite` nếu file đã có, để không xem nhầm ảnh cũ.
 
-**Render chậm**: mặc định mọi phần TikTok đều render bằng `Clip` (đủ thẻ hook và nhãn "Phần n/N"), nên tổng thời gian cỡ gấp đôi bản YouTube (ước tính từ tập thử, chưa đo với footage thật 45 phút). Muốn nhanh: `--parts=1,3` chỉ render vài phần; `--cut` giữ Phần 1 render bằng `Clip`, còn phần 2 trở đi cắt thẳng từ `out/youtube.mp4` bằng ffmpeg (cần render YouTube trước), nhanh hơn nhiều nhưng **không có thẻ hook và nhãn phần**. Cắt tay một phần (mốc trong `out/chapters.txt`; `--cut` làm đúng việc này):
-```bash
-ffmpeg -ss 00:09:41 -to 00:19:05 -i out/youtube.mp4 -c:v libx264 -crf 20 -c:a aac out/tiktok-02.mp4
-```
+**Thời gian render**: bản YouTube và các phần TikTok khác khung nên render riêng; tổng thời gian cỡ gấp đôi một bản (ước tính, chưa đo với tập 45 phút). Render lại vài phần: `--parts=1,3`. Không cắt phần TikTok từ `youtube.mp4` (khác hướng khung; tùy chọn `--cut` cũ đã bỏ).
 
 **Bật lại phụ đề**: repo không còn công cụ phiên âm (đã gỡ whisper 2026-11-19). Chỉ còn bản tạm, mốc chia theo số ký tự nên sẽ lệch so với giọng thật:
 ```bash
-node scripts/rough-captions.mjs ep001     # chữ lấy từ chNN.tts.txt -> public/ep001/captions.json
+node scripts/rough-captions.mjs tc005     # chữ lấy từ chNN.tts.txt -> public/tc005/captions.json
 ```
-Rồi đặt `captionsSrc` thành `epNNN/captions.json`. Muốn khớp từng chữ cần một nguồn mốc thời gian khác (ví dụ dịch vụ giọng trả mốc từng chữ); hỏi người dùng trước khi thêm công cụ.
+Rồi đặt `captionsSrc` thành `<mã>/captions.json`. Khớp từng chữ cần một nguồn mốc thời gian khác (ví dụ dịch vụ giọng trả mốc từng chữ); thêm công cụ mới cần duyệt trước.
 
-**Vùng an toàn** (khung 1080×1920, dùng chung TikTok và YouTube): chừa trên ~220 px, dưới ~520 px, phải ~160 px, trái ~80 px. Hằng số `SAFE` ở `src/ui.tsx`.
+**Vùng an toàn** (`PORTRAIT`, `LANDSCAPE` trong `src/ui.tsx`, chọn tự động theo hướng khung):
+
+| Khung | Trên | Dưới | Trái | Phải |
+|---|---|---|---|---|
+| Dọc 1080×1920 (TikTok) | 220 | 520 | 80 | 160 |
+| Ngang 1920×1080 (YouTube) | 70 | 120 | 100 | 100 |
 
 | Lỗi | Cách xử lý |
 |---|---|
-| "Không có footage cho tag" | Sửa `footageTag` cho khớp tiền tố file, chạy `footage-manifest.mjs` |
+| "Không có footage cho tag" | Kiểm `public/footage/<footageTag>/` có clip; chạy `node scripts/footage-manifest.mjs` |
+| Clip nằm thẳng trong `public/footage/` bị bỏ qua | Chuyển vào thư mục tag rồi chạy lại `footage-manifest.mjs` |
+| Viền đen ở bản YouTube | Đúng thiết kế khi clip dọc hoặc vuông; muốn phủ kín thì thêm clip ngang vào tag |
 | Phần TikTok lệch chương | Chạy lại `build-audio.mjs` (startSec còn 0) |
-| Video dài/ngắn sai | Kiểm tra `public/epNNN/audio.mp3`, xem lỗi `calculateMetadata` trong Studio |
+| Video dài/ngắn sai | Kiểm tra `public/<mã>/audio.mp3`, xem lỗi `calculateMetadata` trong Studio |
 | Hình giật | Footage chưa chuẩn hóa `fps=30` |
 | Mất dấu tiếng Việt | Font thiếu subset `vietnamese` |
 | Lỗi phiên bản gói | `npx remotion versions`, cài mọi `@remotion/*` cùng phiên bản |

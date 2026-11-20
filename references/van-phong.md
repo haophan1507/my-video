@@ -80,7 +80,7 @@ Kể về phản diện dùng "bà ta", "cô ta" để người nghe biết ngư
 
 ## 6. Prompt viết chương
 
-Lặp cho chương 1 → N. Lưu `episodes/epNNN-*/script/chNN.txt`.
+Lặp cho chương 1 → N. Lưu `episodes/<thể-loại>/<mã>-*/script/chNN.tts.txt` (file duy nhất của chương, đây là chữ gửi thẳng cho giọng đọc, nên viết sẵn dạng đọc được).
 
 ```
 Viết chương [n]/[N] theo dàn ý dưới đây, ~[700–1.100] chữ.
@@ -99,7 +99,7 @@ VĂN PHONG:
 [Tóm tắt 2–3 câu cho mỗi chương đã viết]
 ```
 
-Không đưa các dòng "Lưu ý" trong file nguồn vào `chNN.txt`.
+Không đưa các dòng "Lưu ý" trong file nguồn vào `chNN.tts.txt`.
 
 ## 7. Soát mỗi chương
 

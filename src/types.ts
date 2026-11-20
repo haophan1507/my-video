@@ -1,6 +1,7 @@
 import type {Caption} from '@remotion/captions';
 
-export type FootageItem = {src: string; sec: number};
+// Một mục trong public/footage/manifest.json (scripts/footage-manifest.mjs ghi)
+export type FootageItem = {tag: string; src: string; sec: number; width?: number; height?: number};
 export type Chapter = {title: string; startSec: number};
 export type Part = {chapters: number[]; hook: string};
 
@@ -13,7 +14,11 @@ export type EpisodeProps = {
   audioSrc: string; captionsSrc: string; footageTag: string;
   cutEverySec: number; dim: number; hookSec: number;
   chapters: Chapter[]; parts: Part[];
-  thumbText: string; thumbBg: string;
+  // Ảnh bìa: thumbText dùng "|" ngắt dòng, *chữ* tô màu nhấn; thumbFocus = object-position của ảnh ("50% 30%");
+  // thumbTag = nhãn nhỏ dưới hook ("Trọn bộ"), bỏ trống thì ẩn
+  thumbText: string; thumbBg: string; thumbFocus?: string; thumbTag?: string;
+  coverFocus?: string; // khung ảnh ở bìa TikTok dọc (mặc định theo thumbFocus)
+  thumbAlt?: Partial<Pick<EpisodeProps, 'thumbText' | 'thumbBg' | 'thumbFocus' | 'thumbTag'>>[]; // phương án A/B: thumb-2.png...
   part: number;
   introSec: number; // build-audio điền: độ dài đoạn chào kênh ở đầu bản dài (0 = không có)
   // calculateMetadata điền:

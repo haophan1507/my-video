@@ -1,4 +1,4 @@
-# s006. Hôn nhân vì lợi ích: "ai sống phần nấy", rồi tối kỷ niệm một năm anh quỳ cầu ta
+# tc003. Hôn nhân vì lợi ích: "ai sống phần nấy", rồi tối kỷ niệm một năm anh quỳ cầu ta
 
 - **Thể loại**: hào môn / cưới trước yêu sau (ngọt, nhẹ, ít bùng nổ)
 - **Nguồn**: Zhihu, truyện có chữ "（完）" ở cuối. Đã đọc toàn văn.

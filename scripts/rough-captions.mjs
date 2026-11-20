@@ -1,4 +1,4 @@
-// node scripts/rough-captions.mjs ep001 — phụ đề TẠM: chia thời gian theo số ký tự mỗi chương.
+// node scripts/rough-captions.mjs tc005 — phụ đề TẠM: chia thời gian theo số ký tự mỗi chương.
 // Không khớp từng chữ với giọng thật (repo không còn công cụ phiên âm); mốc lệch, chỉ để xem thử bố cục phụ đề.
 import fs from 'node:fs';
 import {execFileSync} from 'node:child_process';

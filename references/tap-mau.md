@@ -1,9 +1,9 @@
-# epNNN: <tên tập>
+# <mã>: <tên tập>
 
-<!-- Mẫu hồ sơ tập. Chép thành episodes/epNNN-slug/tap.md khi mở tập mới.
-     Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất mà người dùng chưa chốt. -->
+<!-- Mẫu hồ sơ tập. Chép thành episodes/<thể-loại>/<mã>-slug/tap.md khi mở tập mới.
+     Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
 
-- **Truyện nguồn**: <sNNN, đường dẫn trong stories/>
+- **Truyện nguồn**: <mã, đường dẫn trong stories/>
 - **Bước hiện tại**: 1
 - **Cập nhật**: <yyyy-mm-dd>
 
@@ -21,7 +21,7 @@
 | Chia phần TikTok | |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
-| Ảnh bìa: chữ 4–8 từ, nền A (footage) hoặc B (ảnh người châu Á) | |
+| Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
 | Teaser TikTok 60–90 giây | |
 | Lịch đăng | |
 
@@ -29,10 +29,10 @@
 
 - [ ] 1. Chọn truyện
 - [ ] 2. Dàn ý: `outline.md`
-- [ ] 3. Viết chương: `script/chNN.txt`
-- [ ] 4. Chuẩn hóa: `script/chNN.tts.txt`
+- [ ] 3. Viết chương: `script/chNN.tts.txt`
+- [ ] 4. Soát TTS: báo cáo `normalize-vi.mjs` sạch
 - [ ] 5. Giọng: `audio/chNN.mp3`
-- [ ] 6. Footage: `public/footage/<tag>-*.mp4`
+- [ ] 6. Footage: `public/footage/<tag>/`
 - [ ] 7. Render: `out/`
 - [ ] 8. Đăng
 

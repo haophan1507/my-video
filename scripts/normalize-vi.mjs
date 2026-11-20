@@ -1,12 +1,13 @@
 #!/usr/bin/env node
-// Chuẩn hóa kịch bản tiếng Việt trước khi gen giọng (TTS).
-// Cách dùng:  node scripts/normalize-vi.mjs ep001
-// Mỗi chNN.txt -> chNN.tts.txt cạnh nó, kèm báo cáo những chỗ cần sửa tay.
+// Soát và chuẩn hóa kịch bản tiếng Việt trước khi gen giọng (TTS).
+// Cách dùng:  node scripts/normalize-vi.mjs tc005 [--fix]
+// Làm việc trực tiếp trên chNN.tts.txt (file duy nhất của chương). Mặc định chỉ in báo cáo những chỗ cần sửa tay;
+// --fix ghi đè tại chỗ sau khi đổi số, tiền, giờ, ngày, phần trăm thành chữ, mở viết tắt, bỏ markdown/emoji (chạy lại nhiều lần vẫn an toàn).
 
 import fs from 'node:fs';
 import {pathToFileURL} from 'node:url';
 import path from 'node:path';
-import {epPaths} from './lib/paths.mjs';
+import {epPaths, ID_RE} from './lib/paths.mjs';
 
 // ---- Cấu hình: chỉnh theo giọng đọc của kênh ----
 const LE = 'lẻ';        // 105 = "một trăm lẻ năm"; giọng Bắc hay dùng "linh"
@@ -198,28 +199,31 @@ const printReport = (file, r) => {
   list('Chữ số còn sót', r.digits);
 };
 
-const main = (args) => {
+const main = (argv) => {
+  const fix = argv.includes('--fix');
+  const args = argv.filter((a) => a !== '--fix');
   if (!args.length) {
-    console.error('Cách dùng: node scripts/normalize-vi.mjs ep001   (hoặc liệt kê file .txt)');
+    console.error('Cách dùng: node scripts/normalize-vi.mjs tc005 [--fix]   (hoặc liệt kê file chNN.tts.txt)');
     process.exit(1);
   }
-  // Mã tập: tự lấy mọi script/chNN.txt (không phụ thuộc shell mở glob, chạy được trên Windows)
+  // Mã tập: tự lấy mọi script/chNN.tts.txt (không phụ thuộc shell mở glob, chạy được trên Windows)
   let files = args;
-  if (args.length === 1 && /^ep\d{3}/.test(args[0])) {
+  if (args.length === 1 && ID_RE.test(args[0])) {
     const {script} = epPaths(args[0]);
-    files = fs.readdirSync(script).filter((f) => /^ch\d+\.txt$/.test(f)).sort().map((f) => path.join(script, f));
+    files = fs.readdirSync(script).filter((f) => /^ch\d+\.tts\.txt$/.test(f)).sort().map((f) => path.join(script, f));
+    if (!files.length) { console.error(`Không có chNN.tts.txt trong ${script}`); process.exit(1); }
   }
   let chars = 0, minutes = 0;
-  for (const f of files.filter((x) => x.endsWith('.txt') && !x.endsWith('.tts.txt'))) {
+  for (const f of files) {
     const out = normalize(fs.readFileSync(f, 'utf8'));
-    const dest = f.replace(/\.txt$/, '.tts.txt');
-    fs.writeFileSync(dest, out);
+    if (fix) fs.writeFileSync(f, out);
     const r = report(out);
-    printReport(dest, r);
+    printReport(f, r);
     chars += r.chars;
     minutes += r.minutes;
   }
-  console.log(`\nTổng: ${chars} ký tự, ~${minutes.toFixed(1)} phút`);
+  console.log(`
+Tổng: ${chars} ký tự, ~${minutes.toFixed(1)} phút${fix ? ' (đã ghi đè tại chỗ)' : ' (chỉ báo cáo; thêm --fix để ghi đè)'}`);
 };
 
 if (import.meta.url === pathToFileURL(process.argv[1]).href) main(process.argv.slice(2));

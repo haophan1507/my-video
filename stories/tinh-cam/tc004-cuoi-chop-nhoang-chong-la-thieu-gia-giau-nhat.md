@@ -1,4 +1,4 @@
-# s008. Cưới chớp nhoáng với anh thợ sửa xe, hóa ra anh là thái tử tập đoàn giàu nhất Hải Thành
+# tc004. Cưới chớp nhoáng với anh thợ sửa xe, hóa ra anh là thái tử tập đoàn giàu nhất Hải Thành
 
 - **Thể loại**: thân phận ẩn / cưới chớp nhoáng / vả mặt (hả hê ngọt)
 - **Nguồn**: Zhihu, truyện có chữ "（全文完）" ở cuối. Đã đọc toàn văn, bản dài nhất trong mười truyện.

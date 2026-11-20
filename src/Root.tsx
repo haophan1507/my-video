@@ -3,11 +3,14 @@ import type {Caption} from '@remotion/captions';
 import {Input, ALL_FORMATS, UrlSource} from 'mediabunny';
 import {Story} from './Story';
 import {Clip} from './Clip';
-import {Thumbnail} from './Thumbnail';
+import {Thumbnail, TikTokCover} from './Thumbnail';
 import {partRange, type EpisodeProps, type FootageItem} from './types';
 import {validateEpisode} from './validate';
 
 export const FPS = 30;
+// YouTube: khung ngang 16:9. TikTok: khung dọc 9:16. Ảnh bìa YouTube 1280×720.
+export const YOUTUBE = {width: 1920, height: 1080};
+export const TIKTOK = {width: 1080, height: 1920};
 
 const audioSeconds = (src: string) =>
   new Input({formats: ALL_FORMATS, source: new UrlSource(src)}).computeDuration();
@@ -25,8 +28,8 @@ const loadEpisode: CalculateMetadataFunction<EpisodeProps> = async ({props}) => 
     getJson<FootageItem[]>('footage/manifest.json'),
     props.captionsSrc ? getJson<Caption[]>(props.captionsSrc) : Promise.resolve([] as Caption[]),
   ]);
-  const footage = manifest.filter((f) => f.src.startsWith(`footage/${props.footageTag}-`));
-  if (!footage.length) throw new Error(`Không có footage cho tag "${props.footageTag}"`);
+  const footage = manifest.filter((f) => f.tag === props.footageTag);
+  if (!footage.length) throw new Error(`Không có footage cho tag "${props.footageTag}" (public/footage/${props.footageTag}/). Chạy node scripts/footage-manifest.mjs`);
   const full = {...props, audioSec, footage, captions};
   const {startSec, endSec} = partRange(full);
   const tail = props.part ? 0 : FPS;
@@ -35,19 +38,20 @@ const loadEpisode: CalculateMetadataFunction<EpisodeProps> = async ({props}) => 
 
 const defaults: EpisodeProps = {
   title: 'Tiêu đề hook', episodeLabel: 'Tập 1',
-  audioSrc: 'ep000/audio.mp3', captionsSrc: '', footageTag: 'craft',
+  audioSrc: 'xx000/audio.mp3', captionsSrc: '', footageTag: 'craft',
   cutEverySec: 6, dim: 0.3, hookSec: 3,
   chapters: [{title: 'Chương 1', startSec: 0}], parts: [{chapters: [1], hook: 'Hook phần 1'}],
-  thumbText: 'Tiêu đề bìa', thumbBg: 'ep000/thumb-bg.jpg',
+  thumbText: 'Tiêu đề bìa', thumbBg: 'xx000/thumb-bg.jpg',
   part: 0, introSec: 0, audioSec: 0, footage: [], captions: [],
 };
 
 export const Root = () => (
   <>
-    <Composition id="Episode" component={Story} fps={FPS} width={1080} height={1920}
+    <Composition id="Episode" component={Story} fps={FPS} {...YOUTUBE}
       durationInFrames={FPS * 60} defaultProps={defaults} calculateMetadata={loadEpisode} />
-    <Composition id="Clip" component={Clip} fps={FPS} width={1080} height={1920}
+    <Composition id="Clip" component={Clip} fps={FPS} {...TIKTOK}
       durationInFrames={FPS * 60} defaultProps={{...defaults, part: 1}} calculateMetadata={loadEpisode} />
     <Still id="Thumbnail" component={Thumbnail} width={1280} height={720} defaultProps={defaults} />
+    <Still id="TikTokCover" component={TikTokCover} {...TIKTOK} defaultProps={{...defaults, part: 1}} />
   </>
 );

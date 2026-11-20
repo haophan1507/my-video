@@ -1,12 +1,13 @@
-// node scripts/render-episode.mjs ep001 [--only=youtube|tiktok|thumb] [--parts=1,3] [--cut]
-//   --only=...   chỉ render bản YouTube, các phần TikTok, hoặc ảnh bìa
-//   --parts=1,3  chỉ render các phần TikTok này (mặc định: mọi phần)
-//   --cut        phần 2 trở đi cắt thẳng từ out/youtube.mp4 bằng ffmpeg: nhanh hơn nhiều nhưng KHÔNG có thẻ hook và nhãn "Phần n/N"
-//                (cần render bản YouTube trước). Mặc định mọi phần đều render bằng Clip, đủ thẻ hook và nhãn.
+// node scripts/render-episode.mjs tc005 [--only=youtube|tiktok|cover|thumb] [--parts=1,3]
+//   youtube.mp4    khung ngang 1920×1080 (composition Episode), có câu chào, thẻ hook, nhãn tên kênh
+//   tiktok-NN.mp4  khung dọc 1080×1920 (composition Clip), mỗi phần render riêng, có thẻ hook và nhãn "Phần n/N"
+//   tiktok-NN-cover.png  bìa phần TikTok 1080×1920 (render cùng phần, hoặc riêng bằng --only=cover)
+//   thumb.png      ảnh bìa YouTube 1280×720
+//   --only=...     chỉ render bản YouTube, các phần TikTok (kèm bìa), chỉ bìa TikTok, hoặc ảnh bìa YouTube
+//   --parts=1,3    chỉ render các phần TikTok này (mặc định: mọi phần)
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import {execFileSync} from 'node:child_process';
 import {bundle} from '@remotion/bundler';
 import {renderMedia, renderStill, selectComposition} from '@remotion/renderer';
 import {epPaths, ROOT} from './lib/paths.mjs';
@@ -17,14 +18,14 @@ const flag = (name) => argv.find((a) => a.startsWith(`--${name}=`))?.slice(name.
 const E = epPaths(argv[0]);
 const only = flag('only');
 const parts = flag('parts')?.split(',').map(Number);
-const cut = argv.includes('--cut');
 const fail = (msg) => { console.error(msg); process.exit(1); };
 
-if (only && !['youtube', 'tiktok', 'thumb'].includes(only)) fail(`--only phải là youtube, tiktok hoặc thumb (nhận: ${only})`);
+if (argv.includes('--cut')) fail('--cut đã bỏ: bản YouTube là khung ngang nên không cắt ra phần TikTok dọc được. Dùng --parts=1,3 để render bớt.');
+if (only && !['youtube', 'tiktok', 'cover', 'thumb'].includes(only)) fail(`--only phải là youtube, tiktok, cover hoặc thumb (nhận: ${only})`);
 if (parts?.some((n) => !Number.isInteger(n))) fail(`--parts phải là danh sách số, ví dụ --parts=1,3 (nhận: ${flag('parts')})`);
 
 const base = JSON.parse(fs.readFileSync(E.json, 'utf8'));
-const errors = validateEpisode(base, {needThumb: !only || only === 'thumb'});
+const errors = validateEpisode(base, {needThumb: !only || ['thumb', 'tiktok', 'cover'].includes(only)});
 if (errors.length) fail(`${E.json} chưa hợp lệ:\n- ${errors.join('\n- ')}`);
 if (parts?.some((n) => n < 1 || n > base.parts.length)) fail(`--parts ngoài khoảng 1–${base.parts.length}`);
 
@@ -44,30 +45,26 @@ const video = async (id, inputProps, file) => {
   console.log();
 };
 
-const duration = (f) => Number(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]).toString());
-
-// Cắt phần n từ bản YouTube. Mốc chương cùng trục thời gian với audio nên cắt thẳng được.
-const cutPart = (n, file) => {
-  const yt = `${outDir}/youtube.mp4`;
-  if (!fs.existsSync(yt)) fail('--cut cần out/youtube.mp4: render bản YouTube trước');
-  const [a, b = a] = base.parts[n - 1].chapters;
-  const start = base.chapters[a - 1].startSec;
-  const end = base.chapters[b]?.startSec ?? duration(yt) - 1; // bản YouTube thừa 1 giây ở cuối
-  console.log(`${file}: cắt ${start}s–${end.toFixed(1)}s từ youtube.mp4 (không có thẻ hook, nhãn phần)`);
-  execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-ss', String(start), '-to', String(end), '-i', yt,
-    '-c:v', 'libx264', '-crf', '20', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-movflags', '+faststart', `${outDir}/${file}`]);
-};
 
 if (!only || only === 'youtube') await video('Episode', {...base, part: 0}, 'youtube.mp4');
-if (!only || only === 'tiktok') {
+if (!only || only === 'tiktok' || only === 'cover') {
   for (let n = 1; n <= base.parts.length; n++) {
     if (parts && !parts.includes(n)) continue;
-    const file = `tiktok-${String(n).padStart(2, '0')}.mp4`;
-    if (cut && n > 1) cutPart(n, file);
-    else await video('Clip', {...base, part: n}, file);
+    const nn = String(n).padStart(2, '0');
+    const props = {...base, part: n};
+    if (only !== 'cover') await video('Clip', props, `tiktok-${nn}.mp4`);
+    const composition = await selectComposition({serveUrl, id: 'TikTokCover', inputProps: props});
+    await renderStill({composition, serveUrl, inputProps: props, output: `${outDir}/tiktok-${nn}-cover.png`});
+    console.log(`tiktok-${nn}-cover.png`);
   }
 }
 if (!only || only === 'thumb') {
-  const composition = await selectComposition({serveUrl, id: 'Thumbnail', inputProps: base});
-  await renderStill({composition, serveUrl, inputProps: base, output: `${outDir}/thumb.png`});
+  // thumb.png từ thumbText/thumbBg; thumb-2.png, thumb-3.png... từ thumbAlt[] (mỗi mục ghi đè vài trường) để A/B test
+  const variants = [base, ...(base.thumbAlt ?? []).map((v) => ({...base, ...v}))];
+  for (const [i, props] of variants.entries()) {
+    const file = i === 0 ? 'thumb.png' : `thumb-${i + 1}.png`;
+    const composition = await selectComposition({serveUrl, id: 'Thumbnail', inputProps: props});
+    await renderStill({composition, serveUrl, inputProps: props, output: `${outDir}/${file}`});
+    console.log(file);
+  }
 }

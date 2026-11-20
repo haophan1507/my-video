@@ -11,9 +11,6 @@ Thumbs.db
 # File sinh ra hoặc nặng: dựng lại được từ kịch bản
 .tmp/
 raw/
-public/footage/
-public/ep*/
-episodes/*/audio/
-episodes/*/out/
-channel/*.mp3
-channel/voice-meta.json
+public/
+episodes/*/*/audio/
+episodes/*/*/out/*.mp4

@@ -1,4 +1,4 @@
-# s010. Mở mắt ra là ba năm sau: ta khóc đi tìm người yêu cũ, hóa ra anh ta đã lấy vợ
+# tc002. Mở mắt ra là ba năm sau: ta khóc đi tìm người yêu cũ, hóa ra anh ta đã lấy vợ
 
 - **Thể loại**: xuyên thời gian / tình cảm trưởng thành / "thoát khỏi mối quan hệ độc hại" (kết ấm, không bạo)
 - **Nguồn**: Zhihu, truyện có chữ "（完）" ở cuối, ngôi một. Đã đọc toàn văn.

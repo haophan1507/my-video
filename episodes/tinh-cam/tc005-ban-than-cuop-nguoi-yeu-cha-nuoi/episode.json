@@ -1,0 +1,37 @@
+{
+  "title": "Bạn thân hôn người yêu tôi ngay sinh nhật",
+  "footageTag": "cook",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "hookSec": 3,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Cánh cửa kho",
+      "startSec": 2.64
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Bạn thân hôn người yêu tôi ngay sinh nhật"
+    }
+  ],
+  "thumbText": "Bạn thân hôn|người yêu tôi|ngay *sinh nhật*",
+  "thumbBg": "tc005/thumb-bg.jpg",
+  "introSec": 2.64,
+  "episodeLabel": "Dưa Hấu Audio",
+  "audioSrc": "tc005/audio.mp3",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%"
+}
