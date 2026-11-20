@@ -45,7 +45,7 @@ node scripts/gen-voice.mjs tc005 [--only 1,3] [--force] [--dry-run]
 node scripts/gen-voice.mjs channel
 ```
 
-Mọi chữ và màu cố định của kênh nằm ở `channel/channel.json`, không sửa trong code: `name`; `introText` (câu chào, dùng `{name}`); `introLabel` (dòng nhỏ trên thẻ chào, `""` = ẩn); `partLabel` (nhãn góc bản TikTok, dùng `{n}` `{total}`); `chapterLabel` (tên chương mặc định, `{n}`); `accent` (màu nhấn); `voice.speed`. Đổi nhãn hoặc màu thì Studio và render theo ngay. Đổi `name` hoặc `introText` thì gen lại câu chào rồi `build-audio` lại từng tập. Font vẫn cố định (Be Vietnam Pro, `src/ui.tsx`).
+Mọi chữ và màu cố định của kênh nằm ở `channel/channel.json`, không sửa trong code: `name`; `introText` (câu chào, dùng `{name}`); `introLabel` (dòng nhỏ trên thẻ chào, `""` = ẩn); `partLabel` (nhãn góc bản TikTok, dùng `{n}` `{total}`); `chapterLabel` (tên chương mặc định, `{n}`); `accent` (màu nhấn); `watermark` (ảnh logo góc trái, tính từ `public/`); `voice.speed`. Đổi nhãn hoặc màu thì Studio và render theo ngay. Đổi `name` hoặc `introText` thì gen lại câu chào rồi `build-audio` lại từng tập. Font vẫn cố định (Be Vietnam Pro, `src/ui.tsx`).
 
 ## 4. Footage (bước 6)
 
@@ -144,9 +144,9 @@ Quy trình mỗi clip:
 
 | Trường | Ý nghĩa |
 |---|---|
-| `title` | Chữ thẻ hook 3 giây đầu bản YouTube |
+| `title` | Tiêu đề tập (không hiện trên hình; dùng cho đăng bài) |
 | `voice` | Cài đặt giọng của tập cho `gen-voice` (mục 2); Remotion không dùng |
-| `episodeLabel` | Nhãn góc trên trái và thẻ chào; `build-audio` tự điền từ `channel/channel.json`, không sửa tay |
+| `episodeLabel` | Tên kênh cho thẻ chào; `build-audio` tự điền từ `channel/channel.json`, không sửa tay |
 | `audioSrc` | `<mã>/audio.mp3` (do `build-audio` điền) |
 | `captionsSrc` | `""` = tắt phụ đề; `<mã>/captions.json` khi bật |
 | `footageTag`, `cutEverySec`, `dim` | Tag footage, giây mỗi cảnh, độ tối nền (giá trị trong `edit-yeu-cau.md`) |
@@ -165,14 +165,14 @@ node scripts/render-episode.mjs tc005     # youtube.mp4, tiktok-NN.mp4, thumb.pn
 
 | Đầu ra | Composition | Khung |
 |---|---|---|
-| `out/youtube.mp4` | `Episode` | Ngang 1920×1080; câu chào, thẻ hook, nhãn tên kênh |
-| `out/tiktok-NN.mp4` | `Clip` | Dọc 1080×1920; thẻ hook phần, nhãn "Phần n/N"; không câu chào |
+| `out/youtube.mp4` | `Episode` | Ngang 1920×1080; câu chào bằng giọng, watermark logo |
+| `out/tiktok-NN.mp4` | `Clip` | Dọc 1080×1920; watermark logo + nhãn "Phần n/N"; không câu chào |
 | `out/tiktok-NN-cover.png` | `TikTokCover` | 1080×1920; bìa phần (`--only=cover` để render riêng) |
 | `out/thumb.png` (+ `thumb-2.png`... từ `thumbAlt`) | `Thumbnail` | 1280×720 |
 
 Thử nhanh một đoạn: `npx remotion render src/index.ts Episode .tmp/test.mp4 --props=episodes/<thể-loại>/<mã>-<slug>/episode.json --frames=0-300 --scale=0.5`.
 
-**Kiểm tra trước khi báo xong**: xem lướt đầu (câu chào, thẻ hook), một chỗ chuyển chương, đoạn cuối; thời lượng khớp tổng audio; mỗi `tiktok-NN.mp4` bắt đầu đúng đầu chương. Xem một khung bất kỳ không cần mở video: `ffmpeg -ss 00:00:05 -i out/youtube.mp4 -frames:v 1 .tmp/khung.png` (hoặc `npx remotion still src/index.ts Episode .tmp/khung.png --frame=150 --props=...`). Ghi `--overwrite` nếu file đã có, để không xem nhầm ảnh cũ.
+**Kiểm tra trước khi báo xong**: xem lướt đầu (vào thẳng footage, watermark), một chỗ chuyển chương, đoạn cuối; thời lượng khớp tổng audio; mỗi `tiktok-NN.mp4` bắt đầu đúng đầu chương. Xem một khung bất kỳ không cần mở video: `ffmpeg -ss 00:00:05 -i out/youtube.mp4 -frames:v 1 .tmp/khung.png` (hoặc `npx remotion still src/index.ts Episode .tmp/khung.png --frame=150 --props=...`). Ghi `--overwrite` nếu file đã có, để không xem nhầm ảnh cũ.
 
 **Thời gian render**: bản YouTube và các phần TikTok khác khung nên render riêng; tổng thời gian cỡ gấp đôi một bản (ước tính, chưa đo với tập 45 phút). Render lại vài phần: `--parts=1,3`. Không cắt phần TikTok từ `youtube.mp4` (khác hướng khung; tùy chọn `--cut` cũ đã bỏ).
 

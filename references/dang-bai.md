@@ -28,18 +28,21 @@ Thông số YouTube: JPG/PNG, 16:9, dưới 2 MB nếu tải từ điện thoạ
 
 **Mục tiêu**: ở cỡ thu nhỏ, trong khoảng 1 giây người xem thấy được quan hệ và cảm xúc nhân vật (qua ảnh) và đọc được xung đột (qua chữ).
 
-**Mẫu tham khảo** (quan sát 2026-11-20, các kênh truyện audio ngôn tình có video đạt 40–220 nghìn lượt): nửa trái là ảnh người châu Á đẹp, hoặc cặp đôi trong khoảnh khắc thân mật, căng thẳng, hoặc nữ chính trang phục sang trọng nhìn vào ống kính; nửa phải là mảng giấy sáng màu có mép xé, chữ hook in hoa đậm màu tối 3–4 dòng, gần như trùng tiêu đề; có một chi tiết trang trí nhỏ (đinh ghim, chấm tròn) và nhãn kênh ở góc. Các kênh giữ một mẫu cho mọi video nên cả lưới video nhìn đồng bộ.
+**Mẫu tham khảo** (quan sát 2026-11-20, các kênh truyện audio ngôn tình có video đạt 40–220 nghìn lượt): ảnh người châu Á đẹp chiếm ~35–40% bề ngang (khung bo hoặc cắt gọn), hoặc cặp đôi trong khoảnh khắc thân mật, căng thẳng, hoặc nữ chính trang phục sang trọng nhìn vào ống kính; phần còn lại (~60–65%) là mảng giấy sáng màu có mép xé, chữ hook in hoa rất to 3–5 dòng, một màu nâu, từ khóa gây sốc đổi màu, gần như trùng tiêu đề; có một chi tiết trang trí nhỏ (đinh ghim, chấm tròn) và nhãn kênh ở góc. Các kênh giữ một mẫu cho mọi video nên cả lưới video nhìn đồng bộ.
 
 ### Bố cục chuẩn (composition `Thumbnail`, `src/Thumbnail.tsx`)
 
+Theo bìa mẫu (quan sát 2026-11-20, kênh audio truyện nền ẩm thực, video ~31 phút): nền kem, chữ to bên trái, ảnh khung tròn tràn mép phải, logo kênh trên chữ, nút Subscribe dưới chữ.
+
 | Vùng | Nội dung |
 |---|---|
-| Trái ~55% | Ảnh nhân vật (`thumbBg`), phủ kín; chỉnh khung bằng `thumbFocus` (object-position, ví dụ `"40% 25%"`) |
-| Phải ~45% | Mảng giấy màu ngà, mép xé hơi nghiêng, đổ bóng sang ảnh |
-| Hook | `thumbText`: in hoa, font Phudu 800, màu mực gần đen, căn giữa, tự co cỡ chữ cho vừa; `\|` ngắt dòng, `*cụm*` tô màu nhấn |
-| Trang trí | Đinh ghim màu nhấn trên mảng giấy; nhãn tên kênh góc trên phải (lấy từ `channel/channel.json`) |
-| Nhãn phụ | `thumbTag` dưới hook ("Trọn bộ", "Full"); bỏ trống thì ẩn |
-| Góc dưới phải | Để trống: YouTube đặt nhãn thời lượng ở đây |
+| Nền | Kem ấm (`#FFF6E3` → `#FFE9C2`) toàn khung; hình vẽ mờ màu cam nhạt (vòng tròn, chấm, nốt nhạc, tai nghe) chỉ ở viền cột chữ, không đè chữ và ảnh; hai dải cọ khô cam nhạt nằm ngang: mép trên (trên logo) và mép dưới (sát khung tròn) |
+| Phải ~43% | Ảnh nhân vật (`thumbBg`) trong khung tròn đường kính 1.040 px, tâm (1250, 360): mép trái x = 730, phủ kín mép phải, trên, dưới (không hở góc); vai phụ, chữ là trọng tâm; viền cọ khô cam ôm phía trái khung (nét chính 34 px + một nét mảnh khô lệch ra ngoài); chỉnh khung bằng `thumbFocus` |
+| Trái: logo | Logo kênh (`watermark` trong `channel/channel.json`) cao 150 px, căn giữa cột chữ, trên cùng |
+| Trái: hook | `thumbText`: in hoa, font Paytone One, một màu nâu đậm `#3B1F10`, căn giữa cột (x 30–700, y 196–516), cỡ tối đa 110 px; không có `\|` thì tự thử mọi độ rộng dòng và chọn cách ngắt cho cỡ chữ lớn nhất, có `\|` thì giữ cách ngắt tay; `*cụm*` tô đỏ quýt `#E2452E`, 0–2 cụm mỗi bìa |
+| Trái: nhãn phụ | `thumbTag` dưới hook ("Trọn bộ", "Full"), màu nhấn; bỏ trống thì ẩn |
+| Trái: nút | Nút đỏ viền trắng "SUBSCRIBE" + ngón tay trỏ bấm vào, dưới cùng cột chữ |
+| Góc dưới phải | Thuộc ảnh: YouTube đặt nhãn thời lượng ở đây, không đặt chi tiết quan trọng của ảnh vào góc này |
 
 ### Ảnh nhân vật
 
@@ -48,7 +51,7 @@ Tiêu chí, theo thứ tự ưu tiên:
 2. **Sinh động**: chụp giữa một hành động hoặc cảm xúc (quay đầu, chạm tay, tóc hoặc váy chuyển động, nhìn thẳng ống kính có thần). Không dùng ảnh đứng tạo dáng tĩnh, mặt vô cảm.
 3. **Người châu Á, đẹp, chỉn chu**: ảnh chụp kiểu phim điện ảnh hoặc minh họa bán thực (semi-realistic), da sáng, trang phục và bối cảnh sang (nhà hàng, khách sạn, văn phòng, vườn hoa, đêm thành phố).
 4. **Rõ ở cỡ nhỏ**: mặt nhân vật chiếm ≥ 1/3 chiều cao ảnh; nền mờ hoặc gọn; ánh sáng ấm, mềm; tông pastel hoặc tối sang trọng, không xám nhạt.
-5. **Đặt được vào nửa trái**: ảnh dọc hoặc vuông; chủ thể nằm giữa hoặc lệch trái; mảng giấy không che mặt.
+5. **Đặt được vào khung tròn bên phải**: ảnh dọc hoặc vuông, từ 1000 px; mặt nằm giữa hoặc hơi lệch trái của ảnh (khung tròn tràn mép phải nên chỉ thấy phần bên trái của ảnh); mặt không bị cắt. Bìa TikTok chỉ thấy phần trên của ảnh trong vòm: mặt nằm nửa trên.
 6. **Sạch**: không chữ, logo, watermark, khung viền trên ảnh.
 
 Không dùng khung cắt từ footage làm ảnh chính: cận cảnh tay và đồ vật không kể được quan hệ nhân vật.
@@ -95,7 +98,7 @@ faces clearly visible, subject on the left half of a vertical frame, no text, no
 
 - [ ] Thu nhỏ còn ~160 px ngang vẫn đọc được chữ và nhận ra mặt nhân vật.
 - [ ] Ảnh và chữ cùng nói một xung đột; tình tiết có trong truyện.
-- [ ] Mặt nhân vật không bị mảng giấy hay nhãn che; góc dưới phải trống.
+- [ ] Mặt nhân vật không bị cắt bởi khung tròn; góc dưới phải (nhãn thời lượng) không che mặt.
 - [ ] Không có chữ, logo, watermark sót trên ảnh.
 - [ ] Đặt cạnh bìa các tập trước vẫn cùng một mẫu.
 
@@ -135,10 +138,10 @@ Nên đổi một biến mỗi phương án (ảnh hoặc chữ) để biết y�
 
 ## 5. TikTok
 
-**Bìa từng phần** (`tiktok-NN-cover.png`, 1080×1920, composition `TikTokCover`): cùng ảnh nhân vật và mẫu giấy xé với bìa YouTube (mục 2); ảnh nửa trên, mảng giấy nửa dưới mang "PHẦN n/N" màu nhấn và hook của phần (`parts[].hook`, dùng được `|` và `*cụm*`). Mọi phần cùng ảnh, chỉ đổi số phần và hook, để lưới hồ sơ thành một bộ.
+**Bìa từng phần** (`tiktok-NN-cover.png`, 1080×1920, composition `TikTokCover`): cùng mẫu với bìa YouTube (mục 2) ở khung dọc: nền kem có hình vẽ mờ; từ trên xuống: dải cọ cam, logo kênh cao 210 px, nút đỏ "PHẦN n/N" (thay nút Subscribe), hook của phần (y 575–1.045, cỡ tối đa 130 px); ảnh trong vòm tròn (đường kính 1.800 px, tâm (540, 1.990)) đỉnh ở y = 1.090, phủ kín phần dưới tới mép trái, phải, dưới; viền cọ khô dọc đỉnh vòm (`parts[].hook`, dùng được `|` và `*cụm*`). Mọi phần cùng ảnh, chỉ đổi số phần và hook, để lưới hồ sơ thành một bộ.
 - Chữ nằm trong dải giữa y ~240–1.680: lưới hồ sơ cắt bìa còn khoảng 3:4 (ước đoán, kiểm lại sau tập đầu). Khung ảnh dọc chỉnh bằng `coverFocus` (mặc định theo `thumbFocus`).
 - Render cùng các phần TikTok, hoặc riêng: `node scripts/render-episode.mjs <mã> --only=cover [--parts=1,3]`.
-- Khi đăng: tải ảnh lên làm bìa tùy chỉnh. Nếu nơi đăng chỉ cho chọn khung từ video, chọn khung đầu (thẻ hook) (chưa kiểm chứng tùy chọn tải ảnh trên từng phiên bản app).
+- Khi đăng: tải ảnh lên làm bìa tùy chỉnh. Nếu nơi đăng chỉ cho chọn khung từ video, chọn khung đầu (chưa kiểm chứng tùy chọn tải ảnh trên từng phiên bản app).
 
 ```
 <hook của phần> (Phần n/N)

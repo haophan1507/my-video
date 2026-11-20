@@ -14,8 +14,8 @@ Mỗi truyện thành **một video dài khung ngang** cho YouTube và **nhiều
 | Khung | Ngang 1920×1080, 30 fps, H.264; footage lệch tỉ lệ thì viền đen hai bên | Dọc 1080×1920, 30 fps, H.264 |
 | Độ dài | 35–60 phút ≈ 6.500–11.000 chữ (~180 chữ/phút) | Phần = 1–2 chương, 3–8 phút |
 | Cấu trúc | 8–12 chương, mỗi chương 700–1.100 chữ | Mở bằng hook chương, kết bằng cliffhanger |
-| Chữ trên màn | Câu chào kênh, thẻ hook 3 giây, nhãn tên kênh | Thẻ hook 3 giây, nhãn "Phần n/N" |
-| Ảnh bìa | 1280×720 render từ Remotion: ảnh nhân vật + mảng giấy chữ hook (`dang-bai.md` mục 2) | 1080×1920 mỗi phần, cùng mẫu, "PHẦN n/N" + hook phần (`dang-bai.md` mục 5) |
+| Chữ trên màn | Câu chào kênh bằng giọng, watermark logo; không thẻ chữ | Watermark logo, nhãn "Phần n/N"; không thẻ chữ |
+| Ảnh bìa | 1280×720 render từ Remotion: nền kem, logo + hook + nút Subscribe bên trái, ảnh nhân vật khung tròn bên phải (`dang-bai.md` mục 2) | 1080×1920 mỗi phần, cùng mẫu: logo, nút "PHẦN n/N", hook phần ở trên, ảnh tròn ở dưới (`dang-bai.md` mục 5) |
 
 Số trong bảng này thắng số ở file khác.
 
