@@ -14,7 +14,7 @@
 | Thể loại | tc (bạn thân/trà xanh cướp người yêu; sủng nhẹ, hả hê êm) |
 | Điểm: hook / twist / độ dài / dễ nghe / hợp gu (≥ 15/25) | 5 / 3 / 3 / 5 / 5 = 21/25 (tự chấm; độ dài thấp vì nguồn chỉ ~13 phút) |
 | Hook cả truyện (một câu) | gợi ý: "Sinh nhật hai mươi hai tuổi, tôi mở cửa kho và thấy bạn thân đang hôn người yêu tôi. Nhưng người làm tôi gục ngã hôm ấy không phải họ, mà là người đứng sau lưng tôi ở hành lang." |
-| Tiêu đề YouTube: 5 phương án + điểm, phương án chọn | 5 phương án ở outline.md; giữ B/A/C để A/B test, chốt ở bước 8 |
+| Tiêu đề YouTube: 5 phương án + điểm, phương án chọn | 5 phương án ở outline.md; giữ B/A/C để A/B test, chốt khi đăng (người tự làm) |
 | Nhân vật: tên → cách gọi cố định | Tô Nhiên (tôi), Cố Dịch, Bạch Uyển Uyển, chú Lục (Lục Thâm), Chu Hân; chi tiết trong outline.md |
 | Bối cảnh | Hải Thành, hiện đại, tiền tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 9 chương, ~39 phút (~7.090 chữ); viết dày + 4 vòng mới (đã duyệt 2026-11-20) |
@@ -23,7 +23,6 @@
 | Footage: chủ đề, nguồn, tag | Nấu ăn cận cảnh, tag `cook` (`public/footage/cook/`, nguồn ở `sources.txt`); 3 clip TikTok dọc, demo ch.1 |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | chữ: "Bạn thân hôn|người yêu tôi|ngay *sinh nhật*"; ảnh: chưa chọn (nền tạm cắt từ footage) |
 | Teaser TikTok 60–90 giây | |
-| Lịch đăng | |
 
 ## Tiến độ
 
@@ -34,11 +33,6 @@
 - [ ] 5. Giọng: `audio/chNN.mp3`
 - [ ] 6. Footage: `public/footage/cook/`
 - [ ] 7. Render: `out/`
-- [ ] 8. Đăng
-
-## Đăng
-
-<!-- Bước 8: tiêu đề cuối, mô tả YouTube, caption từng phần, ngày đăng, link. -->
 
 ## Nhật ký
 

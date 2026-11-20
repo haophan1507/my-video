@@ -1,6 +1,6 @@
-# Đăng bài (bước 8)
+# Tiêu đề, ảnh bìa, mô tả (tham khảo)
 
-Nơi giữ tiêu đề, ảnh bìa, mô tả, caption, lịch đăng. Điền kết quả vào mục Đăng của `tap.md`. Nguồn: trang trợ giúp chính thức của YouTube (đọc 2026-11-19) và kết quả tìm kiếm "truyện audio ngôn tình" cùng ngày; phần nào là ước đoán thì ghi rõ.
+Không còn là bước của quy trình: việc đăng do người làm tay. File giữ chuẩn tiêu đề và ảnh bìa dùng ở bước 2 và 7, cùng mô tả, caption, lịch để tham khảo khi đăng. Nguồn: trang trợ giúp chính thức của YouTube (đọc 2026-11-19) và kết quả tìm kiếm "truyện audio ngôn tình" cùng ngày; phần nào là ước đoán thì ghi rõ.
 
 ## 1. Tiêu đề YouTube
 

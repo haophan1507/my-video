@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Danh mục kho truyện kèm trạng thái, tính từ file thật (không phải ghi tay).
 // Dùng: node scripts/stories.mjs [--todo|--doing|--done] [--genre=tc]
-//   chưa làm = chưa có thư mục tập; đang làm = có tập, chưa xong 8 bước; đã làm = xong cả 8 bước.
+//   chưa làm = chưa có thư mục tập; đang làm = có tập, chưa xong 7 bước; đã làm = xong cả 7 bước.
 import fs from 'node:fs';
 import path from 'node:path';
 import {ROOT, GENRES, ID_RE} from './lib/paths.mjs';

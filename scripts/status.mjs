@@ -96,13 +96,8 @@ export function status(arg) {
   if (!fs.existsSync(path.join(E.out, 'thumb.png'))) missing7.push('thumb.png');
   step('Dựng, render', missing7.length === 0 ? 'done' : ep || tiktoks || audioBuilt ? 'partial' : 'todo', missing7.length ? `thiếu: ${missing7.join(', ')}` : '');
 
-  // 8. Đăng: mục "## Đăng" có tiêu đề, mô tả, caption, lịch
-  const dang = (tap?.split(/^## Đăng\s*$/m)[1]?.split(/^## /m)[0] ?? '').replace(/<!--[\s\S]*?-->/g, '').trim();
-  const has = ['tiêu đề', 'mô tả', 'caption', 'lịch'].filter((k) => new RegExp(k, 'i').test(dang));
-  step('Đăng', !dang ? 'todo' : has.length === 4 ? 'done' : 'partial', dang ? `có: ${has.join(', ') || '(chưa đủ ý)'}` : 'mục Đăng trống');
-
   const next = steps.find((s) => s.state !== 'done');
-  return {id: E.id, name: E.name, current: next ? next.n : null, currentName: next?.name ?? 'đã xong cả 8 bước', steps};
+  return {id: E.id, name: E.name, current: next ? next.n : null, currentName: next?.name ?? 'đã xong cả 7 bước', steps};
 }
 
 const print = (r) => {

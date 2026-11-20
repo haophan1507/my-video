@@ -24,11 +24,11 @@ Số trong bảng này thắng số ở file khác.
 Khi người dùng nói "làm truyện số N", "tiếp tục tập X", "tập này còn thiếu gì":
 
 1. **Tìm tập** trong `stories/README.md` (mã truyện như `tc005`; chạy `node scripts/stories.mjs` để xem truyện nào chưa/đang/đã làm). Tập mới: tạo `episodes/<thể-loại>/<mã>-slug/` (cùng mã và slug với truyện nguồn; truyện gộp từ nhiều nguồn đã là một file, một mã), chép `references/tap-mau.md` thành `tap.md` và `references/episode-mau.json` thành `episode.json` trong đó, thêm một dòng vào bảng Các tập. Không rõ truyện nào thì hỏi.
-2. **Tìm bước hiện tại**: chạy `node scripts/status.mjs <mã>` (tính từ file thật: số chương, số chữ, mốc sửa file), rồi đi qua bảng 8 bước, mở file đầu ra và so với cột "Xong khi" những chỗ script không đo được (không chỉ tin dấu tick). Bước đầu tiên chưa xong là bước hiện tại.
+2. **Tìm bước hiện tại**: chạy `node scripts/status.mjs <mã>` (tính từ file thật: số chương, số chữ, mốc sửa file), rồi đi qua bảng 7 bước, mở file đầu ra và so với cột "Xong khi" những chỗ script không đo được (không chỉ tin dấu tick). Bước đầu tiên chưa xong là bước hiện tại.
 3. **Báo cáo ngắn**: tập, truyện nguồn, bước hiện tại; đã có gì, thiếu gì (kèm đường dẫn); **Cần bạn quyết**: gom mọi quyết định còn trống của bước này, cộng giọng đọc và footage nếu chưa chốt (cần thời gian chuẩn bị). Mỗi mục một gợi ý mặc định kèm lý do một dòng.
 4. **Làm bước đó.** Chỉ dùng gợi ý mặc định khi người dùng đã đồng ý. Xong thì: ghi file đầu ra; trong `tap.md` tick tiến độ, ghi quyết định, thêm một dòng nhật ký; sửa cột "Bước" ở `stories/README.md`.
 
-## 8 bước
+## 7 bước
 
 | # | Bước | Đầu ra | Xong khi | Hỏi người dùng | Đọc |
 |---|---|---|---|---|---|
@@ -37,9 +37,8 @@ Khi người dùng nói "làm truyện số N", "tiếp tục tập X", "tập n
 | 3 | Viết chương | `chNN.tts.txt` (một file mỗi chương, viết sẵn dạng máy đọc được: số, tiền, viết tắt thành chữ) | Đủ chương, mỗi chương 700–1.100 chữ, qua bảng soát | Duyệt chương 1 trước khi viết tiếp | `van-phong.md` |
 | 4 | Soát TTS | Báo cáo của `normalize-vi.mjs` (sửa trực tiếp `chNN.tts.txt`) | Hết chữ số, ngoặc; đã xử lý tên ngoại, câu dài | — | `san-xuat.md` 1 |
 | 5 | Giọng đọc | `episodes/<thể-loại>/<mã>-*/audio/chNN.mp3` | Mỗi chương một file, cùng giọng và tốc độ; đã nghe thử chương 1 | Dịch vụ, giọng, tốc độ | `san-xuat.md` 2 |
-| 6 | Footage | `public/footage/<tag>/<tag>-NN.mp4`, `sources.txt`, `manifest.json` | Đủ clip, đã chuẩn hóa; clip YouTube/TikTok tải tự động bằng Claude in Chrome | Chủ đề, duyệt danh sách clip trước khi tải | `edit-yeu-cau.md`, `san-xuat.md` 4 |
+| 6 | Footage | `public/footage/<tag>/<tag>-NN.mp4`, `sources.txt`, `manifest.json` | Đủ clip, đã chuẩn hóa; clip YouTube/TikTok/nền tảng khác tải bằng `dl-video.mjs` (dự phòng: Claude in Chrome) | Chủ đề, duyệt danh sách clip trước khi tải | `edit-yeu-cau.md`, `san-xuat.md` 4 |
 | 7 | Dựng, render | `episode.json`; `out/` trong thư mục tập | Render xong, đã xem lướt đầu và cuối | Ảnh nhân vật và chữ ảnh bìa (duyệt danh sách ảnh trước khi tải), có teaser không | `edit-yeu-cau.md`, `san-xuat.md` 5 |
-| 8 | Đăng | Mục Đăng trong `tap.md` | Có tiêu đề (chọn từ 5 phương án), ảnh bìa đã qua checklist, mô tả, caption từng phần, lịch | Tiêu đề cuối, mẫu bìa, lịch | `dang-bai.md` |
 
 - Bước 6 làm song song với 3–5 được.
 - Truyện trong kho có hai dạng: bản dịch sát (lô L01) hoặc khung tiếng Việt + nguyên văn tiếng Trung (từ lô L02). Mỗi truyện có base ≥ 15 phút. Ở bước 2 gom thành 6–12 chương và chỉnh độ dài: truyện ngắn thì viết dày hoặc thêm vòng ngay trong truyện; truyện dài thì cắt cảnh phụ. Không ghép hai truyện khác nhân vật vào một tập.
@@ -51,6 +50,7 @@ Chạy ở thư mục gốc, truyền mã tập ngắn (`tc005`). Chi tiết và
 ```bash
 node scripts/normalize-vi.mjs tc005 [--fix]           # 4: báo cáo chNN.tts.txt; --fix tự đổi số, tiền, viết tắt tại chỗ
 node scripts/gen-voice.mjs tc005 [--dry-run]          # 5: GenMax; khóa trong .env, cài đặt giọng ở voice trong episode.json; chỉ gen chương đã đổi
+node scripts/dl-video.mjs <link> --name=craft-01 [--list]   # 6: tải video từ link nền tảng vào raw/ (API gendownload.com)
 node scripts/prep-footage.mjs raw cook [--start=giây] [--max=giây] [--crop=top|square]   # 6: chuẩn hóa clip vào public/footage/cook/ + manifest
 node scripts/footage-manifest.mjs                    # 6: quét lại kho footage, in bảng clip theo tag
 node scripts/build-audio.mjs tc005                    # 7: ghép chương, ghi mốc, out/chapters.txt
@@ -78,7 +78,7 @@ Mỗi chủ đề chỉ có một nơi chi tiết. Chỉ đọc khi tới bướ
 | `references/van-phong.md` | Tên, xưng hô, giọng kể, prompt viết chương, bảng soát | 3 |
 | `references/san-xuat.md` | Soát TTS, giọng, footage, dựng, render, quy tắc code Remotion | 4–7 |
 | `references/edit-yeu-cau.md` | **Tiêu chuẩn đang áp dụng** về khung hình, chữ, footage, giọng; thắng mọi mặc định | 5–7 |
-| `references/dang-bai.md` | Tiêu đề, ảnh bìa, A/B test, mô tả, caption TikTok, lịch, khai báo AI, đo và sửa | 2, 8 |
+| `references/dang-bai.md` | Tiêu đề, ảnh bìa, A/B test, mô tả, caption TikTok, lịch, khai báo AI, đo và sửa | 2, 7 |
 
 ## Nguồn tra cứu thêm
 

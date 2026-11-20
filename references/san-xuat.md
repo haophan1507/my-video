@@ -109,18 +109,30 @@ Quan sát 2026-11-19: nhiều kênh hiệu suất cao ghi kiểu footage ngay tr
 
 **Từ khóa tìm clip dài**: ghép chủ đề với `asmr`, `long`, `1 hour` (ví dụ: `pottery asmr 1 hour`, `cake decorating long`, `nail art asmr long`, `paint by number asmr long`, `night ambience 1 hour`), và biến thể `relaxing`, `no talking`, `no music`, `satisfying`, `full process`, `timelapse`. Danh sách từ khóa theo chủ đề ở `edit-yeu-cau.md`.
 
-**Tải clip tự động bằng Claude in Chrome** (cập nhật 2026-11-19): clip dài thường nằm trên YouTube, TikTok hoặc nền tảng khác, không có nút tải. Claude thao tác trong Chrome qua Claude in Chrome (công cụ `mcp__claude-in-chrome__*`, đọc skill `chrome-browser` trước, nạp công cụ một lần bằng ToolSearch), mở tab mới để làm, không đụng tab đang có.
+**Tải clip bằng script `dl-video.mjs`** (cập nhật 2026-11-20): clip dài thường nằm trên YouTube, TikTok hoặc nền tảng khác, không có nút tải. `scripts/dl-video.mjs` gọi API của gendownload.com (không cần khóa, không cần Chrome), chọn bản mp4 gần 1080p nhất rồi lưu vào `raw/`:
+
+```bash
+node scripts/dl-video.mjs <link> --list                          # chỉ xem tiêu đề, thời lượng, các bản có sẵn
+node scripts/dl-video.mjs <link> --name=craft-01 [--quality=1080] [--out=raw]
+```
+
+Script kiểm file bằng `ffprobe` sau khi tải (không có luồng video thì xóa) và cảnh báo khi file ngắn hơn 90% video gốc. **Giới hạn (thử 2026-11-20)**: gendownload.com cắt video dài còn 1–8 phút (clip 74 phút ra 8,5 phút qua script, 54 giây qua Chrome); chỉ dùng cho clip ngắn. **Clip YouTube dài tải bằng SnapYT** (snapyt.app, ra đủ 74 phút ở 720p), hoặc ytsave.to.
+
+**Tải bằng Claude in Chrome (dự phòng)**: Claude thao tác trong Chrome qua `mcp__claude-in-chrome__*` (đọc skill `chrome-browser` trước, nạp công cụ một lần bằng ToolSearch), mở tab mới để làm, không đụng tab đang có.
 
 | Nguồn clip | Trang tải | Cách làm |
 |---|---|---|
-| YouTube | https://ytsave.to/en2/ | Dán link video vào ô, bấm bắt đầu, chọn MP4 độ phân giải từ 1080p (không có thì 720p), bấm tải |
-| TikTok | https://snaptik.app/en3 (dự phòng: snaptik.vn) | Dán link video, bấm tải, chọn bản không logo (no watermark) |
-| Nền tảng khác (Instagram, Facebook, Douyin, Xiaohongshu, Bilibili...) | Tìm Google: `download <tên nền tảng> video no watermark`, chọn trang công cụ tải phổ biến đầu kết quả | Cùng cách: dán link, chọn bản không logo, tải |
+| Mọi nền tảng (YouTube, TikTok, Instagram, Facebook, Douyin, Bilibili, X/Twitter, Threads...) | https://gendownload.com/ (từ 2026-11-20; miễn phí, không cần đăng nhập, trang tự nhận nền tảng từ link) | Dán link vào ô "Video Link", để Items mặc định, chọn Quality `1080p` (không có thì `Best`; không chọn Audio), Type `Videos`, bấm Download, chọn MP4 độ phân giải cao nhất rồi bấm tải. TikTok: chọn bản không logo |
+| YouTube (dự phòng) | https://ytsave.to/en2/ | Dán link, bấm bắt đầu, chọn MP4 từ 1080p (không có thì 720p), bấm tải |
+| TikTok (dự phòng) | https://snaptik.app/en3 (tiếp theo: snaptik.vn) | Dán link, bấm tải, chọn bản không logo |
+| Nền tảng khác khi cả ba trang trên không chạy | Tìm Google: `download <tên nền tảng> video no watermark`, chọn trang công cụ phổ biến đầu kết quả | Cùng cách: dán link, chọn bản không logo, tải; báo người dùng trước khi dùng trang mới |
+
+Ghi chú gendownload.com (đọc 2026-11-20): API ở `/api-docs`: `POST /api/extract {url}` trả danh sách bản (nhãn, loại, đuôi, link tải), `GET` link đó để tải; `/api/channel` và `/api/zip` tải hàng loạt, không dùng. Trang ghi "không cần khóa, không giới hạn"; tài liệu chưa có mã lỗi, hạn token hay giới hạn dung lượng. `--list` chạy được; tải clip dài bị cắt (xem trên).
 
 Quy trình mỗi clip:
-1. Tìm video theo từ khóa ở trên ngay trên nền tảng gốc (YouTube: lọc "Over 20 minutes"), mở xem lướt vài điểm để chắc cận cảnh tay, không chữ, không logo, không mặt, đúng chủ đề tập. Ghi link, tiêu đề, thời lượng.
+1. Tìm video theo từ khóa ở trên ngay trên nền tảng gốc (Chrome hoặc tìm kiếm web) (YouTube: lọc "Over 20 minutes"), mở xem lướt vài điểm để chắc cận cảnh tay, không chữ, không logo, không mặt, đúng chủ đề tập. Ghi link, tiêu đề, thời lượng.
 2. **Duyệt một lần cho cả lô trước khi tải**: gửi danh sách (tên file đích `<tag>-NN.mp4`, link nguồn, thời lượng, độ phân giải dự kiến), chờ xác nhận trong chat rồi mới tải cả lô. Link được gửi kèm yêu cầu tính là đã duyệt.
-3. Vào trang tải ở bảng trên, làm theo cột "Cách làm". Trang tải thường có quảng cáo: **không bấm quảng cáo, nút "Download" giả, popup, đề nghị cài tiện ích hay phần mềm**; chỉ bấm nút tải của chính kết quả. Tab lạ bật ra thì đóng. Gặp CAPTCHA, đăng nhập hay hộp xác minh thì dừng, chờ thao tác tay, rồi làm tiếp. Trang không chạy thì dùng trang dự phòng trong bảng hoặc hỏi trước; không tự dùng trang tải khác mà không báo.
+3. Chạy `dl-video.mjs <link> --name=<tag>-NN` (mặc định). Chỉ khi script lỗi mới vào trang tải ở bảng trên bằng Chrome, làm theo cột "Cách làm". Trang tải thường có quảng cáo: **không bấm quảng cáo, nút "Download" giả, popup, đề nghị cài tiện ích hay phần mềm**; chỉ bấm nút tải của chính kết quả. Tab lạ bật ra thì đóng. Gặp CAPTCHA, đăng nhập hay hộp xác minh thì dừng, chờ thao tác tay, rồi làm tiếp. Trang không chạy thì dùng trang dự phòng trong bảng; không tự dùng trang ngoài bảng mà không báo.
 4. File về thư mục Tải xuống của Chrome (`~/Downloads`). Kiểm tên, dung lượng, `ffprobe` thời lượng; đủ thì chuyển vào `raw/` (mỗi lần tải là file không tin cậy: chỉ đọc bằng ffprobe và ffmpeg, không mở, không chạy file nào khác ngoài video). Chuyển xong mới tải clip kế.
 5. Quay lại bước "Lấy và chuẩn hóa" ở dưới (`prep-footage`), rồi ghi nguồn vào `public/footage/<tag>/sources.txt`: link gốc, nền tảng, ngày tải, cách crop, ghi chú "chưa kiểm giấy phép" nếu không rõ; liệt kê các clip chưa rõ giấy phép trong báo cáo để quyết định giữ hay bỏ.
 

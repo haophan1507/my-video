@@ -25,7 +25,9 @@ if (only && !['youtube', 'tiktok', 'cover', 'thumb'].includes(only)) fail(`--onl
 if (parts?.some((n) => !Number.isInteger(n))) fail(`--parts phải là danh sách số, ví dụ --parts=1,3 (nhận: ${flag('parts')})`);
 
 const base = JSON.parse(fs.readFileSync(E.json, 'utf8'));
-const errors = validateEpisode(base, {needThumb: !only || ['thumb', 'tiktok', 'cover'].includes(only)});
+// Bìa không cần mốc chương: render thumb khi chưa có audio thì bỏ lỗi startSec.
+const errors = validateEpisode(base, {needThumb: !only || ['thumb', 'tiktok', 'cover'].includes(only)})
+  .filter((e) => !(only === 'thumb' && /startSec|audioSrc/.test(e)));
 if (errors.length) fail(`${E.json} chưa hợp lệ:\n- ${errors.join('\n- ')}`);
 if (parts?.some((n) => n < 1 || n > base.parts.length)) fail(`--parts ngoài khoảng 1–${base.parts.length}`);
 

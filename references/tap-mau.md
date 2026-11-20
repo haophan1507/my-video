@@ -23,7 +23,6 @@
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
 | Teaser TikTok 60–90 giây | |
-| Lịch đăng | |
 
 ## Tiến độ
 
@@ -34,11 +33,6 @@
 - [ ] 5. Giọng: `audio/chNN.mp3`
 - [ ] 6. Footage: `public/footage/<tag>/`
 - [ ] 7. Render: `out/`
-- [ ] 8. Đăng
-
-## Đăng
-
-<!-- Bước 8: tiêu đề cuối, mô tả YouTube, caption từng phần, ngày đăng, link. -->
 
 ## Nhật ký
 

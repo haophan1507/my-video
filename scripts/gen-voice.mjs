@@ -82,7 +82,13 @@ async function genOne(text) {
   for (;;) {
     if (Date.now() - t0 > POLL_TIMEOUT_MS) throw new Error(`Task ${id} chưa xong sau ${POLL_TIMEOUT_MS / 60000} phút. Kiểm tra lịch sử trên GenMax trước khi gen lại (tránh bị tính hai lần).`);
     await sleep(POLL_EVERY_MS);
-    const d = await retry("GET history", async () => okJson(await fetch(`${API}/v1/history/${id}`, {headers}), "GET history"), transient);
+    // GET /v1/history/{id} trả 401 (2026-11-20, khóa đúng); tra qua danh sách gần nhất thay thế.
+    const d = await retry("GET history", async () => {
+      const list = await okJson(await fetch(`${API}/v1/history?page_size=20`, {headers}), "GET history");
+      const t = list.tasks?.find((x) => x.id === id);
+      if (!t) throw new Error(`Task ${id} không có trong 20 tác vụ gần nhất`);
+      return t;
+    }, transient);
     process.stdout.write(`  ${d.status} ${d.progress ?? ""}\r`);
     if (d.status === "failed") throw new Error(`Task ${id} lỗi: ${d.error}`);
     if (d.status === "completed") return {url: d.result.audio_url, credits: d.credits_deducted};
