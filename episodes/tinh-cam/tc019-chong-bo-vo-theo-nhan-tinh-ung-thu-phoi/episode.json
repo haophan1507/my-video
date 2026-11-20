@@ -1,0 +1,123 @@
+{
+  "title": "Chồng bỏ vợ con theo bà bốn mươi tuổi, ký xong đơn ly hôn tôi đưa anh ta tờ kết quả ung thư",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Căn hộ tầng chín"
+    },
+    {
+      "title": "Cây hoa giấy mười hai năm"
+    },
+    {
+      "title": "Hai đứa trẻ phải chọn"
+    },
+    {
+      "title": "Vệt trắng trên tấm phim"
+    },
+    {
+      "title": "Ba lần hỏi"
+    },
+    {
+      "title": "Cây chổi của Bách"
+    },
+    {
+      "title": "Tấm bảng sang nhượng"
+    },
+    {
+      "title": "Buổi phát trực tiếp"
+    },
+    {
+      "title": "Chiếc xe lăn trước cổng"
+    },
+    {
+      "title": "Con cá trong ao"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Ký xong ly hôn, tôi đưa chồng tờ giấy ung thư phổi"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Chồng tặng tôi tám trên mười một nhà hàng để được đi"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Hân hỏi: con ngoan hơn thì bố có về không?"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Vệt trắng trong phổi chồng, tôi bật cười giữa phòng khám"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Tôi hỏi chồng lần thứ ba: anh chắc chứ?"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Mẹ chồng chửi sao chổi, Bách cầm chổi đuổi ra cửa"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Nhân tình dán bảng sang nhượng, tự đào hố chôn mình"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Nhân tình phát trực tiếp bôi nhọ tôi, tôi đáp trả"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Chồng cũ ngồi xe lăn trước cổng, xin về nhà"
+    },
+    {
+      "chapters": [
+        10,
+        10
+      ],
+      "hook": "Chết rồi mới thấy mình chỉ là con cá trong ao"
+    }
+  ],
+  "thumbText": "Ký xong ly hôn|tôi đưa chồng|*tờ kết quả*|ung thư phổi",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

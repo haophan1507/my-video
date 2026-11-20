@@ -1,0 +1,40 @@
+# tc015: Yêu tám năm, tôi chưa từng nói nhà mình có mỏ vàng; tôi đòi sính lễ tám vạn tám, bạn trai mắng tôi là đồ hám tiền
+
+<!-- Mẫu hồ sơ tập. Chép thành episodes/<thể-loại>/<mã>-slug/tap.md khi mở tập mới.
+     Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
+
+- **Truyện nguồn**: tc015, stories/tinh-cam/tc015-nha-co-mo-vang-sinh-le-tam-van-tam.md
+- **Bước hiện tại**: 5
+- **Cập nhật**: 2026-11-21
+
+## Quyết định
+
+| Mục | Giá trị |
+|---|---|
+| Thể loại | Tình cảm: thân phận ẩn (nữ), phượng hoàng nam và mẹ chồng tương lai coi thường, bạn trai lén xem mắt cưới người khác, vả mặt bằng thân phận; kết ấm, nam phụ chờ |
+| Điểm: hook / twist / độ dài / dễ nghe / hợp gu (≥ 15/25) | 5 / 4 / 4 / 5 / 5 = 23/25 (twist 4 nhờ tiền cưới của hắn là tiền cô cho mượn; độ dài 4 nhờ vòng sổ nợ, sao kê, Lăng Xuyên vào sớm) |
+| Hook cả truyện (một câu) | Yêu tám năm, đến ngày bàn chuyện cưới, bạn trai nhìn tôi như người đang mặc cả ngoài chợ rồi hỏi: cô dựa vào đâu mà nghĩ yêu tôi tám năm thì đáng giá tám vạn? Anh ta không biết nhà tôi có mỏ vàng. |
+| Tiêu đề YouTube: 5 phương án + điểm, phương án chọn | A "Tôi đòi sính lễ tám vạn tám, bạn trai mắng tôi hám tiền, anh ta đâu biết nhà tôi có mỏ vàng" 19; B "Yêu tám năm, bạn trai hỏi tôi dựa vào đâu mà đáng giá tám vạn" 18; C "Mẹ bạn trai dọn đồ ăn thừa mời tôi, bà bảo nhà nghèo ăn không nổi đồ tươi" 18; D 17; E 16 (chi tiết ở `outline.md`). Chọn A; A/B với B, C. Chưa duyệt |
+| Nhân vật: tên → cách gọi cố định | Khúc Ngọc Tịch (tôi; gọi "Tịch"); Ứng Gia Huy (bạn trai tám năm, sau gọi "hắn"); bà Ứng (mẹ hắn); Phó Chi (bạn thân hóng hớt, "Chi"); Lăng Xuyên (phó tổng Lăng thị, nam phụ, "Xuyên"); phụ: anh trai Khúc Tuấn, chú Mạnh, chị dâu họ, anh họ, cô vợ mới (không tên). Chưa duyệt |
+| Bối cảnh | Trung Quốc hiện đại, Hải Thành; tập đoàn Lăng thị, khoáng nghiệp họ Khúc; tiền là tệ (tám vạn tám, mười tám vạn tám, hai mươi mốt vạn bốn); không ghi năm bằng số |
+| Độ dài: số chương, phút; cách đủ độ dài | 10 chương, ~8.335 chữ, ~46 phút. Nguồn ~8.870 chữ Hán; thêm vòng sổ nợ và sao kê (twist tiền cưới là tiền cô), Lăng Xuyên vào sớm, thư nhắc nợ giữ chờ hắn ra tù, kết bao lì xì tám mươi tám vạn tám; làm nhẹ cảnh bỏ thuốc, chị dâu họ giữ được con |
+| Chia phần TikTok | 10 phần, mỗi phần một chương, 4,0–5,8 phút |
+| Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
+| Footage: chủ đề, nguồn, tag | |
+| Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
+| Teaser TikTok 60–90 giây | |
+
+## Tiến độ
+
+- [x] 1. Chọn truyện
+- [x] 2. Dàn ý: `outline.md`
+- [x] 3. Viết chương: `script/chNN.tts.txt`
+- [x] 4. Soát TTS: báo cáo `normalize-vi.mjs` sạch
+- [ ] 5. Giọng: `audio/chNN.mp3`
+- [ ] 6. Footage: `public/footage/<tag>/`
+- [ ] 7. Render: `out/`
+
+## Nhật ký
+
+- 2026-11-21: mở tập.
+- 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 10 chương, ~8.335 chữ, ~46 phút; dàn ý và chương chưa duyệt.

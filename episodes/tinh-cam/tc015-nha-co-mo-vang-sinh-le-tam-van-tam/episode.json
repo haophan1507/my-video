@@ -1,0 +1,123 @@
+{
+  "title": "Tôi đòi sính lễ tám vạn tám, bạn trai mắng tôi hám tiền, anh ta đâu biết nhà tôi có mỏ vàng",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Tám vạn tám và đĩa cải thừa"
+    },
+    {
+      "title": "Cuốn sổ hai mươi mốt vạn bốn"
+    },
+    {
+      "title": "Bữa cơm yến sào"
+    },
+    {
+      "title": "Tấm ảnh xem mắt"
+    },
+    {
+      "title": "Cốc nước ở quán bình dân"
+    },
+    {
+      "title": "Sao kê tám năm"
+    },
+    {
+      "title": "Họp lớp"
+    },
+    {
+      "title": "Ly nước còn nguyên nắp"
+    },
+    {
+      "title": "Cả họ kéo đến"
+    },
+    {
+      "title": "Tám mươi tám vạn tám"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Yêu tám năm, anh ta hỏi tôi đáng giá tám vạn không"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Tám năm, tôi hóa ra là chủ nợ của anh ta"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Mang yến sào đến nhà bạn trai, tôi bị mẹ anh ta đẩy"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Mẹ bạn trai gửi ảnh con trai bà ôm người khác"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Tôi hất cốc nước vào mặt người yêu cũ"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Tiền hắn cưới vợ mới là tiền của tôi"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Hắn đòi tôi rước cả nhà hắn về ở chung"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Người đá bật cửa xe lúc tôi tưởng hết đường"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Cả họ kéo đến đòi người, ai ngờ người ngã là họ"
+    },
+    {
+      "chapters": [
+        10,
+        10
+      ],
+      "hook": "Số tiền hắn lấy của tôi bay đi đúng như cách nó đến"
+    }
+  ],
+  "thumbText": "Đòi sính lễ|*tám vạn tám*|bị mắng|*hám tiền*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

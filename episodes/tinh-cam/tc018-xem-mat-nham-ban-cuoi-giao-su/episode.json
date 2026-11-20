@@ -1,0 +1,123 @@
+{
+  "title": "Đi xem mắt nhầm bàn, tôi hỏi người lạ đi đăng ký kết hôn không, anh ấy đáp được",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Nhầm bàn số bảy"
+    },
+    {
+      "title": "Nửa tiếng trong thư phòng"
+    },
+    {
+      "title": "Sofa lạnh, tôi nóng"
+    },
+    {
+      "title": "Bộ đồ ngủ hình mèo"
+    },
+    {
+      "title": "Người cũ ở Trường Sa"
+    },
+    {
+      "title": "Hộp bánh vỡ và tờ đơn ly hôn"
+    },
+    {
+      "title": "Tôi ngại bẩn"
+    },
+    {
+      "title": "Hai tấm ảnh vẽ trái tim"
+    },
+    {
+      "title": "Mợ út và con chó Tiểu Hoa"
+    },
+    {
+      "title": "Cuốn sổ dưới gối"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Xem mắt nhầm bàn, tôi cưới người lạ chỉ sau một câu"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Vừa cưới đã bị mẹ đòi báo công an"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Sáu bộ đồ ngủ vẫn thua chiếc sofa"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Nghe lời bạn thân, tôi bị bố mẹ chồng bắt gặp"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Người suýt làm chồng tôi lại ngồi đầu bàn họp"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Hộp bánh xếp hàng bốn tiếng vỡ nát ở nhà ăn"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Ly hôn được một đêm, tôi khoác tay người cũ chọc tức chồng"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Hai tấm ảnh vẽ trái tim trong quyển sách của chồng"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Chồng say ôm chó nhà tôi khóc: vợ chỉ thích cái mặt anh"
+    },
+    {
+      "chapters": [
+        10,
+        10
+      ],
+      "hook": "Cuốn sổ bìa đen và sáu năm anh luyện một câu trả lời"
+    }
+  ],
+  "thumbText": "Xem mắt|nhầm bàn|*cưới liền*|giáo sư",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}
