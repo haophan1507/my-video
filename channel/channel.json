@@ -1,7 +1,6 @@
 {
   "name": "Quýt Nhỏ Audio",
   "introText": "Chào mừng bạn đến với {name}. Chúc bạn nghe truyện vui vẻ.",
-  "introLabel": "CHÀO MỪNG ĐẾN VỚI",
   "partLabel": "Phần {n}/{total}",
   "chapterLabel": "Chương {n}",
   "accent": "#FF8A1F",

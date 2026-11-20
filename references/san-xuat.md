@@ -45,7 +45,7 @@ node scripts/gen-voice.mjs tc005 [--only 1,3] [--force] [--dry-run]
 node scripts/gen-voice.mjs channel
 ```
 
-Mọi chữ và màu cố định của kênh nằm ở `channel/channel.json`, không sửa trong code: `name`; `introText` (câu chào, dùng `{name}`); `introLabel` (dòng nhỏ trên thẻ chào, `""` = ẩn); `partLabel` (nhãn góc bản TikTok, dùng `{n}` `{total}`); `chapterLabel` (tên chương mặc định, `{n}`); `accent` (màu nhấn); `watermark` (ảnh logo góc trái, tính từ `public/`); `voice.speed`. Đổi nhãn hoặc màu thì Studio và render theo ngay. Đổi `name` hoặc `introText` thì gen lại câu chào rồi `build-audio` lại từng tập. Font vẫn cố định (Be Vietnam Pro, `src/ui.tsx`).
+Mọi chữ và màu cố định của kênh nằm ở `channel/channel.json`, không sửa trong code: `name`; `introText` (câu chào, dùng `{name}`); `partLabel` (nhãn góc bản TikTok, dùng `{n}` `{total}`); `chapterLabel` (tên chương mặc định, `{n}`); `accent` (màu nhấn); `watermark` (ảnh logo góc trái, tính từ `public/`); `voice.speed`. Đổi nhãn hoặc màu thì Studio và render theo ngay. Đổi `name` hoặc `introText` thì gen lại câu chào rồi `build-audio` lại từng tập. Font vẫn cố định (Be Vietnam Pro, `src/ui.tsx`).
 
 ## 4. Footage (bước 6)
 
@@ -158,7 +158,6 @@ Quy trình mỗi clip:
 |---|---|
 | `title` | Tiêu đề tập (không hiện trên hình; dùng cho đăng bài) |
 | `voice` | Cài đặt giọng của tập cho `gen-voice` (mục 2); Remotion không dùng |
-| `episodeLabel` | Tên kênh cho thẻ chào; `build-audio` tự điền từ `channel/channel.json`, không sửa tay |
 | `audioSrc` | `<mã>/audio.mp3` (do `build-audio` điền) |
 | `captionsSrc` | `""` = tắt phụ đề; `<mã>/captions.json` khi bật |
 | `footageTag`, `cutEverySec`, `dim` | Tag footage, giây mỗi cảnh, độ tối nền (giá trị trong `edit-yeu-cau.md`) |
@@ -213,7 +212,7 @@ Rồi đặt `captionsSrc` thành `<mã>/captions.json`. Khớp từng chữ c�
 | Lỗi phiên bản gói | `npx remotion versions`, cài mọi `@remotion/*` cùng phiên bản |
 | Tràn RAM | Giảm `concurrency` trong `render-episode.mjs` |
 | "episode.json chưa hợp lệ" | Làm theo từng dòng báo lỗi; thiếu `startSec` hoặc `audioSrc` thì chạy `build-audio.mjs` |
-| `channel.json thiếu hoặc sai kiểu` | Điền đủ khóa theo mục 3 (`name`, `introText`, `introLabel`, `partLabel`, `chapterLabel`, `accent`) |
+| `channel.json thiếu hoặc sai kiểu` | Điền đủ khóa theo mục 3 (`name`, `introText`, `partLabel`, `chapterLabel`, `accent`) |
 
 ## 6. Quy tắc code và chuyển động Remotion
 
@@ -223,7 +222,7 @@ Dùng khi sửa `src/` (nguồn: skill Remotion chính thức `remotion-dev/skil
 - Media dùng `<Video>`, `<Audio>` của `@remotion/media`; cắt bằng prop `trimBefore`, `durationInFrames`, `from`. Font dùng `loadFont` của `@remotion/google-fonts` ở đầu module. Đo thời lượng bằng mediabunny. Hiện `src/` đã đúng các điểm này.
 - Chuyển cảnh footage đang tự viết bằng `opacity`. Bản chính thức là `TransitionSeries` + `fade()` (`@remotion/transitions`): chuyển cảnh chồng lên nhau nên tổng thời lượng = tổng cảnh trừ tổng thời gian chuyển. Chỉ đổi khi cần thêm kiểu chuyển cảnh khác; cách hiện tại chạy tốt.
 - Easing: chữ **vào** dùng ease-out (`Easing.bezier(0.16, 1, 0.3, 1)`), **ra** dùng ease-in (`Easing.bezier(0.6, 0, 0.9, 0.35)`), ra nhanh bằng ~một nửa lúc vào (vào ~0,7 giây, ra ~0,4 giây). Không dùng linear cho chuyển động chữ.
-- Thời gian giữ chữ: cụm ngắn ≥ 1 giây, cộng ~0,25 giây cho mỗi từ từ thứ tư; thẻ hook ≥ 2 giây (đang 3 giây).
+- Thời gian giữ chữ: cụm ngắn ≥ 1 giây, cộng ~0,25 giây cho mỗi từ từ thứ tư. Hiện không có thẻ chữ trên hình (`edit-yeu-cau.md`); áp dụng khi thêm lại.
 - Không di chuyển chữ khi người xem đang đọc; một điểm nhấn mỗi khung; tối đa 3 họ font; chữ cách mép khung ≥ 60 px (vùng an toàn của dự án ở mục 5 chặt hơn, giữ theo mục 5).
 - Skill chính thức cho Claude Code: có thể cài thêm `npx skills add remotion-dev/skills` (chọn `remotion-best-practices`; tên skill có thể đổi theo phiên bản). Không bắt buộc.
 

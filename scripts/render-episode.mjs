@@ -1,6 +1,6 @@
 // node scripts/render-episode.mjs tc005 [--only=youtube|tiktok|cover|thumb] [--parts=1,3]
-//   youtube.mp4    khung ngang 1920×1080 (composition Episode), có câu chào, thẻ hook, nhãn tên kênh
-//   tiktok-NN.mp4  khung dọc 1080×1920 (composition Clip), mỗi phần render riêng, có thẻ hook và nhãn "Phần n/N"
+//   youtube.mp4    khung ngang 1920×1080 (composition Episode): câu chào bằng giọng, watermark logo
+//   tiktok-NN.mp4  khung dọc 1080×1920 (composition Clip), mỗi phần render riêng, watermark + nhãn "Phần n/N"
 //   tiktok-NN-cover.png  bìa phần TikTok 1080×1920 (render cùng phần, hoặc riêng bằng --only=cover)
 //   thumb.png      ảnh bìa YouTube 1280×720
 //   --only=...     chỉ render bản YouTube, các phần TikTok (kèm bìa), chỉ bìa TikTok, hoặc ảnh bìa YouTube

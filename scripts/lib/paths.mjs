@@ -9,7 +9,7 @@ export const TAG_RE = /^[a-z0-9-]+$/;
 
 // Thương hiệu và chữ cố định của kênh: nguồn duy nhất là channel/channel.json (src/brand.ts đọc cùng file này).
 // Chuỗi mẫu dùng {name}, {n}, {total}.
-const REQUIRED = ['name', 'introText', 'introLabel', 'partLabel', 'chapterLabel', 'accent'];
+const REQUIRED = ['name', 'introText', 'partLabel', 'chapterLabel', 'accent'];
 export const channelConfig = () => {
   const c = JSON.parse(fs.readFileSync(path.join(CHANNEL, 'channel.json'), 'utf8'));
   const missing = REQUIRED.filter((k) => typeof c[k] !== 'string');

@@ -10,9 +10,9 @@ export type VoiceSettings = {provider?: string; model?: string; voiceId?: string
 
 export type EpisodeProps = {
   voice?: VoiceSettings;
-  title: string; episodeLabel: string;
+  title: string; // tiêu đề tập, dùng cho đăng bài (không hiện trên hình)
   audioSrc: string; captionsSrc: string; footageTag: string;
-  cutEverySec: number; dim: number; hookSec: number;
+  cutEverySec: number; dim: number;
   chapters: Chapter[]; parts: Part[];
   // Ảnh bìa: thumbText dùng "|" ngắt dòng, *chữ* tô màu nhấn; thumbFocus = object-position của ảnh ("50% 30%");
   // thumbTag = nhãn nhỏ dưới hook ("Trọn bộ"), bỏ trống thì ẩn

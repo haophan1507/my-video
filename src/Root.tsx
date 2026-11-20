@@ -37,9 +37,9 @@ const loadEpisode: CalculateMetadataFunction<EpisodeProps> = async ({props}) => 
 };
 
 const defaults: EpisodeProps = {
-  title: 'Tiêu đề hook', episodeLabel: 'Tập 1',
+  title: 'Tiêu đề tập',
   audioSrc: 'xx000/audio.mp3', captionsSrc: '', footageTag: 'craft',
-  cutEverySec: 6, dim: 0.3, hookSec: 3,
+  cutEverySec: 6, dim: 0.3,
   chapters: [{title: 'Chương 1', startSec: 0}], parts: [{chapters: [1], hook: 'Hook phần 1'}],
   thumbText: 'Tiêu đề bìa', thumbBg: 'xx000/thumb-bg.jpg',
   part: 0, introSec: 0, audioSec: 0, footage: [], captions: [],

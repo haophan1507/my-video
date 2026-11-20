@@ -22,7 +22,7 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 - **YouTube: khung ngang 16:9** (2026-11-20). Clip ngang phủ kín khung. Clip dọc hoặc vuông hiện trọn ở giữa, hai bên là viền đen; không phóng to cắt mất tay hay vật chính.
 - **TikTok: khung dọc 9:16**. Mỗi phần render riêng từ cùng audio và mốc chương, không cắt từ bản YouTube.
 - Quy tắc khớp chung cho cả hai khung (`src/FootageTrack.tsx`): clip lệch tỉ lệ ít (phần bị cắt ≤ 20% diện tích) thì phủ kín; lệch nhiều thì hiện trọn, thêm viền đen. Ví dụ khung dọc: clip 9:16 phủ kín, clip vuông có viền đen trên dưới.
-- Bố cục chữ tự đổi theo hướng khung (`useLayout` trong `src/ui.tsx`): vùng an toàn, cỡ chữ, vị trí thẻ hook và phụ đề.
+- Bố cục chữ tự đổi theo hướng khung (`useLayout` trong `src/ui.tsx`): vùng an toàn, cỡ watermark, nhãn góc và vị trí phụ đề.
 
 ## Phụ đề
 
@@ -35,7 +35,7 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 ## Chữ trên màn
 
 - Font Be Vietnam Pro đậm; nền tối mờ bo góc sau chữ, không viền đen dày; chữ vào ra mờ dần và phóng nhẹ.
-- Màu nhấn `#FF8A1F` (cam quýt), đặt ở `accent` trong `channel/channel.json` (thanh nhấn thẻ hook, chấm nhãn góc, gạch dưới tên kênh).
+- Màu nhấn `#FF8A1F` (cam quýt), đặt ở `accent` trong `channel/channel.json` (chấm nhãn góc, chữ nhấn ảnh bìa).
 - Watermark góc trên trái là ảnh logo kênh (`public/brand/watermark.png`, đường dẫn ở `watermark` trong `channel/channel.json`), độ mờ 0,92, bóng nhẹ. YouTube: cao 150 px, cách lề 100/70 px, một mình; góc phải dưới để trống cho watermark của YouTube. TikTok: cao 170 px, cách lề trái 80, trên 160 (dưới thanh Following/For You), kèm viên thuốc "Phần n/N" bên phải logo, nằm trong vùng an toàn (phải 160, đáy 520).
 - Ảnh gốc ở `channel/brand/`: `avatar.png` (800×800, nền trắng, mascot thu về ~74% để cắt tròn không mất tai nghe) dùng làm avatar YouTube, TikTok; `watermark-full.png` (nền trong, viền trắng kiểu sticker) là bản gốc của watermark.
 
@@ -82,15 +82,5 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 - 2026-11-20: bản YouTube chuyển sang khung ngang 1920×1080, viền đen khi footage lệch tỉ lệ; TikTok giữ khung dọc, render riêng (bỏ `--cut`). Footage chia thư mục theo tag `public/footage/<tag>/`, giữ tỉ lệ gốc khi chuẩn hóa (cạnh ngắn 1080 px), nguồn clip ghi ở `public/footage/<tag>/sources.txt`.
 - 2026-11-20: đổi tên kênh thành Quýt Nhỏ Audio, màu nhấn cam `#FF8A1F`; câu chào thêm "Chúc bạn nghe truyện vui vẻ."; nhãn tên kênh góc trái thay bằng watermark ảnh logo (`Watermark` trong `src/ui.tsx`, thay `CornerLabel`); thêm avatar kênh.
 - 2026-11-20: bỏ thẻ chào và thẻ hook trên hình ở cả YouTube và TikTok để vào thẳng footage; giữ câu chào bằng giọng và watermark logo.
-- 2026-11-20: bìa YouTube đổi tỉ lệ ảnh : chữ từ 52 : 48 sang 38 : 62; hook không có `|` tự ngắt dòng cho cỡ chữ lớn nhất; bìa TikTok mép xé từ 1000 lên 900, hook cỡ tối đa 140 px.
-- 2026-11-20: bìa vui hơn: giấy kem ấm, hook mỗi dòng một màu (nâu, xanh lá, cam, đỏ quýt), khung nét đứt màu nhấn, confetti nhỏ; áp dụng cho bìa YouTube và bìa TikTok.
-- 2026-11-20: bìa bớt rối: chữ một màu nâu đậm, chỉ từ khóa `*...*` đổi đỏ quýt; bỏ khung nét đứt và confetti, thay bằng hai nét cọ cam nhạt. Sửa lỗi cụm nhấn nhiều từ bị tô sai khi tự ngắt dòng.
-- 2026-11-20: ảnh bìa vào khung tròn viền trắng + vòng cọ cam trên nền kem, thay mảng giấy xé mép và đinh ghim (hằng `CIRCLE` trong `src/Thumbnail.tsx`; `false` để quay lại kiểu giấy xé).
-- 2026-11-20: khung tròn ảnh bìa phóng lên đường kính 800 px (bìa YouTube tràn mép trên, dưới); bỏ viền trắng, thay bằng vệt cọ cam, vàng nhọn dần hai đầu, mép lởm chởm và đốm cọ bắn (`RoundPhoto`, `brushStroke` trong `src/Thumbnail.tsx`).
-- 2026-11-20: viền cọ của khung tròn mảnh lại (bề dày tối đa 28 px, trước 56 px) và đứt thành 10 đoạn ngắn có khoảng trống (mảng `strokes` trong `RoundPhoto`).
-- 2026-11-20: viền khung tròn và hai dải nền đổi sang kiểu cọ khô theo bìa mẫu: nét chính đặc dày mỏng không đều + sợi mảnh xòe, mép lởm chởm (`DryArc`, `DryBar`, `Ribbon` trong `src/Thumbnail.tsx`); bỏ vệt cọ nhọn đầu và đốm cọ bắn.
-- 2026-11-20: viền cọ vẽ lại theo cấu trúc bìa mẫu: một nét đặc dày mỏng không đều sát mép tròn + sợi mảnh dài ngắn xòe ra, thay cho nhiều sợi đều nhau; bề rộng viền giảm từ ~80 px xuống ≤ 70 px, phần đặc ≤ 40 px.
-- 2026-11-20: đổi mẫu bìa theo bìa mẫu kênh audio ẩm thực: chữ sang trái, ảnh tròn sang phải (YouTube) và xuống dưới (TikTok); logo kênh (`brand.watermark`) thay nhãn tên kênh; thêm nút đỏ SUBSCRIBE có ngón tay (YouTube), nút đỏ PHẦN n/N (TikTok), hình vẽ mờ chủ đề audio trên nền kem; font hook đổi từ Phudu sang Paytone One; bỏ kiểu giấy xé mép và hằng `CIRCLE`.
-- 2026-11-20: nét cọ vẽ lại kiểu lông cọ (`Brush`: sợi song song, cuối nét khô, mép nhòe bằng feTurbulence) thay dải đặc mép răng cưa nhìn cứng; ảnh bìa YouTube thu từ đường kính 940 xuống 660 px, cột chữ rộng 670 px, hook tối đa 110 px; bìa TikTok dùng khung tròn trọn vẹn 580 px thay khung 1.120 px bị cắt mép.
-- 2026-11-20: dải cọ ngang vẽ lại bằng bộ lọc nhiễu (mảng thon dần, sọc lông cọ, đầu khô) thay các sợi nét đứt; ảnh bìa YouTube phủ kín mép phải không hở góc (tròn 1.040 px, tâm (1250, 360)); bìa TikTok đổi khung tròn 580 px sang vòm tròn phủ kín phần dưới.
-- 2026-11-20: dải cọ ngang thu nhỏ (YouTube cao 42 và 30 px, TikTok 50 px) cho nhẹ, tự nhiên hơn; không dùng nét vẩy mực.
+- 2026-11-20: ảnh bìa qua nhiều vòng chỉnh (giấy xé, confetti, khung nét đứt, vệt cọ nhọn đều đã thử và bỏ) rồi chốt mẫu hiện tại ở mục Ảnh bìa: chữ trái, ảnh tròn phải (TikTok: vòm dưới), logo kênh, nút đỏ SUBSCRIBE / PHẦN n/N, font Paytone One, viền và dải cọ khô vẽ bằng bộ lọc nhiễu (`Brush`, `BrushRing`, `BrushBar` trong `src/Thumbnail.tsx`).
+- 2026-11-20: gỡ code thẻ chữ không còn dùng (`TitleCard`, `IntroCard`), trường `hookSec`, `episodeLabel` trong `episode.json` và `introLabel` trong `channel/channel.json`.

@@ -15,7 +15,6 @@ export const validateEpisode = (p: Record<string, any>, opts: {needThumb?: boole
   if (p.captionsSrc != null && typeof p.captionsSrc !== 'string') e.push('"captionsSrc" phải là chữ ("" = tắt phụ đề)');
   if (!(num(p.cutEverySec) && p.cutEverySec > 0)) e.push('"cutEverySec" phải là số > 0');
   if (!(num(p.dim) && p.dim >= 0 && p.dim <= 1)) e.push('"dim" phải là số từ 0 đến 1');
-  if (!(num(p.hookSec) && p.hookSec > 0)) e.push('"hookSec" phải là số > 0');
   if (!(num(p.introSec) && p.introSec >= 0)) e.push('"introSec" phải là số >= 0 (build-audio điền)');
 
   const chapters = p.chapters;

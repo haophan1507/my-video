@@ -3,7 +3,6 @@
   "footageTag": "cook",
   "cutEverySec": 28,
   "dim": 0.4,
-  "hookSec": 3,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
@@ -30,7 +29,6 @@
   "thumbText": "Bạn thân hôn|người yêu tôi|ngay *sinh nhật*",
   "thumbBg": "tc005/thumb-bg.jpg",
   "introSec": 2.64,
-  "episodeLabel": "Quýt Nhỏ Audio",
   "audioSrc": "tc005/audio.mp3",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%"

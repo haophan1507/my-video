@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
-import {epPaths, CHANNEL, channelName, chapterLabel} from './lib/paths.mjs';
+import {epPaths, CHANNEL, chapterLabel} from './lib/paths.mjs';
 
 const E = epPaths(process.argv[2]);
 const GAP = 0.8;
@@ -36,7 +36,7 @@ if (data.intro !== false && fs.existsSync(INTRO)) {
   t = introDur + gap;
 }
 data.introSec = Math.round(t * 100) / 100;
-data.episodeLabel = channelName(); // nhãn góc và thẻ chào = tên kênh
+delete data.episodeLabel; delete data.hookSec; // trường cũ, không còn dùng
 data.audioSrc = `${E.pubRel}/audio.mp3`;
 data.thumbBg ??= `${E.pubRel}/thumb-bg.jpg`;
 files.forEach((f, i) => {
