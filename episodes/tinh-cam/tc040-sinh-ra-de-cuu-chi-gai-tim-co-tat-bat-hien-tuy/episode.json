@@ -1,0 +1,68 @@
+{
+  "title": "Bác sĩ báo tôi chỉ còn ba tháng, mẹ lại đòi tôi hiến tủy cho chị gái",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Ba tháng và một cái tát"
+    },
+    {
+      "title": "Người nhà đến nhập viện"
+    },
+    {
+      "title": "Bát cơm của Đại Kim"
+    },
+    {
+      "title": "Tờ phiếu khám năm chín tuổi"
+    },
+    {
+      "title": "Đêm chị Vi hết diễn"
+    },
+    {
+      "title": "Mười một phút bốn mươi giây"
+    },
+    {
+      "title": "Cháo trước phòng mổ"
+    },
+    {
+      "title": "Cuộc sống của riêng tôi"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Bị bác sĩ báo ba tháng, mẹ tát tôi vì đòi hiến tủy"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Mẹ tôi biết bệnh tim của tôi từ năm chín tuổi"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Chị gái livestream bóc phốt, đêm đó lộ mặt thật"
+    }
+  ],
+  "thumbText": "Bệnh tim|còn *ba tháng*|mẹ đòi hiến|tủy cho chị",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

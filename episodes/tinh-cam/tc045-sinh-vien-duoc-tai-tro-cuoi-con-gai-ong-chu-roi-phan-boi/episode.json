@@ -1,0 +1,71 @@
+{
+  "title": "Ba tôi vào tù, chồng chạy đi cứu mối tình đầu, tôi lặng lẽ đếm ngược năm ngày ký đơn ly hôn",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Còn năm ngày"
+    },
+    {
+      "title": "Ba nghìn vạn tệ của ba tôi"
+    },
+    {
+      "title": "Cuộc gọi bị cúp"
+    },
+    {
+      "title": "Chiếc lược đồi mồi"
+    },
+    {
+      "title": "Cà phê nguội và tờ giấy dưới tách"
+    },
+    {
+      "title": "Cái ô trong mưa"
+    },
+    {
+      "title": "Phong bì không tên"
+    },
+    {
+      "title": "Họp báo của Lam Hải Dược"
+    },
+    {
+      "title": "Hai bên đã xong"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Ba tôi bị bắt, chồng chạy đi cứu mối tình đầu, còn năm ngày tôi ký"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Cô ta chải tóc bằng chiếc lược của mẹ tôi"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Cốc cà phê cuối cùng và câu nói nghe lén ở hành lang"
+    }
+  ],
+  "thumbText": "Ba tôi vào tù|chồng cứu *tình đầu*|Còn *5 ngày*|tôi ký đơn",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

@@ -1,0 +1,70 @@
+{
+  "title": "Chồng bắt tôi ra đi tay trắng, anh ta không biết bố mẹ anh ta là bố mẹ ruột của tôi",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Vỏ đậu phộng"
+    },
+    {
+      "title": "Chiếc xe rung giữa trời mưa"
+    },
+    {
+      "title": "Bát yến sào của tôi"
+    },
+    {
+      "title": "Thùng giấy và chiếc cà vạt"
+    },
+    {
+      "title": "Mười người đàn ông và chiếc nhẫn"
+    },
+    {
+      "title": "Xe tải nhỏ trước cục dân chính"
+    },
+    {
+      "title": "Đêm dạ tiệc nhà họ Kinh"
+    },
+    {
+      "title": "Viên ngọc thất lạc"
+    },
+    {
+      "title": "Ai bò về trước"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Bạn chồng ném vỏ đậu vào đầu tôi"
+    },
+    {
+      "chapters": [
+        2,
+        3
+      ],
+      "hook": "Tôi suýt chết vì chiếc xe rung giữa mưa"
+    },
+    {
+      "chapters": [
+        4,
+        5
+      ],
+      "hook": "Tôi thuê mười người đàn ông *chào chồng cũ*"
+    }
+  ],
+  "thumbText": "Chồng bắt tôi|ra đi *tay trắng*|bố mẹ anh ta là|*bố mẹ ruột* tôi",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

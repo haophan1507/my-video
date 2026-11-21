@@ -1,0 +1,36 @@
+{
+  "title": "Bố mẹ ruột thất lạc 22 năm tìm thấy tôi, quà gặp mặt là một thẻ khám sức khỏe; tôi cầm thẻ mới thấy toàn là hạng mục hiến tạng trước mổ",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Tên chương 1 (có từ khóa)"
+    },
+    {
+      "title": "Tên chương 2"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Hook của Phần 1"
+    }
+  ],
+  "thumbText": "Hook rút gọn|tối đa 4 dòng|*từ nhấn* tô màu",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

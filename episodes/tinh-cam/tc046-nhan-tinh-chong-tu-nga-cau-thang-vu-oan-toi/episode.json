@@ -1,0 +1,67 @@
+{
+  "title": "Người tình tự lăn xuống cầu thang, chồng đẩy tôi ra, tôi mỉm cười: anh về thì ly hôn",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Cú đẩy ở chiếu nghỉ cầu thang"
+    },
+    {
+      "title": "Hai chữ \"tay trắng\""
+    },
+    {
+      "title": "Hai trường chỉ khác vài chữ cái"
+    },
+    {
+      "title": "Chiếc xe lăn mất phanh"
+    },
+    {
+      "title": "Phòng bệnh và cú đấm"
+    },
+    {
+      "title": "Thang máy nội bộ"
+    },
+    {
+      "title": "Một trăm vạn cho chiếc ghim cài"
+    },
+    {
+      "title": "Bốn phút trên màn hình"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Chồng đẩy tôi ra để bế người tình"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Hai trường chỉ khác vài chữ cái"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Cú đấm trong phòng bệnh"
+    }
+  ],
+  "thumbText": "Cô ta tự ngã|chồng đẩy tôi ra|*ly hôn* đi",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

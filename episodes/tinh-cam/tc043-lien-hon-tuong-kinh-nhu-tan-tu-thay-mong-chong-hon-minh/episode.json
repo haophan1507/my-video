@@ -1,0 +1,67 @@
+{
+  "title": "Đưa đơn ly hôn cho chồng, đầu tôi bỗng hiện cảnh anh đè tôi hôn mất kiểm soát",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Tờ đơn ly hôn và chiếc bàn gỗ mun"
+    },
+    {
+      "title": "Cảnh phim trong đầu tôi"
+    },
+    {
+      "title": "Tủ lạnh lúc hai giờ sáng"
+    },
+    {
+      "title": "Tấm bưu thiếp của Kế Hoài"
+    },
+    {
+      "title": "Cây lau nhà và mùa hè bất bại"
+    },
+    {
+      "title": "Người trong ảnh là tôi"
+    },
+    {
+      "title": "Thằng cà lăm năm ấy"
+    },
+    {
+      "title": "Chiêu cuối mang tên mùa hè"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Đưa đơn ly hôn cho chồng, tôi bỗng thấy cảnh anh đè tôi hôn mất kiểm soát"
+    },
+    {
+      "chapters": [
+        2,
+        3
+      ],
+      "hook": "Cứ chạm vào chồng, đầu tôi lại chiếu cảnh anh hôn tôi"
+    },
+    {
+      "chapters": [
+        4,
+        5
+      ],
+      "hook": "Tấm bưu thiếp ký tên Kế Hoài, và nét chữ thừa một gạch ngang"
+    }
+  ],
+  "thumbText": "Đưa đơn ly hôn|đầu tôi hiện *cảnh*|chồng đè tôi hôn",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}
