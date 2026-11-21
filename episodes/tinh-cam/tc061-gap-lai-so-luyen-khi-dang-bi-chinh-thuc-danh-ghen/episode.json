@@ -1,0 +1,67 @@
+{
+  "title": "Gặp lại mối tình đầu đúng lúc tôi bị vợ cả bắt gian đánh hội đồng",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Phòng sáu trăm sáu mươi sáu"
+    },
+    {
+      "title": "Bức ảnh thảm họa"
+    },
+    {
+      "title": "Quán cà phê trong hẻm"
+    },
+    {
+      "title": "Em gái"
+    },
+    {
+      "title": "Mùi xà phòng và lời tỏ tình"
+    },
+    {
+      "title": "Ngồi Chồm Hổm"
+    },
+    {
+      "title": "Hai cánh cửa đóng sầm"
+    },
+    {
+      "title": "Tim anh ở đây"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Gặp lại mối tình đầu thời tiểu học, tôi đang bị bà vợ cả đánh hội đồng vì tội làm tiểu tam. Điều oan nhất là tôi chưa kịp làm tiểu tam của ai."
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Bị đánh oan là tiểu tam, tôi ngại gặp mối tình đầu đến mức muốn đào lỗ chui xuống. Anh nhắn: Mai em rảnh không? Anh muốn mời em ăn tối."
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Tôi ném bó hoa tỏ tình vào thùng rác vì nghe anh bảo tôi chỉ là em gái. Đêm đó anh đẩy cửa nhà tôi bước vào."
+    }
+  ],
+  "thumbText": "Gặp lại *tình đầu*|đúng lúc tôi bị vợ cả|bắt gian *đánh hội đồng*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

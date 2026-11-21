@@ -1,0 +1,71 @@
+{
+  "title": "Tôi đứng cả đêm trong tuyết, chồng bước ra từ khách sạn hỏi: lại giận dỗi gì nữa?",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Lại giận dỗi gì nữa?"
+    },
+    {
+      "title": "Năm năm đếm ngược"
+    },
+    {
+      "title": "Cánh cửa thư phòng"
+    },
+    {
+      "title": "Paris và tờ giấy trong ngăn kéo"
+    },
+    {
+      "title": "Bên A là chồng cũ"
+    },
+    {
+      "title": "Điều khoản trang cuối"
+    },
+    {
+      "title": "Dây xích gãy"
+    },
+    {
+      "title": "Hết nợ nhau"
+    },
+    {
+      "title": "Đêm Trúc Mộng"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Tôi đứng cả đêm trong tuyết, chồng chỉ hỏi: lại giận dỗi gì nữa?"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Tôi nghe lén cuộc gọi ở thư phòng rồi bay thẳng sang Paris"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Ký hợp đồng xong mới biết bên A là chồng cũ của tôi"
+    }
+  ],
+  "thumbText": "Chồng hỏi: *giận dỗi?*|Tôi đưa đơn *ly hôn*|Ba năm sau|anh là *bên A*, quỳ xin",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

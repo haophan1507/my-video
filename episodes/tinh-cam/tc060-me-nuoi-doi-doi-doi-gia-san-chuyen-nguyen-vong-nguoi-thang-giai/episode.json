@@ -1,0 +1,71 @@
+{
+  "title": "Sinh nhật hai mươi tuổi, tôi nghe mẹ nuôi nói tôi sinh ra để làm bậc thang cho con gái bà ta",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Sinh nhật dưới mưa"
+    },
+    {
+      "title": "Chiếc phong bì đỏ ở phòng giáo vụ"
+    },
+    {
+      "title": "Người học trò cuối của cha"
+    },
+    {
+      "title": "Hai bản kế hoạch giống hệt nhau"
+    },
+    {
+      "title": "Đêm thức trong phòng thí nghiệm"
+    },
+    {
+      "title": "Mẹ chặn trước cổng hội trường"
+    },
+    {
+      "title": "Mười lăm phút trên sân khấu"
+    },
+    {
+      "title": "Căn nhà bị bán lén"
+    },
+    {
+      "title": "Lá thư để lại cho Nhược Khê"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Mẹ nuôi nói tôi sinh ra để làm bậc thang"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Có người đi tìm tôi suốt tám năm"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Hai giờ sáng trong phòng thí nghiệm, và bà Triển đã chờ ngoài cổng"
+    }
+  ],
+  "thumbText": "Mẹ nuôi nói tôi|sinh ra để *làm*|*bậc thang*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

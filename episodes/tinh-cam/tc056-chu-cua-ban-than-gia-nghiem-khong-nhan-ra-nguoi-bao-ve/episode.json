@@ -1,0 +1,71 @@
+{
+  "title": "Bạn thân có thai trốn sang nhà tôi, tôi nhận tội thay, cậu út của cô ấy ép tôi vào tường",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Ba giờ sáng, tiếng đập cửa"
+    },
+    {
+      "title": "Người đàn ông lịch sự nhất thế giới"
+    },
+    {
+      "title": "Hai tay chống lên tủ giày"
+    },
+    {
+      "title": "Váy xanh và ly rượu"
+    },
+    {
+      "title": "Quỳ một gối"
+    },
+    {
+      "title": "Mười một hồ sơ"
+    },
+    {
+      "title": "Cây chổi lông gà"
+    },
+    {
+      "title": "Đừng dùng em làm cầu nối"
+    },
+    {
+      "title": "Em chỉ nhìn anh"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Bạn thân có thai trốn sang nhà tôi lúc ba giờ sáng, tôi nhận tội thay"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Cậu út ép tôi vào tường: người đàn ông đó là ai?"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Người đàn ông lạnh nhất Hải Thành quỳ một gối xin lỗi tôi"
+    }
+  ],
+  "thumbText": "Nhận tội thay|bạn thân *có thai*|cậu út hỏi|*người đó là ai*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

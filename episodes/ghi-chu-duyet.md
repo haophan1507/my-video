@@ -56,3 +56,9 @@ Do agent báo lại trong lúc sinh kịch bản hàng loạt (2026-11-21). Xóa
 - tc053: 19/25; ch3–5 còn bám sát nguồn; TikTok phần 3 ~10,6 phút
 - tc054: chi tiết pháp lý (thế chấp, ủy quyền, tố giác) tự dựng; TikTok phần 1 ~9,9 phút
 - tc055: TikTok phần 1, 2 ~10 phút; thêm sổ cái, ly đá xay, bưu kiện sổ bìa da
+- tc056: Tiết Trạm đổi thành "cậu út" (em ruột mẹ) để khác họ; bỏ cảnh hôn cưỡng ép/trói người; TikTok phần 1, 2 sát 9 phút
+- tc057: bỏ cảnh bắt cóc nhà máy (thay bằng du thuyền); tên "Tễ" nghe lạ với TTS; TikTok phần 1 ~9,3 phút
+- tc058: 18/25; ngôi "tôi" xen ngôi ba của anh; tên Noãn/Sách chưa thử TTS
+- tc059: 19/25; cốt truyện lệch nguồn (chồng thành bên A, hoàn trả khoản đầu tư); TikTok phần 2 ~9 phút
+- tc060: 19/25; thêm Hoắc Lĩnh, cuốn sổ của cha, vụ đạo hồ sơ; chưa đối chiếu tên gọi cuối
+- tc061: ch8 vài câu thoại vụng; twist Ly đặt phòng 666 và "Ngồi Chồm Hổm"

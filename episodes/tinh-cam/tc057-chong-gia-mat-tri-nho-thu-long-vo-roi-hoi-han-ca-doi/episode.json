@@ -1,0 +1,70 @@
+{
+  "title": "Chồng tỉnh dậy sau tai nạn hỏi tôi: Cô là ai? Anh chỉ nhớ mối tình đầu",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Cô là ai?"
+    },
+    {
+      "title": "Ba tháng giao ước"
+    },
+    {
+      "title": "Mười một giây sau cánh cửa"
+    },
+    {
+      "title": "Lốp xe giữa đường"
+    },
+    {
+      "title": "Căn phòng tầng hai"
+    },
+    {
+      "title": "Người gọi cô ta về nước"
+    },
+    {
+      "title": "Anh là ai?"
+    },
+    {
+      "title": "Chiếc ô trước cửa"
+    },
+    {
+      "title": "Ván cược của anh"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Chồng tôi tỉnh dậy sau tai nạn, nhìn tôi hỏi: Cô là ai? Ba tháng sau, qua khe cửa nhà hàng, tôi nghe anh nói một câu."
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Tôi nghe lỏm chồng nói sau cánh cửa, rồi bỏ đi với một ván cược. Một năm sau anh tìm đến tận Đại Lý, mang theo một lời đe dọa."
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Chồng cũ tịch thu điện thoại, giam tôi trong biệt thự. Đến khi tình đầu của anh nói: Chính anh ấy gọi tôi về nước."
+    }
+  ],
+  "thumbText": "Chồng hỏi tôi|*Cô là ai?*|anh chỉ nhớ|*tình đầu*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

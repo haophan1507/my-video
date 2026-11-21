@@ -1,0 +1,68 @@
+{
+  "title": "Đêm tân hôn, chồng tôi chia phòng rồi nói tôi đừng có gánh nặng tâm lý",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Cô cứ chọn phòng nào cô thích"
+    },
+    {
+      "title": "Căn hộ quá vừa ý"
+    },
+    {
+      "title": "Ba giây trong mưa"
+    },
+    {
+      "title": "Ánh đèn quán ăn bên sông"
+    },
+    {
+      "title": "Ba mươi ngày băng giá"
+    },
+    {
+      "title": "Hơn ba mươi chín độ"
+    },
+    {
+      "title": "Lời cô Hai buột miệng"
+    },
+    {
+      "title": "Chiếc ô và tờ giấy nháp"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Đêm tân hôn, chồng gọi tôi là cô và chia phòng"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Cái ôm chỉ kéo dài đúng ba giây"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Ba mươi ngày băng giá và cánh cửa bật mở lúc hai giờ sáng"
+    }
+  ],
+  "thumbText": "Đêm tân hôn|chồng gọi tôi là *cô*|và chia phòng",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}
