@@ -1,0 +1,95 @@
+{
+  "title": "Bình hoa phát hiện chồng ngoại tình với nữ streamer, cô đuổi nhân tình đi rồi tiễn luôn chồng",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Bữa tối kỷ niệm bị bỏ quên"
+    },
+    {
+      "title": "Hai nghìn vạn tệ và một tài khoản phụ"
+    },
+    {
+      "title": "Cậu nhân viên karaoke giá hai vạn tệ một tuần"
+    },
+    {
+      "title": "Bà già vàng vọt"
+    },
+    {
+      "title": "Đoạn ghi âm người xem như chó"
+    },
+    {
+      "title": "Cái tát giữa sảnh khách sạn"
+    },
+    {
+      "title": "Phong sát, và một năm sau"
+    },
+    {
+      "title": "Bát canh ngọt cuối cùng"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Tôi là bình hoa được chồng cưng, cho đến ngày thấy sợi tóc nâu trên cổ áo"
+    },
+    {
+      "chapters": [
+        2
+      ],
+      "hook": "Chồng nạp năm trăm vạn tệ để được gặp cô ta một lần"
+    },
+    {
+      "chapters": [
+        3
+      ],
+      "hook": "Người đàn ông trong ảnh bìa không phải chồng tôi"
+    },
+    {
+      "chapters": [
+        4
+      ],
+      "hook": "Gái trẻ bị trai đẹp chiều mà không đòi gì thì mê gấp mười lần"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Điều cấm kỵ nhất của nghề phát trực tiếp: chửi người xem"
+    },
+    {
+      "chapters": [
+        6
+      ],
+      "hook": "Chồng tôi bị cắm sừng giữa sảnh khách sạn của chính mình"
+    },
+    {
+      "chapters": [
+        7
+      ],
+      "hook": "Cô ta ôm chặt phao cứu sinh mà không biết sợi dây buộc vào cổ"
+    },
+    {
+      "chapters": [
+        8
+      ],
+      "hook": "Tôi cố tình đi vòng thêm hai vòng trước khi đưa chồng đến bệnh viện"
+    }
+  ],
+  "thumbText": "Bình hoa|*đuổi nhân tình*|tiễn luôn|cả chồng",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

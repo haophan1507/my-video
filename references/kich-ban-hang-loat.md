@@ -28,7 +28,7 @@ Thư mục gốc `/Users/haopv/Documents/my-video`. Chỉ ghi trong thư mục t
 - Dòng Tổng (chương, chữ, phút), Cách đủ độ dài (cắt gì hoặc thêm vòng nào), Hook cả truyện.
 - Bảng tên: đặt tên Hán Việt mới theo `van-phong.md` mục 2, mỗi người một họ và một âm đầu; cột tên bản nguồn; xưng hô cố định. Dùng đúng họ được giao cho nữ chính và nam chính. Mọi nhân vật có tên khác không dùng họ nào trong `node scripts/names.mjs --surnames` (kể cả tên tập đoàn "<họ> thị" và thành phố); tránh tên quen của thể loại khi đặt tên (Giang Ninh, Tô Nhiên, Lâm Vãn, Cố/Hoắc/Lục/Phó/Thẩm cho nam chính).
 - Bảng chương, rồi mỗi chương một mục `### Chương N. Tiêu đề (số chữ)` gồm Hook mở, Nội dung, Cliffhanger.
-- `## Chia phần TikTok` (3–8 phút mỗi phần) và `## 5 phương án tiêu đề YouTube` có điểm.
+- `## Chia phần TikTok` (3–8 phút mỗi phần; hai chương liền ~900 chữ trở lên đã vượt 8 phút, nên tách mỗi chương một phần; `episode.json` `parts` khớp bảng này) và `## 5 phương án tiêu đề YouTube` có điểm.
 - Độ dài theo sức của truyện, 25–60 phút (≈ 4.500–11.000 chữ), lệch nhẹ hai đầu được. Độ dài không phải chỉ tiêu: truyện còn đất sáng tạo (cảnh, vòng, twist, nhân vật phụ) thì cứ viết thêm thoải mái; không thấy chỗ mở hợp lý thì để ~25–30 phút, không cố kéo; truyện dài thì cắt cảnh phụ. Giữ 6–12 chương, 700–1.100 chữ mỗi chương. Không cần gom các tập về cùng một độ dài.
 - Tự do sáng tạo: đổi trình tự, thêm twist, thêm hoặc bỏ nhân vật phụ, sửa kết nếu làm truyện hay hơn; ghi lý do vào dòng "Cách đủ độ dài".
 - Làm theo dòng "Cần làm ở bước 2" của truyện nguồn và cột Lưu ý trong `stories/README.md`.

@@ -1,0 +1,95 @@
+{
+  "title": "Thiên kim giả bị đuổi khỏi hào môn, ngày đầu đi làm tôi đã ngồi lên ghế tổng giám đốc xoay vòng",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Ưu thế của tôi là từng làm tổng giám đốc"
+    },
+    {
+      "title": "Ghế da, xe đỏ và ông tổng xin học"
+    },
+    {
+      "title": "Phá băng bằng mặt nạ dưỡng da"
+    },
+    {
+      "title": "Ngày tôi bị đuổi khỏi nhà họ Đoàn"
+    },
+    {
+      "title": "Sinh nhật của hai thiên kim"
+    },
+    {
+      "title": "Ba mươi sáu cuốn truyện tổng tài"
+    },
+    {
+      "title": "Que thử thai và hôn lễ hỏng"
+    },
+    {
+      "title": "Thép rơi ở công trường, và chiếc nhẫn Mắt Chân Ái"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Tôi bắt ông tổng nhường ghế da, anh ta cười hề hề: Cô giỏi hưởng thụ thật"
+    },
+    {
+      "chapters": [
+        2
+      ],
+      "hook": "Tôi bắt ông tổng giám đốc đổi ghế cho mình, và anh ấy còn cảm ơn tôi.\"\n- **Nội dung**: đòi ghế da, xe thể thao, đầu bếp riêng; công ty chê; A Phúc bênh tôi lần "
+    },
+    {
+      "chapters": [
+        3
+      ],
+      "hook": "Tôi kéo ba ông tổng đi đắp mặt nạ, rồi gặp thiên kim thật"
+    },
+    {
+      "chapters": [
+        4
+      ],
+      "hook": "Họ Đoàn. Cùng họ với tôi. Và cô ta còn sinh cùng ngày với tôi.\"\n- **Nội dung**: hồi tưởng Nhu Mạn về nhà, trà xanh, tôi tự \"xin đi\" mà bị đuổi thật; tiệc, A Phú"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Bị ấn mặt vào bánh kem trước mọi người, người lau nước mắt cho tôi là ông tổng thô"
+    },
+    {
+      "chapters": [
+        6
+      ],
+      "hook": "Tôi mở cửa, một đóa sen bằng nến nở ra trong bóng tối.\"\n- **Nội dung**: ba mẹ ruột, kẹp tóc Niu Niu; ba mươi sáu cuốn truyện; A Phúc học quá đà; Sài Dao chỉ đến"
+    },
+    {
+      "chapters": [
+        7
+      ],
+      "hook": "Thiên kim thật có thai giả, và chiếc nhẫn Mắt Chân Ái"
+    },
+    {
+      "chapters": [
+        8
+      ],
+      "hook": "Ngày bị đuổi khỏi nhà, tôi nghĩ vẫn còn đường lui... Nhưng đứng ngoài phòng cấp cứu, tôi không dám khóc thành tiếng.\"\n- **Nội dung**: tựa vào vai A Phúc; clip b"
+    }
+  ],
+  "thumbText": "Thiên kim giả|ngồi *ghế tổng*|giám đốc|ngày đầu đi làm",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

@@ -175,5 +175,10 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 | tc017 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc018 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc019 | chưa chốt | chưa chốt | mở 2026-11-21 |
+| tc020 | chưa chốt | chưa chốt | mở 2026-11-21 |
+| tc021 | chưa chốt | chưa chốt | mở 2026-11-21 |
+| tc022 | chưa chốt | chưa chốt | mở 2026-11-21 |
+| tc023 | chưa chốt | chưa chốt | mở 2026-11-21 |
+| tc024 | chưa chốt | chưa chốt | mở 2026-11-21 |
 
 Mỗi tập mới thêm một dòng.

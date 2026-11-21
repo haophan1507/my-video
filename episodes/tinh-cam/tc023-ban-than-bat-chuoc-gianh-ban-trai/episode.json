@@ -1,0 +1,123 @@
+{
+  "title": "Bạn thân giành bạn trai tôi, tôi dẫn mười một người đàn ông của cô ta xông vào khách sạn",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Cô bạn xin link chiếc váy"
+    },
+    {
+      "title": "Vị khách dưới mưa"
+    },
+    {
+      "title": "Cuộc điện thoại nửa đêm"
+    },
+    {
+      "title": "Chai rượu hai vạn sáu"
+    },
+    {
+      "title": "Chiếc túi hơn hai mươi vạn"
+    },
+    {
+      "title": "Em gái hụt trong tiệc sinh nhật"
+    },
+    {
+      "title": "Cô con gái thất lạc"
+    },
+    {
+      "title": "Tin đồn và chiếc camera"
+    },
+    {
+      "title": "Phòng một nghìn hai trăm lẻ tám"
+    },
+    {
+      "title": "Con dao và hai tháng"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Bạn thân dắt bạn trai tôi vào khách sạn, tôi đứng sau cửa cùng mười một người đàn ông"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Cô bạn thân mặc chiếc váy mười hai vạn của tôi trước mặt cả nhà"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Nửa đêm, cô ta gọi tôi là dã chủng và hứa đá mẹ tôi ra khỏi nhà"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Bạn trai nói đang ở lớp, nhưng anh ta đang ngồi giữa nhà hàng Pháp"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Nam thần khoa Lý bị cô bạn thân nuôi như cá cảnh"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Cô ta xông vào tiệc sinh nhật mẹ tôi, nhận làm em gái tôi"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Mẹ nói con gái thất lạc đã trở về, cả sảnh nhìn tôi như nhìn bóng ma"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Một tuần, tôi từ tiểu thư thành đứa bị đại gia bao nuôi"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Mười bảy người cùng giơ điện thoại trước cửa phòng 1208"
+    },
+    {
+      "chapters": [
+        10,
+        10
+      ],
+      "hook": "Cô bạn thân rút dao giữa ban ngày"
+    }
+  ],
+  "thumbText": "Bạn thân giành|*bạn trai* tôi|tôi dẫn cả đám|xông vào khách sạn",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

@@ -1,0 +1,113 @@
+{
+  "title": "Nhân tình đến nhà đòi cưới, tôi tát cô ta rồi khóc lóc níu chồng, quay lưng nhắn: sắp thu lưới rồi",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Cú tát buổi sáng"
+    },
+    {
+      "title": "Chiếc ví cưới và vết son trong xe"
+    },
+    {
+      "title": "Tiệc rượu nhà bà Tưởng"
+    },
+    {
+      "title": "Ông bố cựu quân nhân"
+    },
+    {
+      "title": "Tờ giấy trong két sắt"
+    },
+    {
+      "title": "Lời thề trong phòng khách"
+    },
+    {
+      "title": "Phiên tòa không có hồi sau"
+    },
+    {
+      "title": "Chiếc phong bì của Kiệt"
+    },
+    {
+      "title": "Góc nhìn của Liêu Chấn"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Nhân tình đòi cưới, tôi tát cô ta rồi nhắn: sắp thu lưới rồi"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Tôi không phải người đầu tiên làm điều xấu trong cuộc hôn nhân này"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Muốn cả thành phố thương hại, hãy làm loạn đúng chỗ đông nhất"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Điểm yếu duy nhất của chồng tôi là một ông già cầm gậy"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Bí mật trong két sắt suốt năm năm: đứa bé không phải của anh"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Muốn anh ta tự đưa dao, hãy để anh ta tin mình đang thắng"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Luật sư bên kia nói tôi ăn bám, luật sư tôi chỉ nói: trùng hôn"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Cậu sinh viên tôi bao nuôi trả lại cả phong bì tiền"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Liêu Chấn kể: tôi cưới vợ vì tiền và chưa từng thấy mình sai"
+    }
+  ],
+  "thumbText": "Nhân tình đòi cưới|tôi tát rồi *khóc lóc*|quay lưng nhắn|*sắp thu lưới rồi*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

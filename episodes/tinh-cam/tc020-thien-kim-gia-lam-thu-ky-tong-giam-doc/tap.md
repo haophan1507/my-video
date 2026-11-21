@@ -1,0 +1,41 @@
+# tc020: Thiên kim giả bị đuổi khỏi hào môn đi làm thư ký, ngày đầu đã ngồi ghế tổng giám đốc xoay vòng; ông tổng thì cười hề hề: 'Cô giỏi hưởng thụ thật!'
+
+<!-- Mẫu hồ sơ tập. Chép thành episodes/<thể-loại>/<mã>-slug/tap.md khi mở tập mới.
+     Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
+
+- **Truyện nguồn**: tc020, stories/tinh-cam/tc020-thien-kim-gia-lam-thu-ky-tong-giam-doc.md
+- **Bước hiện tại**: 5
+- **Cập nhật**: 2026-11-21
+
+## Quyết định
+
+| Mục | Giá trị |
+|---|---|
+| Thể loại | Tình cảm hài: thiên kim giả, tổng tài thô bị bắt cóc từ nhỏ, thiên kim thật trà xanh; hài, ngọt, kết ấm |
+| Điểm: hook / twist / độ dài / dễ nghe / hợp gu (≥ 15/25) | 5 / 4 / 4 / 4 / 5 = 22/25 (twist 4 nhờ thêm sợi dây "ngẩng đầu lên" năm mười sáu tuổi) |
+| Hook cả truyện (một câu) | Ngày đầu đi làm thư ký, tôi ngồi lên ghế tổng giám đốc, xoay ba vòng, bảo ông tổng nhường ghế da vì tôi ngồi ghế lưới không quen; ông tổng cười hề hề: Cô giỏi hưởng thụ thật. |
+| Tiêu đề YouTube: 5 phương án + điểm, phương án chọn | A "Thiên kim giả bị đuổi khỏi hào môn, ngày đầu đi làm tôi đã ngồi lên ghế tổng giám đốc xoay vòng" 19; B "Tôi bắt ông tổng nhường ghế da..." 19; D 18; C 16; E 14 (chi tiết ở `outline.md`). Chọn A; A/B với B, D. Chưa duyệt |
+| Nhân vật: tên → cách gọi cố định | Đoàn Hi Vi (tôi); Lương A Phúc (nam chính, kể "A Phúc", thoại "Lương tổng", ngôi ba "anh"); Đoàn Nhu Mạn (thiên kim thật, "Nhu Mạn"); Sài Dao (đối thủ từ nhỏ, "Dao"); Tưởng Dục (người yêu cũ, "Tưởng Dục"); ba mẹ ruột, ba mẹ nuôi, bà chủ tịch, bác tài, ba ông tổng biệt danh không tên riêng. Chưa duyệt |
+| Bối cảnh | Trung Quốc hiện đại: Hải Thành, tập đoàn Lương thị, viện làm đẹp, tiệc sinh nhật, công trường; kết ở xưởng sửa xe; tiền là tệ |
+| Độ dài: số chương, phút; cách đủ độ dài | 8 chương, ~7.900 chữ, ~44 phút. Nguồn ~10.200 chữ Hán nhưng thoại ngắn; viết dày cảnh dạy ông tổng, cảnh clip công trường; cắt cảnh người lớn cuối truyện; thêm twist "ngẩng đầu lên" năm mười sáu tuổi; ngày bị đuổi kể hồi tưởng ở ch.4 |
+| Chia phần TikTok | 4 phần, mỗi phần hai chương (~9–12 phút); tách mỗi chương một phần nếu cần ≤ 8 phút |
+| Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
+| Footage: chủ đề, nguồn, tag | |
+| Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
+| Teaser TikTok 60–90 giây | |
+
+## Tiến độ
+
+- [x] 1. Chọn truyện
+- [x] 2. Dàn ý: `outline.md`
+- [x] 3. Viết chương: `script/chNN.tts.txt`
+- [x] 4. Soát TTS: báo cáo `normalize-vi.mjs` sạch
+- [ ] 5. Giọng: `audio/chNN.mp3`
+- [ ] 6. Footage: `public/footage/<tag>/`
+- [ ] 7. Render: `out/`
+
+## Nhật ký
+
+- 2026-11-21: mở tập.
+- 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 8 chương, ~7.900 chữ, ~44 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia TikTok đổi thành 8 phần (mỗi chương một phần) vì ghép hai chương vượt 8 phút.
