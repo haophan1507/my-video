@@ -75,18 +75,15 @@ Không tên: con gái (bé, con bé), dì hàng xóm ở Thanh Sơn, mẹ ruột
 
 ## Chia phần TikTok
 
-Mỗi chương một phần (hai chương liền ~1.600 chữ ≈ 9 phút, vượt 8 phút).
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/8 | 1 | 795 | ~4,4 | hook dốc chai | gã họ Giải kéo tay mẹ chạy |
-| 2/8 | 2 | 798 | ~4,4 | lọ thuốc giả giết bố chồng | bà đã cho cháu uống gì đó |
-| 3/8 | 3 | 805 | ~4,5 | thánh thủy cho bé bảy tháng | bà gục xuống sàn |
-| 4/8 | 4 | 781 | ~4,3 | uống một ngụm nằm viện hai ngày | gã áo dài về nhà bà |
-| 5/8 | 5 | 773 | ~4,3 | khe cửa hé ra | thiếu một cái cớ |
-| 6/8 | 6 | 925 | ~5,1 | cắt nửa tiền sinh hoạt | bốn chục cái tên |
-| 7/8 | 7 | 778 | ~4,3 | bốn chục cái tên | ngày bà trở về |
-| 8/8 | 8 | 811 | ~4,5 | đón mẹ chồng ra tù | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1 | 795 | ~4.4 | Mẹ chồng khoe thánh thủy cho cháu, tôi dốc nốt chai vào miệng bà |
+| 2/3 | 2–3 | 1601 | ~8.9 | Bố chồng tôi chết vì một lọ thuốc giả mà mẹ chồng tôi bán |
+| 3/3 | 4–5 | 1554 | ~8.6 | Người lớn uống một ngụm nằm viện hai ngày, đứa bé uống cả chén |
+
+Tỉ lệ đăng TikTok: 61% số chữ (chương 1–5 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

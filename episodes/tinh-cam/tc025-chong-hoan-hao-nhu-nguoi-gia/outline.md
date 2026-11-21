@@ -76,18 +76,15 @@ Xưng hô: tôi với Tiền Dật: em/anh. Mẹ anh với tôi: mẹ/con. Đớ
 
 ## Chia phần TikTok
 
-Mỗi chương một phần (chương dài hơn ~800 chữ nên tách riêng để mỗi phần dưới 8 phút).
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/8 | 1 | 730 | ~4,1 | hook cả truyện, chồng bóp cổ tay | thí nghiệm đầu: ghế bành màu cam |
-| 2/8 | 2 | 860 | ~4,8 | chồng thua vì một câu lịch sự | ngón tay trắng bệch ở hành lang |
-| 3/8 | 3 | 804 | ~4,5 | nếu chồng là máy thì vừa chập mạch | anh buông ra |
-| 4/8 | 4 | 1.020 | ~5,7 | lần đầu thấy chồng sợ | mẹ chồng mở lời |
-| 5/8 | 5 | 807 | ~4,5 | mẹ chồng hỏi có bị bỏ bùa không | con dao khựng trên thớt |
-| 6/8 | 6 | 978 | ~5,4 | chặn chồng trong bếp | ảnh chưa cắt |
-| 7/8 | 7 | 1.039 | ~5,8 | hai mươi bảy tấm ảnh | nến và hoa hồng |
-| 8/8 | 8 | 997 | ~5,5 | quỳ một gối giữa ánh nến | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1590 | ~8.8 | Chồng hoàn hảo hai năm chưa cau mày bóp chặt tay tôi: ly hôn, nghĩ cũng đừng nghĩ |
+| 2/3 | 3–4 | 1824 | ~10.1 | Đêm tôi nói ly hôn, anh im năm phút rồi hôn tôi như cơn bão |
+| 3/3 | 5 | 807 | ~4.5 | Mẹ chồng hỏi: hai năm nay thằng Dật có bị bỏ bùa không? |
+
+Tỉ lệ đăng TikTok: 58% số chữ (chương 1–5 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

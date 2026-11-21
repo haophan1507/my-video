@@ -83,17 +83,15 @@ Mỗi người một họ và một âm đầu khác nhau. Câu chào kênh chè
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/9 | 1 | 897 | ~5,0 | hook cả truyện | bút ghi âm "chuẩn bị hai năm" |
-| 2/9 | 2 | 798 | ~4,4 | tôi không phải người đầu tiên làm điều xấu | nhẫn kim cương của Bội Bội |
-| 3/9 | 3 | 870 | ~4,8 | làm loạn đúng chỗ đông nhất | căn hộ và công ty cho Bội Bội |
-| 4/9 | 4 | 934 | ~5,2 | điểm yếu duy nhất của Chấn | ba mươi cuộc gọi nhỡ |
-| 5/9 | 5 | 749 | ~4,2 | bí mật trong két sắt | đứa bé không thể là của anh |
-| 6/9 | 6 | 723 | ~4,0 | đưa dao cho chính anh ta | các khoản chuyển tiền |
-| 7/9 | 7 | 865 | ~4,8 | luật sư nói trùng hôn | tin nhắn "em xong việc rồi" |
-| 8/9 | 8 | 758 | ~4,2 | phong bì của Kiệt | người tôi không tính được |
-| 9/9 | 9 | 741 | ~4,1 | Liêu Chấn kể | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1 | 897 | ~5.0 | Nhân tình đòi cưới, tôi tát cô ta rồi nhắn: sắp thu lưới rồi |
+| 2/3 | 2–3 | 1668 | ~9.3 | Tôi không phải người đầu tiên làm điều xấu trong cuộc hôn nhân này |
+| 3/3 | 4–5 | 1682 | ~9.3 | Điểm yếu duy nhất của chồng tôi là một ông già cầm gậy |
+
+Tỉ lệ đăng TikTok: 58% số chữ (chương 1–5 / 9 chương).
 
 ## 5 phương án tiêu đề YouTube
 

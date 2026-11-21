@@ -80,16 +80,15 @@ Xưng hô: tôi với bố mẹ: bố, mẹ, con. Tôi với Trữ Duật: tôi/
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/8 | 1 | 881 | ~4,9 | bố mắng luật sư, thừa kế tám trăm triệu | bài ghim diễn đàn |
-| 2/8 | 2 | 813 | ~4,5 | bị cả trường gọi là biến thái | Trữ Duật và bà cụ trước cổng |
-| 3/8 | 3 | 918 | ~5,1 | kẻ đăng bài ngồi ăn táo nhà tôi | kẻ rình là bạn cùng phòng |
-| 4/8 | 4 | 939 | ~5,2 | bạn cùng phòng là kẻ bám đuôi thật | Ngưu Chấn xuất hiện |
-| 5/8 | 5 | 1.015 | ~5,6 | thanh mai trúc mã đeo đồng hồ giả | "bạn trai" của Mật Mật |
-| 6/8 | 6 | 1.080 | ~6,0 | bạn trai tin đồn | chiếc chìa khóa đồng |
-| 7/8 | 7 | 880 | ~4,9 | căn phòng khóa trên tầng ba | Trữ Duật khoác tay cô gái lạ |
-| 8/8 | 8 | 1.098 | ~6,1 | cô gái lạ là ai | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1694 | ~9.4 | Bố mắng luật sư là lừa đảo, nhà tôi bỗng giàu sụ |
+| 2/3 | 3–4 | 1856 | ~10.3 | Kẻ đăng bài ngồi ăn táo nhà tôi |
+| 3/3 | 5 | 1015 | ~5.6 | Thanh mai trúc mã đeo đồng hồ giả đến nhà |
+
+Tỉ lệ đăng TikTok: 60% số chữ (chương 1–5 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

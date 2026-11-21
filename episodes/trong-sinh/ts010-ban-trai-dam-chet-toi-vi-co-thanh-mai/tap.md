@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Khấu Vọng Tinh (tôi; mọi người gọi "Tinh"); Lộ Nghị (bạn trai cũ, sau gọi "hắn"); Hoa Điềm Điềm (thanh mai, sau gọi "cô ta"); Chương Bội (bạn thân hóng hớt, "Bội"); Phó Sâm (nam chính người Hoa du học, ngôi ba "anh", tôi gọi "anh Sâm"). Chưa duyệt |
 | Bối cảnh | Trung Quốc hiện đại: Hải Thành (cổng trường cũ, khách sạn tiệc tạ ơn thầy cô), Bắc Kinh (Thanh Hoa, công ty công nghệ); tiền là tệ; không ghi năm bằng số |
 | Độ dài: số chương, phút; cách đủ độ dài | 8 chương, 7.450 chữ, ~41 phút. Viết dày từng cảnh (nguồn kể lướt cả năm trong vài dòng) và thêm: gợi ý ngầm nhà Điềm Điềm có tài xế (ch.1, 5) để twist cuối; nam chính Phó Sâm thay nam phụ ngoại quốc (ch.4 trở đi); vòng bài đăng đòi tuổi xuân bị video tiệc tạ ơn vả lại (ch.7); cảnh cuối: Điềm Điềm thú nhận cố tình quên giấy báo danh, Lộ Nghị cầm dao đúng ngày mưa dông và bị ngăn (ch.8) |
-| Chia phần TikTok | 8 phần, mỗi phần một chương, 4,6–5,6 phút |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3, ch.4 (~51% chữ, dừng cuối ch.4); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 8 chương, ~7.450 chữ, ~41 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3, ch.4; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

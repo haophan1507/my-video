@@ -43,7 +43,6 @@
   "parts": [
     {
       "chapters": [
-        1,
         1
       ],
       "hook": "Chồng không hề to tiếng khi nói ly hôn, vì anh đã biết từ đêm đầu tiên"
@@ -51,58 +50,16 @@
     {
       "chapters": [
         2,
-        2
+        3
       ],
       "hook": "Một ly cà phê ba mươi tệ khiến tôi quên mình đã có chồng"
     },
     {
       "chapters": [
-        3,
-        3
-      ],
-      "hook": "Ba tháng ngoại tình, tôi tưởng giấy đủ dày để gói lửa"
-    },
-    {
-      "chapters": [
         4,
-        4
-      ],
-      "hook": "Chồng mở camera phòng khách, tua lại ba tháng tôi nói dối"
-    },
-    {
-      "chapters": [
-        5,
         5
       ],
-      "hook": "Năm năm làm vợ, quy ra được mười hai vạn tệ"
-    },
-    {
-      "chapters": [
-        6,
-        6
-      ],
-      "hook": "Lúc tôi mất tất cả, người tình chỉ gửi một câu hỏi thăm"
-    },
-    {
-      "chapters": [
-        7,
-        7
-      ],
-      "hook": "Mẹ tôi sáu mươi tuổi định quỳ trước con rể"
-    },
-    {
-      "chapters": [
-        8,
-        8
-      ],
-      "hook": "Trong máy chồng có thư mục mang tên tôi: Kế hoạch mười năm"
-    },
-    {
-      "chapters": [
-        9,
-        9
-      ],
-      "hook": "Hai năm sau ly hôn, tôi thấy anh mua dâu cho người khác"
+      "hook": "Chồng mở camera phòng khách, tua lại ba tháng tôi nói dối"
     }
   ],
   "thumbText": "Ngoại tình ba tháng|chồng chỉ nói|*ly hôn đi*",

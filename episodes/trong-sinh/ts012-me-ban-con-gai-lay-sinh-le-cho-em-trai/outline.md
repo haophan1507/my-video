@@ -82,19 +82,15 @@ Không tên riêng, chỉ chức danh: trưởng thôn (ông trưởng thôn), l
 
 ## Chia phần TikTok
 
-Hai chương liền ~1.600 chữ ≈ 9 phút, vượt 8 phút, nên mỗi chương một phần (9 phần).
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/9 | 1 | 772 | ~4,3 | hook cả truyện | rẽ phải, cánh cửa chưa từng dám gõ |
-| 2/9 | 2 | 836 | ~4,6 | quỳ trước người lạ, được đỡ dậy | cậu em chặn ở cầu thang |
-| 3/9 | 3 | 893 | ~5,0 | lần đầu có người đưa đi học, lần đầu tát em | tiếng thì thầm tên tôi ngoài sân |
-| 4/9 | 4 | 709 | ~3,9 | người bạn duy nhất kiếp trước | áo mới, giày mới |
-| 5/9 | 5 | 786 | ~4,4 | hai tháng, năm vạn tệ | "Tịch Tịch, tôi có thai" |
-| 6/9 | 6 | 734 | ~4,1 | trở về thôn sau hai năm | "Người luôn xếp trên bạn" |
-| 7/9 | 7 | 803 | ~4,5 | công bố điểm | mẹ giật micro |
-| 8/9 | 8 | 909 | ~5,0 | mười lăm năm không ôm một lần | cuốn sổ của bố |
-| 9/9 | 9 | 806 | ~4,5 | cuốn sổ ghi tên tôi | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1608 | ~8.9 | Kiếp trước tôi chết sau ba đêm, kiếp này mẹ lại quỳ ép tôi bỏ học |
+| 2/3 | 3 | 893 | ~5.0 | Lần đầu có người đưa đi học, lần đầu tôi tát em trai |
+| 3/3 | 4–5 | 1495 | ~8.3 | Người bạn thân kiếp trước đã dắt lão ế đến nhà tôi |
+
+Tỉ lệ đăng TikTok: 55% số chữ (chương 1–5 / 9 chương).
 
 ## 5 phương án tiêu đề YouTube
 

@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Hạ Vy (tôi), Tạ Hoài (hắn; gọi tôi "Tiểu Vy"), Đào Yên, mẹ Tạ Hoài (bà ta), Mộ Châu, chú Lưu (tài xế, gọi "tiểu thư"), bố Hạ Viễn Sơn ("bố"); chi tiết trong outline.md |
 | Bối cảnh | Giang Thành, hiện đại, tập đoàn Hạ thị; tiền tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 10 chương, ~50 phút (~8.980 chữ); cắt đoạn bình luận, chuyện nghề, làm nhẹ chi tiết bị liệt; thêm vòng bán thảm trên mạng bị Đào Yên đăng ảnh lật kèo (ch.5–6), câu "lần này tôi không ký" (ch.8), ngày giỗ kiếp trước của bố trôi qua bình an |
-| Chia phần TikTok | 10 phần, mỗi chương một phần (4,5–5,8 phút; chi tiết outline.md) |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5–6 (~59% chữ, dừng cuối ch.6); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | chữ: "Mẹ chồng mở van ga\|giết mẹ con tôi\|trọng sinh tôi hét\|*Không cưới!*"; ảnh: chưa chọn |
@@ -39,3 +39,4 @@
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 10 chương, ~8.980 chữ, ~50 phút; dàn ý và chương chưa duyệt.
 - 2026-11-21: đổi tên để không trùng tập khác: Giang Ninh → Hạ Vy, Giang thị → Hạ thị, Giang Viễn Sơn → Hạ Viễn Sơn, Liễu Yên → Đào Yên, Bạch Châu → Mộ Châu, chú Chu → chú Lưu (giữ thành phố Giang Thành).
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5–6; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

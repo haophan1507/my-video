@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Lâm Tịch Dao (tôi); Tăng Hạo (người yêu cũ, kể "anh ta"); Phan Bằng (bạn của anh ta, "hắn"); Hứa Ngọc Trâm ("chị Ngọc Trâm"); Ngô Dịch (quản lý, "cậu ấy", gọi "chị Tịch Dao"); em gái Tăng Hạo và cô bạn thân (không tên). Chưa duyệt |
 | Bối cảnh | Trung Quốc hiện đại: giới giải trí Bắc Kinh (phim trường ngoại ô, tập đoàn Hoành Đạt); tiền là tệ; không ghi năm bằng số |
 | Độ dài: số chương, phút; cách đủ độ dài | 10 chương, ~9.400 chữ, ~52 phút. Nguồn dài và nhiều nhân vật nên gom: bỏ Trần Hân, gộp phần phim, rút phần thành tích; mở bằng cảnh quỳ rồi kể ngược; thêm ván cược du thuyền làm sợi dọc cược và gieo sở thích mạo hiểm ở ch.2 và ch.9 để cái chết ở ch.10 không đột ngột |
-| Chia phần TikTok | 10 phần, mỗi phần một chương, 4,2–6,1 phút |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5–6 (~57% chữ, dừng cuối ch.6); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 10 chương, ~9.400 chữ, ~52 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5–6; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

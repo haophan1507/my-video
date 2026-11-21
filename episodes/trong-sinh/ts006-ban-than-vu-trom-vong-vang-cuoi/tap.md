@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Kha Dao (tôi); Phù Tố Nhi (bạn thân, cô dâu, "Tố Nhi"/"cô ta"); Nhậm Quế Lan (mẹ chồng, "bà Nhậm"); Nhậm Bình (chú rể, "Bình"); Phù Hào (em trai, "Hào"); Quan Cẩn (bạn từ nhỏ, ngôi ba "anh"). Chưa duyệt |
 | Bối cảnh | Trung Quốc hiện đại, Hải Thành: khách sạn Duyệt Lai, tiệm vàng Hằng Phúc, công ty Ngân Hà; tiền là tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 9 chương, ~8.300 chữ, ~46 phút. Bỏ cảnh hack ngân hàng; thêm vòng giả có thai bị lật bằng ảnh tiệc độc thân (ch.6), vòng thư nặc danh ở công ty (ch.7), cảnh kết ngày xe tải đi qua (ch.9) |
-| Chia phần TikTok | 9 phần, mỗi phần một chương, 4,6–5,9 phút |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5 (~55% chữ, dừng cuối ch.5); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 9 chương, ~8.300 chữ, ~46 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

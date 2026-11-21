@@ -40,7 +40,6 @@
   "parts": [
     {
       "chapters": [
-        1,
         1
       ],
       "hook": "Ông nội bán tôi ba nghìn tệ, người bị dắt đi lại là anh trai"
@@ -48,51 +47,16 @@
     {
       "chapters": [
         2,
-        2
+        3
       ],
       "hook": "Tôi xúi anh trai giật hoa tai vàng của bà"
     },
     {
       "chapters": [
-        3,
-        3
-      ],
-      "hook": "Anh trai đốt nhà chỉ vì một câu nói của tôi"
-    },
-    {
-      "chapters": [
         4,
-        4
-      ],
-      "hook": "Nhà cháy bảy ngày, ông nội chốt giá bán tôi"
-    },
-    {
-      "chapters": [
-        5,
         5
       ],
-      "hook": "Cả nhà trọng nam khinh nữ cắn xé nhau trong chuồng trâu"
-    },
-    {
-      "chapters": [
-        6,
-        6
-      ],
-      "hook": "Ngày lão góa vợ đến dắt người, người khóc lại là anh trai"
-    },
-    {
-      "chapters": [
-        7,
-        7
-      ],
-      "hook": "Mười ba tuổi, tôi trốn lên huyện với bảy mươi tệ"
-    },
-    {
-      "chapters": [
-        8,
-        8
-      ],
-      "hook": "Ngày khai trương, bố và anh trai đến đòi nợ"
+      "hook": "Nhà cháy bảy ngày, ông nội chốt giá bán tôi"
     }
   ],
   "thumbText": "Ông nội bán tôi|*ba nghìn tệ*|người bị dắt đi|là anh trai",

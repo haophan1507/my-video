@@ -91,18 +91,15 @@ Xưng hô: tôi với Gia Huy: em/anh. Bà Ứng với tôi: bác/con (lúc nị
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/10 | 1 | 713 | ~4,0 | hook cả truyện | bà Ứng mời ăn cơm, cái bẫy |
-| 2/10 | 2 | 755 | ~4,2 | chủ nợ mà không hay | hộp yến sào đáng tiếc nhất đời |
-| 3/10 | 3 | 1.051 | ~5,8 | hộp yến sào và cái đẩy | một bức ảnh |
-| 4/10 | 4 | 762 | ~4,2 | ảnh xem mắt kèm câu của mẹ | quán bình dân hẹn hò |
-| 5/10 | 5 | 880 | ~4,9 | hất nước vào mặt người cũ | "có người đang nợ, không phải tôi" |
-| 6/10 | 6 | 892 | ~5,0 | tiền cưới là tiền của tôi | họp lớp, hắn cũng đến |
-| 7/10 | 7 | 746 | ~4,1 | hắn đề nghị rước cả nhà | bị bế về phía chiếc xe |
-| 8/10 | 8 | 758 | ~4,2 | cửa xe bị đá bật | bà Ứng dẫn cả họ đến |
-| 9/10 | 9 | 877 | ~4,9 | cả họ đến, người ngã không phải tôi | cô vợ mới biến mất |
-| 10/10 | 10 | 901 | ~5,0 | tiền bay như đã đến | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1470 | ~8.2 | Yêu tám năm, anh ta hỏi tôi đáng giá tám vạn không |
+| 2/3 | 3 | 1053 | ~5.8 | Mang yến sào đến nhà bạn trai, tôi bị mẹ anh ta đẩy |
+| 3/3 | 4–5 | 1644 | ~9.1 | Mẹ bạn trai gửi ảnh con trai bà ôm người khác |
+
+Tỉ lệ đăng TikTok: 50% số chữ (chương 1–5 / 10 chương).
 
 ## 5 phương án tiêu đề YouTube
 

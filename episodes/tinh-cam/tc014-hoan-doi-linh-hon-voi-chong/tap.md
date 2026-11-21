@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Dương Nhược Hi (tôi; Hoài Châu gọi "Hi Hi"); Giản Hoài Châu (chồng, ngôi ba "anh"); Vân Thanh Thanh (em họ trà xanh, hơn tôi một tuổi); Phùng Đại Hải (cậu của Thanh Thanh, "ông Phùng"); Mục Đồng (bạn thân, chỉ ch.1); mẹ chồng và bé Gạo (không tên). Quy ước "thân tôi/thân anh". Chưa duyệt |
 | Bối cảnh | Trung Quốc hiện đại: biệt thự nhà họ Giản, tập đoàn Giản thị ở Hải Thành; tiền là tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 9 chương, ~7.600 chữ, ~42 phút. Tách bữa sáng và cái tát qua camera; thêm tờ sao kê "học phí" (ch.5) và lời điện thoại của Thanh Thanh (ch.6); twist mẹ chồng nhận ra con trai trong thân con dâu (ch.8); cảnh cửa phòng sinh và tờ đơn ly hôn đóng khung (ch.9) |
-| Chia phần TikTok | 9 phần, mỗi phần một chương, 4,3–5,8 phút |
+| Chia phần TikTok | 3 phần: ch.1, ch.2–3, ch.4–5 (~53% chữ, dừng cuối ch.5); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 9 chương, ~7.600 chữ, ~42 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1, ch.2–3, ch.4–5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

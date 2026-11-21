@@ -75,18 +75,15 @@ Không tên riêng (chỉ năm người có tên): dì giúp việc, luật sư 
 
 ## Chia phần TikTok
 
-Mỗi chương một phần (hai chương liền ~900 chữ vượt 8 phút).
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/8 | 1 | 794 | ~4,4 | hook cả truyện | mở hộp gỗ nhật ký |
-| 2/8 | 2 | 933 | ~5,2 | bảy cuốn nhật ký | "Cảnh tổng đã ký" |
-| 3/8 | 3 | 888 | ~4,9 | ly hôn xong, nôn sạch bát cháo | Nguyên Lan hạ kính râm |
-| 4/8 | 4 | 1.024 | ~5,7 | cái ngăn kéo làm mất vợ | ảnh "Hoặc không" |
-| 5/8 | 5 | 939 | ~5,2 | Nguyên Lan vào phòng tranh | chuông cửa lúc mười một giờ |
-| 6/8 | 6 | 922 | ~5,1 | người đàn ông ướt qua mắt thần | cuốn sổ xanh dán băng dính |
-| 7/8 | 7 | 961 | ~5,3 | cuốn nhật ký xanh lá | chiếc đĩa vỡ tuần ba mươi sáu |
-| 8/8 | 8 | 993 | ~5,5 | người đầu tiên tôi gọi | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1726 | ~9.6 | Chồng tôi nói hôn nhân chỉ là hợp tác thương mại, ba tháng sau anh quỳ trước cửa nhà mới của tôi |
+| 2/3 | 3–4 | 1912 | ~10.6 | Ly hôn xong, tôi nôn sạch bát cháo, và hai vạch đỏ hiện ra |
+| 3/3 | 5 | 939 | ~5.2 | Tôi giám định ra tờ phiếu siêu âm giả của tình cũ chồng ngay trước mặt cô ta |
+
+Tỉ lệ đăng TikTok: 61% số chữ (chương 1–5 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

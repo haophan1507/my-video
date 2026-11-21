@@ -86,20 +86,15 @@ Xưng hô: Sơ với Dự: em/anh; Dự gọi vợ "Tiểu Sơ". Sơ với dì L
 
 ## Chia phần TikTok
 
-Không có hai chương liền nào gộp dưới 8 phút, nên mỗi phần một chương (4,0–5,4 phút).
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 6; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Phút | Hook phần |
-|---|---|---|---|
-| 1 | 1 | ~4,3 | Chồng tháo nhẫn đi đón bạch nguyệt quang, tôi cầm giấy báo có thai |
-| 2 | 2 | ~4,2 | Tám năm đóng vai em gái của người mình yêu |
-| 3 | 3 | ~4,0 | Tin nhắn "Em đợi anh" trong điện thoại chồng |
-| 4 | 4 | ~5,0 | Tôi báo có thai, chồng khựng lại mất một giây |
-| 5 | 5 | ~4,8 | Chồng đi công tác Thành Đô, điện thoại lại vang tiếng sóng biển |
-| 6 | 6 | ~5,4 | Chồng chu đáo đến lạ, rồi một người đứng bên kia đường |
-| 7 | 7 | ~5,0 | Bạch nguyệt quang khóc xin tôi trả chồng, tôi hỏi lại ba câu |
-| 8 | 8 | ~4,7 | Bát canh dở nhất, hóa ra do chính tay chồng nấu |
-| 9 | 9 | ~5,2 | Tập hồ sơ lật mặt bạch nguyệt quang, tôi vẫn chọn ra đi |
-| 10 | 10 | ~4,6 | Ba năm sau, tôi không muốn nghe tin anh nữa |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1534 | ~8.5 | Chồng tháo nhẫn đi đón bạch nguyệt quang, tôi cầm giấy báo có thai |
+| 2/3 | 3–4 | 1629 | ~9.1 | Tin nhắn Em đợi anh trong điện thoại chồng |
+| 3/3 | 5–6 | 1842 | ~10.2 | Chồng đi công tác Thành Đô, điện thoại lại vang tiếng sóng biển |
+
+Tỉ lệ đăng TikTok: 59% số chữ (chương 1–6 / 10 chương).
 
 ## 5 phương án tiêu đề YouTube
 

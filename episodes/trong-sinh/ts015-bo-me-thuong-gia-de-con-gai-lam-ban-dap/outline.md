@@ -73,18 +73,15 @@ Xưng hô: tôi với bố mẹ: bố/mẹ/con; tôi với Bảo: chị/em; tôi
 
 ## Chia phần TikTok
 
-Hai chương liền ~1.500 chữ ≈ 8,4 phút (vượt 8 phút), nên mỗi chương một phần (~4 phút).
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Hook |
-|---|---|---|
-| 1 | 1 | Bố mẹ quỳ trước cửa phòng khám, tôi khóa trái, vì kiếp trước họ cắt thuốc của tôi |
-| 2 | 2 | Nghe lén bố mẹ tính bán tôi làm bàn đạp, tôi đẩy cửa vào giữa bữa cơm |
-| 3 | 3 | Bố mẹ xin lỗi ngọt như siro, còn khuyên tôi bỏ nghề y đi bán hàng |
-| 4 | 4 | Hóa ra từng món đồ chơi hồi nhỏ đều được ghi sổ để đòi lại một căn nhà |
-| 5 | 5 | Họ dốc hết tiền đặt cọc, còn tôi tắt máy nằm ngắm biển mười ngày |
-| 6 | 6 | Cả bệnh viện chỉ vào mặt tôi: đồ vong ơn bạc nghĩa |
-| 7 | 7 | Tôi đặt một trăm vạn tệ lên bàn, kèm một tờ giấy cắt đứt quan hệ |
-| 8 | 8 | Họ quỳ xin tôi mổ cứu cháu đích tôn, nhưng tôi không được phép |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1 | 764 | ~4.2 | Bố mẹ quỳ trước cửa phòng khám, tôi khóa trái, vì kiếp trước họ cắt thuốc của tôi |
+| 2/3 | 2–3 | 1549 | ~8.6 | Nghe lén bố mẹ tính bán tôi làm bàn đạp, tôi đẩy cửa vào giữa bữa cơm |
+| 3/3 | 4–5 | 1461 | ~8.1 | Hóa ra từng món đồ chơi hồi nhỏ đều được ghi sổ để đòi lại một căn nhà |
+
+Tỉ lệ đăng TikTok: 61% số chữ (chương 1–5 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

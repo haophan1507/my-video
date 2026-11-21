@@ -89,18 +89,15 @@ Xưng hô: tôi với Nhu Nhu: tôi/cậu (cô ta gọi tôi "chị" khi diễn)
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/10 | 1 | 807 | ~4,5 | hook cả truyện | người gõ cửa nhà tôi là cô ta |
-| 2/10 | 2 | 1.094 | ~6,1 | vị khách dưới mưa | cuộc điện thoại nửa đêm |
-| 3/10 | 3 | 887 | ~4,9 | đọc to kế hoạch đuổi tôi khỏi nhà | bạn trai tôi và Nhu Nhu |
-| 4/10 | 4 | 969 | ~5,4 | bạn trai nói đang ở lớp | Tôn Triệt, người mới |
-| 5/10 | 5 | 1.009 | ~5,6 | nam thần khoa Lý bị nuôi như cá | Nhu Nhu khoác tay Tôn Triệt |
-| 6/10 | 6 | 965 | ~5,4 | em gái hụt vào tiệc sinh nhật | con gái thất lạc đã về |
-| 7/10 | 7 | 1.037 | ~5,8 | cả sảnh nhìn tôi như bóng ma | ảnh tôi bị tung lên diễn đàn |
-| 8/10 | 8 | 939 | ~5,2 | một tuần thành người bị bao nuôi | phòng 1208 khách sạn Hoa Đình |
-| 9/10 | 9 | 820 | ~4,6 | đội bắt gian mười bảy người | con dao |
-| 10/10 | 10 | 1.029 | ~5,7 | rút dao giữa ban ngày | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1901 | ~10.6 | Bạn thân dắt bạn trai tôi vào khách sạn, tôi đứng sau cửa cùng mười một người đàn ông |
+| 2/3 | 3–4 | 1856 | ~10.3 | Nửa đêm, cô ta gọi tôi là dã chủng và hứa đá mẹ tôi ra khỏi nhà |
+| 3/3 | 5 | 1009 | ~5.6 | Nam thần khoa Lý bị cô bạn thân nuôi như cá cảnh |
+
+Tỉ lệ đăng TikTok: 50% số chữ (chương 1–5 / 10 chương).
 
 ## 5 phương án tiêu đề YouTube
 

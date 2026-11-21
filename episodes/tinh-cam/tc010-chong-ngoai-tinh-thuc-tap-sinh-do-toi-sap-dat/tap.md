@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Hàn Vi (tôi; "Vi Vi"); Triệu Duật (chồng, "Duật", ngôi ba "anh ta"); Đàm Yên Yên (thực tập sinh, "Yên Yên", "cô ta"); Quan Khiêm (chú họ, chủ Vân Khê; kể gọi "Khiêm", ngôi ba "anh"); Khổng Ngân (bạn thân, "Ngân"); đồng nghiệp tóc rẽ ngôi (không tên). Chưa duyệt |
 | Bối cảnh | Trung Quốc hiện đại: Bắc Kinh (quận Triều Dương, khách sạn lưng chừng núi), Hải Thành (chuyến đi giả), Singapore (vé của Duật); tiền là tệ; không ghi năm bằng số |
 | Độ dài: số chương, phút; cách đủ độ dài | 10 chương, ~9.060 chữ, ~50 phút. Cắt thoại sến của bản nguồn; thêm vòng hóa đơn bảo trì ma và dòng tiền qua thẻ Yên Yên (ch.2, 5), vòng quỳ lần hai và vé một chiều (ch.7), Khiêm là chủ Vân Khê nộp đơn song song (ch.3, 8–10), hồ sơ bảo vệ Yên Yên (ch.6, 10); gộp Lý Huy thành đồng nghiệp không tên |
-| Chia phần TikTok | 10 phần, mỗi phần một chương, 4,2–5,8 phút |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5–6 (~57% chữ, dừng cuối ch.6); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 10 chương, ~9.060 chữ, ~50 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5–6; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

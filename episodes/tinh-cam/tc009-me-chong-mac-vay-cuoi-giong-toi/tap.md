@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Giang Thư (tôi, cô dâu; "Thư"); Vệ Gia Hưng, sau là Khương Gia Hưng (chồng; "Gia Hưng"); Khương Tố Vân (tôi nhập vào; "bà Khương", "cô Khương"); Phàn Chiêu Đệ → Phàn Xuân Hoa từ ch.4 (mẹ chồng; "Chiêu Đệ" rồi "Xuân Hoa"); Vệ Kim Bảo (bố chồng; "Kim Bảo"); bà Bàng (bà nội chồng); Mẫn Thu Thực (thợ bánh; "Thu Thực", Xuân Hoa gọi "sư phụ"). Không tên: thầy hiệu trưởng, thằng cháu. Bản nguồn: Lương Điềm, Tôn Gia Tuấn, Doãn Thục Hiền, Vu Thu Hoa |
 | Bối cảnh | Huyện Lâm Thủy, trường Nhất Trung; ch.1 và 10 ở hiện tại, ch.2–9 lùi gần ba mươi năm; tiệm "Mẫn Có Bánh" → "Tiệm bánh Xuân Thu"; tiền là tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 10 chương, ~9.590 chữ ≈ 53 phút (180 chữ/phút; ở tốc độ giọng 1,2 thực tế ngắn hơn). Cắt từ ~67 phút: bỏ đoạn hiệu trưởng quay lại, kể tên bánh truyền thống, chuỗi toàn quốc và diễn đàn mạng; "hệ thống" gộp còn một câu. Thêm: câu "ba đời" ở ch.2, đổi tên Chiêu Đệ → Xuân Hoa (ghép "Xuân Hoa Thu Thực"), biển "Mẫn Có Bánh" → "Mẫn Có Bệnh", người đàn bà xin lỗi ở ch.1 là chính tôi, cảnh kết đám cưới thật Xuân Hoa nói "tân nương là tân nương" |
-| Chia phần TikTok | 10 phần, mỗi phần một chương (~4,2–6,1 phút); hook từng phần ở `parts` trong `episode.json` |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3, ch.4–5 (~48% chữ, dừng cuối ch.5); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 10 chương, ~9.590 chữ, ~53 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3, ch.4–5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

@@ -75,18 +75,15 @@ Họ Ngôn, Khưu, Thiều, Chử đều chưa dùng ở tập khác (đã kiể
 
 ## Chia phần TikTok
 
-Mỗi chương ~750–880 chữ (4,2–4,9 phút); hai chương liền vượt 8 phút nên tách mỗi chương một phần.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/8 | 1 | 750 | ~4,2 | câu "cô ta tự không giữ được" | tôi gõ cửa, tiếng thước dừng |
-| 2/8 | 2 | 780 | ~4,4 | tờ đơn ba tuần trong túi | "Tối đó anh về thật. Nhưng nhà không còn tôi" |
-| 3/8 | 3 | 760 | ~4,2 | căn hộ bốn mươi lăm mét vuông | tin nhắn Thiều Uyển |
-| 4/8 | 4 | 870 | ~4,9 | gặp bạch nguyệt quang | nộp đơn ra tòa |
-| 5/8 | 5 | 800 | ~4,5 | hòa giải mười hai phút | anh mở căn phòng cuối hành lang |
-| 6/8 | 6 | 810 | ~4,5 | cánh cửa cuối hành lang | anh không định giữ sổ cho mình |
-| 7/8 | 7 | 880 | ~4,9 | "Anh đồng ý" | tên anh trong danh sách khách |
-| 8/8 | 8 | 860 | ~4,8 | lễ trao giải | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1531 | ~8.5 | Con tôi cũng cho rồi, là cô ta tự không giữ được |
+| 2/3 | 3–4 | 1634 | ~9.1 | Hai chữ biết rồi và người ngồi ngoài hành lang bốn mươi phút |
+| 3/3 | 5 | 802 | ~4.5 | Hòa giải mười hai phút và chiếc chìa khóa trên bàn |
+
+Tỉ lệ đăng TikTok: 61% số chữ (chương 1–5 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

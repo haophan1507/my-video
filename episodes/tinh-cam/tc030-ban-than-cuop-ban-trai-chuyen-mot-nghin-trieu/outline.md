@@ -78,18 +78,15 @@ Xưng hô: tôi với Mịch: tớ/cậu. Tôi với chị Tú: tớ/chị (đù
 
 ## Chia phần TikTok
 
-Hai chương liền ~9–10 phút, vượt 8 phút: tách mỗi chương một phần.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/8 | 1 | 853 | ~4,7 | hook cả truyện | Mịch nhìn theo như thợ săn |
-| 2/8 | 2 | 856 | ~4,8 | đi đâu cũng đụng mặt Mịch | ảnh hôn lúc hai giờ sáng |
-| 3/8 | 3 | 838 | ~4,7 | hiện trường loạn như chợ vỡ | số lạ gọi tới văn phòng luật sư |
-| 4/8 | 4 | 881 | ~4,9 | quỹ của ông nội | quyết định đến cuộc họp |
-| 5/8 | 5 | 784 | ~4,4 | cả phòng ăn đồ pháp | bộ vest treo đầu giường |
-| 6/8 | 6 | 888 | ~4,9 | tám giờ năm mươi lăm | "cô gái này phải rời phòng họp" |
-| 7/8 | 7 | 856 | ~4,8 | bảo vệ kéo Mịch ra | ông Hạng ngồi sẵn |
-| 8/8 | 8 | 892 | ~5,0 | ông Hạng cầm ổ cứng | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1 | 853 | ~4.7 | Bạn thân cướp bạn trai tôi, và tôi vui vì mỗi lần được mười triệu tệ |
+| 2/3 | 2–3 | 1694 | ~9.4 | Đi đâu cũng đụng mặt bạn thân, tôi biết cô ta đang giăng bẫy |
+| 3/3 | 4–5 | 1663 | ~9.2 | Ai đang chuyển cho tôi mười triệu tệ mỗi lần bị cướp người yêu |
+
+Tỉ lệ đăng TikTok: 62% số chữ (chương 1–5 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

@@ -89,20 +89,15 @@ Xưng hô: tôi với bố là con/bố. Tạ Hoài với tôi: anh/em, gọi "T
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/10 | 1 | 834 | ~4,6 | hook cả truyện, van ga | "Không cưới!" |
-| 2/10 | 2 | 926 | ~5,1 | hét không cưới trước máy quay | đến gặp bố, người kiếp trước chỉ còn trong di ảnh |
-| 3/10 | 3 | 802 | ~4,5 | bố đang ngồi bóc vải | Tạ Hoài bước vào văn phòng |
-| 4/10 | 4 | 1.040 | ~5,8 | chàng rể hụt vào như nhà mình | kiểm tra phanh xe bố |
-| 5/10 | 5 | 839 | ~4,7 | bị gọi là thiên kim độc ác | Đào Yên đăng ảnh ba người |
-| 6/10 | 6 | 847 | ~4,7 | tấm ảnh gia đình ba người | người râu ria chặn cổng |
-| 7/10 | 7 | 886 | ~4,9 | Tạ Hoài chặn cổng | mẹ hắn ăn vạ trước cổng |
-| 8/10 | 8 | 934 | ~5,2 | kẻ mở van ga đang ăn vạ | tiếng cãi nhau ở trung tâm thương mại |
-| 9/10 | 9 | 894 | ~5,0 | hắn ôm tiểu thư mỏ khoáng | hắn ngồi xe lăn |
-| 10/10 | 10 | 982 | ~5,5 | chương trình hòa giải | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 6; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-Ghi chú: mỗi chương một phần vì chương ~4,5–6 phút, ghép hai chương sẽ vượt 8 phút.
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1760 | ~9.8 | Mẹ chồng mở van ga giết tôi và con gái mới sinh |
+| 2/3 | 3–4 | 1842 | ~10.2 | Kiếp trước bố tôi chết, kiếp này ông đang ngồi bóc vải |
+| 3/3 | 5–6 | 1686 | ~9.4 | Hắn bán thảm trên mạng, cả thành phố gọi tôi là thiên kim độc ác |
+
+Tỉ lệ đăng TikTok: 59% số chữ (chương 1–6 / 10 chương).
 
 ## 5 phương án tiêu đề YouTube
 

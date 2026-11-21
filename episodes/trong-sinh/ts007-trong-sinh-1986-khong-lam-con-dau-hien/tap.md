@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Hồng Quế Chi (tôi); Cốc Đạt (hắn); Kỳ Yên; Lỗ Tiểu Tuệ; Tất Hạo; ông Cốc, bà Cốc; anh Hoàng |
 | Bối cảnh | Trung Quốc 1986 đến năm 2000: thành phố công nghiệp, rồi Thượng Hải; mốc trọng sinh nêu ở ch.1 |
 | Độ dài: số chương, phút; cách đủ độ dài | 8 chương, ~7.000 chữ, ~39 phút; viết dày cảnh, khép vòng câu "xứng sao?", không kéo thêm |
-| Chia phần TikTok | 8 phần, mỗi chương một phần (4,3–5,6 phút) |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5 (~62% chữ, dừng cuối ch.5); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 8 chương, ~7.000 chữ, ~39 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

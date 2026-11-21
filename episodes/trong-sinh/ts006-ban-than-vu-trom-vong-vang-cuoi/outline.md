@@ -82,19 +82,15 @@ Tên tập đoàn, địa danh: khách sạn Duyệt Lai, tiệm vàng Hằng Ph
 
 ## Chia phần TikTok
 
-Mỗi chương một phần (hai chương liền ~1.800 chữ, ~10 phút, vượt 8 phút).
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/9 | 1 | 920 | ~5,1 | hook cả truyện | "Đôi vòng long phụng đâu?" |
-| 2/9 | 2 | 880 | ~4,9 | vòng sáu vạn bốn không có trong hộp | cô dâu bám tay áo mẹ chồng |
-| 3/9 | 3 | 920 | ~5,1 | cổ tay cô dâu trong camera | Hào ôm phong bì dày |
-| 4/9 | 4 | 900 | ~5,0 | phong bì và tiệm vàng | bà Nhậm hẹn sáng mai |
-| 5/9 | 5 | 900 | ~5,0 | sổ đăng ký ghi tên người bán | "Em có thai" |
-| 6/9 | 6 | 920 | ~5,1 | át chủ bài: cái thai | thư mời nhân sự |
-| 7/9 | 7 | 920 | ~5,1 | đơn tố cáo nặc danh | tờ cam kết có thể hủy án |
-| 8/9 | 8 | 880 | ~4,9 | cam kết ngày bỏ trống | dây chuyền kim cương |
-| 9/9 | 9 | 880 | ~4,9 | ly trà sữa ngày xe tải đi qua | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1653 | ~9.2 | Kiếp trước tôi bị vu trộm vàng cưới, kiếp này tôi gọi mẹ chồng cô ta đến kiểm |
+| 2/3 | 3–4 | 1881 | ~10.4 | Camera chiếu cổ tay cô dâu trống trơn |
+| 3/3 | 5 | 1061 | ~5.9 | Sổ tiệm vàng ghi tên người bán |
+
+Tỉ lệ đăng TikTok: 55% số chữ (chương 1–5 / 9 chương).
 
 ## 5 phương án tiêu đề YouTube
 

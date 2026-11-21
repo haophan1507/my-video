@@ -84,19 +84,15 @@ Xưng hô: tôi với Nghiêm Cảnh Xuyên: lúc đầu tôi/anh, sau cưới e
 
 ## Chia phần TikTok
 
-Mỗi chương ~4,6–5,9 phút; ghép hai chương sẽ vượt 8 phút nên mỗi chương một phần.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/9 | 1 | 1.070 | ~5,9 | hook cả truyện | "nhà" của thợ sửa xe |
-| 2/9 | 2 | 890 | ~4,9 | biệt thự ba tầng | anh biết doanh số của tôi |
-| 3/9 | 3 | 870 | ~4,8 | người cũ chọn xe cưới | anh hứa đến đón |
-| 4/9 | 4 | 930 | ~5,2 | họp lớp chế giễu | "Bố anh là chủ tịch Nghiêm thị" |
-| 5/9 | 5 | 900 | ~5,0 | bố thợ sửa xe giàu nhất | Doanh Doanh gọi về bố mẹ ruột |
-| 6/9 | 6 | 830 | ~4,6 | tấm ảnh mẹ ruột | Nghiêm phu nhân gọi |
-| 7/9 | 7 | 890 | ~4,9 | tờ séc một nghìn vạn | bố Doanh Doanh là kế toán Diệp thị |
-| 8/9 | 8 | 920 | ~5,1 | cho cô ta lừa | "ai mua rẻ cổ phần Diệp thị" |
-| 9/9 | 9 | 1.000 | ~5,6 | lá thư của mẹ | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1 | 1072 | ~6.0 | Bị bạn trai đá, tối đó tôi cưới luôn người lạ |
+| 2/3 | 2–3 | 1753 | ~9.7 | Chồng thợ sửa xe dẫn tôi về biệt thự ba tầng |
+| 3/3 | 4–5 | 1823 | ~10.1 | Họp lớp chê chồng tôi là thợ sửa xe |
+
+Tỉ lệ đăng TikTok: 56% số chữ (chương 1–5 / 9 chương).
 
 ## 5 phương án tiêu đề YouTube
 

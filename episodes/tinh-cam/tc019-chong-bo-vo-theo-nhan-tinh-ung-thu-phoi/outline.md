@@ -89,18 +89,15 @@ Xưng hô: tôi/anh ta khi kể; trực tiếp Mạn với Quân là em/anh lúc
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/10 | 1 | 756 | ~4,2 | tờ giấy ung thư | "Mình ly hôn đi" |
-| 2/10 | 2 | 767 | ~4,3 | tặng tám nhà hàng | cuộc gọi sắp đổi cuộc chơi |
-| 3/10 | 3 | 808 | ~4,5 | Hân khóc, Bách im | bệnh viện gọi |
-| 4/10 | 4 | 757 | ~4,2 | vệt trắng trên phim | cất tờ giấy, ký xong mới đưa |
-| 5/10 | 5 | 875 | ~4,9 | lần hỏi thứ hai | có người đập cửa |
-| 6/10 | 6 | 810 | ~4,5 | mẹ chồng gào ngoài cổng | Tiệp báo bảng sang nhượng |
-| 7/10 | 7 | 792 | ~4,4 | bảng sang nhượng | link phát trực tiếp |
-| 8/10 | 8 | 859 | ~4,8 | phát trực tiếp bôi nhọ | xe lăn trước cổng |
-| 9/10 | 9 | 856 | ~4,8 | gầy như áo khoác | phép tính cuối cùng |
-| 10/10 | 10 | 889 | ~4,9 | chết rồi đi tìm tình yêu | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 6; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1523 | ~8.5 | Ký xong ly hôn, tôi đưa chồng tờ giấy ung thư phổi |
+| 2/3 | 3–4 | 1565 | ~8.7 | Hân hỏi: con ngoan hơn thì bố có về không? |
+| 3/3 | 5–6 | 1685 | ~9.4 | Tôi hỏi chồng lần thứ ba: anh chắc chứ? |
+
+Tỉ lệ đăng TikTok: 58% số chữ (chương 1–6 / 10 chương).
 
 ## 5 phương án tiêu đề YouTube
 

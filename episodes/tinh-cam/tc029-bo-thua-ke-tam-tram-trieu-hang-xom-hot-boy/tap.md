@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Hình Mật (tôi; bố mẹ và Vi Hân gọi "Mật Mật"); Trữ Duật (nam chính, ngôi ba "cậu"); Vi Hân (bạn thân); Kim Doanh (bạn cùng phòng, kẻ bám đuôi, sau gọi "cô ta"); Ngưu Chấn (thanh mai trúc mã, sau gọi "hắn"); bố Hình Kiến Nghiệp ("bố"); mẹ; bà Trữ; cụ Hình Bá Sơn ("cụ Bá Sơn"); mợ họ. Chưa duyệt |
 | Bối cảnh | Trung Quốc hiện đại: Nam Kinh, khu biệt thự ngoại ô và trường đại học; tiền là tệ; không ghi năm bằng số |
 | Độ dài: số chương, phút; cách đủ độ dài | 8 chương, ~7.620 chữ, ~42 phút. Giữ mạch gốc, viết dày cảnh, thêm vòng căn phòng khóa tầng ba (thư chưa gửi của cụ Bá Sơn, ch.6–7) làm cú lật giữa truyện, đổi kẻ bám đuôi lộ diện sớm (ch.3), kết bằng đèn tầng ba đáp đèn hiên; bỏ chi tiết khiêu gợi |
-| Chia phần TikTok | 8 phần, mỗi phần một chương, 4,5–6,1 phút |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5 (~60% chữ, dừng cuối ch.5); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 8 chương, ~7.620 chữ, ~42 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

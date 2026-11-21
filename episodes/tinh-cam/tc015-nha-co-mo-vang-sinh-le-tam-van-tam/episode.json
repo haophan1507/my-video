@@ -47,20 +47,12 @@
     {
       "chapters": [
         1,
-        1
+        2
       ],
       "hook": "Yêu tám năm, anh ta hỏi tôi đáng giá tám vạn không"
     },
     {
       "chapters": [
-        2,
-        2
-      ],
-      "hook": "Tám năm, tôi hóa ra là chủ nợ của anh ta"
-    },
-    {
-      "chapters": [
-        3,
         3
       ],
       "hook": "Mang yến sào đến nhà bạn trai, tôi bị mẹ anh ta đẩy"
@@ -68,51 +60,9 @@
     {
       "chapters": [
         4,
-        4
-      ],
-      "hook": "Mẹ bạn trai gửi ảnh con trai bà ôm người khác"
-    },
-    {
-      "chapters": [
-        5,
         5
       ],
-      "hook": "Tôi hất cốc nước vào mặt người yêu cũ"
-    },
-    {
-      "chapters": [
-        6,
-        6
-      ],
-      "hook": "Tiền hắn cưới vợ mới là tiền của tôi"
-    },
-    {
-      "chapters": [
-        7,
-        7
-      ],
-      "hook": "Hắn đòi tôi rước cả nhà hắn về ở chung"
-    },
-    {
-      "chapters": [
-        8,
-        8
-      ],
-      "hook": "Người đá bật cửa xe lúc tôi tưởng hết đường"
-    },
-    {
-      "chapters": [
-        9,
-        9
-      ],
-      "hook": "Cả họ kéo đến đòi người, ai ngờ người ngã là họ"
-    },
-    {
-      "chapters": [
-        10,
-        10
-      ],
-      "hook": "Số tiền hắn lấy của tôi bay đi đúng như cách nó đến"
+      "hook": "Mẹ bạn trai gửi ảnh con trai bà ôm người khác"
     }
   ],
   "thumbText": "Đòi sính lễ|*tám vạn tám*|bị mắng|*hám tiền*",

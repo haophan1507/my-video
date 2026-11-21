@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Biện Tư Cầm (tôi); Nghê Kính Đình ("Kính Đình", "anh ta"); Dung Nhã Chi ("Nhã Chi", "cô ta"); Văn Lam ("chị Lam"); Sử Gia Di ("Gia Di"); Đỗ Thấm ("Thấm"); Ngải Tuần ("Tuần", gọi tôi "chị Cầm"); ba ông chồng: "ông Phí", "ông Thang", "ông Hoa". Bản nguồn: Kỷ Thư, Lục Trầm Chu, Tống Dao, Ôn Dĩ Ninh, Thẩm Độ |
 | Bối cảnh | Hải Thành hiện đại: phòng trà riêng, quán rượu Tiệm Số Chín, tiệc từ thiện ở khách sạn, tập đoàn Nghê thị; tiền là tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 8 chương, ~7.165 chữ ≈ 40 phút (ở tốc độ giọng 1,2 thực tế ngắn hơn). Giữ ba bà vợ, bỏ chàng trai bệnh kiều thay bằng cậu pha chế vô can; thêm vòng "người thu tiền", bốn bà vợ lộ diện, đòn ảnh bẩn của chồng cũ bị camera lật ngược; chi tiết xem đồng hồ biết từ buổi xem mắt dời lên ch.1 |
-| Chia phần TikTok | 8 phần, mỗi phần một chương (~4,5–5,4 phút); hook từng phần ở `parts` trong `episode.json` |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5 (~61% chữ, dừng cuối ch.5); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 8 chương, ~7.165 chữ, ~40 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

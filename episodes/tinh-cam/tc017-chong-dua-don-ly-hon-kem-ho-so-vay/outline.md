@@ -95,19 +95,15 @@ Mỗi người một họ và một âm đầu khác nhau. Câu chào kênh chè
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/11 | 1 | 992 | ~5,5 | hook cả truyện | mẹ chồng hỏi về đôi dép |
-| 2/11 | 2 | 922 | ~5,1 | nhân tình mang dép riêng | ngày tạo tệp ba hôm trước |
-| 3/11 | 3 | 1.010 | ~5,6 | thẻ từ bị khóa | kho số mười bảy |
-| 4/11 | 4 | 1.010 | ~5,6 | kho cũ dán tên lạ | tin nhắn mẹ chồng thu hồi |
-| 5/11 | 5 | 1.057 | ~5,9 | hai trăm sáu mươi vạn | đến kho phía tây |
-| 6/11 | 6 | 955 | ~5,3 | nhân tình chạy ra kho | cô ta nói "chị ta nói đúng" |
-| 7/11 | 7 | 1.044 | ~5,8 | không định ký bộ nào | lương hoãn |
-| 8/11 | 8 | 1.047 | ~5,8 | lương hoãn, bài báo | "chị dám đến không?" |
-| 9/11 | 9 | 1.099 | ~6,1 | năm giờ sáng xưởng Đông | bố chồng đứng về phía tôi |
-| 10/11 | 10 | 915 | ~5,1 | hộp cơm của mẹ | mẹ chồng nhập viện |
-| 11/11 | 11 | 1.098 | ~6,1 | ai gọi cô đến | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 6; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1914 | ~10.6 | Chồng bảo ký như mọi năm, trang cuối ghi tôi bảo lãnh hai nghìn tám trăm vạn |
+| 2/3 | 3–4 | 2020 | ~11.2 | Thẻ từ của tôi bị khóa ngay tại công ty tôi góp ba mươi hai phần trăm |
+| 3/3 | 5–6 | 2012 | ~11.2 | Chồng ném xấp sao kê: hai trăm sáu mươi vạn em lấy của công ty |
+
+Tỉ lệ đăng TikTok: 53% số chữ (chương 1–6 / 11 chương).
 
 ## 5 phương án tiêu đề YouTube
 

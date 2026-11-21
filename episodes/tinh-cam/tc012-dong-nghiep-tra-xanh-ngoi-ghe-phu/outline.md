@@ -76,16 +76,15 @@ Xưng hô: tôi với Vương Phong: em/anh khi còn yêu, tôi/anh lúc cạch 
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/8 | 1 | 950 | ~5,3 | hook cả truyện | tôi biết cô ta từ bảy ngày trước |
-| 2/8 | 2 | 920 | ~5,1 | bạn trai chia tay trước mặt nhân tình | cuộc gọi của bệnh viện |
-| 3/8 | 3 | 920 | ~5,1 | tờ giấy nói anh ta không thể có con | lời mời kết bạn "Thỏ con" |
-| 4/8 | 4 | 940 | ~5,2 | nhân tình gửi ảnh khách sạn lúc nửa đêm | "Gặp ở đâu?" |
-| 5/8 | 5 | 960 | ~5,3 | cô ta ngã trước sảnh công ty | câu trả lời "Đến" |
-| 6/8 | 6 | 980 | ~5,4 | đám cưới lúc mười một giờ hai mươi | tin nhắn "chỉ em cứu được anh" |
-| 7/8 | 7 | 980 | ~5,4 | bạn trai cũ ngồi trước cửa nhà tôi | bà Vương bước về phía tôi |
-| 8/8 | 8 | 880 | ~4,9 | mẹ anh ta gọi tôi là con gái | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 4; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1 | 958 | ~5.3 | Tôi tát nhân tình ngồi ghế phụ: gà phải bỏ vào cốp! |
+| 2/3 | 2–3 | 1760 | ~9.8 | Bạn trai chia tay tôi trước mặt nhân tình, tôi đã biết từ bảy ngày trước |
+| 3/3 | 4 | 962 | ~5.3 | Nhân tình gửi tôi ảnh khách sạn lúc nửa đêm |
+
+Tỉ lệ đăng TikTok: 50% số chữ (chương 1–4 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

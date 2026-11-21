@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Chân Ngâm (tôi); Nông Khải (chồng sắp cưới, anh sinh đôi, "Khải"); Nông Việt (em sinh đôi thật, bị nhốt viện; kẻ giả gọi "Việt" ở ch.5–6, từ ch.7 gọi "Khải"); Giáp Tĩnh (bạch nguyệt quang, "Tĩnh", "cô ta"); bà Nông (mẹ chồng, không tên riêng); luật sư không tên. 4 tên riêng. |
 | Bối cảnh | Trung Quốc hiện đại, tập đoàn Nông thị, khách sạn tổ chức tiệc, sơn trang chân núi Trường Bạch (kiếp trước), viện điều dưỡng ở nước ngoài; tiền là tệ; không ghi năm bằng số. Mốc trọng sinh: ch.1, mười năm trước đêm tân hôn kiếp trước. |
 | Độ dài: số chương, phút; cách đủ độ dài | 10 chương, 8.718 chữ, ~48 phút. Dựng lại từ nguồn ~10.150 chữ Hán: thêm tin nhắn lạ (Tĩnh), chiếc đồng hồ của bà Nông, phép thử tay trái/tay phải, ghi âm trốn tìm hai mươi năm; đổi kết thành thế kẹt hai thân phận; bỏ cảnh phụ sơn trang và nhân vật luật sư. |
-| Chia phần TikTok | 10 phần, mỗi phần một chương, 4,3–5,5 phút |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5–6 (~59% chữ, dừng cuối ch.6); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 10 chương, ~8.700 chữ, ~48 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5–6; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

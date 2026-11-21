@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Điền Cẩm Tú (tôi); Trang Lãng ("Lãng", ngôi ba "cậu ấy"); Đái Triết ("Triết", "anh ta"); Lý Mộng Điệp ("Mộng Điệp", "cô ta"); Thái Ngạn ("Ngạn", gọi chị dâu). Bản nguồn: Mẫn Khê, Tần Trạm, Diệp Tân, Chu Viên |
 | Bối cảnh | Vũ Hán hiện đại (quán rượu ven sông, căn hộ học khu, trường đại học, bãi đỗ xe công ty), có nhắc Pháp; tiền là tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 11 chương, ~9.800 chữ ≈ 54 phút (ở tốc độ giọng 1,2 ngắn hơn). Giữ đủ mạch nguồn, viết dày cảnh; thêm vòng tin nhắn "cho mượn chồng", cú lộ bản chất Mộng Điệp (thai, ba triệu, bãi đỗ xe) và Ngạn hóng hớt; chi tiết ở `outline.md` |
-| Chia phần TikTok | 11 phần, mỗi chương một phần (hai chương liền vượt 8 phút); khớp `parts` trong `episode.json` |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5–6 (~52% chữ, dừng cuối ch.6); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 11 chương, ~9.800 chữ, ~54 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5–6; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

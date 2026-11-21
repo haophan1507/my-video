@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | tôi = Cung Tuyết Nghi; Hạng Dật; Thái Mịch (Mịch); Bao Triết; chị Tú (Khuất Tú); ông Hạng (Hạng Quốc Khang); luật sư Thân |
 | Bối cảnh | Tế Nam hiện đại, đại học, tập đoàn Hạng thị, quỹ Ngân Quang |
 | Độ dài: số chương, phút; cách đủ độ dài | 8 chương, ~6.850 chữ, ~38 phút; thêm vòng bữa pháp, điều kiện đầu tư, bóc phốt diễn đàn, quỹ Thanh Tâm giải thích nguồn tiền |
-| Chia phần TikTok | 8 phần, mỗi chương một phần (~4,4–5 phút) |
+| Chia phần TikTok | 3 phần: ch.1, ch.2–3, ch.4–5 (~62% chữ, dừng cuối ch.5); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 8 chương, ~6.850 chữ, ~38 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1, ch.2–3, ch.4–5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

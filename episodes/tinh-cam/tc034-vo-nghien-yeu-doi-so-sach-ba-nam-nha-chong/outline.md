@@ -70,17 +70,15 @@ Xưng hô: tôi gọi bà "mẹ" bề mặt; Gia Hào gọi tôi "em", tôi gọ
 
 ## Chia phần TikTok
 
-Hai chương liền ~1.600 chữ ≈ 9 phút vượt 8 phút, nên mỗi chương một phần.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 4; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/7 | 1 | 768 | ~4,3 | hook cả truyện | tôi rút cuốn sổ bìa xanh |
-| 2/7 | 2 | 721 | ~4,0 | ba năm không mở lại sổ nhà mình | khoản hai mươi vạn vào tên người khác |
-| 3/7 | 3 | 788 | ~4,4 | cô gái hai mươi lăm tuổi nhận tiền | tin nhắn họp họ |
-| 4/7 | 4 | 856 | ~4,8 | nhà chật mười hai người xem tôi bị mắng | khoản cuối đọc trước bà thông gia |
-| 5/7 | 5 | 805 | ~4,5 | cả phòng chỉ còn tiếng kim giây | Gia Hào quỳ xuống |
-| 6/7 | 6 | 909 | ~5,0 | hai lần xin lỗi trước | lời mời làm việc |
-| 7/7 | 7 | 799 | ~4,4 | ba tháng sau, bảy giờ sáng | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1 | 768 | ~4.3 | Mẹ chồng đòi tôi hai mươi tám vạn cho em chồng, tôi mở sổ ra đọc |
+| 2/3 | 2–3 | 1510 | ~8.4 | Ba năm tôi ghi sổ nhà chồng, chưa một lần mở lại |
+| 3/3 | 4 | 856 | ~4.8 | Mười hai người đến xem tôi bị mắng, tôi chỉ đọc số |
+
+Tỉ lệ đăng TikTok: 55% số chữ (chương 1–4 / 7 chương).
 
 ## 5 phương án tiêu đề YouTube
 

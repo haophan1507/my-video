@@ -49,69 +49,24 @@
   "parts": [
     {
       "chapters": [
-        1
+        1,
+        2
       ],
       "hook": "Chị đâm tôi ngày đính hôn, mở mắt tôi về ngày bố mẹ ly hôn"
     },
     {
       "chapters": [
-        2
-      ],
-      "hook": "Tôi theo mẹ vào căn hộ lạnh như phòng mổ"
-    },
-    {
-      "chapters": [
-        3
+        3,
+        4
       ],
       "hook": "Mẹ tôi từng là thủ khoa, bố đạp xe nửa thành phố chờ bà"
     },
     {
       "chapters": [
-        4
-      ],
-      "hook": "Ba kẻ cầm gậy chặn tôi, chỉ một người biết đánh thật"
-    },
-    {
-      "chapters": [
-        5
-      ],
-      "hook": "Lễ kỷ niệm trường, chị đứng giữa sân khấu"
-    },
-    {
-      "chapters": [
+        5,
         6
       ],
-      "hook": "Lần đầu gặp anh, tôi cầm dao găm trong thang máy"
-    },
-    {
-      "chapters": [
-        7
-      ],
-      "hook": "Chị tới phòng thí nghiệm khoe tên trên áp phích"
-    },
-    {
-      "chapters": [
-        8
-      ],
-      "hook": "Con chip ba năm bị chửi như lừa cả nước"
-    },
-    {
-      "chapters": [
-        9
-      ],
-      "hook": "Chị bán tin của tôi, tôi vẫn mang rượu đến"
-    },
-    {
-      "chapters": [
-        10
-      ],
-      "hook": "Người vạch mặt Thương Bân lại là chị tôi"
-    },
-    {
-      "chapters": [
-        11
-      ],
-      "hook": "Cầu hôn ngày lên sàn, và cái giá anh đã trả"
+      "hook": "Lễ kỷ niệm trường, chị đứng giữa sân khấu"
     }
   ],
   "thumbText": "Chị đâm tôi|ngày đính hôn|sống lại tôi *theo mẹ*|*đi học*",

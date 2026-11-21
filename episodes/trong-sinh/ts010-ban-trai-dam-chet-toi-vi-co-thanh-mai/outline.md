@@ -75,16 +75,15 @@ Xưng hô: tôi với Bội: tớ/cậu. Tôi với Lộ Nghị: tôi/anh lúc �
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/8 | 1 | 960 | ~5,3 | hook cả truyện | hai người lỡ thi lên bản tin |
-| 2/8 | 2 | 930 | ~5,2 | bị hỏi tội vì bạn trai cũ lỡ thi | bữa tiệc tạ ơn thầy cô |
-| 3/8 | 3 | 960 | ~5,3 | hai nhà đánh nhau giữa sảnh | "anh biết em chưa quên anh" |
-| 4/8 | 4 | 930 | ~5,2 | bạn trai cũ chặn cửa mời làm bạn | Điềm Điềm có bầu |
-| 5/8 | 5 | 920 | ~5,1 | thanh mai bụng bầu chặn đường | hắn chờ dưới tòa nhà |
-| 6/8 | 6 | 940 | ~5,2 | họp lớp, chân khập khiễng | nhà họ Hoa sập, bán xiên nướng |
-| 7/8 | 7 | 940 | ~5,2 | lên sàn, bị đòi tuổi xuân | cổng trường cũ, mưa như trút |
-| 8/8 | 8 | 1.050 | ~5,8 | ngày mưa dông lần thứ hai | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 4; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1895 | ~10.5 | Bị bạn trai đâm chết, tôi sống lại trước giờ thi nửa tiếng |
+| 2/3 | 3 | 936 | ~5.2 | Mẹ bạn trai cũ buột miệng một câu, hai nhà đánh nhau giữa sảnh |
+| 3/3 | 4 | 963 | ~5.3 | Bạn trai cũ chặn cửa nhà tôi, mời làm bạn như ban ơn |
+
+Tỉ lệ đăng TikTok: 51% số chữ (chương 1–4 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

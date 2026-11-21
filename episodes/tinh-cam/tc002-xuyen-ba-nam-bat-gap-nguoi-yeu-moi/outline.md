@@ -82,17 +82,15 @@ Xưng hô: tôi với Sầm Viễn: tôi/anh lúc mới tỉnh, em/anh từ ch.5
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/9 | 1 | 925 | ~5,1 | hook cả truyện | Uông Khải cưới vợ ba năm trước |
-| 2/9 | 2 | 811 | ~4,5 | người cuối cùng biết chuyện | người cãi nhau với tôi là Sầm Viễn |
-| 3/9 | 3 | 881 | ~4,9 | ngã lần hai sau trận cãi | đặt vé vào Thâm Quyến |
-| 4/9 | 4 | 872 | ~4,8 | bạn trai đưa ra sân bay đi tìm người yêu cũ | tin nhắn của Uông Khải |
-| 5/9 | 5 | 858 | ~4,8 | người yêu cũ hẹn quán cà phê | "Hai đứa định bao giờ cưới?" |
-| 6/9 | 6 | 870 | ~4,8 | cầu hôn kèm điều kiện lạnh | ai bế tôi vào phòng |
-| 7/9 | 7 | 820 | ~4,6 | một năm chỉ hỏi về ăn cơm không | "Tối nay không về hả?" |
-| 8/9 | 8 | 927 | ~5,2 | quên ngày kỷ niệm | "Bên trong có thứ này" |
-| 9/9 | 9 | 1.032 | ~5,7 | ba năm trong bó hoa | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1 | 925 | ~5.1 | Tỉnh dậy đã là ba năm sau, người yêu cũ đã cưới vợ |
+| 2/3 | 2–3 | 1692 | ~9.4 | Tôi theo đuổi người lạ này suốt nửa năm? |
+| 3/3 | 4–5 | 1730 | ~9.6 | Bạn trai đưa tôi ra sân bay đi tìm người yêu cũ |
+
+Tỉ lệ đăng TikTok: 54% số chữ (chương 1–5 / 9 chương).
 
 ## 5 phương án tiêu đề YouTube
 

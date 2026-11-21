@@ -43,7 +43,6 @@
   "parts": [
     {
       "chapters": [
-        1,
         1
       ],
       "hook": "Bị bạn trai đá, tối đó tôi cưới luôn người lạ"
@@ -51,58 +50,16 @@
     {
       "chapters": [
         2,
-        2
+        3
       ],
       "hook": "Chồng thợ sửa xe dẫn tôi về biệt thự ba tầng"
     },
     {
       "chapters": [
-        3,
-        3
-      ],
-      "hook": "Người yêu cũ đến tận nơi bắt tôi tư vấn xe cưới"
-    },
-    {
-      "chapters": [
         4,
-        4
-      ],
-      "hook": "Họp lớp chê chồng tôi là thợ sửa xe"
-    },
-    {
-      "chapters": [
-        5,
         5
       ],
-      "hook": "Bố của thợ sửa xe là người giàu nhất Hải Thành"
-    },
-    {
-      "chapters": [
-        6,
-        6
-      ],
-      "hook": "Kẻ phản bội đưa tôi tấm ảnh mẹ ruột"
-    },
-    {
-      "chapters": [
-        7,
-        7
-      ],
-      "hook": "Mẹ chồng đưa séc một nghìn vạn bắt tôi ly hôn"
-    },
-    {
-      "chapters": [
-        8,
-        8
-      ],
-      "hook": "Bạn thân cũ muốn lừa cổ phần của tôi"
-    },
-    {
-      "chapters": [
-        9,
-        9
-      ],
-      "hook": "Lá thư mẹ ruột để lại hai mươi bốn năm"
+      "hook": "Họp lớp chê chồng tôi là thợ sửa xe"
     }
   ],
   "thumbText": "Bị bạn trai đá|tối đó tôi cưới|*anh thợ sửa xe*",

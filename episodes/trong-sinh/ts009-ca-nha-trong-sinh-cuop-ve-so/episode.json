@@ -43,57 +43,23 @@
   "parts": [
     {
       "chapters": [
-        1
+        1,
+        2
       ],
       "hook": "Cả nhà tôi trọng sinh để cướp vé số của tôi"
     },
     {
       "chapters": [
-        2
-      ],
-      "hook": "Họ vay nặng lãi vì tin chắc sẽ trúng"
-    },
-    {
-      "chapters": [
-        3
-      ],
-      "hook": "Mẹ tiêu sáu chục nghìn tệ trong ba mươi phút"
-    },
-    {
-      "chapters": [
+        3,
         4
       ],
-      "hook": "Bạn trai cũ trở mặt, tôi tát cả hai"
+      "hook": "Mẹ tiêu sáu chục nghìn tệ trong ba mươi phút"
     },
     {
       "chapters": [
         5
       ],
       "hook": "Vé em gái trượt, vé của tôi trúng tám mươi triệu"
-    },
-    {
-      "chapters": [
-        6
-      ],
-      "hook": "Tôi là đứa bị mua về với ba nghìn tệ"
-    },
-    {
-      "chapters": [
-        7
-      ],
-      "hook": "Mẹ quỳ cổng trường vu tôi bất hiếu"
-    },
-    {
-      "chapters": [
-        8
-      ],
-      "hook": "Tôi phát ghi âm, cả mạng đổi chiều"
-    },
-    {
-      "chapters": [
-        9
-      ],
-      "hook": "Bị bắt cóc, tôi đã chuẩn bị sẵn"
     }
   ],
   "thumbText": "Cả nhà *trọng sinh*|cướp vé số|*tám mươi triệu*|của tôi",

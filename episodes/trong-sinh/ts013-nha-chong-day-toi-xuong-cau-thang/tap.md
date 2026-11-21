@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Bành Tuyết Dao (tôi); Phạm Đình Vỹ (Vỹ); Phạm Tiểu Sa (Tiểu Sa); Mễ Tráng (hắn); Chúc Nhàn (Nhàn); bố mẹ chồng không tên |
 | Bối cảnh | Tế Nam hiện đại, nhà tập thể cũ sắp giải tỏa, chi nhánh Tân Gia Ba |
 | Độ dài: số chương, phút; cách đủ độ dài | 8 chương, ~7.360 chữ, ~41 phút; bỏ chuỗi lây bệnh, thêm cảnh ngân hàng, cú lật giải tỏa, tờ cam kết, kết quyên tiền (chi tiết trong `outline.md`) |
-| Chia phần TikTok | 8 phần, mỗi chương một phần (hai chương liền > 8 phút) |
+| Chia phần TikTok | 3 phần: ch.1, ch.2, ch.3–4 (~52% chữ, dừng cuối ch.4); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 8 chương, ~7.360 chữ, ~41 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1, ch.2, ch.3–4; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

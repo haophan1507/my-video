@@ -43,57 +43,23 @@
   "parts": [
     {
       "chapters": [
-        1
+        1,
+        2
       ],
       "hook": "Chồng tôi chết vì ăn dưa muối. Ở đám tang, tôi đập đầu vào quan tài đòi chết theo."
     },
     {
       "chapters": [
-        2
-      ],
-      "hook": "Người bán tôi vào cái thôn này là người tôi đã nuôi cơm suốt hai năm."
-    },
-    {
-      "chapters": [
-        3
-      ],
-      "hook": "Đêm Đại Bảo chết, tôi quỳ cầu xin hai người, và không ai nghe."
-    },
-    {
-      "chapters": [
+        3,
         4
       ],
-      "hook": "Hôm đó tôi không trả lời bác sĩ Phương."
+      "hook": "Đêm Đại Bảo chết, tôi quỳ cầu xin hai người, và không ai nghe."
     },
     {
       "chapters": [
         5
       ],
       "hook": "Bà mẹ chồng tôi có một thói quen, là đánh trước, hỏi sau."
-    },
-    {
-      "chapters": [
-        6
-      ],
-      "hook": "Người tốt trong thôn này thường là người đáng sợ nhất."
-    },
-    {
-      "chapters": [
-        7
-      ],
-      "hook": "Chiếc xe van nhà ông Thi rời thôn lúc trời chưa sáng hẳn."
-    },
-    {
-      "chapters": [
-        8
-      ],
-      "hook": "Mẹ tôi im lặng đúng năm giây."
-    },
-    {
-      "chapters": [
-        9
-      ],
-      "hook": "Phòng nhận dạng có một tấm kính một chiều."
     }
   ],
   "thumbText": "Chồng chết vì|*dưa muối*|cả làng khen|tôi là vợ ngoan",

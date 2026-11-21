@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Sài Thư Ý (tôi; mẹ gọi "Ý", Phù Kỳ gọi "Ý Ý"), Sài Ánh (chị), Phù Kỳ (anh), Đặng Lệ Chi, đạo diễn Thương Bân, giáo sư Trì Hạnh, mẹ, bố; chi tiết outline.md |
 | Bối cảnh | Bắc Kinh, hiện đại, trường nữ sinh Thục Đức, công ty chip Hằng Tâm, tập đoàn Phù thị; tiền tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 11 chương, ~56 phút (~10.130 chữ); cắt đoạn chuyên môn phòng thí nghiệm; thêm cảnh mẹ và cây đèn, chứng cứ xoài, chìa khóa két của chị, đèn dán sơn vàng |
-| Chia phần TikTok | 11 phần, mỗi chương một phần (4,4–5,9 phút; chi tiết outline.md) |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5–6 (~52% chữ, dừng cuối ch.6); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | chữ: "Chị đâm tôi\|ngày đính hôn\|sống lại tôi *theo mẹ*\|*đi học*"; ảnh: chưa chọn |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 11 chương, ~10.130 chữ, ~56 phút; dàn ý và chương chưa duyệt. Lưu ý: chương bám khá sát mạch bản gốc, nên xem lại độ khác biệt câu chữ.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5–6; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

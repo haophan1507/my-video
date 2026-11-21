@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Ôn Lam (tôi; "vợ", "luật sư Ôn", "chị Lam"); Kỷ Diễn ("Kỷ Diễn", kể "anh"); Tần phu nhân ("bà Tần", xưng ta gọi cô; Lam gọi "mẹ"); Lạc Kiều (trợ lý, "Lạc Kiều"); Mã Đức Long ("lão Mã"). Bản nguồn: Thẩm Tinh Hà, Lục Uyên |
 | Bối cảnh | Thượng Hải hiện đại; căn hộ cũ của Lam, tòa án, tiệc rượu tầng thượng khách sạn, đảo riêng; tiền là tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 10 chương, ~8.990 chữ ≈ 50 phút (180 chữ/phút; ở tốc độ giọng 1,2 thực tế ngắn hơn). Cắt từ ~94 phút: bỏ cảnh việc nhà lặp, đoạn "xử lý đối tác", mô tả đảo cưới; thêm vòng lão Mã thua kiện và bị bắt (ch.10); dời cảnh tấn công về gần nửa đêm cho khớp hook |
-| Chia phần TikTok | 10 phần, mỗi phần một chương (~4,7–5,5 phút); hook từng phần ở `parts` trong `episode.json` |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5–6 (~59% chữ, dừng cuối ch.6); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -40,3 +40,4 @@
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 10 chương, ~8.990 chữ, ~50 phút; dàn ý và chương chưa duyệt.
 - 2026-11-21: đổi tên để không trùng tập khác: Giang Ninh → Ôn Lam, Hoắc Diễn → Kỷ Diễn (Hoắc thị → Kỷ thị), Chu Kiều → Lạc Kiều.
 - 2026-11-21: đã duyệt ch.1 (đọc thử, đạt). Các chương còn lại chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5–6; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

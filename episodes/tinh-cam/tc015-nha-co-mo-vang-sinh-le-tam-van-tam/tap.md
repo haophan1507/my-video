@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Khúc Ngọc Tịch (tôi; gọi "Tịch"); Ứng Gia Huy (bạn trai tám năm, sau gọi "hắn"); bà Ứng (mẹ hắn); Phó Chi (bạn thân hóng hớt, "Chi"); Lăng Xuyên (phó tổng Lăng thị, nam phụ, "Xuyên"); phụ: anh trai Khúc Tuấn, chú Mạnh, chị dâu họ, anh họ, cô vợ mới (không tên). Chưa duyệt |
 | Bối cảnh | Trung Quốc hiện đại, Hải Thành; tập đoàn Lăng thị, khoáng nghiệp họ Khúc; tiền là tệ (tám vạn tám, mười tám vạn tám, hai mươi mốt vạn bốn); không ghi năm bằng số |
 | Độ dài: số chương, phút; cách đủ độ dài | 10 chương, ~8.335 chữ, ~46 phút. Nguồn ~8.870 chữ Hán; thêm vòng sổ nợ và sao kê (twist tiền cưới là tiền cô), Lăng Xuyên vào sớm, thư nhắc nợ giữ chờ hắn ra tù, kết bao lì xì tám mươi tám vạn tám; làm nhẹ cảnh bỏ thuốc, chị dâu họ giữ được con |
-| Chia phần TikTok | 10 phần, mỗi phần một chương, 4,0–5,8 phút |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3, ch.4–5 (~50% chữ, dừng cuối ch.5); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 10 chương, ~8.335 chữ, ~46 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3, ch.4–5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

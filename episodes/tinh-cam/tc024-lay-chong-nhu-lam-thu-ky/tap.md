@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Phong Nghi (tôi; chồng gọi "Nghi", "vợ"); Thẩm Duật (chồng, "Thẩm Duật", ngôi ba "anh"); Mông Y Lan (người yêu cũ, sau "cô ta"); Cát Tuệ (bạn thân hóng hớt); Ân Tiểu Sơn (chủ nhà trọ, "Tiểu Sơn", gọi chồng là "chú Thẩm"). Bản nguồn: Âu Dương Hạ, Tống Khôn, Lâm Tiểu Giác, Diệp Tiểu Thanh, Từ Tiểu Xuyên. Chưa duyệt |
 | Bối cảnh | Tế Nam (nhà, tập đoàn Vạn Thái), Tây An (trường cũ, quán cà phê), Điền Nam (hồ Phủ Tiên, nhà trọ); hiện đại, tiền là tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 9 chương, ~6.950 chữ ≈ 39 phút (180 chữ/phút). Kể gọn nguồn ~8.400 chữ Hán bằng cảnh và thoại; thêm giọng kế toán làm xương sống, vòng đối đầu "chứng từ quá hạn" (ch.4), tệp ghi chú của chồng (ch.7), cú trả lại ba trăm sáu mươi vạn (ch.8), kết ngôi ba (ch.9); giữ kết buồn |
-| Chia phần TikTok | 9 phần, mỗi phần một chương (~3,9–4,6 phút); hook từng phần ở `parts` trong `episode.json` |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3, ch.4–5 (~57% chữ, dừng cuối ch.5); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -39,3 +39,4 @@
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 9 chương, ~6.950 chữ, ~39 phút; dàn ý và chương chưa duyệt.
 - 2026-11-21: tên mới: Phong Nghi, Thẩm Duật, Mông Y Lan, Cát Tuệ, Ân Tiểu Sơn (họ nữ chính Phong, nam chính Thẩm theo phân công).
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3, ch.4–5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

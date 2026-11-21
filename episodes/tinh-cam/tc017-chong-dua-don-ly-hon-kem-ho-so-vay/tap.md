@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Sở Tử Hân (tôi; chồng gọi "Tử Hân", mẹ chồng "Hân Hân"); Cao Thiên Dật (chồng; "Thiên Dật", ngôi ba "anh ta"); Phan Nghi (giám đốc tài chính, nhân tình; "Phan Nghi", "cô ta"); Quý Lam (bạn thân, luật sư; "Lam"); chú Trương (bảo vệ kho). Bố mẹ chồng, bác thợ cả, quản lý ngân hàng gọi theo chức danh. Bản nguồn: Giang Vãn, Chu Thừa An, Lâm Mạn, Trình Lam, Tưởng thúc |
 | Bối cảnh | Thê Xuyên hiện đại: nhà ở Thê Hồ, xưởng đèn Triều Sinh, ngân hàng Hoa Thành, khách sạn Thanh Hòa, công ty Minh Tự; tiền là tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 11 chương, ~11.150 chữ ≈ 62 phút (180 chữ/phút; hơi vượt khung, ở tốc độ giọng 1,2 ngắn hơn). Cắt thuật ngữ tài chính, dồn nhân vật phụ; thêm mốc thời gian của mưu "bảo lãnh trước, ly hôn sau", thư mục hồ sơ "mọi năm" của nữ chính, mẹ chồng lỡ gửi ảnh, bố chồng đứng về phía nữ chính (chi tiết ở `outline.md`) |
-| Chia phần TikTok | 11 phần, mỗi phần một chương (~5,1–6,1 phút); hook từng phần ở `parts` trong `episode.json` |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5–6 (~53% chữ, dừng cuối ch.6); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -39,3 +39,4 @@
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 11 chương, ~11.150 chữ, ~62 phút; dàn ý và chương chưa duyệt.
 - 2026-11-21: họ theo giao: nữ chính Sở, nam chính Cao; đổi tên so với nguồn (Giang Vãn, Chu Thừa An, Lâm Mạn thành Sở Tử Hân, Cao Thiên Dật, Phan Nghi).
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5–6; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

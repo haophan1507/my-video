@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Hoắc Niệm An (tôi; chồng gọi "Niệm An", "em"); Kiển Trì ("Kiển Trì", kể "anh"; đồng đội gọi "đội trưởng"); Giả Doanh ("Doanh", tớ/cậu); bà Cù (giường số ba); Bồ Vĩ (kẻ đầu não, "hắn"). Bản nguồn: Tô Thanh Nhan, Cố Nghiễn Châu, Lâm Vi Vi |
 | Bối cảnh | Hải Thành hiện đại; bệnh viện số Một, quán trò nhập vai tầng thượng, đồn hình sự, rạp phim, nhà vợ chồng; tiền là tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 9 chương, ~7.250 chữ ≈ 40 phút (180 chữ/phút; ở tốc độ giọng 1,2 thực tế ngắn hơn). Cắt cảnh nóng và cảnh thân mật lặp; thêm tuyến án lừa người già (ch.1, 3, 5, 6, 7) làm phản diện và cao trào; thay màn bị thương giả bằng ca đồng đội bị đâm thật |
-| Chia phần TikTok | 9 phần, mỗi phần một chương (~4,0–5,0 phút); hook từng phần ở `parts` trong `episode.json` |
+| Chia phần TikTok | 3 phần: ch.1, ch.2–3, ch.4–5 (~55% chữ, dừng cuối ch.5); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 9 chương, ~7.250 chữ, ~40 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1, ch.2–3, ch.4–5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

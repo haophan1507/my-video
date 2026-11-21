@@ -46,45 +46,17 @@
     },
     {
       "chapters": [
-        2
+        2,
+        3
       ],
       "hook": "Nghe lén bố mẹ tính bán tôi làm bàn đạp, tôi đẩy cửa vào giữa bữa cơm"
     },
     {
       "chapters": [
-        3
-      ],
-      "hook": "Bố mẹ xin lỗi ngọt như siro, còn khuyên tôi bỏ nghề y đi bán hàng"
-    },
-    {
-      "chapters": [
-        4
-      ],
-      "hook": "Hóa ra từng món đồ chơi hồi nhỏ đều được ghi sổ để đòi lại một căn nhà"
-    },
-    {
-      "chapters": [
+        4,
         5
       ],
-      "hook": "Họ dốc hết tiền đặt cọc, còn tôi tắt máy nằm ngắm biển mười ngày"
-    },
-    {
-      "chapters": [
-        6
-      ],
-      "hook": "Cả bệnh viện chỉ vào mặt tôi: đồ vong ơn bạc nghĩa"
-    },
-    {
-      "chapters": [
-        7
-      ],
-      "hook": "Tôi đặt một trăm vạn tệ lên bàn, kèm một tờ giấy cắt đứt quan hệ"
-    },
-    {
-      "chapters": [
-        8
-      ],
-      "hook": "Họ quỳ xin tôi mổ cứu cháu đích tôn, nhưng tôi không được phép"
+      "hook": "Hóa ra từng món đồ chơi hồi nhỏ đều được ghi sổ để đòi lại một căn nhà"
     }
   ],
   "thumbText": "Họ *cắt thuốc* khi tôi ung thư|Kiếp này tôi *đóng cửa*|Bố mẹ quỳ cũng không mở",

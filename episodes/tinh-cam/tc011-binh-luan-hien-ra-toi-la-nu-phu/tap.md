@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Trác Nghiên (tôi; chồng gọi "Trác Nghiên", xúc động gọi "Nghiên Nghiên"); Thịnh Duệ (chồng, ngôi ba "anh"); Doãn Quân (bác sĩ, người cũ, "anh ấy"); Nhạc Vi ("nữ chính" trong chữ, "cô ta"); Dư Lâm (nhân viên cũ, "chị Nghiên"); Vu Khiêm (bạn đại học của chồng, "chị dâu"). Bố, bố chồng, bố người cũ không tên. Chưa duyệt |
 | Bối cảnh | Trung Quốc hiện đại: Thiên Tân; tập đoàn Trác thị, Thịnh thị, Ngân Sơn (bên mời thầu), Hằng Đạt (đối thủ); tiền là tệ; không ghi năm bằng số |
 | Độ dài: số chương, phút; cách đủ độ dài | 11 chương, ~9.590 chữ, ~53 phút. Bỏ hết cảnh nóng của nguồn; thêm vòng nhân viên cũ giúp trong im lặng (ch.5), thí nghiệm điều kiện kích hoạt chữ và chồng nói chậm khi tôi ghi âm (ch.6), bữa cơm với bạn chồng và lý do chồng sợ làm cha (ch.7), phân tích đối thủ và câu hỏi tám mươi phần trăm (ch.8); ngoại truyện nguồn thành ch.11 do chồng kể lại; cú đảo Nhạc Vi cũng biết kịch bản (ch.10) |
-| Chia phần TikTok | 11 phần, mỗi phần một chương, 4,0–6,1 phút |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5–6 (~50% chữ, dừng cuối ch.6); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 11 chương, ~9.590 chữ, ~53 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5–6; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

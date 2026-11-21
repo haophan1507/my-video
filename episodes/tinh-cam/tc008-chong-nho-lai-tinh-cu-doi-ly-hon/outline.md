@@ -93,19 +93,15 @@ Vai không tên, gọi theo chức danh: bố mẹ tôi ("bố", "mẹ"); em gá
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/11 | 1 | 990 | ~5,5 | hook cả truyện | tờ siêu âm hai tháng |
-| 2/11 | 2 | 1.030 | ~5,7 | bật tivi thấy mặt tình đầu | người đàn ông chờ câu mời bốn năm |
-| 3/11 | 3 | 950 | ~5,3 | kéo bừa người lạ nhảy | Kiều Lộ Lộ đến tiệc |
-| 4/11 | 4 | 1.090 | ~6,1 | phải cứu tình đầu của chồng | "Chồng cô bế cô vào đây" |
-| 5/11 | 5 | 1.030 | ~5,7 | bác sĩ gọi chú là chồng | "Cậu lên hot search rồi" |
-| 6/11 | 6 | 970 | ~5,4 | thành kẻ ngoại tình | quyết định chỉ giữ ba ngày |
-| 7/11 | 7 | 910 | ~5,1 | bức tường máy ảnh | người họ Từ đứng ngoài cửa |
-| 8/11 | 8 | 1.030 | ~5,7 | thùng sơn đỏ | "Chỉ em thôi" |
-| 9/11 | 9 | 1.080 | ~6,0 | suýt là chồng tôi | Tiết Khải trên ghế sô pha |
-| 10/11 | 10 | 980 | ~5,4 | chồng cũ gọi tôi là vợ | một triệu tệ cho một câu hỏi |
-| 11/11 | 11 | 850 | ~4,7 | sự thật một triệu tệ | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 6; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 2029 | ~11.3 | Tỉnh dậy sau tai nạn, chồng đòi ly hôn để về với tình đầu |
+| 2/3 | 3–4 | 2042 | ~11.3 | Kéo bừa người lạ nhảy, hóa ra là chú của chồng cũ |
+| 3/3 | 5–6 | 1987 | ~11.0 | Bác sĩ gọi chú của chồng cũ là chồng tôi |
+
+Tỉ lệ đăng TikTok: 55% số chữ (chương 1–6 / 11 chương).
 
 ## 5 phương án tiêu đề YouTube
 

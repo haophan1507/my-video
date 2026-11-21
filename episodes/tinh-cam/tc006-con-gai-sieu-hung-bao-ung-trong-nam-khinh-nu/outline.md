@@ -73,18 +73,15 @@ Vai không tên: ông nội, bà nội, bố, mẹ (bố mua năm trăm tệ t�
 
 ## Chia phần TikTok
 
-Mỗi chương ~4,8–6 phút, hai chương liền nhau vượt 8 phút, nên mỗi phần một chương.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/8 | 1 | 977 | ~5,4 | hook cả truyện | khiến Kim Bảo nghe lời tôi |
-| 2/8 | 2 | 957 | ~5,3 | quân cờ hoa tai vàng | "Cả cái nhà này." |
-| 3/8 | 3 | 859 | ~4,8 | anh trai đốt nhà vì một câu | "sao em đứng sẵn ngoài sân?" |
-| 4/8 | 4 | 952 | ~5,3 | giá bán tôi ba nghìn tệ | lão Quách nhìn Kim Bảo như trâu |
-| 5/8 | 5 | 921 | ~5,1 | cả nhà cắn xé trong chuồng trâu | "mấy giờ lão đến hả bố?" |
-| 6/8 | 6 | 975 | ~5,4 | người gào khóc lại là anh trai | mẩu giấy nhòe chữ |
-| 7/8 | 7 | 974 | ~5,4 | bảy mươi tệ và mẩu giấy | "bố đến đón mày về nhà" |
-| 8/8 | 8 | 1.077 | ~6,0 | bố và anh đến đòi nợ | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1 | 977 | ~5.4 | Ông nội bán tôi ba nghìn tệ, người bị dắt đi lại là anh trai |
+| 2/3 | 2–3 | 1816 | ~10.1 | Tôi xúi anh trai giật hoa tai vàng của bà |
+| 3/3 | 4–5 | 1873 | ~10.4 | Nhà cháy bảy ngày, ông nội chốt giá bán tôi |
+
+Tỉ lệ đăng TikTok: 61% số chữ (chương 1–5 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Lữ Du (tôi; nhà chồng gọi "Tiểu Du"); Phương Kiệt ("bác sĩ Phương" tới ch.7, rồi "anh"); Biện Thanh ("Biện Thanh", "hắn" ở ch.9); Cam Đại Bảo ("Đại Bảo"); ông Cam, bà Cam (bố, mẹ); bà Hà; ông Thi, bà Thi. Bản nguồn: Thôi Linh, (nam chính mới), Trương Thanh, Trương Đại Bảo, Trương Thủ Điền, Vương Quế Lan, Lý Thúy Hoa, Trương Lão Căn |
 | Bối cảnh | Trung Quốc hiện đại: đại học Vọng Thành, thôn Cam Gia Truân, huyện Thanh Sơn; tiền là tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 9 chương, ~7.620 chữ ≈ 42 phút (ở tốc độ giọng 1,2 thực tế ngắn hơn). Nguồn ~49 phút nếu dịch sát; bỏ đầu độc nấm, thuốc mê, thuốc ngủ; thêm nam chính, chương đêm hũ dưa, đối mặt Biện Thanh, hậu quả pháp lý |
-| Chia phần TikTok | 9 phần, mỗi phần một chương (~4,0–5,3 phút); hook từng phần ở `parts` trong `episode.json` |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5 (~54% chữ, dừng cuối ch.5); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 9 chương, ~7.620 chữ, ~42 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

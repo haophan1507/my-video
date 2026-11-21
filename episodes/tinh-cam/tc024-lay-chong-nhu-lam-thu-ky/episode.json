@@ -44,20 +44,12 @@
     {
       "chapters": [
         1,
-        1
+        2
       ],
       "hook": "Chồng chuyển mười vạn, dặn xếp vali, tôi nhắn lại hai chữ: Đã nhận"
     },
     {
       "chapters": [
-        2,
-        2
-      ],
-      "hook": "Chồng say lần đầu sau ba năm cưới, và tên người yêu cũ hiện trên điện thoại"
-    },
-    {
-      "chapters": [
-        3,
         3
       ],
       "hook": "Người yêu cũ của chồng kết bạn với tôi, nhắn: Tôi vẫn còn yêu anh ấy"
@@ -65,44 +57,9 @@
     {
       "chapters": [
         4,
-        4
-      ],
-      "hook": "Tôi hỏi người yêu cũ một câu về ngày tháng trên biên lai chuyển tiền"
-    },
-    {
-      "chapters": [
-        5,
         5
       ],
-      "hook": "Chồng đứng giữa vợ và người yêu cũ, rồi bỏ đi một mình"
-    },
-    {
-      "chapters": [
-        6,
-        6
-      ],
-      "hook": "Tôi biến mất một tuần, hai trăm bảy mươi cuộc gọi nhỡ"
-    },
-    {
-      "chapters": [
-        7,
-        7
-      ],
-      "hook": "Chồng bỏ chức phó tổng, nấu cho tôi chảo trứng cháy đen"
-    },
-    {
-      "chapters": [
-        8,
-        8
-      ],
-      "hook": "Kỷ niệm ba năm cưới, tôi tặng lại chồng ba trăm sáu mươi vạn tệ"
-    },
-    {
-      "chapters": [
-        9,
-        9
-      ],
-      "hook": "Chồng ngồi bên hồ đọc sao kê: ba mươi sáu lần ghi chú Giữ hộ"
+      "hook": "Tôi hỏi người yêu cũ một câu về ngày tháng trên biên lai chuyển tiền"
     }
   ],
   "thumbText": "Chồng chuyển *mười vạn*|dặn xếp vali|tôi nhắn lại:|*Đã nhận*",

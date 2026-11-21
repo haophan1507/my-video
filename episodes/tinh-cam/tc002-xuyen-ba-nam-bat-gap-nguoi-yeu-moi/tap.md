@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Trình Hoan (tôi; Sầm Viễn gọi "Hoan", mẹ anh gọi "Hoan Hoan"); Sầm Viễn (nam chính, ngôi ba "anh"); Uông Khải (người yêu cũ, sau gọi "hắn"); Thôi Linh (bạn hóng hớt, "Linh"); Đổng Đại Hải (chủ quán nướng, "anh Đổng"); mẹ anh (không tên). Chưa duyệt |
 | Bối cảnh | Trung Quốc hiện đại: Thâm Quyến (quán nướng Phúc Điền) và Hàng Châu (căn hộ ven hồ); kết ở châu Phi; tiền là tệ; không ghi năm bằng số |
 | Độ dài: số chương, phút; cách đủ độ dài | 9 chương, ~8.000 chữ, ~44 phút. Gộp hai nguồn (~4.070 chữ), thêm vòng camera cầu thang (ch.3), Uông Khải lợi dụng mất trí nhớ (ch.5), cầu nối cưới do tôi đề nghị và cặp vé châu Phi hết hạn (ch.6–7); dời cảnh núi tuyết và tin nhắn người yêu cũ xuống kết; twist lá thư viết tay của chính tôi trong bó hoa |
-| Chia phần TikTok | 9 phần, mỗi phần một chương, 4,5–5,7 phút |
+| Chia phần TikTok | 3 phần: ch.1, ch.2–3, ch.4–5 (~54% chữ, dừng cuối ch.5); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 9 chương, ~8.000 chữ, ~44 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1, ch.2–3, ch.4–5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

@@ -40,7 +40,6 @@
   "parts": [
     {
       "chapters": [
-        1,
         1
       ],
       "hook": "Tôi tát nhân tình ngồi ghế phụ: gà phải bỏ vào cốp!"
@@ -48,51 +47,15 @@
     {
       "chapters": [
         2,
-        2
+        3
       ],
       "hook": "Bạn trai chia tay tôi trước mặt nhân tình, tôi đã biết từ bảy ngày trước"
     },
     {
       "chapters": [
-        3,
-        3
-      ],
-      "hook": "Tờ giấy bệnh viện nói anh ta không thể có con"
-    },
-    {
-      "chapters": [
-        4,
         4
       ],
       "hook": "Nhân tình gửi tôi ảnh khách sạn lúc nửa đêm"
-    },
-    {
-      "chapters": [
-        5,
-        5
-      ],
-      "hook": "Cô ta tự ngã ở sảnh công ty và hét rằng tôi đẩy"
-    },
-    {
-      "chapters": [
-        6,
-        6
-      ],
-      "hook": "Đám cưới của họ bị phu nhân họ Thạch phá giữa chừng"
-    },
-    {
-      "chapters": [
-        7,
-        7
-      ],
-      "hook": "Người từng chê tôi đanh đá ngồi trước cửa nhà tôi"
-    },
-    {
-      "chapters": [
-        8,
-        8
-      ],
-      "hook": "Mẹ anh ta bảo tôi là con gái, tôi gọi bảo vệ"
     }
   ],
   "thumbText": "Nhân tình ngồi|*ghế phụ* xe tôi|tôi tát ngay",

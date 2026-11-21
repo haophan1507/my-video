@@ -78,18 +78,15 @@ Xưng hô: tôi với bà Cốc: bác/cháu (sau ly hôn), trước đó bác/co
 
 ## Chia phần TikTok
 
-Hai chương liền ~900 chữ trở lên vượt 8 phút nên mỗi chương một phần.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/8 | 1 | 775 | ~4,3 | hook cả truyện | quyết định nói một câu |
-| 2/8 | 2 | 781 | ~4,3 | chiêu lùi một bước | bà Cốc chờ ở cổng |
-| 3/8 | 3 | 822 | ~4,6 | giấy ly hôn và bữa trưa | mười tệ và kỳ thi |
-| 4/8 | 4 | 926 | ~5,1 | kem trước rạp chiếu bóng | gặp bà Cốc ở tiệm |
-| 5/8 | 5 | 1.014 | ~5,6 | bị chặn trước cửa tiệm | ký hợp đồng với tương lai của hắn |
-| 6/8 | 6 | 866 | ~4,8 | Kim Phượng sập | trò bẩn hơn |
-| 7/8 | 7 | 889 | ~4,9 | phân trước cửa tiệm | xe lăn ở cửa |
-| 8/8 | 8 | 934 | ~5,2 | chồng cũ quỳ bên xe lăn | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1556 | ~8.6 | Tôi chết trong phòng bệnh sáu giường, rồi mở mắt đúng đêm tân hôn |
+| 2/3 | 3–4 | 1748 | ~9.7 | Tờ giấy ly hôn còn thơm mùi mực, bà mẹ chồng cũ đã đòi bữa trưa |
+| 3/3 | 5 | 1014 | ~5.6 | Bà mẹ chồng cũ bảo tôi không đủ tiền mua một cái áo |
+
+Tỉ lệ đăng TikTok: 62% số chữ (chương 1–5 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

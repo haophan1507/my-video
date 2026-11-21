@@ -100,19 +100,15 @@ Không tên riêng: bố tôi (chủ tịch Trác thị), bố chồng, bố Do�
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/11 | 1 | 754 | ~4,2 | hook cả truyện | hai vạch đỏ |
-| 2/11 | 2 | 713 | ~4,0 | báo trước sảy thai, ra bệnh viện | "Đừng nói dối bác sĩ" |
-| 3/11 | 3 | 781 | ~4,3 | giấu chồng mười ngày | "Em quen anh ta từ trước?" |
-| 4/11 | 4 | 878 | ~4,9 | hỏi người cũ | công ty bố sắp sập |
-| 5/11 | 5 | 896 | ~5,0 | lao vào phòng chủ tịch | chữ về Vu Khiêm bị bịt mắt |
-| 6/11 | 6 | 798 | ~4,4 | bàn tay vàng là chồng | từ bao giờ anh đã thích tôi |
-| 7/11 | 7 | 816 | ~4,5 | gặp bạn thân của chồng | giá thấp hơn tám mươi phần trăm |
-| 8/11 | 8 | 882 | ~4,9 | câu hỏi trước hội đồng | nữ chính nhắm vào đứa bé |
-| 9/11 | 9 | 969 | ~5,4 | vì sao chia tay người cũ | Nhạc Vi trong nhà vệ sinh |
-| 10/11 | 10 | 1.093 | ~6,1 | nhà vệ sinh với kẻ muốn hại con | anh bắt đầu thích tôi từ lúc nào |
-| 11/11 | 11 | 1.009 | ~5,6 | chồng suýt phá hôn sự | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 6; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1467 | ~8.2 | Hàng chữ báo: nữ phụ sắp sảy thai, bị chồng đuổi |
+| 2/3 | 3–4 | 1659 | ~9.2 | Tôi giấu chồng suốt mười ngày, anh đã biết hết |
+| 3/3 | 5–6 | 1694 | ~9.4 | Tôi lao vào phòng bố để cứu công ty trước khi bị phá sản |
+
+Tỉ lệ đăng TikTok: 50% số chữ (chương 1–6 / 11 chương).
 
 ## 5 phương án tiêu đề YouTube
 

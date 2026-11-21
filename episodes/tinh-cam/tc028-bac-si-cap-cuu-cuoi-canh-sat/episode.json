@@ -43,7 +43,6 @@
   "parts": [
     {
       "chapters": [
-        1,
         1
       ],
       "hook": "Cưới bốn mươi lăm ngày, tin nhắn cuối chỉ có đi cứu người và đi bắt người"
@@ -51,58 +50,16 @@
     {
       "chapters": [
         2,
-        2
+        3
       ],
       "hook": "Tôi mặc váy đỏ đi chơi, chồng cảnh sát đạp cửa bắt tôi về đồn"
     },
     {
       "chapters": [
-        3,
-        3
-      ],
-      "hook": "Chồng áp giải vợ vào phòng thẩm vấn, rồi thừa nhận anh ghen"
-    },
-    {
-      "chapters": [
         4,
-        4
-      ],
-      "hook": "Tôi nói một cái tên, chồng đáp lại bằng một mệnh lệnh"
-    },
-    {
-      "chapters": [
-        5,
         5
       ],
-      "hook": "Kẻ lừa đảo xách canh gà vào khoa cấp cứu, liếc bảng tên bác sĩ của tôi"
-    },
-    {
-      "chapters": [
-        6,
-        6
-      ],
-      "hook": "Người nằm trên băng ca không phải chồng tôi, mà tay tôi vẫn run"
-    },
-    {
-      "chapters": [
-        7,
-        7
-      ],
-      "hook": "Tôi cầm kim tiêm đứng trước kẻ đâm đồng đội của chồng, và phải cứu hắn trước"
-    },
-    {
-      "chapters": [
-        8,
-        8
-      ],
-      "hook": "Chồng xin nghỉ hai ngày, việc đầu tiên là bắt trộm giữa rạp phim"
-    },
-    {
-      "chapters": [
-        9,
-        9
-      ],
-      "hook": "Hai vạch đỏ trên que thử, và dòng tin nhắn mới của chồng cảnh sát"
+      "hook": "Tôi nói một cái tên, chồng đáp lại bằng một mệnh lệnh"
     }
   ],
   "thumbText": "Cưới *hai tháng*|chưa nắm tay|chồng chỉ nhắn|*đi bắt người*",

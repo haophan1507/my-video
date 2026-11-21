@@ -77,16 +77,15 @@ Tài khoản trực tuyến: chồng "Lý Ca", tôi "Thủ Hộ Bạch Liên". T
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/8 | 1 | 846 | ~4,7 | hook cả truyện | cô ta phải đi |
-| 2/8 | 2 | 728 | ~4,0 | chồng nghỉ làm, hồ sơ nữ chủ phát trực tiếp | Tuyết Nhi chấp nhận kết bạn |
-| 3/8 | 3 | 758 | ~4,2 | người đàn ông trong ảnh bìa là ai | "Ở đâu?" |
-| 4/8 | 4 | 707 | ~3,9 | trai đẹp không đòi gì | kế hoạch thứ hai |
-| 5/8 | 5 | 835 | ~4,6 | điều cấm kỵ của nghề | chồng chết tâm |
-| 6/8 | 6 | 732 | ~4,1 | cắm sừng giữa sảnh | sợi dây lần cuối |
-| 7/8 | 7 | 768 | ~4,3 | phong sát | "để tôi chở anh đi" |
-| 8/8 | 8 | 775 | ~4,3 | đi vòng hai vòng | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1 | 846 | ~4.7 | Tôi là bình hoa được chồng cưng, cho đến ngày thấy sợi tóc nâu trên cổ áo |
+| 2/3 | 2–3 | 1479 | ~8.2 | Chồng nạp năm trăm vạn tệ để được gặp cô ta một lần |
+| 3/3 | 4–5 | 1542 | ~8.6 | Gái trẻ bị trai đẹp chiều mà không đòi gì thì mê gấp mười lần |
+
+Tỉ lệ đăng TikTok: 63% số chữ (chương 1–5 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

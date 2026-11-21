@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | La Uyên (tôi), Tiền Dật (anh), Phương Cẩn Ngôn (học trưởng Cẩn Ngôn), Đới Mạt, Thi Kiệt, mẹ anh |
 | Bối cảnh | Hàng Châu, Tô Châu hiện đại; tiền là tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 8 chương, ~7.240 chữ, ~40 phút; viết lại ngôi một, thêm mẹ chồng, Đới Mạt, Thi Kiệt, twist ảnh chưa cắt và cây ô |
-| Chia phần TikTok | 8 phần, mỗi chương một phần (4–6 phút) |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5 (~58% chữ, dừng cuối ch.5); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 8 chương, ~7.240 chữ, ~40 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

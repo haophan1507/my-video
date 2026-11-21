@@ -77,18 +77,15 @@ Xưng hô: tôi với Lôi Cẩn: tôi/anh, cứ gọi cả họ tên khi giận
 
 ## Chia phần TikTok
 
-Mỗi chương một phần (hai chương liền ~1.700 chữ đã vượt 8 phút).
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/8 | 1 | 700 | ~3,9 | hook cả truyện | tin nhắn dọa của Lôi Cẩn |
-| 2/8 | 2 | 868 | ~4,8 | đặt đứa bé vào tay gã say | "thần kinh là gì ạ?" |
-| 3/8 | 3 | 895 | ~5,0 | ly hôn do tôi đề nghị nên tôi có nhân tình | anh ta gọi đòi tiền |
-| 4/8 | 4 | 973 | ~5,4 | cái tát giữa ngân hàng | mẹ hỏi có thật sự kiện |
-| 5/8 | 5 | 833 | ~4,6 | mẹ ruột làm thuyết khách | bữa cơm có hai vị khách lạ |
-| 6/8 | 6 | 951 | ~5,3 | bữa cơm giấu khách | "tay tôi chỉ còn ba vạn" |
-| 7/8 | 7 | 958 | ~5,3 | "tôi chỉ còn ba vạn" trước tòa | túi vải đỏ của bà Lôi |
-| 8/8 | 8 | 967 | ~5,4 | từ chối bảy vạn hai | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1574 | ~8.7 | Tôi kiện chồng cũ vì hai năm không đưa một đồng nuôi con, anh ta gào tôi là đồ thần kinh |
+| 2/3 | 3 | 895 | ~5.0 | Ly hôn là do tôi đề nghị, nên họ nhất định cho rằng tôi có nhân tình |
+| 3/3 | 4–5 | 1806 | ~10.0 | Tôi tát chồng cũ giữa ngân hàng rồi tự tay chuyển cho anh ta một vạn tệ |
+
+Tỉ lệ đăng TikTok: 60% số chữ (chương 1–5 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

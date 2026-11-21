@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Hồ Thư Ý (tôi; "Ý Ý"); Vạn Trạch Khải (kể "Trạch Khải", ngôi ba "hắn"); Đan Ngọc Hy ("Ngọc Hy", "cô ta"); Tang Mặc (bạn thân luật sư, "Mặc"); Du Cảnh Hòa (nam phụ, kể "Cảnh Hòa", ngôi ba "anh"). Bản nguồn: Trịnh Y Y, Lâu Vũ Đình, Tô Mạn Ni, Lâm Vãn, Thẩm Tri Diễn |
 | Bối cảnh | Thượng Hải hiện đại (căn hộ cũ Từ Hối, công ty giải trí, quán mì, xưởng thiết kế, sông Hoàng Phố); Milan một năm; tiền là tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 9 chương, ~8.200 chữ ≈ 45 phút (180 chữ/phút; ở tốc độ giọng 1,2 thực tế ngắn hơn). Cắt từ ~77 phút: bỏ xin lỗi lặp, nội tâm dài, phần học nước ngoài; thêm bản ghi âm làm bằng chứng, đòn công khai đúng phút chung kết, tòa bác lần đầu rồi ly hôn vắng mặt, phòng trẻ dưới ngăn kéo, quỹ Mầm An, cái tên An An giữ lại |
-| Chia phần TikTok | 9 phần, mỗi phần một chương (~4,6–5,6 phút; hai chương liền vượt 8 phút); hook từng phần ở `parts` trong `episode.json` |
+| Chia phần TikTok | 3 phần: ch.1, ch.2–3, ch.4–5 (~54% chữ, dừng cuối ch.5); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 9 chương, ~8.200 chữ, ~45 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1, ch.2–3, ch.4–5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

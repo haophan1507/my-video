@@ -89,18 +89,15 @@ Tập đoàn: Hoành Đạt (không dùng họ). Phim trường: ngoại ô Bắ
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/10 | 1 | 764 | ~4,2 | hook cả truyện | chiếc điện thoại thứ hai |
-| 2/10 | 2 | 950 | ~5,3 | bạn trai dùng hai hệ điều hành | bảy mươi hai tấm ảnh |
-| 3/10 | 3 | 789 | ~4,4 | chia tay và một học trò khó nhằn | Phan Bằng tới phim trường |
-| 4/10 | 4 | 877 | ~4,9 | đôi giày da đen bóng | bài của Phan Bằng đứng đầu |
-| 5/10 | 5 | 1.088 | ~6,0 | bài bôi nhọ lên hot search | số lạ: "anh xin lỗi" |
-| 6/10 | 6 | 882 | ~4,9 | xin lỗi rồi xin quay lại | "người này nhìn trẻ lắm" |
-| 7/10 | 7 | 1.088 | ~6,0 | quản lý trẻ hơn tưởng tượng | phim thành thảm họa |
-| 8/10 | 8 | 1.009 | ~5,6 | cặp nam nữ chính diễn mong manh | "anh ta chỉ đổi cách xuất hiện" |
-| 9/10 | 9 | 831 | ~4,6 | lại cùng lên hot search | video mới không còn lên |
-| 10/10 | 10 | 1.099 | ~6,1 | tin báo ở sân bay | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 6; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1714 | ~9.5 | Bạn trai cũ giả nghèo thử lòng tôi ba năm, gặp lại tôi đang quỳ dưới đất |
+| 2/3 | 3–4 | 1666 | ~9.3 | Tôi chia tay và nhận về học trò khó nhằn nhất làng giải trí |
+| 3/3 | 5–6 | 1970 | ~10.9 | Anh ta bôi nhọ tôi ham tiền, tôi đáp bằng bảy mươi hai tấm ảnh |
+
+Tỉ lệ đăng TikTok: 57% số chữ (chương 1–6 / 10 chương).
 
 ## 5 phương án tiêu đề YouTube
 

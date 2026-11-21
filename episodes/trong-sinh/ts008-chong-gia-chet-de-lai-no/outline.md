@@ -87,20 +87,15 @@ Tên có tên riêng: 4 (Ngâm, Khải, Việt, Tĩnh). Xưng hô: tôi với Kh
 
 ## Chia phần TikTok
 
-Hai chương liền đều vượt 8 phút nên tách mỗi chương một phần (10 phần, 4,3–5,5 phút).
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 6; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Hook phần | Cliffhanger |
-|---|---|---|---|---|---|
-| 1/10 | 1 | 805 | ~4,5 | chết vì ung thư rồi mở mắt giữa tiệc đính hôn | Tĩnh mặc váy y hệt bước vào |
-| 2/10 | 2 | 881 | ~4,9 | bạch nguyệt quang trèo lan can giữa tiệc | tin nhắn lạ nửa đêm |
-| 3/10 | 3 | 905 | ~5,0 | thăm bệnh, thấy chồng sắp cưới ôm cô ta | bảy cuộc gọi nhỡ |
-| 4/10 | 4 | 812 | ~4,5 | mẹ chồng quỳ ở văn phòng | bà liếc đồng hồ |
-| 5/10 | 5 | 904 | ~5,0 | phá sản hoặc bán cho tôi | tiếng gõ cửa "em là anh em" |
-| 6/10 | 6 | 861 | ~4,8 | người em sinh đôi ngồi ghế chủ tịch | tập hồ sơ lúc ba giờ sáng |
-| 7/10 | 7 | 783 | ~4,3 | không có người nào tên Việt | bàn tay chộp cổ tay tôi |
-| 8/10 | 8 | 794 | ~4,4 | "chị Ngâm, đừng ký" | Tĩnh bước vào |
-| 9/10 | 9 | 988 | ~5,5 | người cháy thành tro còn sống | "Cậu ấy nhìn thấy hết" |
-| 10/10 | 10 | 985 | ~5,5 | chiếc điện thoại cũ trên bàn họp | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1686 | ~9.4 | Chết vì ung thư, tôi mở mắt giữa tiệc đính hôn |
+| 2/3 | 3–4 | 1717 | ~9.5 | Thăm bệnh, thấy chồng sắp cưới ôm người cũ |
+| 3/3 | 5–6 | 1765 | ~9.8 | Phá sản hoặc bán cho tôi |
+
+Tỉ lệ đăng TikTok: 59% số chữ (chương 1–6 / 10 chương).
 
 ## 5 phương án tiêu đề YouTube
 

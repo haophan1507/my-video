@@ -81,17 +81,15 @@ Xưng hô: Hoài Châu và tôi gọi nhau "anh/em"; lúc ở trong vỏ nhau v�
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/9 | 1 | 785 | ~4,4 | hook cả truyện | "anh hoảng nhỏ tiếng hơn" |
-| 2/9 | 2 | 828 | ~4,6 | thân tôi, thân anh | địa ngục bắt đầu lúc bảy giờ |
-| 3/9 | 3 | 790 | ~4,4 | bữa sáng bảy giờ | Thanh Thanh xuống cầu thang |
-| 4/9 | 4 | 767 | ~4,3 | cú tát qua màn hình | "đừng động đến ông ấy" |
-| 5/9 | 5 | 827 | ~4,6 | ông cậu đầu hói | "xem vợ con làm gì kìa" |
-| 6/9 | 6 | 957 | ~5,3 | trả câu "người một nhà" | bữa cơm tiễn khách |
-| 7/9 | 7 | 789 | ~4,4 | tám món, không ai ăn | "Không được!" |
-| 8/9 | 8 | 805 | ~4,5 | gì cũng được, trừ chuyện này | mang thai năm tuần |
-| 9/9 | 9 | 1.042 | ~5,8 | chồng bị bác sĩ dặn tránh bê nặng | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1 | 785 | ~4.4 | Vừa đòi ly hôn xong, tôi rơi xuống hồ bơi và tỉnh dậy trong thân xác chồng |
+| 2/3 | 2–3 | 1618 | ~9.0 | Tôi là anh, anh là tôi: ba điều dặn trước khi đổi chỗ |
+| 3/3 | 4–5 | 1594 | ~8.9 | Cú tát tôi chỉ xem qua màn hình mà má vẫn rát |
+
+Tỉ lệ đăng TikTok: 53% số chữ (chương 1–5 / 9 chương).
 
 ## 5 phương án tiêu đề YouTube
 

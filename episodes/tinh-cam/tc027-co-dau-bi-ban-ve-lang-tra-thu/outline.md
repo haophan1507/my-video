@@ -84,19 +84,15 @@ Xưng hô: tôi với nhà chồng: bố/mẹ, con. Phương với tôi: "cô L�
 
 ## Chia phần TikTok
 
-Mỗi chương 724–956 chữ (4,0–5,3 phút); hai chương liền đã vượt 8 phút nên tách mỗi chương một phần.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/9 | 1 | 730 | ~4,1 | hook cả truyện | ông Cam: "Vào đây, bố có chuyện hỏi" |
-| 2/9 | 2 | 864 | ~4,8 | người nuôi cơm hai năm rồi bán tôi | "Vợ về nhà với Bảo" |
-| 3/9 | 3 | 825 | ~4,6 | đêm quỳ cầu xin không ai nghe | câu hỏi của bác sĩ Phương |
-| 4/9 | 4 | 836 | ~4,6 | không trả lời bác sĩ | đèn nhà bà Hà |
-| 5/9 | 5 | 837 | ~4,7 | bà mẹ chồng đánh trước hỏi sau | "cô Lữ" |
-| 6/9 | 6 | 934 | ~5,2 | người tốt đáng sợ nhất | mảnh giấy số máy bàn |
-| 7/9 | 7 | 724 | ~4,0 | xe van rời thôn | "Mẹ, con đây" |
-| 8/9 | 8 | 956 | ~5,3 | mẹ im lặng năm giây | dám gặp Biện Thanh không |
-| 9/9 | 9 | 918 | ~5,1 | phòng nhận dạng | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1594 | ~8.9 | Chồng tôi chết vì ăn dưa muối. Ở đám tang, tôi đập đầu vào quan tài đòi chết theo. |
+| 2/3 | 3–4 | 1661 | ~9.2 | Đêm Đại Bảo chết, tôi quỳ cầu xin hai người, và không ai nghe. |
+| 3/3 | 5 | 837 | ~4.7 | Bà mẹ chồng tôi có một thói quen, là đánh trước, hỏi sau. |
+
+Tỉ lệ đăng TikTok: 54% số chữ (chương 1–5 / 9 chương).
 
 ## 5 phương án tiêu đề YouTube
 

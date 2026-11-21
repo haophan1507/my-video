@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Yến Nghi (tôi; mẹ anh ta gọi "tiểu Nghi", Sở Sở gọi "chị Nghi"); Vương Phong (bạn trai bảy năm, "Vương Phong", sau chia tay "anh ta"); Doãn Sở Sở (trà xanh, "Sở Sở", "cô ta"); Tống Miên (bạn thân hóng hớt, "Miên"); phu nhân Thạch (vợ đại gia, "phu nhân Thạch"/"bà Thạch"); mẹ Vương Phong (không tên, "bà Vương"). Chưa duyệt |
 | Bối cảnh | Trung Quốc hiện đại: Thành Đô (công ty, khách sạn Cẩm Thành, tòa nhà Thiên Phủ, quán trà khu Cẩm Giang); tiền là tệ; không ghi năm bằng số |
 | Độ dài: số chương, phút; cách đủ độ dài | 8 chương, ~7.370 chữ, ~41 phút. Gần sát bản nguồn; thêm vòng khổ nhục kế ở sảnh công ty (ch.5), đòn kết ở trại tạm giam (ch.8), nhân vật Tống Miên; câu "gà phải bỏ vào cốp" gieo từ hai con gà quê của mẹ anh ta; làm sạch lời thoại tục, thay bạo lực nặng bằng cảnh xô ngã và bản án |
-| Chia phần TikTok | 8 phần, mỗi phần một chương, 4,8–5,4 phút |
+| Chia phần TikTok | 3 phần: ch.1, ch.2–3, ch.4 (~50% chữ, dừng cuối ch.4); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 8 chương, ~7.370 chữ, ~41 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1, ch.2–3, ch.4; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

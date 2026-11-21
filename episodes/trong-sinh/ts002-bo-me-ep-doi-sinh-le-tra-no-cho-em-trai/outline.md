@@ -90,20 +90,15 @@ Xưng hô: tôi với Hiên: em/anh. Hiên với tôi: em ("em", "Tịnh"). Tôi
 
 ## Chia phần TikTok
 
-Hai chương liền ~1.700 chữ ≈ 9,5 phút, vượt 8 phút, nên mỗi chương một phần.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 6; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/10 | 1 | 920 | ~5,1 | hook cả truyện | cú đá, bố giơ tay |
-| 2/10 | 2 | 880 | ~4,9 | cú đá thứ hai, cánh cửa | lời nguyền của mẹ |
-| 3/10 | 3 | 840 | ~4,7 | giấy báo đại học bị rút | mẹ gọi ngọt |
-| 4/10 | 4 | 850 | ~4,7 | mẹ gọi ngọt | tiếng dép lê tầng dưới |
-| 5/10 | 5 | 880 | ~4,9 | thuê người to con hơn | phong bì dày cộp |
-| 6/10 | 6 | 850 | ~4,7 | mẹ đưa tiền | giọng nói của ngày tôi chết |
-| 7/10 | 7 | 880 | ~4,9 | giọng nói không quên | tấm ảnh trong quán bar |
-| 8/10 | 8 | 870 | ~4,8 | chồng ôm người lạ | hai mươi vạn tiền luật sư |
-| 9/10 | 9 | 1.000 | ~5,6 | hai mươi vạn về tài khoản | chiếc khăn ướt |
-| 10/10 | 10 | 900 | ~5,0 | tỉnh dậy ở bệnh viện | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1651 | ~9.2 | Chết vì gia đình hút máu, tôi sống lại đúng sáng rước dâu |
+| 2/3 | 3–4 | 1745 | ~9.7 | Tôi từng đứng đầu khối rồi bị rút giấy báo đại học |
+| 3/3 | 5–6 | 1792 | ~10.0 | Chiêu hay nhất là thuê hàng xóm miệng độc hơn |
+
+Tỉ lệ đăng TikTok: 58% số chữ (chương 1–6 / 10 chương).
 
 ## 5 phương án tiêu đề YouTube
 

@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Tiêu Chiêu (tôi); Lương Nhu Nhu (trà xanh, "cô ta"); Tôn Triệt (nam chính, "cậu ấy"); Cát Hạo (bạn trai cặn bã, "Hạo"); Hách Đồng (thiên kim thật, "Đồng"); anh Tiêu Cẩn ("anh Cẩn"); ba, mẹ không tên |
 | Bối cảnh | Trung Quốc hiện đại: Bắc Kinh, Bắc Đại, tập đoàn Tiêu thị, nhà hàng Pháp của Tôn Triệt, khách sạn Hoa Đình; tiền là tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 10 chương, ~9.560 chữ, ~53 phút. Nguồn ~11.600 chữ Hán nhiều cảnh nhỏ, viết dày từng cảnh; thêm Hách Đồng làm bạn cùng phòng, vòng tin đồn và cuộc hẹn nghe lén, quán Pháp là của Tôn Triệt, twist mẹ biết từ lớp mười một và quỹ học bổng |
-| Chia phần TikTok | 10 phần, mỗi phần một chương, 4,5–6,1 phút |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5 (~50% chữ, dừng cuối ch.5); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 10 chương, ~9.560 chữ, ~53 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

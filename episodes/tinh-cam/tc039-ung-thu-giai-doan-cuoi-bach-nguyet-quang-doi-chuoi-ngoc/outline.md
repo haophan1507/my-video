@@ -76,16 +76,15 @@ Xưng hô: tôi với Vũ Thừa: tôi/anh lúc lịch sự, sau "anh" lạnh; h
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/8 | 1 | 767 | ~4,3 | hook cả truyện | "Diễn tiếp đi chị" |
-| 2/8 | 2 | 869 | ~4,8 | đàn bà sắp chết nhìn ai cũng rõ | "định ăn vạ tôi?" |
-| 3/8 | 3 | 843 | ~4,7 | lăn đùng trước mũi xe | di chúc đầu tiên |
-| 4/8 | 4 | 993 | ~5,5 | bản di chúc buổi chiều mưa | bữa tối "ông chủ lớn" |
-| 5/8 | 5 | 901 | ~5,0 | chặn số chồng | phòng 306 |
-| 6/8 | 6 | 945 | ~5,3 | biết là bẫy mà vẫn đến | "đỉnh núi tuyết" |
-| 7/8 | 7 | 917 | ~5,1 | tin tức Tô Châu | "Mẹ đợi con về" |
-| 8/8 | 8 | 904 | ~5,0 | bay đến Lệ Giang | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1636 | ~9.1 | Tôi ung thư giai đoạn cuối, bạch nguyệt quang của chồng đòi ly hôn và đòi cả chuỗi ngọc |
+| 2/3 | 3–4 | 1836 | ~10.2 | Tôi bước vào văn phòng tổng giám đốc đòi chuỗi ngọc |
+| 3/3 | 5 | 901 | ~5.0 | Tôi chặn số chồng, rồi buột miệng nói mình có bạn trai |
+
+Tỉ lệ đăng TikTok: 61% số chữ (chương 1–5 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

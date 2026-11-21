@@ -76,18 +76,15 @@ Xưng hô: Dao với mẹ chồng: con/mẹ (mẹ chồng xưng mẹ, gọi "con
 
 ## Chia phần TikTok
 
-Hai chương liền đều vượt 8 phút, nên mỗi chương một phần.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 4; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/8 | 1 | 890 | ~4,9 | hook cả truyện | mẹ chồng chờ trong bóng tối |
-| 2/8 | 2 | 1.027 | ~5,7 | ngân hàng, một đêm biến nói dối thành thật | màn kịch thứ hai |
-| 3/8 | 3 | 895 | ~5,0 | tuần trăng mật sáu người | ai trả hai mươi vạn |
-| 4/8 | 4 | 995 | ~5,5 | chồng lao về phía tôi | mẹ chồng thì thầm "một xu cũng không chia" |
-| 5/8 | 5 | 909 | ~5,0 | nghe họ bàn đuổi tôi đi | Tiểu Sa có thai |
-| 6/8 | 6 | 779 | ~4,3 | ly hôn, ai lừa ai | đục tường chịu lực |
-| 7/8 | 7 | 925 | ~5,1 | nhà nguy hiểm vì ba mét vuông | số điện thoại mới của tôi |
-| 8/8 | 8 | 941 | ~5,2 | cảnh sát báo chồng cũ chết | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1 | 890 | ~4.9 | Mẹ chồng đòi giữ hộ sính lễ, nhưng kiếp trước chính bà đẩy tôi xuống cầu thang |
+| 2/3 | 2 | 1027 | ~5.7 | Bị mẹ chồng lôi đến ngân hàng, tôi chỉ có một đêm để biến lời nói dối thành thật |
+| 3/3 | 3–4 | 1892 | ~10.5 | Tuần trăng mật sáu người, mà người trả tiền duy nhất là tôi |
+
+Tỉ lệ đăng TikTok: 52% số chữ (chương 1–4 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

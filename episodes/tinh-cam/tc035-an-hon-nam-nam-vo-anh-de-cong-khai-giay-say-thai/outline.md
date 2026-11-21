@@ -81,19 +81,15 @@ Xưng hô: tôi với Trạch Khải: em/anh khi hắn gọi, tôi nói "anh", "
 
 ## Chia phần TikTok
 
-Hai chương liền đều vượt 8 phút (mỗi chương ~4,6–5,6 phút), nên mỗi chương một phần.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/9 | 1 | 931 | ~5,2 | hook cả truyện | bác sĩ không nhắc cơn sốt |
-| 2/9 | 2 | 891 | ~5,0 | bốn tuần mang thai | người bắt máy không phải hắn |
-| 3/9 | 3 | 828 | ~4,6 | giọng nữ ngọt như mật | hẹn ba giờ chiều mai |
-| 4/9 | 4 | 920 | ~5,1 | lần đầu vào công ty sau năm năm | tối mai ba mươi triệu người xem |
-| 5/9 | 5 | 858 | ~4,8 | đêm hành quyết | "Tôi chỉ vừa tỉnh" |
-| 6/9 | 6 | 937 | ~5,2 | mất bảy hợp đồng trước bữa sáng | tòa tuyên gì |
-| 7/9 | 7 | 943 | ~5,2 | tòa bác đơn lần đầu | người đọc bình luận lao ra khỏi phòng |
-| 8/9 | 8 | 892 | ~5,0 | hắn xông vào xưởng | hôm sau hắn biến mất |
-| 9/9 | 9 | 1.002 | ~5,6 | phong bì chưa mở | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1 | 931 | ~5.2 | Chồng tôi nói với ba mươi triệu người anh ta độc thân, trong túi tôi có ba tờ giấy |
+| 2/3 | 2–3 | 1719 | ~9.6 | Tôi mang thai bốn tuần, nhắn cho chồng ảnh đế chỉ nhận lại chữ đã xem |
+| 3/3 | 4–5 | 1778 | ~9.9 | Tôi bước vào công ty của chồng, lần đầu sau năm năm bị cấm |
+
+Tỉ lệ đăng TikTok: 54% số chữ (chương 1–5 / 9 chương).
 
 ## 5 phương án tiêu đề YouTube
 

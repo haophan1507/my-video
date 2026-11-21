@@ -46,45 +46,17 @@
     },
     {
       "chapters": [
-        2
+        2,
+        3
       ],
       "hook": "Đi đâu cũng đụng mặt bạn thân, tôi biết cô ta đang giăng bẫy"
     },
     {
       "chapters": [
-        3
-      ],
-      "hook": "Bắt tại trận ở khách sạn, cô ta dọa nhảy cửa sổ"
-    },
-    {
-      "chapters": [
-        4
-      ],
-      "hook": "Ai đang chuyển cho tôi mười triệu tệ mỗi lần bị cướp người yêu"
-    },
-    {
-      "chapters": [
+        4,
         5
       ],
-      "hook": "Cả phòng ăn đồ pháp ngay trước mặt kẻ khoe giàu"
-    },
-    {
-      "chapters": [
-        6
-      ],
-      "hook": "Cô ta hắt cà phê vào người mà cả nhà bạn trai đang cúi đầu"
-    },
-    {
-      "chapters": [
-        7
-      ],
-      "hook": "Cô ta bị lôi khỏi phòng họp, rồi tung bài bóc phốt khắp trường"
-    },
-    {
-      "chapters": [
-        8
-      ],
-      "hook": "Kẻ cướp người yêu ba lần quỳ ngay cổng ký túc xá"
+      "hook": "Ai đang chuyển cho tôi mười triệu tệ mỗi lần bị cướp người yêu"
     }
   ],
   "thumbText": "Bạn thân|cướp người yêu *3 lần*|tôi lời *30 triệu*",

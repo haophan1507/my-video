@@ -37,7 +37,6 @@
   "parts": [
     {
       "chapters": [
-        1,
         1
       ],
       "hook": "Mẹ chồng đòi tôi hai mươi tám vạn cho em chồng, tôi mở sổ ra đọc"
@@ -45,44 +44,15 @@
     {
       "chapters": [
         2,
-        2
+        3
       ],
       "hook": "Ba năm tôi ghi sổ nhà chồng, chưa một lần mở lại"
     },
     {
       "chapters": [
-        3,
-        3
-      ],
-      "hook": "Hai mươi vạn tôi đưa chồng khởi nghiệp, lại vào túi em chồng"
-    },
-    {
-      "chapters": [
-        4,
         4
       ],
       "hook": "Mười hai người đến xem tôi bị mắng, tôi chỉ đọc số"
-    },
-    {
-      "chapters": [
-        5,
-        5
-      ],
-      "hook": "Đọc đến khoản hai mươi vạn, cả nhà họ im bặt"
-    },
-    {
-      "chapters": [
-        6,
-        6
-      ],
-      "hook": "Người đàn ông quỳ trước mặt tôi đã nói câu này ba lần"
-    },
-    {
-      "chapters": [
-        7,
-        7
-      ],
-      "hook": "Ba tháng sau ly hôn, không ai dặn tôi nấu món gì"
     }
   ],
   "thumbText": "Mẹ chồng đòi|*28 vạn* cho|em chồng, tôi|mở sổ ra đọc",

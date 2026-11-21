@@ -47,72 +47,23 @@
     {
       "chapters": [
         1,
-        1
+        2
       ],
       "hook": "Tôi chết trên bàn mổ vì em gái song sinh, rồi sống lại trên xe về nhà ruột"
     },
     {
       "chapters": [
-        2,
-        2
-      ],
-      "hook": "Bà nội đặt cho tôi cái tên mới, còn em gái thì nghiến răng"
-    },
-    {
-      "chapters": [
         3,
-        3
+        4
       ],
       "hook": "Mẹ bưng ly sữa đêm trước kỳ thi, mắt cứ liếc về cái cặp"
     },
     {
       "chapters": [
-        4,
-        4
-      ],
-      "hook": "Em gái lên tivi nhận điểm thủ khoa của tôi"
-    },
-    {
-      "chapters": [
         5,
-        5
-      ],
-      "hook": "Chữ viết trong bài thi thủ khoa là của tôi"
-    },
-    {
-      "chapters": [
-        6,
         6
       ],
-      "hook": "Bố mang thẻ mười vạn tệ đến mua lại tôi"
-    },
-    {
-      "chapters": [
-        7,
-        7
-      ],
-      "hook": "Ông nuôi đẩy tôi ra khỏi chiếc xe đỏ"
-    },
-    {
-      "chapters": [
-        8,
-        8
-      ],
-      "hook": "Mẹ mang phong bì dày cộp đòi tôi bãi nại"
-    },
-    {
-      "chapters": [
-        9,
-        9
-      ],
-      "hook": "Bà nội ôm tôi, rồi cần một quả thận"
-    },
-    {
-      "chapters": [
-        10,
-        10
-      ],
-      "hook": "Ông nuôi đếm tiền lẻ và nói tôi không phải con nhặt"
+      "hook": "Chữ viết trong bài thi thủ khoa là của tôi"
     }
   ],
   "thumbText": "Tráo giấy|báo danh cho|*em gái* song sinh",

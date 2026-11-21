@@ -89,18 +89,15 @@ Xưng hô: Vi với Duật: em/anh; Duật gọi "vợ". Vi với Khiêm: tôi/c
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/10 | 1 | 758 | ~4,2 | chồng tăng ca, thực tập sinh dưới ô | vì sao tự tay tìm người thứ ba |
-| 2/10 | 2 | 865 | ~4,8 | đếm số lần ra ban công | mười hai tấm hóa đơn |
-| 3/10 | 3 | 944 | ~5,2 | cô thực tập sinh đo chiếc nhẫn | danh thiếp Vân Khê |
-| 4/10 | 4 | 836 | ~4,6 | đi công tác giả hai trạm tàu | chữ ký không đọc |
-| 5/10 | 5 | 843 | ~4,7 | khoản chi tròn từng nghìn | người đặt cô ta vào đời anh ta là tôi |
-| 6/10 | 6 | 914 | ~5,1 | mở cửa, không đẩy ai | chồng quỳ xuống |
-| 7/10 | 7 | 857 | ~4,8 | quỳ lần hai, cùng kịch bản | vé một chiều đi Singapore |
-| 8/10 | 8 | 994 | ~5,5 | váy đỏ và váy hồng | "Bật." |
-| 9/10 | 9 | 1.051 | ~5,8 | màn hình lớn ngày kỷ niệm | "Đi ăn kem." |
-| 10/10 | 10 | 996 | ~5,5 | thăm chồng qua kính | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 6; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1623 | ~9.0 | Chồng nói tăng ca, tôi thấy anh ta che ô cho một cô gái |
+| 2/3 | 3–4 | 1780 | ~9.9 | Cô thực tập sinh nhìn chiếc nhẫn của tôi bằng nụ cười đo giá |
+| 3/3 | 5–6 | 1757 | ~9.8 | Mười hai hóa đơn dưới ngưỡng duyệt trong máy tính bảng của chồng |
+
+Tỉ lệ đăng TikTok: 57% số chữ (chương 1–6 / 10 chương).
 
 ## 5 phương án tiêu đề YouTube
 

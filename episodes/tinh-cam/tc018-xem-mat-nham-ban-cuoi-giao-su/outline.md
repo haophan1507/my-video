@@ -88,18 +88,15 @@ Xưng hô: tôi với Thừa Dự: em/anh. Tôi với Vi: tớ/cậu. Mẹ chồ
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/10 | 1 | 750 | ~4,2 | hook cả truyện | bàn số chín vẫn có người đợi |
-| 2/10 | 2 | 728 | ~4,0 | mẹ đòi báo công an | cuốn sổ dưới gối |
-| 3/10 | 3 | 732 | ~4,1 | sáu bộ đồ ngủ vẫn thua sofa | anh bỏ đi cả đêm |
-| 4/10 | 4 | 1.006 | ~5,6 | nghe bạn thân bày kế | người cũ ở đầu bàn họp |
-| 5/10 | 5 | 861 | ~4,8 | người suýt làm chồng tôi | "Quay lại với anh đi" |
-| 6/10 | 6 | 779 | ~4,3 | bị ghì vào cửa | tờ đơn ly hôn nằm nguyên |
-| 7/10 | 7 | 762 | ~4,2 | ly hôn được đúng một đêm | "Trước kia" là khi nào |
-| 8/10 | 8 | 873 | ~4,8 | tiệc nhà họ Khâu | tôi bỏ về |
-| 9/10 | 9 | 838 | ~4,7 | ba mươi chín cuộc gọi nhỡ | xe chết máy giữa mưa |
-| 10/10 | 10 | 931 | ~5,2 | cuốn sổ bìa đen | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 6; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1488 | ~8.3 | Xem mắt nhầm bàn, tôi cưới người lạ chỉ sau một câu |
+| 2/3 | 3–4 | 1756 | ~9.8 | Sáu bộ đồ ngủ vẫn thua chiếc sofa |
+| 3/3 | 5–6 | 1642 | ~9.1 | Người suýt làm chồng tôi lại ngồi đầu bàn họp |
+
+Tỉ lệ đăng TikTok: 59% số chữ (chương 1–6 / 10 chương).
 
 ## 5 phương án tiêu đề YouTube
 

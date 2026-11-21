@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Chung Hạnh (tôi); Khâu Thừa Dự (nam chính, ngôi ba "anh", giáo sư Khâu); Ninh Vi (bạn thân, "Vi"); Bành Gia Trạch (người cũ, "anh ta"); Đinh Doanh (cháu và học trò, "Doanh Doanh", gọi tôi "mợ út"); mẹ chồng, bà nội, bố mẹ tôi, chó Tiểu Hoa không tên riêng. Chưa duyệt |
 | Bối cảnh | Trung Quốc hiện đại: Thành Đô (căn hộ giáo viên trong trường đại học, nhà bố mẹ) và Trường Sa (công tác); tiền là tệ; đã làm sạch cảnh người lớn của bản gốc |
 | Độ dài: số chương, phút; cách đủ độ dài | 10 chương, ~8.260 chữ, ~46 phút. Viết dày từng cảnh; thêm cuốn sổ và lời từ chối năm xưa (twist), Bành Gia Trạch cố tình xen vào, cảnh bố mẹ ở ch.2; kết bằng chiếc gối làm đường biên thay cảnh đêm cuối |
-| Chia phần TikTok | 10 phần, mỗi phần một chương, 4,0–5,6 phút |
+| Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5–6 (~59% chữ, dừng cuối ch.6); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
@@ -38,3 +38,4 @@
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 10 chương, ~8.260 chữ, ~46 phút; dàn ý và chương chưa duyệt.
+- 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5–6; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.

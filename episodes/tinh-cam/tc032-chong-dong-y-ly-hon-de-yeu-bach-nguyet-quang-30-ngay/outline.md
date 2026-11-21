@@ -93,21 +93,15 @@ Xưng hô: Cẩm Tú với Triết: tôi/anh lúc cuối; trước đó em/anh. 
 
 ## Chia phần TikTok
 
-Hai chương liền ~900 chữ trở lên đã vượt 8 phút, nên mỗi chương một phần.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 6; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/11 | 1 | 806 | ~4,5 | hook cả truyện | tin nhắn xin mượn chồng |
-| 2/11 | 2 | 855 | ~4,8 | tôi mới biết chồng có bạch nguyệt quang | "Ổn chuyện gì?" |
-| 3/11 | 3 | 892 | ~5,0 | câu tàn nhẫn nhất ngày ký đơn | một người khác đang đếm ngược |
-| 4/11 | 4 | 838 | ~4,7 | diễn vai vợ si tình mệt hơn tăng ca | người lạ đeo tạp dề trong bếp |
-| 5/11 | 5 | 763 | ~4,2 | người đàn ông bóc tôm | Triết đứng ngoài cửa |
-| 6/11 | 6 | 910 | ~5,1 | chồng ngoài cửa, sinh viên trong bếp | mắt anh ta không nhầm |
-| 7/11 | 7 | 1.079 | ~6,0 | nấu cơm nửa tháng | xin mua lại món hàng cũ |
-| 8/11 | 8 | 978 | ~5,4 | "Bạn gái em" ở cổng trường | đi nhầm phòng |
-| 9/11 | 9 | 1.075 | ~6,0 | đi nhầm phòng, gặp chồng cũ | "Anh Triết bị liệt rồi" |
-| 10/11 | 10 | 849 | ~4,7 | Ngạn kể tai nạn | chuyến đi đầu tiên |
-| 11/11 | 11 | 772 | ~4,3 | cầu hôn lần thứ ba | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1661 | ~9.2 | Bạch nguyệt quang hỏi chồng tôi: Anh ly hôn rồi yêu em nhé? Anh đồng ý không do dự |
+| 2/3 | 3–4 | 1730 | ~9.6 | Ký đơn ly hôn xong, chồng cười: Phụ nữ ly hôn là mất giá |
+| 3/3 | 5–6 | 1673 | ~9.3 | Có người bóc tôm cho tôi, bữa đầu tiên sau bảy ngày |
+
+Tỉ lệ đăng TikTok: 52% số chữ (chương 1–6 / 11 chương).
 
 ## 5 phương án tiêu đề YouTube
 

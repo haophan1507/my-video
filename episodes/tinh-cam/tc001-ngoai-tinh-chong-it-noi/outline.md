@@ -82,19 +82,15 @@ Xưng hô: tôi với Viễn: em/anh; Viễn với mẹ tôi: con/mẹ. Mẹ tô
 
 ## Chia phần TikTok
 
-Mỗi chương ~4,3–5,3 phút; ghép hai chương sẽ vượt 8 phút, nên mỗi phần một chương.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/9 | 1 | 828 | ~4,6 | hook cả truyện | ly cà phê không ai được biết |
-| 2/9 | 2 | 865 | ~4,8 | ly cà phê ba mươi tệ | chữ "Ừ" gõ ở đâu |
-| 3/9 | 3 | 780 | ~4,3 | ngoại tình như nghiện | anh cầm điện thoại tôi |
-| 4/9 | 4 | 898 | ~5,0 | im lặng đáng sợ | luật sư gõ cửa |
-| 5/9 | 5 | 793 | ~4,4 | hai mươi bốn tiếng có luật sư | "đêm đó anh ấy ở bãi đỗ xe" |
-| 6/9 | 6 | 900 | ~5,0 | một câu hỏi thăm | mẹ ở ga Hàng Châu |
-| 7/9 | 7 | 871 | ~4,8 | mẹ định quỳ | về dọn đồ lần cuối |
-| 8/9 | 8 | 927 | ~5,2 | ảnh cưới biến mất | ký không sửa một chữ |
-| 9/9 | 9 | 955 | ~5,3 | nắng ngày ly hôn | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1 | 828 | ~4.6 | Chồng không hề to tiếng khi nói ly hôn, vì anh đã biết từ đêm đầu tiên |
+| 2/3 | 2–3 | 1647 | ~9.2 | Một ly cà phê ba mươi tệ khiến tôi quên mình đã có chồng |
+| 3/3 | 4–5 | 1695 | ~9.4 | Chồng mở camera phòng khách, tua lại ba tháng tôi nói dối |
+
+Tỉ lệ đăng TikTok: 53% số chữ (chương 1–5 / 9 chương).
 
 ## 5 phương án tiêu đề YouTube
 

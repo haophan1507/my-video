@@ -81,17 +81,15 @@ Xưng hô: tôi với Duật: em/anh. Duật gọi tôi "Nghi", lúc nịnh gọ
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/9 | 1 | 781 | ~4,3 | chồng chuyển mười vạn, tôi nhắn Đã nhận | lần đầu chồng say |
-| 2/9 | 2 | 800 | ~4,4 | chồng say về, trợ lý đỡ vào | tin nhắn Mông Y Lan |
-| 3/9 | 3 | 825 | ~4,6 | người yêu cũ kết bạn với tôi | "Được" |
-| 4/9 | 4 | 810 | ~4,5 | tôi hỏi ngày trên biên lai cũ | anh hỏi cô ta, không hỏi vợ |
-| 5/9 | 5 | 754 | ~4,2 | anh bỏ đi một mình | tắt máy, đặt vé Điền Nam |
-| 6/9 | 6 | 760 | ~4,2 | hai trăm bảy mươi cuộc gọi nhỡ | "Anh đã nghỉ việc" |
-| 7/9 | 7 | 802 | ~4,5 | chồng bỏ chức nấu trứng cháy | tôi lập bảng quyết toán |
-| 8/9 | 8 | 713 | ~4,0 | tặng lại ba trăm sáu mươi vạn | khoản anh nợ không có số tài khoản |
-| 9/9 | 9 | 701 | ~3,9 | anh đọc sao kê giữ hộ | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1581 | ~8.8 | Chồng chuyển mười vạn, dặn xếp vali, tôi nhắn lại hai chữ: Đã nhận |
+| 2/3 | 3 | 825 | ~4.6 | Người yêu cũ của chồng kết bạn với tôi, nhắn: Tôi vẫn còn yêu anh ấy |
+| 3/3 | 4–5 | 1564 | ~8.7 | Tôi hỏi người yêu cũ một câu về ngày tháng trên biên lai chuyển tiền |
+
+Tỉ lệ đăng TikTok: 57% số chữ (chương 1–5 / 9 chương).
 
 ## 5 phương án tiêu đề YouTube
 

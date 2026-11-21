@@ -88,20 +88,15 @@ Xưng hô: Lam với Kỷ Diễn: em/anh (lúc giận: tôi/anh). Kỷ Diễn v�
 
 ## Chia phần TikTok
 
-Mỗi chương ~4,7–5,5 phút, hai chương liền nhau vượt 8 phút, nên mỗi phần một chương.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 6; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/10 | 1 | 964 | ~5,4 | hook cả truyện | vết sẹo trên lưng |
-| 2/10 | 2 | 859 | ~4,8 | thợ bánh lấy đâu ra vết dao | bốn bánh xe cắm đinh |
-| 3/10 | 3 | 904 | ~5,0 | một tiếng nữa ra tòa | khuy măng sét kim cương đen |
-| 4/10 | 4 | 857 | ~4,8 | món đồ đáng giá cả căn hộ | Kỷ tổng quay đầu |
-| 5/10 | 5 | 878 | ~4,9 | đoàn phục vụ che mắt | "Ta là mẹ của Kỷ Diễn" |
-| 6/10 | 6 | 855 | ~4,8 | chồng mồ côi tự dưng có mẹ | thẻ đen khắc tên |
-| 7/10 | 7 | 860 | ~4,8 | mẹ chồng giật thẻ | phụ lục "chỉ chấm dứt khi một bên qua đời" |
-| 8/10 | 8 | 996 | ~5,5 | một dòng chữ nhỏ trói cả đời | "Báo cáo huấn luyện viên!" |
-| 9/10 | 9 | 853 | ~4,7 | cảnh sát chào chồng tôi | lên trang nhất báo tài chính |
-| 10/10 | 10 | 965 | ~5,4 | cả Thượng Hải biết | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1823 | ~10.1 | Chồng thợ làm bánh nửa đêm một tay ghìm côn đồ vào tường |
+| 2/3 | 3–4 | 1761 | ~9.8 | Một tiếng nữa ra tòa, chồng tôi đến cứu bằng xe điện cũ |
+| 3/3 | 5–6 | 1733 | ~9.6 | Kỷ tổng quay lại, người nhặt mảnh ly lại là chồng tôi |
+
+Tỉ lệ đăng TikTok: 59% số chữ (chương 1–6 / 10 chương).
 
 ## 5 phương án tiêu đề YouTube
 

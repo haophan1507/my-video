@@ -81,17 +81,15 @@ Xưng hô: tôi với Kiển Trì: anh/em (em gọi chồng "Kiển Trì" lúc g
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/9 | 1 | 794 | ~4,4 | hook cả truyện | váy đỏ và còng số tám |
-| 2/9 | 2 | 866 | ~4,8 | váy đỏ, chồng đạp cửa | "đưa về hỗ trợ điều tra" |
-| 3/9 | 3 | 711 | ~4,0 | vợ bị chồng áp giải | ảnh cháu nuôi bà Cù |
-| 4/9 | 4 | 838 | ~4,7 | tên một mệnh lệnh | hắn đang đến bệnh viện |
-| 5/9 | 5 | 779 | ~4,3 | canh gà và liếc bảng tên | báo động đỏ cảnh sát bị thương |
-| 6/9 | 6 | 778 | ~4,3 | băng ca không phải chồng | hắn ở ngay chỗ em làm việc |
-| 7/9 | 7 | 776 | ~4,3 | kim tiêm cứu kẻ thù | xin nghỉ hai ngày |
-| 8/9 | 8 | 899 | ~5,0 | nghỉ phép, bắt trộm ở rạp | buồn nôn giữa giờ giao ban |
-| 9/9 | 9 | 808 | ~4,5 | que thử hai vạch | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1 | 794 | ~4.4 | Cưới bốn mươi lăm ngày, tin nhắn cuối chỉ có đi cứu người và đi bắt người |
+| 2/3 | 2–3 | 1576 | ~8.8 | Tôi mặc váy đỏ đi chơi, chồng cảnh sát đạp cửa bắt tôi về đồn |
+| 3/3 | 4–5 | 1617 | ~9.0 | Tôi nói một cái tên, chồng đáp lại bằng một mệnh lệnh |
+
+Tỉ lệ đăng TikTok: 55% số chữ (chương 1–5 / 9 chương).
 
 ## 5 phương án tiêu đề YouTube
 

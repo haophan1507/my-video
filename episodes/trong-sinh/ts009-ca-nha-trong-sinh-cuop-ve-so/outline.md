@@ -79,19 +79,15 @@ Vai phụ không tên: cô bạn cùng lớp (hóng hớt), thám tử tư, anh 
 
 ## Chia phần TikTok
 
-Hai chương liền thường quá 8 phút nên mỗi chương một phần; ch.1 và ch.6 ngắn hơn 5 phút.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Phút | Hook phần |
-|---|---|---|---|
-| 1 | 1 | ~4,3 | Cả nhà tôi trọng sinh để cướp vé số của tôi |
-| 2 | 2 | ~5,9 | Họ vay nặng lãi vì tin chắc sẽ trúng |
-| 3 | 3 | ~5,1 | Mẹ tiêu sáu chục nghìn tệ trong ba mươi phút |
-| 4 | 4 | ~4,9 | Bạn trai cũ trở mặt, tôi tát cả hai |
-| 5 | 5 | ~5,6 | Vé của em gái trượt, vé của tôi trúng tám mươi triệu |
-| 6 | 6 | ~4,6 | Tôi là đứa bị mua về với ba nghìn tệ |
-| 7 | 7 | ~4,9 | Mẹ quỳ cổng trường vu tôi bất hiếu |
-| 8 | 8 | ~5,2 | Tôi phát ghi âm, cả mạng đổi chiều |
-| 9 | 9 | ~5,7 | Bị bắt cóc, tôi đã chuẩn bị sẵn |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1824 | ~10.1 | Cả nhà tôi trọng sinh để cướp vé số của tôi |
+| 2/3 | 3–4 | 1812 | ~10.1 | Mẹ tiêu sáu chục nghìn tệ trong ba mươi phút |
+| 3/3 | 5 | 1009 | ~5.6 | Vé em gái trượt, vé của tôi trúng tám mươi triệu |
+
+Tỉ lệ đăng TikTok: 56% số chữ (chương 1–5 / 9 chương).
 
 ## 5 phương án tiêu đề YouTube
 

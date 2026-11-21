@@ -77,18 +77,16 @@ Xưng hô: tôi với A Phúc: tôi/anh trong kể; thoại ở công ty "thư k
 
 ## Chia phần TikTok
 
-| Phần | Chương | Phút |
-|---|---|---|
-| 1/8 | 1 | ~4.5 |
-| 2/8 | 2 | ~4.7 |
-| 3/8 | 3 | ~6.0 |
-| 4/8 | 4 | ~5.1 |
-| 5/8 | 5 | ~5.7 |
-| 6/8 | 6 | ~6.0 |
-| 7/8 | 7 | ~6.0 |
-| 8/8 | 8 | ~5.9 |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-Ghi chú: mỗi phần ghép hai chương nên dài ~9–12 phút; nếu cần 3–8 phút thì tách mỗi chương một phần (8 phần, 4,5–6 phút).
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1662 | ~9.2 | Tôi bắt ông tổng nhường ghế da, anh ta cười hề hề: Cô giỏi hưởng thụ thật |
+| 2/3 | 3 | 1076 | ~6.0 | Tôi kéo ba ông tổng đi đắp mặt nạ, rồi gặp thiên kim thật |
+| 3/3 | 4–5 | 1935 | ~10.8 | Họ Đoàn. Cùng họ với tôi. Và cô ta còn sinh cùng ngày với tôi."
+- **Nội dung**: hồi tưởng Nhu Mạn về nhà, trà xanh, tôi tự "xin đi" mà bị đuổi thật; tiệc, A Phú |
+
+Tỉ lệ đăng TikTok: 59% số chữ (chương 1–5 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

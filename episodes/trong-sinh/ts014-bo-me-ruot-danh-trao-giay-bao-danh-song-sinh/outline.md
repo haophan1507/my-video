@@ -89,20 +89,15 @@ Xưng hô: tôi với bố mẹ: con/bố, con/mẹ (lạnh dần). Bà nội v�
 
 ## Chia phần TikTok
 
-Hai chương liền ~1.700 chữ ≈ 9,5 phút, vượt 8 phút, nên mỗi chương một phần.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 6; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/10 | 1 | 848 | ~4,7 | hook cả truyện | bà nội bước xuống cầu thang |
-| 2/10 | 2 | 855 | ~4,8 | bà nội và cái tên mới | ly sữa của mẹ |
-| 3/10 | 3 | 920 | ~5,1 | ly sữa đêm trước thi | Lệ Châu nhận thủ khoa trên tivi |
-| 4/10 | 4 | 850 | ~4,7 | tờ báo ném lên bàn | "Em tên gì?" |
-| 5/10 | 5 | 780 | ~4,3 | bài thi có chữ của tôi | chân em gãy |
-| 6/10 | 6 | 770 | ~4,3 | gã Sẹo đâm nhầm | Lệ Châu trốn viện |
-| 7/10 | 7 | 830 | ~4,6 | chiếc xe đỏ | cánh cửa đóng trước mặt mẹ |
-| 8/10 | 8 | 820 | ~4,6 | phong bì dày cộp | bà nội về |
-| 9/10 | 9 | 950 | ~5,3 | cái ôm của bà nội | ông Tịch biến mất |
-| 10/10 | 10 | 910 | ~5,1 | ông Tịch đếm tiền | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1703 | ~9.5 | Tôi chết trên bàn mổ vì em gái song sinh, rồi sống lại trên xe về nhà ruột |
+| 2/3 | 3–4 | 1770 | ~9.8 | Mẹ bưng ly sữa đêm trước kỳ thi, mắt cứ liếc về cái cặp |
+| 3/3 | 5–6 | 1521 | ~8.4 | Chữ viết trong bài thi thủ khoa là của tôi |
+
+Tỉ lệ đăng TikTok: 59% số chữ (chương 1–6 / 10 chương).
 
 ## 5 phương án tiêu đề YouTube
 

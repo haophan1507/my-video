@@ -75,18 +75,15 @@ Bố của Chấn Vũ: không tên riêng, "bố chồng cũ" hoặc "cha Chấn
 
 ## Chia phần TikTok
 
-Mỗi chương một phần vì hai chương liền vượt 8 phút.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/8 | 1 | 900 | ~5,0 | hook cả truyện | Thanh Hà nhờ chọn màu hoa |
-| 2/8 | 2 | 900 | ~5,0 | chọn hoa cưới giúp người mới | dòng chú thích bảy năm trước |
-| 3/8 | 3 | 880 | ~4,9 | giữ ô cho chồng lên sàn | gọi chú Mạch |
-| 4/8 | 4 | 870 | ~4,8 | kẻ bị chồng dọn khỏi bàn | thư luật sư |
-| 5/8 | 5 | 900 | ~5,0 | nhân viên hậu cần lương bốn nghìn tám | hệ thống sập |
-| 6/8 | 6 | 950 | ~5,3 | ba giờ sáng đường dây không tồn tại | "nói cho nó biết cha con là ai" |
-| 7/8 | 7 | 980 | ~5,4 | Chấn Vũ đoán sai bảy năm | giám định nét chữ |
-| 8/8 | 8 | 920 | ~5,1 | giám định viên đeo găng tay | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1737 | ~9.7 | Ba ngày sau lễ gõ chuông, chồng đưa đơn ly hôn, tôi cười ký |
+| 2/3 | 3–4 | 1774 | ~9.9 | Bảy năm giữ ô cho chồng, không ai cúi xuống nhìn |
+| 3/3 | 5 | 938 | ~5.2 | Chữ ký cuối cùng là của nhân viên hậu cần lương bốn nghìn tám |
+
+Tỉ lệ đăng TikTok: 61% số chữ (chương 1–5 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

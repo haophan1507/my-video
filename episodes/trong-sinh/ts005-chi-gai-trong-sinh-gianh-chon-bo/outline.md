@@ -93,21 +93,15 @@ Xưng hô: tôi/chị với Ánh; tôi/mẹ; Phù Kỳ với tôi: tôi/anh lúc
 
 ## Chia phần TikTok
 
-Hai chương liền vượt 8 phút nên mỗi chương một phần (khoảng 4,4 đến 5,6 phút).
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 6; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/11 | 1 | 790 | ~4,4 | chị đâm tôi, tôi trọng sinh | có người đợi ở trường mới |
-| 2/11 | 2 | 900 | ~5,0 | căn hộ lạnh như phòng mổ | "Vì sao con thay đổi?" |
-| 3/11 | 3 | 950 | ~5,3 | mẹ từng là thủ khoa | bị chặn phòng dụng cụ |
-| 4/11 | 4 | 950 | ~5,3 | ba kẻ cầm gậy | dị ứng xoài |
-| 5/11 | 5 | 900 | ~5,0 | chị đứng giữa sân khấu | mơ lại đêm gặp Phù Kỳ |
-| 6/11 | 6 | 950 | ~5,3 | dao găm trong thang máy | cô gái đeo khẩu trang |
-| 7/11 | 7 | 900 | ~5,0 | chị khoe áp phích | một sao đầy mạng |
-| 8/11 | 8 | 950 | ~5,3 | bị chửi như lừa cả nước | hồ sơ ghi tên chị |
-| 9/11 | 9 | 900 | ~5,0 | bán tin của tôi | trọng sinh có cái giá |
-| 10/11 | 10 | 950 | ~5,3 | chị vạch mặt Thương Bân | cái giá của em là gì |
-| 11/11 | 11 | 1.000 | ~5,6 | cầu hôn, khóc | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1631 | ~9.1 | Chị đâm tôi ngày đính hôn, mở mắt tôi về ngày bố mẹ ly hôn |
+| 2/3 | 3–4 | 1819 | ~10.1 | Mẹ tôi từng là thủ khoa, bố đạp xe nửa thành phố chờ bà |
+| 3/3 | 5–6 | 1786 | ~9.9 | Lễ kỷ niệm trường, chị đứng giữa sân khấu |
+
+Tỉ lệ đăng TikTok: 52% số chữ (chương 1–6 / 11 chương).
 
 ## 5 phương án tiêu đề YouTube
 

@@ -78,18 +78,15 @@ Xưng hô: Cầm với Kính Đình: tôi/anh (em/anh khi còn ngọt ở hồi 
 
 ## Chia phần TikTok
 
-Mỗi chương ~900 chữ nên hai chương liền vượt 8 phút: mỗi chương một phần.
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/8 | 1 | 930 | ~5,2 | hook cả truyện | lịch bốn ngày của Nhã Chi |
-| 2/8 | 2 | 960 | ~5,3 | tin nhắn gửi ba người lạ | người thu tiền |
-| 3/8 | 3 | 920 | ~5,1 | học cách vui | Nhã Chi ốm cho cả ba ông |
-| 4/8 | 4 | 930 | ~5,2 | ba giờ sáng đắp mặt nạ | "anh Đình thương ai" |
-| 5/8 | 5 | 960 | ~5,3 | Nhã Chi ngã | cô ta phát trực tiếp |
-| 6/8 | 6 | 900 | ~5,0 | tít báo sáng hôm sau | tấm ảnh "vợ ngoại tình" |
-| 7/8 | 7 | 920 | ~5,1 | chồng cũ gửi báo ảnh túi rác | đứng dưới cửa sổ |
-| 8/8 | 8 | 900 | ~5,0 | ngủ ngon | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1678 | ~9.3 | Chồng nhắn tăng ca, tôi kéo ba bà vợ của hội bạn anh ta vào một nhóm chat |
+| 2/3 | 3–4 | 1757 | ~9.8 | Muốn trả thù tử tế, trước hết phải học cách vui |
+| 3/3 | 5 | 913 | ~5.1 | Nhã Chi ngã đúng lúc tôi cầm ly nước chanh |
+
+Tỉ lệ đăng TikTok: 61% số chữ (chương 1–5 / 8 chương).
 
 ## 5 phương án tiêu đề YouTube
 

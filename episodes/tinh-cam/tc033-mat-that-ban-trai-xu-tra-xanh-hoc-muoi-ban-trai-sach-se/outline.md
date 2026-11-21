@@ -86,20 +86,15 @@ Xưng hô: tôi với Hạo: tôi/anh ngôi kể, Hạo gọi tôi "vợ", tôi 
 
 ## Chia phần TikTok
 
-Mỗi chương một phần (hai chương liền đều vượt 8 phút).
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/10 | 1 | 821 | ~4,6 | hook cả truyện | bộ tóc giả |
-| 2/10 | 2 | 941 | ~5,2 | tóc giả bước vào phòng ma | năm triệu người theo dõi |
-| 3/10 | 3 | 1.051 | ~5,8 | hai mươi vạn người xem | "Được." |
-| 4/10 | 4 | 1.049 | ~5,8 | ly nước bị bỏ thuốc | cú đánh của cô ta |
-| 5/10 | 5 | 836 | ~4,6 | mối tình đầu thành mẹ kế | "Một triệu à?" |
-| 6/10 | 6 | 920 | ~5,1 | tiếng heo kêu | ai gửi những tấm ảnh |
-| 7/10 | 7 | 704 | ~3,9 | ván cờ bốn năm | "Ông đã ngủ với nó?" |
-| 8/10 | 8 | 849 | ~4,7 | nốt ruồi | Hạo bị bắt |
-| 9/10 | 9 | 907 | ~5,0 | sinh nhật ngồi đồn công an | giấy chẩn đoán của ông Vưu |
-| 10/10 | 10 | 1.100 | ~6,1 | nốt ruồi và khách sạn | câu hỏi chia phe |
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1762 | ~9.8 | Học muội níu tay áo, bạn trai đẩy ra: Vợ ơi, trà xanh |
+| 2/3 | 3 | 1051 | ~5.8 | Hai mươi vạn người xem bạn trai vạch mặt trà xanh |
+| 3/3 | 4–5 | 1885 | ~10.5 | Tôi uống nhầm ly nước trà xanh bỏ thuốc |
+
+Tỉ lệ đăng TikTok: 51% số chữ (chương 1–5 / 10 chương).
 
 ## 5 phương án tiêu đề YouTube
 

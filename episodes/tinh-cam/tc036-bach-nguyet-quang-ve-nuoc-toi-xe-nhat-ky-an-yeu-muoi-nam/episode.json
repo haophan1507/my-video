@@ -40,51 +40,23 @@
   "parts": [
     {
       "chapters": [
-        1
+        1,
+        2
       ],
       "hook": "Chồng tôi nói hôn nhân chỉ là hợp tác thương mại, ba tháng sau anh quỳ trước cửa nhà mới của tôi"
     },
     {
       "chapters": [
-        2
-      ],
-      "hook": "Mười năm yêu thầm, dày đúng bảy cuốn nhật ký"
-    },
-    {
-      "chapters": [
-        3
-      ],
-      "hook": "Ly hôn xong, tôi nôn sạch bát cháo, và hai vạch đỏ hiện ra"
-    },
-    {
-      "chapters": [
+        3,
         4
       ],
-      "hook": "Cảnh Hành chưa bao giờ nghĩ một cái ngăn kéo lại làm mất vợ"
+      "hook": "Ly hôn xong, tôi nôn sạch bát cháo, và hai vạch đỏ hiện ra"
     },
     {
       "chapters": [
         5
       ],
       "hook": "Tôi giám định ra tờ phiếu siêu âm giả của tình cũ chồng ngay trước mặt cô ta"
-    },
-    {
-      "chapters": [
-        6
-      ],
-      "hook": "Anh quỳ ngoài hành lang hỏi con đâu, tôi hỏi lại chuyện hậu mãi"
-    },
-    {
-      "chapters": [
-        7
-      ],
-      "hook": "Cuốn nhật ký bị xé được anh dán lại, kèm hợp đồng hậu mãi bốn điều"
-    },
-    {
-      "chapters": [
-        8
-      ],
-      "hook": "Người đầu tiên tôi gọi giữa cơn đau không phải bố mẹ"
     }
   ],
   "thumbText": "Chồng bảo|*hợp tác thương mại*|tôi xé nhật ký|rồi dọn đi",

@@ -90,18 +90,15 @@ Xưng hô: tôi với Chiêu Đệ/Xuân Hoa: mẹ/con. Gia Hưng nhỏ gọi t�
 
 ## Chia phần TikTok
 
-| Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
-|---|---|---|---|---|---|
-| 1/10 | 1 | 924 | ~5,1 | hook cả truyện | "Chiêu Đệ là tên mẹ chồng tôi" |
-| 2/10 | 2 | 760 | ~4,2 | thành bà ngoại của chồng | "Tránh ra!" |
-| 3/10 | 3 | 985 | ~5,5 | bà nội đuổi con dâu ra đồng | bác bảo vệ cười vào mặt |
-| 4/10 | 4 | 1.079 | ~6,0 | xin dạy văn bị tưởng xin rửa bát | thằng cháu gọi "thầy hiệu trưởng" |
-| 5/10 | 5 | 870 | ~4,8 | hiệu trưởng thật đứng trước mặt | con gái bị cả xóm vây |
-| 6/10 | 6 | 1.094 | ~6,1 | hàng xóm vây sạp bánh | "Tại chú ấy hết!" |
-| 7/10 | 7 | 928 | ~5,2 | thằng bé ba tuổi hét | "tiệm sắp có chuyện" |
-| 8/10 | 8 | 987 | ~5,5 | bà Bàng gào ở tiệm | Kim Bảo gõ cửa ngày cưới |
-| 9/10 | 9 | 954 | ~5,3 | con gái mặc váy cưới của chính nó | "con mơ mình sống một kiếp khác" |
-| 10/10 | 10 | 1.004 | ~5,6 | tôi là người đẩy con xuống hố | câu hỏi chia phe |
+Chuẩn 2026-11-21: 3 phần, ~50–60% số chữ từ đầu truyện, dừng ở cú treo cuối chương 5; phần 3 dẫn sang YouTube. Điểm dừng chọn theo tỉ lệ chữ, cần duyệt lại theo độ tò mò.
+
+| Phần | Chương | Chữ | Phút | Mở bằng |
+|---|---|---|---|---|
+| 1/3 | 1–2 | 1684 | ~9.4 | Mẹ chồng mặc váy cưới giống hệt tôi lên sân khấu cưới |
+| 2/3 | 3 | 985 | ~5.5 | Bà nội chồng đuổi con dâu vừa mổ đẻ ra đồng |
+| 3/3 | 4–5 | 1949 | ~10.8 | Bà nông thôn xin dạy văn, bảo vệ tưởng xin rửa bát |
+
+Tỉ lệ đăng TikTok: 48% số chữ (chương 1–5 / 10 chương).
 
 ## 5 phương án tiêu đề YouTube
 
