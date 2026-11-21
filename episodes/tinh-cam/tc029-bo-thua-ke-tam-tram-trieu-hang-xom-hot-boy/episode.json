@@ -1,0 +1,103 @@
+{
+  "title": "Bố tôi thừa kế tám trăm triệu tệ, tôi bị nam thần hàng xóm đăng lên diễn đàn là biến thái bám đuôi",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Bố tôi mắng luật sư là đồ lừa đảo"
+    },
+    {
+      "title": "Biến thái bám đuôi"
+    },
+    {
+      "title": "Bà nội của nam thần"
+    },
+    {
+      "title": "Cô bạn cùng phòng"
+    },
+    {
+      "title": "Thanh mai trúc mã đồng hồ giả"
+    },
+    {
+      "title": "Bạn trai tin đồn"
+    },
+    {
+      "title": "Căn phòng khóa trên tầng ba"
+    },
+    {
+      "title": "Ngọn đèn tầng ba"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Bố mắng luật sư là lừa đảo, nhà tôi bỗng giàu sụ"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Cả trường gọi tôi là biến thái bám đuôi"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Kẻ đăng bài ngồi ăn táo nhà tôi"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Bạn cùng phòng mới là kẻ bám đuôi thật"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Thanh mai trúc mã đeo đồng hồ giả đến nhà"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Nam thần bảo tôi có bạn trai nhà giàu"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Căn phòng khóa trên tầng ba của cụ Bá Sơn"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Cô gái khoác tay nam thần là ai?"
+    }
+  ],
+  "thumbText": "Bị gọi là|*biến thái*|bám đuôi|nam thần",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}
