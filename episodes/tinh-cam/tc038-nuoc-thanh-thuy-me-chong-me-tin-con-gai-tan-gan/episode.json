@@ -1,0 +1,95 @@
+{
+  "title": "Mẹ chồng khoe mời thánh thủy cho cháu uống, bác sĩ báo gan con gái tôi tổn thương, tôi bóp miệng bà dốc nốt chai",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Bốn giờ sáng đập cửa"
+    },
+    {
+      "title": "Lọ thuốc giả của bố"
+    },
+    {
+      "title": "Một chén thánh thủy"
+    },
+    {
+      "title": "Máu của người lớn"
+    },
+    {
+      "title": "Khe cửa phòng bà"
+    },
+    {
+      "title": "Cốc nước tôi không uống"
+    },
+    {
+      "title": "Cuốn sổ trong túi nilon đỏ"
+    },
+    {
+      "title": "Túi vải trước cửa"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Mẹ chồng khoe thánh thủy cho cháu, tôi dốc nốt chai vào miệng bà"
+    },
+    {
+      "chapters": [
+        2
+      ],
+      "hook": "Bố chồng tôi chết vì một lọ thuốc giả mà mẹ chồng tôi bán"
+    },
+    {
+      "chapters": [
+        3
+      ],
+      "hook": "Thánh thủy cho đứa bé bảy tháng tuổi"
+    },
+    {
+      "chapters": [
+        4
+      ],
+      "hook": "Người lớn uống một ngụm nằm viện hai ngày, đứa bé uống cả chén"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Tôi mở camera và thấy cánh cửa phòng hé ra một khe"
+    },
+    {
+      "chapters": [
+        6
+      ],
+      "hook": "Tôi cắt nửa tiền sinh hoạt để bà tự đưa thuốc đến tận tay"
+    },
+    {
+      "chapters": [
+        7
+      ],
+      "hook": "Bốn chục cái tên trong cuốn sổ của gã thầy"
+    },
+    {
+      "chapters": [
+        8
+      ],
+      "hook": "Ngày mẹ chồng mãn hạn tù, bà đặt túi vải trước cửa"
+    }
+  ],
+  "thumbText": "Mẹ chồng cho cháu|uống *thánh thủy*|tôi dốc nốt chai|vào miệng bà",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

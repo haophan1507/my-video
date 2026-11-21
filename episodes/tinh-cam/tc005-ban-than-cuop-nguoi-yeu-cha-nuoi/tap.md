@@ -5,7 +5,7 @@
 
 - **Truyện nguồn**: tc005, stories/tinh-cam/tc005-ban-than-cuop-nguoi-yeu-cha-nuoi.md
 - **Bước hiện tại**: 5
-- **Cập nhật**: 2026-11-20
+- **Cập nhật**: 2026-11-21
 
 ## Quyết định
 
@@ -18,7 +18,7 @@
 | Nhân vật: tên → cách gọi cố định | Tô Nhiên (tôi), Cố Dịch, Bạch Uyển Uyển, chú Lục (Lục Thâm), Chu Hân; chi tiết trong outline.md |
 | Bối cảnh | Hải Thành, hiện đại, tiền tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 9 chương, ~39 phút (~7.090 chữ); viết dày + 4 vòng mới (đã duyệt 2026-11-20) |
-| Chia phần TikTok | 6 phần: ch1 / 2–3 / 4–5 / 6–7 / 8 / 9 (chi tiết outline.md) |
+| Chia phần TikTok | 9 phần, mỗi chương một phần (các cặp 2–3, 4–5, 6–7 vượt 8 phút: 8,6 / 9,1 / 8,8) |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | Nấu ăn cận cảnh, tag `cook` (`public/footage/cook/`, nguồn ở `sources.txt`); 3 clip TikTok dọc, demo ch.1 |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | chữ: "Bạn thân hôn|người yêu tôi|ngay *sinh nhật*"; ảnh: chưa chọn (nền tạm cắt từ footage) |
@@ -28,8 +28,8 @@
 
 - [x] 1. Chọn truyện
 - [x] 2. Dàn ý: `outline.md`
-- [x] 3. Viết chương: `script/chNN.tts.txt` (demo: chỉ ch.1, theo yêu cầu 2026-11-20)
-- [x] 4. Soát TTS (ch.1): báo cáo sạch
+- [x] 3. Viết chương: `script/chNN.tts.txt` (đủ 9 chương, ~7.430 chữ)
+- [x] 4. Soát TTS (9 chương): báo cáo sạch
 - [ ] 5. Giọng: `audio/chNN.mp3`
 - [ ] 6. Footage: `public/footage/cook/`
 - [ ] 7. Render: `out/`
@@ -44,3 +44,4 @@
 - 2026-11-20: footage chuyển vào `public/footage/cook/` (cook-01, cook-02 bỏ dải đen crop top, còn 844×1080; cook-03 giữ 1080×1920); nguồn chuyển sang `public/footage/cook/sources.txt`. Bản YouTube đổi sang khung ngang 1920×1080: cần render lại `out/youtube.mp4` (bản hiện có là khung dọc cũ).
 - 2026-11-20: mẫu bìa mới (ảnh nhân vật + mảng giấy chữ hook); đặt thumbText 3 dòng, thumbTag "Trọn bộ". Còn thiếu ảnh nhân vật.
 - 2026-11-20: bỏ chNN.txt, mỗi chương chỉ còn chNN.tts.txt (viết sẵn dạng đọc được); bước 4 thành soát bằng normalize-vi.mjs [--fix].
+- 2026-11-21: viết ch02–ch09 (tổng 9 chương, 7.428 chữ ≈ 41 phút); normalize-vi sạch cảnh báo; episode.json: 9 phần TikTok mỗi chương một phần. Chờ chốt giọng để gen.

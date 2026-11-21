@@ -1,0 +1,95 @@
+{
+  "title": "Bạch nguyệt quang về nước, tôi xé nhật ký yêu thầm mười năm, ba tháng sau anh quỳ trước cửa",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Tờ giấy trong ngăn kéo"
+    },
+    {
+      "title": "Bảy cuốn nhật ký"
+    },
+    {
+      "title": "Hai vạch đỏ"
+    },
+    {
+      "title": "Người ngu có học thức"
+    },
+    {
+      "title": "Giám định hàng nhái"
+    },
+    {
+      "title": "Quỳ ngoài hành lang"
+    },
+    {
+      "title": "Hợp đồng hậu mãi"
+    },
+    {
+      "title": "Chiếc dép lệch màu"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Chồng tôi nói hôn nhân chỉ là hợp tác thương mại, ba tháng sau anh quỳ trước cửa nhà mới của tôi"
+    },
+    {
+      "chapters": [
+        2
+      ],
+      "hook": "Mười năm yêu thầm, dày đúng bảy cuốn nhật ký"
+    },
+    {
+      "chapters": [
+        3
+      ],
+      "hook": "Ly hôn xong, tôi nôn sạch bát cháo, và hai vạch đỏ hiện ra"
+    },
+    {
+      "chapters": [
+        4
+      ],
+      "hook": "Cảnh Hành chưa bao giờ nghĩ một cái ngăn kéo lại làm mất vợ"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Tôi giám định ra tờ phiếu siêu âm giả của tình cũ chồng ngay trước mặt cô ta"
+    },
+    {
+      "chapters": [
+        6
+      ],
+      "hook": "Anh quỳ ngoài hành lang hỏi con đâu, tôi hỏi lại chuyện hậu mãi"
+    },
+    {
+      "chapters": [
+        7
+      ],
+      "hook": "Cuốn nhật ký bị xé được anh dán lại, kèm hợp đồng hậu mãi bốn điều"
+    },
+    {
+      "chapters": [
+        8
+      ],
+      "hook": "Người đầu tiên tôi gọi giữa cơn đau không phải bố mẹ"
+    }
+  ],
+  "thumbText": "Chồng bảo|*hợp tác thương mại*|tôi xé nhật ký|rồi dọn đi",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

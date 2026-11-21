@@ -105,3 +105,9 @@ Chấm 1–5 theo (xung đột sớm, cụ thể, khoảng trống thông tin, k
 | E | `[Truyện Audio] Tôi không níu kéo người yêu bị cướp, vì có người đang đứng sau lưng \| <Tên kênh>` | nghịch lý nhẹ | 4+3+5+4 = 16 |
 
 Gợi ý giữ để A/B: **B, A, C** (B cần rút bớt: "Bạn thân cướp người yêu ngay sinh nhật, cha nuôi cô ta đứng sau cánh cửa"). Chữ đều có thật ở ch.1–2; không nêu kết (hai người thành đôi).
+
+## Điều chỉnh khi viết (2026-11-21)
+
+- Chia TikTok đổi thành 9 phần, mỗi chương một phần: các cặp 2–3, 4–5, 6–7 đo thực tế 8,6 / 9,1 / 8,8 phút, vượt trần 8 phút.
+- Ch.8: dời cảnh Uyển Uyển cầu chú Lục sang kể lại qua Hân (cùng tối Dịch ôm hoa) để giữ ngôi thứ nhất; ch.7 chốt Dịch quay lại sau hai tuần.
+- Tổng thực tế 7.428 chữ (dàn ý 7.090): ch.3, 5, 7, 8 dày hơn dự kiến.

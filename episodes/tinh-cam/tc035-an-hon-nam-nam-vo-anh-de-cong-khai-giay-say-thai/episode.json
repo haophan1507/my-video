@@ -1,0 +1,113 @@
+{
+  "title": "Chồng ảnh đế nói với ba mươi triệu người rằng anh ta độc thân, tôi đặt ba tờ giấy lên bàn",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Ba mươi chín độ tám"
+    },
+    {
+      "title": "Hạt gạo trong bụng"
+    },
+    {
+      "title": "Ba mươi bảy giây"
+    },
+    {
+      "title": "Ba giờ chiều ở sảnh công ty"
+    },
+    {
+      "title": "Phút chung kết"
+    },
+    {
+      "title": "Một đêm tuột dốc"
+    },
+    {
+      "title": "Chiếc bàn ở Milan"
+    },
+    {
+      "title": "Tờ bản án niêm yết"
+    },
+    {
+      "title": "Một người xa lạ bên bờ sông"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Chồng tôi nói với ba mươi triệu người anh ta độc thân, trong túi tôi có ba tờ giấy"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Tôi mang thai bốn tuần, nhắn cho chồng ảnh đế chỉ nhận lại chữ đã xem"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Tôi sảy thai, gọi cho chồng thì một cô gái khác nghe máy"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Tôi bước vào công ty của chồng, lần đầu sau năm năm bị cấm"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Đêm chung kết ba mươi triệu người xem, tôi bấm gửi ba tấm ảnh"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Sáng hôm sau, ảnh đế mất bảy hợp đồng trước bữa sáng"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Tòa bác đơn ly hôn lần đầu, tôi bay sang Milan"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Ảnh đế quỳ giữa xưởng thiết kế: chúng ta chưa ly hôn"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Một người xa lạ ngồi khóc ở ghế đá bờ sông"
+    }
+  ],
+  "thumbText": "Ảnh đế nói *độc thân*|vợ đăng *ba tờ giấy*|lên mạng",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

@@ -1,0 +1,95 @@
+{
+  "title": "Tôi đứng ngoài cửa nghe chồng nói \"con cô ta tự không giữ được\"",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Câu nói qua khe cửa"
+    },
+    {
+      "title": "Tờ đơn trên bàn trà"
+    },
+    {
+      "title": "Hai chữ \"biết rồi\""
+    },
+    {
+      "title": "Người ba giờ sáng hỏi một câu"
+    },
+    {
+      "title": "Chiếc chìa khóa trên bàn trà"
+    },
+    {
+      "title": "Căn phòng cuối hành lang"
+    },
+    {
+      "title": "Em có khỏe không"
+    },
+    {
+      "title": "Hàng ghế đầu"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Con tôi cũng cho rồi, là cô ta tự không giữ được"
+    },
+    {
+      "chapters": [
+        2
+      ],
+      "hook": "Tờ đơn ly hôn đặt lên bàn trà trước mặt ông nội"
+    },
+    {
+      "chapters": [
+        3
+      ],
+      "hook": "Hai chữ biết rồi và người ngồi ngoài hành lang bốn mươi phút"
+    },
+    {
+      "chapters": [
+        4
+      ],
+      "hook": "Bạch nguyệt quang không phải người tôi nghĩ"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Hòa giải mười hai phút và chiếc chìa khóa trên bàn"
+    },
+    {
+      "chapters": [
+        6
+      ],
+      "hook": "Căn phòng cuối hành lang anh khóa suốt nhiều tuần"
+    },
+    {
+      "chapters": [
+        7
+      ],
+      "hook": "Anh đồng ý, và câu hỏi muộn sáu tháng"
+    },
+    {
+      "chapters": [
+        8
+      ],
+      "hook": "Hàng ghế đầu: chúc em bình an"
+    }
+  ],
+  "thumbText": "CON CÔ TA|*TỰ KHÔNG*|GIỮ ĐƯỢC",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

@@ -34,3 +34,8 @@ Do agent báo lại trong lúc sinh kịch bản hàng loạt (2026-11-21). Xóa
 - ts013: kết đổi; ch5–7 nữ chính im lặng để nhà chồng tự đục tường (hơi xám đạo đức)
 - ts014: cơ chế tráo giấy tự sáng tạo (thi hộ dưới tên em); văn ch6–9 chưa trau chuốt kỹ
 - ts015: tên nữ chính đổi thành Đàm Tịnh ở ch7–8 (cần thống nhất); kết buồn
+- tc005: ch2–9 viết nốt theo dàn ý đã duyệt (9 chương, ~41 phút); TikTok mỗi chương một phần; ch8 cảnh Uyển Uyển cầu chú Lục kể qua Hân
+- tc035: "ba lô lấp lánh" (ch4) nghe lạ; mốc thời gian ch3/5/6 cần xem lại
+- tc036: đổi kết (giữ con); ch5 tiếng lóng chưa soát kỹ
+- tc037: Thiều Uyển không phải bạch nguyệt quang thật; ch6 ngôi ba; tên phụ chưa đối chiếu
+- tc038: nội dung nặng vì trẻ nhỏ bị hại (giữ cảnh dốc chai, bỏ cảnh đánh đá); ch3–4 có thể lệch logic
