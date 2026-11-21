@@ -1,0 +1,70 @@
+{
+  "title": "Tôi ký chuyển hết tài sản cho con nuôi, chồng ôm nhân tình bước tới cảm ơn tôi",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Chữ ký cuối cùng"
+    },
+    {
+      "title": "Bàn mổ giả"
+    },
+    {
+      "title": "Hai chiếc chăn nhỏ trong mưa"
+    },
+    {
+      "title": "Hai đứa trẻ, hai cái tên"
+    },
+    {
+      "title": "Nuôi sói bằng sữa"
+    },
+    {
+      "title": "Đêm trước tiệc mừng"
+    },
+    {
+      "title": "Cảm ơn cô đã chăm sóc chồng con tôi"
+    },
+    {
+      "title": "Hai cái tên giống hệt"
+    },
+    {
+      "title": "Bảng sao kê chín mươi triệu tệ"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Ký xong giấy chuyển hết tài sản, chồng ôm nhân tình bước tới cảm ơn tôi"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Mười năm làm vợ người đàn ông giả nghèo, và hai chiếc chăn nhỏ trong đêm mưa"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Tôi chỉ cho hai đứa con riêng của chồng đúng một cơ hội"
+    }
+  ],
+  "thumbText": "Ký xong giấy|*chuyển hết tài sản*|chồng ôm nhân tình|bước tới cảm ơn",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

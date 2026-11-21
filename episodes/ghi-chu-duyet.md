@@ -62,3 +62,6 @@ Do agent báo lại trong lúc sinh kịch bản hàng loạt (2026-11-21). Xóa
 - tc059: 19/25; cốt truyện lệch nguồn (chồng thành bên A, hoàn trả khoản đầu tư); TikTok phần 2 ~9 phút
 - tc060: 19/25; thêm Hoắc Lĩnh, cuốn sổ của cha, vụ đạo hồ sơ; chưa đối chiếu tên gọi cuối
 - tc061: ch8 vài câu thoại vụng; twist Ly đặt phòng 666 và "Ngồi Chồm Hổm"
+- ts022: 6 tên riêng (quá 5); TikTok phần 2 ~10,5 phút; ch4 mốc thời gian mang thai hơi rối
+- ts023: nguồn kết lửng, phần sau tự viết (mang thai hộ, hội đồng đạo đức); chi tiết pháp lý/y học tự bịa; câu chào kênh ở ch1 vào sớm (~chữ 100)
+- ts024: bỏ kết "giấc mơ lúc hấp hối"; nam chính con trai cả họ Nhiễm theo họ mẹ (bịa thêm); TikTok phần 1 ~10,6 phút

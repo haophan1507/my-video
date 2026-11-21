@@ -1,0 +1,66 @@
+{
+  "title": "Trọng sinh về hai tháng trước đám cưới, tôi hủy hôn giữa tiệc trước mặt cả giới thượng lưu",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Mở mắt hai tháng trước đám cưới"
+    },
+    {
+      "title": "Cả nhà họ Nhiễm ngồi trên ghế sô pha nhà tôi"
+    },
+    {
+      "title": "Tiệc hai mươi năm Nhiễm thị"
+    },
+    {
+      "title": "Đám cưới có màn hình lớn"
+    },
+    {
+      "title": "Máu trước cửa tòa nhà"
+    },
+    {
+      "title": "Khoản vay không về"
+    },
+    {
+      "title": "Nhà họ Quản không nuôi chó cắn chủ"
+    },
+    {
+      "title": "Người họ Ngô và ly sữa của mẹ"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Chết bị trói, mở mắt hai tháng trước đám cưới"
+    },
+    {
+      "chapters": [
+        3
+      ],
+      "hook": "Hắn đề nghị làm vợ chồng trên giấy, nhân tình xông vào"
+    },
+    {
+      "chapters": [
+        4
+      ],
+      "hook": "Màn hình giữa lễ cưới chiếu giấy khám thai giả"
+    }
+  ],
+  "thumbText": "Sống lại|*hai tháng*|trước đám cưới|tôi tự hủy hôn",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

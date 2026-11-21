@@ -1,0 +1,67 @@
+{
+  "title": "Mẹ chồng cần thay thận, tôi gật đầu hiến với điều kiện chồng sang tên hết tài sản",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Chồng quỳ xin tôi một quả thận"
+    },
+    {
+      "title": "Tám mươi vạn tệ và cái phôi trong tủ đông"
+    },
+    {
+      "title": "Luật sư Giả và ba điều khoản"
+    },
+    {
+      "title": "Điều kiện của tôi: sang tên hết"
+    },
+    {
+      "title": "Cuộc gọi bật loa ngoài"
+    },
+    {
+      "title": "Ký hay là vào đồn"
+    },
+    {
+      "title": "Hội đồng đạo đức"
+    },
+    {
+      "title": "Phôi đứng tên mình tôi"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Chồng xin tôi một quả thận, tôi đáp được, nhưng có điều kiện"
+    },
+    {
+      "chapters": [
+        2,
+        3
+      ],
+      "hook": "Tám mươi vạn tệ biến mất khỏi tài khoản chung của hai vợ chồng"
+    },
+    {
+      "chapters": [
+        4,
+        5
+      ],
+      "hook": "Tôi đưa ra điều kiện khiến cả họ nhà chồng sững người"
+    }
+  ],
+  "thumbText": "Chồng xin *thận*|tôi đòi *sang tên*|hết tài sản",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}
