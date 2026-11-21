@@ -1,0 +1,104 @@
+{
+  "title": "Cả nhà trọng sinh cướp vé số tám mươi triệu của tôi, nhưng họ không biết người trúng là tôi chứ không phải dãy số",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Chín ngày trước kỳ quay số"
+    },
+    {
+      "title": "Cá chép không biết bơi ngược"
+    },
+    {
+      "title": "Mua sắm bằng nợ nóng"
+    },
+    {
+      "title": "Hai cái tát đối xứng"
+    },
+    {
+      "title": "Ngày quay số"
+    },
+    {
+      "title": "Người bị mua về"
+    },
+    {
+      "title": "Quỳ trước cổng trường"
+    },
+    {
+      "title": "Lật ngược cả bảng tin"
+    },
+    {
+      "title": "Chiếc vòng bạc"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Cả nhà tôi trọng sinh để cướp vé số của tôi"
+    },
+    {
+      "chapters": [
+        2
+      ],
+      "hook": "Họ vay nặng lãi vì tin chắc sẽ trúng"
+    },
+    {
+      "chapters": [
+        3
+      ],
+      "hook": "Mẹ tiêu sáu chục nghìn tệ trong ba mươi phút"
+    },
+    {
+      "chapters": [
+        4
+      ],
+      "hook": "Bạn trai cũ trở mặt, tôi tát cả hai"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Vé em gái trượt, vé của tôi trúng tám mươi triệu"
+    },
+    {
+      "chapters": [
+        6
+      ],
+      "hook": "Tôi là đứa bị mua về với ba nghìn tệ"
+    },
+    {
+      "chapters": [
+        7
+      ],
+      "hook": "Mẹ quỳ cổng trường vu tôi bất hiếu"
+    },
+    {
+      "chapters": [
+        8
+      ],
+      "hook": "Tôi phát ghi âm, cả mạng đổi chiều"
+    },
+    {
+      "chapters": [
+        9
+      ],
+      "hook": "Bị bắt cóc, tôi đã chuẩn bị sẵn"
+    }
+  ],
+  "thumbText": "Cả nhà *trọng sinh*|cướp vé số|*tám mươi triệu*|của tôi",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

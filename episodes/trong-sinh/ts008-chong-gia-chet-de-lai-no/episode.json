@@ -1,0 +1,123 @@
+{
+  "title": "Đêm tân hôn chồng rơi xuống vực, mười năm sau tôi thấy anh ta còn sống, trọng sinh tôi xé váy cưới",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Giấy ung thư và bãi cỏ sơn trang"
+    },
+    {
+      "title": "Trên lan can, giữa tiệc đính hôn"
+    },
+    {
+      "title": "Bảy năm làm người nhường nhịn"
+    },
+    {
+      "title": "Ngày mười lăm và chiếc đồng hồ"
+    },
+    {
+      "title": "Phá sản hoặc bán cho tôi"
+    },
+    {
+      "title": "Cậu Việt ngồi ghế chủ tịch"
+    },
+    {
+      "title": "Tay trái, tay phải"
+    },
+    {
+      "title": "Đừng ký"
+    },
+    {
+      "title": "Người từ địa ngục bò về"
+    },
+    {
+      "title": "Hai anh em, một cánh cửa"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Chết vì ung thư, tôi mở mắt giữa tiệc đính hôn"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Bạch nguyệt quang trèo lan can giữa tiệc đính hôn"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Thăm bệnh, thấy chồng sắp cưới ôm người cũ"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Mẹ chồng quỳ giữa văn phòng, tôi gật đầu cưới"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Phá sản hoặc bán cho tôi"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Người em sinh đôi ngồi vào ghế chủ tịch"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Trong hồ sơ không có người nào tên Việt"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Chị Ngâm, đừng ký"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Người cháy thành tro bước vào phòng họp"
+    },
+    {
+      "chapters": [
+        10,
+        10
+      ],
+      "hook": "Chiếc điện thoại cũ trên bàn họp"
+    }
+  ],
+  "thumbText": "Trọng sinh|*xé váy cưới*|rút của hồi môn|chồng giả chết",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

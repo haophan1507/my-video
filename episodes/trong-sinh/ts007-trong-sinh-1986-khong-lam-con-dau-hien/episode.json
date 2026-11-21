@@ -1,0 +1,95 @@
+{
+  "title": "Sống lại đêm tân hôn, tôi đòi ly hôn ngay sáng hôm sau",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Đêm tân hôn sống lại"
+    },
+    {
+      "title": "Câu ly hôn ba mươi năm"
+    },
+    {
+      "title": "Cái thùng cơm mười giờ sáng"
+    },
+    {
+      "title": "Gánh hàng trước rạp chiếu bóng"
+    },
+    {
+      "title": "Tiệm Kim Phượng và người đeo kính"
+    },
+    {
+      "title": "Hoa Hồng Đỏ khai trương"
+    },
+    {
+      "title": "Phân trước cửa tiệm"
+    },
+    {
+      "title": "Kẻ như anh, xứng sao?"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Tôi chết trong phòng bệnh sáu giường, rồi mở mắt đúng đêm tân hôn"
+    },
+    {
+      "chapters": [
+        2
+      ],
+      "hook": "Chồng bảo tôi lấy lùi làm tiến, tôi chỉ đang lùi để chạy"
+    },
+    {
+      "chapters": [
+        3
+      ],
+      "hook": "Tờ giấy ly hôn còn thơm mùi mực, bà mẹ chồng cũ đã đòi bữa trưa"
+    },
+    {
+      "chapters": [
+        4
+      ],
+      "hook": "Bán kem trước rạp chiếu bóng, tôi gặp cả đám người cũ"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Bà mẹ chồng cũ bảo tôi không đủ tiền mua một cái áo"
+    },
+    {
+      "chapters": [
+        6
+      ],
+      "hook": "Tiệm Kim Phượng sập, người đầu tiên bị đánh là con dâu có văn hóa"
+    },
+    {
+      "chapters": [
+        7
+      ],
+      "hook": "Tôi vừa ra khỏi phòng thi thì cửa tiệm bị hắt phân"
+    },
+    {
+      "chapters": [
+        8
+      ],
+      "hook": "Chồng cũ quỳ bên xe lăn, tôi chìa giấy báo Phục Đán"
+    }
+  ],
+  "thumbText": "Sống lại đêm *tân hôn*|tôi đòi *ly hôn*|ngay sáng hôm sau",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

@@ -26,3 +26,11 @@ Do agent báo lại trong lúc sinh kịch bản hàng loạt (2026-11-21). Xóa
 - ts002: twist em dâu (giọng ngày nữ chính chết) và anh Phi hàng xóm là cảnh mới; tiêu đề C chỉ khớp ch4–5; thumbText viết nhanh
 - ts005: 6 tên riêng; chương bám sát mạch bản gốc, câu chữ có thể còn gần nguồn
 - ts006: bỏ cảnh hack ngân hàng của nguồn; thêm cảnh giả có thai (ch6), thư nặc danh (ch7), xe tải (ch9)
+- ts007: bản gốc mỏng, không kéo; twist "xứng sao?" ở ch8 mới
+- ts008: "Việt" ở ch5–6 là Khải đóng giả, dễ rối khi nghe; kết đã đổi
+- ts009: kết làm nhẹ (án tù thay vì chết); dời chi tiết "không phải con ruột" lên ch4
+- ts010: cảnh dao ở ch8 cần soát; tên Lộ Nghị đặt mới
+- ts012: Tịch chỉ nói thật với Lỗ Doanh rồi im, có thể gây tranh cãi
+- ts013: kết đổi; ch5–7 nữ chính im lặng để nhà chồng tự đục tường (hơi xám đạo đức)
+- ts014: cơ chế tráo giấy tự sáng tạo (thi hộ dưới tên em); văn ch6–9 chưa trau chuốt kỹ
+- ts015: tên nữ chính đổi thành Đàm Tịnh ở ch7–8 (cần thống nhất); kết buồn

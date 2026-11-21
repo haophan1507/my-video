@@ -1,0 +1,113 @@
+{
+  "title": "Mẹ ép tôi bỏ học lấy hai mươi vạn tệ cưới vợ cho em trai, trọng sinh tôi gõ cửa nhà hàng xóm",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Mẹ quỳ, tôi không quỳ nữa"
+    },
+    {
+      "title": "Cánh cửa nhà họ Chương"
+    },
+    {
+      "title": "Bữa sủi cảo và cái tát"
+    },
+    {
+      "title": "Đôi giày ba nghìn tệ"
+    },
+    {
+      "title": "Lỗ Doanh đứng chờ ở cổng trường"
+    },
+    {
+      "title": "Chiếc váy đầu tiên"
+    },
+    {
+      "title": "Hai suất vào Thanh Hoa"
+    },
+    {
+      "title": "Chiếc micro của mẹ tôi"
+    },
+    {
+      "title": "Cuốn sổ của bố"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Kiếp trước tôi chết sau ba đêm, kiếp này mẹ lại quỳ ép tôi bỏ học"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Tôi quỳ trước người lạ, lần đầu có người đỡ tôi dậy"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Lần đầu có người đưa đi học, lần đầu tôi tát em trai"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Người bạn thân kiếp trước đã dắt lão ế đến nhà tôi"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Hai tháng, năm vạn tệ và một đứa trẻ chưa có tên"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Hai năm sau, tôi về thôn mặc chiếc váy đầu tiên"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Ngày công bố điểm, cả nhà tôi im phăng phắc"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Mười lăm năm không ôm tôi, bà ta giật micro đòi nhận con"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Cuốn sổ ghi tên tôi từ năm bốn tuổi, mẹ chưa từng biết"
+    }
+  ],
+  "thumbText": "Mẹ ép tôi *bỏ học*|cưới vợ cho em trai|trọng sinh, tôi gõ|*cửa nhà hàng xóm*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

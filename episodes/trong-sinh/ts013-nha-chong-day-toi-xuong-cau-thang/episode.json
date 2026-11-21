@@ -1,0 +1,95 @@
+{
+  "title": "Mẹ chồng đòi giữ hộ sính lễ, tôi nhớ ra kiếp trước chính bà đẩy tôi xuống cầu thang",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Giữ hộ sính lễ"
+    },
+    {
+      "title": "Tờ phiếu khóa ba năm"
+    },
+    {
+      "title": "Tuần trăng mật sáu người"
+    },
+    {
+      "title": "Hai mươi vạn tệ"
+    },
+    {
+      "title": "Tờ giấy dưới lớp khăn tay"
+    },
+    {
+      "title": "Tờ cam kết"
+    },
+    {
+      "title": "Nhà không còn bức tường nào"
+    },
+    {
+      "title": "Cánh cửa tối"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Mẹ chồng đòi giữ hộ sính lễ, nhưng kiếp trước chính bà đẩy tôi xuống cầu thang"
+    },
+    {
+      "chapters": [
+        2
+      ],
+      "hook": "Bị mẹ chồng lôi đến ngân hàng, tôi chỉ có một đêm để biến lời nói dối thành thật"
+    },
+    {
+      "chapters": [
+        3
+      ],
+      "hook": "Tuần trăng mật sáu người, mà người trả tiền duy nhất là tôi"
+    },
+    {
+      "chapters": [
+        4
+      ],
+      "hook": "Chồng tôi lao về phía tôi, đòi hai mươi vạn tệ cứu cả nhà"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Tôi đứng ngoài cửa nghe họ bàn cách đuổi tôi đi một xu cũng không chia"
+    },
+    {
+      "chapters": [
+        6
+      ],
+      "hook": "Ngày ly hôn, chồng cũ tưởng vừa lừa được một con ngốc"
+    },
+    {
+      "chapters": [
+        7
+      ],
+      "hook": "Cả khu nhà thành nhà nguy hiểm chỉ vì một người đục tường"
+    },
+    {
+      "chapters": [
+        8
+      ],
+      "hook": "Ba năm sau cảnh sát báo chồng cũ đã chết, tôi chỉ nói đúng một câu"
+    }
+  ],
+  "thumbText": "Mẹ chồng đòi|*giữ hộ* sính lễ|kiếp trước bà đẩy|tôi xuống cầu thang",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

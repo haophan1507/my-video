@@ -1,0 +1,103 @@
+{
+  "title": "Kiếp trước tôi khuyên bạn trai đừng đi lấy giấy báo danh cho thanh mai, mười năm sau anh ta đâm tôi",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Nửa tiếng trước giờ thi"
+    },
+    {
+      "title": "Quán tráng miệng và tờ giấy báo"
+    },
+    {
+      "title": "Bữa tiệc tạ ơn thầy cô"
+    },
+    {
+      "title": "Anh đàn anh nói tiếng Hán vấp"
+    },
+    {
+      "title": "Chiếc bụng bầu chặn đường"
+    },
+    {
+      "title": "Họp lớp có một chân khập khiễng"
+    },
+    {
+      "title": "Bài đăng đòi tuổi xuân"
+    },
+    {
+      "title": "Ngày mưa dông ở cổng trường"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Bị bạn trai đâm chết, tôi sống lại trước giờ thi nửa tiếng"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Bạn trai cũ lỡ thi, người đầu tiên bị hỏi tội lại là tôi"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Mẹ bạn trai cũ buột miệng một câu, hai nhà đánh nhau giữa sảnh"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Bạn trai cũ chặn cửa nhà tôi, mời làm bạn như ban ơn"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Thanh mai mang bầu mười tám tuổi chặn tôi hỏi có ghen không"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Bạn trai cũ bước vào họp lớp, một chân khập khiễng"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Tôi lên sàn, bạn trai cũ đăng bài đòi tuổi xuân"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Kiếp trước hắn đâm tôi ngày mưa dông, kiếp này tôi không đi một mình"
+    }
+  ],
+  "thumbText": "Sống lại|*nửa tiếng* trước giờ thi|tôi bảo bạn trai:|đi đi, đừng quay lại",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

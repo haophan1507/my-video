@@ -1,0 +1,123 @@
+{
+  "title": "Bố mẹ ruột nhận tôi về một tháng trước kỳ thi rồi tráo giấy báo danh cho em gái song sinh",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Chết hai lần, sống lại trên xe"
+    },
+    {
+      "title": "Cái tên bà nội đặt"
+    },
+    {
+      "title": "Ly sữa đêm trước kỳ thi"
+    },
+    {
+      "title": "Hai cô thủ khoa"
+    },
+    {
+      "title": "Bài thi có chữ của tôi"
+    },
+    {
+      "title": "Mười vạn tệ không mua được tôi"
+    },
+    {
+      "title": "Chiếc xe màu đỏ"
+    },
+    {
+      "title": "Tờ thư bãi nại"
+    },
+    {
+      "title": "Quả thận của bà nội"
+    },
+    {
+      "title": "Tôi không phải đứa con nhặt"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Tôi chết trên bàn mổ vì em gái song sinh, rồi sống lại trên xe về nhà ruột"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Bà nội đặt cho tôi cái tên mới, còn em gái thì nghiến răng"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Mẹ bưng ly sữa đêm trước kỳ thi, mắt cứ liếc về cái cặp"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Em gái lên tivi nhận điểm thủ khoa của tôi"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Chữ viết trong bài thi thủ khoa là của tôi"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Bố mang thẻ mười vạn tệ đến mua lại tôi"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Ông nuôi đẩy tôi ra khỏi chiếc xe đỏ"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Mẹ mang phong bì dày cộp đòi tôi bãi nại"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Bà nội ôm tôi, rồi cần một quả thận"
+    },
+    {
+      "chapters": [
+        10,
+        10
+      ],
+      "hook": "Ông nuôi đếm tiền lẻ và nói tôi không phải con nhặt"
+    }
+  ],
+  "thumbText": "Tráo giấy|báo danh cho|*em gái* song sinh",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}
