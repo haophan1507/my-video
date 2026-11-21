@@ -1,0 +1,70 @@
+{
+  "title": "Ngày đăng ký kết hôn giữa trận tuyết, chồng hợp đồng nói với tôi: Đừng chạm, bẩn",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Câu thứ ba"
+    },
+    {
+      "title": "Điều khoản thứ chín"
+    },
+    {
+      "title": "Bữa sáng năm giờ mười lăm"
+    },
+    {
+      "title": "Người cũ đến muộn"
+    },
+    {
+      "title": "Bát rượu nếp hoa quế"
+    },
+    {
+      "title": "Ba con phố trong tuyết"
+    },
+    {
+      "title": "Ba trăm lẻ hai lần"
+    },
+    {
+      "title": "Để em nhìn thấy anh trước"
+    },
+    {
+      "title": "Điều khoản duy nhất"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Chồng hợp đồng nói với tôi: Đừng chạm, bẩn"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Bốn mươi chín bữa sáng, ai đang theo dõi tôi?"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Anh đến muộn nửa tiếng, và mẹ tôi phải mổ gấp"
+    }
+  ],
+  "thumbText": "Đừng chạm|*bẩn*|chồng hợp đồng",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

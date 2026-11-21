@@ -1,0 +1,68 @@
+{
+  "title": "Tôi đòi ly hôn thì nghe được tiếng lòng chồng: Chết cũng không ly!",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Chết cũng không ly hôn"
+    },
+    {
+      "title": "Ba chữ lạnh, một câu ấm"
+    },
+    {
+      "title": "Mỹ nam xuất dục và sợi dây chuyền"
+    },
+    {
+      "title": "Chiếc váy ngủ nhà họ Chung"
+    },
+    {
+      "title": "Bữa tiệc đón anh hàng xóm"
+    },
+    {
+      "title": "Đánh cược một câu"
+    },
+    {
+      "title": "Tấm séc năm trăm vạn tệ"
+    },
+    {
+      "title": "Ba phút ở phòng họp"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Tôi đòi ly hôn thì nghe tiếng lòng chồng: Chết cũng không ly!"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Chồng lạnh như băng mà trong đầu ghen đến phát điên"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Nữ thần quốc dân chờ sẵn ở bữa tiệc, chồng bỗng nói ly hôn"
+    }
+  ],
+  "thumbText": "Đòi ly hôn|nghe tiếng lòng chồng:|*CHẾT CŨNG*|KHÔNG LY!",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

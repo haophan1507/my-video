@@ -1,0 +1,71 @@
+{
+  "title": "Khách mang đến tên người tình của chồng, đó là bạn thân cũ của tôi",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Ba quả dưa trên bàn trà"
+    },
+    {
+      "title": "Một trăm hai mươi sáu vạn"
+    },
+    {
+      "title": "Sinh nhật của bạn cũ"
+    },
+    {
+      "title": "Cà phê với Bách Hoằng Tân"
+    },
+    {
+      "title": "Hai đĩa mì xào nguội"
+    },
+    {
+      "title": "Quả dưa đầu tiên"
+    },
+    {
+      "title": "Phiếu giao hàng ở vựa trái cây"
+    },
+    {
+      "title": "Phòng họp sáu người nói dối"
+    },
+    {
+      "title": "Bổ ra rồi mới biết"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Khách mang ba quả dưa đến, rồi đặt tên bạn thân cũ của tôi lên bàn"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Tôi hỏi bạn cũ: căn nhà phía nam thành phố ở có thoải mái không?"
+    },
+    {
+      "chapters": [
+        4,
+        5
+      ],
+      "hook": "Chồng khách nói: chính cô cũng không sạch, lấy tư cách gì đánh giá người khác?"
+    }
+  ],
+  "thumbText": "Người tình của chồng khách|là *bạn thân cũ*|của tôi",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

@@ -1,0 +1,70 @@
+{
+  "title": "Em gái giả đánh gãy chân tôi, bố mẹ ruột bắt tôi nhịn, họ không biết tôi đến để tính sổ",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Cả nhà trên ghế sô pha"
+    },
+    {
+      "title": "Sợi dây chuyền và cái tát"
+    },
+    {
+      "title": "Căn phòng không có cửa sổ"
+    },
+    {
+      "title": "Ly rượu ở khách sạn năm sao"
+    },
+    {
+      "title": "Người mở khóa cửa"
+    },
+    {
+      "title": "Cuộc hẹn ở đường Hoàn Tường"
+    },
+    {
+      "title": "Tầng hai mươi chín"
+    },
+    {
+      "title": "Mạng xã hội trở mặt"
+    },
+    {
+      "title": "Quả thận còn lại"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Em gái giả vu tôi trộm, bố mẹ ruột nhốt tôi vào phòng kín"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Chân tôi bị đánh gãy, rồi tôi bị ép uống ly rượu có thuốc"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Bị khóa trong phòng tầng ba mươi, người mở cửa cho tôi là ai?"
+    }
+  ],
+  "thumbText": "Em gái giả|đánh gãy chân|*bố mẹ ruột*|bắt tôi nhịn",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

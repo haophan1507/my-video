@@ -1,0 +1,67 @@
+{
+  "title": "Trong két sắt của chồng có hợp đồng đẻ thuê năm triệu tệ, bên B là tên tôi",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Hợp đồng trong két sắt"
+    },
+    {
+      "title": "Hộp bánh hạt dẻ"
+    },
+    {
+      "title": "Ba bên cùng thắng"
+    },
+    {
+      "title": "Bát mì vỡ trứng"
+    },
+    {
+      "title": "Mưa trước trạm xe buýt"
+    },
+    {
+      "title": "Phòng riêng số tám"
+    },
+    {
+      "title": "Danh sách thứ tư"
+    },
+    {
+      "title": "Hợp đồng mới"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Trong két sắt của chồng có hợp đồng đẻ thuê, bên B là tên tôi"
+    },
+    {
+      "chapters": [
+        2,
+        3
+      ],
+      "hook": "Bên A tìm đến quán cà phê, tôi lặng lẽ bấm ghi âm"
+    },
+    {
+      "chapters": [
+        4,
+        5
+      ],
+      "hook": "Chồng ngồi trong xe bốn mươi phút, không dám bước xuống"
+    }
+  ],
+  "thumbText": "Hợp đồng *đẻ thuê*|bên B là|tên tôi",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

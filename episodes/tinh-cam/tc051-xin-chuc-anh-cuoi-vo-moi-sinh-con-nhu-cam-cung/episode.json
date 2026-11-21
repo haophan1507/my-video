@@ -1,0 +1,71 @@
+{
+  "title": "Ly hôn xong, tôi chúc vợ mới của chồng cũ sinh con như nhỏ máu nhận thân, anh tưởng tôi giận dỗi",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Tờ giấy ba tháng"
+    },
+    {
+      "title": "Lời chúc ở cục dân chính"
+    },
+    {
+      "title": "Kế hoạch hoàn thành"
+    },
+    {
+      "title": "Cô Dũng Giả"
+    },
+    {
+      "title": "Nhỏ máu nhận thân"
+    },
+    {
+      "title": "Quỳ giữa mưa"
+    },
+    {
+      "title": "Lọ thuốc"
+    },
+    {
+      "title": "Hợp đồng chăm sóc vợ cũ"
+    },
+    {
+      "title": "Người rất ngầu"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Ly hôn xong, tôi chúc vợ mới sinh con như nhỏ máu nhận thân, nhưng túi tôi chỉ có ba tháng sống"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Tôi lên đám cưới chồng cũ hát một bài, nuốt thuốc giảm đau trước khi mở miệng"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Lời chúc của tôi ứng nghiệm từng giọt máu, chồng cũ quỳ dưới chân nhà tôi"
+    }
+  ],
+  "thumbText": "Chúc vợ mới|*nhỏ máu nhận thân*|tôi chỉ còn|*ba tháng*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

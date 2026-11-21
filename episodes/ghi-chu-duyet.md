@@ -48,3 +48,11 @@ Do agent báo lại trong lúc sinh kịch bản hàng loạt (2026-11-21). Xóa
 - tc045: dàn ý ghi "ba nghìn vạn" nhưng chương là "hai nghìn vạn"; ch4 mâu thuẫn nhỏ về điều khoản ly hôn
 - tc046: TikTok P2 (ch3–4) ~9,6 phút sát trần; thêm 3 vòng (camera, nhân chứng mẹ chồng, giấy khám thai giả)
 - tc047: Hạ Môn, Cổ Lãng Tự, cầu Hải Thương chưa kiểm; thêm thư ông Dung và cuốn sổ ở kết
+- tc048: đổi tuổi (nữ 26, nam 28); twist điều khoản thứ chín; TikTok phần 3 chỉ 1 chương (~4 phút)
+- tc049: bỏ các đảo chiều lỏng logic của nguồn (đổi tinh trùng, anh cùng cha khác mẹ), dựng lại quanh hợp đồng làm bẫy; ~34 phút
+- tc050: thêm phản diện "chú Hai" và twist búp bê; TikTok dừng ở "Chúng ta ly hôn đi"
+- tc051: twist xét nghiệm huyết thống (ch5); ch9 cuối chuyển ngôi ba; nguồn mỏng không kéo
+- tc052: nữ chính họ Thẩm (họ bố mẹ nuôi), bố ruột họ Tuân; tiết chế bạo hành; nửa sau viết thêm
+- tc053: 19/25; ch3–5 còn bám sát nguồn; TikTok phần 3 ~10,6 phút
+- tc054: chi tiết pháp lý (thế chấp, ủy quyền, tố giác) tự dựng; TikTok phần 1 ~9,9 phút
+- tc055: TikTok phần 1, 2 ~10 phút; thêm sổ cái, ly đá xay, bưu kiện sổ bìa da

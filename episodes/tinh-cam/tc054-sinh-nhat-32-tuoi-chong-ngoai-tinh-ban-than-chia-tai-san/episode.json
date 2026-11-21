@@ -1,0 +1,68 @@
+{
+  "title": "Thấy tay chồng đặt lên tay bạn thân, tôi khép cửa lại và bắt đầu cộng sổ",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Bàn tay có vết sẹo trăng khuyết"
+    },
+    {
+      "title": "Chữ ký của tôi, tôi chưa từng ký"
+    },
+    {
+      "title": "Quà thứ ba: giấy ủy quyền bán nhà"
+    },
+    {
+      "title": "Hai trăm vạn tệ nợ mà bạn thân không biết"
+    },
+    {
+      "title": "Bản kiểm toán bên bàn ăn sáng"
+    },
+    {
+      "title": "Quỳnh tự tìm đến quán cà phê"
+    },
+    {
+      "title": "Chồng đưa chữ ký đẹp hơn chữ thật"
+    },
+    {
+      "title": "Cái hố rồi sẽ mọc cỏ"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Thấy tay chồng trên tay bạn thân, tôi khép cửa rồi mở hồ sơ tín dụng"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Chồng tặng dây chuyền kim cương, kèm giấy ủy quyền bán nhà đã có tên bạn thân làm chứng"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Chồng nợ hai trăm vạn tệ, và cô bạn thân đang ngủ với anh ta chưa hề biết"
+    }
+  ],
+  "thumbText": "Thấy tay chồng|trên tay *bạn thân*|tôi khép cửa|rồi cộng sổ",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}
