@@ -12,8 +12,8 @@ Mỗi truyện thành **một video dài khung ngang** cho YouTube và **nhiều
 | | YouTube (bản dài) | TikTok (theo chương) |
 |---|---|---|
 | Khung | Ngang 1920×1080, 30 fps, H.264; footage lệch tỉ lệ thì viền đen hai bên | Dọc 1080×1920, 30 fps, H.264 |
-| Độ dài | 25–60 phút ≈ 4.500–11.000 chữ (~180 chữ/phút), lệch nhẹ hai đầu được; độ dài theo truyện, không phải chỉ tiêu (2026-11-21); truyện nguồn có base ≥ 15 phút | Phần = 1–2 chương, 3–8 phút |
-| Cấu trúc | 6–12 chương, mỗi chương 700–1.100 chữ | Mở bằng hook chương, kết bằng cliffhanger |
+| Độ dài | 25–60 phút ≈ 4.500–11.000 chữ (~180 chữ/phút), lệch nhẹ hai đầu được; độ dài theo truyện, không phải chỉ tiêu (2026-11-21); truyện nguồn có base ≥ 15 phút | Chỉ đăng 50–60% truyện, mặc định **3 phần** (mỗi phần 1–2 chương, ~5–9 phút), dừng ở chỗ treo trước cao trào (2026-11-21) |
+| Cấu trúc | 6–12 chương, mỗi chương 700–1.100 chữ | Mở bằng hook chương, kết bằng cliffhanger; phần cuối kết bằng cú treo mạnh, dẫn về YouTube |
 | Chữ trên màn | Câu chào kênh bằng giọng, watermark logo; không thẻ chữ | Watermark logo, nhãn "Phần n/N"; không thẻ chữ |
 | Ảnh bìa | 1280×720 render từ Remotion: nền kem, logo + hook + nút Subscribe bên trái, ảnh nhân vật khung tròn bên phải (`dang-bai.md` mục 2) | 1080×1920 mỗi phần, cùng mẫu: logo, nút "PHẦN n/N", hook phần ở trên, ảnh tròn ở dưới (`dang-bai.md` mục 5) |
 

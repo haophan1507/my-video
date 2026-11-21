@@ -18,10 +18,10 @@
 | Nhân vật: tên → cách gọi cố định | Tô Nhiên (tôi), Cố Dịch, Bạch Uyển Uyển, chú Lục (Lục Thâm), Chu Hân; chi tiết trong outline.md |
 | Bối cảnh | Hải Thành, hiện đại, tiền tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 9 chương, ~39 phút (~7.090 chữ); viết dày + 4 vòng mới (đã duyệt 2026-11-20) |
-| Chia phần TikTok | 9 phần, mỗi chương một phần (các cặp 2–3, 4–5, 6–7 vượt 8 phút: 8,6 / 9,1 / 8,8) |
+| Chia phần TikTok | 3 phần, ch.1–6 (~63% truyện, 2026-11-21): P1 ch.1–2 (treo: dòng tin cũ bỏ qua bảy năm), P2 ch.3–4 (treo: cả nhóm bàn chuyện chú Lục), P3 ch.5–6 (treo: "camera hành lang đã quay lại tất cả"). Ch.7–9 chỉ ở YouTube. |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
-| Footage: chủ đề, nguồn, tag | Nấu ăn cận cảnh, tag `cook` (`public/footage/cook/`, nguồn ở `sources.txt`); 3 clip TikTok dọc, demo ch.1 |
-| Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | chữ: "Bạn thân hôn|người yêu tôi|ngay *sinh nhật*"; ảnh: chưa chọn (nền tạm cắt từ footage) |
+| Footage: chủ đề, nguồn, tag | Dán sticker DIY cận cảnh (tay, nhíp, tranh sticker), tag `sticker` (`public/footage/sticker/`); 19 clip dọc có sẵn ở `D:\Video Footage\Sticker` (đổi từ `cook`, 2026-11-21) |
+| Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | chữ: "Bạn thân hôn|người yêu tôi|ngay *sinh nhật*"; ảnh: cô gái tóc dài nâu, áo đen yếm trắng (`public/tc005/thumb-bg.jpg`, từ ảnh người dùng gửi 2026-11-21) |
 | Teaser TikTok 60–90 giây | |
 
 ## Tiến độ
@@ -31,7 +31,7 @@
 - [x] 3. Viết chương: `script/chNN.tts.txt` (đủ 9 chương, ~7.430 chữ)
 - [x] 4. Soát TTS (9 chương): báo cáo sạch
 - [ ] 5. Giọng: `audio/chNN.mp3`
-- [ ] 6. Footage: `public/footage/cook/`
+- [ ] 6. Footage: `public/footage/sticker/`
 - [ ] 7. Render: `out/`
 
 ## Nhật ký
@@ -45,3 +45,5 @@
 - 2026-11-20: mẫu bìa mới (ảnh nhân vật + mảng giấy chữ hook); đặt thumbText 3 dòng, thumbTag "Trọn bộ". Còn thiếu ảnh nhân vật.
 - 2026-11-20: bỏ chNN.txt, mỗi chương chỉ còn chNN.tts.txt (viết sẵn dạng đọc được); bước 4 thành soát bằng normalize-vi.mjs [--fix].
 - 2026-11-21: viết ch02–ch09 (tổng 9 chương, 7.428 chữ ≈ 41 phút); normalize-vi sạch cảnh báo; episode.json: 9 phần TikTok mỗi chương một phần. Chờ chốt giọng để gen.
+- 2026-11-21: đổi footage sang chủ đề Sticker (19 clip dọc 576×1024 / 720×1280, 4–13 phút, nguồn `D:\Video Footage\Sticker`), `footageTag` = `sticker`; chuẩn hóa vào `public/footage/sticker/`. Chuẩn bị ảnh bìa từ ảnh người dùng gửi (`prep-thumb`). Còn chờ chốt giọng để gen ch01–ch09.
+- 2026-11-21: chốt TikTok 3 phần (ch.1–6, dừng ở cú treo camera hành lang); `episode.json` `parts` còn 3 phần.

@@ -152,6 +152,7 @@ Nghe trọn truyện trên YouTube: <Tên kênh>
 - Câu đầu caption là hook; **3–5 hashtag cụ thể**, không dồn #fyp #viral.
 - Dòng dẫn về YouTube nêu lý do cụ thể; mỗi phần **một** lời kêu gọi. Link YouTube để ở bio.
 - Dùng audio gốc (giọng kể), không gắn nhạc trend.
+- TikTok chỉ có 3 phần (~50–60% truyện, dừng ở cú treo gây tò mò; chuẩn ở `edit-yeu-cau.md` mục Khung hình). Phần 3 là lời mời sang YouTube: caption và bình luận ghim nêu đúng điều người xem đang tò mò (ví dụ "Đoạn camera quay được gì?").
 - Đăng theo thứ tự, mỗi ngày một phần hoặc cách vài giờ; ghim bình luận dẫn tới phần tiếp; gom playlist nếu có.
 - Phần dài hơn 1 phút mới đủ điều kiện Creator Rewards (kiểm tra điều kiện hiện hành). Phần dưới 3 phút đăng lại được làm YouTube Shorts.
 - Khai báo AI của TikTok: kiểm tra mục khai báo trước khi đăng (chưa kiểm chứng).

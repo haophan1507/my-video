@@ -1,13 +1,13 @@
 {
   "title": "Bạn thân hôn người yêu tôi ngay sinh nhật",
-  "footageTag": "cook",
+  "footageTag": "sticker",
   "cutEverySec": 28,
   "dim": 0.4,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
@@ -45,65 +45,23 @@
     {
       "chapters": [
         1,
-        1
+        2
       ],
       "hook": "Bạn thân hôn người yêu tôi ngay sinh nhật"
     },
     {
       "chapters": [
-        2,
-        2
-      ],
-      "hook": "Chú Lục đã nghe hết, và không hề an ủi"
-    },
-    {
-      "chapters": [
         3,
-        3
+        4
       ],
       "hook": "Bảy năm tôi không chịu nhìn ra"
     },
     {
       "chapters": [
-        4,
-        4
-      ],
-      "hook": "Tôi hẹn gặp cha nuôi của người cướp người yêu mình"
-    },
-    {
-      "chapters": [
         5,
-        5
-      ],
-      "hook": "Cô ta hét rằng tôi điên rồi"
-    },
-    {
-      "chapters": [
-        6,
         6
       ],
       "hook": "Chiêu của cô ta tên là nạn nhân giả"
-    },
-    {
-      "chapters": [
-        7,
-        7
-      ],
-      "hook": "Camera hành lang quay lại tất cả"
-    },
-    {
-      "chapters": [
-        8,
-        8
-      ],
-      "hook": "Dịch quay lại với bó hoa và lý do rất hay"
-    },
-    {
-      "chapters": [
-        9,
-        9
-      ],
-      "hook": "Nửa năm sau, tôi gặp lại hai người đó"
     }
   ],
   "thumbText": "Bạn thân hôn|người yêu tôi|ngay *sinh nhật*",
@@ -111,5 +69,5 @@
   "introSec": 2.64,
   "audioSrc": "tc005/audio.mp3",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%"
+  "thumbFocus": "0% 50%"
 }
