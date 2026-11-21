@@ -1,0 +1,25 @@
+# Ghi chú cần xem khi duyệt kịch bản sinh sẵn
+
+Do agent báo lại trong lúc sinh kịch bản hàng loạt (2026-11-21). Xóa dòng khi đã xem. Dàn ý và chương của mọi tập ở đây đều chưa duyệt, trừ tc007 ch.1.
+
+- tc006: 19/25; còn cảnh xúi trẻ đốt nhà, bạo lực gia đình (đã làm nhẹ, không ai chết)
+- tc009: 7 tên riêng (quá 5); ch3 cảnh tát mười cái
+- tc008: ~60 phút, sát trần; giữ con ba ngày rồi mất con (kể nhẹ)
+- tc002: họ Đổng phụ trùng nam chính tc006 (vai phụ)
+- tc013: ch3–6 bám sát câu chữ nguồn (agent đã diễn đạt lại một phần), nên đọc lướt; ch9 kết buồn, không cliffhanger cứng
+- tc011: 6 tên riêng; bỏ hết cảnh nóng nguồn
+- tc019: 6 tên riêng; ch5, ch9 nặng đạo lý, nên đọc lại
+- tc015: vài chỗ văn hơi convert (agent tự nhận); làm nhẹ cảnh bỏ thuốc
+- tc017: ~62 phút, hơi vượt; ch9–11 viết nhanh, nên đọc lại
+- tc022: 20/25, ~34 phút (ngắn, giữ gọn theo truyện); ch2–8 viết nhanh, nên đọc lại; cái chết của chồng để mơ hồ
+- tc023: ch8–10 gần bản nguồn hơn các chương đầu; hook 'mười một anh yêu' vs ch9 'mười một chàng trai cộng sáu bạn gái' (số liệu lệch nhẹ)
+- tc025: ch7 còn 1 câu dài >35 chữ; twist ảnh/cây ô mới
+- tc026: 18/25 (thấp nhất); trục kiện nợ và 2 cảnh mới tự dựng; mốc ngân hàng tự đặt
+- tc027: 20/25; ch8–9 có thể lệch khung nguồn; Phương ghi âm hơi thuận tiện
+- tc028: 19/25; ch5, ch7 có tình tiết y khoa (bệnh án, thuốc an thần)
+- tc029: ch5, 6, 8 bám sát nhịp truyện gốc
+- tc030: ch5 cliffhanger yếu; còn chữ ngoại "Tế Nam"
+- tc031: số tiền ch2/4/7 chưa đối chiếu; họ Biện trùng vai phụ tc027
+- tc032: ch7, ch9 ~1.080 chữ; chưa chạy lại normalize sau sửa ch1
+- tc033: 6 tên riêng; ch7 704 chữ
+- tc034: khoản 288.800 tệ viết là "sính lễ đối ứng" nhà gái (nguồn mơ hồ)
