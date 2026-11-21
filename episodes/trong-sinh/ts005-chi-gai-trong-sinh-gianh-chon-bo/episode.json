@@ -1,0 +1,122 @@
+{
+  "title": "Chị gái đâm tôi ngày đính hôn, sống lại tôi chọn theo mẹ đi học",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Phòng hòa giải ngày chị chọn bố"
+    },
+    {
+      "title": "Căn hộ lạnh như phòng mổ"
+    },
+    {
+      "title": "Cây đèn dán lại của mẹ"
+    },
+    {
+      "title": "Phòng dụng cụ và chiếc cúc áo camera"
+    },
+    {
+      "title": "Chị đứng giữa sân khấu vạn người mê"
+    },
+    {
+      "title": "Mùi tuyết tùng trong thang máy"
+    },
+    {
+      "title": "Cô gái đeo khẩu trang ở phòng thí nghiệm"
+    },
+    {
+      "title": "Một đêm vạn bình luận chửi con chip"
+    },
+    {
+      "title": "Dòng sông năm mười hai tuổi"
+    },
+    {
+      "title": "Lá thư cuối cùng của chị"
+    },
+    {
+      "title": "Cái giá của anh"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Chị đâm tôi ngày đính hôn, mở mắt tôi về ngày bố mẹ ly hôn"
+    },
+    {
+      "chapters": [
+        2
+      ],
+      "hook": "Tôi theo mẹ vào căn hộ lạnh như phòng mổ"
+    },
+    {
+      "chapters": [
+        3
+      ],
+      "hook": "Mẹ tôi từng là thủ khoa, bố đạp xe nửa thành phố chờ bà"
+    },
+    {
+      "chapters": [
+        4
+      ],
+      "hook": "Ba kẻ cầm gậy chặn tôi, chỉ một người biết đánh thật"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Lễ kỷ niệm trường, chị đứng giữa sân khấu"
+    },
+    {
+      "chapters": [
+        6
+      ],
+      "hook": "Lần đầu gặp anh, tôi cầm dao găm trong thang máy"
+    },
+    {
+      "chapters": [
+        7
+      ],
+      "hook": "Chị tới phòng thí nghiệm khoe tên trên áp phích"
+    },
+    {
+      "chapters": [
+        8
+      ],
+      "hook": "Con chip ba năm bị chửi như lừa cả nước"
+    },
+    {
+      "chapters": [
+        9
+      ],
+      "hook": "Chị bán tin của tôi, tôi vẫn mang rượu đến"
+    },
+    {
+      "chapters": [
+        10
+      ],
+      "hook": "Người vạch mặt Thương Bân lại là chị tôi"
+    },
+    {
+      "chapters": [
+        11
+      ],
+      "hook": "Cầu hôn ngày lên sàn, và cái giá anh đã trả"
+    }
+  ],
+  "thumbText": "Chị đâm tôi|ngày đính hôn|sống lại tôi *theo mẹ*|*đi học*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

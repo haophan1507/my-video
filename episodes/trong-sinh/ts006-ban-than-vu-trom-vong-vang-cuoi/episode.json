@@ -1,0 +1,113 @@
+{
+  "title": "Bạn thân để quên vàng cưới, kiếp này tôi gọi mẹ chồng cô ta đến kiểm trước mặt mọi người",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Hộp trang sức trên bàn trang điểm"
+    },
+    {
+      "title": "Đôi vòng long phụng đâu rồi"
+    },
+    {
+      "title": "Camera không biết nói dối"
+    },
+    {
+      "title": "Túi nhựa đen ở tiệm Hằng Phúc"
+    },
+    {
+      "title": "Cuốn sổ đăng ký"
+    },
+    {
+      "title": "Cái thai không có thật"
+    },
+    {
+      "title": "Bức thư nặc danh"
+    },
+    {
+      "title": "Tờ cam kết viết ngày mười sáu"
+    },
+    {
+      "title": "Ngày chiếc xe tải đi qua"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Kiếp trước tôi bị vu trộm vàng cưới, kiếp này tôi gọi mẹ chồng cô ta đến kiểm"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Đôi vòng sáu vạn bốn không có trong hộp"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Camera chiếu cổ tay cô dâu trống trơn"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Em trai cô dâu ôm phong bì và đi bán vàng"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Sổ tiệm vàng ghi tên người bán"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Bị lật tẩy, cô dâu giả có thai"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Đơn tố cáo nặc danh tôi chờ từ kiếp trước"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Tờ cam kết bỏ trống ngày tháng"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Bảy tháng sau, ngày xe tải đi qua"
+    }
+  ],
+  "thumbText": "Bạn thân vu tôi|*trộm vàng* cưới|tôi gọi mẹ chồng|cô ta đến *kiểm*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

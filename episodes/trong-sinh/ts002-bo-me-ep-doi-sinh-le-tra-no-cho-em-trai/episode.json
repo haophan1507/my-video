@@ -1,0 +1,123 @@
+{
+  "title": "Ngày rước dâu, mẹ bắt tôi lấy cái thai đòi thêm năm mươi vạn, tôi đá thẳng em trai",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Năm mươi vạn và cái thai trong bụng"
+    },
+    {
+      "title": "Cú đá thứ hai, cánh cửa thứ nhất"
+    },
+    {
+      "title": "Cô học bá và anh bạn đội sổ"
+    },
+    {
+      "title": "Chiêu mềm, chiêu cứng"
+    },
+    {
+      "title": "Người hàng xóm tầng dưới"
+    },
+    {
+      "title": "Phong bì dày cộp"
+    },
+    {
+      "title": "Em dâu dịu dàng"
+    },
+    {
+      "title": "Tấm ảnh trong quán bar"
+    },
+    {
+      "title": "Bữa cơm ở nhà ngoại"
+    },
+    {
+      "title": "Tôi tha thứ, nhưng không ký"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Chết vì gia đình hút máu, tôi sống lại đúng sáng rước dâu"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Cú đá thứ hai dành cho cánh cửa nhà ngoại"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Tôi từng đứng đầu khối rồi bị rút giấy báo đại học"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Mẹ gọi ngọt như mật, tôi biết bà cần tiền"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Chiêu hay nhất là thuê hàng xóm miệng độc hơn"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Lần đầu hai kiếp mẹ chủ động đưa tiền cho tôi"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Giọng nói em dâu giống hệt ngày tôi chết"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Chồng ôm người lạ, bằng chứng do em trai gửi"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Hai mươi vạn về tài khoản, bữa cơm cuối kiếp trước"
+    },
+    {
+      "chapters": [
+        10,
+        10
+      ],
+      "hook": "Tôi tỉnh dậy ở bệnh viện, chồng rớm máu bên giường"
+    }
+  ],
+  "thumbText": "Mẹ bắt lấy thai|đòi *năm mươi vạn*|trả nợ cờ bạc",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

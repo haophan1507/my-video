@@ -1,0 +1,40 @@
+# ts005: Bố mẹ ly hôn, chị gái trọng sinh giành theo bố để cướp 'kịch bản vạn người mê' của tôi; tôi vui vẻ theo mẹ đi học
+
+<!-- Mẫu hồ sơ tập. Chép thành episodes/<thể-loại>/<mã>-slug/tap.md khi mở tập mới.
+     Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
+
+- **Truyện nguồn**: ts005, stories/trong-sinh/ts005-chi-gai-trong-sinh-gianh-chon-bo.md
+- **Bước hiện tại**: 5
+- **Cập nhật**: 2026-11-21
+
+## Quyết định
+
+| Mục | Giá trị |
+|---|---|
+| Thể loại | ts (trọng sinh; hai chị em cùng sống lại, chị ganh tị, nữ chính đi học và làm chip, nam chính hy sinh; ấm và cảm động, twist cuối mạnh) |
+| Điểm: hook / twist / độ dài / dễ nghe / hợp gu (≥ 15/25) | 5 / 5 / 4 / 3 / 4 = 21/25 (dễ nghe 3 vì sáu tên riêng; chủ đề chip nhẹ hơn motif quen) |
+| Hook cả truyện (một câu) | "Ngày đính hôn, chị gái tôi cầm dao đâm thẳng vào ngực tôi... Tôi mở mắt, đứng trong phòng hòa giải, đúng ngày bố mẹ ly hôn. Và lần này, chị tôi lao vào lòng bố." (mốc trọng sinh ở ngay hook ch.1) |
+| Tiêu đề YouTube: 5 phương án + điểm, phương án chọn | 5 phương án ở outline.md; gợi ý giữ A/B/D; `title` trong episode.json lấy A (19/20); chốt khi đăng |
+| Nhân vật: tên → cách gọi cố định | Sài Thư Ý (tôi; mẹ gọi "Ý", Phù Kỳ gọi "Ý Ý"), Sài Ánh (chị), Phù Kỳ (anh), Đặng Lệ Chi, đạo diễn Thương Bân, giáo sư Trì Hạnh, mẹ, bố; chi tiết outline.md |
+| Bối cảnh | Bắc Kinh, hiện đại, trường nữ sinh Thục Đức, công ty chip Hằng Tâm, tập đoàn Phù thị; tiền tệ |
+| Độ dài: số chương, phút; cách đủ độ dài | 11 chương, ~56 phút (~10.130 chữ); cắt đoạn chuyên môn phòng thí nghiệm; thêm cảnh mẹ và cây đèn, chứng cứ xoài, chìa khóa két của chị, đèn dán sơn vàng |
+| Chia phần TikTok | 11 phần, mỗi chương một phần (4,4–5,9 phút; chi tiết outline.md) |
+| Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
+| Footage: chủ đề, nguồn, tag | |
+| Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | chữ: "Chị đâm tôi\|ngày đính hôn\|sống lại tôi *theo mẹ*\|*đi học*"; ảnh: chưa chọn |
+| Teaser TikTok 60–90 giây | |
+
+## Tiến độ
+
+- [x] 1. Chọn truyện
+- [x] 2. Dàn ý: `outline.md`
+- [x] 3. Viết chương: `script/chNN.tts.txt`
+- [x] 4. Soát TTS: báo cáo `normalize-vi.mjs` sạch
+- [ ] 5. Giọng: `audio/chNN.mp3`
+- [ ] 6. Footage: `public/footage/<tag>/`
+- [ ] 7. Render: `out/`
+
+## Nhật ký
+
+- 2026-11-21: mở tập.
+- 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 11 chương, ~10.130 chữ, ~56 phút; dàn ý và chương chưa duyệt. Lưu ý: chương bám khá sát mạch bản gốc, nên xem lại độ khác biệt câu chữ.

@@ -23,3 +23,6 @@ Do agent báo lại trong lúc sinh kịch bản hàng loạt (2026-11-21). Xóa
 - tc032: ch7, ch9 ~1.080 chữ; chưa chạy lại normalize sau sửa ch1
 - tc033: 6 tên riêng; ch7 704 chữ
 - tc034: khoản 288.800 tệ viết là "sính lễ đối ứng" nhà gái (nguồn mơ hồ)
+- ts002: twist em dâu (giọng ngày nữ chính chết) và anh Phi hàng xóm là cảnh mới; tiêu đề C chỉ khớp ch4–5; thumbText viết nhanh
+- ts005: 6 tên riêng; chương bám sát mạch bản gốc, câu chữ có thể còn gần nguồn
+- ts006: bỏ cảnh hack ngân hàng của nguồn; thêm cảnh giả có thai (ch6), thư nặc danh (ch7), xe tải (ch9)
