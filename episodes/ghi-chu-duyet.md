@@ -39,3 +39,4 @@ Do agent báo lại trong lúc sinh kịch bản hàng loạt (2026-11-21). Xóa
 - tc036: đổi kết (giữ con); ch5 tiếng lóng chưa soát kỹ
 - tc037: Thiều Uyển không phải bạch nguyệt quang thật; ch6 ngôi ba; tên phụ chưa đối chiếu
 - tc038: nội dung nặng vì trẻ nhỏ bị hại (giữ cảnh dốc chai, bỏ cảnh đánh đá); ch3–4 có thể lệch logic
+- tc039: kết đổi thành ấm mở (nữ chính được cứu); cảnh khách sạn ch6 (chuốc thuốc, ép) có thể nhạy cảm; twist chuỗi ngọc là vốn của mẹ

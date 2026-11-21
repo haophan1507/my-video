@@ -1,0 +1,95 @@
+{
+  "title": "Ung thư giai đoạn cuối, chồng và bạch nguyệt quang đòi ly hôn kèm chuỗi ngọc trăm triệu, tôi chỉ nói một câu",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Tờ đơn ly hôn trên bàn ăn"
+    },
+    {
+      "title": "Chuỗi ngọc mẹ nhìn mãi"
+    },
+    {
+      "title": "Chiếc hộp nhung ở tầng thượng"
+    },
+    {
+      "title": "Bản di chúc và miếng bánh dâu"
+    },
+    {
+      "title": "Người bạn trai tạm thời"
+    },
+    {
+      "title": "Phòng 306"
+    },
+    {
+      "title": "Hai tờ giấy cho Vũ Thừa"
+    },
+    {
+      "title": "Đỉnh núi tuyết"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Tôi ung thư giai đoạn cuối, bạch nguyệt quang của chồng đòi ly hôn và đòi cả chuỗi ngọc"
+    },
+    {
+      "chapters": [
+        2
+      ],
+      "hook": "Mẹ nhìn mãi chuỗi ngọc trên ti vi và nhắc đến chiếc vòng cưới đã bán"
+    },
+    {
+      "chapters": [
+        3
+      ],
+      "hook": "Tôi bước vào văn phòng tổng giám đốc đòi chuỗi ngọc"
+    },
+    {
+      "chapters": [
+        4
+      ],
+      "hook": "Tôi ký di chúc: người thừa kế duy nhất là mẹ"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Tôi chặn số chồng, rồi buột miệng nói mình có bạn trai"
+    },
+    {
+      "chapters": [
+        6
+      ],
+      "hook": "Tôi biết phòng 306 là bẫy nhưng vẫn bước vào"
+    },
+    {
+      "chapters": [
+        7
+      ],
+      "hook": "Chồng quỳ xin tha, tôi đưa hai tờ giấy"
+    },
+    {
+      "chapters": [
+        8
+      ],
+      "hook": "Tôi lên đỉnh núi tuyết để chụp tấm ảnh cuối"
+    }
+  ],
+  "thumbText": "UNG THƯ GIAI ĐOẠN CUỐI|ĐÒI LY HÔN VÀ *CHUỖI NGỌC*|TÔI NÓI ĐÚNG *MỘT CÂU*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}
