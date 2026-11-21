@@ -40,3 +40,11 @@ Do agent báo lại trong lúc sinh kịch bản hàng loạt (2026-11-21). Xóa
 - tc037: Thiều Uyển không phải bạch nguyệt quang thật; ch6 ngôi ba; tên phụ chưa đối chiếu
 - tc038: nội dung nặng vì trẻ nhỏ bị hại (giữ cảnh dốc chai, bỏ cảnh đánh đá); ch3–4 có thể lệch logic
 - tc039: kết đổi thành ấm mở (nữ chính được cứu); cảnh khách sạn ch6 (chuốc thuốc, ép) có thể nhạy cảm; twist chuỗi ngọc là vốn của mẹ
+- tc040: TikTok P1/P2 ~9,3 phút (vượt 8); chi tiết y học tim chưa bác sĩ kiểm; ch4–6 ngắn
+- tc041: họ phụ "Bạc" dễ đụng; TikTok 3 phần (ch1–5)
+- tc042: nữ chính Bao Tuệ Vi (tên thật Đằng Tuệ Vi); họ phụ Đằng/Úy/Mạch tự chọn, cần kiểm
+- tc043: bỏ cảnh thân mật nguồn; tên Phùng Chấp Hạ tự đặt; hai cặp TikTok sát trần 8 phút
+- tc044: 12 chương ~52 phút; "tế bào gốc" thay "hiến tạng" trong tiêu đề; cảnh ghi âm/loa ngoài ch9 thêm
+- tc045: dàn ý ghi "ba nghìn vạn" nhưng chương là "hai nghìn vạn"; ch4 mâu thuẫn nhỏ về điều khoản ly hôn
+- tc046: TikTok P2 (ch3–4) ~9,6 phút sát trần; thêm 3 vòng (camera, nhân chứng mẹ chồng, giấy khám thai giả)
+- tc047: Hạ Môn, Cổ Lãng Tự, cầu Hải Thương chưa kiểm; thêm thư ông Dung và cuốn sổ ở kết

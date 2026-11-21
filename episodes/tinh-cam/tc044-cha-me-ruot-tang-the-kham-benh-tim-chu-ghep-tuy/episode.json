@@ -1,5 +1,5 @@
 {
-  "title": "Bố mẹ ruột thất lạc 22 năm tìm thấy tôi, quà gặp mặt là một thẻ khám sức khỏe; tôi cầm thẻ mới thấy toàn là hạng mục hiến tạng trước mổ",
+  "title": "Bố mẹ ruột tìm lại tôi sau hai mươi hai năm, quà gặp mặt là thẻ khám của người hiến",
   "footageTag": "",
   "cutEverySec": 28,
   "dim": 0.4,
@@ -13,10 +13,40 @@
   },
   "chapters": [
     {
-      "title": "Tên chương 1 (có từ khóa)"
+      "title": "Thẻ khám trong tiệc nhận thân"
     },
     {
-      "title": "Tên chương 2"
+      "title": "Cuộc gọi từ ngân hàng tế bào gốc"
+    },
+    {
+      "title": "Căn kho bốn mét vuông"
+    },
+    {
+      "title": "Hóa đơn khám và tiếng gõ cửa hai giờ sáng"
+    },
+    {
+      "title": "Họ lấy tên tôi từ đâu"
+    },
+    {
+      "title": "Ba mũi tên trên giấy ủy quyền"
+    },
+    {
+      "title": "Hộp bánh quy gỉ của bà ngoại"
+    },
+    {
+      "title": "Đòn tổng tấn công"
+    },
+    {
+      "title": "Rốt cuộc ai khắc ai"
+    },
+    {
+      "title": "Ba điều kiện và viên kẹo sữa"
+    },
+    {
+      "title": "Chiếc bánh chia đôi"
+    },
+    {
+      "title": "Bà ơi, về nhà rồi"
     }
   ],
   "parts": [
@@ -25,10 +55,24 @@
         1,
         2
       ],
-      "hook": "Hook của Phần 1"
+      "hook": "Quà nhận thân là thẻ khám của *người hiến*"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Họ lấy tên tôi *từ đâu*?"
+    },
+    {
+      "chapters": [
+        5,
+        6
+      ],
+      "hook": "Bà ngoại giấu *hai mươi hai năm* trong hộp bánh quy"
     }
   ],
-  "thumbText": "Hook rút gọn|tối đa 4 dòng|*từ nhấn* tô màu",
+  "thumbText": "Bố mẹ ruột|tặng thẻ khám|của *người hiến*",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
   "thumbBg": null,

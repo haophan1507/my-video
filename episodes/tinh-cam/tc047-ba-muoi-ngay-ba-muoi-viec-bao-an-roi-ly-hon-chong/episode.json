@@ -1,5 +1,5 @@
 {
-  "title": "Kỷ niệm ba năm cưới, tôi chờ quà mà chờ được tin chồng lên hot search cùng bạch nguyệt quang; tôi ký đơn ly hôn, gửi anh: 'Ba mươi ngày sau gặp ở cục dân chính'",
+  "title": "Chồng lên hot search cùng bạch nguyệt quang ngày kỷ niệm cưới, tôi ký đơn ly hôn gửi anh",
   "footageTag": "",
   "cutEverySec": 28,
   "dim": 0.4,
@@ -13,10 +13,34 @@
   },
   "chapters": [
     {
-      "title": "Tên chương 1 (có từ khóa)"
+      "title": "Hot search ngày kỷ niệm"
     },
     {
-      "title": "Tên chương 2"
+      "title": "Biên bản bàn giao ba mươi việc"
+    },
+    {
+      "title": "Bữa lẩu với bạch nguyệt quang"
+    },
+    {
+      "title": "Người quỳ trước hành lang"
+    },
+    {
+      "title": "Màn hình khắp Hạ Môn"
+    },
+    {
+      "title": "Chủ tịch Lý lộ diện"
+    },
+    {
+      "title": "Ba nén hương"
+    },
+    {
+      "title": "Hai phút ở cục dân chính"
+    },
+    {
+      "title": "Bảo vệ tầng một"
+    },
+    {
+      "title": "Ba mươi việc của anh"
     }
   ],
   "parts": [
@@ -25,10 +49,24 @@
         1,
         2
       ],
-      "hook": "Hook của Phần 1"
+      "hook": "Chồng lên hot search cùng bạch nguyệt quang, tôi ký đơn ly hôn"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Bạch nguyệt quang bôi nhọ tôi, tôi bấm phát đoạn ghi âm"
+    },
+    {
+      "chapters": [
+        5,
+        6
+      ],
+      "hook": "Cả thành phố nhìn chồng quỳ xin lỗi, tôi không xuống"
     }
   ],
-  "thumbText": "Hook rút gọn|tối đa 4 dòng|*từ nhấn* tô màu",
+  "thumbText": "Ký đơn ly hôn|gửi chồng|*ba mươi ngày*|gặp ở cục dân chính",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
   "thumbBg": null,
