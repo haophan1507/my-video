@@ -1,0 +1,123 @@
+{
+  "title": "Học muội trà xanh níu tay áo bạn trai, anh đẩy cô ra rồi ôm tay tôi: Vợ ơi, sợ quá",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Học muội níu tay áo"
+    },
+    {
+      "title": "Bộ tóc giả và cú xô sau lưng"
+    },
+    {
+      "title": "Buổi phát trực tiếp hai mươi vạn người"
+    },
+    {
+      "title": "Ly nước ở quán nướng"
+    },
+    {
+      "title": "Mối tình đầu thành mẹ kế"
+    },
+    {
+      "title": "Bà Trần xách tai"
+    },
+    {
+      "title": "Ván cờ bốn năm"
+    },
+    {
+      "title": "Nốt ruồi và lời đe dọa"
+    },
+    {
+      "title": "Bão mạng"
+    },
+    {
+      "title": "Khách sạn nhà tôi"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Học muội níu tay áo, bạn trai đẩy ra: Vợ ơi, trà xanh"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Bạn trai đội tóc giả vào phòng ma, tôi bị xô ngã"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Hai mươi vạn người xem bạn trai vạch mặt trà xanh"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Tôi uống nhầm ly nước trà xanh bỏ thuốc"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Mối tình đầu của bạn trai thành mẹ kế anh"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Một triệu tệ để rời bạn trai, rồi tiếng heo kêu"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Vợ cũ chờ bốn năm để trả đũa trà xanh"
+    },
+    {
+      "chapters": [
+        8,
+        8
+      ],
+      "hook": "Trà xanh nói nốt ruồi trên đùi bố bạn trai"
+    },
+    {
+      "chapters": [
+        9,
+        9
+      ],
+      "hook": "Bạn trai bị tố ma túy ngay sinh nhật tôi"
+    },
+    {
+      "chapters": [
+        10,
+        10
+      ],
+      "hook": "Cái thai không phải của ông, ai là cha?"
+    }
+  ],
+  "thumbText": "Trà xanh níu tay áo|anh ôm tay *tôi*|*Vợ ơi* sợ quá",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

@@ -1,0 +1,122 @@
+{
+  "title": "Bạch nguyệt quang hỏi chồng tôi: Anh ly hôn rồi yêu em nhé? Anh đồng ý không do dự",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Anh đồng ý không do dự"
+    },
+    {
+      "title": "Chị cho em mượn chồng chị nhé"
+    },
+    {
+      "title": "Phụ nữ ly hôn là mất giá"
+    },
+    {
+      "title": "Ba mươi ngày diễn vai vợ si tình"
+    },
+    {
+      "title": "Người đàn ông trong bếp"
+    },
+    {
+      "title": "Trốn trong tủ quần áo"
+    },
+    {
+      "title": "Món hàng cũ anh ta xin mua lại"
+    },
+    {
+      "title": "Nhặt đồ phế thải"
+    },
+    {
+      "title": "Đi nhầm phòng tiệc"
+    },
+    {
+      "title": "Hàng trả lại tôi không nhận"
+    },
+    {
+      "title": "Cầu hôn lần thứ ba"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Bạch nguyệt quang hỏi chồng tôi: Anh ly hôn rồi yêu em nhé? Anh đồng ý không do dự"
+    },
+    {
+      "chapters": [
+        2
+      ],
+      "hook": "Chồng có bạch nguyệt quang, và cô ta xin tôi cho mượn anh ta"
+    },
+    {
+      "chapters": [
+        3
+      ],
+      "hook": "Ký đơn ly hôn xong, chồng cười: Phụ nữ ly hôn là mất giá"
+    },
+    {
+      "chapters": [
+        4
+      ],
+      "hook": "Ba mươi ngày chờ ly hôn, tôi diễn vai vợ si tình"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Có người bóc tôm cho tôi, bữa đầu tiên sau bảy ngày"
+    },
+    {
+      "chapters": [
+        6
+      ],
+      "hook": "Chồng cũ đứng ngoài cửa, sinh viên trốn trong tủ quần áo"
+    },
+    {
+      "chapters": [
+        7
+      ],
+      "hook": "Nửa tháng có người nấu cơm cho tôi, chồng cũ xin quay lại"
+    },
+    {
+      "chapters": [
+        8
+      ],
+      "hook": "Cậu ấy giới thiệu tôi là bạn gái, chồng cũ gọi tôi là đồ phế thải"
+    },
+    {
+      "chapters": [
+        9
+      ],
+      "hook": "Tôi đi nhầm phòng tiệc và gặp chồng cũ cùng bạch nguyệt quang"
+    },
+    {
+      "chapters": [
+        10
+      ],
+      "hook": "Bạch nguyệt quang chặn tôi ở bãi đỗ xe, đòi trả hàng"
+    },
+    {
+      "chapters": [
+        11
+      ],
+      "hook": "Hai năm sau, cậu ấy cầu hôn tôi lần thứ ba"
+    }
+  ],
+  "thumbText": "Anh *ly hôn*|rồi yêu em|nhé?|*Đồng ý.*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

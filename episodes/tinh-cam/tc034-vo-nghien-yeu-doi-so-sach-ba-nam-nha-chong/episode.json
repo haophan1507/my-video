@@ -1,0 +1,93 @@
+{
+  "title": "Mẹ chồng đòi tôi hai mươi tám vạn cho em chồng, tôi mở sổ sách ba năm ra đọc",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Hai mươi tám vạn tám nghìn tám trăm tệ"
+    },
+    {
+      "title": "Cuốn sổ bìa xanh"
+    },
+    {
+      "title": "Công ty không còn tồn tại"
+    },
+    {
+      "title": "Họp họ, tôi chỉ đọc số"
+    },
+    {
+      "title": "Hai mươi vạn đi đâu"
+    },
+    {
+      "title": "Đơn ly hôn và bữa cơm cuối"
+    },
+    {
+      "title": "Chúc họ hạnh phúc"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        1
+      ],
+      "hook": "Mẹ chồng đòi tôi hai mươi tám vạn cho em chồng, tôi mở sổ ra đọc"
+    },
+    {
+      "chapters": [
+        2,
+        2
+      ],
+      "hook": "Ba năm tôi ghi sổ nhà chồng, chưa một lần mở lại"
+    },
+    {
+      "chapters": [
+        3,
+        3
+      ],
+      "hook": "Hai mươi vạn tôi đưa chồng khởi nghiệp, lại vào túi em chồng"
+    },
+    {
+      "chapters": [
+        4,
+        4
+      ],
+      "hook": "Mười hai người đến xem tôi bị mắng, tôi chỉ đọc số"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Đọc đến khoản hai mươi vạn, cả nhà họ im bặt"
+    },
+    {
+      "chapters": [
+        6,
+        6
+      ],
+      "hook": "Người đàn ông quỳ trước mặt tôi đã nói câu này ba lần"
+    },
+    {
+      "chapters": [
+        7,
+        7
+      ],
+      "hook": "Ba tháng sau ly hôn, không ai dặn tôi nấu món gì"
+    }
+  ],
+  "thumbText": "Mẹ chồng đòi|*28 vạn* cho|em chồng, tôi|mở sổ ra đọc",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

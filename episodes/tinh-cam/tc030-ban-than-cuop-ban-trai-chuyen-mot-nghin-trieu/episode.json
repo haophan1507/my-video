@@ -1,0 +1,95 @@
+{
+  "title": "Bạn thân cướp bạn trai tôi ba lần, lần nào tôi cũng nhận mười triệu tệ",
+  "footageTag": "",
+  "cutEverySec": 28,
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Chiếc Maserati ngày lễ tình nhân"
+    },
+    {
+      "title": "Chiêu cũ của Thái Mịch"
+    },
+    {
+      "title": "Ba lần bị cướp, ba khoản tiền"
+    },
+    {
+      "title": "Quỹ Thanh Tâm của ông nội"
+    },
+    {
+      "title": "Bữa pháp một nghìn tệ"
+    },
+    {
+      "title": "Chín giờ, phòng họp Hạng thị"
+    },
+    {
+      "title": "Điều kiện của Cung tổng"
+    },
+    {
+      "title": "Người ở lại khi tôi chẳng có gì"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Bạn thân cướp bạn trai tôi, và tôi vui vì mỗi lần được mười triệu tệ"
+    },
+    {
+      "chapters": [
+        2
+      ],
+      "hook": "Đi đâu cũng đụng mặt bạn thân, tôi biết cô ta đang giăng bẫy"
+    },
+    {
+      "chapters": [
+        3
+      ],
+      "hook": "Bắt tại trận ở khách sạn, cô ta dọa nhảy cửa sổ"
+    },
+    {
+      "chapters": [
+        4
+      ],
+      "hook": "Ai đang chuyển cho tôi mười triệu tệ mỗi lần bị cướp người yêu"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Cả phòng ăn đồ pháp ngay trước mặt kẻ khoe giàu"
+    },
+    {
+      "chapters": [
+        6
+      ],
+      "hook": "Cô ta hắt cà phê vào người mà cả nhà bạn trai đang cúi đầu"
+    },
+    {
+      "chapters": [
+        7
+      ],
+      "hook": "Cô ta bị lôi khỏi phòng họp, rồi tung bài bóc phốt khắp trường"
+    },
+    {
+      "chapters": [
+        8
+      ],
+      "hook": "Kẻ cướp người yêu ba lần quỳ ngay cổng ký túc xá"
+    }
+  ],
+  "thumbText": "Bạn thân|cướp người yêu *3 lần*|tôi lời *30 triệu*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}
