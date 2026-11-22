@@ -1,0 +1,70 @@
+{
+  "title": "Bạch nguyệt quang của chồng vừa về nước, tôi xin ly hôn thì anh xé luôn đơn",
+  "footageTag": "",
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Ba điều ước"
+    },
+    {
+      "title": "Phòng phụ"
+    },
+    {
+      "title": "Khung ảnh cưới rơi xuống"
+    },
+    {
+      "title": "Bức ảnh buổi tiệc"
+    },
+    {
+      "title": "Máy hủy giấy"
+    },
+    {
+      "title": "Điều anh giấu kỹ"
+    },
+    {
+      "title": "Cuộc hẹn của Hạ Vi"
+    },
+    {
+      "title": "Người tôi chọn"
+    },
+    {
+      "title": "Cuốn nhật ký màu hồng"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Trước cưới anh bắt tôi ký ba điều, ngày bạch nguyệt quang về tôi xin ly hôn"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Ảnh cưới rơi vỡ, chồng đi đón gió cho bạch nguyệt quang, tôi xách vali ra cửa"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Anh xé đơn ly hôn: Em thích thằng nào? Cả đời này đừng hòng"
+    }
+  ],
+  "thumbText": "Anh xé *đơn ly hôn*|bạch nguyệt quang|vừa về nước",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

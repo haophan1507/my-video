@@ -34,7 +34,7 @@ Mọi file truyện cùng một cấu trúc: tiêu đề `# <mã>. <tên>`, các
 
 Lô L01 = 10 truyện Zhihu, đọc qua Chrome 2026-11-19, đều đã đọc toàn văn (có chữ kết "完"). Ngày 2026-11-20 loại 3 truyện ngoài phạm vi thể loại (một cổ trang, hai linh dị) khỏi kho; vẫn còn trong lịch sử git (commit `f91c048`, tên cũ s004, s005, s009).
 
-- Lưu ý bước 3: tc002, tc003, tc005 có dòng "Lưu ý" nằm trong thân truyện; không đưa vào `chNN.tts.txt`.
+- Lưu ý bước 3: tc002, tc005 có dòng "Lưu ý" nằm trong thân truyện; không đưa vào `chNN.tts.txt`.
 
 Lô L02 = 43 truyện Zhihu (câu trả lời và chuyên mục miễn phí, đã hoàn), lấy qua Chrome 2026-11-20. 42 tác giả (một tác giả có 2 truyện), 42 câu hỏi và chuyên mục khác nhau. Lọc: còn đủ phần kết (bỏ bài có đuôi "后续/盐选/点击阅读"), ngoài cổ trang, linh dị, mạt thế; 7.000–25.000 chữ Hán; đọc lướt đầu, cuối và các đoạn rải đều để viết khung. Đã loại 7 bài khi đọc: một bài cắt phần kết sang trang trả phí, một bài là bài luận chứ không phải truyện, một bài dừng giữa chừng, hai bài bạo lực gia đình quá nặng, hai bài trùng motif với truyện đã chọn. Mã xếp theo điểm giảm dần trong từng thể loại. Phút = ước tính nếu dịch sát (1 chữ Hán ≈ 1,1 chữ Việt); đa số dài hơn 35–60 phút nên bước 2 phải cắt, không phải viết dày.
 
@@ -82,6 +82,7 @@ Lô L02 = 43 truyện Zhihu (câu trả lời và chuyên mục miễn phí, đ�
 | ts040 | `trong-sinh/ts040-quay-ve-ngay-me-ban-gai-doi-sinh-le-880-nghin.md` | L04 | Trọng sinh (ngôi một nam), sính lễ cao, bạn gái trà xanh giả 'thanh cao' | 18 | ~63 | Ngôi kể nam (cần chuyển sang giọng phù hợp kênh |
 | tc001 | `tinh-cam/tc001-ngoai-tinh-chong-it-noi.md` | L01 | Ngoại tình, người có lỗi tự kể, kết buồn | 20 | ~18 | Viết dày lên ~30–35 phút ngay trong truyện; hợp tập "ngẫm" |
 | tc002 | `tinh-cam/tc002-xuyen-ba-nam-bat-gap-nguoi-yeu-moi.md` | L01 | Mất ký ức ba năm, thoát quan hệ độc hại, cưới vì thực tế rồi yêu lại (gộp liền mạch với bản cũ tc003) | 22 | ~23 | Viết cầu nối; đảo người nói "ai sống phần nấy"; mục tiêu 30–40 phút |
+| tc003 | `tinh-cam/tc003-chong-xe-don-ly-hon-khi-bach-nguyet-quang-ve-nuoc.md` | L05 | Liên hôn thương mại, vợ thầm yêu, bạch nguyệt quang về nước, chồng xé đơn ly hôn, nhật ký thầm yêu | 19 | ~69 | Ngọt, ít xung đột: thêm vòng đối đầu với Lâm Uyển; lược cảnh thân mật |
 | tc004 | `tinh-cam/tc004-cuoi-chop-nhoang-chong-la-thieu-gia-giau-nhat.md` | L01 | Thân phận ẩn, cưới chớp nhoáng, vả mặt | 23 | ~19 | Viết lại hook mở; viết dày lên ~40 phút |
 | tc005 | `tinh-cam/tc005-ban-than-cuop-nguoi-yeu-cha-nuoi.md` | L01 | Bạn thân cướp người yêu | 21 | ~13 | Base ~13 phút (dưới chuẩn); ngoại lệ vì đang làm tập, dàn ý đã mở lên 39 phút |
 | tc006 | `tinh-cam/tc006-con-gai-sieu-hung-bao-ung-trong-nam-khinh-nu.md` | L01 | Trọng nam khinh nữ, báo thù đen tối | 21 | ~18 | Viết dày; làm nhẹ cảnh nặng; lệch thể loại nhất |
@@ -144,11 +145,13 @@ Lô L02 = 43 truyện Zhihu (câu trả lời và chuyên mục miễn phí, đ�
 - Truyện nặng, cân nhắc kỹ trước khi làm: ts019 (trẻ sơ sinh chết), tc027 (phụ nữ bị bán, nữ chính đầu độc), ts013 (nhà chồng đẩy ngã khi mang thai).
 - Ngôi kể lạ: ts017 ngôi một là nam; ts021 ngôi ba (mẹ chồng); tc025 ngôi hai ("bạn"). Chuyển về ngôi một nữ khi viết, hoặc chọn giọng phù hợp.
 - Base tối thiểu 15 phút (bản dịch hoặc ước tính dịch sát), đo 2026-11-20: mọi truyện trong kho đạt, trừ tc005 (~13 phút, ngoại lệ vì đang làm tập). Truyện ít kịch tính thì thêm vòng ngay trong truyện, không ghép truyện khác vào.
-- Tỷ lệ kho sau L04: `tc` 60, `ts` 40 (100 truyện).
+- Tỷ lệ kho sau L05: `tc` 61 (tc001–tc061 liền mạch), `ts` 40 (ts001–ts040) (101 truyện).
 
-Lô L03 (2026-11-20): gộp liền mạch tc002 với bản cũ tc003 (hai truyện dưới 15 phút; mã tc003 bỏ, nội dung nằm trong file tc002, bản cũ còn trong lịch sử git); thêm ts022 từ Zhihu cho đủ 50.
+Lô L03 (2026-11-20): gộp liền mạch tc002 với bản cũ tc003 (hai truyện dưới 15 phút; mã tc003 bỏ, nội dung nằm trong file tc002, bản cũ còn trong lịch sử git; mã tc003 được dùng lại ở lô L05 cho một truyện khác); thêm ts022 từ Zhihu cho đủ 50.
 
 Lô L04 (2026-11-20) = 50 truyện Zhihu (18 `ts`, 32 `tc`), mở kho lên 100. Nguồn: câu trả lời cho các câu hỏi đề xuất truyện (mỗi câu hỏi và mỗi tác giả khác nhau, không trùng link với L01–L03); lấy qua Chrome từ ~930 câu trả lời ứng viên, chỉ giữ bài có phần kết trọn (loại bài cắt ngang 'điểm tán/ theo dõi để xem tiếp', bài cổ trang, linh dị, hệ thống, thanh mai hai nam đối đầu). Độ dài gốc 3.300–21.800 chữ Hán (≈ 20–140 phút nếu dịch sát), đa số 8.000–14.000 chữ; bài ngắn đủ trọn gần như không có (bài dưới 3.000 chữ trên Zhihu hầu hết là phần đầu, phần sau trả phí), nên ở bước 2 thường phải cắt. Khung tóm từ bản đọc lướt (đầu, cuối, vài đoạn giữa); ts023 và ts026 cùng motif hiến thận (làm một trước); tc033, tc056, tc057, tc060, tc061 lệch phạm vi hoặc ưu tiên thấp (học đường/quan hệ chưa hôn nhân, kết rất bi, motif lạ). Phân bố motif: mẹ chồng và nhà chồng, bạch nguyệt quang/ngoại tình, liên hôn thầm yêu, trà xanh, gia đình thiên vị, thiên kim thật/giả, trọng sinh sửa sai.
+
+Lô L05 (2026-11-22): 1 truyện Zhihu (`tc003`), bù chỗ trống mã tc003 để số thứ tự `tc` liền mạch (ngoại lệ có chủ ý của quy ước "không tái dùng số"). Câu trả lời có "全文完", 11.277 chữ Hán; khung viết từ bản đọc toàn văn.
 
 ## Các tập
 
@@ -231,5 +234,6 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 | ts022 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | ts023 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | ts024 | chưa chốt | chưa chốt | mở 2026-11-21 |
+| tc003 | chưa chốt | chưa chốt | mở 2026-11-22 |
 
 Mỗi tập mới thêm một dòng.
