@@ -1,45 +1,55 @@
 {
   "title": "Chồng thợ làm bánh nghèo của tôi nửa đêm một tay ghìm côn đồ vào tường",
-  "footageTag": "",
-  "dim": 0.15,
+  "footageTag": "painting",
+  "dim": 0.05,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Bản thỏa thuận mười trang"
+      "title": "Bản thỏa thuận mười trang",
+      "startSec": 3.99
     },
     {
-      "title": "Vết sẹo và lá thư không tên"
+      "title": "Vết sẹo và lá thư không tên",
+      "startSec": 204.6
     },
     {
-      "title": "Chiếc xe điện cũ"
+      "title": "Chiếc xe điện cũ",
+      "startSec": 380.53
     },
     {
-      "title": "Chiếc khuy măng sét mười lăm tệ"
+      "title": "Chiếc khuy măng sét mười lăm tệ",
+      "startSec": 563.79
     },
     {
-      "title": "Anh phục vụ nhặt mảnh ly"
+      "title": "Anh phục vụ nhặt mảnh ly",
+      "startSec": 739.14
     },
     {
-      "title": "Một nghìn vạn xin đừng ly hôn"
+      "title": "Một nghìn vạn xin đừng ly hôn",
+      "startSec": 919.9
     },
     {
-      "title": "Chiếc vali ở cửa"
+      "title": "Chiếc vali ở cửa",
+      "startSec": 1095.07
     },
     {
-      "title": "Một tay ghìm vào tường"
+      "title": "Một tay ghìm vào tường",
+      "startSec": 1274.85
     },
     {
-      "title": "Khai đi, Kỷ tổng"
+      "title": "Khai đi, Kỷ tổng",
+      "startSec": 1482.18
     },
     {
-      "title": "Tờ thỏa thuận bay như tuyết"
+      "title": "Tờ thỏa thuận bay như tuyết",
+      "startSec": 1656.92
     }
   ],
   "parts": [
@@ -67,7 +77,10 @@
   ],
   "thumbText": "Chồng thợ bánh|một tay ghìm|*côn đồ*|vào tường",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc007/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 4,
+  "thumbFace": "56% 24%",
+  "thumbZoom": 1.4,
+  "audioSrc": "tc007/audio.mp3"
 }

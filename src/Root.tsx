@@ -3,7 +3,7 @@ import type {Caption} from '@remotion/captions';
 import {Input, ALL_FORMATS, UrlSource} from 'mediabunny';
 import {Story} from './Story';
 import {Clip} from './Clip';
-import {Thumbnail, TikTokCover} from './Thumbnail';
+import {Backdrop, Thumbnail, TikTokCover} from './Thumbnail';
 import {Overlay} from './ui';
 import {partRange, type EpisodeProps, type FootageItem} from './types';
 import {validateEpisode} from './validate';
@@ -58,6 +58,8 @@ export const Root = () => (
       durationInFrames={FPS * 60} defaultProps={{...defaults, part: 1}} calculateMetadata={loadEpisode} />
     <Still id="Thumbnail" component={Thumbnail} width={1280} height={720} defaultProps={defaults} />
     <Still id="TikTokCover" component={TikTokCover} {...TIKTOK} defaultProps={{...defaults, part: 1}} />
+    <Still id="BackdropYoutube" component={Backdrop} {...YOUTUBE} defaultProps={{portrait: false}} />
+    <Still id="BackdropTiktok" component={Backdrop} {...TIKTOK} defaultProps={{portrait: true}} />
     <Still id="OverlayYoutube" component={Overlay} {...YOUTUBE} defaultProps={{part: 0, total: 0}} />
     <Still id="OverlayTiktok" component={Overlay} {...TIKTOK} defaultProps={{part: 1, total: 3}} />
   </>

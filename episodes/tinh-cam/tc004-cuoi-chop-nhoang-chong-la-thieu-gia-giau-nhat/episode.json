@@ -1,42 +1,51 @@
 {
   "title": "Bị bạn trai đá ngay cửa quán cà phê, tối đó tôi cưới luôn anh thợ sửa xe lạ mặt",
-  "footageTag": "",
-  "dim": 0.15,
+  "footageTag": "sticker",
+  "dim": 0.05,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Kết hôn không?"
+      "title": "Kết hôn không?",
+      "startSec": 3.99
     },
     {
-      "title": "Nhà của thợ sửa xe"
+      "title": "Nhà của thợ sửa xe",
+      "startSec": 230.51
     },
     {
-      "title": "Chiếc xe cưới"
+      "title": "Chiếc xe cưới",
+      "startSec": 414.1
     },
     {
-      "title": "Họp lớp"
+      "title": "Họp lớp",
+      "startSec": 593.23
     },
     {
-      "title": "Thái tử Nghiêm thị"
+      "title": "Thái tử Nghiêm thị",
+      "startSec": 783.67
     },
     {
-      "title": "Tấm ảnh cũ"
+      "title": "Tấm ảnh cũ",
+      "startSec": 969.46
     },
     {
-      "title": "Tờ séc và tập giấy"
+      "title": "Tờ séc và tập giấy",
+      "startSec": 1140.72
     },
     {
-      "title": "Cái bẫy cổ phần"
+      "title": "Cái bẫy cổ phần",
+      "startSec": 1325.06
     },
     {
-      "title": "Lá thư của mẹ"
+      "title": "Lá thư của mẹ",
+      "startSec": 1514.46
     }
   ],
   "parts": [
@@ -63,7 +72,10 @@
   ],
   "thumbText": "Bị bạn trai đá|tối đó tôi cưới|*anh thợ sửa xe*",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc004/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 5,
+  "thumbFace": "38% 28%",
+  "thumbZoom": 1,
+  "audioSrc": "tc004/audio.mp3"
 }

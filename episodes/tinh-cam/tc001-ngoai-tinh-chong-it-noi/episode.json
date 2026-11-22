@@ -1,42 +1,51 @@
 {
   "title": "Tôi ngoại tình ba tháng, chồng không hề to tiếng, chỉ nói một câu: ly hôn đi",
-  "footageTag": "",
-  "dim": 0.15,
+  "footageTag": "painting",
+  "dim": 0.05,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Người chồng chỉ biết nói Ừm"
+      "title": "Người chồng chỉ biết nói Ừm",
+      "startSec": 3.99
     },
     {
-      "title": "Ly cà phê sữa không đường"
+      "title": "Ly cà phê sữa không đường",
+      "startSec": 175.72
     },
     {
-      "title": "Gia vị, không phải món chính"
+      "title": "Gia vị, không phải món chính",
+      "startSec": 354.12
     },
     {
-      "title": "Camera phòng khách"
+      "title": "Camera phòng khách",
+      "startSec": 519.93
     },
     {
-      "title": "Mười hai vạn tệ và tờ hóa đơn khách sạn"
+      "title": "Mười hai vạn tệ và tờ hóa đơn khách sạn",
+      "startSec": 712.67
     },
     {
-      "title": "Kẻ đi săn"
+      "title": "Kẻ đi săn",
+      "startSec": 874.16
     },
     {
-      "title": "Mẹ tôi định quỳ"
+      "title": "Mẹ tôi định quỳ",
+      "startSec": 1061.93
     },
     {
-      "title": "Thư mục mang tên em"
+      "title": "Thư mục mang tên em",
+      "startSec": 1249.4
     },
     {
-      "title": "Hộp dâu tây"
+      "title": "Hộp dâu tây",
+      "startSec": 1447.87
     }
   ],
   "parts": [
@@ -63,7 +72,10 @@
   ],
   "thumbText": "Ngoại tình ba tháng|chồng chỉ nói|*ly hôn đi*",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc001/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 0,
+  "thumbFace": "54% 36%",
+  "thumbZoom": 1,
+  "audioSrc": "tc001/audio.mp3"
 }

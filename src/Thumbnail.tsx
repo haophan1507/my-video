@@ -282,6 +282,21 @@ const Tag = ({text, left, width, top, size}: {text?: string; left: number; width
       letterSpacing: 2, color: brand.accent}}>{text.toUpperCase()}</div>
   ) : null;
 
+// Nền sau footage khi clip không phủ kín khung (clip dọc trên khung ngang YouTube, clip vuông/ngang trên khung dọc TikTok):
+// nền kem + hình vẽ mờ cùng mẫu ảnh bìa, thay cho viền đen. Hình vẽ chỉ nằm ngoài vùng giữa khung (nơi footage hiện).
+export const Backdrop = ({portrait}: {portrait: boolean}) => {
+  const W = portrait ? 1080 : 1920, H = portrait ? 1920 : 1080;
+  const avoid = (x: number, y: number) => portrait
+    ? (y > 380 && y < 1540) || (x < 520 && y < 420)
+    : Math.abs(x - W / 2) < 340 || (x < 330 && y < 260);
+  return (
+    <AbsoluteFill>
+      <div style={{position: 'absolute', inset: 0, background: CREAM}} />
+      <Doodles W={W} H={H} n={portrait ? 20 : 26} seed={portrait ? 'bdt' : 'bdy'} avoid={avoid} />
+    </AbsoluteFill>
+  );
+};
+
 export const Thumbnail = (p: EpisodeProps) => {
   const W = 1280, H = 720;
   const cx = 1250, cy = 360, r = 520;          // khung tròn ảnh: mép trái x = 730 (~43% bề ngang), phủ kín mép phải, trên, dưới

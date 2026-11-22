@@ -15,3 +15,7 @@ public/*
 !public/brand/
 episodes/*/*/audio/
 episodes/*/*/out/*.mp4
+
+# Footage thô và log tạm
+raw_*/
+scratch_logs/

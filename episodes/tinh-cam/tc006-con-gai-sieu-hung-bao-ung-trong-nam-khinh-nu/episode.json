@@ -1,39 +1,47 @@
 {
   "title": "Ông nội bán tôi ba nghìn tệ, người bị dắt đi lại là đứa cháu đích tôn",
-  "footageTag": "",
-  "dim": 0.15,
+  "footageTag": "painting",
+  "dim": 0.05,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Đồ lỗ vốn"
+      "title": "Đồ lỗ vốn",
+      "startSec": 3.99
     },
     {
-      "title": "Đôi hoa tai vàng"
+      "title": "Đôi hoa tai vàng",
+      "startSec": 208.24
     },
     {
-      "title": "Que diêm"
+      "title": "Que diêm",
+      "startSec": 409.86
     },
     {
-      "title": "Ba nghìn tệ"
+      "title": "Ba nghìn tệ",
+      "startSec": 592.99
     },
     {
-      "title": "Chuồng trâu"
+      "title": "Chuồng trâu",
+      "startSec": 794.15
     },
     {
-      "title": "Người bị dắt đi"
+      "title": "Người bị dắt đi",
+      "startSec": 989.41
     },
     {
-      "title": "Quán mì bên bến xe"
+      "title": "Quán mì bên bến xe",
+      "startSec": 1195.15
     },
     {
-      "title": "Món nợ cuối cùng"
+      "title": "Món nợ cuối cùng",
+      "startSec": 1402.4
     }
   ],
   "parts": [
@@ -60,7 +68,10 @@
   ],
   "thumbText": "Ông nội bán tôi|*ba nghìn tệ*|người bị dắt đi|là anh trai",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc006/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 2,
+  "thumbFace": "57% 27%",
+  "thumbZoom": 1,
+  "audioSrc": "tc006/audio.mp3"
 }

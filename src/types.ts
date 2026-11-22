@@ -13,6 +13,7 @@ export type EpisodeProps = {
   voice?: VoiceSettings;
   title: string; // tiêu đề tập, dùng cho đăng bài (không hiện trên hình)
   audioSrc: string; captionsSrc: string; footageTag: string;
+  footageOffset?: number; // xoay vòng thứ tự clip footage theo tập (0 = bắt đầu từ clip 01), xem edit-yeu-cau.md
   dim: number;
   chapters: Chapter[]; parts: Part[];
   // Ảnh bìa: thumbText dùng "|" ngắt dòng, *chữ* tô màu nhấn; thumbFocus = object-position của ảnh ("50% 30%");

@@ -33,14 +33,16 @@ export function loadFootage(props) {
 }
 
 // Kế hoạch footage cả tập theo khung hình, y như FootageTrack
-const fullPlan = (footage, totalFrames, frameRatio) => {
+const fullPlan = (footage, totalFrames, frameRatio, offset = 0) => {
   const fade = Math.round(FADE_SEC * FPS);
-  const clips = [...footage].sort((a, b) => a.src.localeCompare(b.src));
+  const byName = [...footage].sort((a, b) => a.src.localeCompare(b.src));
+  const k = ((offset % byName.length) + byName.length) % byName.length; // footageOffset (xem FootageTrack)
+  const clips = [...byName.slice(k), ...byName.slice(0, k)];
   const out = [];
   let at = 0;
   for (let i = 0; at < totalFrames; i++) {
     const c = clips[i % clips.length];
-    const skip = i % clips.length === 0 ? (c.start ?? 0) : 0; // tags.json start: bỏ đoạn đầu clip 01 (intro, chữ kênh gốc)
+    const skip = c === byName[0] ? (c.start ?? 0) : 0; // tags.json start: bỏ đoạn đầu clip 01 (intro, chữ kênh gốc)
     const len = Math.max(fade * 2 + 1, Math.floor(((c.sec - skip) / (c.speed ?? 1)) * FPS)); // speed > 1: clip hết nhanh hơn
     const from = i === 0 ? 0 : at - fade;
     const r = c.width && c.height ? c.width / c.height : frameRatio;
@@ -95,14 +97,14 @@ const fitFilter = (fit, W, H) => fit === 'cover'
 
 // props: episode đã có audioSec, footage; part 0 = YouTube 1920×1080, part n = TikTok 1080×1920.
 // overlayPng: ảnh trong suốt cùng khung (logo, nhãn). tmpDir: nơi ghi script bộ lọc.
-export async function renderFfmpeg({props, startSec, endSec, overlayPng, output, encoder, tmpDir, onProgress}) {
+export async function renderFfmpeg({props, startSec, endSec, overlayPng, backdropPng, output, encoder, tmpDir, onProgress}) {
   const portrait = props.part > 0;
   const [W, H] = portrait ? [1080, 1920] : [1920, 1080];
   const tail = props.part ? 0 : FPS;
   const outFrames = Math.ceil((endSec - startSec) * FPS) + tail; // = durationInFrames của composition
   const storyFrames = Math.ceil(props.audioSec * FPS) + FPS;     // = totalFrames của Story
   const f0 = Math.round(startSec * FPS);
-  const segs = windowPlan(fullPlan(props.footage, storyFrames, W / H), f0, f0 + outFrames);
+  const segs = windowPlan(fullPlan(props.footage, storyFrames, W / H, props.footageOffset), f0, f0 + outFrames);
   const outSec = outFrames / FPS;
 
   const args = ['-v', 'error', '-stats_period', '1', '-progress', 'pipe:1', '-y'];
@@ -110,19 +112,32 @@ export async function renderFfmpeg({props, startSec, endSec, overlayPng, output,
   for (const s of segs) args.push('-ss', (s.skip + s.seek * s.speed).toFixed(3), '-t', (s.len * s.speed).toFixed(3), '-i', path.join(ROOT, 'public', s.src));
   args.push('-loop', '1', '-i', overlayPng);
   args.push('-ss', startSec.toFixed(3), '-i', path.join(ROOT, 'public', props.audioSrc));
-  const ov = segs.length, au = segs.length + 1;
+  args.push('-loop', '1', '-framerate', String(FPS), '-i', backdropPng);
+  const ov = segs.length, au = segs.length + 1, bd = segs.length + 2;
 
-  const f = segs.map((s, i) => `[${i}:v]setpts=(PTS-STARTPTS)/${s.speed},fps=${FPS},${fitFilter(s.fit, W, H)},setsar=1,format=yuv420p,settb=AVTB[s${i}]`);
+  // Lớp tối chỉ phủ footage (không phủ nền kem): nhân RGB với k = 1 - dim; trong YUV là co Y về 16 và U, V về 128 cùng hệ số.
+  // (drawbox có alpha làm mất màu gần hết, không dùng.)
+  const k = (1 - props.dim).toFixed(4);
+  const dim = props.dim > 0 ? `,lutyuv=y=16+(val-16)*${k}:u=128+(val-128)*${k}:v=128+(val-128)*${k}` : '';
+  // Clip không phủ kín khung (fit contain) đặt giữa nền kem họa tiết (src/Thumbnail.tsx Backdrop), không còn viền đen.
+  const nContain = segs.filter((s) => s.fit !== 'cover').length;
+  const f = [];
+  if (nContain) f.push(`[${bd}:v]format=yuv420p,split=${nContain}${Array.from({length: nContain}, (_, i) => `[bd${i}]`).join('')}`);
+  let ci = 0;
+  segs.forEach((s, i) => {
+    const pre = `[${i}:v]setpts=(PTS-STARTPTS)/${s.speed},fps=${FPS}`;
+    if (s.fit === 'cover') f.push(`${pre},scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},setsar=1,format=yuv420p${dim},settb=AVTB[s${i}]`);
+    else {
+      f.push(`${pre},scale=${W}:${H}:force_original_aspect_ratio=decrease,setsar=1,format=yuv420p${dim}[c${i}]`);
+      f.push(`[bd${ci++}][c${i}]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2:shortest=1,format=yuv420p,settb=AVTB[s${i}]`);
+    }
+  });
   let last = 's0';
   for (let i = 1; i < segs.length; i++) {
     f.push(`[${last}][s${i}]xfade=transition=fade:duration=${FADE_SEC}:offset=${segs[i].at.toFixed(3)}[x${i}]`);
     last = `x${i}`;
   }
-  // Lớp đen độ mờ dim = nhân RGB với k = 1 - dim; trong YUV là co Y về 16 và U, V về 128 cùng hệ số.
-  // (drawbox có alpha làm mất màu gần hết, không dùng.)
-  const k = (1 - props.dim).toFixed(4);
-  const dim = props.dim > 0 ? `,lutyuv=y=16+(val-16)*${k}:u=128+(val-128)*${k}:v=128+(val-128)*${k}` : '';
-  f.push(`[${last}]trim=duration=${outSec.toFixed(3)}${dim}[bg]`);
+  f.push(`[${last}]trim=duration=${outSec.toFixed(3)}[bg]`);
   f.push(`[bg][${ov}:v]overlay=0:0:shortest=1:format=auto,format=yuv420p[v]`);
   f.push(`[${au}:a]atrim=duration=${(endSec - startSec).toFixed(3)},apad=whole_dur=${outSec.toFixed(3)}[a]`);
   fs.mkdirSync(tmpDir, {recursive: true});

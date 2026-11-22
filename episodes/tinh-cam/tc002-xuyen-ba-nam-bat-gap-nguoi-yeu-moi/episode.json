@@ -1,42 +1,51 @@
 {
   "title": "Mở mắt ra đã là ba năm sau, tôi không nhận ra người bạn trai bên giường",
-  "footageTag": "",
-  "dim": 0.15,
+  "footageTag": "sticker",
+  "dim": 0.05,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Mở mắt ra là ba năm sau"
+      "title": "Mở mắt ra là ba năm sau",
+      "startSec": 3.99
     },
     {
-      "title": "Người tôi theo đuổi nửa năm"
+      "title": "Người tôi theo đuổi nửa năm",
+      "startSec": 197.49
     },
     {
-      "title": "Đoạn camera cầu thang"
+      "title": "Đoạn camera cầu thang",
+      "startSec": 370.41
     },
     {
-      "title": "Quán nướng Phúc Điền"
+      "title": "Quán nướng Phúc Điền",
+      "startSec": 552.82
     },
     {
-      "title": "Chào mừng Hoan về nhà"
+      "title": "Chào mừng Hoan về nhà",
+      "startSec": 735.08
     },
     {
-      "title": "Ai sống phần nấy"
+      "title": "Ai sống phần nấy",
+      "startSec": 921.21
     },
     {
-      "title": "Cặp vé đi châu Phi"
+      "title": "Cặp vé đi châu Phi",
+      "startSec": 1105.92
     },
     {
-      "title": "Ngày kỷ niệm tôi quên"
+      "title": "Ngày kỷ niệm tôi quên",
+      "startSec": 1278.69
     },
     {
-      "title": "Ba năm trong bó hoa"
+      "title": "Ba năm trong bó hoa",
+      "startSec": 1477.31
     }
   ],
   "parts": [
@@ -63,7 +72,10 @@
   ],
   "thumbText": "Tỉnh dậy|*ba năm sau*|không nhớ|người yêu mới",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc002/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 2,
+  "thumbFace": "45% 29%",
+  "thumbZoom": 1,
+  "audioSrc": "tc002/audio.mp3"
 }

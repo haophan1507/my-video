@@ -64,6 +64,7 @@ const mediaCacheSizeInBytes = Math.round(Math.min(2048, Math.max(240, os.totalme
 const encoder = flag('encoder') ?? (process.platform === 'darwin' ? 'hw' : 'sw');
 if (!['hw', 'sw'].includes(encoder)) fail(`--encoder phải là hw hoặc sw (nhận: ${encoder})`);
 const encoding = encoder === 'hw' ? {hardwareAcceleration: 'if-possible', videoBitrate: '5M'} : {crf: 18};
+const limitSec = Number(flag('limit')) || 0;
 let engine = flag('engine') ?? 'ffmpeg';
 if (!['ffmpeg', 'remotion'].includes(engine)) fail(`--engine phải là ffmpeg hoặc remotion (nhận: ${engine})`);
 if (engine === 'ffmpeg' && base.captionsSrc) {
@@ -77,14 +78,19 @@ if (ffEncoder) console.log(`ffmpeg, tag footage "${loaded.tag}" tốc độ ${lo
 
 const ffmpegVideo = async (inputProps, file) => {
   const props = {...inputProps, ...loaded, captions: []};
-  const {startSec, endSec} = partRange(props);
+  const range = partRange(props);
+  const startSec = range.startSec, endSec = limitSec ? Math.min(range.endSec, startSec + limitSec) : range.endSec; // --limit=giây: render thử đoạn đầu
   const overlayPng = path.join(bundleDir, `overlay-${props.part}.png`);
   const id = props.part ? 'OverlayTiktok' : 'OverlayYoutube';
   const overlayProps = {part: props.part, total: props.parts.length};
   const composition = await selectComposition({serveUrl, id, inputProps: overlayProps});
   await renderStill({composition, serveUrl, inputProps: overlayProps, output: overlayPng, imageFormat: 'png'});
+  const backdropPng = path.join(bundleDir, `backdrop-${props.part ? 'tiktok' : 'youtube'}.png`);
+  const bdId = props.part ? 'BackdropTiktok' : 'BackdropYoutube';
+  const bdComposition = await selectComposition({serveUrl, id: bdId, inputProps: {portrait: !!props.part}});
+  await renderStill({composition: bdComposition, serveUrl, inputProps: {portrait: !!props.part}, output: backdropPng, imageFormat: 'png'});
   const t0 = Date.now();
-  await renderFfmpeg({props, startSec, endSec, overlayPng, output: `${outDir}/${file}`, encoder: ffEncoder, tmpDir: bundleDir,
+  await renderFfmpeg({props, startSec, endSec, overlayPng, backdropPng, output: `${outDir}/${file}`, encoder: ffEncoder, tmpDir: bundleDir,
     onProgress: (p) => process.stdout.write(`\r${file} ${(p * 100).toFixed(1)}%`)});
   console.log(` (${((Date.now() - t0) / 60000).toFixed(1)} phút)`);
 };

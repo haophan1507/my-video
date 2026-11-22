@@ -1,48 +1,59 @@
 {
   "title": "Chồng đòi ly hôn để về với tình đầu, tôi chưa kịp nói mình mang thai hai tháng",
-  "footageTag": "",
-  "dim": 0.15,
+  "footageTag": "sticker",
+  "dim": 0.05,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Cô làm tôi thấy ghê tởm"
+      "title": "Cô làm tôi thấy ghê tởm",
+      "startSec": 3.99
     },
     {
-      "title": "Cô gái lọ lem trên màn ảnh"
+      "title": "Cô gái lọ lem trên màn ảnh",
+      "startSec": 205
     },
     {
-      "title": "Bạn trai tạm thời ở vũ hội mặt nạ"
+      "title": "Bạn trai tạm thời ở vũ hội mặt nạ",
+      "startSec": 411.17
     },
     {
-      "title": "Bản ghi âm trong vườn sau"
+      "title": "Bản ghi âm trong vườn sau",
+      "startSec": 606.32
     },
     {
-      "title": "Chiếc vòng ngọc gia truyền"
+      "title": "Chiếc vòng ngọc gia truyền",
+      "startSec": 829.51
     },
     {
-      "title": "Hot search"
+      "title": "Hot search",
+      "startSec": 1039.65
     },
     {
-      "title": "Ba ngày"
+      "title": "Ba ngày",
+      "startSec": 1233.14
     },
     {
-      "title": "Thùng sơn đỏ"
+      "title": "Thùng sơn đỏ",
+      "startSec": 1415.64
     },
     {
-      "title": "Mối tình đầu qua một tấm ảnh"
+      "title": "Mối tình đầu qua một tấm ảnh",
+      "startSec": 1633.07
     },
     {
-      "title": "Anh không xứng"
+      "title": "Anh không xứng",
+      "startSec": 1856.5
     },
     {
-      "title": "Chiếc vòng trong viện dưỡng lão"
+      "title": "Chiếc vòng trong viện dưỡng lão",
+      "startSec": 2058.8
     }
   ],
   "parts": [
@@ -70,7 +81,10 @@
   ],
   "thumbText": "Chồng bỏ tôi|theo *tình đầu*|khi tôi đang|*mang thai*",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc008/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 8,
+  "thumbFace": "48% 43%",
+  "thumbZoom": 1,
+  "audioSrc": "tc008/audio.mp3"
 }
