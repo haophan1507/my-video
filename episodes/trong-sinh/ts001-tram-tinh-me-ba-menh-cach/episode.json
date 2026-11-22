@@ -1,0 +1,81 @@
+{
+  "title": "Muội muội hỏi có cần bổ thêm một nhát nữa không, ta sống lại ba ngày trước buổi hiến tế",
+  "footageTag": "craft",
+  "dim": 0.4,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Chén yến sào",
+      "startSec": 3.99
+    },
+    {
+      "title": "Năm trăm lượng",
+      "startSec": 154.86
+    },
+    {
+      "title": "Hai ngày diễn kịch",
+      "startSec": 301.27
+    },
+    {
+      "title": "Trận cầu phúc",
+      "startSec": 458.24
+    },
+    {
+      "title": "Báo ứng đầu tiên",
+      "startSec": 613.34
+    },
+    {
+      "title": "Khổ nhục kế trước cổng",
+      "startSec": 762.67
+    },
+    {
+      "title": "Thư hủy hôn",
+      "startSec": 919.52
+    },
+    {
+      "title": "Thi hội ở vương phủ",
+      "startSec": 1076.12
+    },
+    {
+      "title": "Cầu thang lên Lễ bộ",
+      "startSec": 1258.82
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Muội muội hỏi: tỷ ấy còn chưa tắt thở, có cần bổ thêm một nhát không?"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Ta ngoan ngoãn bước vào trận hiến tế, và ba kẻ trộm mệnh không biết mình sắp nhận gì"
+    },
+    {
+      "chapters": [
+        5,
+        5
+      ],
+      "hook": "Ba luồng khói đen chui vào trán họ, ta chạy trước khi họ kịp tỉnh"
+    }
+  ],
+  "thumbText": "Muội muội hỏi:|có cần *bổ thêm*|*một nhát* không?|Ta sống lại.",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": "ts001/thumb-bg.jpg",
+  "introSec": 3.99,
+  "audioSrc": "ts001/audio.mp3",
+  "thumbFace": "46% 36%"
+}

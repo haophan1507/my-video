@@ -182,11 +182,13 @@ const parseLines = (text: string, maxChars: number): Seg[][] => {
   }, []));
 };
 
-// Cỡ chữ lớn nhất vừa khung (chữ in hoa Paytone One ~0,6em bề ngang tính cả dấu cách, dòng cao 1,15em)
+// Cỡ chữ lớn nhất vừa khung (chữ in hoa Paytone One ~0,6em bề ngang tính cả dấu cách, dòng cao LINE_H em).
+// Dòng 1,5em: chữ in hoa tiếng Việt có dấu chồng (Ổ, Ộ) ở 1,15em và 1,3em thì dấu dòng dưới chạm dấu nặng dòng trên (ts001, 2026-11-22, xem bản gốc phóng to).
+const LINE_H = 1.5;
 type Box = {left: number; top: number; width: number; height: number};
 const fontFor = (lines: Seg[][], box: Box, maxFont: number) => {
   const longest = Math.max(...lines.map((l) => l.reduce((n, s) => n + s.t.length, 0)));
-  return Math.round(Math.min(maxFont, box.width / (longest * 0.6), box.height / (lines.length * 1.15)));
+  return Math.round(Math.min(maxFont, box.width / (longest * 0.6), box.height / (lines.length * LINE_H)));
 };
 
 // Chữ hook không có "|": thử mọi độ rộng dòng 6–40 ký tự, lấy cách ngắt cho cỡ chữ lớn nhất (bằng nhau thì ít dòng hơn).
@@ -207,7 +209,7 @@ const Hook = ({text, box, maxFont}: {text: string; box: Box; maxFont: number}) =
   const fontSize = fontFor(lines, box, maxFont);
   return (
     <div style={{position: 'absolute', ...box, display: 'flex', flexDirection: 'column', justifyContent: 'center',
-      alignItems: 'center', textAlign: 'center', fontFamily: titleFont, fontSize, lineHeight: 1.15}}>
+      alignItems: 'center', textAlign: 'center', fontFamily: titleFont, fontSize, lineHeight: LINE_H}}>
       {lines.map((l, i) => (
         <div key={i} style={{whiteSpace: 'nowrap', color: HOOK_COLOR}}>
           {l.map((s, k) => <span key={k} style={s.hi ? {color: HI_COLOR} : undefined}>{s.t}</span>)}

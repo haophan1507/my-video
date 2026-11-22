@@ -235,5 +235,6 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 | ts023 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | ts024 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc003 | chưa chốt | chưa chốt | mở 2026-11-22 |
+| ts001 | voice d99082f8, tốc độ 1,2 | `craft` | đã render 2026-11-22, chờ đăng |
 
 Mỗi tập mới thêm một dòng.
