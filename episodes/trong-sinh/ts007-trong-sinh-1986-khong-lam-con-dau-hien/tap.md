@@ -42,3 +42,4 @@
 - 2026-11-22: chốt giọng (voice d99082f8, tốc độ 1,2, gen cả tập không chờ duyệt ch.1), footage tag `night`, không teaser; ảnh bìa chờ ảnh nhân vật (gợi ý ở mục Quyết định).
 - 2026-11-22: ảnh bìa từ ảnh gửi; viết lại chữ bìa và 3 hook phần TikTok, ngắt dòng tay.
 - 2026-11-22: render xong youtube.mp4 (24:03), tiktok-01..03, bìa YouTube và 3 bìa TikTok; footage `night` chạy liền.
+- 2026-11-22: render lại youtube.mp4, tiktok-01..03 bằng ffmpeg, nền 0,15; bìa giữ nguyên.

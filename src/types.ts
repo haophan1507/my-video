@@ -1,7 +1,8 @@
 import type {Caption} from '@remotion/captions';
 
 // Một mục trong public/footage/manifest.json (scripts/footage-manifest.mjs ghi)
-export type FootageItem = {tag: string; src: string; sec: number; width?: number; height?: number};
+// speed, start: lấy từ public/footage/tags.json (<tag>.speed mặc định 1; <tag>.start = giây bỏ ở đầu clip 01, mặc định 0)
+export type FootageItem = {tag: string; src: string; sec: number; width?: number; height?: number; speed?: number; start?: number};
 export type Chapter = {title: string; startSec: number};
 export type Part = {chapters: number[]; hook: string};
 

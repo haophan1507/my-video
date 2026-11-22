@@ -11,7 +11,8 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 | Khớp footage vào khung | Phủ kín nếu cắt ≤ 20% diện tích; ngược lại hiện trọn clip, viền đen | `MAX_CROP`, `src/FootageTrack.tsx` |
 | Phụ đề | Tắt | `captionsSrc: ""` |
 | Đổi cảnh footage | Không cắt giữa clip: mỗi clip (~15 phút) phát liền từ đầu đến hết theo thứ tự tên file, hết clip mới chuyển clip sau, mờ chéo 1 giây | `src/FootageTrack.tsx` |
-| Độ tối nền | 0,4 | `dim` |
+| Tốc độ, điểm bắt đầu footage | Theo tag: `speed` (mặc định 1) và `start` (giây bỏ ở đầu clip 01, mặc định 0) trong `public/footage/tags.json`, chốt bằng `footage-preview.mjs` | `src/FootageTrack.tsx`, `scripts/lib/ffmpeg-render.mjs` |
+| Độ tối nền | 0,15 (2026-11-22); 0 cho footage vốn tối; 0,3–0,4 khi có phụ đề hoặc chữ đè lên footage | `dim` |
 | Thẻ chữ trên hình (thẻ chào, thẻ hook) | Không có: video vào thẳng cảnh footage từ khung đầu; hook nằm ở lời kể và ảnh bìa | `src/Story.tsx`, `src/Clip.tsx` |
 | Nghỉ sau câu chào | 0,8 giây | `scripts/build-audio.mjs` |
 | Tốc độ giọng | 1,2 | `voice.speed` trong `episode.json` và `channel/channel.json` |
@@ -61,6 +62,9 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 - **Tải tự động bằng Claude in Chrome**: YouTube qua https://ytsave.to/en2/, TikTok qua https://snaptik.app/en3 (bản không logo; dự phòng snaptik.vn), nền tảng khác tìm `download <tên nền tảng> video no watermark`. Trước mỗi lô tải, gửi danh sách clip để duyệt một lần. Quy trình ở `san-xuat.md` mục 4.
 - **Chỉ giữ phần sạch** (cận cảnh tay, không chữ, không logo, không mặt): bỏ intro, outro bằng `--start` và `--max` của `prep-footage`. Clip có logo hoặc chữ ở đáy dùng `--crop=top`; ở góc và đáy dùng `--crop=square`. Kiểm một khung sau khi chuẩn hóa.
 - **Thử nhanh một chương**: 1–2 clip, bản 720p, cắt 3–5 phút.
+- **Crop không quá sâu** (2026-11-22): sau crop phải giữ ≥ 60% diện tích khung nguồn và cạnh ngắn ≥ 576 px; thấy trọn tay và vật chính trong khung. Nguồn có logo, chữ chiếm nhiều chỗ đến mức phải crop sâu hơn thì bỏ nguồn, không dùng. Đã loại 2026-11-22: `bake` (giữ 38% diện tích, 792×446, chỉ thấy cận lòng tô, ts003) và `satisfying` (giữ 29%, 416×648); file chuyển sang `.tmp/footage-loai/`.
+- **Nhịp footage** (2026-11-22): footage phải có chuyển động rõ ngay từ đầu để giữ người xem; thao tác chậm thì tăng tốc phát bằng `speed` của tag trong `public/footage/tags.json` (chỉ tăng hình, không đổi giọng; mặc định 1; áp cho cả hai đường render). Khi nạp tag mới hoặc chọn tag cho tập: chạy `node scripts/footage-preview.mjs <tag>`, xem lưới 4 tốc độ (1 | 1,25 | 1,5 | 2) và ảnh lưới khung (soát crop), chốt `speed` trước khi render. Tốc độ cao làm clip hết nhanh hơn: tổng phút của tag chia `speed` vẫn phải ≥ độ dài tập. Quan sát 2026-11-22: `craft` ở tốc độ 1 chậm, người xem dễ bỏ ngay đầu (ts001); chốt `craft` 2x.
+- **Vào thẳng thao tác chính** (2026-11-22): giây đầu của video phải là thao tác chính (dán, tô, nặn...), không phải đoạn chuẩn bị (mở sổ, bày đồ, lục hộp) hay chữ của kênh gốc (tiêu đề, SUBSCRIBE, LIKE & COMMENT). Bỏ bằng `start` của tag trong `tags.json` (giây bỏ ở đầu clip 01; khi tag quay vòng cũng bỏ lại). Đã đặt: `craft` 86 (bỏ mở sổ, lục hộp sticker), `paint` 9 (bỏ chữ ASMR color with me, SUBSCRIBE, LIKE & COMMENT), `bento` 40 (bỏ phụ đề tiếng Hàn đoạn giới thiệu). Tìm điểm cắt: lưới khung 2 phút đầu clip 01, mỗi 2–5 giây một khung.
 
 ## Ảnh bìa
 
@@ -89,3 +93,6 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 - 2026-11-22: nạp 9 video dài từ Downloads (~9 giờ) thành 38 clip ở 8 tag bằng `split-footage.mjs` (đoạn ~15 phút, crop bỏ logo và phụ đề, giữ 720p không phóng to); thêm tag `anime` và `satisfying` ngoài 10 chủ đề gốc; loại 1 video có phụ đề cứng giữa khung.
 - 2026-11-22: footage chạy liền từng clip ~15 phút theo thứ tự, bỏ đổi cảnh mỗi 28 giây (`cutEverySec`); mỗi tag chỉ một video nguồn: tách `craft` thành `scene` (dán sticker vào tranh cảnh) và `craft` (journal), tách `cook` thành `cook` và `bento`.
 - 2026-11-22: kho footage riêng từng máy, tag mở (không giới hạn 10 chủ đề); thêm `footage-scan.mjs`, `footage-pick.mjs`, `tags.json`, `ingested.json`, `choices.json` (tag mỗi tập theo máy, thắng `footageTag`) và skill `footage-intake`.
+- 2026-11-22: độ tối nền `dim` 0,4 → 0,15: 0,4 có từ lúc còn phụ đề chữ trắng; phụ đề tắt từ 2026-11-19, nền chỉ còn logo (có bóng đổ), 0,4 giảm 40% độ sáng footage, cảnh tối hẳn. Áp cho các tập chưa render; ts001, ts002, ts003, ts005, ts006, ts007 đã render ở 0,4, giữ tới khi render lại.
+- 2026-11-22: thêm tốc độ footage theo tag (`speed`, `footage-preview.mjs`); quy tắc crop ≥ 60% diện tích, cạnh ngắn ≥ 576 px; loại tag `bake`, `satisfying`; ts003 đổi sang `paint`.
+- 2026-11-22: thêm `start` theo tag (bỏ đoạn đầu clip 01); `craft` tốc độ 2, bỏ 86 giây đầu; `paint` bỏ 9 giây đầu có chữ kênh gốc.

@@ -28,13 +28,15 @@ export const FootageTrack = ({footage, totalFrames}: {footage: FootageItem[]; to
 
   const plan = useMemo(() => {
     const clips = [...footage].sort((a, b) => a.src.localeCompare(b.src));
-    const out: {src: string; from: number; dur: number; fit: 'cover' | 'contain'; first: boolean}[] = [];
+    const out: {src: string; from: number; dur: number; fit: 'cover' | 'contain'; first: boolean; speed: number; skip: number}[] = [];
     let at = 0;
     for (let i = 0; at < totalFrames; i++) {
       const c = clips[i % clips.length];
-      const len = Math.max(fade * 2 + 1, Math.floor(c.sec * fps));
+      const speed = c.speed ?? 1; // tốc độ footage theo tag (public/footage/tags.json)
+      const skip = i % clips.length === 0 ? (c.start ?? 0) : 0; // tags.json start: bỏ đoạn đầu clip 01
+      const len = Math.max(fade * 2 + 1, Math.floor(((c.sec - skip) / speed) * fps));
       const from = i === 0 ? 0 : at - fade; // clip sau vào sớm một nhịp để mờ chéo
-      out.push({src: c.src, from, dur: len, fit: fitFor(c, width / height), first: i === 0});
+      out.push({src: c.src, from, dur: len, fit: fitFor(c, width / height), first: i === 0, speed, skip});
       at = from + len;
     }
     return out;
@@ -45,7 +47,7 @@ export const FootageTrack = ({footage, totalFrames}: {footage: FootageItem[]; to
       {plan.map((s, i) => (
         <Sequence key={i} from={s.from} durationInFrames={s.dur} premountFor={fps}>
           <Fading fade={s.first ? 0 : fade}>
-            <Video src={staticFile(s.src)} muted objectFit={s.fit} style={{width: '100%', height: '100%'}} />
+            <Video src={staticFile(s.src)} muted playbackRate={s.speed} trimBefore={Math.round(s.skip * fps)} objectFit={s.fit} style={{width: '100%', height: '100%'}} />
           </Fading>
         </Sequence>
       ))}

@@ -43,3 +43,4 @@
 - 2026-11-22: đổi tag sang `bento` (tag `cook` cũ trộn hai nguồn).
 - 2026-11-22: ảnh bìa từ ảnh gửi; viết lại chữ bìa và 3 hook phần TikTok, ngắt dòng tay.
 - 2026-11-22: render xong youtube.mp4 (29:22), tiktok-01..03, bìa YouTube và 3 bìa TikTok; footage `bento` chạy liền.
+- 2026-11-22: render lại youtube.mp4, tiktok-01..03 bằng ffmpeg, nền 0,15; footage `bento` bỏ 40 giây đầu có phụ đề tiếng Hàn; bìa giữ nguyên.

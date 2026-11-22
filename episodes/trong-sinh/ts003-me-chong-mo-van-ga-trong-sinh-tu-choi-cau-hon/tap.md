@@ -20,7 +20,7 @@
 | Độ dài: số chương, phút; cách đủ độ dài | 10 chương, ~50 phút (~8.980 chữ); cắt đoạn bình luận, chuyện nghề, làm nhẹ chi tiết bị liệt; thêm vòng bán thảm trên mạng bị Đào Yên đăng ảnh lật kèo (ch.5–6), câu "lần này tôi không ký" (ch.8), ngày giỗ kiếp trước của bố trôi qua bình an |
 | Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5–6 (~59% chữ, dừng cuối ch.6); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | GenMax, minimax speech-2.8-hd, voice d99082f8 (cùng giọng câu chào kênh), Vietnamese, tốc độ 1,2 |
-| Footage: chủ đề, nguồn, tag | Làm bánh ngọt cận cảnh tay, pastel; tag `bake` (kho có sẵn trên máy, không tải thêm) |
+| Footage: chủ đề, nguồn, tag | Tô màu marker tranh khu rừng, cận cảnh tay; tag `paint` (2026-11-22, thay `bake` vì crop quá sâu, không rõ chủ thể) |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | chữ: thumbText trong episode.json (sửa và duyệt 2026-11-22); ảnh: do bạn gửi 2026-11-22 (`raw/ts003-thumb.webp` → `public/ts003/thumb-bg.jpg`), neo mặt `thumbFace`; chưa có A/B |
 | Teaser TikTok 60–90 giây | không |
 
@@ -43,3 +43,4 @@
 - 2026-11-22: chốt giọng (voice d99082f8, tốc độ 1,2, gen cả tập không chờ duyệt ch.1), footage tag `bake`, không teaser; ảnh bìa chờ ảnh nhân vật (gợi ý ở mục Quyết định).
 - 2026-11-22: ảnh bìa từ ảnh gửi; viết lại chữ bìa và 3 hook phần TikTok cho rõ nghĩa, ngắt dòng tay.
 - 2026-11-22: render xong youtube.mp4 (30:51), tiktok-01..03, bìa YouTube và 3 bìa TikTok; footage `bake` chạy liền.
+- 2026-11-22: đổi footage `bake` → `paint` (bake crop còn 38% diện tích, không rõ chủ thể; đã loại khỏi kho); `paint` bỏ 9 giây đầu có chữ kênh gốc; render lại youtube.mp4, tiktok-01..03 bằng ffmpeg, nền 0,15; bìa giữ nguyên.

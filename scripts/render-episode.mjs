@@ -1,10 +1,13 @@
-// node scripts/render-episode.mjs tc005 [--only=youtube|tiktok|clips|cover|thumb] [--parts=1,3] [--concurrency=2] [--encoder=hw|sw]
+// node scripts/render-episode.mjs tc005 [--only=youtube|tiktok|clips|cover|thumb] [--parts=1,3] [--engine=ffmpeg|remotion] [--encoder=hw|sw] [--concurrency=2]
 //   youtube.mp4    khung ngang 1920×1080 (composition Episode): câu chào bằng giọng, watermark logo
 //   tiktok-NN.mp4  khung dọc 1080×1920 (composition Clip), mỗi phần render riêng, watermark + nhãn "Phần n/N"
 //   tiktok-NN-cover.png  bìa phần TikTok 1080×1920 (render cùng phần, hoặc riêng bằng --only=cover)
 //   thumb.png      ảnh bìa YouTube 1280×720
 //   --only=...     chỉ render bản YouTube, các phần TikTok (kèm bìa), chỉ bìa TikTok, hoặc ảnh bìa YouTube; clips = các phần TikTok không kèm bìa (chưa có ảnh nhân vật)
 //   --parts=1,3    chỉ render các phần TikTok này (mặc định: mọi phần)
+//   --out=dir      ghi ra thư mục khác thay vì out/ của tập (render thử)
+//   --engine=ffmpeg  (mặc định) ffmpeg ghép footage + lớp phủ PNG do Remotion vẽ + audio, ~6 lần nhanh hơn (scripts/lib/ffmpeg-render.mjs)
+//   --engine=remotion  Chrome vẽ từng khung; tự dùng khi tập bật phụ đề (captionsSrc) vì ffmpeg chưa vẽ phụ đề
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
@@ -12,6 +15,8 @@ import {bundle} from '@remotion/bundler';
 import {renderMedia, renderStill, selectComposition} from '@remotion/renderer';
 import {epPaths, ROOT} from './lib/paths.mjs';
 import {validateEpisode} from '../src/validate.ts';
+import {partRange} from '../src/types.ts';
+import {loadFootage, pickEncoder, renderFfmpeg} from './lib/ffmpeg-render.mjs';
 
 const argv = process.argv.slice(2);
 const flag = (name) => argv.find((a) => a.startsWith(`--${name}=`))?.slice(name.length + 3);
@@ -31,7 +36,8 @@ const errors = validateEpisode(base, {needThumb: !only || ['thumb', 'tiktok', 'c
 if (errors.length) fail(`${E.json} chưa hợp lệ:\n- ${errors.join('\n- ')}`);
 if (parts?.some((n) => n < 1 || n > base.parts.length)) fail(`--parts ngoài khoảng 1–${base.parts.length}`);
 
-const outDir = E.out;
+// --out=thư-mục: ghi ra chỗ khác (render thử, không đè bản trong out/)
+const outDir = flag('out') ? path.resolve(flag('out')) : E.out;
 fs.mkdirSync(outDir, {recursive: true});
 
 // Bundle trỏ link tới public/ (symlinkPublicDir) thay vì chép cả kho footage (5,6 GB mỗi lần chạy, 2026-11-22).
@@ -58,8 +64,33 @@ const mediaCacheSizeInBytes = Math.round(Math.min(2048, Math.max(240, os.totalme
 const encoder = flag('encoder') ?? (process.platform === 'darwin' ? 'hw' : 'sw');
 if (!['hw', 'sw'].includes(encoder)) fail(`--encoder phải là hw hoặc sw (nhận: ${encoder})`);
 const encoding = encoder === 'hw' ? {hardwareAcceleration: 'if-possible', videoBitrate: '5M'} : {crf: 18};
+let engine = flag('engine') ?? 'ffmpeg';
+if (!['ffmpeg', 'remotion'].includes(engine)) fail(`--engine phải là ffmpeg hoặc remotion (nhận: ${engine})`);
+if (engine === 'ffmpeg' && base.captionsSrc) {
+  console.log('Tập bật phụ đề (captionsSrc): đường ffmpeg chưa vẽ phụ đề, chuyển sang --engine=remotion.');
+  engine = 'remotion';
+}
+const needsVideo = only !== 'thumb' && only !== 'cover';
+const loaded = engine === 'ffmpeg' && needsVideo ? loadFootage(base) : null;
+const ffEncoder = loaded ? pickEncoder(encoder) : null;
+if (ffEncoder) console.log(`ffmpeg, tag footage "${loaded.tag}" tốc độ ${loaded.speed}, bỏ ${loaded.start} giây đầu, mã hóa ${ffEncoder.name}`);
+
+const ffmpegVideo = async (inputProps, file) => {
+  const props = {...inputProps, ...loaded, captions: []};
+  const {startSec, endSec} = partRange(props);
+  const overlayPng = path.join(bundleDir, `overlay-${props.part}.png`);
+  const id = props.part ? 'OverlayTiktok' : 'OverlayYoutube';
+  const overlayProps = {part: props.part, total: props.parts.length};
+  const composition = await selectComposition({serveUrl, id, inputProps: overlayProps});
+  await renderStill({composition, serveUrl, inputProps: overlayProps, output: overlayPng, imageFormat: 'png'});
+  const t0 = Date.now();
+  await renderFfmpeg({props, startSec, endSec, overlayPng, output: `${outDir}/${file}`, encoder: ffEncoder, tmpDir: bundleDir,
+    onProgress: (p) => process.stdout.write(`\r${file} ${(p * 100).toFixed(1)}%`)});
+  console.log(` (${((Date.now() - t0) / 60000).toFixed(1)} phút)`);
+};
 
 const video = async (id, inputProps, file) => {
+  if (engine === 'ffmpeg') return ffmpegVideo(inputProps, file);
   const composition = await selectComposition({serveUrl, id, inputProps});
   await renderMedia({
     composition, serveUrl, inputProps, codec: 'h264', concurrency, mediaCacheSizeInBytes, ...encoding,

@@ -57,11 +57,12 @@ node scripts/prep-footage.mjs raw cook [--start=giây] [--max=giây] [--crop=top
 node scripts/split-footage.mjs <file> <tag> [--crop=x:y:w:h] [--start=s --end=s]   # 6: cắt video dài thành các đoạn ~15 phút, crop bỏ logo, vào public/footage/<tag>/
 node scripts/footage-scan.mjs [thư-mục]               # 6: quét video mới người dùng tải (mặc định ~/Downloads), tạo ảnh xem trước
 node scripts/footage-pick.mjs [tc005 [tag]]           # 6: tag footage có trên máy này; chọn tag cho tập (cục bộ)
+node scripts/footage-preview.mjs <tag>                # 6: lưới 4 tốc độ + lưới khung (soát nhịp, crop); chốt speed trong tags.json
 node scripts/footage-manifest.mjs                    # 6: quét lại kho footage, in bảng clip theo tag
 node scripts/build-audio.mjs tc005                    # 7: ghép chương, ghi mốc, out/chapters.txt
 node scripts/prep-thumb.mjs tc005 raw/anh.jpg [--name=thumb-bg-2]   # 7: ảnh nhân vật cho bìa -> public/tc005/
 npx remotion studio src/index.ts                     # 7: xem trước
-node scripts/render-episode.mjs tc005 [--only=youtube|tiktok|clips|cover|thumb] [--parts=1,3] [--concurrency=2]   # youtube ngang, tiktok dọc + bìa phần (clips: không bìa), thumb (+ thumbAlt)
+node scripts/render-episode.mjs tc005 [--only=youtube|tiktok|clips|cover|thumb] [--parts=1,3] [--engine=ffmpeg|remotion] [--out=dir]   # youtube ngang, tiktok dọc + bìa phần (clips: không bìa), thumb (+ thumbAlt); mặc định ffmpeg (~5 lần thời gian thực), remotion khi bật phụ đề
 node scripts/status.mjs [tc005]                       # bước hiện tại của tập (không tham số: mọi tập)
 node scripts/stories.mjs [--todo|--doing|--done] [--genre=tc]   # kho truyện: chưa/đang/đã làm, tính từ file thật
 npm run typecheck                                    # kiểm kiểu code

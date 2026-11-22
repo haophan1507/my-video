@@ -4,6 +4,7 @@ import {Input, ALL_FORMATS, UrlSource} from 'mediabunny';
 import {Story} from './Story';
 import {Clip} from './Clip';
 import {Thumbnail, TikTokCover} from './Thumbnail';
+import {Overlay} from './ui';
 import {partRange, type EpisodeProps, type FootageItem} from './types';
 import {validateEpisode} from './validate';
 
@@ -31,7 +32,8 @@ const loadEpisode: CalculateMetadataFunction<EpisodeProps> = async ({props}) => 
   // Footage khác nhau theo máy: public/footage/choices.json (cục bộ) thắng footageTag trong episode.json
   const choices: Record<string, string> = await fetch(staticFile('footage/choices.json')).then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
   const footageTag = choices[props.audioSrc.split('/')[0]] ?? props.footageTag;
-  const footage = manifest.filter((f) => f.tag === footageTag);
+  const tags: Record<string, {speed?: number; start?: number}> = await fetch(staticFile('footage/tags.json')).then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
+  const footage = manifest.filter((f) => f.tag === footageTag).map((f) => ({...f, speed: tags[footageTag]?.speed ?? 1, start: tags[footageTag]?.start ?? 0}));
   if (!footage.length) throw new Error(`Không có footage cho tag "${footageTag}" trên máy này. Tag đang có: ${[...new Set(manifest.map((f) => f.tag))].join(', ') || '(trống)'}. Chạy node scripts/footage-pick.mjs <mã tập> <tag>`);
   const full = {...props, footageTag, audioSec, footage, captions};
   const {startSec, endSec} = partRange(full);
@@ -42,7 +44,7 @@ const loadEpisode: CalculateMetadataFunction<EpisodeProps> = async ({props}) => 
 const defaults: EpisodeProps = {
   title: 'Tiêu đề tập',
   audioSrc: 'xx000/audio.mp3', captionsSrc: '', footageTag: 'craft',
-  dim: 0.3,
+  dim: 0.15,
   chapters: [{title: 'Chương 1', startSec: 0}], parts: [{chapters: [1], hook: 'Hook phần 1'}],
   thumbText: 'Tiêu đề bìa', thumbBg: 'xx000/thumb-bg.jpg',
   part: 0, introSec: 0, audioSec: 0, footage: [], captions: [],
@@ -56,5 +58,7 @@ export const Root = () => (
       durationInFrames={FPS * 60} defaultProps={{...defaults, part: 1}} calculateMetadata={loadEpisode} />
     <Still id="Thumbnail" component={Thumbnail} width={1280} height={720} defaultProps={defaults} />
     <Still id="TikTokCover" component={TikTokCover} {...TIKTOK} defaultProps={{...defaults, part: 1}} />
+    <Still id="OverlayYoutube" component={Overlay} {...YOUTUBE} defaultProps={{part: 0, total: 0}} />
+    <Still id="OverlayTiktok" component={Overlay} {...TIKTOK} defaultProps={{part: 1, total: 3}} />
   </>
 );

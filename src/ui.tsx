@@ -40,3 +40,11 @@ export const Watermark = ({label}: {label?: string}) => {
     </div>
   );
 };
+
+// Lớp phủ trong suốt (logo + nhãn "Phần n/N") cho đường render ffmpeg: render một ảnh PNG rồi chồng lên footage.
+// part = 0: khung ngang YouTube, không nhãn; part = n: khung dọc TikTok, nhãn phần n/total.
+export const Overlay = ({part, total}: {part: number; total: number}) => (
+  <div style={{position: 'absolute', inset: 0, fontFamily}}>
+    <Watermark label={part ? brand.partLabel(part, total) : undefined} />
+  </div>
+);

@@ -43,3 +43,4 @@
 - 2026-11-22: bản render đầu không đạt (footage trộn hai nguồn, đổi cảnh 28 giây); đổi tag sang `scene`, footage chạy liền; render lại.
 - 2026-11-22: ảnh bìa từ ảnh gửi; viết lại chữ bìa và 3 hook phần TikTok cho rõ nghĩa, ngắt dòng tay.
 - 2026-11-22: render xong youtube.mp4 (31:31), tiktok-01..03 (5:42, 6:06, 6:14), bìa YouTube và 3 bìa TikTok; footage `scene` chạy liền.
+- 2026-11-22: render lại youtube.mp4, tiktok-01..03 bằng ffmpeg, nền 0,15; bìa giữ nguyên.
