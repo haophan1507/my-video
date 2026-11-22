@@ -13,7 +13,6 @@ export const validateEpisode = (p: Record<string, any>, opts: {needThumb?: boole
     if (typeof v?.thumbText === 'string' && v.thumbText.split('|').length > 4) e.push(`thumbAlt[${i}].thumbText tối đa 4 dòng`);
   });
   if (p.captionsSrc != null && typeof p.captionsSrc !== 'string') e.push('"captionsSrc" phải là chữ ("" = tắt phụ đề)');
-  if (!(num(p.cutEverySec) && p.cutEverySec > 0)) e.push('"cutEverySec" phải là số > 0');
   if (!(num(p.dim) && p.dim >= 0 && p.dim <= 1)) e.push('"dim" phải là số từ 0 đến 1');
   if (!(num(p.introSec) && p.introSec >= 0)) e.push('"introSec" phải là số >= 0 (build-audio điền)');
 

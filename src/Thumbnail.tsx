@@ -122,18 +122,27 @@ const BrushBar = ({x, y, w, h, seed}: {x: number; y: number; w: number; h: numbe
   );
 };
 
-// Ảnh trong khung tròn, viền cọ cam quanh phía `facing`.
-const RoundPhoto = ({src, focus, cx, cy, r, facing, span}: {src: string; focus: string; cx: number; cy: number; r: number; facing: number; span?: number}) => (
+// Neo mặt: `face` = vị trí mặt trong ảnh ("55% 33%"), ảnh rộng `zoom` × đường kính khung, mặt đặt đúng điểm `at`
+// (tọa độ trong khung, px) = giữa phần khung tròn nhìn thấy. Không có `face` thì dùng objectFit cover + `focus`.
+type Anchor = {face?: string; zoom: number; at: [number, number]};
+const RoundPhoto = ({src, focus, cx, cy, r, facing, span, anchor}: {src: string; focus: string; cx: number; cy: number; r: number; facing: number; span?: number; anchor?: Anchor}) => {
+  const [fx, fy] = (anchor?.face ?? '').split(/\s+/).map((v) => parseFloat(v));
+  const anchored = anchor && Number.isFinite(fx) && Number.isFinite(fy);
+  return (
   <>
     <div style={{position: 'absolute', left: cx - r, top: cy - r, width: 2 * r, height: 2 * r, borderRadius: '50%', overflow: 'hidden'}}>
-      <Img src={staticFile(src)} style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: focus}} />
+      {anchored
+        ? <Img src={staticFile(src)} style={{position: 'absolute', left: anchor.at[0], top: anchor.at[1], width: 2 * r * anchor.zoom,
+          height: 'auto', maxWidth: 'none', transform: `translate(-${fx}%, -${fy}%)`}} />
+        : <Img src={staticFile(src)} style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: focus}} />}
     </div>
     <svg width="100%" height="100%" style={{position: 'absolute', left: 0, top: 0}}>
       <RoughDefs />
       <BrushRing cx={cx} cy={cy} r={r} facing={facing} span={span} />
     </svg>
   </>
-);
+  );
+};
 
 // Các dải cọ nền (trong một svg toàn khung)
 const Bars = ({bars}: {bars: {x: number; y: number; w: number; h: number}[]}) => (
@@ -282,7 +291,9 @@ export const Thumbnail = (p: EpisodeProps) => {
       <div style={{position: 'absolute', inset: 0, background: CREAM}} />
       <Doodles W={W} H={H} n={14} seed="yt" avoid={avoid} />
       <Bars bars={[{x: 150, y: 14, w: 400, h: 42}, {x: 430, y: 666, w: 290, h: 30}]} />
-      <RoundPhoto src={p.thumbBg} focus={p.thumbFocus || '50% 30%'} cx={cx} cy={cy} r={r} facing={180} span={110} />
+      {/* phần nhìn thấy của khung: x 730–1280, y 0–720 → mặt đặt ở (1000, 330) trên khung hình */}
+      <RoundPhoto src={p.thumbBg} focus={p.thumbFocus || '50% 30%'} cx={cx} cy={cy} r={r} facing={180} span={110}
+        anchor={{face: p.thumbFace, zoom: p.thumbZoom ?? 1, at: [1000 - (cx - r), 330 - (cy - r)]}} />
       <Logo cx={mid} top={36} h={150} />
       <Hook text={p.thumbText} box={{left: TX, width: TW, top: 196, height: p.thumbTag ? 320 : 350}} maxFont={110} />
       <Tag text={p.thumbTag} left={TX} width={TW} top={520} size={30} />
@@ -302,7 +313,9 @@ export const TikTokCover = (p: EpisodeProps) => {
       <div style={{position: 'absolute', inset: 0, background: CREAM}} />
       <Doodles W={W} H={H} n={18} seed="tt" avoid={avoid} />
       <Bars bars={[{x: 170, y: 175, w: 470, h: 50}]} />
-      <RoundPhoto src={p.thumbBg} focus={p.coverFocus || p.thumbFocus || '50% 30%'} cx={cx} cy={cy} r={r} facing={270} span={86} />
+      {/* phần nhìn thấy của vòm: x 0–1080, y 1090–1920 → mặt đặt ở (540, 1350) */}
+      <RoundPhoto src={p.thumbBg} focus={p.coverFocus || p.thumbFocus || '50% 30%'} cx={cx} cy={cy} r={r} facing={270} span={86}
+        anchor={{face: p.coverFace ?? p.thumbFace, zoom: p.coverZoom ?? 0.72, at: [540 - (cx - r), 1350 - (cy - r)]}} />
       <Logo cx={W / 2} top={240} h={200} />
       <RedButton label={brand.partLabel(Math.max(1, p.part), p.parts.length)} cx={W / 2} top={462} h={84} hand={false} />
       <Hook text={part.hook} box={{left: 70, width: W - 140, top: 575, height: 470}} maxFont={130} />

@@ -77,10 +77,13 @@ export function status(arg) {
 
   // 6. Footage
   const manifest = readJson(path.join(ROOT, 'public', 'footage', 'manifest.json')) ?? [];
-  const tag = ep?.footageTag;
+  const code = path.basename(E.dir).split('-')[0];
+  const choice = readJson(path.join(ROOT, 'public', 'footage', 'choices.json'))?.[code];
+  const tag = choice ?? ep?.footageTag;
+  const localTags = [...new Set(manifest.map((f) => f.tag))];
   const clips = !tag ? [] : manifest.filter((f) => f.tag === tag && fs.existsSync(path.join(ROOT, 'public', f.src)));
   step('Footage', clips.length >= MIN_CLIPS ? 'done' : clips.length ? 'partial' : 'todo',
-    !tag ? 'chưa chọn footageTag trong episode.json' : `${clips.length} clip tag "${tag}" (cần ≥ ${MIN_CLIPS})${clips.some((f) => f.sec < MIN_CLIP_SEC) ? `; ${clips.filter((f) => f.sec < MIN_CLIP_SEC).length} clip ngắn hơn 5 phút` : ''}`);
+    !tag ? `chưa chọn tag footage; tag có trên máy này: ${localTags.join(', ') || '(trống)'}; chọn: node scripts/footage-pick.mjs <mã> <tag>` : !clips.length ? `tag "${tag}" chưa có trên máy này; có: ${localTags.join(', ') || '(trống)'}; chọn: node scripts/footage-pick.mjs <mã> <tag>` : `${clips.length} clip tag "${tag}" (cần ≥ ${MIN_CLIPS})${clips.some((f) => f.sec < MIN_CLIP_SEC) ? `; ${clips.filter((f) => f.sec < MIN_CLIP_SEC).length} clip ngắn hơn 5 phút` : ''}`);
 
   // 7. Dựng, render
   const nParts = ep?.parts?.length ?? 0;

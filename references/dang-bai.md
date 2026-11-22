@@ -37,12 +37,18 @@ Theo bìa mẫu (quan sát 2026-11-20, kênh audio truyện nền ẩm thực, v
 | Vùng | Nội dung |
 |---|---|
 | Nền | Kem ấm (`#FFF6E3` → `#FFE9C2`) toàn khung; hình vẽ mờ màu cam nhạt (vòng tròn, chấm, nốt nhạc, tai nghe) chỉ ở viền cột chữ, không đè chữ và ảnh; hai dải cọ khô cam nhạt nằm ngang: mép trên (trên logo) và mép dưới (sát khung tròn) |
-| Phải ~43% | Ảnh nhân vật (`thumbBg`) trong khung tròn đường kính 1.040 px, tâm (1250, 360): mép trái x = 730, phủ kín mép phải, trên, dưới (không hở góc); vai phụ, chữ là trọng tâm; viền cọ khô cam ôm phía trái khung (nét chính 34 px + một nét mảnh khô lệch ra ngoài); chỉnh khung bằng `thumbFocus` |
+| Phải ~43% | Ảnh nhân vật (`thumbBg`) trong khung tròn đường kính 1.040 px, tâm (1250, 360): mép trái x = 730, phủ kín mép phải, trên, dưới (không hở góc); vai phụ, chữ là trọng tâm; viền cọ khô cam ôm phía trái khung (nét chính 34 px + một nét mảnh khô lệch ra ngoài); chỉ thấy nửa trái khung (x 730–1.280) nên đặt mặt bằng `thumbFace` (mục Neo mặt dưới); `thumbFocus` chỉ dùng khi không có `thumbFace` |
 | Trái: logo | Logo kênh (`watermark` trong `channel/channel.json`) cao 150 px, căn giữa cột chữ, trên cùng |
 | Trái: hook | `thumbText`: in hoa, font Paytone One, một màu nâu đậm `#3B1F10`, căn giữa cột (x 30–700, y 196–516), cỡ tối đa 110 px; không có `\|` thì tự thử mọi độ rộng dòng và chọn cách ngắt cho cỡ chữ lớn nhất, có `\|` thì giữ cách ngắt tay; `*cụm*` tô đỏ quýt `#E2452E`, 0–2 cụm mỗi bìa |
 | Trái: nhãn phụ | `thumbTag` dưới hook ("Trọn bộ", "Full"), màu nhấn; bỏ trống thì ẩn |
 | Trái: nút | Nút đỏ viền trắng "SUBSCRIBE" + ngón tay trỏ bấm vào, dưới cùng cột chữ |
 | Góc dưới phải | Thuộc ảnh: YouTube đặt nhãn thời lượng ở đây, không đặt chi tiết quan trọng của ảnh vào góc này |
+
+### Neo mặt (`thumbFace`, 2026-11-22)
+
+Khung tròn bìa YouTube chỉ lộ nửa trái; với ảnh dọc, `thumbFocus` (object-position) không dời ngang được nên mặt ở giữa ảnh bị cắt (quan sát ts002, ts003, ts005). Ghi vị trí mặt trong ảnh `"thumbFace": "x% y%"` (tâm mặt, đo trên ảnh gốc): bìa đặt điểm đó vào giữa phần khung nhìn thấy, bìa YouTube tại (1.000, 330), bìa TikTok tại (540, 1.350). Cỡ ảnh: `thumbZoom` (bề rộng ảnh / đường kính khung, mặc định 1) và `coverZoom` (mặc định 0,72); `coverFace` để khác vị trí ở bìa TikTok. Luôn xem trước bìa và cả 3 bìa phần (`npx remotion still ... --scale=0.3`): mặt trọn, không hở nền trong phần khung nhìn thấy.
+
+Chữ bìa và hook phần: viết thành câu có dấu phẩy, dấu chấm cho rõ ai làm gì; ngắt dòng tay bằng `|` theo cụm nghĩa, dòng dài nhất ≤ ~18 ký tự để chữ đủ to (cỡ chữ theo dòng dài nhất).
 
 ### Ảnh nhân vật
 

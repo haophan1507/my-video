@@ -28,9 +28,12 @@ const loadEpisode: CalculateMetadataFunction<EpisodeProps> = async ({props}) => 
     getJson<FootageItem[]>('footage/manifest.json'),
     props.captionsSrc ? getJson<Caption[]>(props.captionsSrc) : Promise.resolve([] as Caption[]),
   ]);
-  const footage = manifest.filter((f) => f.tag === props.footageTag);
-  if (!footage.length) throw new Error(`Không có footage cho tag "${props.footageTag}" (public/footage/${props.footageTag}/). Chạy node scripts/footage-manifest.mjs`);
-  const full = {...props, audioSec, footage, captions};
+  // Footage khác nhau theo máy: public/footage/choices.json (cục bộ) thắng footageTag trong episode.json
+  const choices: Record<string, string> = await fetch(staticFile('footage/choices.json')).then((r) => (r.ok ? r.json() : {})).catch(() => ({}));
+  const footageTag = choices[props.audioSrc.split('/')[0]] ?? props.footageTag;
+  const footage = manifest.filter((f) => f.tag === footageTag);
+  if (!footage.length) throw new Error(`Không có footage cho tag "${footageTag}" trên máy này. Tag đang có: ${[...new Set(manifest.map((f) => f.tag))].join(', ') || '(trống)'}. Chạy node scripts/footage-pick.mjs <mã tập> <tag>`);
+  const full = {...props, footageTag, audioSec, footage, captions};
   const {startSec, endSec} = partRange(full);
   const tail = props.part ? 0 : FPS;
   return {props: full, durationInFrames: Math.ceil((endSec - startSec) * FPS) + tail};
@@ -39,7 +42,7 @@ const loadEpisode: CalculateMetadataFunction<EpisodeProps> = async ({props}) => 
 const defaults: EpisodeProps = {
   title: 'Tiêu đề tập',
   audioSrc: 'xx000/audio.mp3', captionsSrc: '', footageTag: 'craft',
-  cutEverySec: 6, dim: 0.3,
+  dim: 0.3,
   chapters: [{title: 'Chương 1', startSec: 0}], parts: [{chapters: [1], hook: 'Hook phần 1'}],
   thumbText: 'Tiêu đề bìa', thumbBg: 'xx000/thumb-bg.jpg',
   part: 0, introSec: 0, audioSec: 0, footage: [], captions: [],

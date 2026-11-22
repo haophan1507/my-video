@@ -1,43 +1,51 @@
 {
   "title": "Bạn thân để quên vàng cưới, kiếp này tôi gọi mẹ chồng cô ta đến kiểm trước mặt mọi người",
-  "footageTag": "",
-  "cutEverySec": 28,
+  "footageTag": "bento",
   "dim": 0.4,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Hộp trang sức trên bàn trang điểm"
+      "title": "Hộp trang sức trên bàn trang điểm",
+      "startSec": 3.99
     },
     {
-      "title": "Đôi vòng long phụng đâu rồi"
+      "title": "Đôi vòng long phụng đâu rồi",
+      "startSec": 175.37
     },
     {
-      "title": "Camera không biết nói dối"
+      "title": "Camera không biết nói dối",
+      "startSec": 353.82
     },
     {
-      "title": "Túi nhựa đen ở tiệm Hằng Phúc"
+      "title": "Túi nhựa đen ở tiệm Hằng Phúc",
+      "startSec": 551.97
     },
     {
-      "title": "Cuốn sổ đăng ký"
+      "title": "Cuốn sổ đăng ký",
+      "startSec": 756.52
     },
     {
-      "title": "Cái thai không có thật"
+      "title": "Cái thai không có thật",
+      "startSec": 984
     },
     {
-      "title": "Bức thư nặc danh"
+      "title": "Bức thư nặc danh",
+      "startSec": 1182.41
     },
     {
-      "title": "Tờ cam kết viết ngày mười sáu"
+      "title": "Tờ cam kết viết ngày mười sáu",
+      "startSec": 1398.04
     },
     {
-      "title": "Ngày chiếc xe tải đi qua"
+      "title": "Ngày chiếc xe tải đi qua",
+      "startSec": 1590.6
     }
   ],
   "parts": [
@@ -46,25 +54,27 @@
         1,
         2
       ],
-      "hook": "Kiếp trước tôi bị vu trộm vàng cưới, kiếp này tôi gọi mẹ chồng cô ta đến kiểm"
+      "hook": "Kiếp trước bị vu|*trộm vàng cưới*.|Kiếp này, tôi không|đụng vào cái hộp"
     },
     {
       "chapters": [
         3,
         4
       ],
-      "hook": "Camera chiếu cổ tay cô dâu trống trơn"
+      "hook": "Camera chiếu lại:|cổ tay cô dâu|*trống trơn*"
     },
     {
       "chapters": [
         5
       ],
-      "hook": "Sổ tiệm vàng ghi tên người bán"
+      "hook": "Sổ tiệm vàng|ghi tên người bán:|*em trai cô dâu*"
     }
   ],
-  "thumbText": "Bạn thân vu tôi|*trộm vàng* cưới|tôi gọi mẹ chồng|cô ta đến *kiểm*",
+  "thumbText": "Bị vu *trộm vàng cưới*,|sống lại, tôi gọi|mẹ chồng cô dâu|đến *kiểm từng món*",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts006/thumb-bg.jpg",
+  "introSec": 3.99,
+  "audioSrc": "ts006/audio.mp3",
+  "thumbFace": "54% 38%"
 }

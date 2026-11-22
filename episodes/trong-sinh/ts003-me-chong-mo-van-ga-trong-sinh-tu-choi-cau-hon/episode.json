@@ -1,46 +1,55 @@
 {
   "title": "Mẹ chồng mở van ga giết tôi và con gái, trọng sinh về ngày cầu hôn tôi hét: Không cưới!",
-  "footageTag": "",
-  "cutEverySec": 28,
+  "footageTag": "bake",
   "dim": 0.4,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Van ga và chiếc nhẫn"
+      "title": "Van ga và chiếc nhẫn",
+      "startSec": 3.99
     },
     {
-      "title": "Quả bom trước ống kính"
+      "title": "Quả bom trước ống kính",
+      "startSec": 177.78
     },
     {
-      "title": "Bố còn sống"
+      "title": "Bố còn sống",
+      "startSec": 368.14
     },
     {
-      "title": "Đứng lại"
+      "title": "Đứng lại",
+      "startSec": 536.66
     },
     {
-      "title": "Chàng trai nghèo bị hào môn chà đạp"
+      "title": "Chàng trai nghèo bị hào môn chà đạp",
+      "startSec": 749.71
     },
     {
-      "title": "Tấm ảnh gia đình ba người"
+      "title": "Tấm ảnh gia đình ba người",
+      "startSec": 922.09
     },
     {
-      "title": "Cú quật vai"
+      "title": "Cú quật vai",
+      "startSec": 1095.42
     },
     {
-      "title": "Lần này tôi không ký"
+      "title": "Lần này tôi không ký",
+      "startSec": 1279.44
     },
     {
-      "title": "Trước cửa trung tâm thương mại"
+      "title": "Trước cửa trung tâm thương mại",
+      "startSec": 1474.32
     },
     {
-      "title": "Chương trình hòa giải"
+      "title": "Chương trình hòa giải",
+      "startSec": 1654.27
     }
   ],
   "parts": [
@@ -49,26 +58,28 @@
         1,
         2
       ],
-      "hook": "Mẹ chồng mở van ga giết tôi và con gái mới sinh"
+      "hook": "Mẹ chồng mở van ga,|giết tôi và|con gái mới sinh"
     },
     {
       "chapters": [
         3,
         4
       ],
-      "hook": "Kiếp trước bố tôi chết, kiếp này ông đang ngồi bóc vải"
+      "hook": "Kiếp trước|bố tôi chết,|kiếp này ông|ngồi bóc vải"
     },
     {
       "chapters": [
         5,
         6
       ],
-      "hook": "Hắn bán thảm trên mạng, cả thành phố gọi tôi là thiên kim độc ác"
+      "hook": "Hắn bán thảm,|cả thành phố|gọi tôi là|*thiên kim độc ác*"
     }
   ],
-  "thumbText": "Mẹ chồng mở van ga|giết mẹ con tôi|trọng sinh tôi hét|*Không cưới!*",
+  "thumbText": "Mẹ chồng mở van ga,|giết mẹ con tôi.|Trọng sinh, tôi hét:|*Không cưới!*",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts003/thumb-bg.jpg",
+  "introSec": 3.99,
+  "audioSrc": "ts003/audio.mp3",
+  "thumbFace": "64% 36%"
 }

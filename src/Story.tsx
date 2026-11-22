@@ -10,7 +10,7 @@ export const Story = (p: EpisodeProps & {corner?: string}) => {
   const totalFrames = Math.ceil(p.audioSec * fps) + fps;
   return (
     <AbsoluteFill style={{backgroundColor: '#000', fontFamily}}>
-      <FootageTrack footage={p.footage} cutEverySec={p.cutEverySec} totalFrames={totalFrames} />
+      <FootageTrack footage={p.footage} totalFrames={totalFrames} />
       <AbsoluteFill style={{backgroundColor: `rgba(0,0,0,${p.dim})`}} />
       <Watermark label={p.corner} />
       <Captions captions={p.introSec > 0 ? p.captions.filter((c) => c.startMs >= p.introSec * 1000 - 50) : p.captions} />

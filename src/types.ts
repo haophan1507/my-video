@@ -12,13 +12,15 @@ export type EpisodeProps = {
   voice?: VoiceSettings;
   title: string; // tiêu đề tập, dùng cho đăng bài (không hiện trên hình)
   audioSrc: string; captionsSrc: string; footageTag: string;
-  cutEverySec: number; dim: number;
+  dim: number;
   chapters: Chapter[]; parts: Part[];
   // Ảnh bìa: thumbText dùng "|" ngắt dòng, *chữ* tô màu nhấn; thumbFocus = object-position của ảnh ("50% 30%");
   // thumbTag = nhãn nhỏ dưới hook ("Trọn bộ"), bỏ trống thì ẩn
   thumbText: string; thumbBg: string; thumbFocus?: string; thumbTag?: string;
   coverFocus?: string; // khung ảnh ở bìa TikTok dọc (mặc định theo thumbFocus)
-  thumbAlt?: Partial<Pick<EpisodeProps, 'thumbText' | 'thumbBg' | 'thumbFocus' | 'thumbTag'>>[]; // phương án A/B: thumb-2.png...
+  // Neo mặt (thắng thumbFocus/coverFocus): vị trí mặt trong ảnh "x% y%"; zoom = bề rộng ảnh / đường kính khung tròn
+  thumbFace?: string; thumbZoom?: number; coverFace?: string; coverZoom?: number;
+  thumbAlt?: Partial<Pick<EpisodeProps, 'thumbText' | 'thumbBg' | 'thumbFocus' | 'thumbTag' | 'thumbFace' | 'thumbZoom'>>[]; // phương án A/B: thumb-2.png...
   part: number;
   introSec: number; // build-audio điền: độ dài đoạn chào kênh ở đầu bản dài (0 = không có)
   // calculateMetadata điền:

@@ -1,40 +1,47 @@
 {
   "title": "Sống lại đêm tân hôn, tôi đòi ly hôn ngay sáng hôm sau",
-  "footageTag": "",
-  "cutEverySec": 28,
+  "footageTag": "night",
   "dim": 0.4,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Đêm tân hôn sống lại"
+      "title": "Đêm tân hôn sống lại",
+      "startSec": 3.99
     },
     {
-      "title": "Câu ly hôn ba mươi năm"
+      "title": "Câu ly hôn ba mươi năm",
+      "startSec": 162.24
     },
     {
-      "title": "Cái thùng cơm mười giờ sáng"
+      "title": "Cái thùng cơm mười giờ sáng",
+      "startSec": 325.92
     },
     {
-      "title": "Gánh hàng trước rạp chiếu bóng"
+      "title": "Gánh hàng trước rạp chiếu bóng",
+      "startSec": 493.12
     },
     {
-      "title": "Tiệm Kim Phượng và người đeo kính"
+      "title": "Tiệm Kim Phượng và người đeo kính",
+      "startSec": 685.63
     },
     {
-      "title": "Hoa Hồng Đỏ khai trương"
+      "title": "Hoa Hồng Đỏ khai trương",
+      "startSec": 893.06
     },
     {
-      "title": "Phân trước cửa tiệm"
+      "title": "Phân trước cửa tiệm",
+      "startSec": 1068.43
     },
     {
-      "title": "Kẻ như anh, xứng sao?"
+      "title": "Kẻ như anh, xứng sao?",
+      "startSec": 1249.59
     }
   ],
   "parts": [
@@ -43,25 +50,27 @@
         1,
         2
       ],
-      "hook": "Tôi chết trong phòng bệnh sáu giường, rồi mở mắt đúng đêm tân hôn"
+      "hook": "Thủ tiết ba mươi năm,|chồng chê *không xứng*.|Mở mắt, tôi về|đúng đêm tân hôn"
     },
     {
       "chapters": [
         3,
         4
       ],
-      "hook": "Tờ giấy ly hôn còn thơm mùi mực, bà mẹ chồng cũ đã đòi bữa trưa"
+      "hook": "Giấy ly hôn|còn thơm mùi mực,|mẹ chồng cũ đã|đòi *bữa trưa*"
     },
     {
       "chapters": [
         5
       ],
-      "hook": "Bà mẹ chồng cũ bảo tôi không đủ tiền mua một cái áo"
+      "hook": "Mẹ chồng cũ|chặn cửa, chê tôi|không đủ tiền|mua *một cái áo*"
     }
   ],
-  "thumbText": "Sống lại đêm *tân hôn*|tôi đòi *ly hôn*|ngay sáng hôm sau",
+  "thumbText": "Thủ tiết ba mươi năm,|sống lại đêm *tân hôn*,|tôi đòi *ly hôn*|ngay sáng hôm sau",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts007/thumb-bg.jpg",
+  "introSec": 3.99,
+  "audioSrc": "ts007/audio.mp3",
+  "thumbFace": "50% 28%"
 }

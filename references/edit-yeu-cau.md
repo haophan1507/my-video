@@ -10,7 +10,7 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 | Khung TikTok | Dọc 1080×1920, 30 fps | composition `Clip`, `src/Root.tsx` |
 | Khớp footage vào khung | Phủ kín nếu cắt ≤ 20% diện tích; ngược lại hiện trọn clip, viền đen | `MAX_CROP`, `src/FootageTrack.tsx` |
 | Phụ đề | Tắt | `captionsSrc: ""` |
-| Đổi cảnh footage | Mỗi 28 giây, mờ chéo 1 giây | `cutEverySec`, `src/FootageTrack.tsx` |
+| Đổi cảnh footage | Không cắt giữa clip: mỗi clip (~15 phút) phát liền từ đầu đến hết theo thứ tự tên file, hết clip mới chuyển clip sau, mờ chéo 1 giây | `src/FootageTrack.tsx` |
 | Độ tối nền | 0,4 | `dim` |
 | Thẻ chữ trên hình (thẻ chào, thẻ hook) | Không có: video vào thẳng cảnh footage từ khung đầu; hook nằm ở lời kể và ảnh bìa | `src/Story.tsx`, `src/Clip.tsx` |
 | Nghỉ sau câu chào | 0,8 giây | `scripts/build-audio.mjs` |
@@ -52,8 +52,8 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 - **Kiểu hình**: cận cảnh tay làm thủ công, pha chế, trang trí; màu bão hòa hoặc pastel; gần như không thấy mặt; mỗi cảnh một thao tác liền mạch khá dài; không có chữ chồng lên hình. Kiểu này phổ biến ở các kênh truyện audio hiệu suất cao (quan sát 2026-11-19).
 - **Không dùng làm nền chính**: cảnh đời thường ít chuyển động (cà phê, mưa trên kính, nấu ăn quay xa).
 - **Người trong hình là người châu Á** khi lộ mặt hoặc dáng rõ. Clip chỉ có tay, đồ vật thì không ràng buộc. Từ khóa: asian, korean, japanese, chinese.
-- **Một tập, một chủ đề, một tag**: mỗi tập chỉ dùng footage của một chủ đề; mỗi chủ đề một tag và một thư mục `public/footage/<tag>/` (bảng tag ở `san-xuat.md` mục 4); không trộn clip khác chủ đề vào cùng tag.
-- **Ít xao nhãng**: clip nguồn từ 5 phút (ưu tiên 30 phút–1 giờ); dùng hết clip rồi mới lặp; không để hai cảnh giống nhau liền nhau; đổi cảnh theo nhịp truyện thì chỉ đổi ở đầu chương.
+- **Một tập, một tag; một tag, một video nguồn** (2026-11-22): mỗi tập chỉ dùng footage của một tag; mỗi tag là các đoạn cắt liên tiếp của **một** video nguồn (cùng bàn, cùng kiểu thao tác, cùng tông màu), một thư mục `public/footage/<tag>/`. Hai nguồn cùng chủ đề nhưng khác kiểu (ví dụ dán sticker vào tranh cảnh có sẵn và dán sổ journal) là hai tag. Lý do: trộn hai nguồn trong một video làm hình đổi kiểu đột ngột, nhìn không liền (quan sát ts002, 2026-11-22). Tag nguồn ngắn hơn tập thì chọn tag khác dài hơn, không ghép nguồn.
+- **Chạy liền, không cắt vụn** (2026-11-22): footage phát liền như video gốc: clip 01 từ đầu đến hết, rồi 02, 03... (các clip là đoạn liên tiếp của cùng nguồn nên chuyển clip gần như không thấy). Không đổi cảnh theo nhịp vài chục giây. Tập dài hơn tổng tag thì quay lại clip 01. Bản TikTok lấy đúng đoạn footage cùng mốc thời gian với bản YouTube. Nguồn nên dài ≥ độ dài tập (ưu tiên 30 phút–1 giờ+).
 - **Hướng clip**: ưu tiên clip ngang 16:9 cho bản YouTube (phủ kín khung). Clip dọc dùng được cho cả hai bản; ở bản YouTube sẽ có viền đen hai bên.
 - **Chủ đề**: nấu ăn cận cảnh; làm bánh; trang trí đồ ngọt; pha chế đồ uống màu; đồ thủ công pastel; làm gốm; vẽ tranh, tô màu, tô số hóa; ambience đêm; làm nail; ghép hình, dán sticker DIY cận cảnh.
 - **Từ khóa tìm**: ghép chủ đề với `asmr`, `long`, `1 hour` (ví dụ `pottery asmr 1 hour`, `cake decorating long`). Chủ đề: satisfying, handmade craft diy, palette knife paint, pink cream piping, knitting yarn, miniature, pastel, decorating, resin, clay, watercolor, pottery, ceramic, nail art, paint by number, coloring, jigsaw puzzle, sticker diy, night ambience.
@@ -86,3 +86,6 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 - 2026-11-20: ảnh bìa qua nhiều vòng chỉnh (giấy xé, confetti, khung nét đứt, vệt cọ nhọn đều đã thử và bỏ) rồi chốt mẫu hiện tại ở mục Ảnh bìa: chữ trái, ảnh tròn phải (TikTok: vòm dưới), logo kênh, nút đỏ SUBSCRIBE / PHẦN n/N, font Paytone One, viền và dải cọ khô vẽ bằng bộ lọc nhiễu (`Brush`, `BrushRing`, `BrushBar` trong `src/Thumbnail.tsx`).
 - 2026-11-20: gỡ code thẻ chữ không còn dùng (`TitleCard`, `IntroCard`), trường `hookSec`, `episodeLabel` trong `episode.json` và `introLabel` trong `channel/channel.json`.
 - 2026-11-21: TikTok chỉ đăng ~50–60% truyện, mặc định 3 phần, điểm dừng chọn theo cú treo gây tò mò (không theo con số), được lệch tới ~65%; thêm mục "TikTok: phạm vi và số phần" ở Khung hình; `SKILL.md` bảng định dạng cập nhật theo. Các tập đã sinh sẵn vẫn giữ chia cũ trong `episode.json` tới khi chỉnh.
+- 2026-11-22: nạp 9 video dài từ Downloads (~9 giờ) thành 38 clip ở 8 tag bằng `split-footage.mjs` (đoạn ~15 phút, crop bỏ logo và phụ đề, giữ 720p không phóng to); thêm tag `anime` và `satisfying` ngoài 10 chủ đề gốc; loại 1 video có phụ đề cứng giữa khung.
+- 2026-11-22: footage chạy liền từng clip ~15 phút theo thứ tự, bỏ đổi cảnh mỗi 28 giây (`cutEverySec`); mỗi tag chỉ một video nguồn: tách `craft` thành `scene` (dán sticker vào tranh cảnh) và `craft` (journal), tách `cook` thành `cook` và `bento`.
+- 2026-11-22: kho footage riêng từng máy, tag mở (không giới hạn 10 chủ đề); thêm `footage-scan.mjs`, `footage-pick.mjs`, `tags.json`, `ingested.json`, `choices.json` (tag mỗi tập theo máy, thắng `footageTag`) và skill `footage-intake`.

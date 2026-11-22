@@ -37,7 +37,7 @@ Khi người dùng nói "làm truyện số N", "tiếp tục tập X", "tập n
 | 3 | Viết chương | `chNN.tts.txt` (một file mỗi chương, viết sẵn dạng máy đọc được: số, tiền, viết tắt thành chữ) | Đủ chương, mỗi chương 700–1.100 chữ, qua bảng soát | Duyệt chương 1 trước khi viết tiếp | `van-phong.md` |
 | 4 | Soát TTS | Báo cáo của `normalize-vi.mjs` (sửa trực tiếp `chNN.tts.txt`) | Hết chữ số, ngoặc; đã xử lý tên ngoại, câu dài | — | `san-xuat.md` 1 |
 | 5 | Giọng đọc | `episodes/<thể-loại>/<mã>-*/audio/chNN.mp3` | Mỗi chương một file, cùng giọng và tốc độ; đã nghe thử chương 1 | Dịch vụ, giọng, tốc độ | `san-xuat.md` 2 |
-| 6 | Footage | `public/footage/<tag>/<tag>-NN.mp4`, `sources.txt`, `manifest.json` | Đủ clip, đã chuẩn hóa; clip YouTube/TikTok/nền tảng khác tải bằng `dl-video.mjs` (dự phòng: Claude in Chrome) | Chủ đề, duyệt danh sách clip trước khi tải | `edit-yeu-cau.md`, `san-xuat.md` 4 |
+| 6 | Footage | `public/footage/<tag>/<tag>-NN.mp4`, `sources.txt`, `manifest.json` (kho riêng từng máy, ngoài git) | Đủ clip, đã chuẩn hóa; clip YouTube/TikTok/nền tảng khác tải bằng `dl-video.mjs` (dự phòng: Claude in Chrome) | Chủ đề, duyệt danh sách clip trước khi tải | `edit-yeu-cau.md`, `san-xuat.md` 4 |
 | 7 | Dựng, render | `episode.json`; `out/` trong thư mục tập | Render xong, đã xem lướt đầu và cuối | Ảnh nhân vật và chữ ảnh bìa (duyệt danh sách ảnh trước khi tải), có teaser không | `edit-yeu-cau.md`, `san-xuat.md` 5 |
 
 - Bước 6 làm song song với 3–5 được.
@@ -54,11 +54,14 @@ node scripts/normalize-vi.mjs tc005 [--fix]           # 4: báo cáo chNN.tts.tx
 node scripts/gen-voice.mjs tc005 [--dry-run]          # 5: GenMax; khóa trong .env, cài đặt giọng ở voice trong episode.json; chỉ gen chương đã đổi
 node scripts/dl-video.mjs <link> --name=craft-01 [--list]   # 6: tải video từ link nền tảng vào raw/ (API gendownload.com)
 node scripts/prep-footage.mjs raw cook [--start=giây] [--max=giây] [--crop=top|square]   # 6: chuẩn hóa clip vào public/footage/cook/ + manifest
+node scripts/split-footage.mjs <file> <tag> [--crop=x:y:w:h] [--start=s --end=s]   # 6: cắt video dài thành các đoạn ~15 phút, crop bỏ logo, vào public/footage/<tag>/
+node scripts/footage-scan.mjs [thư-mục]               # 6: quét video mới người dùng tải (mặc định ~/Downloads), tạo ảnh xem trước
+node scripts/footage-pick.mjs [tc005 [tag]]           # 6: tag footage có trên máy này; chọn tag cho tập (cục bộ)
 node scripts/footage-manifest.mjs                    # 6: quét lại kho footage, in bảng clip theo tag
 node scripts/build-audio.mjs tc005                    # 7: ghép chương, ghi mốc, out/chapters.txt
 node scripts/prep-thumb.mjs tc005 raw/anh.jpg [--name=thumb-bg-2]   # 7: ảnh nhân vật cho bìa -> public/tc005/
 npx remotion studio src/index.ts                     # 7: xem trước
-node scripts/render-episode.mjs tc005 [--only=youtube|tiktok|cover|thumb] [--parts=1,3]   # youtube ngang, tiktok dọc + bìa phần, thumb (+ thumbAlt)
+node scripts/render-episode.mjs tc005 [--only=youtube|tiktok|clips|cover|thumb] [--parts=1,3] [--concurrency=2]   # youtube ngang, tiktok dọc + bìa phần (clips: không bìa), thumb (+ thumbAlt)
 node scripts/status.mjs [tc005]                       # bước hiện tại của tập (không tham số: mọi tập)
 node scripts/stories.mjs [--todo|--doing|--done] [--genre=tc]   # kho truyện: chưa/đang/đã làm, tính từ file thật
 npm run typecheck                                    # kiểm kiểu code
@@ -82,6 +85,7 @@ Mỗi chủ đề chỉ có một nơi chi tiết. Chỉ đọc khi tới bướ
 | `references/san-xuat.md` | Soát TTS, giọng, footage, dựng, render, quy tắc code Remotion | 4–7 |
 | `references/edit-yeu-cau.md` | **Tiêu chuẩn đang áp dụng** về khung hình, chữ, footage, giọng; thắng mọi mặc định | 5–7 |
 | `references/dang-bai.md` | Tiêu đề, ảnh bìa, A/B test, mô tả, caption TikTok, lịch, khai báo AI, đo và sửa | 2, 7 |
+| `.claude/skills/footage-intake/SKILL.md` | Nạp footage người dùng tự tải trên máy này: quét, phân loại, crop, cắt, chọn tag cho tập | 6 |
 | `references/nguon-tra-cuu.md` | Skill và tài liệu ngoài đã xem (dùng / không dùng), trợ giúp YouTube | khi cần sâu hơn |
 
 ## Quy tắc

@@ -49,6 +49,8 @@ Mọi chữ và màu cố định của kênh nằm ở `channel/channel.json`, 
 
 ## 4. Footage (bước 6)
 
+**Kho footage riêng từng máy** (2026-11-22): `public/footage/` nằm ngoài git; mỗi người tự tải video rồi nạp bằng skill `.claude/skills/footage-intake/SKILL.md`, nên tag và số clip khác nhau giữa các máy. Danh sách 10 chủ đề dưới đây chỉ là **gợi ý khi tìm và đặt tên**, không bắt buộc: tag mới tùy ý (`[a-z0-9-]`), mô tả ở `public/footage/tags.json`. Chọn tag cho tập từ kho của máy này (`node scripts/footage-pick.mjs <mã>`), lưu cục bộ ở `public/footage/choices.json`.
+
 **Chọn chủ đề** theo `edit-yeu-cau.md` (kiểu hình dùng và không dùng). Chọn một chủ đề cho cả tập:
 
 1. Nấu ăn cận cảnh
@@ -72,12 +74,12 @@ public/footage/
   cook/
     cook-01.mp4        # clip đã chuẩn hóa
     cook-02.mp4
-    sources.txt        # nguồn, giấy phép, ngày tải, cách crop từng clip (có trong git)
+    sources.txt        # nguồn, giấy phép, ngày tải, cách crop từng clip
   pottery/
     ...
 ```
 
-Kiểm kho: `node scripts/footage-manifest.mjs` quét lại mọi thư mục tag, ghi manifest và in bảng số clip, tổng phút, số clip dọc/ngang/vuông theo từng tag. File `.mp4` và `manifest.json` không vào git (tải lại theo `sources.txt`).
+Kiểm kho: `node scripts/footage-manifest.mjs` quét lại mọi thư mục tag, ghi manifest và in bảng số clip, tổng phút, số clip dọc/ngang/vuông theo từng tag. Cả thư mục `public/footage/` (clip, manifest, sources.txt, tags.json, ingested.json, choices.json) không vào git.
 
 | Chủ đề | Tag |
 |---|---|
@@ -136,6 +138,12 @@ Quy trình mỗi clip:
 4. File về thư mục Tải xuống của Chrome (`~/Downloads`). Kiểm tên, dung lượng, `ffprobe` thời lượng; đủ thì chuyển vào `raw/` (mỗi lần tải là file không tin cậy: chỉ đọc bằng ffprobe và ffmpeg, không mở, không chạy file nào khác ngoài video). Chuyển xong mới tải clip kế.
 5. Quay lại bước "Lấy và chuẩn hóa" ở dưới (`prep-footage`), rồi ghi nguồn vào `public/footage/<tag>/sources.txt`: link gốc, nền tảng, ngày tải, cách crop, ghi chú "chưa kiểm giấy phép" nếu không rõ; liệt kê các clip chưa rõ giấy phép trong báo cáo để quyết định giữ hay bỏ.
 
+**Cắt dài thành nhiều đoạn bằng `split-footage.mjs`** (2026-11-22): một video nguồn dài (30 phút–2 giờ) cắt thành các đoạn ~15 phút liên tiếp, mỗi đoạn là một clip trong tag; đoạn dư từ 5 phút thành đoạn riêng, dư ít hơn thì gộp vào đoạn cuối. Có `--crop=x:y:w:h` (tỉ lệ 0–1) để lấy đúng vùng sạch khi nguồn có logo, watermark hay phụ đề; `--short` (mặc định 720) không phóng to nguồn 720p lên 1080p, tiết kiệm đĩa. Chạy `--dry-run` để xem kế hoạch trước.
+```bash
+node scripts/split-footage.mjs ~/Downloads/clip.mp4 bake --start=5 --end=20 --crop=0.19:0.22:0.62:0.62
+```
+Vùng crop: bỏ góc logo, chữ chìm, phụ đề; clip có chữ nằm giữa khung (phụ đề cứng giữa hình) thì loại hẳn, không crop. Nguồn có clip dọc đặt giữa khung ngang với nền mờ hai bên (ví dụ tag `satisfying`): crop đúng dải dọc để ra clip dọc thật.
+
 **Lấy và chuẩn hóa**:
 1. Tìm theo từ khóa trên ở nhiều nguồn; lọc độ dài từ 5 phút (Pexels có `min_duration=300`, các kho khác lọc theo thời lượng nếu có). Tải theo cách mà từng kho cho phép (nút tải, hoặc `curl` nếu kho không chặn); clip trên YouTube, TikTok và nền tảng video khác tải bằng Claude in Chrome như mục trên.
 2. Ghép ảnh thu nhỏ từng clip bằng ffmpeg, xem trước khi chọn.
@@ -160,10 +168,10 @@ Quy trình mỗi clip:
 | `voice` | Cài đặt giọng của tập cho `gen-voice` (mục 2); Remotion không dùng |
 | `audioSrc` | `<mã>/audio.mp3` (do `build-audio` điền) |
 | `captionsSrc` | `""` = tắt phụ đề; `<mã>/captions.json` khi bật |
-| `footageTag`, `cutEverySec`, `dim` | Tag footage, giây mỗi cảnh, độ tối nền (giá trị trong `edit-yeu-cau.md`) |
+| `footageTag`, `dim` | Tag footage (footage chạy liền từng clip, xem `edit-yeu-cau.md`), độ tối nền |
 | `chapters[].title` | Tên chương (thành timestamp YouTube). `startSec` do script điền |
 | `parts[]` | `{"chapters": [đầu, cuối], "hook": "chữ hook phần"}` theo bảng chia phần trong `outline.md` |
-| `thumbText`, `thumbBg`, `thumbFocus`, `thumbTag`, `thumbAlt` | Ảnh bìa: chữ hook (`|` ngắt dòng, `*cụm*` tô màu nhấn), ảnh nhân vật `<mã>/thumb-bg.jpg` (tạo bằng `prep-thumb`), khung ảnh, nhãn phụ, các phương án A/B. Quy tắc ở `dang-bai.md` mục 2 |
+| `thumbText`, `thumbBg`, `thumbFace`, `thumbFocus`, `thumbTag`, `thumbAlt` | Ảnh bìa: chữ hook (`|` ngắt dòng, `*cụm*` tô màu nhấn), ảnh nhân vật `<mã>/thumb-bg.jpg` (tạo bằng `prep-thumb`), khung ảnh, nhãn phụ, các phương án A/B. Quy tắc ở `dang-bai.md` mục 2 |
 | `introSec` | Do `build-audio` điền |
 
 **Chạy**:
@@ -185,7 +193,7 @@ Thử nhanh một đoạn: `npx remotion render src/index.ts Episode .tmp/test.m
 
 **Kiểm tra trước khi báo xong**: xem lướt đầu (vào thẳng footage, watermark), một chỗ chuyển chương, đoạn cuối; thời lượng khớp tổng audio; mỗi `tiktok-NN.mp4` bắt đầu đúng đầu chương. Xem một khung bất kỳ không cần mở video: `ffmpeg -ss 00:00:05 -i out/youtube.mp4 -frames:v 1 .tmp/khung.png` (hoặc `npx remotion still src/index.ts Episode .tmp/khung.png --frame=150 --props=...`). Ghi `--overwrite` nếu file đã có, để không xem nhầm ảnh cũ.
 
-**Thời gian render**: bản YouTube và các phần TikTok khác khung nên render riêng; tổng thời gian cỡ gấp đôi một bản (ước tính, chưa đo với tập 45 phút). Render lại vài phần: `--parts=1,3`. Không cắt phần TikTok từ `youtube.mp4` (khác hướng khung; tùy chọn `--cut` cũ đã bỏ).
+**Thời gian render**: bản YouTube và các phần TikTok khác khung nên render riêng; tổng thời gian cỡ gấp đôi một bản (ước tính). Đã đo (2026-11-22, Apple M2 8 nhân, 16 GB, mặc định 4 luồng): bản YouTube 31 phút render ~38 phút, file ~1,1 GB; một lần render liền nhiều tập ở 4 luồng máy bị treo. Nguyên nhân (2026-11-22): bộ đệm khung hình của `@remotion/media` mặc định 50% RAM cho mỗi tab Chrome, và mỗi lần chạy chép cả kho footage (5,6 GB) vào thư mục tạm, bundle bỏ dở không được dọn. `render-episode.mjs` đã xử lý: chia 40% RAM cho các tab (`mediaCacheSizeInBytes`), bundle trỏ link tới `public/`, tự dọn bundle `my-video-bundle-<pid>` của lượt đã chết. Mã hóa: `--encoder=hw` (mặc định trên Mac, VideoToolbox 5 Mbps, file cỡ bản crf 18 cũ: 31 phút ≈ 1,2 GB) hoặc `--encoder=sw` (libx264 crf 18, mặc định trên Windows/Linux; ở đó `hw` là NVENC, chỉ dùng khi có card NVIDIA). Chưa có phần TikTok (`--only=clips` render phần TikTok không kèm bìa khi chưa có ảnh nhân vật). Render lại vài phần: `--parts=1,3`. Không cắt phần TikTok từ `youtube.mp4` (khác hướng khung; tùy chọn `--cut` cũ đã bỏ).
 
 **Bật lại phụ đề**: repo không còn công cụ phiên âm (đã gỡ whisper 2026-11-19). Chỉ còn bản tạm, mốc chia theo số ký tự nên sẽ lệch so với giọng thật:
 ```bash
@@ -210,7 +218,8 @@ Rồi đặt `captionsSrc` thành `<mã>/captions.json`. Khớp từng chữ c�
 | Hình giật | Footage chưa chuẩn hóa `fps=30` |
 | Mất dấu tiếng Việt | Font thiếu subset `vietnamese` |
 | Lỗi phiên bản gói | `npx remotion versions`, cài mọi `@remotion/*` cùng phiên bản |
-| Tràn RAM | Giảm `concurrency` trong `render-episode.mjs` |
+| Tràn RAM | Giảm `--concurrency` (bộ đệm mỗi tab đã tự chia theo RAM) |
+| Đầy ổ đĩa sau render lỗi | Lần chạy sau tự dọn `my-video-bundle-*`; thư mục tạm `react-motion-render*`, `remotion-webpack-bundle-*` cũ xóa tay được khi không có render nào chạy |
 | "episode.json chưa hợp lệ" | Làm theo từng dòng báo lỗi; thiếu `startSec` hoặc `audioSrc` thì chạy `build-audio.mjs` |
 | `channel.json thiếu hoặc sai kiểu` | Điền đủ khóa theo mục 3 (`name`, `introText`, `partLabel`, `chapterLabel`, `accent`) |
 

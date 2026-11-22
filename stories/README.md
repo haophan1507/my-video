@@ -160,7 +160,7 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 | tc001 | chưa chốt | chưa chốt | Base ~18 phút (dưới chuẩn 25–60); sẽ viết dày lên ~30–35 phút |
 | tc004 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc007 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts003 | chưa chốt | chưa chốt | mở 2026-11-21 |
+| ts003 | voice d99082f8, tốc độ 1,2 | `bake` | đã render 2026-11-22, chờ đăng |
 | tc002 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc006 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc008 | chưa chốt | chưa chốt | mở 2026-11-21 |
@@ -190,10 +190,10 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 | tc032 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc033 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc034 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts002 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts005 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts006 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts007 | chưa chốt | chưa chốt | mở 2026-11-21 |
+| ts002 | voice d99082f8, tốc độ 1,2 | `scene` | đã render 2026-11-22, chờ đăng |
+| ts005 | voice d99082f8, tốc độ 1,2 | `anime` | đã render 2026-11-22, chờ đăng |
+| ts006 | voice d99082f8, tốc độ 1,2 | `bento` | đã render 2026-11-22, chờ đăng |
+| ts007 | voice d99082f8, tốc độ 1,2 | `night` | đã render 2026-11-22, chờ đăng |
 | ts008 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | ts009 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | ts010 | chưa chốt | chưa chốt | mở 2026-11-21 |

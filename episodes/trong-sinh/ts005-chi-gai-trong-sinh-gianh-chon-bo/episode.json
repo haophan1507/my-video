@@ -1,49 +1,59 @@
 {
   "title": "Chị gái đâm tôi ngày đính hôn, sống lại tôi chọn theo mẹ đi học",
-  "footageTag": "",
-  "cutEverySec": 28,
+  "footageTag": "anime",
   "dim": 0.4,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Phòng hòa giải ngày chị chọn bố"
+      "title": "Phòng hòa giải ngày chị chọn bố",
+      "startSec": 3.99
     },
     {
-      "title": "Căn hộ lạnh như phòng mổ"
+      "title": "Căn hộ lạnh như phòng mổ",
+      "startSec": 170.11
     },
     {
-      "title": "Cây đèn dán lại của mẹ"
+      "title": "Cây đèn dán lại của mẹ",
+      "startSec": 344.68
     },
     {
-      "title": "Phòng dụng cụ và chiếc cúc áo camera"
+      "title": "Phòng dụng cụ và chiếc cúc áo camera",
+      "startSec": 531.12
     },
     {
-      "title": "Chị đứng giữa sân khấu vạn người mê"
+      "title": "Chị đứng giữa sân khấu vạn người mê",
+      "startSec": 708.99
     },
     {
-      "title": "Mùi tuyết tùng trong thang máy"
+      "title": "Mùi tuyết tùng trong thang máy",
+      "startSec": 884.46
     },
     {
-      "title": "Cô gái đeo khẩu trang ở phòng thí nghiệm"
+      "title": "Cô gái đeo khẩu trang ở phòng thí nghiệm",
+      "startSec": 1070.42
     },
     {
-      "title": "Một đêm vạn bình luận chửi con chip"
+      "title": "Một đêm vạn bình luận chửi con chip",
+      "startSec": 1258.87
     },
     {
-      "title": "Dòng sông năm mười hai tuổi"
+      "title": "Dòng sông năm mười hai tuổi",
+      "startSec": 1467.04
     },
     {
-      "title": "Lá thư cuối cùng của chị"
+      "title": "Lá thư cuối cùng của chị",
+      "startSec": 1673.7
     },
     {
-      "title": "Cái giá của anh"
+      "title": "Cái giá của anh",
+      "startSec": 1874.35
     }
   ],
   "parts": [
@@ -52,26 +62,28 @@
         1,
         2
       ],
-      "hook": "Chị đâm tôi ngày đính hôn, mở mắt tôi về ngày bố mẹ ly hôn"
+      "hook": "Chị gái đâm tôi|ngày đính hôn.|Mở mắt, tôi về|ngày bố mẹ *ly hôn*"
     },
     {
       "chapters": [
         3,
         4
       ],
-      "hook": "Mẹ tôi từng là thủ khoa, bố đạp xe nửa thành phố chờ bà"
+      "hook": "Mẹ là thủ khoa,|bố đạp xe|nửa thành phố|để chờ bà"
     },
     {
       "chapters": [
         5,
         6
       ],
-      "hook": "Lễ kỷ niệm trường, chị đứng giữa sân khấu"
+      "hook": "Lễ kỷ niệm trường,|chị gái đứng|giữa sân khấu"
     }
   ],
-  "thumbText": "Chị đâm tôi|ngày đính hôn|sống lại tôi *theo mẹ*|*đi học*",
+  "thumbText": "Chị gái đâm tôi|ngày đính hôn.|Sống lại, tôi chọn|*theo mẹ đi học*",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts005/thumb-bg.jpg",
+  "introSec": 3.99,
+  "audioSrc": "ts005/audio.mp3",
+  "thumbFace": "54% 35%"
 }

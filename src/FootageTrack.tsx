@@ -1,5 +1,5 @@
 import {useMemo} from 'react';
-import {Sequence, interpolate, random, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {Video} from '@remotion/media';
 import type {FootageItem} from './types';
 
@@ -19,50 +19,36 @@ const Fading = ({fade, children}: {fade: number; children: React.ReactNode}) => 
   return <div style={{position: 'absolute', inset: 0, opacity}}>{children}</div>;
 };
 
-export const FootageTrack = ({footage, cutEverySec, totalFrames}: {
-  footage: FootageItem[]; cutEverySec: number; totalFrames: number;
-}) => {
+// Footage chạy liền như video gốc: mỗi clip phát trọn từ đầu đến hết theo thứ tự tên file (các clip của một tag
+// là đoạn cắt liên tiếp của cùng một nguồn), hết clip mới sang clip sau; hết cả tag thì quay lại clip đầu.
+// Bản TikTok (Clip) cắt Story theo mốc thời gian nên lấy đúng đoạn footage như bản YouTube.
+export const FootageTrack = ({footage, totalFrames}: {footage: FootageItem[]; totalFrames: number}) => {
   const {fps, width, height} = useVideoConfig();
-  const seg = Math.max(1, Math.round(cutEverySec * fps));
   const fade = Math.round(FADE_SEC * fps);
 
   const plan = useMemo(() => {
-    // Xáo trộn cố định theo seed, dùng hết các clip rồi mới lặp lại, không bao giờ trùng clip liền trước
-    const order: number[] = [];
-    let pool: number[] = [];
-    let prev = -1;
-    for (let i = 0; i * seg < totalFrames; i++) {
-      if (!pool.length) {
-        pool = footage.map((_, k) => k).sort((a, b) => random(`o${i}-${a}`) - random(`o${i}-${b}`));
-        if (pool[0] === prev && pool.length > 1) pool.push(pool.shift()!);
-      }
-      prev = pool.shift()!;
-      order.push(prev);
+    const clips = [...footage].sort((a, b) => a.src.localeCompare(b.src));
+    const out: {src: string; from: number; dur: number; fit: 'cover' | 'contain'; first: boolean}[] = [];
+    let at = 0;
+    for (let i = 0; at < totalFrames; i++) {
+      const c = clips[i % clips.length];
+      const len = Math.max(fade * 2 + 1, Math.floor(c.sec * fps));
+      const from = i === 0 ? 0 : at - fade; // clip sau vào sớm một nhịp để mờ chéo
+      out.push({src: c.src, from, dur: len, fit: fitFor(c, width / height), first: i === 0});
+      at = from + len;
     }
-    return order.map((k, i) => {
-      const room = Math.floor(footage[k].sec * fps) - (seg + fade) - 1;
-      return {
-        src: footage[k].src, i, fit: fitFor(footage[k], width / height),
-        trimBefore: room > 0 ? Math.floor(random(`start-${i}`) * room) : 0,
-        loop: room < 0, // clip ngắn hơn một đoạn thì lặp
-      };
-    });
-  }, [footage, fps, seg, fade, totalFrames, width, height]);
+    return out;
+  }, [footage, fps, fade, totalFrames, width, height]);
 
   return (
     <>
-      {plan.map((s) => {
-        const from = s.i === 0 ? 0 : s.i * seg - fade; // đoạn sau bắt đầu sớm một nhịp để mờ chéo
-        const dur = s.i === 0 ? seg : seg + fade;
-        return (
-          <Sequence key={s.i} from={from} durationInFrames={dur} premountFor={fps}>
-            <Fading fade={s.i === 0 ? 0 : fade}>
-              <Video src={staticFile(s.src)} trimBefore={s.trimBefore} loop={s.loop} muted
-                objectFit={s.fit} style={{width: '100%', height: '100%'}} />
-            </Fading>
-          </Sequence>
-        );
-      })}
+      {plan.map((s, i) => (
+        <Sequence key={i} from={s.from} durationInFrames={s.dur} premountFor={fps}>
+          <Fading fade={s.first ? 0 : fade}>
+            <Video src={staticFile(s.src)} muted objectFit={s.fit} style={{width: '100%', height: '100%'}} />
+          </Fading>
+        </Sequence>
+      ))}
     </>
   );
 };

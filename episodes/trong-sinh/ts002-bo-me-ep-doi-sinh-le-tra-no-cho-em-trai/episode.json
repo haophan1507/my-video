@@ -1,46 +1,55 @@
 {
   "title": "Ngày rước dâu, mẹ bắt tôi lấy cái thai đòi thêm năm mươi vạn, tôi đá thẳng em trai",
-  "footageTag": "",
-  "cutEverySec": 28,
+  "footageTag": "scene",
   "dim": 0.4,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Năm mươi vạn và cái thai trong bụng"
+      "title": "Năm mươi vạn và cái thai trong bụng",
+      "startSec": 3.99
     },
     {
-      "title": "Cú đá thứ hai, cánh cửa thứ nhất"
+      "title": "Cú đá thứ hai, cánh cửa thứ nhất",
+      "startSec": 158.99
     },
     {
-      "title": "Cô học bá và anh bạn đội sổ"
+      "title": "Cô học bá và anh bạn đội sổ",
+      "startSec": 345.53
     },
     {
-      "title": "Chiêu mềm, chiêu cứng"
+      "title": "Chiêu mềm, chiêu cứng",
+      "startSec": 523.72
     },
     {
-      "title": "Người hàng xóm tầng dưới"
+      "title": "Người hàng xóm tầng dưới",
+      "startSec": 711.39
     },
     {
-      "title": "Phong bì dày cộp"
+      "title": "Phong bì dày cộp",
+      "startSec": 901.27
     },
     {
-      "title": "Em dâu dịu dàng"
+      "title": "Em dâu dịu dàng",
+      "startSec": 1085
     },
     {
-      "title": "Tấm ảnh trong quán bar"
+      "title": "Tấm ảnh trong quán bar",
+      "startSec": 1275.04
     },
     {
-      "title": "Bữa cơm ở nhà ngoại"
+      "title": "Bữa cơm ở nhà ngoại",
+      "startSec": 1461.87
     },
     {
-      "title": "Tôi tha thứ, nhưng không ký"
+      "title": "Tôi tha thứ, nhưng không ký",
+      "startSec": 1685.72
     }
   ],
   "parts": [
@@ -49,26 +58,28 @@
         1,
         2
       ],
-      "hook": "Chết vì gia đình hút máu, tôi sống lại đúng sáng rước dâu"
+      "hook": "Em trai chặn cửa,|đòi nhà chồng|thêm *năm mươi vạn*.|Lần này, tôi không gật"
     },
     {
       "chapters": [
         3,
         4
       ],
-      "hook": "Tôi từng đứng đầu khối rồi bị rút giấy báo đại học"
+      "hook": "Từng đứng đầu khối,|tôi bị rút mất|giấy báo đại học"
     },
     {
       "chapters": [
         5,
         6
       ],
-      "hook": "Chiêu hay nhất là thuê hàng xóm miệng độc hơn"
+      "hook": "Chiêu hay nhất:|thuê một hàng xóm|còn *độc miệng* hơn"
     }
   ],
-  "thumbText": "Mẹ bắt lấy thai|đòi *năm mươi vạn*|trả nợ cờ bạc",
+  "thumbText": "Ngày cưới, mẹ bắt tôi|dùng cái thai đòi thêm|*năm mươi vạn*|trả nợ cho em trai",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts002/thumb-bg.jpg",
+  "introSec": 3.99,
+  "audioSrc": "ts002/audio.mp3",
+  "thumbFace": "55% 42%"
 }
