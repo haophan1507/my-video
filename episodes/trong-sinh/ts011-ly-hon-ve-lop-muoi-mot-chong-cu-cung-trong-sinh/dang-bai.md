@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Giang Niệm Chi vừa ly hôn đã chết cùng chồng cũ. Mở mắt, cô về lớp mười một, chồng cũ đứng trước bàn hỏi: Em cũng trở lại phải không?
 
@@ -17,7 +17,3 @@ Giang Niệm Chi hai mươi bảy tuổi, làm vợ Kiều Ngạn An bảy năm 
 ## Câu hỏi ghim bình luận
 
 Nếu là Giang Niệm Chi, bạn có tha thứ cho một người chồng yêu mình mà im lặng suốt bảy năm? Bạn đã từng hiểu lầm ai chỉ vì một chi tiết nhìn thấy từ xa chưa?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

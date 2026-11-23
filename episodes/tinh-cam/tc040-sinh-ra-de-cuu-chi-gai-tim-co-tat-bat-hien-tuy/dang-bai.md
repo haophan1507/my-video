@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Trầm Niệm vừa bị báo chỉ còn ba tháng nếu không mổ tim, mẹ cô đã đòi cô hiến tủy cho chị gái bạch cầu và tát cô ngay giữa sảnh.
 
@@ -17,7 +17,3 @@ Trầm Niệm hai mươi lăm tuổi, biên tập viên Hải Thành, ngất gi�
 ## Câu hỏi ghim bình luận
 
 Nếu là Trầm Niệm, bạn có hiến tủy cho chị gái sau tất cả những gì chị ấy làm không? Một cái tát giữa sảnh bệnh viện và câu mổ xong cũng chẳng sống lâu của mẹ có đủ để bạn cắt đứt, hay nghĩa vụ gia đình vẫn ràng buộc bạn?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

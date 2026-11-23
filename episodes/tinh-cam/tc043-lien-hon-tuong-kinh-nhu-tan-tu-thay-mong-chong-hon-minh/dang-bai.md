@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Ba năm liên hôn lịch sự, Lệ Doanh nhặt được trong vỏ điện thoại chồng tấm ảnh một cô gái buộc đuôi ngựa, mặt sau ghi: Hạ ấy.
 
@@ -17,7 +17,3 @@ Lệ Doanh, hai mươi bảy tuổi, giám đốc Lệ thị, ba năm liên hôn
 ## Câu hỏi ghim bình luận
 
 Nếu là Lệ Doanh, nhặt được tấm ảnh cũ giấu trong vỏ điện thoại chồng, bạn có lặng lẽ viết đơn ly hôn để anh đi tìm người trong ảnh, hay sẽ hỏi thẳng Phùng Chấp Hạ? Bạn thương hay trách một người giữ mối thương mười hai năm mà không dám nói ra?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

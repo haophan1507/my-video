@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Chồng tôi nói tăng ca, ngủ lại công ty. Tôi ngồi trong xe, nhìn Triệu Duật che ô hôn trán một cô gái rồi đưa về căn hộ đứng tên tôi.
 
@@ -17,7 +17,3 @@ Hàn Vi, ba mươi mốt tuổi, kiểm toán viên cao cấp ở Bắc Kinh, l�
 ## Câu hỏi ghim bình luận
 
 Nếu là bạn, khi biết chồng lấy thẻ của mình làm nắp đậy cho dòng tiền bẩn, bạn sẽ báo công an ngay hay chờ anh ta tự sập bẫy? Và với Đàm Yên Yên, người bị kéo vào cuộc, bạn thấy cô ta đáng thương hay đáng trách hơn?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

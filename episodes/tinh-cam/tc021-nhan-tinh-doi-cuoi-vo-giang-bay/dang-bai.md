@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Sáu giờ sáng, nhân tình bụng bầu đập cửa đòi cưới, tôi tát chảy máu miệng, còn chồng ôm cô ta hét đòi ly hôn.
 
@@ -17,7 +17,3 @@ Trịnh Tuyết Nghi ba mươi tuổi, gả cho Liêu Chấn tám năm, vốn m�
 ## Câu hỏi ghim bình luận
 
 Liêu Chấn dắt nhân tình đến tiệc nhà bà Tưởng, giữa bao người quen. Nếu là Trịnh Tuyết Nghi, bạn sẽ lặng lẽ bỏ về hay đứng giữa sảnh làm ầm lên như cô ấy? Bạn có đồng ý với cách nhẫn nhịn chờ thời thay vì ly hôn ngay không?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

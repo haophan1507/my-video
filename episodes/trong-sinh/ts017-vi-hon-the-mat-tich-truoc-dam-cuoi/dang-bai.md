@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Kiếp trước chết vì bát canh bổ của chồng, Ôn Tuyết Nguyệt sống lại một ngày trước cưới và gõ cửa nhà đối thủ xin liên hôn.
 
@@ -17,7 +17,3 @@
 ## Câu hỏi ghim bình luận
 
 Nếu là Ôn Tuyết Nguyệt, bạn có dám gõ cửa nhà đối thủ một ngày trước đám cưới để xin liên hôn không? Bạn nghĩ một người từng là kẻ thù có thể là người duy nhất đáng tin không?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

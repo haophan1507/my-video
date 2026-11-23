@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Sinh nhật hai mươi hai tuổi, Tô Nhiên bưng bánh vào kho và thấy bạn thân bảy năm đang hôn người yêu mình.
 
@@ -17,7 +17,3 @@ Tô Nhiên hai mươi hai tuổi, có Cố Dịch làm người yêu hai năm v�
 ## Câu hỏi ghim bình luận
 
 Nếu là Tô Nhiên, sau bảy năm chịu đựng những lần Uyển Uyển giành học bổng, giành váy rồi giành cả người yêu, bạn có cắt đứt tình bạn ngay trong đêm sinh nhật hay còn cho cô ta một cơ hội? Bạn đã từng tha thứ cho ai và thấy điều đó có đáng không?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

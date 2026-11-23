@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Cô bạn thân mượn váy tôi, gọi mẹ tôi là mẹ, rồi tôi bắt gặp cô ta ngồi trong lòng bạn trai tôi ở nhà hàng Pháp.
 
@@ -17,7 +17,3 @@ Tiêu Chiêu hai mươi tuổi, con nuôi nhà họ Tiêu ở Bắc Kinh, học 
 ## Câu hỏi ghim bình luận
 
 Lương Nhu Nhu được nhà họ Tiêu tài trợ ăn học, rồi quay sang giành bạn trai và đòi thay chỗ Tiêu Chiêu. Nếu là bạn, bạn sẽ cắt khoản tài trợ và nói thẳng ngay từ đầu, hay nhẫn nhịn xem cô ta đi đến đâu như Chiêu? Bạn nghĩ lòng tốt nên dừng ở đâu?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

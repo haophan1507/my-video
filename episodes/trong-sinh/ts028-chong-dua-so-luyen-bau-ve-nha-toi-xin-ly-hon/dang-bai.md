@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Chồng đi công tác về, dẫn theo mối tình đầu bụng đã lùm lùm. Kiếp trước, chính cầu thang ấy là nơi tôi bị đẩy xuống.
 
@@ -17,7 +17,3 @@ Tào Thúy Chi, hai mươi bốn tuổi, con gái nhà đối tác của Kiên t
 ## Câu hỏi ghim bình luận
 
 Nếu là Tào Thúy Chi, bạn có để Diệp Nhung ở lại nhà mình để tiện quan sát và giữ bằng chứng, hay đuổi thẳng ngay đêm chồng dắt cô ta về? Bạn có đồng ý rằng việc dọn sẵn một căn phòng đẹp cho người tình của chồng là cách trả đũa sắc bén hơn mọi trận cãi vã không? Bạn đã từng phải sống chung một mái nhà với người mình không muốn gặp chưa?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

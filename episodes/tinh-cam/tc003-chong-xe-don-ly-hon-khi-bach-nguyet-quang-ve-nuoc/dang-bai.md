@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Sư Tình thầm yêu Đoan Khải từ nhỏ, nhưng trước cưới anh bắt ký ba điều; ngày bạch nguyệt quang về nước, cô đưa đơn ly hôn và anh xé.
 
@@ -17,7 +17,3 @@ Sư Tình hai mươi bốn tuổi, thầm yêu Đoan Khải từ nhỏ, gả cho
 ## Câu hỏi ghim bình luận
 
 Nếu là Sư Tình, bạn có tha thứ cho ba điều ước mà Đoan Khải bắt ký trước ngày cưới không? Bạn sẽ tin vào tờ đơn bị xé hay tin vào những việc anh lặng lẽ làm sau đó?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

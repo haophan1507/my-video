@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Mẹ chồng Tần Diệu Bích mở mắt giữa phòng nghỉ khách sạn, nhận ra hôm nay là ngày cưới con trai, chị gái đang xúi bà đòi sính lễ.
 
@@ -17,7 +17,3 @@ Tần Diệu Bích, năm mươi tám tuổi, từng là mẹ chồng cay nghiệ
 ## Câu hỏi ghim bình luận
 
 Nếu là Tần Diệu Bích, bạn có đủ can đảm quỳ xin lỗi con dâu ngay trong ngày cưới, trước mặt họ hàng không? Bạn nghĩ một lời xin lỗi muộn có thể vá lại bao nhiêu năm tổn thương?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

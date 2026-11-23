@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Thẩm Tuế Vãn về nhà họ Tuân làm thiên kim thật, ba ngày sau bị em gái giả vu ăn trộm dây chuyền rồi nhốt vào phòng kín không cửa sổ.
 
@@ -17,7 +17,3 @@ Thẩm Tuế Vãn hai mươi hai tuổi, học kế toán pháp y, mang họ hai
 ## Câu hỏi ghim bình luận
 
 Nếu là Thẩm Tuế Vãn, bạn có nhịn ở lại nhà họ Tuân để tìm chứng cứ, hay bỏ đi ngay ngày đầu tiên? Bạn có đồng ý với cách Tuân Ngưng vừa giẫm lên vết thương vừa ngầm mở cửa cứu cô ấy?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

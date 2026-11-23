@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Cố Tịch mười lăm tuổi, mở mắt đã thấy mẹ quỳ giữa nhà, ép cô bỏ học lấy sính lễ cưới vợ cho em trai. Lần này cô đi thẳng ra cổng.
 
@@ -17,7 +17,3 @@ Cố Tịch mười lăm tuổi, sống ở thôn Hòe Thụ, đứng đầu kh�
 ## Câu hỏi ghim bình luận
 
 Nếu là Cố Tịch, bạn có cắt đứt quan hệ với mẹ ruột và nhận người ngoài làm bố mẹ nuôi? Bạn nghĩ ơn sinh thành có đủ để che lấp một tuổi thơ bị bỏ rơi?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

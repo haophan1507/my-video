@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Kỷ niệm cưới, chồng tôi lên hot search cùng bạch nguyệt quang. Tôi ký đơn ly hôn, kèm tập bìa xanh ghi ba mươi việc tôi làm thay anh.
 
@@ -17,7 +17,3 @@ Lý Chiêu Hòa, ngoài mặt là bà nội trợ nhà họ Dung, thật ra là 
 ## Câu hỏi ghim bình luận
 
 Lý Chiêu Hòa làm dâu ba năm để trả ơn, rồi rời đi đúng ngày mình đã định, dù Dung Triệt quỳ xin lỗi trước cả thành phố. Nếu là bạn, bạn có cho anh ta một cơ hội sau màn xin lỗi đó không, hay coi muộn là đã hết?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

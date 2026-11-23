@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Trình Hoan tỉnh dậy sau cú ngã, vẫn tin mình hai mươi lăm tuổi, nhưng người đàn ông bên giường là lạ và Uông Khải đã cưới vợ ba năm.
 
@@ -17,7 +17,3 @@ Trình Hoan hai mươi lăm tuổi, làm chiến lược thương hiệu ở Th�
 ## Câu hỏi ghim bình luận
 
 Nếu là Trình Hoan, mất đi ba năm ký ức, bạn có dám cưới Sầm Viễn, người mình không nhớ đã từng yêu, chỉ vì thấy đó là phương án hợp lý nhất? Điều gì mới đủ để bạn tin một người thật lòng?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

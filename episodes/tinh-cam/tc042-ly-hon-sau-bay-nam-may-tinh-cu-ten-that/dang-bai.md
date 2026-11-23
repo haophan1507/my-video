@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Ba ngày sau lễ gõ chuông, Diêm Chấn Vũ đưa đơn ly hôn: anh giữ hết cổ phần, cô nhận ba triệu tệ, đổi lại phải bỏ đóng góp kỹ thuật.
 
@@ -17,7 +17,3 @@ Bao Tuệ Vi, ba mươi tuổi, người viết phần lõi Quang Tâm, trong c�
 ## Câu hỏi ghim bình luận
 
 Nếu là Bao Tuệ Vi, bạn có ký im lặng trong bữa tiệc mừng lên sàn rồi chờ đúng ngày giấy phép hết hạn, hay sẽ ngả bài với Diêm Chấn Vũ ngay hôm đó? Bạn nghĩ việc để chồng tự tay ký bản cấp phép một tệ mỗi năm là khôn ngoan hay quá nhẫn tâm?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Ngụy Thư có người chồng giỏi giang chỉ biết đáp ừm, cho đến khi Khương Dực đưa đúng ly cà phê sữa không đường cô uống mỗi sáng.
 
@@ -17,7 +17,3 @@ Ngụy Thư ba mươi hai tuổi, ở Hàng Châu, làm giám đốc kinh doanh 
 ## Câu hỏi ghim bình luận
 
 Nếu là Mai Viễn, sau ba tháng im lặng chờ vợ tự quay về, bạn có tha thứ cho Ngụy Thư một lần không? Hay bạn cho rằng im lặng như thế đã là quá nhân nhượng?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

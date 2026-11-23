@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Chết trong bếp sau ca sinh mổ, Vi Nguyệt mở mắt thấy mình chưa mang thai, còn bố chồng đã giục hai tháng nữa phải có cháu đích tôn.
 
@@ -17,7 +17,3 @@ Vi Nguyệt, hai mươi sáu tuổi, làm dâu nhà họ Lữ đã một năm, s
 ## Câu hỏi ghim bình luận
 
 Nếu là Vi Nguyệt, khi chồng vừa mất bố đã đấm bác sĩ ngay hành lang bệnh viện rồi quay sang vu khống mình, bạn có báo công an hay chọn hòa giải cho xong? Bạn đã từng phải nhịn để giữ hòa khí trong nhà chưa, và cái nhịn ấy kéo dài bao lâu?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

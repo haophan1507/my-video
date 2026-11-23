@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Luật sư Ôn Lam cưới chớp nhoáng anh thợ làm bánh nghèo Kỷ Diễn, rồi một đêm thấy trên lưng anh vết sẹo dao dài từ vai xuống eo.
 
@@ -17,7 +17,3 @@
 ## Câu hỏi ghim bình luận
 
 Nếu là Ôn Lam, bạn có tha thứ cho Kỷ Diễn sau khi biết anh giấu thân phận hào môn và bày ra cả cuộc hôn nhân để giữ bạn? Hay bạn sẽ kéo vali ra cửa như cô ấy định làm?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

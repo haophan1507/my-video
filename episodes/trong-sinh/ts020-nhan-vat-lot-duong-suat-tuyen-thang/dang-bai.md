@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Chiêu Tâm, học sinh mồ côi đứng đầu khối, bị cậu ấm Kỷ Dịch Minh kéo tay bắt quỳ xin lỗi Trúc Yên để giành suất tuyển thẳng.
 
@@ -17,7 +17,3 @@ Chiêu Tâm, mười tám tuổi, học sinh mồ côi đứng đầu khối tr�
 ## Câu hỏi ghim bình luận
 
 Nếu là Chiêu Tâm, bạn có nhường suất tuyển thẳng duy nhất của mình cho Trúc Yên không? Bạn đã từng thấy chuyện người giỏi bị dồn ép vì tiền và quan hệ chưa, và khi đó bạn đã làm gì?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

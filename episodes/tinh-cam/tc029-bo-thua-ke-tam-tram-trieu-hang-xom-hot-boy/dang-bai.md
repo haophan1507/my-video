@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Bố tôi mắng luật sư là đồ lừa đảo, ai ngờ nhà tôi thừa kế thật tám trăm triệu tệ. Còn tôi thì bị nam thần hàng xóm tố là kẻ bám đuôi.
 
@@ -17,7 +17,3 @@ Hình Mật, hai mươi tuổi, sinh viên năm hai ở Nam Kinh, nhà nghèo đ
 ## Câu hỏi ghim bình luận
 
 Kim Doanh theo dõi Trữ Duật suốt nửa năm và trộm tài khoản để đẩy Hình Mật lên diễn đàn chịu tiếng oan. Nếu là bạn, bạn có tha thứ cho cô ta, hay để pháp luật xử lý? Bạn đã từng bị hiểu oan đến mức nào?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

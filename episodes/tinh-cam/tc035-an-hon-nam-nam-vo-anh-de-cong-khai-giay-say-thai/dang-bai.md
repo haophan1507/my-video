@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Tôi sốt ba mươi chín độ tám trong căn nhà một trăm bốn mươi mét vuông, còn chồng tôi lên truyền hình nói anh ta đang độc thân.
 
@@ -17,7 +17,3 @@ Hồ Thư Ý, ba mươi tuổi, nhà thiết kế nội thất có tiếng, năm
 ## Câu hỏi ghim bình luận
 
 Nếu là Hồ Thư Ý, khi Vạn Trạch Khải nói "em không có gan làm lớn chuyện", bạn sẽ ký êm rồi đi, hay để cả nước biết sự thật? Bạn nghĩ im lặng có phải là cách tử tế cuối cùng cho một cuộc hôn nhân không?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

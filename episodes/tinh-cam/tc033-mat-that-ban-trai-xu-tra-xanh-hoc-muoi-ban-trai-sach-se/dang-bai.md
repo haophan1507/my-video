@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Học muội của bạn trai níu tay áo anh trước mặt tôi, rồi trong phòng ma cô ta xô tôi ngã sấp, còn anh bế tôi lên đòi đoạn camera.
 
@@ -17,7 +17,3 @@ Quản Nhạn, hai mươi hai tuổi, sinh viên năm cuối, sau lưng điều 
 ## Câu hỏi ghim bình luận
 
 Nếu là bạn, sau khi bị Đỗ Tuyết Tuyết đăng bài bóng gió khiến bạn bị chửi oan, bạn có nhận lời ăn khuya xin lỗi của cô ta không? Bạn từng tha thứ cho ai chỉ vì người đó cũng bị mắng chưa?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

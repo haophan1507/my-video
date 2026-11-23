@@ -2,22 +2,11 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag, dán vào phần mô tả video. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Chết ở tuổi ba mươi bảy, tôi mở mắt trong váy cưới, em trai chặn cửa đòi nhà chồng thêm năm mươi vạn, bố mẹ tôi gật đầu.
 
 Ngọc Tịnh sống lại đúng sáng ngày rước dâu, khi em trai chặn cửa đòi nhà chồng thêm năm mươi vạn để trả nợ cờ bạc. Kiếp trước cô gật đầu, cả đời bị nhà chồng nhìn như món hàng đã trả tiền. Lần này cô đá thẳng vào chỗ hiểm của em trai, gọi anh em xưởng máy đạp cửa, rồi nắm tay chú rể bước ra giữa ánh mắt cả làng.
-
-00:00 Năm mươi vạn và cái thai trong bụng
-02:38 Cú đá thứ hai, cánh cửa thứ nhất
-05:45 Cô học bá và anh bạn đội sổ
-08:43 Chiêu mềm, chiêu cứng
-11:51 Người hàng xóm tầng dưới
-15:01 Phong bì dày cộp
-18:05 Em dâu dịu dàng
-21:15 Tấm ảnh trong quán bar
-24:21 Bữa cơm ở nhà ngoại
-28:05 Tôi tha thứ, nhưng không ký
 
 🔔 Đăng ký Quýt Nhỏ Audio để nghe truyện mới lúc 20 giờ 30 mỗi thứ Ba, Năm, Bảy hằng tuần và bật chuông thông báo để không bỏ lỡ tập nào nhé.
 

@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Ngay sau khi tôi ký chuyển hết tài sản cho hai đứa con nuôi, chồng tôi khoác tay nhân tình bước tới nâng ly cảm ơn.
 
@@ -17,7 +17,3 @@ Nghiêm Thanh Hằng, chủ tập đoàn Nghiêm thị ở Hải Thành, kiếp 
 ## Câu hỏi ghim bình luận
 
 Nếu là Nghiêm Thanh Hằng, bạn có nuôi hai đứa con riêng của chồng suốt mười tám năm để chờ ngày lật lại không? Bạn sẽ cho chúng một cơ hội cuối cùng hay xử sự đúng như cô ấy?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

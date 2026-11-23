@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Bố chồng tát mẹ chồng đang bế con tôi, rồi bắt chồng tôi thực tập đánh vợ. Kiếp trước tôi sống thế đến chết, lần này tôi bật ghi âm.
 
@@ -17,7 +17,3 @@ Phó Minh Nguyệt, hai mươi bảy tuổi, sống lại đúng lúc bố chồ
 ## Câu hỏi ghim bình luận
 
 Nếu là bạn, khi chồng đứng trước mặt và giơ tay theo lệnh bố, bạn sẽ né rồi lặng lẽ gom bằng chứng như Minh Nguyệt hay phản ứng ngay tại chỗ? Bạn có cho rằng một người từng bước tới đánh vợ chỉ vì nghe lời bố vẫn xứng đáng được một cơ hội làm lại?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

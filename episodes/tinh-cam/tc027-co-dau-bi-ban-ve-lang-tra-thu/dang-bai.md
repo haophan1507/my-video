@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Tôi đập đầu vào quan tài chồng giữa đám tang, khóc đến nghẹt thở, và không ai trong thôn biết tôi học ngành an toàn thực phẩm.
 
@@ -17,7 +17,3 @@ Lữ Du hai mươi hai tuổi, sinh viên năm cuối an toàn thực phẩm, b�
 ## Câu hỏi ghim bình luận
 
 Đêm Đại Bảo trúng độc, Lữ Du quỳ dưới nền nhà dập đầu cầu xin, còn bố mẹ chồng vẫn khóa cửa vì tiếc tiền xe và đường núi tối. Nếu là bạn, bạn có thể tha thứ cho bà Cam khi chính bà mất con? Bạn nghĩ ai mới là người phải chịu trách nhiệm cho cái chết ấy?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

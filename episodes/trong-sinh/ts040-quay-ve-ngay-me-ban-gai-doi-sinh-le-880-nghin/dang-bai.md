@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Mẹ bạn gái anh họ tôi đòi tám trăm tám mươi nghìn tệ sính lễ, còn cô gái được làng gọi là phượng hoàng chỉ khuyên anh đừng thực dụng.
 
@@ -17,7 +17,3 @@ Quý Vân Chi, hai mươi hai tuổi, ở nhà anh họ Tôn Viễn từ nhỏ n
 ## Câu hỏi ghim bình luận
 
 Nếu là Quý Vân Chi, bạn có can thiệp vào chuyện tình cảm của anh họ hay để anh tự vấp rồi tự hiểu? Bạn đã từng phải nói ra sự thật khiến cả họ hàng mất mặt chưa, và sau đó mọi chuyện đi tới đâu?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

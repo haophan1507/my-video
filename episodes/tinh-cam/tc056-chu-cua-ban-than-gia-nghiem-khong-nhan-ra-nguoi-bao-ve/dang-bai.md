@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Bạn thân có thai trốn sang nhà tôi lúc ba giờ sáng, tôi nhận tội thay, và cậu út của cô ấy gõ cửa ngay sau đó.
 
@@ -17,7 +17,3 @@ La Chỉ Diên hai mươi tuổi, sinh viên luật năm ba, chơi thân với Q
 ## Câu hỏi ghim bình luận
 
 Nếu là La Chỉ Diên, bạn có nhận tội thay cho Hoàn Hoàn ngay từ đầu, hay sẽ để cô ấy tự đối mặt với cậu út? Khi Tiết Trạm quay lại một mình giữa đêm, bạn có mở cửa cho anh ta vào, hay đóng lại và gọi ngay cho Hoàn Hoàn?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

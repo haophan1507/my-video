@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Tô Thiển Ngữ, cây bút ngôn tình, bị vợ cả đánh hội đồng ở khách sạn vì tưởng là tiểu tam, người bế cô dậy là mối tình đầu tiểu học.
 
@@ -17,7 +17,3 @@ Tô Thiển Ngữ hai mươi chín tuổi, viết ngôn tình mạng bảy năm 
 ## Câu hỏi ghim bình luận
 
 Nếu là Thiển Ngữ, đứng sau bức tường nghe Trường Canh nói "cô ấy chỉ là em gái tôi" mà không nghe được câu sau, bạn có ném luôn bó hoa như cô ấy không? Bạn có cho rằng cô ấy nên quay ra hỏi thẳng thay vì im lặng suốt hai mươi cuộc gọi nhỡ?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

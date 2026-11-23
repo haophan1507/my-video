@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Cưới Tiền Dật gần hai năm, ngày nào anh cũng đúng giờ, đúng mực, đúng một cốc nước ấm, đến mức tôi nghi mình lấy phải một cái máy.
 
@@ -17,7 +17,3 @@ La Uyên hai mươi tám tuổi, quản lý dự án ở Hàng Châu, cưới Ti
 ## Câu hỏi ghim bình luận
 
 La Uyên đòi ly hôn chỉ vì chồng quá hoàn hảo: không ghen, không cãi, không một lần cau mày. Nếu là bạn, bạn có dám phá cuộc hôn nhân yên ổn ấy để đòi một người chồng biết giận, biết buồn không? Bạn nghĩ sự dịu dàng đúng mực đến mức nào thì bắt đầu thành xa lạ?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

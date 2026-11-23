@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Mộ Lạc Tuyền mang đơn ly hôn xông vào Chung thị, chồng cô nói không đồng ý, nhưng trong đầu anh lại gào lên van xin đừng bỏ.
 
@@ -17,7 +17,3 @@ Mộ Lạc Tuyền hai mươi lăm tuổi, vợ hợp pháp của Chung Hựu Kh
 ## Câu hỏi ghim bình luận
 
 Nếu một ngày nghe được tiếng lòng của người đang đòi ly hôn với mình, bạn sẽ tin vào điều mình nghe hay tin vào lời anh ấy nói? Bạn có dám đánh cược một câu để giữ người đó lại?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

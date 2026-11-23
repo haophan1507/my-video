@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Ngay cửa quán cà phê, Mạc Tử Hàn đá Diệp Khê để cưới bạn thân cô; tối đó, một người tự nhận là thợ sửa xe hỏi cô có kết hôn không.
 
@@ -17,7 +17,3 @@ Diệp Khê hai mươi sáu tuổi, nhân viên bán xe ở Hải Thành, lớn 
 ## Câu hỏi ghim bình luận
 
 Nếu là Diệp Khê, bạn có dám cưới một người lạ ngay trước cửa Cục dân chính chỉ sau một câu hỏi? Và nếu là bạn, bạn có tha cho Liễu Doanh Doanh sau bảy năm làm bạn thân không?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Kiếp trước mềm lòng ký ly hôn rồi chết dưới bánh xe, Thái Tử Lam sống lại một tháng trước ngày nhân tình bụng bầu gõ cửa.
 
@@ -17,7 +17,3 @@ Thái Tử Lam, hai mươi chín tuổi, kế toán ở một công ty bảo hi�
 ## Câu hỏi ghim bình luận
 
 Nếu là Thái Tử Lam, bạn có photo biên bản hòa giải phát cho cả khu như cô ấy không? Bạn chọn im lặng chịu tiếng oan hay công khai sự thật để tự bảo vệ mình?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

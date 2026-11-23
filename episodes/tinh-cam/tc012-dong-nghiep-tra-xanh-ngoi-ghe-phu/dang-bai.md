@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Tan làm, tôi thấy Doãn Sở Sở ngồi ghế phụ xe tôi mua, Vương Phong bảo là đồng nghiệp tiện đường. Tôi tát cô ta: gà phải bỏ vào cốp!
 
@@ -17,7 +17,3 @@ Yến Nghi, hai mươi tám tuổi, quản lý dự án nội thất ở Thành 
 ## Câu hỏi ghim bình luận
 
 Nếu là bạn, khi phát hiện Vương Phong không thể có con, bạn sẽ nói thẳng cho anh ta biết hay giữ tờ giấy và chờ như Yến Nghi? Im lặng để người ta tự gieo quả đắng như thế là công bằng hay tàn nhẫn?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

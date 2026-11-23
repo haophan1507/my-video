@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Bố mẹ bảo tôi nhường suất tuyển thẳng cho chị gái, nói chị yếu, chị cần hơn. Tôi đáp cho chị tất cả, rồi lặng lẽ tự đi thi một mình.
 
@@ -17,7 +17,3 @@ Tần Nhiên, mười bảy tuổi, sống lại đúng lúc bố mẹ đòi cô
 ## Câu hỏi ghim bình luận
 
 Nếu là bạn, bạn có nhường suất tuyển thẳng cho chị gái rồi tự ôn thi như Tần Nhiên, hay sẽ đòi lại ngay từ đầu? Bạn nghĩ tha thứ cho người đã lấy đi gần hết những gì mình làm ra có bắt buộc phải mở cửa đón họ trở lại không?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

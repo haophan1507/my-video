@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Bạn thân tôi cướp bạn trai tôi ba lần. Mỗi lần cô ta khóc xin tha thứ, tôi đều tha, vì tài khoản tôi có thêm mười triệu tệ.
 
@@ -17,7 +17,3 @@ Cung Tuyết Nghi, hai mươi hai tuổi, sinh viên năm cuối ở Tế Nam, c
 ## Câu hỏi ghim bình luận
 
 Thái Mịch cướp bạn trai Cung Tuyết Nghi ba lần, lần nào cũng khóc lóc xin tha thứ. Nếu là bạn, bạn có tha thứ tiếp hay dừng lại từ lần đầu? Bạn từng có người bạn luôn thích giành đồ của mình chứ?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

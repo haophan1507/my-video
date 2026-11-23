@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Sinh ra là con gái, Tào Phán Đệ bị bà nội định dìm xuống sông, còn ông nội tính nuôi lớn rồi bán lấy tiền cưới vợ cho anh trai.
 
@@ -17,7 +17,3 @@ Tào Phán Đệ sinh ra ở thôn Sa Câu, bị cả nhà gọi là đồ lỗ 
 ## Câu hỏi ghim bình luận
 
 Nếu là Tào Phán Đệ, bạn có xúi anh trai đốt nhà và đẩy anh ấy vào lò gạch thay mình không? Một người bị cả nhà chà đạp từ lúc lọt lòng, trả lại đúng từng món như thế là báo thù đáng thương hay độc ác?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

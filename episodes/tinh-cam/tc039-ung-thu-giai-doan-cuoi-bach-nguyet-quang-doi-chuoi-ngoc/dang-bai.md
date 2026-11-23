@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Hoàng Nghi vừa biết ung thư dạ dày giai đoạn cuối thì chồng dắt bạch nguyệt quang về đòi ly hôn, đòi luôn chuỗi ngọc hơn trăm triệu.
 
@@ -17,7 +17,3 @@ Hoàng Nghi ba mươi tuổi, đồng sáng lập hãng trang sức ở Tô Châ
 ## Câu hỏi ghim bình luận
 
 Nếu biết mình chỉ còn chừng nửa năm, bạn sẽ dùng thời gian ấy để đòi lại công bằng như Hoàng Nghi hay chọn ở lại bên mẹ? Bạn có cho rằng việc cô ấy giấu bệnh với mẹ là thương mẹ hay lại là tàn nhẫn?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

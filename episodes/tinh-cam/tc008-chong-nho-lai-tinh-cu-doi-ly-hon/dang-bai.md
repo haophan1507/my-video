@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Tỉnh dậy sau tai nạn, Tiết Khải đòi ly hôn để về với mối tình đại học, còn Hùng Thanh Dao chưa kịp nói mình mang thai hai tháng.
 
@@ -17,7 +17,3 @@ Hùng Thanh Dao hai mươi lăm tuổi, đại tiểu thư họ Hùng ở Giang 
 ## Câu hỏi ghim bình luận
 
 Nếu là Hùng Thanh Dao, ngày Tiết Khải quỳ xuống xin tái hôn, bạn có cho anh ta thêm một cơ hội vì ba năm từng là vợ chồng? Hay một tờ giấy không hỏi lấy một câu đã đủ để bạn đóng cửa vĩnh viễn?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

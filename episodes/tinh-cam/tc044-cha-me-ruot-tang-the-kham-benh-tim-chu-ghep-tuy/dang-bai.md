@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Trong tiệc nhận thân, mẹ ruột trao Quách Mộ tấm thẻ khám ba nghìn tám trăm tệ, rồi hỏi con có mổ lớn hay uống thuốc dài ngày không.
 
@@ -17,7 +17,3 @@ Quách Mộ, hai mươi hai tuổi, hộ lý viện dưỡng lão, được bà 
 ## Câu hỏi ghim bình luận
 
 Nếu là Quách Mộ, biết người cần tủy của mình là em trai ruột vừa được cả nhà lấy ra làm cớ, bạn có hiến cho cậu ấy không? Bạn có đồng ý rằng cứu một mạng người và tha thứ cho kẻ đã bán mình là hai chuyện hoàn toàn khác nhau?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

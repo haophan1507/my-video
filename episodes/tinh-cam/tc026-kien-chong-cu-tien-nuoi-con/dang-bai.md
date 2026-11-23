@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Hai năm, ngày mười lăm tôi cũng mở ứng dụng ngân hàng, viết hai chữ Chưa nhận vào sổ xanh, cho đến hôm nộp đơn kiện bố con gái mình.
 
@@ -17,7 +17,3 @@ Nhan Tịnh ba mươi bốn tuổi, quản lý đơn hàng ở xưởng in bao b
 ## Câu hỏi ghim bình luận
 
 Lôi Cẩn nợ hai năm tiền nuôi con của Mãn Mãn, vậy mà vẫn khoe sắp mua nhà, sắm sính lễ cho bạn gái mới. Nếu là Nhan Tịnh, bạn sẽ đòi tiền nuôi con trước hay đòi một lời xin lỗi trước? Bạn có tha cho một người chỉ biết giữ thể diện với thiên hạ mà không giữ nổi chữ với con mình?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

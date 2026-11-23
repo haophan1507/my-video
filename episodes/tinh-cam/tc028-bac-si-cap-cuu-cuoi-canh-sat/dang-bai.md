@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Đêm tân hôn, chồng tôi nghe cuộc gọi rồi bỏ đi bắt kẻ giết người; tôi, bác sĩ cấp cứu, ôm gối đợi đến sáng trong căn nhà như nhà trọ.
 
@@ -17,7 +17,3 @@ Hoắc Niệm An hai mươi tám tuổi, bác sĩ khoa cấp cứu bệnh viện
 ## Câu hỏi ghim bình luận
 
 Kiển Trì cưới vợ bốn mươi lăm ngày mà chưa một lần nắm tay, tin nhắn chỉ có hai chữ đi bắt người, còn Niệm An thì trực đêm triền miên. Nếu là bạn, bạn có chịu nổi một cuộc hôn nhân như thế? Bạn nghĩ yêu một người làm nghề hiểm nguy thì phải chờ đợi đến đâu mới là đủ?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

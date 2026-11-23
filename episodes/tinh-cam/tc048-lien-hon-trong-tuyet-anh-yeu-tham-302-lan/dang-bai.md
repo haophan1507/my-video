@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Bốn giờ sáng giữa trận tuyết, chồng hợp đồng nghiêng ô che tôi, nói: đừng chạm, bẩn. Anh đưa găng vừa khít cỡ tay tôi, chưa từng hỏi.
 
@@ -17,7 +17,3 @@
 ## Câu hỏi ghim bình luận
 
 Diệp Tuân giấu chuyện yêu thầm mười năm và chỉ nói ra khi bị bắt gặp cuốn album. Nếu là Điền Hiểu Hàm, bạn có thấy im lặng như vậy là chân thành, hay là thiếu công bằng với người bị giữ ngoài cuộc?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

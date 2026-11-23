@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Chồng tôi đẩy tôi ra để bế người tình vừa tự lăn xuống cầu thang, gằn giọng đợi về sẽ tính sổ. Tôi ôm eo đau, cười: vậy về thì ly hôn.
 
@@ -17,7 +17,3 @@ Nhiếp Cẩm Vi, nhà thiết kế trang sức, đồng sáng lập Lam Triện
 ## Câu hỏi ghim bình luận
 
 Nhiếp Cẩm Vi giữ đoạn video bốn phút suốt nhiều tháng, để mặc mẹ chồng và chồng tin vào lời vu khống trước khi lật ở tòa. Nếu là bạn, bạn có công bố sớm để minh oan ngay, hay chờ đến phiên xử như cô ấy?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

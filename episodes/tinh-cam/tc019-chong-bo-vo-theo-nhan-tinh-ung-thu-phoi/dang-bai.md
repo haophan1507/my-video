@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Chồng đòi ly hôn để cưới người đàn bà bốn mươi mốt tuổi, tôi ký ngay rồi đưa anh ta tờ kết quả khám: ung thư phổi.
 
@@ -17,7 +17,3 @@ Diêu Mạn, ba mươi sáu tuổi, mười lăm năm làm vợ Âu Quân và g�
 ## Câu hỏi ghim bình luận
 
 Nếu là Diêu Mạn, biết chồng sắp ung thư ngay lúc anh ta đòi ly hôn theo người khác, bạn sẽ nói ra hay ký xong mới đưa tờ kết quả? Bạn có cho rằng giấu bệnh một tuần để thử lòng là quá tàn nhẫn?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.
