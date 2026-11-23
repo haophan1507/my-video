@@ -29,7 +29,7 @@
 - [ ] 1. Chọn truyện
 - [ ] 2. Dàn ý: `outline.md`
 - [ ] 3. Viết chương: `script/chNN.tts.txt`
-- [ ] 4. Soát TTS: báo cáo `normalize-vi.mjs` sạch; đã đọc soát toàn bộ theo bảng 4B (`san-xuat.md` 1), ghi nhật ký
+- [ ] 4. Soát TTS: báo cáo `normalize-vi.mjs` sạch; đã đọc lướt bắt lỗi theo mục 4B (`san-xuat.md` 1), ghi nhật ký
 - [ ] 5. Giọng: `audio/chNN.mp3`
 - [ ] 6. Footage: `public/footage/<tag>/`
 - [ ] 7. Render: `out/`
