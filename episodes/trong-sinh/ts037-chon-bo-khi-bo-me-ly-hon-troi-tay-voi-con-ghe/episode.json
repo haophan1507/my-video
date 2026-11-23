@@ -1,0 +1,66 @@
+{
+  "title": "Bố mẹ ly hôn, tôi chọn mẹ rồi bị con riêng của dượng bắt nạt đến chết; trọng sinh về đúng phiên tòa, tôi chọn bố",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Một chữ ở phòng xử án"
+    },
+    {
+      "title": "Bằng chứng của bố"
+    },
+    {
+      "title": "Cuộc gọi lúc nửa đêm"
+    },
+    {
+      "title": "Mẹ quỳ ở trạm xe buýt"
+    },
+    {
+      "title": "Cổng sau trường học"
+    },
+    {
+      "title": "Mẹ quỳ trong phòng giáo viên"
+    },
+    {
+      "title": "Phong bì năm nghìn tệ"
+    },
+    {
+      "title": "Cà phê chiều hè"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Quan tòa hỏi tôi theo bố hay theo mẹ|kiếp trước tôi chọn mẹ|*lần này tôi chỉ nói một chữ: Bố*"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Mẹ quỳ ở trạm xe buýt|khóc giữa đám đông|*tôi hỏi bà từng câu trước mặt mọi người*"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Nhóm đầu gấu chặn tôi ở cổng sau|lần này tôi đã chuẩn bị|*bố đi họp phụ huynh lần đầu trong đời*"
+    }
+  ],
+  "thumbText": "Bố mẹ ly hôn|Tôi chọn mẹ thì *bị hại đến chết*|Trọng sinh về đúng phiên tòa|Tôi dứt khoát *chọn bố*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

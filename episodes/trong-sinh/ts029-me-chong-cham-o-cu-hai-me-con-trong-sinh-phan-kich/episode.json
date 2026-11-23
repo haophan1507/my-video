@@ -1,0 +1,66 @@
+{
+  "title": "Mẹ chồng là bà chăm sản phụ 'sao vàng', chăm tôi ở cữ xong tôi và con chết thảm; trọng sinh về đúng tháng ở cữ, tôi không nhịn nữa mà phản kích",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Con đang khóc"
+    },
+    {
+      "title": "Cuốn sổ và chiếc lọ"
+    },
+    {
+      "title": "Con sốt ở phòng cấp cứu"
+    },
+    {
+      "title": "Bà hàng xóm tầng bốn"
+    },
+    {
+      "title": "Nhà bên cạnh có bé khác"
+    },
+    {
+      "title": "Ba ngày giả bình thường"
+    },
+    {
+      "title": "Tiếng gõ cửa"
+    },
+    {
+      "title": "Bản án và căn bếp mới"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Kiếp trước mẹ chồng chăm ở cữ|tôi và con chết thảm|*lần này tôi tìm ra chiếc lọ trong chăn con*"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Camera quay cảnh mẹ chồng rót thuốc|con tôi nằm li bì|*bà ta khóc lóc đổ lỗi cho tôi*"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Còn một em bé khác đang uống thuốc đó|tôi chạy sang nhà bên|*bà ta vẫn đang ngủ trong nhà tôi*"
+    }
+  ],
+  "thumbText": "Mẹ chồng sao vàng|Chăm tôi ở cữ xong *mẹ con chết thảm*|Trọng sinh về đúng tháng cữ|Tôi *không nhịn nữa*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

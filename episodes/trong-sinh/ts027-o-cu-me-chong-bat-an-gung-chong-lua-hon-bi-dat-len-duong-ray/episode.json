@@ -1,0 +1,66 @@
+{
+  "title": "Ở cữ mẹ chồng bắt ăn toàn gừng, chồng lừa hôn bày cảnh tôi tự tử trên đường ray; trọng sinh về đúng tháng ở cữ, tôi lật ngược thế cờ",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Bát cơm toàn gừng"
+    },
+    {
+      "title": "Chị Yến và cuộc gọi đầu tiên"
+    },
+    {
+      "title": "Tờ giấy ủy quyền đầu tiên"
+    },
+    {
+      "title": "Cổ Thiện và đoạn ghi hình ở bếp"
+    },
+    {
+      "title": "Công ty ma và cái bẫy"
+    },
+    {
+      "title": "Câu hỏi trước khi ký"
+    },
+    {
+      "title": "Tấm biển giấy trước cổng công ty"
+    },
+    {
+      "title": "Vầng trăng trên ban công"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Tháng ở cữ mẹ chồng bắt tôi ăn toàn gừng|kiếp trước tôi bị dựng thành vụ tự tử|*lần này tôi nói: con dị ứng gừng*"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Chồng đưa tờ giấy ủy quyền|nói tôi không đủ năng lực điều hành|*bạn thân chụp được ảnh hắn với người yêu*"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Hai trăm vạn tệ biến mất khỏi công ty|tôi giả vờ đồng ý ký|*hẹn họ ngay tại nhà tôi*"
+    }
+  ],
+  "thumbText": "TRỌNG SINH|*VẢ MẶT KẺ ÁC*|LẤY LẠI CÔNG LÝ|*TRẢ CẢ VỐN LẪN LÃI*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

@@ -76,6 +76,40 @@ const loaded = engine === 'ffmpeg' && needsVideo ? loadFootage(base) : null;
 const ffEncoder = loaded ? pickEncoder(encoder) : null;
 if (ffEncoder) console.log(`ffmpeg, tag footage "${loaded.tag}" tốc độ ${loaded.speed}, bỏ ${loaded.start} giây đầu, mã hóa ${ffEncoder.name}`);
 
+// Tiến độ: terminal thật thì ghi đè một dòng (\r); nền (Background tasks, pipe, file log) thì in từng dòng có giờ,
+// bước n/N, %, thời gian đã chạy và ước tính còn lại, tối đa mỗi 30 giây hoặc mỗi 5%.
+const fmtMin = (ms) => (ms >= 60000 ? `${(ms / 60000).toFixed(1)} phút` : `${Math.round(ms / 1000)} giây`);
+const hhmm = () => new Date().toTimeString().slice(0, 8);
+const jobs = [];
+if (!only || only === 'youtube') jobs.push('youtube.mp4');
+if (!only || ['tiktok', 'clips', 'cover'].includes(only)) {
+  for (let n = 1; n <= base.parts.length; n++) {
+    if (parts && !parts.includes(n)) continue;
+    const nn = String(n).padStart(2, '0');
+    if (only !== 'cover') jobs.push(`tiktok-${nn}.mp4`);
+    if (only !== 'clips') jobs.push(`tiktok-${nn}-cover.png`);
+  }
+}
+if (!only || only === 'thumb') for (let i = 0; i <= (base.thumbAlt?.length ?? 0); i++) jobs.push(i === 0 ? 'thumb.png' : `thumb-${i + 1}.png`);
+const runStart = Date.now();
+const done = new Set();
+const step = (file) => `${jobs.indexOf(file) + 1}/${jobs.length}`;
+const mark = (file) => { done.add(file); console.log(`[${hhmm()}] ${step(file)} xong ${file} (tổng đã chạy ${fmtMin(Date.now() - runStart)})`); };
+const makeProgress = (file) => {
+  const t0 = Date.now();
+  let lastT = 0, lastP = -1;
+  return (p) => {
+    if (process.stdout.isTTY) return void process.stdout.write(`\r${step(file)} ${file} ${(p * 100).toFixed(1)}%`);
+    const now = Date.now();
+    if (p < 1 && now - lastT < 30000 && p - lastP < 0.05) return;
+    lastT = now; lastP = p;
+    const el = now - t0;
+    const eta = p > 0.01 ? ` còn ~${fmtMin(el / p - el)}` : '';
+    console.log(`[${hhmm()}] ${step(file)} ${file} ${(p * 100).toFixed(1)}%, đã ${fmtMin(el)}${eta}`);
+  };
+};
+console.log(`[${hhmm()}] ${path.basename(path.dirname(E.json))}: ${jobs.length} việc: ${jobs.join(', ')} → ${outDir}`);
+
 const ffmpegVideo = async (inputProps, file) => {
   const props = {...inputProps, ...loaded, captions: []};
   const range = partRange(props);
@@ -89,21 +123,23 @@ const ffmpegVideo = async (inputProps, file) => {
   const bdId = props.part ? 'BackdropTiktok' : 'BackdropYoutube';
   const bdComposition = await selectComposition({serveUrl, id: bdId, inputProps: {portrait: !!props.part}});
   await renderStill({composition: bdComposition, serveUrl, inputProps: {portrait: !!props.part}, output: backdropPng, imageFormat: 'png'});
-  const t0 = Date.now();
   await renderFfmpeg({props, startSec, endSec, overlayPng, backdropPng, output: `${outDir}/${file}`, encoder: ffEncoder, tmpDir: bundleDir,
-    onProgress: (p) => process.stdout.write(`\r${file} ${(p * 100).toFixed(1)}%`)});
-  console.log(` (${((Date.now() - t0) / 60000).toFixed(1)} phút)`);
+    onProgress: makeProgress(file)});
+  if (process.stdout.isTTY) console.log();
+  mark(file);
 };
 
 const video = async (id, inputProps, file) => {
   if (engine === 'ffmpeg') return ffmpegVideo(inputProps, file);
   const composition = await selectComposition({serveUrl, id, inputProps});
+  const progress = makeProgress(file);
   await renderMedia({
     composition, serveUrl, inputProps, codec: 'h264', concurrency, mediaCacheSizeInBytes, ...encoding,
     outputLocation: `${outDir}/${file}`,
-    onProgress: ({progress}) => process.stdout.write(`\r${file} ${(progress * 100).toFixed(1)}%`),
+    onProgress: ({progress: p}) => progress(p),
   });
-  console.log();
+  if (process.stdout.isTTY) console.log();
+  mark(file);
 };
 
 
@@ -117,7 +153,7 @@ if (!only || only === 'tiktok' || only === 'clips' || only === 'cover') {
     if (only === 'clips') continue;
     const composition = await selectComposition({serveUrl, id: 'TikTokCover', inputProps: props});
     await renderStill({composition, serveUrl, inputProps: props, output: `${outDir}/tiktok-${nn}-cover.png`});
-    console.log(`tiktok-${nn}-cover.png`);
+    mark(`tiktok-${nn}-cover.png`);
   }
 }
 if (!only || only === 'thumb') {
@@ -127,6 +163,7 @@ if (!only || only === 'thumb') {
     const file = i === 0 ? 'thumb.png' : `thumb-${i + 1}.png`;
     const composition = await selectComposition({serveUrl, id: 'Thumbnail', inputProps: props});
     await renderStill({composition, serveUrl, inputProps: props, output: `${outDir}/${file}`});
-    console.log(file);
+    mark(file);
   }
 }
+console.log(`[${hhmm()}] HOÀN TẤT ${jobs.length} việc trong ${fmtMin(Date.now() - runStart)}`);

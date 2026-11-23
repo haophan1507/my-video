@@ -6,6 +6,10 @@ Thiết lập đang dùng (tốc độ giọng, nhịp đổi cảnh, kiểu ch�
 
 ## 1. Soát văn bản TTS (bước 4)
 
+Bước 4 gồm hai phần, làm theo thứ tự. Gen giọng tốn tiền và khó sửa, nên mọi lỗi phải hết trước bước 5.
+
+### 4A. Máy soát
+
 ```bash
 node scripts/normalize-vi.mjs tc005          # chỉ báo cáo
 node scripts/normalize-vi.mjs tc005 --fix    # báo cáo + ghi đè tại chỗ
@@ -15,11 +19,32 @@ Mỗi chương chỉ có một file `chNN.tts.txt`, viết sẵn dạng máy đ�
 
 Xử lý tay mọi mục trong báo cáo, sửa thẳng ở `chNN.tts.txt` rồi chạy lại:
 - Từ có `f j w z` hoặc viết hoa toàn bộ (pinyin, tên ngoại, viết tắt) → âm Hán Việt hoặc viết theo cách đọc.
-- Câu trên 35 chữ → tách.
+- Câu trên 35 chữ → tách (thành các câu ngắn, không nối bằng dấu phẩy).
 - Ngoặc `()` `[]` → bỏ hoặc viết thành câu.
 - Chữ số còn sót.
 
 Báo cáo cũng in số ký tự (tính giá TTS) và phút ước tính.
+
+### 4B. Đọc lướt bắt lỗi ngớ ngẩn
+
+Mục tiêu: không còn lỗi lộ liễu làm người nghe khựng lại. Không cần đánh bóng văn phong.
+
+```bash
+node scripts/soat-doc.mjs tc005
+```
+
+Script không sửa gì. Nó in danh sách tên riêng (tên chỉ có 1–2 lần, hoặc hai tên cùng chữ cuối, thường là gõ sai hoặc một người gọi hai cách), chỗ nghi ngờ (hai dấu cách, từ lặp liền, thiếu dấu cách sau dấu câu, câu trùng giữa các chương), và câu đầu, câu cuối từng chương. Câu chữ thường sau dấu hai chấm trong lời thoại và từ láy lặp liền là bình thường.
+
+Rồi đọc lướt một lượt từ chương 1 đến chương cuối, chỉ để bắt các lỗi sau; thấy thì sửa thẳng ở `chNN.tts.txt`:
+- [ ] Tên, tuổi, số tiền, số ngày, nơi chốn khớp giữa các chương; không lẫn tên cũ.
+- [ ] Không mâu thuẫn rõ (người đã đi lại xuất hiện, người chưa biết lại nói như đã biết, đồ vật tự xuất hiện).
+- [ ] Không câu vô nghĩa, câu cụt, từ dùng sai nghĩa; câu đọc lên vấp thì viết lại.
+- [ ] Không sai chính tả lộ liễu, không dính chữ, không thừa chữ.
+- [ ] Không còn pinyin, tên Trung nguyên bản, tiền kiểu Việt.
+- [ ] Có câu chào kênh ở chương 1; chương cuối có câu hỏi người xem và lời nhắc đăng ký kênh.
+- [ ] Cảnh nặng (bạo lực, tự hại, trẻ nhỏ) đã làm nhẹ.
+
+Sau khi sửa: chạy lại `normalize-vi.mjs` và `soat-doc.mjs`; nếu đã đổi tên chương hoặc hook thì sửa theo ở `outline.md` và `episode.json`; ghi một dòng vào nhật ký `tap.md`. Lỗi mạch chuyện lớn (thiếu cả cảnh) thì quay lại bước 3, không vá bằng một câu.
 
 ## 2. Giọng đọc (bước 5)
 
@@ -188,6 +213,8 @@ node scripts/render-episode.mjs tc005     # youtube.mp4, tiktok-NN.mp4, thumb.pn
 | `out/tiktok-NN.mp4` | `Clip` | Dọc 1080×1920; watermark logo + nhãn "Phần n/N"; không câu chào |
 | `out/tiktok-NN-cover.png` | `TikTokCover` | 1080×1920; bìa phần (`--only=cover` để render riêng) |
 | `out/thumb.png` (+ `thumb-2.png`... từ `thumbAlt`) | `Thumbnail` | 1280×720 |
+
+**Theo dõi tiến độ (2026-11-23)**: render lâu thì chạy nền (Bash `run_in_background`) để xem trong Background tasks. Ở nền script in từng dòng, không ghi đè một dòng: `[giờ] bước n/N file %, đã … còn ~…` (mỗi 30 giây hoặc 5%), `xong <file>` sau mỗi việc, `HOÀN TẤT` ở cuối; đầu lượt in danh sách việc. Terminal thật vẫn hiện một dòng cập nhật tại chỗ. Muốn xem lại: đọc file output của task nền, lệnh `tail`.
 
 Thử nhanh một đoạn: `npx remotion render src/index.ts Episode .tmp/test.mp4 --props=episodes/<thể-loại>/<mã>-<slug>/episode.json --frames=0-300 --scale=0.5`.
 

@@ -1,45 +1,55 @@
 {
   "title": "Đêm tân hôn chồng rơi xuống vực, mười năm sau tôi thấy anh ta còn sống, trọng sinh tôi xé váy cưới",
-  "footageTag": "",
+  "footageTag": "anime",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Giấy ung thư và bãi cỏ sơn trang"
+      "title": "Giấy ung thư và bãi cỏ sơn trang",
+      "startSec": 3.99
     },
     {
-      "title": "Trên lan can, giữa tiệc đính hôn"
+      "title": "Trên lan can, giữa tiệc đính hôn",
+      "startSec": 171.52
     },
     {
-      "title": "Bảy năm làm người nhường nhịn"
+      "title": "Bảy năm làm người nhường nhịn",
+      "startSec": 359.47
     },
     {
-      "title": "Ngày mười lăm và chiếc đồng hồ"
+      "title": "Ngày mười lăm và chiếc đồng hồ",
+      "startSec": 547.12
     },
     {
-      "title": "Phá sản hoặc bán cho tôi"
+      "title": "Phá sản hoặc bán cho tôi",
+      "startSec": 713.63
     },
     {
-      "title": "Cậu Việt ngồi ghế chủ tịch"
+      "title": "Cậu Việt ngồi ghế chủ tịch",
+      "startSec": 903.79
     },
     {
-      "title": "Tay trái, tay phải"
+      "title": "Tay trái, tay phải",
+      "startSec": 1080.92
     },
     {
-      "title": "Đừng ký"
+      "title": "Đừng ký",
+      "startSec": 1239.76
     },
     {
-      "title": "Người từ địa ngục bò về"
+      "title": "Người từ địa ngục bò về",
+      "startSec": 1405.7
     },
     {
-      "title": "Hai anh em, một cánh cửa"
+      "title": "Hai anh em, một cánh cửa",
+      "startSec": 1606.24
     }
   ],
   "parts": [
@@ -68,6 +78,8 @@
   "thumbText": "Trọng sinh|*xé váy cưới*|rút của hồi môn|chồng giả chết",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts008/thumb-bg.jpg",
+  "introSec": 3.99,
+  "audioSrc": "ts008/audio.mp3",
+  "thumbFace": "55% 39%"
 }

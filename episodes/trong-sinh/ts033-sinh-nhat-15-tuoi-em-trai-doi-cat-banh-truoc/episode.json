@@ -1,0 +1,69 @@
+{
+  "title": "Sinh nhật 15 tuổi, em trai nằm vạ đòi cắt bánh trước, tôi trọng sinh ném bánh vào mặt nó và lập thỏa thuận với bố mẹ: nuôi đến 18 tuổi, sau này tôi tự đi",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Chiếc bánh ném vào mặt em trai"
+    },
+    {
+      "title": "Kiếp trước, người chị đỡ em"
+    },
+    {
+      "title": "Căn phòng bị phá và cái thắt lưng"
+    },
+    {
+      "title": "Chạy sang nhà cô Triệu, gọi công an"
+    },
+    {
+      "title": "Thỏa thuận đến mười tám tuổi"
+    },
+    {
+      "title": "Anh bạn cùng bàn và tờ giấy trượt phỏng vấn"
+    },
+    {
+      "title": "Cái bóng hả hê và cuộc thi đỗ"
+    },
+    {
+      "title": "Đêm hoa dành dành, tạm biệt ngôi nhà"
+    },
+    {
+      "title": "Bệnh viện, tấm thẻ và chiếc taxi"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Sinh nhật mười lăm tuổi|em trai nằm vạ đòi cắt bánh trước|*tôi ném cả chiếc bánh vào mặt nó*"
+    },
+    {
+      "chapters": [
+        2,
+        3
+      ],
+      "hook": "Kiếp trước tôi nuôi cả nhà|kiếp này em trai phá phòng, bố rút thắt lưng|*tôi chạy sang gõ cửa nhà hàng xóm*"
+    },
+    {
+      "chapters": [
+        4,
+        5
+      ],
+      "hook": "Cô hàng xóm bấm gọi công an|bố bị tạm giam bảy ngày|*tôi đặt trước mặt ông một tờ thỏa thuận*"
+    }
+  ],
+  "thumbText": "TRỌNG SINH|*VẢ MẶT KẺ ÁC*|LẤY LẠI CÔNG LÝ|*TRẢ CẢ VỐN LẪN LÃI*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

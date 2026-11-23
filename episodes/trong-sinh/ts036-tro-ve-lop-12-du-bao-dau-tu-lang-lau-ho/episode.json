@@ -1,0 +1,66 @@
+{
+  "title": "Hot boy lớp 12 từ chối tôi, tôi mở miệng đặt trước tài sản vài tỷ tương lai của cậu",
+  "footageTag": "anime",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Tôi đặt trước tài sản của cậu"
+    },
+    {
+      "title": "Thỏa thuận ba bảy"
+    },
+    {
+      "title": "Cô gái váy trắng ở thư viện"
+    },
+    {
+      "title": "Đơn tố cáo và cuốn sổ ghi chép"
+    },
+    {
+      "title": "Hai mươi triệu tệ và giấc mơ chiếc vali đỏ"
+    },
+    {
+      "title": "Đêm mưa trước cửa nhà"
+    },
+    {
+      "title": "Chiếc ô và quỹ học bổng"
+    },
+    {
+      "title": "Chiếc ô gấp đã cũ"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Hot boy lớp mười hai từ chối tôi|*Tôi không yêu sớm, cô không xứng*|tôi cười, đặt trước tài sản vài tỷ của cậu"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Cô gái váy trắng bảo tôi biết thân biết phận|tiệm của chúng tôi bị niêm phong|*cuốn sổ ghi chép cứu cả hai*"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Hai mươi triệu tệ|anh hỏi giấc mơ chiếc vali đỏ|*tôi trả lời bằng một câu chuyện kinh doanh*"
+    }
+  ],
+  "thumbText": "Hot boy từ chối tôi|Tôi đặt trước *vài tỷ* tương lai|Kiếp trước *chết vì theo anh*|Kiếp này chỉ chia lãi",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

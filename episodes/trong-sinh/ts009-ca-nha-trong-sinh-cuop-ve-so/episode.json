@@ -1,42 +1,51 @@
 {
   "title": "Cả nhà trọng sinh cướp vé số tám mươi triệu của tôi, nhưng họ không biết người trúng là tôi chứ không phải dãy số",
-  "footageTag": "",
+  "footageTag": "paint",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Chín ngày trước kỳ quay số"
+      "title": "Chín ngày trước kỳ quay số",
+      "startSec": 3.99
     },
     {
-      "title": "Cá chép không biết bơi ngược"
+      "title": "Cá chép không biết bơi ngược",
+      "startSec": 158.26
     },
     {
-      "title": "Mua sắm bằng nợ nóng"
+      "title": "Mua sắm bằng nợ nóng",
+      "startSec": 377.48
     },
     {
-      "title": "Hai cái tát đối xứng"
+      "title": "Hai cái tát đối xứng",
+      "startSec": 567.57
     },
     {
-      "title": "Ngày quay số"
+      "title": "Ngày quay số",
+      "startSec": 746.77
     },
     {
-      "title": "Người bị mua về"
+      "title": "Người bị mua về",
+      "startSec": 954.02
     },
     {
-      "title": "Quỳ trước cổng trường"
+      "title": "Quỳ trước cổng trường",
+      "startSec": 1123.74
     },
     {
-      "title": "Lật ngược cả bảng tin"
+      "title": "Lật ngược cả bảng tin",
+      "startSec": 1303.68
     },
     {
-      "title": "Chiếc vòng bạc"
+      "title": "Chiếc vòng bạc",
+      "startSec": 1496.25
     }
   ],
   "parts": [
@@ -64,6 +73,8 @@
   "thumbText": "Cả nhà *trọng sinh*|cướp vé số|*tám mươi triệu*|của tôi",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts009/thumb-bg.jpg",
+  "introSec": 3.99,
+  "audioSrc": "ts009/audio.mp3",
+  "thumbFace": "56% 31%"
 }

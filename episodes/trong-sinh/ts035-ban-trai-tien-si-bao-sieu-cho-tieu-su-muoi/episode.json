@@ -1,0 +1,66 @@
+{
+  "title": "Bạn trai tiến sĩ bóc lột tôi ba năm rồi ngoại tình với tiểu sư muội; trọng sinh về ngày tôi giới thiệu họ, tôi lập tức chia tay",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Chia tay ngay hôm giới thiệu"
+    },
+    {
+      "title": "Nhật ký công việc gửi thầy Thịnh"
+    },
+    {
+      "title": "Con gái của viện trưởng"
+    },
+    {
+      "title": "Lời khoe của tiểu sư muội"
+    },
+    {
+      "title": "Máy mới và người cùng làng"
+    },
+    {
+      "title": "Phong bì năm vạn tệ"
+    },
+    {
+      "title": "Ba tập tài liệu trên bàn họp"
+    },
+    {
+      "title": "Chiếc nhẫn bên sông"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Tôi chết vì xuất huyết dạ dày|trước khi chết nhận ảnh bạn trai ngủ bên sư muội|*lần này tôi nói chia tay ngay hôm giới thiệu*"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Sư muội là con gái viện trưởng|bạn trai tôi cố ý cho cô ta tiếp cận|*cô ta dùng bố nghiện cờ bạc của tôi để dọa*"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Người cùng làng xuất hiện bên chiếc máy mới|dữ liệu của tôi có dấu thời gian|*tôi biết hồ sơ quỹ sẽ đứng tên ai*"
+    }
+  ],
+  "thumbText": "TRỌNG SINH|*VẢ MẶT KẺ ÁC*|LẤY LẠI CÔNG LÝ|*TRẢ CẢ VỐN LẪN LÃI*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Mẹ bạn gái đòi sính lễ tám trăm tám mươi nghìn tệ; tôi trọng sinh giúp anh họ lật tẩy bộ mặt thật của cả nhà cô ta",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Dì Bích Trâm đòi tám trăm tám mươi nghìn tệ"
+    },
+    {
+      "title": "Tờ giấy nợ có điều kiện"
+    },
+    {
+      "title": "Dãy nhà trọ số mười hai"
+    },
+    {
+      "title": "Chiếc tai nghe và xấp giấy"
+    },
+    {
+      "title": "Màn hình trắng giữa tiệc ăn hỏi"
+    },
+    {
+      "title": "Từ khóa lên bảng tìm kiếm nóng"
+    },
+    {
+      "title": "Cuộc gọi từ xóm bên"
+    },
+    {
+      "title": "Bằng thạc sĩ và cây phượng già"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Mẹ bạn gái đòi tám trăm tám mươi nghìn tệ|*con gái tôi là phượng hoàng duy nhất của làng*|tôi nhìn xuống bàn tay: mình đã sống lại"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Tôi theo chị ta đến nhà trọ|quay lại tất cả|*em trai chị ta bắt gặp tôi giữa ngõ*"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Mười hai bàn tiệc ăn hỏi|bà ta đòi sính lễ trước cả làng|*màn hình trắng bật sáng sau lưng bà*"
+    }
+  ],
+  "thumbText": "Đòi sính lễ *tám trăm tám mươi nghìn*|Bạn gái thanh cao lộ mặt *trà xanh*|Trọng sinh cài bẫy *camera đèn đỏ*|Cả nhà tham lam *tự gánh nợ nần*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

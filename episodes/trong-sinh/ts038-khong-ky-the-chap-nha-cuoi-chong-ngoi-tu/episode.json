@@ -1,0 +1,66 @@
+{
+  "title": "Mẹ chồng bưng thuốc an thần, tôi viết sẵn lời bà sắp nói rồi đi kiểm tra bệnh án",
+  "footageTag": "scene",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Bát thuốc lúc bảy giờ hai mươi sáu"
+    },
+    {
+      "title": "Ca mổ tám vạn hai nghìn tệ"
+    },
+    {
+      "title": "Sổ đỏ biến mất"
+    },
+    {
+      "title": "Họp nhà trên chiếc sofa của tôi"
+    },
+    {
+      "title": "Tờ giấy ủy quyền ở quán cà phê"
+    },
+    {
+      "title": "Chữ ký không khớp"
+    },
+    {
+      "title": "Lưu Thiên và lá thư nặc danh"
+    },
+    {
+      "title": "Cuốn sổ đỏ kẹp mảnh giấy"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Mẹ chồng bưng bát thuốc vào phòng|*Ký đi, bố con mới sống được*|nhưng tôi đã viết sẵn lời bà sắp nói"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Sổ đỏ của tôi đã biến mất|hồ sơ thế chấp đã nộp từ một tuần trước|*cả nhà chồng kéo đến họp*"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Mẹ chồng đưa một tờ giấy ủy quyền|chỉ chờ chữ ký của tôi|*tôi chụp lại dưới gầm bàn*"
+    }
+  ],
+  "thumbText": "Mẹ chồng ép ký thế chấp|Tôi đặt *bệnh án* lên bàn|Kiếp trước *mất nhà vì tin anh*|Kiếp này tiễn cả nhà hầu tòa",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

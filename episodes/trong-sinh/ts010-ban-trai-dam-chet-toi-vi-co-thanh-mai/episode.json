@@ -1,39 +1,47 @@
 {
   "title": "Kiếp trước tôi khuyên bạn trai đừng đi lấy giấy báo danh cho thanh mai, mười năm sau anh ta đâm tôi",
-  "footageTag": "",
+  "footageTag": "cook",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Nửa tiếng trước giờ thi"
+      "title": "Nửa tiếng trước giờ thi",
+      "startSec": 3.99
     },
     {
-      "title": "Quán tráng miệng và tờ giấy báo"
+      "title": "Quán tráng miệng và tờ giấy báo",
+      "startSec": 198.42
     },
     {
-      "title": "Bữa tiệc tạ ơn thầy cô"
+      "title": "Bữa tiệc tạ ơn thầy cô",
+      "startSec": 399.07
     },
     {
-      "title": "Anh đàn anh nói tiếng Hán vấp"
+      "title": "Anh đàn anh nói tiếng Hán vấp",
+      "startSec": 592.53
     },
     {
-      "title": "Chiếc bụng bầu chặn đường"
+      "title": "Chiếc bụng bầu chặn đường",
+      "startSec": 796.43
     },
     {
-      "title": "Họp lớp có một chân khập khiễng"
+      "title": "Họp lớp có một chân khập khiễng",
+      "startSec": 983.4
     },
     {
-      "title": "Bài đăng đòi tuổi xuân"
+      "title": "Bài đăng đòi tuổi xuân",
+      "startSec": 1184.45
     },
     {
-      "title": "Ngày mưa dông ở cổng trường"
+      "title": "Ngày mưa dông ở cổng trường",
+      "startSec": 1364.62
     }
   ],
   "parts": [
@@ -60,6 +68,8 @@
   "thumbText": "Sống lại|*nửa tiếng* trước giờ thi|tôi bảo bạn trai:|đi đi, đừng quay lại",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts010/thumb-bg.jpg",
+  "introSec": 3.99,
+  "audioSrc": "ts010/audio.mp3",
+  "thumbFace": "56% 45%"
 }

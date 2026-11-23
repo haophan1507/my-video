@@ -1,0 +1,69 @@
+{
+  "title": "Trước khi chết tôi hiểu ra báo cáo xét nghiệm là giả, lần này tôi tự lấy bản gốc",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Cơn mưa ba năm sau ly hôn"
+    },
+    {
+      "title": "Hai bản báo cáo"
+    },
+    {
+      "title": "Buổi phát trực tiếp"
+    },
+    {
+      "title": "Dấu xanh của Cẩm Loan"
+    },
+    {
+      "title": "Ba triệu hai trăm nghìn tệ"
+    },
+    {
+      "title": "Tập hồ sơ năm trang"
+    },
+    {
+      "title": "Tiếng đập cửa buổi tối"
+    },
+    {
+      "title": "Mẩu giấy gấp tư"
+    },
+    {
+      "title": "Phiên tòa và nồi lẩu"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Kiếp trước tôi chết vì|tờ báo cáo giả|*lần này tôi tự lấy bản gốc*"
+    },
+    {
+      "chapters": [
+        2,
+        3
+      ],
+      "hook": "Hai bản báo cáo trên bàn trà|mẹ chồng phát trực tiếp|*kêu cả nước chặn cửa tôi*"
+    },
+    {
+      "chapters": [
+        4,
+        5
+      ],
+      "hook": "Bạn thân vạch mặt|tám vạn tệ sửa báo cáo|bà dẫn *môi giới* đến bán nhà tôi"
+    }
+  ],
+  "thumbText": "Mẹ chồng mang|tờ báo cáo *giả*|ép tôi hiến thận|tôi lấy bản gốc",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}
