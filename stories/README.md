@@ -197,9 +197,9 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 | ts005 | voice d99082f8, tốc độ 1,2 | `anime` | đã render 2026-11-22, chờ đăng |
 | ts006 | voice d99082f8, tốc độ 1,2 | `bento` | đã render 2026-11-22, chờ đăng |
 | ts007 | voice d99082f8, tốc độ 1,2 | `night` | đã render 2026-11-22, chờ đăng |
-| ts008 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts009 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts010 | chưa chốt | chưa chốt | mở 2026-11-21 |
+| ts008 | voice d99082f8, tốc độ 1,2 | `anime` | đã render 2026-11-23, chờ đăng |
+| ts009 | voice d99082f8, tốc độ 1,2 | `paint` | đã render 2026-11-23, chờ đăng |
+| ts010 | voice d99082f8, tốc độ 1,2 | `cook` | đã render 2026-11-23, chờ đăng |
 | ts012 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | ts013 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | ts014 | chưa chốt | chưa chốt | mở 2026-11-21 |
@@ -236,5 +236,6 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 | ts024 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc003 | chưa chốt | chưa chốt | mở 2026-11-22 |
 | ts001 | voice d99082f8, tốc độ 1,2 | `craft` | đã render 2026-11-22, chờ đăng |
+| ts004 | chưa chốt | chưa chốt | mở 2026-11-23; kịch bản bước 1–4 xong, chờ duyệt (10 chương, ~47 phút) |
 
 Mỗi tập mới thêm một dòng.

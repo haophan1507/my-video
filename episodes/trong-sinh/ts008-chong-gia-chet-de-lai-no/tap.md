@@ -4,7 +4,7 @@
      Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
 
 - **Truyện nguồn**: ts008, stories/trong-sinh/ts008-chong-gia-chet-de-lai-no.md
-- **Bước hiện tại**: 5
+- **Bước hiện tại**: 7 (xong)
 - **Cập nhật**: 2026-11-21
 
 ## Quyết định
@@ -19,9 +19,9 @@
 | Bối cảnh | Trung Quốc hiện đại, tập đoàn Nông thị, khách sạn tổ chức tiệc, sơn trang chân núi Trường Bạch (kiếp trước), viện điều dưỡng ở nước ngoài; tiền là tệ; không ghi năm bằng số. Mốc trọng sinh: ch.1, mười năm trước đêm tân hôn kiếp trước. |
 | Độ dài: số chương, phút; cách đủ độ dài | 10 chương, 8.718 chữ, ~48 phút. Dựng lại từ nguồn ~10.150 chữ Hán: thêm tin nhắn lạ (Tĩnh), chiếc đồng hồ của bà Nông, phép thử tay trái/tay phải, ghi âm trốn tìm hai mươi năm; đổi kết thành thế kẹt hai thân phận; bỏ cảnh phụ sơn trang và nhân vật luật sư. |
 | Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5–6 (~59% chữ, dừng cuối ch.6); chi tiết outline.md |
-| Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
-| Footage: chủ đề, nguồn, tag | |
-| Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
+| Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | GenMax, minimax speech-2.8-hd, voice d99082f8, Vietnamese, tốc độ 1,2 |
+| Footage: chủ đề, nguồn, tag | tag `anime` (kho có sẵn trên máy, không tải thêm) |
+| Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | chữ: `thumbText` trong episode.json; ảnh: do bạn gửi 2026-11-23 (ảnh minh họa cô dâu voan trắng, `raw/ts008-thumb.png` → `public/ts008/thumb-bg.jpg`, đã cắt watermark ở đáy), `thumbFace` 55% 39%; chưa có A/B |
 | Teaser TikTok 60–90 giây | |
 
 ## Tiến độ
@@ -30,12 +30,15 @@
 - [x] 2. Dàn ý: `outline.md`
 - [x] 3. Viết chương: `script/chNN.tts.txt`
 - [x] 4. Soát TTS: báo cáo `normalize-vi.mjs` sạch
-- [ ] 5. Giọng: `audio/chNN.mp3`
-- [ ] 6. Footage: `public/footage/<tag>/`
-- [ ] 7. Render: `out/`
+- [x] 5. Giọng: `audio/chNN.mp3`
+- [x] 6. Footage: `public/footage/<tag>/`
+- [x] 7. Render: `out/`
 
 ## Nhật ký
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 10 chương, ~8.700 chữ, ~48 phút; dàn ý và chương chưa duyệt.
 - 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5–6; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.
+- 2026-11-23: chốt giọng d99082f8 tốc độ 1,2, footage tag `anime`; gen cả tập, audio 30:01; chờ ảnh nhân vật cho bìa.
+- 2026-11-23: ảnh bìa từ ảnh gửi; render thumb.png và 3 bìa TikTok; chờ render video.
+- 2026-11-23: render xong youtube.mp4 (30:02), tiktok-01..03, bìa YouTube và 3 bìa TikTok; đã xem khung đầu và cuối.

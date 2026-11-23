@@ -1,0 +1,85 @@
+{
+  "title": "Con nuôi hại chết con gái, vứt tôi chết trong nhà tranh, trọng sinh tôi rút vạt áo khỏi tay nó",
+  "footageTag": "cook",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Căn nhà tranh và quả quýt",
+      "startSec": 3.99
+    },
+    {
+      "title": "Thuốc tím và ánh mắt rắn",
+      "startSec": 165.82
+    },
+    {
+      "title": "Dạy con gái nhìn người",
+      "startSec": 343.16
+    },
+    {
+      "title": "Xe ba bánh và hộp cơm",
+      "startSec": 554.07
+    },
+    {
+      "title": "Cậu bé ngủ gầm cầu",
+      "startSec": 720.45
+    },
+    {
+      "title": "Năm mươi tệ và chùm chìa khóa",
+      "startSec": 919.89
+    },
+    {
+      "title": "Cửa nhà đối diện",
+      "startSec": 1105.57
+    },
+    {
+      "title": "Cơn bão tin đồn",
+      "startSec": 1281.11
+    },
+    {
+      "title": "Mép sân thượng",
+      "startSec": 1432.65
+    },
+    {
+      "title": "Tôi không định nhớ cậu thêm ngày nào",
+      "startSec": 1586.93
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Con nuôi hại chết|con gái, vứt tôi|*chết trong nhà tranh*"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Tôi bán cơm hộp|nuôi con gái, gặp|*con rể tương lai*|ngồi lề đường"
+    },
+    {
+      "chapters": [
+        5,
+        6
+      ],
+      "hook": "Ba năm sau,|con nuôi bạc bẽo|*mở cửa nhà đối diện*"
+    }
+  ],
+  "thumbText": "Con nuôi bạc bẽo|hại chết con gái.|Trọng sinh, tôi|*bảo vệ con trước*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": "ts004/thumb-bg.jpg",
+  "introSec": 3.99,
+  "audioSrc": "ts004/audio.mp3",
+  "thumbFace": "56% 50%"
+}
