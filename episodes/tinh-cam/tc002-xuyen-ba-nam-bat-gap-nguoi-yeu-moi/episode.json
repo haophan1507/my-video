@@ -1,7 +1,7 @@
 {
   "title": "Mở mắt ra đã là ba năm sau, tôi không nhận ra người bạn trai bên giường",
-  "footageTag": "sticker",
-  "dim": 0.05,
+  "footageTag": "sticker-a",
+  "dim": 0.15,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
@@ -74,7 +74,7 @@
   "thumbTag": "Trọn bộ",
   "thumbBg": "tc002/thumb-bg.jpg",
   "introSec": 3.99,
-  "footageOffset": 2,
+  "footageOffset": 0,
   "thumbFace": "45% 29%",
   "thumbZoom": 1,
   "audioSrc": "tc002/audio.mp3"

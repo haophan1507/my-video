@@ -159,14 +159,14 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 
 | Tập | Giọng | Footage | Hồ sơ |
 |---|---|---|---|
-| tc005 | minimax speech-2.8-hd, tốc độ 1,2 | `cook` | Base ~13 phút (dưới chuẩn); ngoại lệ vì đang làm tập, dàn ý đã mở lên 39 phút |
+| tc005 | minimax speech-2.8-hd, tốc độ 1,2 | `paint-d` | Base ~13 phút (dưới chuẩn); ngoại lệ vì đang làm tập, dàn ý đã mở lên 39 phút; render xong 2026-11-24 (dim 0,15), chờ đăng |
 | tc001 | chưa chốt | chưa chốt | Base ~18 phút (dưới chuẩn 25–60); sẽ viết dày lên ~30–35 phút |
-| tc004 | chưa chốt | chưa chốt | mở 2026-11-21 |
+| tc004 | minimax speech-2.8-hd, tốc độ 1,2 | `sticker-b` | render xong 2026-11-24 (dim 0,15), chờ đăng |
 | tc007 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | ts003 | voice d99082f8, tốc độ 1,2 | `bake` | đã render 2026-11-22, chờ đăng |
-| tc002 | chưa chốt | chưa chốt | mở 2026-11-21 |
+| tc002 | minimax speech-2.8-hd, tốc độ 1,2 | `sticker-a` | render xong 2026-11-24 (dim 0,15), chờ đăng |
 | tc006 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc008 | chưa chốt | chưa chốt | mở 2026-11-21 |
+| tc008 | minimax speech-2.8-hd, tốc độ 1,2 | `sticker-c` | render xong 2026-11-24 (dim 0,15), chờ đăng |
 | tc009 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc010 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc011 | chưa chốt | chưa chốt | mở 2026-11-21 |

@@ -1,7 +1,7 @@
 {
   "title": "Chồng đòi ly hôn để về với tình đầu, tôi chưa kịp nói mình mang thai hai tháng",
-  "footageTag": "sticker",
-  "dim": 0.05,
+  "footageTag": "sticker-c",
+  "dim": 0.15,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
@@ -83,7 +83,7 @@
   "thumbTag": "Trọn bộ",
   "thumbBg": "tc008/thumb-bg.jpg",
   "introSec": 3.99,
-  "footageOffset": 8,
+  "footageOffset": 0,
   "thumbFace": "48% 43%",
   "thumbZoom": 1,
   "audioSrc": "tc008/audio.mp3"

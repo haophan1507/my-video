@@ -1,6 +1,6 @@
 {
   "title": "Bạn thân hôn người yêu tôi ngay sinh nhật",
-  "footageTag": "sticker",
+  "footageTag": "paint-d",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -13,31 +13,39 @@
   "chapters": [
     {
       "title": "Cánh cửa kho",
-      "startSec": 2.64
+      "startSec": 3.99
     },
     {
-      "title": "Một lựa chọn, không phải lời tỏ tình"
+      "title": "Một lựa chọn, không phải lời tỏ tình",
+      "startSec": 158.45
     },
     {
-      "title": "Bảy năm tôi không chịu nhìn"
+      "title": "Bảy năm tôi không chịu nhìn",
+      "startSec": 306.24
     },
     {
-      "title": "Ly matcha ít ngọt"
+      "title": "Ly matcha ít ngọt",
+      "startSec": 479.77
     },
     {
-      "title": "Dưới ký túc xá"
+      "title": "Dưới ký túc xá",
+      "startSec": 640.63
     },
     {
-      "title": "Lời đồn"
+      "title": "Lời đồn",
+      "startSec": 819.52
     },
     {
-      "title": "Đoạn video"
+      "title": "Đoạn video",
+      "startSec": 968.85
     },
     {
-      "title": "Người nên quỳ không phải tôi"
+      "title": "Người nên quỳ không phải tôi",
+      "startSec": 1142.69
     },
     {
-      "title": "Chỗ gió đi qua"
+      "title": "Chỗ gió đi qua",
+      "startSec": 1341.79
     }
   ],
   "parts": [
@@ -65,7 +73,7 @@
   ],
   "thumbText": "Bạn thân hôn|người yêu tôi|ngay *sinh nhật*",
   "thumbBg": "tc005/thumb-bg.jpg",
-  "introSec": 2.64,
+  "introSec": 3.99,
   "audioSrc": "tc005/audio.mp3",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "0% 50%"

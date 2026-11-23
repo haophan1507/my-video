@@ -4,8 +4,8 @@
      Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
 
 - **Truyện nguồn**: tc004, stories/tinh-cam/tc004-cuoi-chop-nhoang-chong-la-thieu-gia-giau-nhat.md
-- **Bước hiện tại**: 5
-- **Cập nhật**: 2026-11-21
+- **Bước hiện tại**: 7 (xong)
+- **Cập nhật**: 2026-11-24
 
 ## Quyết định
 
@@ -19,8 +19,8 @@
 | Bối cảnh | Hải Thành hiện đại; tập đoàn Nghiêm thị, Diệp thị đã phá sản; tôi bán xe ở đại lý ô tô; tiền là tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 9 chương, ~8.290 chữ ≈ 46 phút. Viết dày, vá logic (vì sao anh ở Cục dân chính, vì sao giấu thân phận, vì sao Doanh Doanh biết thân thế tôi); thêm vòng ch.3 (cửa hàng xe), ch.8 (tôi giăng bẫy vụ lừa cổ phần), ch.9 (lá thư của mẹ); "đơn ly hôn" thành giấy chuyển trả cổ phần |
 | Chia phần TikTok | 3 phần: ch.1, ch.2–3, ch.4–5 (~56% chữ, dừng cuối ch.5); chi tiết outline.md |
-| Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
-| Footage: chủ đề, nguồn, tag | |
+| Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | minimax, speech-2.8-hd, tốc độ 1,2 (chi tiết ở `voice` trong `episode.json`) |
+| Footage: chủ đề, nguồn, tag | tag `sticker-b` (một nguồn, chạy liền), `dim` 0,15, `footageOffset` 0 |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
 | Teaser TikTok 60–90 giây | |
 
@@ -30,9 +30,9 @@
 - [x] 2. Dàn ý: `outline.md`
 - [x] 3. Viết chương: `script/chNN.tts.txt`
 - [x] 4. Soát TTS: báo cáo `normalize-vi.mjs` sạch
-- [ ] 5. Giọng: `audio/chNN.mp3`
-- [ ] 6. Footage: `public/footage/<tag>/`
-- [ ] 7. Render: `out/`
+- [x] 5. Giọng: `audio/chNN.mp3`
+- [x] 6. Footage: `public/footage/<tag>/`
+- [x] 7. Render: `out/`
 
 ## Nhật ký
 
@@ -40,3 +40,4 @@
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 9 chương, ~8.290 chữ, ~46 phút; dàn ý và chương chưa duyệt.
 - 2026-11-21: đổi tên để không trùng tập khác: Giang Ninh → Diệp Khê, Hoắc Cảnh Xuyên → Nghiêm Cảnh Xuyên (Hoắc thị → Nghiêm thị), Giang thị → Diệp thị, Chu Tiểu Đào → Đường Tiểu Đào.
 - 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1, ch.2–3, ch.4–5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.
+- 2026-11-24: render lại YouTube và 3 phần TikTok với tag `sticker-b`, `dim` 0,15; sửa lỗi tràn RAM ffmpeg ở nền footage dọc; thời lượng khớp audio, độ sáng đã kiểm.

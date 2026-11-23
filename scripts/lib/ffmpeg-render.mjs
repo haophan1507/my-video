@@ -107,13 +107,15 @@ export async function renderFfmpeg({props, startSec, endSec, overlayPng, backdro
   const segs = windowPlan(fullPlan(props.footage, storyFrames, W / H, props.footageOffset), f0, f0 + outFrames);
   const outSec = outFrames / FPS;
 
-  const args = ['-v', 'error', '-stats_period', '1', '-progress', 'pipe:1', '-y'];
+  const args = ['-v', 'error', '-stats_period', '1', '-progress', 'pipe:1', '-y', '-filter_complex_threads', '1']; // 1 luồng lọc: máy 8 GB RAM hết bộ nhớ (ENOMEM) khi nhiều luồng
   // seek, len tính theo thời gian ra; nhân speed để ra thời gian trong clip nguồn
   for (const s of segs) args.push('-ss', (s.skip + s.seek * s.speed).toFixed(3), '-t', (s.len * s.speed).toFixed(3), '-i', path.join(ROOT, 'public', s.src));
   args.push('-loop', '1', '-i', overlayPng);
   args.push('-ss', startSec.toFixed(3), '-i', path.join(ROOT, 'public', props.audioSrc));
-  args.push('-loop', '1', '-framerate', String(FPS), '-i', backdropPng);
-  const ov = segs.length, au = segs.length + 1, bd = segs.length + 2;
+  const ov = segs.length, au = segs.length + 1, bdBase = segs.length + 2;
+  // Mỗi clip contain một đầu vào nền riêng (-t = độ dài clip). Không dùng một đầu vào + split: các nhánh của clip chưa tới lượt
+  // chất khung nền vào bộ nhớ (~90 MB/giây ở 1920×1080), render tràn RAM ở ~100 giây (tc002, tc004, tc008, 2026-11-23).
+  for (const s of segs) if (s.fit !== 'cover') args.push('-loop', '1', '-framerate', String(FPS), '-t', (s.len + 1).toFixed(3), '-i', backdropPng);
 
   // Lớp tối chỉ phủ footage (không phủ nền kem): nhân RGB với k = 1 - dim; trong YUV là co Y về 16 và U, V về 128 cùng hệ số.
   // (drawbox có alpha làm mất màu gần hết, không dùng.)
@@ -122,7 +124,7 @@ export async function renderFfmpeg({props, startSec, endSec, overlayPng, backdro
   // Clip không phủ kín khung (fit contain) đặt giữa nền kem họa tiết (src/Thumbnail.tsx Backdrop), không còn viền đen.
   const nContain = segs.filter((s) => s.fit !== 'cover').length;
   const f = [];
-  if (nContain) f.push(`[${bd}:v]format=yuv420p,split=${nContain}${Array.from({length: nContain}, (_, i) => `[bd${i}]`).join('')}`);
+  for (let c = 0; c < nContain; c++) f.push(`[${bdBase + c}:v]format=yuv420p[bd${c}]`);
   let ci = 0;
   segs.forEach((s, i) => {
     const pre = `[${i}:v]setpts=(PTS-STARTPTS)/${s.speed},fps=${FPS}`;
@@ -145,7 +147,7 @@ export async function renderFfmpeg({props, startSec, endSec, overlayPng, backdro
   fs.writeFileSync(script, f.join(';\n'));
 
   args.push(...filterFileArgs(script), '-map', '[v]', '-map', '[a]', '-t', outSec.toFixed(3), '-r', String(FPS),
-    ...encoder.args, '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', output);
+    ...encoder.args, ...(encoder.name === 'libx264' ? ['-threads', '3'] : []), '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', output);
 
   await new Promise((resolve, reject) => {
     const p = spawn('ffmpeg', args, {stdio: ['ignore', 'pipe', 'pipe']});

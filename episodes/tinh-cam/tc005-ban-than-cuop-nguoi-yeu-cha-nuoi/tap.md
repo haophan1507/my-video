@@ -4,8 +4,8 @@
      Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
 
 - **Truyện nguồn**: tc005, stories/tinh-cam/tc005-ban-than-cuop-nguoi-yeu-cha-nuoi.md
-- **Bước hiện tại**: 5
-- **Cập nhật**: 2026-11-21
+- **Bước hiện tại**: 7 (xong)
+- **Cập nhật**: 2026-11-24
 
 ## Quyết định
 
@@ -19,9 +19,8 @@
 | Bối cảnh | Hải Thành, hiện đại, tiền tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 9 chương, ~39 phút (~7.090 chữ); viết dày + 4 vòng mới (đã duyệt 2026-11-20) |
 | Chia phần TikTok | 3 phần, ch.1–6 (~63% truyện, 2026-11-21): P1 ch.1–2 (treo: dòng tin cũ bỏ qua bảy năm), P2 ch.3–4 (treo: cả nhóm bàn chuyện chú Lục), P3 ch.5–6 (treo: "camera hành lang đã quay lại tất cả"). Ch.7–9 chỉ ở YouTube. |
-| Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
-| Footage: chủ đề, nguồn, tag | Dán sticker DIY cận cảnh (tay, nhíp, tranh sticker), tag `sticker` (`public/footage/sticker/`); 19 clip dọc có sẵn ở `D:\Video Footage\Sticker` (đổi từ `cook`, 2026-11-21) |
-| Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | chữ: "Bạn thân hôn|người yêu tôi|ngay *sinh nhật*"; ảnh: cô gái tóc dài nâu, áo đen yếm trắng (`public/tc005/thumb-bg.jpg`, từ ảnh người dùng gửi 2026-11-21) |
+| Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | minimax, speech-2.8-hd, tốc độ 1,2 (chi tiết ở `voice` trong `episode.json`) |
+| Footage: chủ đề, nguồn, tag | Vẽ acrylic lên đĩa tròn, cận cảnh tay; tag `paint-d` (`public/footage/paint-d/`), cắt từ video painting 2 giờ, đoạn 61:40–98:20; `dim` 0,15, `footageOffset` 0 |
 | Teaser TikTok 60–90 giây | |
 
 ## Tiến độ
@@ -30,9 +29,9 @@
 - [x] 2. Dàn ý: `outline.md`
 - [x] 3. Viết chương: `script/chNN.tts.txt` (đủ 9 chương, ~7.430 chữ)
 - [x] 4. Soát TTS (9 chương): báo cáo sạch
-- [ ] 5. Giọng: `audio/chNN.mp3`
-- [ ] 6. Footage: `public/footage/sticker/`
-- [ ] 7. Render: `out/`
+- [x] 5. Giọng: `audio/chNN.mp3`
+- [x] 6. Footage: `public/footage/paint-d/`
+- [x] 7. Render: `out/`
 
 ## Nhật ký
 
@@ -47,3 +46,4 @@
 - 2026-11-21: viết ch02–ch09 (tổng 9 chương, 7.428 chữ ≈ 41 phút); normalize-vi sạch cảnh báo; episode.json: 9 phần TikTok mỗi chương một phần. Chờ chốt giọng để gen.
 - 2026-11-21: đổi footage sang chủ đề Sticker (19 clip dọc 576×1024 / 720×1280, 4–13 phút, nguồn `D:\Video Footage\Sticker`), `footageTag` = `sticker`; chuẩn hóa vào `public/footage/sticker/`. Chuẩn bị ảnh bìa từ ảnh người dùng gửi (`prep-thumb`). Còn chờ chốt giọng để gen ch01–ch09.
 - 2026-11-21: chốt TikTok 3 phần (ch.1–6, dừng ở cú treo camera hành lang); `episode.json` `parts` còn 3 phần.
+- 2026-11-24: render lại YouTube và 3 phần TikTok với tag `paint-d`, `dim` 0,15; sửa lỗi tràn RAM ffmpeg ở nền footage dọc; thời lượng khớp audio, độ sáng đã kiểm.

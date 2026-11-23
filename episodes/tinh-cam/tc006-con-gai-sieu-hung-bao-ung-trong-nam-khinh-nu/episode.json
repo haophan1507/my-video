@@ -1,7 +1,7 @@
 {
   "title": "Ông nội bán tôi ba nghìn tệ, người bị dắt đi lại là đứa cháu đích tôn",
-  "footageTag": "painting",
-  "dim": 0.05,
+  "footageTag": "paint-b",
+  "dim": 0.15,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
@@ -70,7 +70,7 @@
   "thumbTag": "Trọn bộ",
   "thumbBg": "tc006/thumb-bg.jpg",
   "introSec": 3.99,
-  "footageOffset": 2,
+  "footageOffset": 0,
   "thumbFace": "57% 27%",
   "thumbZoom": 1,
   "audioSrc": "tc006/audio.mp3"
