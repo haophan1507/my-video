@@ -1,0 +1,72 @@
+{
+  "title": "Ly hôn xong bị nhà chồng bôi nhọ, tôi photo hai trăm bản biên bản của tòa phát cho cả khu",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Tiếng gõ cửa buổi chiều"
+    },
+    {
+      "title": "Cuộc gọi cho thám tử"
+    },
+    {
+      "title": "Cây chổi ở cửa"
+    },
+    {
+      "title": "Ba ngày để suy nghĩ"
+    },
+    {
+      "title": "Khổ nhục kế"
+    },
+    {
+      "title": "Phòng hòa giải"
+    },
+    {
+      "title": "Hai trăm bản giấy"
+    },
+    {
+      "title": "Bức thêu bách niên hảo hợp"
+    },
+    {
+      "title": "Tin từ phố cũ"
+    },
+    {
+      "title": "Con đường thứ ba"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Nhân tình bụng bầu gõ cửa|kiếp trước tôi mềm lòng|*và chết dưới bánh xe*"
+    },
+    {
+      "chapters": [
+        2,
+        3
+      ],
+      "hook": "Tôi trọng sinh, thuê thám tử|nhân tình lại gõ cửa|*lần này tôi cầm chổi*"
+    },
+    {
+      "chapters": [
+        4,
+        5
+      ],
+      "hook": "Chồng xé đơn ly hôn|mẹ chồng giả đau tim|tôi gọi *xe cấp cứu*"
+    }
+  ],
+  "thumbText": "Ly hôn xong,|tôi photo *hai trăm bản*|biên bản của tòa|phát cho cả khu",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Mẹ nuôi xé giấy báo nhập học của tôi, trọng sinh tôi ôm mẹ: con không chạy nữa",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Cánh cửa chống trộm"
+    },
+    {
+      "title": "Phiếu dự thi biến mất"
+    },
+    {
+      "title": "Chiếc túi rác đen"
+    },
+    {
+      "title": "Học lại một năm"
+    },
+    {
+      "title": "Sáu trăm sáu mươi ba điểm"
+    },
+    {
+      "title": "Tám mươi tám vạn tệ sính lễ"
+    },
+    {
+      "title": "Bàn cờ của cậu Khiêm"
+    },
+    {
+      "title": "Bát mì và hai đôi đũa"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Kiếp trước mẹ nuôi *xé giấy báo*|nhập học của tôi vì lời cậu|tôi ôm mẹ: *con không chạy nữa*"
+    },
+    {
+      "chapters": [
+        3
+      ],
+      "hook": "Phiếu dự thi biến mất|chiếc túi rác đen|*ai đã lấy*"
+    },
+    {
+      "chapters": [
+        4,
+        5
+      ],
+      "hook": "Mẹ gọi tôi là bảo bối|học lại một năm|*sáu trăm sáu mươi ba điểm*"
+    }
+  ],
+  "thumbText": "Mẹ *xé giấy*|báo nhập học của tôi|Trọng sinh, tôi ôm mẹ|con *không chạy*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

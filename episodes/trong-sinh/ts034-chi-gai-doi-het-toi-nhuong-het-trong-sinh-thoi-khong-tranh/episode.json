@@ -1,0 +1,66 @@
+{
+  "title": "Bố mẹ thiên vị chị gái cả đời: chị đòi suất tuyển thẳng, dự án khoa học, cả bạn trai, tôi trọng sinh và nhường hết, chỉ giữ lại bản thân mình",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Suất tuyển thẳng cho chị"
+    },
+    {
+      "title": "Hai nghìn tệ và kỳ thi giấu kín"
+    },
+    {
+      "title": "Phòng thí nghiệm của thầy Lưu"
+    },
+    {
+      "title": "Bản thảo bị nộp trước"
+    },
+    {
+      "title": "Họp nhóm và cái tát ở ký túc xá"
+    },
+    {
+      "title": "Bảng bốn, hàng sáu"
+    },
+    {
+      "title": "Chiếc loa ở sảnh ký túc xá"
+    },
+    {
+      "title": "Buổi ra mắt ở Thâm Quyến"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Bố mẹ đòi tôi nhường suất tuyển thẳng|tôi nói *Cho chị, cho tất cả*|rồi lặng lẽ đi thi một mình"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Chị gái xin vào nhóm nghiên cứu của tôi|bản thảo bị nộp trước|*con số trong bảng bốn đã bị sửa*"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Mẹ lên ký túc xá tát tôi|bạn cùng phòng chắn trước mặt|*cả hành lang đã nghe thấy*"
+    }
+  ],
+  "thumbText": "CHỊ ĐÒI TUYỂN THẲNG|*TÔI NHƯỜNG HẾT*|BẢY NĂM SAU THÀNH CÔNG|*CẢM ƠN CHÍNH MÌNH*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

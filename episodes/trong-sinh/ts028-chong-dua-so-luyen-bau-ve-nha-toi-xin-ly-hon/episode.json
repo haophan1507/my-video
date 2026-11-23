@@ -1,0 +1,69 @@
+{
+  "title": "Chồng dắt mối tình đầu bụng bầu về nhà, kiếp trước anh ta đẩy tôi xuống cầu thang; kiếp này tôi xin ly hôn đòi nửa tài sản",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Cốc sữa trước cửa thư phòng"
+    },
+    {
+      "title": "Người phụ nữ thứ hai trong ngôi nhà"
+    },
+    {
+      "title": "Ba ngày của bà Ngụy Tâm"
+    },
+    {
+      "title": "Chiếc camera ở góc hành lang"
+    },
+    {
+      "title": "Phòng bệnh cửa sổ đóng kín"
+    },
+    {
+      "title": "Quân cờ của người anh cùng cha"
+    },
+    {
+      "title": "Cha con cắt đứt"
+    },
+    {
+      "title": "Tập hồ sơ trên ghế xe"
+    },
+    {
+      "title": "Cốc cà phê đổ và chiếc nhẫn"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Chồng dắt mối tình đầu bụng bầu về nhà|tôi nói bình thản|*Vậy ta ly hôn đi*"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Mẹ chồng cho ba ngày|tôi đòi *nửa tài sản*|người tình tự lăn xuống cầu thang"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Nhóm đồng phục bước vào phòng bệnh|người tình bị *nghi rò rỉ bí mật*|bố chồng chuyển cô vào phòng kín"
+    }
+  ],
+  "thumbText": "TRỌNG SINH|*VẢ MẶT KẺ ÁC*|LẤY LẠI CÔNG LÝ|*TRẢ CẢ VỐN LẪN LÃI*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

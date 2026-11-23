@@ -1,0 +1,73 @@
+{
+  "title": "Hôn phu mất tích trước đám cưới một ngày, tôi gõ cửa nhà đối thủ: Anh có hứng liên hôn không?",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Gõ cửa nhà đối thủ"
+    },
+    {
+      "title": "Người khóc trước mộ tôi"
+    },
+    {
+      "title": "Mười bộ vest và một chữ đồng ý"
+    },
+    {
+      "title": "Đám cưới sáng hôm sau"
+    },
+    {
+      "title": "Chú rể thứ hai"
+    },
+    {
+      "title": "Hot search"
+    },
+    {
+      "title": "Siêu thị và nụ hôn trước mặt kẻ cũ"
+    },
+    {
+      "title": "Giọt Lệ Của Vì Sao"
+    },
+    {
+      "title": "Hết nguồn tiền"
+    },
+    {
+      "title": "Cánh cửa mở đúng người"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Hôn phu mất tích trước đám cưới|tôi gõ cửa *nhà đối thủ*|Anh có hứng liên hôn không?"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Mười bộ vest cho chú rể cũ|người đàn ông *tôi tưởng là kẻ thù*|nói đúng một chữ: đồng ý"
+    },
+    {
+      "chapters": [
+        5,
+        6
+      ],
+      "hook": "Chú rể cũ xộc vào sảnh cưới|tôi tung *ba đoạn camera*|cả mạng quay ngoắt"
+    }
+  ],
+  "thumbText": "Hôn phu mất tích|*tôi cưới đối thủ*|ngay hôm sau",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

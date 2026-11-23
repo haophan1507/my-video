@@ -1,0 +1,65 @@
+{
+  "title": "Kiếp trước tôi là mẹ chồng cay nghiệt chết một mình, mở mắt ra là ngày cưới của con trai",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Mở mắt ngày cưới của con trai"
+    },
+    {
+      "title": "Phòng thay đồ của cô dâu"
+    },
+    {
+      "title": "Năm nghìn tệ và hóa đơn đã trả"
+    },
+    {
+      "title": "Cháu đích tôn"
+    },
+    {
+      "title": "Chiếc vòng vàng"
+    },
+    {
+      "title": "Chiêu giả ốm"
+    },
+    {
+      "title": "Tháng ở cữ"
+    },
+    {
+      "title": "Lần này nhắm mắt thanh thản"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Kiếp trước tôi chết một mình|mở mắt ra là ngày cưới|*của con trai*"
+    },
+    {
+      "chapters": [
+        2,
+        3
+      ],
+      "hook": "Tôi xin lỗi con dâu|ngay trong phòng thay đồ|*hóa đơn đã được trả*"
+    },
+    {
+      "chapters": [
+        4
+      ],
+      "hook": "Con dâu tặng tôi|chiếc vòng vàng đầu tiên|*cả đời chưa ai tặng*"
+    }
+  ],
+  "thumbText": "Mẹ chồng cay nghiệt|trọng sinh về|*ngày cưới*|của con trai",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

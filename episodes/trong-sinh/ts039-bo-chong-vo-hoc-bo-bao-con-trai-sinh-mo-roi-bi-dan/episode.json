@@ -1,0 +1,62 @@
+{
+  "title": "Sinh mổ xong bố chồng bắt tôi nấu cơm rồi đá tôi lăn xuống cầu thang; trọng sinh trước lúc mang thai, tôi vạch mặt cả nhà chồng trong bệnh viện",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Ngày tôi mở mắt trước khi mang thai"
+    },
+    {
+      "title": "Phòng khám của bác sĩ Vu"
+    },
+    {
+      "title": "Hộp canh vỡ trên sàn bệnh viện"
+    },
+    {
+      "title": "Cú đấm ở hành lang"
+    },
+    {
+      "title": "Cuộc gọi báo công an và căn phòng riêng"
+    },
+    {
+      "title": "Mẹ muốn có một chiếc chìa khóa riêng"
+    },
+    {
+      "title": "Cốc trà dưới tán cây"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1
+      ],
+      "hook": "Sinh mổ xong bố chồng bắt tôi nấu cơm|ông xô tôi ngã|*tôi mở mắt trước cả ngày mang thai*"
+    },
+    {
+      "chapters": [
+        2,
+        3
+      ],
+      "hook": "Tôi đi khám tiền sản trước khi mang thai|bố chồng hất đổ hộp canh|*rồi ông ngã quỵ ngay cạnh giường tôi*"
+    },
+    {
+      "chapters": [
+        4
+      ],
+      "hook": "Bố chồng vừa mất|chồng vu tôi ngoại tình với bác sĩ|*anh ta đấm bác sĩ giữa hành lang*"
+    }
+  ],
+  "thumbText": "Sinh mổ ngày thứ hai|Bố chồng *đá lăn cầu thang*|Trọng sinh trước khi mang thai|Vạch trần bí mật *ba mươi năm*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

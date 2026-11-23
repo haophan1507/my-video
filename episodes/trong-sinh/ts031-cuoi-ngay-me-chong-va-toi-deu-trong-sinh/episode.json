@@ -1,0 +1,66 @@
+{
+  "title": "Ngày cưới tôi và mẹ chồng cùng trọng sinh: tôi cắt váy cưới đạp bay chú rể và nhân tình, bà thì quay sang nịnh nhân tình để chờ cô ta thành thiên kim",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Chiếc kéo cắt váy cưới"
+    },
+    {
+      "title": "Ánh mắt của mẹ chồng"
+    },
+    {
+      "title": "Hủy lễ cưới trước hai trăm khách"
+    },
+    {
+      "title": "Chiếc giường thời thơ ấu"
+    },
+    {
+      "title": "Cuộc gọi lúc nửa đêm"
+    },
+    {
+      "title": "Bốn mươi hai món đồ"
+    },
+    {
+      "title": "Biên bản và cái tát"
+    },
+    {
+      "title": "Cánh cổng ở Tây Hồ"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Ngày cưới tôi bước vào phòng hóa trang|cô dâu thứ hai ôm chồng tôi|*tôi cầm kéo cắt phăng váy cưới*"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Tôi hủy lễ cưới trước hai trăm khách|đòi lại ba trăm vạn của bố mẹ|*mẹ chồng cũng đã trọng sinh*"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Nửa đêm mẹ chồng gọi cho tôi|bà biết trước cô gái kia sẽ thành thiên kim|*chúng tôi không chia nhau gì cả*"
+    }
+  ],
+  "thumbText": "CẮT VÁY CƯỚI|*ĐẠP BAY CHỒNG*|MẸ CHỒNG NỊNH NHÂN TÌNH|*TRẢ CẢ VỐN LẪN LÃI*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

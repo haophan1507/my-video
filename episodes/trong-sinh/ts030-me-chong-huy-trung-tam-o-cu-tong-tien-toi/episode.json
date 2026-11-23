@@ -1,0 +1,66 @@
+{
+  "title": "Mẹ chồng lén hủy trung tâm ở cữ mẹ tôi đặt rồi ép tôi sinh thường đến chết; tôi trọng sinh về đúng ngày bà đi hủy, đặt cược xem bà có tham tiền của con trai không",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Cuộc gọi từ trung tâm ở cữ"
+    },
+    {
+      "title": "Ván cược: mẹ có tham tiền không"
+    },
+    {
+      "title": "Thẻ thưởng trống rỗng"
+    },
+    {
+      "title": "Tiệm xe của em rể"
+    },
+    {
+      "title": "Phòng khám và tiếng khóc của bà"
+    },
+    {
+      "title": "Luật sư Tống Nhược"
+    },
+    {
+      "title": "Cuộc xin lỗi muộn"
+    },
+    {
+      "title": "Tiếng khóc đầu tiên"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Mẹ chồng lén hủy trung tâm ở cữ mẹ tôi đặt|kiếp trước tôi không qua khỏi ca sinh|*lần này tôi đặt cược với chồng*"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Tôi đặt cược: mẹ anh có tham tiền không|thẻ thưởng chỉ còn hai trăm tệ|*em rể ngồi cười trong tiệm xe*"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Bác sĩ nói tôi phải mổ lấy thai|mẹ chồng khóc ăn vạ trước cả phòng khám|*các bà bầu khác đứng ra nói giúp tôi*"
+    }
+  ],
+  "thumbText": "TRỌNG SINH|*VẢ MẶT KẺ ÁC*|LẤY LẠI CÔNG LÝ|*TRẢ CẢ VỐN LẪN LÃI*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

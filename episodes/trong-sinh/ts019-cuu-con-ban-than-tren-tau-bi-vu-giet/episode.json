@@ -1,0 +1,69 @@
+{
+  "title": "Tôi cứu con của bạn thân trên tàu hỏa, rồi bị vu là ấn gãy xương sườn giết đứa bé, bị ném ra khỏi cửa sổ toa",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Một phút trước khi cô ta cầu cứu"
+    },
+    {
+      "title": "Chiêu quỳ gối"
+    },
+    {
+      "title": "Cái tát và đoạn video giả"
+    },
+    {
+      "title": "Xin tàu dừng ở Trấn Giang"
+    },
+    {
+      "title": "Hai xương sườn gãy từ trước"
+    },
+    {
+      "title": "Câu nói hắn không được biết"
+    },
+    {
+      "title": "Người chồng chặn ở cửa toa"
+    },
+    {
+      "title": "Kế hoạch của ba người"
+    },
+    {
+      "title": "Tiếng khóc thay tiếng rơi"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Tôi cứu con bạn thân trên tàu|nửa tiếng sau bị gọi là kẻ giết người|*lần này tôi lùi lại*"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Chồng tôi mở đoạn video giả|người đàn ông đẩy tôi ra cửa sổ|*cảnh sát tàu bước vào*"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Hộp sữa không có vân tay mẹ|bác sĩ phát hiện hai xương sườn gãy|*hắn lỡ miệng nói ra điều không ai biết*"
+    }
+  ],
+  "thumbText": "CỨU CON BẠN THÂN|*BỊ VU GIẾT NGƯỜI*|CHỒNG MỞ VIDEO GIẢ|*BẮT QUẢ TANG TRÊN TÀU*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

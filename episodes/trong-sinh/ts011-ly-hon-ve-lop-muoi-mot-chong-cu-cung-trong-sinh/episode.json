@@ -1,0 +1,72 @@
+{
+  "title": "Ly hôn xong chết cả hai, mở mắt tôi về lớp mười một và chồng cũ đứng trước bàn",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Một chữ được"
+    },
+    {
+      "title": "Căn nhà đã tắt đèn"
+    },
+    {
+      "title": "Hộp trái cây mỗi sáng"
+    },
+    {
+      "title": "Người dạy kèm"
+    },
+    {
+      "title": "Bài đăng lúc nửa đêm"
+    },
+    {
+      "title": "Cái bóng nghiêng"
+    },
+    {
+      "title": "Cuốn album da xám"
+    },
+    {
+      "title": "Hạng bốn trăm mười hai"
+    },
+    {
+      "title": "Sinh nhật mười bảy tuổi"
+    },
+    {
+      "title": "Lần này em nói thứ tự"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Ly hôn xong chết cả hai|Mở mắt thấy chồng cũ|đứng trước bàn"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Học thần xách túi thuốc đến cửa|bố giao anh làm gia sư|*Chi Linh ra mặt*"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Bài đăng lúc nửa đêm|cả trường bàn tán|*tôi xử trong một buổi trưa*"
+    }
+  ],
+  "thumbText": "Ly hôn xong|chết cả hai|Mở mắt thấy|*chồng cũ*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}

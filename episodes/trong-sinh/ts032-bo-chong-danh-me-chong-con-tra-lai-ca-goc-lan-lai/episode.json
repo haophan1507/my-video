@@ -1,0 +1,66 @@
+{
+  "title": "Hôm bố chồng đánh mẹ chồng ngay trong lúc bà đang bế con tôi, ông bắt chồng tôi 'thực tập' đánh vợ; kiếp trước tôi đã sống như thế đến chết, kiếp này tôi trả cả vốn lẫn lãi",
+  "footageTag": "",
+  "dim": 0.15,
+  "captionsSrc": "",
+  "voice": {
+    "provider": "minimax",
+    "model": "speech-2.8-hd",
+    "voiceId": "",
+    "language": "Vietnamese",
+    "speed": 1.2
+  },
+  "chapters": [
+    {
+      "title": "Cái tát và cú thực tập"
+    },
+    {
+      "title": "Cuốn sổ trong chiếc camera"
+    },
+    {
+      "title": "Tấm phiếu khám của mẹ chồng"
+    },
+    {
+      "title": "Tờ sao kê và cuộc gọi công an"
+    },
+    {
+      "title": "Mười ngày cho mẹ chồng thở"
+    },
+    {
+      "title": "Bàn của luật sư Hương Viện"
+    },
+    {
+      "title": "Bà Duy tìm đến"
+    },
+    {
+      "title": "Nồi canh sườn mới"
+    }
+  ],
+  "parts": [
+    {
+      "chapters": [
+        1,
+        2
+      ],
+      "hook": "Bố chồng tát mẹ chồng|bắt chồng tôi thực tập đánh vợ|*lần này tôi lấy điện thoại ra*"
+    },
+    {
+      "chapters": [
+        3,
+        4
+      ],
+      "hook": "Tờ sao kê ba mươi hai vạn|ông tát con trai trước mặt tôi|*tôi gọi công an ngay tại chỗ*"
+    },
+    {
+      "chapters": [
+        5
+      ],
+      "hook": "Công an đưa ông đi|bố chồng đột quỵ|*chồng quỳ xin tôi đừng ly hôn*"
+    }
+  ],
+  "thumbText": "BỐ BẮT CHỒNG|*THỰC TẬP ĐÁNH VỢ*|TÔI CẦM CUỐN SỔ|*TRẢ CẢ VỐN LẪN LÃI*",
+  "thumbTag": "Trọn bộ",
+  "thumbFocus": "50% 30%",
+  "thumbBg": null,
+  "introSec": 0
+}
