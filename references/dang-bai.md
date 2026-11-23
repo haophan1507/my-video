@@ -129,17 +129,27 @@ Nên đổi một biến mỗi phương án (ảnh hoặc chữ) để biết y�
 
 ## 4. Mô tả YouTube
 
+Công thức cho mọi tập (chuẩn từ 2026-11-24). Ghi vào `dang-bai.md` trong thư mục tập, hai mục "Mô tả YouTube" và "Câu hỏi ghim bình luận", để đọc và copy trực tiếp; không nhét chuỗi dài vào `episode.json`.
+
 ```
-<1–2 câu hook, không nêu kết: ~150 ký tự đầu hiện trước "xem thêm">
+🎧 Truyện ngắn audio <thể loại>: <1–2 câu hook, tổng ~130–165 ký tự, có từ khóa chính, không nêu kết>
 
-<dán out/chapters.txt của tập>
+<Tóm tắt 3–5 câu, tổng ~250–350 ký tự, câu ngắn: bối cảnh, nhân vật, biến cố mở đầu và 1–2 nút thắt; dừng trước cao trào, không tiết lộ kết>
 
-#truyenaudio #truyenngan #<thể loại> #<motif>
-<từ khóa tự nhiên: truyện audio, truyện ngắn, ngôn tình, vả mặt, hài hước...>
+<dán nguyên out/chapters.txt của tập>
+
+🔔 Đăng ký Quýt Nhỏ Audio để nghe truyện mới lúc 20 giờ 30 mỗi thứ Ba, Năm, Bảy hằng tuần và bật chuông thông báo để không bỏ lỡ tập nào nhé.
+
+🚫 Truyện do Quýt Nhỏ Audio tổng hợp và sáng tác, vui lòng không sao chép dưới mọi hình thức.
+
+🍊 #truyenaudio #truyennganaudio #quytnhoaudio #truyenngantrongsinh
 ```
 
-- Mô tả **riêng cho từng video**; chọn 1–2 từ khóa chính, đặt cả ở tiêu đề lẫn mô tả. Tối đa 5.000 ký tự; 3–5 hashtag; tag video gần như vô dụng.
+- Mô tả **riêng cho từng video**, viết sau khi đọc hết truyện; chọn 1–2 từ khóa chính, đặt cả ở tiêu đề lẫn mô tả. Tối đa 5.000 ký tự.
+- Hashtag: 3 bắt buộc `#truyenaudio #truyennganaudio #quytnhoaudio`, thêm 1 theo thể loại (`#truyenngantrongsinh` / `#truyenngantinhcam`) và tối đa 1 theo motif (`#truyennganmechong`, `#baothu`...). Tag video gần như vô dụng.
+- 150 ký tự đầu hiện trước "xem thêm": hook phải tự đứng một mình, đủ tò mò.
 - Chapters: dòng đầu `00:00`, ít nhất 3 mốc, mỗi chương ≥ 10 giây; đặt tên chương có từ khóa (nhân vật, sự kiện), đừng chỉ "Chương 3".
+- Câu hỏi ghim bình luận ghi ở mục thứ hai của `dang-bai.md`: bám đúng tình huống/lựa chọn đạo đức, gọi tên nhân vật, hỏi "nếu là bạn..." để kéo tranh luận; không để lộ kết.
 - Bản YouTube là video ngang dài, đăng như video thường. (Video dọc hoặc vuông từ 3 phút trở xuống mới được xếp vào Shorts.)
 
 ## 5. TikTok
