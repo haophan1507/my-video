@@ -6,6 +6,10 @@ Thiết lập đang dùng (tốc độ giọng, nhịp đổi cảnh, kiểu ch�
 
 ## 1. Soát văn bản TTS (bước 4)
 
+Bước 4 gồm hai phần, làm theo thứ tự. Gen giọng tốn tiền và khó sửa, nên mọi lỗi phải hết trước bước 5.
+
+### 4A. Máy soát
+
 ```bash
 node scripts/normalize-vi.mjs tc005          # chỉ báo cáo
 node scripts/normalize-vi.mjs tc005 --fix    # báo cáo + ghi đè tại chỗ
@@ -15,11 +19,58 @@ Mỗi chương chỉ có một file `chNN.tts.txt`, viết sẵn dạng máy đ�
 
 Xử lý tay mọi mục trong báo cáo, sửa thẳng ở `chNN.tts.txt` rồi chạy lại:
 - Từ có `f j w z` hoặc viết hoa toàn bộ (pinyin, tên ngoại, viết tắt) → âm Hán Việt hoặc viết theo cách đọc.
-- Câu trên 35 chữ → tách.
+- Câu trên 35 chữ → tách (thành các câu ngắn, không nối bằng dấu phẩy).
 - Ngoặc `()` `[]` → bỏ hoặc viết thành câu.
 - Chữ số còn sót.
 
 Báo cáo cũng in số ký tự (tính giá TTS) và phút ước tính.
+
+### 4B. Đọc soát toàn bộ
+
+Chạy trước khi đọc:
+
+```bash
+node scripts/soat-doc.mjs tc005
+```
+
+Script không sửa gì, chỉ in: danh sách tên riêng kèm số lần và chương xuất hiện (tên chỉ có 1–2 lần, hoặc hai tên cùng chữ cuối, thường là gõ sai hoặc một người gọi hai cách); chỗ nghi ngờ (hai dấu cách, từ lặp liền, thiếu dấu cách sau dấu câu, câu bắt đầu chữ thường, câu trùng giữa các chương, từ nặng mùi dịch); câu đầu và câu cuối từng chương. Câu chữ thường sau dấu hai chấm trong lời thoại là bình thường.
+
+Sau đó đọc **từ chương 1 đến chương cuối, từng chữ, một lượt liền** (không đọc nhảy cóc, không chỉ đọc chỗ máy báo). Đọc to hoặc đọc thầm với tốc độ nghe. Mỗi lượt đọc theo bảng dưới; gặp lỗi thì sửa ngay ở `chNN.tts.txt`.
+
+**Mạch chuyện**
+- [ ] Mỗi chương nối được với chương trước: không nhảy cảnh, không thiếu bước giải thích (ai đi đâu, vì sao biết).
+- [ ] Nhân quả khớp: bằng chứng người kể dùng đã được thu thập trước khi dùng; không có tình tiết "từ trên trời rơi xuống".
+- [ ] Mốc thời gian và số liệu nhất quán toàn tập: tuổi, số ngày, số tiền, tên nơi chốn, ai đang ở đâu, ai còn sống. Ghi ra giấy mọi con số và so lại cả tập.
+- [ ] Kiếp trước và kiếp này không mâu thuẫn; người kể chỉ biết điều người kể có thể biết.
+- [ ] Không nhân vật nào xuất hiện không giới thiệu, không biến mất không lời kết (kể cả nhân vật phụ đã nêu tên).
+- [ ] Hook mở chương 1 đúng với điều xảy ra trong tập; mỗi chương kết bằng cú treo hoặc câu hỏi chưa trả lời; chương cuối trả lời hết, có câu hỏi người xem và lời nhắc đăng ký kênh.
+- [ ] Chương đầu có câu chào kênh đúng chỗ (150–180 chữ đầu, sau xung đột đầu).
+- [ ] Kết hợp lý, không hứa mà không giải: hung thủ, tiền, nhà, quyền nuôi con đều có chốt.
+
+**Nhân vật và xưng hô**
+- [ ] Mỗi người một tên, một cách gọi cố định theo bảng trong `outline.md`; không lẫn tên giữa các chương (ví dụ tên cũ của bản đầu).
+- [ ] Xưng hô đúng quan hệ và đúng cảm xúc từng cảnh; người kể xưng "tôi" suốt tập.
+- [ ] Mọi câu thoại rõ ai nói, thoại dạng `Tên nói: lời` không ngoặc kép.
+
+**Chính tả và ngữ pháp**
+- [ ] Đúng dấu thanh, dấu mũ, `ch/tr`, `s/x`, `d/gi`, `l/n` (đối chiếu từ lạ); không dính chữ, không thừa chữ.
+- [ ] Không câu cụt, không câu hai chủ ngữ, không từ dùng sai nghĩa; câu nào đọc lên vấp thì viết lại.
+- [ ] Từ lặp liền (trừ từ láy), hai dấu cách, dấu câu thừa (script đã báo).
+- [ ] Tên người và địa danh viết hoa nhất quán; không còn pinyin, tên Trung nguyên bản, tiền kiểu Việt.
+
+**Giọng văn và nhịp nghe**
+- [ ] Câu ngắn, một ý một câu; đoạn văn 2–5 câu; không dồn ba bốn mệnh đề trong một câu.
+- [ ] Không văn mẫu dịch ("khoảnh khắc ấy", "một cách", "đồng chí", thành ngữ Hán lạ tai); không lặp một kiểu mở câu quá ba lần liền.
+- [ ] Không giải thích luật hay kỹ thuật thành đoạn dài; việc phức tạp nói bằng việc nhân vật làm.
+- [ ] Chương nào dài hơn 1.100 chữ hoặc ngắn hơn 700 chữ (`status.mjs` báo) thì cắt hoặc thêm cảnh, đừng độn câu.
+- [ ] Cảnh nặng (bạo lực, tự hại, trẻ nhỏ) đã làm nhẹ: kể hậu quả, không tả chi tiết.
+
+**Cuối cùng**
+- [ ] Chạy lại `normalize-vi.mjs` và `soat-doc.mjs`, báo cáo sạch.
+- [ ] Đồng bộ lại `outline.md`, `tap.md`, `episode.json` (tên chương, tiêu đề, hook phần TikTok, số chữ) nếu đã sửa nội dung.
+- [ ] Ghi vào nhật ký `tap.md`: ngày đọc soát, số lỗi mạch chuyện và lỗi chính tả đã sửa, chỗ còn nghi ngờ.
+
+Gặp lỗi mạch chuyện lớn (thiếu cảnh, mâu thuẫn mốc) thì quay lại bước 3 viết lại chương đó, không vá bằng một câu.
 
 ## 2. Giọng đọc (bước 5)
 

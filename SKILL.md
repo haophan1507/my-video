@@ -35,7 +35,7 @@ Khi người dùng nói "làm truyện số N", "tiếp tục tập X", "tập n
 | 1 | Chọn truyện | Mục Quyết định trong `tap.md` | Có truyện nguồn, thể loại, điểm ≥ 15/25 | Truyện nào | `truyen.md` 1–2 |
 | 2 | Dàn ý | `episodes/<thể-loại>/<mã>-*/outline.md` | 6–12 chương, mỗi chương có hook mở và cliffhanger; có bảng tên, chia phần TikTok, tổng chữ quanh 4.500–11.000 | Duyệt dàn ý, tên, tiêu đề | `truyen.md` 3–5; `dang-bai.md` 1 |
 | 3 | Viết chương | `chNN.tts.txt` (một file mỗi chương, viết sẵn dạng máy đọc được: số, tiền, viết tắt thành chữ) | Đủ chương, mỗi chương 700–1.100 chữ, qua bảng soát | Duyệt chương 1 trước khi viết tiếp | `van-phong.md` |
-| 4 | Soát TTS | Báo cáo của `normalize-vi.mjs` (sửa trực tiếp `chNN.tts.txt`) | Hết chữ số, ngoặc; đã xử lý tên ngoại, câu dài | — | `san-xuat.md` 1 |
+| 4 | Soát TTS và đọc soát | 4A báo cáo `normalize-vi.mjs` sạch; 4B báo cáo `soat-doc.mjs` và một lượt đọc toàn bộ từng chương (sửa trực tiếp `chNN.tts.txt`) | Hết chữ số, ngoặc, câu dài; đã đọc hết các chương theo bảng soát 4B (mạch chuyện, nhân vật, chính tả, giọng văn), sửa xong, `tap.md` ghi nhật ký | — | `san-xuat.md` 1 |
 | 5 | Giọng đọc | `episodes/<thể-loại>/<mã>-*/audio/chNN.mp3` | Mỗi chương một file, cùng giọng và tốc độ; đã nghe thử chương 1 | Dịch vụ, giọng, tốc độ | `san-xuat.md` 2 |
 | 6 | Footage | `public/footage/<tag>/<tag>-NN.mp4`, `sources.txt`, `manifest.json` (kho riêng từng máy, ngoài git) | Đủ clip, đã chuẩn hóa; clip YouTube/TikTok/nền tảng khác tải bằng `dl-video.mjs` (dự phòng: Claude in Chrome) | Chủ đề, duyệt danh sách clip trước khi tải | `edit-yeu-cau.md`, `san-xuat.md` 4 |
 | 7 | Dựng, render | `episode.json`; `out/` trong thư mục tập | Render xong, đã xem lướt đầu và cuối | Ảnh nhân vật và chữ ảnh bìa (duyệt danh sách ảnh trước khi tải), có teaser không | `edit-yeu-cau.md`, `san-xuat.md` 5 |
@@ -50,7 +50,8 @@ Chạy ở thư mục gốc, truyền mã tập ngắn (`tc005`). Chi tiết và
 ```bash
 node scripts/new-episode.mjs tc005 [...] | --all [--genre=tc]   # 1: mở tập (tap.md, episode.json, dòng ở stories/README.md)
 node scripts/names.mjs [--surnames]                  # 2: tên nhân vật đã dùng ở các tập, tránh đặt trùng
-node scripts/normalize-vi.mjs tc005 [--fix]           # 4: báo cáo chNN.tts.txt; --fix tự đổi số, tiền, viết tắt tại chỗ
+node scripts/normalize-vi.mjs tc005 [--fix]           # 4A: báo cáo chNN.tts.txt; --fix tự đổi số, tiền, viết tắt tại chỗ
+node scripts/soat-doc.mjs tc005                      # 4B: hỗ trợ đọc soát: tên riêng, lỗi hình thức, câu trùng, câu đầu/cuối chương
 node scripts/gen-voice.mjs tc005 [--dry-run]          # 5: GenMax; khóa trong .env, cài đặt giọng ở voice trong episode.json; chỉ gen chương đã đổi
 node scripts/dl-video.mjs <link> --name=craft-01 [--list]   # 6: tải video từ link nền tảng vào raw/ (API gendownload.com)
 node scripts/prep-footage.mjs raw cook [--start=giây] [--max=giây] [--crop=top|square]   # 6: chuẩn hóa clip vào public/footage/cook/ + manifest
