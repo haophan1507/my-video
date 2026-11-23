@@ -189,6 +189,8 @@ node scripts/render-episode.mjs tc005     # youtube.mp4, tiktok-NN.mp4, thumb.pn
 | `out/tiktok-NN-cover.png` | `TikTokCover` | 1080×1920; bìa phần (`--only=cover` để render riêng) |
 | `out/thumb.png` (+ `thumb-2.png`... từ `thumbAlt`) | `Thumbnail` | 1280×720 |
 
+**Theo dõi tiến độ (2026-11-23)**: render lâu thì chạy nền (Bash `run_in_background`) để xem trong Background tasks. Ở nền script in từng dòng, không ghi đè một dòng: `[giờ] bước n/N file %, đã … còn ~…` (mỗi 30 giây hoặc 5%), `xong <file>` sau mỗi việc, `HOÀN TẤT` ở cuối; đầu lượt in danh sách việc. Terminal thật vẫn hiện một dòng cập nhật tại chỗ. Muốn xem lại: đọc file output của task nền, lệnh `tail`.
+
 Thử nhanh một đoạn: `npx remotion render src/index.ts Episode .tmp/test.mp4 --props=episodes/<thể-loại>/<mã>-<slug>/episode.json --frames=0-300 --scale=0.5`.
 
 **Kiểm tra trước khi báo xong**: xem lướt đầu (vào thẳng footage, watermark), một chỗ chuyển chương, đoạn cuối; thời lượng khớp tổng audio; mỗi `tiktok-NN.mp4` bắt đầu đúng đầu chương. Xem một khung bất kỳ không cần mở video: `ffmpeg -ss 00:00:05 -i out/youtube.mp4 -frames:v 1 .tmp/khung.png` (hoặc `npx remotion still src/index.ts Episode .tmp/khung.png --frame=150 --props=...`). Ghi `--overwrite` nếu file đã có, để không xem nhầm ảnh cũ.
