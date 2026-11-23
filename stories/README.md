@@ -26,7 +26,7 @@ Hào môn và đời thường không phải thể loại riêng; chúng là mot
 - **Truyện gộp từ nhiều nguồn** (ví dụ `tc002`, gộp hai truyện L01): chỉ gộp khi thành một mạch liền (cùng nhân vật, nửa sau nối tiếp nửa trước); một mã, một file, các nguồn ghi ở dòng Nguồn. Không ghép hai truyện khác nhân vật vào một tập.
 - **Trạng thái chưa / đang / đã làm** không ghi tay: chạy `node scripts/stories.mjs` (lọc: `--todo`, `--doing`, `--done`, `--genre=tc`). Chưa làm = chưa có thư mục tập; đang làm = có tập, chưa xong 7 bước; đã làm = xong cả 7 bước.
 
-Trong thư mục tập: `tap.md`, `outline.md`, `episode.json`, `script/` (`chNN.tts.txt`), `audio/` (`chNN.mp3`), `out/` (`youtube.mp4`, `tiktok-NN.mp4`, `thumb.png`, `chapters.txt`). File Remotion tự sinh nằm ở `public/<mã>/`. Tài sản dùng chung cả kênh (câu chào) ở `channel/`; footage dùng chung ở `public/footage/<tag>/` (nguồn clip trong `sources.txt` cùng thư mục).
+Trong thư mục tập: `tap.md`, `outline.md`, `episode.json`, `dang-bai.md` (mô tả YouTube + câu hỏi bình luận, dạng xuống dòng để copy), `script/` (`chNN.tts.txt`), `audio/` (`chNN.mp3`), `out/` (`youtube.mp4`, `tiktok-NN.mp4`, `thumb.png`, `chapters.txt`). File Remotion tự sinh nằm ở `public/<mã>/`. Tài sản dùng chung cả kênh (câu chào) ở `channel/`; footage dùng chung ở `public/footage/<tag>/` (nguồn clip trong `sources.txt` cùng thư mục).
 
 ## Kho nguyên liệu
 

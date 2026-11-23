@@ -1,0 +1,23 @@
+# Đăng bài — tc030
+
+## Mô tả YouTube
+
+<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+
+🎧 Truyện ngắn audio tình cảm: Bạn thân tôi cướp bạn trai tôi ba lần. Mỗi lần cô ta khóc xin tha thứ, tôi đều tha, vì tài khoản tôi có thêm mười triệu tệ.
+
+Cung Tuyết Nghi, hai mươi hai tuổi, sinh viên năm cuối ở Tế Nam, có cô bạn thân Thái Mịch chuyên cướp bạn trai của mình. Lần nào bị cướp, tài khoản cô cũng có thêm mười triệu tệ từ một số lạ, kèm lời nhắn cứ sống như bình thường. Ngày lễ tình nhân, bạn trai mới Hạng Dật lái Maserati đến đón, và Mịch lại bắt đầu giở đúng chiêu cũ.
+
+🔔 Đăng ký Quýt Nhỏ Audio để nghe truyện mới lúc 20 giờ 30 mỗi thứ Ba, Năm, Bảy hằng tuần và bật chuông thông báo để không bỏ lỡ tập nào nhé.
+
+🚫 Truyện do Quýt Nhỏ Audio tổng hợp và sáng tác, vui lòng không sao chép dưới mọi hình thức.
+
+🍊 #truyenaudio #truyennganaudio #quytnhoaudio #truyenngantinhcam
+
+## Câu hỏi ghim bình luận
+
+Thái Mịch cướp bạn trai Cung Tuyết Nghi ba lần, lần nào cũng khóc lóc xin tha thứ. Nếu là bạn, bạn có tha thứ tiếp hay dừng lại từ lần đầu? Bạn từng có người bạn luôn thích giành đồ của mình chứ?
+
+## Việc còn lại
+
+- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.
