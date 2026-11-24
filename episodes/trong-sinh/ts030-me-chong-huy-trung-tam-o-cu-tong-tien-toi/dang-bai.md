@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Vừa mở mắt, trung tâm ở cữ báo mẹ chồng đang hủy phòng mẹ tôi đặt. Kiếp trước, chính cú hủy ấy đưa tôi lên bàn sinh rồi không xuống.
 
@@ -17,7 +17,3 @@ Ngôn Mộng Vân, hai mươi bảy tuổi, mang thai ba mươi chín tuần, s�
 ## Câu hỏi ghim bình luận
 
 Nếu là Ngôn Mộng Vân, bạn có dám đặt cược cả cuộc sinh nở của mình vào một ván cược với chồng, hay sẽ tìm cách khác để chặn mẹ chồng? Bạn thấy Bao Hâm đáng trách nhất ở điểm nào: tin mẹ tuyệt đối, hay đến lúc nhìn thấy sự thật vẫn chưa dám đòi lại tiền? Bạn có đồng ý rằng tha lỗi cho bà Mẫn Yên nhưng vẫn giữ nguyên ranh giới mới là cách sống đúng không?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

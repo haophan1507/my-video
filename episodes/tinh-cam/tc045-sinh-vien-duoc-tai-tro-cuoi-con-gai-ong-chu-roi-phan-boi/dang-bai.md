@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Ngày ba tôi bị đưa đi điều tra, chồng tôi bỏ mặc tôi, chạy đến đồn cứu mối tình đầu. Anh còn đưa cô ta về nhà, bảo tôi hết chỗ dựa.
 
@@ -17,7 +17,3 @@ Hà Vi Lan, con gái chủ tập đoàn dược Hà thị, lấy Trương Kỳ S
 ## Câu hỏi ghim bình luận
 
 Hà Vi Lan vẫn dùng tờ báo cáo của Kỳ Sinh để cứu ba, dù anh từng bỏ mặc cô đúng ngày ba bị bắt. Nếu là bạn, bạn có nhận sự giúp đỡ đó không, hay trả lại để giữ trọn lòng tự trọng?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

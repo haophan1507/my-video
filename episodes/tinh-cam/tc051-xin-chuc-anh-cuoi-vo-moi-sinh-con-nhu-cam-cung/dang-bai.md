@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Ngày ly hôn, Giản Ngưng cười chúc chồng cũ sinh con như màn nhỏ máu nhận thân, còn trong túi cô là tờ chẩn đoán ung thư ba tháng.
 
@@ -17,7 +17,3 @@ Giản Ngưng hai mươi chín tuổi, biên tập viên chuyên mục hài ở 
 ## Câu hỏi ghim bình luận
 
 Nếu là Giản Ngưng, bạn sẽ nói thật căn bệnh cho người từng làm mình tổn thương, hay chọn im lặng để không ai phải sống trong tội lỗi? Bạn nghĩ giấu đi như vậy là thương người hay là tự làm khổ mình?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

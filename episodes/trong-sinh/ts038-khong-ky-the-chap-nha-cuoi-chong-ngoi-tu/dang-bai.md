@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Mẹ chồng bưng bát thuốc an thần lúc bảy giờ hai mươi sáu, bảo Vân Nguyệt ký thế chấp căn hộ cứu bố chồng. Cô đã ghi sẵn lời bà.
 
@@ -17,7 +17,3 @@ Khuất Vân Nguyệt, ba mươi hai tuổi, làm kế toán, sống với chồ
 ## Câu hỏi ghim bình luận
 
 Nếu là Khuất Vân Nguyệt, bạn có uống bát thuốc mẹ chồng bưng đến không? Bạn nghĩ đâu là ranh giới giữa hiếu thảo và việc để người khác định đoạt tài sản của mình?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

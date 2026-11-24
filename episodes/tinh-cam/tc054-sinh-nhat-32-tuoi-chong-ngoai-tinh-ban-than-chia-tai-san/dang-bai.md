@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Về sớm mừng sinh nhật, tôi thấy tay chồng trên tay bạn thân, rồi đêm đó tra ra khoản vay một trăm hai mươi vạn mang chữ ký của tôi.
 
@@ -17,7 +17,3 @@ Mạnh Tử Hàm ba mươi hai tuổi, kiểm toán viên pháp chứng ở Thà
 ## Câu hỏi ghim bình luận
 
 Nếu là Mạnh Tử Hàm, bạn có chọn khép cửa, lặng lẽ cộng sổ rồi mới ra tay, hay sẽ đối chất với chồng ngay đêm nhìn thấy? Bạn có cho rằng bình tĩnh đến mức ấy là tỉnh táo, hay là quá lạnh lùng với chính mình?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

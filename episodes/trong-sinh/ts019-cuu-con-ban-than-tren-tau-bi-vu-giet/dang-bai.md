@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Trên chuyến tàu xanh, bạn thân quỳ van bác sĩ Thang Tố Vân cứu con, nhưng lại gào lên ngăn cô gọi bác sĩ thứ hai.
 
@@ -17,7 +17,3 @@ Thang Tố Vân, ba mươi mốt tuổi, bác sĩ khoa truyền nhiễm bệnh v
 ## Câu hỏi ghim bình luận
 
 Nếu là Thang Tố Vân, khi người bạn thân quỳ xuống trước cả toa tàu van cứu con, bạn có dám lùi lại như cô ấy không? Bạn nghĩ một người mẹ thật sự sẽ phản ứng thế nào khi có bác sĩ thứ hai bước vào toa?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

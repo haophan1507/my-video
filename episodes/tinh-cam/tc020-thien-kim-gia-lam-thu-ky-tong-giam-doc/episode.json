@@ -1,6 +1,6 @@
 {
   "title": "Thiên kim giả bị đuổi khỏi hào môn, ngày đầu đi làm tôi đã ngồi lên ghế tổng giám đốc xoay vòng",
-  "footageTag": "",
+  "footageTag": "scene",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,28 +12,36 @@
   },
   "chapters": [
     {
-      "title": "Ưu thế của tôi là từng làm tổng giám đốc"
+      "title": "Ưu thế của tôi là từng làm tổng giám đốc",
+      "startSec": 3.99
     },
     {
-      "title": "Ghế da, xe đỏ và ông tổng xin học"
+      "title": "Ghế da, xe đỏ và ông tổng xin học",
+      "startSec": 171.84
     },
     {
-      "title": "Phá băng bằng mặt nạ dưỡng da"
+      "title": "Phá băng bằng mặt nạ dưỡng da",
+      "startSec": 343.37
     },
     {
-      "title": "Ngày tôi bị đuổi khỏi nhà họ Đoàn"
+      "title": "Ngày tôi bị đuổi khỏi nhà họ Đoàn",
+      "startSec": 567.3
     },
     {
-      "title": "Sinh nhật của hai thiên kim"
+      "title": "Sinh nhật của hai thiên kim",
+      "startSec": 756.27
     },
     {
-      "title": "Ba mươi sáu cuốn truyện tổng tài"
+      "title": "Ba mươi sáu cuốn truyện tổng tài",
+      "startSec": 971.07
     },
     {
-      "title": "Que thử thai và hôn lễ hỏng"
+      "title": "Que thử thai và hôn lễ hỏng",
+      "startSec": 1197.36
     },
     {
-      "title": "Thép rơi ở công trường, và chiếc nhẫn Mắt Chân Ái"
+      "title": "Thép rơi ở công trường, và chiếc nhẫn Mắt Chân Ái",
+      "startSec": 1420.1
     }
   ],
   "parts": [
@@ -60,7 +68,10 @@
   ],
   "thumbText": "Thiên kim giả|ngồi *ghế tổng*|giám đốc|ngày đầu đi làm",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc020/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 2,
+  "thumbFace": "49% 24%",
+  "thumbZoom": 0.93,
+  "audioSrc": "tc020/audio.mp3"
 }

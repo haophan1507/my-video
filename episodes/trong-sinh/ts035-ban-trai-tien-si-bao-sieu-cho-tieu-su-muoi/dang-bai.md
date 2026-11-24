@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Ba năm làm dữ liệu cho bạn trai tiến sĩ, Chi Lan chết vì xuất huyết dạ dày. Đúng hôm Cam Viễn giới thiệu tiểu sư muội, cô chia tay.
 
@@ -17,7 +17,3 @@ Bình Chi Lan, hai mươi bốn tuổi, học viên thạc sĩ, ba năm làm h�
 ## Câu hỏi ghim bình luận
 
 Nếu là Bình Chi Lan, bạn có chia tay ngay trước mặt cả phòng thí nghiệm như cô ấy không? Bạn nghĩ ba năm làm hết dữ liệu và luận văn cho người yêu có nên được tính là vốn góp?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

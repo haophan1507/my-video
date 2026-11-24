@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Yêu nhau tám năm, Khúc Ngọc Tịch chỉ đòi tám vạn tám sính lễ, bạn trai mắng cô hám tiền, mẹ anh ta hâm đĩa cải thừa đãi khách.
 
@@ -17,7 +17,3 @@ Khúc Ngọc Tịch hai mươi sáu tuổi, làm phòng pháp chế ở Hải Th
 ## Câu hỏi ghim bình luận
 
 Nếu là Khúc Ngọc Tịch, bạn có giấu chuyện nhà mình có mỏ vàng suốt tám năm như cô ấy, hay nói rõ từ đầu? Theo bạn, một người yêu mình tám năm mà vẫn hỏi mình đáng giá bao nhiêu thì có nên cho thêm một cơ hội?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Vừa rời viện sau ca mổ, Ngôn Sơ đến nhà cũ họ Khưu và nghe qua khe cửa câu chồng nói: mất một đứa, không chết ai.
 
@@ -17,7 +17,3 @@ Ngôn Sơ hai mươi tám tuổi, nhà thiết kế, làm vợ chủ tịch Khư
 ## Câu hỏi ghim bình luận
 
 Khưu Trạch không hỏi vợ mình một câu nào, lại gọi cho Thiều Uyển lúc ba giờ sáng để hỏi sảy thai có đau không. Bạn thấy đó là hối hận muộn màng hay sự ích kỷ được ngụy trang? Nếu là Ngôn Sơ, bạn có coi một câu hỏi như thế là đủ để níu lại không?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

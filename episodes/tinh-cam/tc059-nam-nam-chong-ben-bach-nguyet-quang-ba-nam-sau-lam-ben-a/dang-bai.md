@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Sinh nhật hai mươi tám tuổi, tôi đứng trước khách sạn suốt đêm, tay cầm đơn ly hôn, chờ người chồng đang đỡ người yêu cũ bị trật chân.
 
@@ -17,7 +17,3 @@ Ngụy Ngữ Tường, hai mươi tám tuổi, kiến trúc sư, từng bỏ su�
 ## Câu hỏi ghim bình luận
 
 Nếu là Ngụy Ngữ Tường, bạn có đưa đơn ly hôn ngay đêm đứng trước khách sạn, hay cho Lưu Diên một cơ hội giải thích? Bạn nghĩ ơn cứu mạng có nên trói một cuộc hôn nhân không?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

@@ -2,20 +2,11 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag, dán vào phần mô tả video. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Chăm nhà chồng liệt giường ba mươi năm, chết chỉ nhận câu “không xứng”. Sống lại đêm tân hôn 1986, tôi đặt đơn ly hôn lên mâm cơm.
 
 Quế Chi sống lại đúng đêm tân hôn năm 1986, sau ba mươi năm chăm hai ông bà chồng liệt giường và chết đi chỉ nhận câu “không xứng”. Sáng hôm sau, cô đặt đơn ly hôn lên mâm cơm, rời nhà họ Cốc với đúng mười tệ. Từ đó, ngày bán hạt dưa trước rạp chiếu bóng, đêm ôm sách luyện thi đại học.
-
-00:00 Đêm tân hôn sống lại
-02:42 Câu ly hôn ba mươi năm
-05:25 Cái thùng cơm mười giờ sáng
-08:13 Gánh hàng trước rạp chiếu bóng
-11:25 Tiệm Kim Phượng và người đeo kính
-14:53 Hoa Hồng Đỏ khai trương
-17:48 Phân trước cửa tiệm
-20:49 Kẻ như anh, xứng sao?
 
 🔔 Đăng ký Quýt Nhỏ Audio để nghe truyện mới lúc 20 giờ 30 mỗi thứ Ba, Năm, Bảy hằng tuần và bật chuông thông báo để không bỏ lỡ tập nào nhé.
 

@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Ngày chồng tháo nhẫn ra sân bay đón mối tình đầu, Viên Sơ ngồi dưới mưa trước cổng bệnh viện, tay cầm giấy báo có thai ba tuần.
 
@@ -17,7 +17,3 @@ Viên Sơ mồ côi mẹ năm mười sáu tuổi, ở nhờ nhà Thường Dự
 ## Câu hỏi ghim bình luận
 
 Nếu là Viên Sơ, khi cầm tờ giấy báo có thai ba tuần trong tay, bạn có nói ngay cho Thường Dự biết, hay giữ kín như cô ấy? Theo bạn, dùng đứa con để giữ chân một người đàn ông là ích kỷ hay là cách duy nhất để cứu một gia đình?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Bạn trai giả nghèo thử lòng Lâm Tịch Dao ba năm, gặp lại cô quỳ diễn nha hoàn, anh đứng trên cao buông một câu: cô sẽ hối hận.
 
@@ -17,7 +17,3 @@ Lâm Tịch Dao, diễn viên vai phụ, tin Tăng Hạo là nhà văn nghèo su
 ## Câu hỏi ghim bình luận
 
 Nếu là Lâm Tịch Dao, khi phát hiện bạn trai giả nghèo thử lòng mình suốt ba năm, bạn có chia tay trong im lặng như cô ấy, hay vạch trần anh ta trước tất cả? Theo bạn, một người đem tình cảm ra đặt cược thì có bao giờ thật lòng?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

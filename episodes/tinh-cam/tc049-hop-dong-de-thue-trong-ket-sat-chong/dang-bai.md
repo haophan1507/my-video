@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Ba năm làm vợ hợp đồng của chủ tịch Cốc thị, Sầm Trúc mở két sắt và thấy hợp đồng đẻ thuê năm triệu tệ, bên B là tên mình.
 
@@ -17,7 +17,3 @@ Sầm Trúc hai mươi bảy tuổi, chủ tiệm cà phê nhỏ ở phố Hoa L
 ## Câu hỏi ghim bình luận
 
 Nếu là Sầm Trúc, phát hiện chồng giấu hợp đồng đẻ thuê trong két sắt, bạn sẽ chất vấn ngay hay lặng lẽ đi tìm sự thật? Bạn có tin một cuộc hôn nhân bắt đầu bằng hợp đồng vẫn có thể thành thật?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

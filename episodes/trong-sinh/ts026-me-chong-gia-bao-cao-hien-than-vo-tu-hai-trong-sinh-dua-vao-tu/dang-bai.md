@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Kiếp trước mẹ chồng làm giả báo cáo hợp mô, ép tôi hiến thận cho em chồng rồi đổ tội cho tôi. Kiếp này tôi đi lấy bản gốc trước.
 
@@ -17,7 +17,3 @@ Cảnh Hy, hai mươi chín tuổi, kế toán ở Thượng Hải, chết trong
 ## Câu hỏi ghim bình luận
 
 Nếu là Cảnh Hy, bạn có tha cho mẹ chồng làm giả báo cáo hợp mô để lấy thận của mình, hay để pháp luật xử lý đến cùng? Bạn có đồng ý với cách cô ấy đáp trả bằng chứng cứ thay vì im lặng cho qua? Bạn đã từng gặp chuyện người thân đòi mình hy sinh vì "cả nhà" chưa?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

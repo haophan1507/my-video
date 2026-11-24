@@ -1,6 +1,6 @@
 {
   "title": "Ngày chồng tháo nhẫn đi đón bạch nguyệt quang, tôi cầm tờ giấy báo có thai ba tuần",
-  "footageTag": "",
+  "footageTag": "acrylic",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,34 +12,44 @@
   },
   "chapters": [
     {
-      "title": "Tờ giấy báo dưới mưa"
+      "title": "Tờ giấy báo dưới mưa",
+      "startSec": 3.99
     },
     {
-      "title": "Cô em gái ngoan nhất thế giới"
+      "title": "Cô em gái ngoan nhất thế giới",
+      "startSec": 164.45
     },
     {
-      "title": "Tin nhắn Em đợi anh"
+      "title": "Tin nhắn Em đợi anh",
+      "startSec": 325.77
     },
     {
-      "title": "Bài toán không có đáp án"
+      "title": "Bài toán không có đáp án",
+      "startSec": 479.15
     },
     {
-      "title": "Thành Đô không có biển"
+      "title": "Thành Đô không có biển",
+      "startSec": 671.87
     },
     {
-      "title": "Tinh dầu chống rạn"
+      "title": "Tinh dầu chống rạn",
+      "startSec": 854.73
     },
     {
-      "title": "Cô ta khóc rất đẹp"
+      "title": "Cô ta khóc rất đẹp",
+      "startSec": 1058.53
     },
     {
-      "title": "Bát canh nhạt"
+      "title": "Bát canh nhạt",
+      "startSec": 1242.98
     },
     {
-      "title": "Ba thứ trong tập hồ sơ"
+      "title": "Ba thứ trong tập hồ sơ",
+      "startSec": 1425.16
     },
     {
-      "title": "Căn hộ nhìn ra biển"
+      "title": "Căn hộ nhìn ra biển",
+      "startSec": 1621.72
     }
   ],
   "parts": [
@@ -67,7 +77,10 @@
   ],
   "thumbText": "Chồng tháo nhẫn|đón *người cũ*|tôi cầm giấy|*có thai*",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc013/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 11,
+  "thumbFace": "54% 34%",
+  "thumbZoom": 0.76,
+  "audioSrc": "tc013/audio.mp3"
 }

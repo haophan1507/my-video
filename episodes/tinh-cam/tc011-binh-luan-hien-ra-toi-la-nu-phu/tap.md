@@ -19,8 +19,8 @@
 | Bối cảnh | Trung Quốc hiện đại: Thiên Tân; tập đoàn Trác thị, Thịnh thị, Ngân Sơn (bên mời thầu), Hằng Đạt (đối thủ); tiền là tệ; không ghi năm bằng số |
 | Độ dài: số chương, phút; cách đủ độ dài | 11 chương, ~9.590 chữ, ~53 phút. Bỏ hết cảnh nóng của nguồn; thêm vòng nhân viên cũ giúp trong im lặng (ch.5), thí nghiệm điều kiện kích hoạt chữ và chồng nói chậm khi tôi ghi âm (ch.6), bữa cơm với bạn chồng và lý do chồng sợ làm cha (ch.7), phân tích đối thủ và câu hỏi tám mươi phần trăm (ch.8); ngoại truyện nguồn thành ch.11 do chồng kể lại; cú đảo Nhạc Vi cũng biết kịch bản (ch.10) |
 | Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5–6 (~50% chữ, dừng cuối ch.6); chi tiết outline.md |
-| Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
-| Footage: chủ đề, nguồn, tag | |
+| Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | GenMax minimax speech-2.8-hd, giọng d99082f8 (như tc001–tc008), tốc độ 1,2 |
+| Footage: chủ đề, nguồn, tag | `acrylic`, footageOffset 6: vào ở clip acrylic-07, khác điểm vào của các tập khác cùng tag |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
 | Teaser TikTok 60–90 giây | |
 
@@ -30,12 +30,15 @@
 - [x] 2. Dàn ý: `outline.md`
 - [x] 3. Viết chương: `script/chNN.tts.txt`
 - [x] 4. Soát TTS: báo cáo `normalize-vi.mjs` sạch
-- [ ] 5. Giọng: `audio/chNN.mp3`
-- [ ] 6. Footage: `public/footage/<tag>/`
-- [ ] 7. Render: `out/`
+- [x] 5. Giọng: `audio/chNN.mp3`
+- [x] 6. Footage: `public/footage/<tag>/`
+- [x] 7. Render: `out/`
 
 ## Nhật ký
 
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 11 chương, ~9.590 chữ, ~53 phút; dàn ý và chương chưa duyệt.
 - 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5–6; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.
+- 2026-11-24: chọn footage `acrylic` offset 6; gen giọng, build-audio, render YouTube và TikTok (chưa bìa) chạy qua đêm.
+- 2026-11-24: thêm ảnh nhân vật bìa (`public/tc011/thumb-bg.jpg`), render thumb.png; bìa TikTok render tự động sau build-audio.
+- 2026-11-24: render xong YouTube, 3 phần TikTok, bìa phần và thumb; đã xem khung đầu, cuối; chờ đăng.

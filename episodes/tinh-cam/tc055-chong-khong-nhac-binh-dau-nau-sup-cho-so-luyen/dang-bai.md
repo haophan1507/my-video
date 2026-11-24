@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Ba năm chồng tôi không rửa nổi một cái bát, vậy mà anh hầm súp hai tiếng cho mối tình đầu, và tôi ngồi viết bảng quyết toán hôn nhân.
 
@@ -17,7 +17,3 @@ Khâu Hiểu Âm hai mươi chín tuổi, từng là kế toán trưởng ở H�
 ## Câu hỏi ghim bình luận
 
 Nếu là Khâu Hiểu Âm, bạn có viết bảng quyết toán ba năm hôn nhân rồi đưa chồng ký đơn ngay hôm sau, hay sẽ cho anh ta một cơ hội để sửa? Bạn có đồng ý rằng một nồi súp cho người cũ đủ để kết thúc ba năm, hay điều đáng kể là ba năm trước đó?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

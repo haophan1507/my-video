@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Sinh nhật mười lăm tuổi, em trai nằm vạ đòi cắt bánh trước, bố mẹ đội vương miện của tôi lên đầu nó. Tôi ném cả bánh vào mặt nó.
 
@@ -17,7 +17,3 @@ Dịch Hân, mười lăm tuổi, sống lại đúng bữa tiệc sinh nhật m
 ## Câu hỏi ghim bình luận
 
 Nếu là bạn, trong bữa tiệc sinh nhật ấy, bạn có ném cả chiếc bánh vào mặt em trai như Dịch Hân không? Bạn nghĩ lỗi lớn hơn nằm ở đứa em mười hai tuổi được nuông chiều hay ở bố mẹ đã luôn bắt chị nhường?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

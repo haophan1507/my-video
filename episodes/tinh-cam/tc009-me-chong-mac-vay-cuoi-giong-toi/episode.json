@@ -1,6 +1,6 @@
 {
   "title": "Mẹ chồng mặc váy cưới giống hệt tôi, tôi tỉnh dậy thành mẹ đẻ của bà",
-  "footageTag": "",
+  "footageTag": "acrylic",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,34 +12,44 @@
   },
   "chapters": [
     {
-      "title": "Hai chiếc váy cưới"
+      "title": "Hai chiếc váy cưới",
+      "startSec": 3.99
     },
     {
-      "title": "Tôi thành bà ngoại của chồng"
+      "title": "Tôi thành bà ngoại của chồng",
+      "startSec": 200.06
     },
     {
-      "title": "Bà nội và bà ngoại"
+      "title": "Bà nội và bà ngoại",
+      "startSec": 358.06
     },
     {
-      "title": "Năm bài thơ ở cổng trường"
+      "title": "Năm bài thơ ở cổng trường",
+      "startSec": 553.41
     },
     {
-      "title": "Thầy hiệu trưởng và thằng cháu"
+      "title": "Thầy hiệu trưởng và thằng cháu",
+      "startSec": 777.44
     },
     {
-      "title": "Mẫn Có Bệnh"
+      "title": "Mẫn Có Bệnh",
+      "startSec": 954.12
     },
     {
-      "title": "Hiếu với ai"
+      "title": "Hiếu với ai",
+      "startSec": 1177.55
     },
     {
-      "title": "Mảnh chai trên cổ"
+      "title": "Mảnh chai trên cổ",
+      "startSec": 1370.82
     },
     {
-      "title": "Đám cưới thứ hai"
+      "title": "Đám cưới thứ hai",
+      "startSec": 1576.61
     },
     {
-      "title": "Buổi tổng duyệt"
+      "title": "Buổi tổng duyệt",
+      "startSec": 1777.1
     }
   ],
   "parts": [
@@ -66,7 +76,10 @@
   ],
   "thumbText": "Mẹ chồng mặc|*váy cưới*|giống hệt tôi",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc009/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 0,
+  "thumbFace": "52% 39%",
+  "audioSrc": "tc009/audio.mp3",
+  "thumbZoom": 0.62
 }

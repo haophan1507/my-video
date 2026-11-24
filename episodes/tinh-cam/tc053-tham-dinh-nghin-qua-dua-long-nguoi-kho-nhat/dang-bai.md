@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Chị Oanh mang ba quả dưa tám trăm tệ đến nhờ tôi giám định chồng, và người nhận khoản ba vạn sáu nghìn là bạn thân cũ của tôi.
 
@@ -17,7 +17,3 @@ Mục Lê Âm ở Hải Thành làm thợ giám định dưa cho những ngườ
 ## Câu hỏi ghim bình luận
 
 Nếu là Lê Âm, bạn có nhận vụ của chị Oanh khi biết người bị điều tra là bạn thân cũ, hay sẽ nói thẳng để chị tìm người khác? Bạn có cho rằng im lặng ba năm của Lê Âm với Cổ Ngưng Tri là một hình phạt đúng, hay cũng là một cách làm người kia đau?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

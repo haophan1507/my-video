@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Ở cữ ngày thứ 26, mẹ chồng ép tôi ăn toàn gừng, chồng dịu dàng khuyên chịu khó. Kiếp trước, bát gừng ấy dẫn tôi ra đường ray.
 
@@ -17,7 +17,3 @@ Thôi Tịnh Nguyệt, hai mươi tám tuổi, chủ một công ty thương m�
 ## Câu hỏi ghim bình luận
 
 Nếu là Thôi Tịnh Nguyệt, khi mẹ chồng ép ăn món mình dị ứng và Phùng Diễn biết rõ nhưng vẫn im lặng, bạn sẽ nói thẳng ngay trước mặt cả hai hay nhịn cho êm chuyện? Bạn có đồng ý rằng sự dịu dàng của một người biết mình đang nhìn bạn chịu đau còn đáng sợ hơn cả bát gừng không? Bạn đã từng ở trong một gia đình mà "chịu khó một chút" bị dùng như câu cửa miệng chưa?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

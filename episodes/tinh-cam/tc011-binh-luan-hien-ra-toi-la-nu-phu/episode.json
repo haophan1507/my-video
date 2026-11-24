@@ -1,6 +1,6 @@
 {
   "title": "Trước mắt tôi hiện chữ: nữ phụ sắp sảy thai, bị chồng đuổi nhường chỗ nữ chính",
-  "footageTag": "",
+  "footageTag": "acrylic",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,37 +12,48 @@
   },
   "chapters": [
     {
-      "title": "Hàng chữ bay ngang mắt"
+      "title": "Hàng chữ bay ngang mắt",
+      "startSec": 3.99
     },
     {
-      "title": "Bác sĩ Doãn"
+      "title": "Bác sĩ Doãn",
+      "startSec": 159.39
     },
     {
-      "title": "Giả vờ ngủ"
+      "title": "Giả vờ ngủ",
+      "startSec": 307.33
     },
     {
-      "title": "Con của anh hay của hắn"
+      "title": "Con của anh hay của hắn",
+      "startSec": 468.27
     },
     {
-      "title": "Dự án Ngân Sơn"
+      "title": "Dự án Ngân Sơn",
+      "startSec": 653.39
     },
     {
-      "title": "Bàn tay vàng"
+      "title": "Bàn tay vàng",
+      "startSec": 842.08
     },
     {
-      "title": "Bữa cơm với Vu Khiêm"
+      "title": "Bữa cơm với Vu Khiêm",
+      "startSec": 1004.93
     },
     {
-      "title": "Câu hỏi tám mươi phần trăm"
+      "title": "Câu hỏi tám mươi phần trăm",
+      "startSec": 1171.65
     },
     {
-      "title": "Người cũ trong cơn mưa"
+      "title": "Người cũ trong cơn mưa",
+      "startSec": 1350.08
     },
     {
-      "title": "Chiếc bánh trứng caramel"
+      "title": "Chiếc bánh trứng caramel",
+      "startSec": 1545.09
     },
     {
-      "title": "Phần anh chưa kể"
+      "title": "Phần anh chưa kể",
+      "startSec": 1769.43
     }
   ],
   "parts": [
@@ -70,7 +81,10 @@
   ],
   "thumbText": "Chữ lạ báo tôi|*sắp sảy thai*|bị chồng đuổi|nhường nữ chính",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc011/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 6,
+  "thumbFace": "55% 37%",
+  "thumbZoom": 0.66,
+  "audioSrc": "tc011/audio.mp3"
 }

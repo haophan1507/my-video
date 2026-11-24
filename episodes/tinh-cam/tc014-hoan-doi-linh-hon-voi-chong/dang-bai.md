@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Vừa dứt câu ly hôn bên hồ bơi, Dương Nhược Hi tỉnh dậy trong thân xác chồng, còn chồng cô bị mẹ chồng lôi dậy nấu bữa sáng.
 
@@ -17,7 +17,3 @@ Dương Nhược Hi lấy Giản Hoài Châu, thanh mai trúc mã, sống chung 
 ## Câu hỏi ghim bình luận
 
 Nếu là Dương Nhược Hi, bạn có nhân lúc đang mang thân xác chồng mà đuổi mẹ chồng và cô em họ ra khỏi nhà, hay đợi đổi lại rồi mới tính? Theo bạn, một người chỉ hiểu nỗi khổ của vợ sau khi được sống trong thân xác cô ấy thì có đáng được tha thứ?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

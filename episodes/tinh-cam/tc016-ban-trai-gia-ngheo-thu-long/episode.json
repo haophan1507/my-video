@@ -1,6 +1,6 @@
 {
   "title": "Bạn trai cũ giả nghèo thử lòng tôi ba năm, gặp lại tôi quỳ dưới đất, anh ta là nhà đầu tư",
-  "footageTag": "",
+  "footageTag": "acrylic",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,34 +12,44 @@
   },
   "chapters": [
     {
-      "title": "Quỳ dưới đất chờ quay"
+      "title": "Quỳ dưới đất chờ quay",
+      "startSec": 3.99
     },
     {
-      "title": "Chiếc điện thoại thứ hai"
+      "title": "Chiếc điện thoại thứ hai",
+      "startSec": 161.65
     },
     {
-      "title": "Học trò khó nhằn"
+      "title": "Học trò khó nhằn",
+      "startSec": 348.52
     },
     {
-      "title": "Nha hoàn quỳ, nhà đầu tư đứng"
+      "title": "Nha hoàn quỳ, nhà đầu tư đứng",
+      "startSec": 507.97
     },
     {
-      "title": "Bảy mươi hai tấm ảnh chụp màn hình"
+      "title": "Bảy mươi hai tấm ảnh chụp màn hình",
+      "startSec": 688.69
     },
     {
-      "title": "Lời xin lỗi có kèm điều kiện"
+      "title": "Lời xin lỗi có kèm điều kiện",
+      "startSec": 908.05
     },
     {
-      "title": "Quản lý trẻ tuổi và bảo vật trấn đoàn"
+      "title": "Quản lý trẻ tuổi và bảo vật trấn đoàn",
+      "startSec": 1084.21
     },
     {
-      "title": "Dư luận chỉ đứng về phía người mạnh hơn"
+      "title": "Dư luận chỉ đứng về phía người mạnh hơn",
+      "startSec": 1300.48
     },
     {
-      "title": "Tình yêu gửi từ khắp thế giới"
+      "title": "Tình yêu gửi từ khắp thế giới",
+      "startSec": 1501.76
     },
     {
-      "title": "Tin báo ở sân bay"
+      "title": "Tin báo ở sân bay",
+      "startSec": 1667.6
     }
   ],
   "parts": [
@@ -67,7 +77,11 @@
   ],
   "thumbText": "Bạn trai|*giả nghèo*|thử lòng tôi|ba năm",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc016/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 16,
+  "thumbFace": "46% 32%",
+  "thumbZoom": 1.9,
+  "coverZoom": 0.9,
+  "audioSrc": "tc016/audio.mp3"
 }

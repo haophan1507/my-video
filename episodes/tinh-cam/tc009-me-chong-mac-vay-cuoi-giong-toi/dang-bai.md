@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Mẹ chồng mặc váy cưới y hệt tôi, dắt Gia Hưng trao cho tôi trên sân khấu. Rồi anh xô tôi ngã, tôi mở mắt thành mẹ đẻ của bà.
 
@@ -17,7 +17,3 @@ Giang Thư, hai mươi tám tuổi, giáo viên dạy văn trường Nhất Trun
 ## Câu hỏi ghim bình luận
 
 Nếu là bạn, ngay lúc mẹ chồng mặc váy cưới giống hệt mình bước lên sân khấu, bạn sẽ bỏ đám cưới ngay hay nán lại xem Gia Hưng nói gì? Bạn có tin một người đàn ông hiền lành ba năm có thể đổi ý chỉ vì một câu của mẹ không?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

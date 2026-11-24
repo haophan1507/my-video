@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Cưới người tôi thầm thương chín năm, đêm tân hôn anh gọi tôi là cô rồi dọn sang phòng đọc sách. Căn hộ lại đúng từng thứ tôi thích.
 
@@ -17,7 +17,3 @@ Lâm Noãn, hai mươi sáu tuổi, biên tập sách thiếu nhi, đã thầm t
 ## Câu hỏi ghim bình luận
 
 Nếu là Lâm Noãn, bạn có dám hỏi thẳng Hoàn Diên Sách vì sao anh chia phòng ngay đêm tân hôn, hay sẽ im lặng chờ như cô ấy? Bạn đã từng chờ một lời nói bao lâu?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

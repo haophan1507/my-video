@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Kỷ niệm ba năm cưới, mẹ chồng kéo vali đến đòi tôi hai mươi tám vạn tám cho em chồng, còn chồng tôi ngồi bóc tôm cho em gái.
 
@@ -17,7 +17,3 @@
 ## Câu hỏi ghim bình luận
 
 Nếu là bạn, trong đêm kỷ niệm ba năm cưới đó, bạn sẽ chuyển hai mươi tám vạn tám cho em chồng như mẹ chồng đòi, hay mở cuốn sổ bìa xanh ra đọc trước? Bạn có nghĩ một người vợ ghi sổ rõ ràng như Đỗ Thanh Hòa là tính toán không?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Đêm kỷ niệm ba năm cưới, chồng bỏ mặc bàn tiệc nguội, tôi tìm thấy sợi tóc nâu quăn trên cổ áo anh ta.
 
@@ -17,7 +17,3 @@ Tề Diệu An hai mươi sáu tuổi, cựu diễn viên vô danh, làm bình h
 ## Câu hỏi ghim bình luận
 
 Tề Diệu An biết chồng ngoại tình mà vẫn cười, vẫn nấu canh ngọt mỗi ngày và chờ thời. Nếu là bạn, bạn chọn ly hôn ngay để giữ thể diện, hay nhẫn lại để lấy phần mình cho là xứng đáng? Bạn nghĩ im lặng như thế là khôn ngoan hay tàn nhẫn?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

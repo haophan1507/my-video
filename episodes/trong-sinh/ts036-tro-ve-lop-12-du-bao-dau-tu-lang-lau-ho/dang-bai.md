@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Trưa hè ba mươi tám độ, Ung Đức Thanh từ chối thư tỏ tình của Chi Ninh trước cả lớp. Cô cười, đặt trước tài sản vài tỷ của anh.
 
@@ -17,7 +17,3 @@ Tăng Chi Ninh, học sinh lớp mười hai, thầm thích Ung Đức Thanh, ho
 ## Câu hỏi ghim bình luận
 
 Nếu là Tăng Chi Ninh, bạn có dám bỏ ba vạn tệ tiết kiệm để đầu tư vào người vừa từ chối mình trước cả lớp không? Bạn nghĩ tình cảm và hợp đồng có nên tách riêng như cô ấy đã làm?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

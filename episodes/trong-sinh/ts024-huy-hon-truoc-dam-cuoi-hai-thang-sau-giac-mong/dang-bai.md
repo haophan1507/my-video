@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Kiếp trước hôn phu trói tay, đổ thuốc ngủ vào miệng tôi, hại chết ba mẹ tôi. Mở mắt, tôi về hai tháng trước cưới, tự tay hủy hôn.
 
@@ -17,7 +17,3 @@ Quản Thiên Tầm, hai mươi sáu tuổi, kỹ sư Quản thị ở Hải Th�
 ## Câu hỏi ghim bình luận
 
 Nếu là Quản Thiên Tầm, bạn có hủy hôn công khai trước ba trăm khách như cô ấy, hay lặng lẽ rút lui rồi tính chuyện khác? Bạn có đồng ý với cách cô ấy đẩy cha con họ Nhiễm vào thế phải nhận nhau trước mặt thiên hạ, hay thấy đó là quá tay? Bạn đã từng phải chọn giữa giữ thể diện và tự bảo vệ mình chưa?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

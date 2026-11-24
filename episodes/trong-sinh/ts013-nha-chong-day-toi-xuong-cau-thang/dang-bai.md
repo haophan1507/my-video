@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Ba ngày sau cưới, mẹ chồng đòi giữ hộ sính lễ. Bành Tuyết Dao lạnh người, vì kiếp trước chính đôi tay ấy đẩy cô xuống cầu thang.
 
@@ -17,7 +17,3 @@ Bành Tuyết Dao hai mươi bốn tuổi, mồ côi, vừa làm dâu nhà họ 
 ## Câu hỏi ghim bình luận
 
 Nếu là Bành Tuyết Dao, bạn có giao sính lễ cho mẹ chồng giữ hộ như kiếp trước, hay chọn giữ tiền và tự lo cho mình? Bạn nghĩ con dâu có nghĩa vụ đưa hết tiền tiết kiệm cho nhà chồng không?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

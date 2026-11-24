@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Ngồi nhầm bàn xem mắt, tôi hỏi người đàn ông lạ: đi đăng ký kết hôn không? Anh đáp "Được, đỡ phiền", rồi đêm tân hôn ôm gối ra sofa.
 
@@ -17,7 +17,3 @@ Chung Hạnh, hai mươi bảy tuổi, làm kế hoạch ở Thành Đô, đã �
 ## Câu hỏi ghim bình luận
 
 Nếu là Chung Hạnh, bạn có chịu nổi ba mươi đêm chồng ngủ sofa mà không hỏi thẳng một lần? Bạn nghĩ im lặng giữ ý là tôn trọng, hay là thiếu một lời cần nói?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

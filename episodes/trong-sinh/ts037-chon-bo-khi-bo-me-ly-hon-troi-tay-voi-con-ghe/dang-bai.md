@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Phiên tòa ly hôn, quan tòa hỏi Cù Hạnh theo bố hay mẹ. Kiếp trước cô chọn mẹ, bị con riêng của dượng hại chết; lần này cô nói: Bố.
 
@@ -17,7 +17,3 @@ Cù Hạnh, mười sáu tuổi, học lớp mười ở Thiên Tân, bố là c
 ## Câu hỏi ghim bình luận
 
 Nếu ngồi lại phiên tòa năm ấy, bạn sẽ chọn theo người có điều kiện hơn hay theo người thật lòng muốn giữ mình? Bạn có đồng ý với Cù Hạnh rằng tha thứ không có nghĩa là phải quay về?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

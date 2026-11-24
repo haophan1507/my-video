@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Mẹ chồng Vi Y Nhiên cho cháu bảy tháng uống thánh thủy xin từ đại sư, gan bé tổn thương, còn bà bĩu môi: con người ta uống chẳng sao.
 
@@ -17,7 +17,3 @@ Vi Y Nhiên hai mươi tám tuổi, vừa cưới Lăng Triệt, người bạn 
 ## Câu hỏi ghim bình luận
 
 Vi Y Nhiên bóp miệng mẹ chồng, dốc hết chai thánh thủy vào: bạn thấy đó là phản ứng của một người mẹ hay đã vượt quá giới hạn? Nếu là bạn, bạn sẽ báo công an ngay từ chén nước đầu tiên hay tự xử như cô ấy?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

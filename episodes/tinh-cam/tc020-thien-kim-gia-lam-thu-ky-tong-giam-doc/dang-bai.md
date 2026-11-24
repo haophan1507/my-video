@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Bị đuổi khỏi nhà họ Đoàn vì bệnh viện báo ôm nhầm con, tôi đi phỏng vấn thư ký và nói: ưu thế của tôi là từng làm tổng giám đốc.
 
@@ -17,7 +17,3 @@
 ## Câu hỏi ghim bình luận
 
 Nếu bị đuổi khỏi nhà sau hai mươi bốn năm làm thiên kim, bạn có dám đi phỏng vấn và nói "ưu thế của tôi là từng làm tổng giám đốc" như Hi Vi? Với Nhu Mạn, bạn chọn tha thứ hay để cô ta trả giá tới cùng?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

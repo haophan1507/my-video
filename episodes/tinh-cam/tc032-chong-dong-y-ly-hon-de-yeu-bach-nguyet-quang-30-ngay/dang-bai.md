@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Sáng đó, bạch nguyệt quang của chồng tôi nhắn xin mượn chồng tôi, như mượn cái máy khoan. Tôi đồng ý trước cả khi anh ta mở miệng.
 
@@ -17,7 +17,3 @@
 ## Câu hỏi ghim bình luận
 
 Đái Triết tin chắc vợ không nỡ rời mình, nên ung dung ký đơn ly hôn để yêu bạch nguyệt quang. Nếu là bạn, bạn sẽ im lặng đồng ý như Điền Cẩm Tú rồi rời đi đúng lúc, hay đòi ly hôn ngay giữa tiệc? Bạn từng chọn im lặng để được yên chưa?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

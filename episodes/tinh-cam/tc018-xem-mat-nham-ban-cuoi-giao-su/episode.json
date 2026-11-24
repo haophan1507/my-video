@@ -1,6 +1,6 @@
 {
   "title": "Đi xem mắt nhầm bàn, tôi hỏi người lạ đi đăng ký kết hôn không, anh ấy đáp được",
-  "footageTag": "",
+  "footageTag": "anime",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,34 +12,44 @@
   },
   "chapters": [
     {
-      "title": "Nhầm bàn số bảy"
+      "title": "Nhầm bàn số bảy",
+      "startSec": 3.99
     },
     {
-      "title": "Nửa tiếng trong thư phòng"
+      "title": "Nửa tiếng trong thư phòng",
+      "startSec": 162.69
     },
     {
-      "title": "Sofa lạnh, tôi nóng"
+      "title": "Sofa lạnh, tôi nóng",
+      "startSec": 315.17
     },
     {
-      "title": "Bộ đồ ngủ hình mèo"
+      "title": "Bộ đồ ngủ hình mèo",
+      "startSec": 473.42
     },
     {
-      "title": "Người cũ ở Trường Sa"
+      "title": "Người cũ ở Trường Sa",
+      "startSec": 692.9
     },
     {
-      "title": "Hộp bánh vỡ và tờ đơn ly hôn"
+      "title": "Hộp bánh vỡ và tờ đơn ly hôn",
+      "startSec": 871.01
     },
     {
-      "title": "Tôi ngại bẩn"
+      "title": "Tôi ngại bẩn",
+      "startSec": 1036.96
     },
     {
-      "title": "Hai tấm ảnh vẽ trái tim"
+      "title": "Hai tấm ảnh vẽ trái tim",
+      "startSec": 1195.89
     },
     {
-      "title": "Mợ út và con chó Tiểu Hoa"
+      "title": "Mợ út và con chó Tiểu Hoa",
+      "startSec": 1380.62
     },
     {
-      "title": "Cuốn sổ dưới gối"
+      "title": "Cuốn sổ dưới gối",
+      "startSec": 1555.19
     }
   ],
   "parts": [
@@ -67,7 +77,10 @@
   ],
   "thumbText": "Xem mắt|nhầm bàn|*cưới liền*|giáo sư",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc018/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 3,
+  "thumbFace": "58% 60%",
+  "thumbZoom": 0.7,
+  "audioSrc": "tc018/audio.mp3"
 }

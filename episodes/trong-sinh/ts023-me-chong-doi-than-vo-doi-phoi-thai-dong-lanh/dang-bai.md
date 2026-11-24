@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Chồng quỳ xin tôi một quả thận cứu mẹ, tôi đáp được, miễn anh sang tên hết nhà, xe, cổ phần. Chưa ký xong, trung tâm sinh sản gọi.
 
@@ -17,7 +17,3 @@ Trác Thanh Hòa, ba mươi tuổi, kế toán trưởng ở Thiên Tân, mở m
 ## Câu hỏi ghim bình luận
 
 Nếu là Trác Thanh Hòa, bạn có đặt điều kiện sang tên cả nhà, xe, cổ phần mới chịu hiến thận, hay cứu người trước rồi tính sau? Bạn nghĩ món nợ một quả thận nên trả bằng tiền hay bằng thứ khác? Còn chuyện chồng cô giấu chuyển phôi cho người khác, bạn có tha được không?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

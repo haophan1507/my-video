@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Cát Khuê chết trên bàn mổ vì em gái song sinh. Mở mắt, cô về nhà bố mẹ ruột một tháng trước kỳ thi, nơi tờ giấy báo danh sắp bị tráo.
 
@@ -17,7 +17,3 @@ Cát Khuê lớn lên với ông Tịch bị câm ở quê, học giỏi nhất 
 ## Câu hỏi ghim bình luận
 
 Nếu là Cát Khuê, bạn có tha thứ cho bố mẹ ruột đã tráo giấy báo danh để em gái lấy điểm thi của mình? Bạn nghĩ công ơn sinh thành có bù được một tháng được nhận về chỉ để làm người thi hộ?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

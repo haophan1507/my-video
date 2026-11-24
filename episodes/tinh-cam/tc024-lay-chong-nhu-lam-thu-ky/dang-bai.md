@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Chồng chuyển mười vạn tệ, dặn tôi mua vest, thuê nhà, xếp vali, còn tôi nhắn lại đúng hai chữ Đã nhận như một cái máy.
 
@@ -17,7 +17,3 @@ Phong Nghi hai mươi chín tuổi, kế toán, lấy Thẩm Duật, phó tổng
 ## Câu hỏi ghim bình luận
 
 Thẩm Duật nhớ hết mọi điều Phong Nghi thích, ghi rõ vào tệp Việc cần làm với Nghi, nhưng ba năm không xếp dòng nào lên trước. Nếu là bạn, bạn có tha thứ cho người đàn ông đến muộn ba năm ấy không? Bạn nghĩ nhớ mà không làm có đáng được gọi là thương không?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

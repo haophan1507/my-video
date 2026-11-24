@@ -1,6 +1,6 @@
 {
   "title": "Đòi ly hôn xong cùng chồng rơi xuống hồ bơi, tôi tỉnh dậy trong thân xác anh ấy",
-  "footageTag": "",
+  "footageTag": "acrylic",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,31 +12,40 @@
   },
   "chapters": [
     {
-      "title": "Câu ly hôn bên hồ bơi"
+      "title": "Câu ly hôn bên hồ bơi",
+      "startSec": 3.99
     },
     {
-      "title": "Tôi là anh, anh là tôi"
+      "title": "Tôi là anh, anh là tôi",
+      "startSec": 171.31
     },
     {
-      "title": "Bữa sáng lúc bảy giờ"
+      "title": "Bữa sáng lúc bảy giờ",
+      "startSec": 342.62
     },
     {
-      "title": "Cái tát qua màn hình"
+      "title": "Cái tát qua màn hình",
+      "startSec": 506.33
     },
     {
-      "title": "Ông cậu đầu hói"
+      "title": "Ông cậu đầu hói",
+      "startSec": 664.96
     },
     {
-      "title": "Người một nhà, sao phải tính toán"
+      "title": "Người một nhà, sao phải tính toán",
+      "startSec": 831.36
     },
     {
-      "title": "Bữa cơm tiễn khách"
+      "title": "Bữa cơm tiễn khách",
+      "startSec": 1032.04
     },
     {
-      "title": "Nồi canh gà xin lỗi"
+      "title": "Nồi canh gà xin lỗi",
+      "startSec": 1197.57
     },
     {
-      "title": "Con do ba sinh"
+      "title": "Con do ba sinh",
+      "startSec": 1366.49
     }
   ],
   "parts": [
@@ -61,9 +70,13 @@
       "hook": "Cú tát tôi chỉ xem qua màn hình mà má vẫn rát"
     }
   ],
-  "thumbText": "Ly hôn xong|tôi thành *chồng*|chồng thành tôi",
+  "thumbText": "Ly hôn xong|tôi thành *chồng*|chồng|thành tôi",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc014/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 14,
+  "thumbFace": "60% 45%",
+  "coverFace": "58% 45%",
+  "thumbZoom": 0.72,
+  "audioSrc": "tc014/audio.mp3"
 }

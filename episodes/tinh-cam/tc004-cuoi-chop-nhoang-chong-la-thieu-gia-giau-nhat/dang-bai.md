@@ -2,21 +2,11 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Mốc chương lấy từ out/chapters.txt (dựng lại bằng build-audio nếu audio đổi). -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio tình cảm: Ngay cửa quán cà phê, Mạc Tử Hàn đá Diệp Khê để cưới bạn thân cô; tối đó, một người tự nhận là thợ sửa xe hỏi cô có kết hôn không.
 
 Diệp Khê hai mươi sáu tuổi, nhân viên bán xe ở Hải Thành, lớn lên ở cô nhi viện, yêu Mạc Tử Hàn ba năm. Mạc Tử Hàn đá cô ngay cửa quán cà phê để cưới Liễu Doanh Doanh, bạn thân cô, vì nhà cô ta giúp hắn xoay vốn. Tối đó, Nghiêm Cảnh Xuyên tự nhận là thợ sửa xe hỏi cô có kết hôn không; sáng hôm sau hai người đăng ký, cô về biệt thự ba tầng.
-
-00:00 Kết hôn không?
-03:50 Nhà của thợ sửa xe
-06:54 Chiếc xe cưới
-09:53 Họp lớp
-13:03 Thái tử Nghiêm thị
-16:09 Tấm ảnh cũ
-19:00 Tờ séc và tập giấy
-22:05 Cái bẫy cổ phần
-25:14 Lá thư của mẹ
 
 🔔 Đăng ký Quýt Nhỏ Audio để nghe truyện mới lúc 20 giờ 30 mỗi thứ Ba, Năm, Bảy hằng tuần và bật chuông thông báo để không bỏ lỡ tập nào nhé.
 
@@ -27,7 +17,3 @@ Diệp Khê hai mươi sáu tuổi, nhân viên bán xe ở Hải Thành, lớn 
 ## Câu hỏi ghim bình luận
 
 Nếu là Diệp Khê, bạn có dám cưới một người lạ ngay trước cửa Cục dân chính chỉ sau một câu hỏi? Và nếu là bạn, bạn có tha cho Liễu Doanh Doanh sau bảy năm làm bạn thân không?
-
-## Việc còn lại
-
-- [x] Mốc chương đã chèn từ `out/chapters.txt` (2026-11-24).

@@ -2,7 +2,7 @@
 
 ## Mô tả YouTube
 
-<!-- Copy từ đây đến hết dòng hashtag. Chưa render: chèn mốc chương từ out/chapters.txt sau khi build-audio. -->
+<!-- Copy từ đây đến hết dòng hashtag. -->
 
 🎧 Truyện ngắn audio trọng sinh: Đàm Chiêu Đệ chết vì ung thư khi bố mẹ cắt thuốc để mua xe cho em trai, mở mắt lại đúng đêm nghe lén họ tính bán mình.
 
@@ -17,7 +17,3 @@
 ## Câu hỏi ghim bình luận
 
 Nếu là Đàm Chiêu Đệ, bạn có đóng cửa phòng khám khi bố mẹ quỳ trước mặt không? Bạn có đồng ý với cách cô ấy đòi lại nửa phần tài sản ngay trong bữa cơm không?
-
-## Việc còn lại
-
-- [ ] Chèn mốc chương từ `out/chapters.txt` sau khi render.

@@ -1,6 +1,6 @@
 {
   "title": "Tôi đòi sính lễ tám vạn tám, bạn trai mắng tôi hám tiền, anh ta đâu biết nhà tôi có mỏ vàng",
-  "footageTag": "",
+  "footageTag": "bento",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,34 +12,44 @@
   },
   "chapters": [
     {
-      "title": "Tám vạn tám và đĩa cải thừa"
+      "title": "Tám vạn tám và đĩa cải thừa",
+      "startSec": 3.99
     },
     {
-      "title": "Cuốn sổ hai mươi mốt vạn bốn"
+      "title": "Cuốn sổ hai mươi mốt vạn bốn",
+      "startSec": 150.64
     },
     {
-      "title": "Bữa cơm yến sào"
+      "title": "Bữa cơm yến sào",
+      "startSec": 305.68
     },
     {
-      "title": "Tấm ảnh xem mắt"
+      "title": "Tấm ảnh xem mắt",
+      "startSec": 524.91
     },
     {
-      "title": "Cốc nước ở quán bình dân"
+      "title": "Cốc nước ở quán bình dân",
+      "startSec": 678.56
     },
     {
-      "title": "Sao kê tám năm"
+      "title": "Sao kê tám năm",
+      "startSec": 859.61
     },
     {
-      "title": "Họp lớp"
+      "title": "Họp lớp",
+      "startSec": 1046.09
     },
     {
-      "title": "Ly nước còn nguyên nắp"
+      "title": "Ly nước còn nguyên nắp",
+      "startSec": 1199.74
     },
     {
-      "title": "Cả họ kéo đến"
+      "title": "Cả họ kéo đến",
+      "startSec": 1358.68
     },
     {
-      "title": "Tám mươi tám vạn tám"
+      "title": "Tám mươi tám vạn tám",
+      "startSec": 1539.47
     }
   ],
   "parts": [
@@ -66,7 +76,10 @@
   ],
   "thumbText": "Đòi sính lễ|*tám vạn tám*|bị mắng|*hám tiền*",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc015/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 2,
+  "thumbFace": "52% 28%",
+  "thumbZoom": 0.9,
+  "audioSrc": "tc015/audio.mp3"
 }
