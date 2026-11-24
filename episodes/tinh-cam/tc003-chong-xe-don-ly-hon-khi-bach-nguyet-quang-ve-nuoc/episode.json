@@ -1,6 +1,6 @@
 {
   "title": "Bạch nguyệt quang của chồng vừa về nước, tôi xin ly hôn thì anh xé luôn đơn",
-  "footageTag": "",
+  "footageTag": "painting",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,31 +12,40 @@
   },
   "chapters": [
     {
-      "title": "Ba điều ước"
+      "title": "Ba điều ước",
+      "startSec": 3.99
     },
     {
-      "title": "Phòng phụ"
+      "title": "Phòng phụ",
+      "startSec": 149.76
     },
     {
-      "title": "Khung ảnh cưới rơi xuống"
+      "title": "Khung ảnh cưới rơi xuống",
+      "startSec": 331.65
     },
     {
-      "title": "Bức ảnh buổi tiệc"
+      "title": "Bức ảnh buổi tiệc",
+      "startSec": 483.37
     },
     {
-      "title": "Máy hủy giấy"
+      "title": "Máy hủy giấy",
+      "startSec": 639.16
     },
     {
-      "title": "Điều anh giấu kỹ"
+      "title": "Điều anh giấu kỹ",
+      "startSec": 809.31
     },
     {
-      "title": "Cuộc hẹn của Hạ Vi"
+      "title": "Cuộc hẹn của Hạ Vi",
+      "startSec": 955.74
     },
     {
-      "title": "Người tôi chọn"
+      "title": "Người tôi chọn",
+      "startSec": 1104.65
     },
     {
-      "title": "Cuốn nhật ký màu hồng"
+      "title": "Cuốn nhật ký màu hồng",
+      "startSec": 1255.38
     }
   ],
   "parts": [
@@ -65,6 +74,8 @@
   "thumbText": "Anh xé *đơn ly hôn*|bạch nguyệt quang|vừa về nước",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc003/thumb-bg.jpg",
+  "thumbFace": "52% 46%",
+  "introSec": 3.99,
+  "audioSrc": "tc003/audio.mp3"
 }
