@@ -19,8 +19,8 @@
 | Bối cảnh | Thê Xuyên hiện đại: nhà ở Thê Hồ, xưởng đèn Triều Sinh, ngân hàng Hoa Thành, khách sạn Thanh Hòa, công ty Minh Tự; tiền là tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 11 chương, ~11.150 chữ ≈ 62 phút (180 chữ/phút; hơi vượt khung, ở tốc độ giọng 1,2 ngắn hơn). Cắt thuật ngữ tài chính, dồn nhân vật phụ; thêm mốc thời gian của mưu "bảo lãnh trước, ly hôn sau", thư mục hồ sơ "mọi năm" của nữ chính, mẹ chồng lỡ gửi ảnh, bố chồng đứng về phía nữ chính (chi tiết ở `outline.md`) |
 | Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5–6 (~53% chữ, dừng cuối ch.6); chi tiết outline.md |
-| Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
-| Footage: chủ đề, nguồn, tag | |
+| Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | GenMax minimax speech-2.8-hd, giọng d99082f8 (như tc001–tc008), tốc độ 1,2 |
+| Footage: chủ đề, nguồn, tag | `acrylic`, footageOffset 19: vào ở clip acrylic-20, khác điểm vào của các tập khác cùng tag |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
 | Teaser TikTok 60–90 giây | |
 
@@ -30,9 +30,9 @@
 - [x] 2. Dàn ý: `outline.md`
 - [x] 3. Viết chương: `script/chNN.tts.txt`
 - [x] 4. Soát TTS: báo cáo `normalize-vi.mjs` sạch
-- [ ] 5. Giọng: `audio/chNN.mp3`
-- [ ] 6. Footage: `public/footage/<tag>/`
-- [ ] 7. Render: `out/`
+- [x] 5. Giọng: `audio/chNN.mp3`
+- [x] 6. Footage: `public/footage/<tag>/`
+- [x] 7. Render: `out/`
 
 ## Nhật ký
 
@@ -40,3 +40,6 @@
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 11 chương, ~11.150 chữ, ~62 phút; dàn ý và chương chưa duyệt.
 - 2026-11-21: họ theo giao: nữ chính Sở, nam chính Cao; đổi tên so với nguồn (Giang Vãn, Chu Thừa An, Lâm Mạn thành Sở Tử Hân, Cao Thiên Dật, Phan Nghi).
 - 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5–6; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.
+- 2026-11-24: chọn footage `acrylic` offset 19; gen giọng, build-audio, render YouTube và TikTok (chưa bìa) chạy qua đêm.
+- 2026-11-24: thêm ảnh nhân vật bìa (`public/tc017/thumb-bg.jpg`), render thumb.png; bìa TikTok render tự động sau build-audio.
+- 2026-11-24: render xong YouTube, 3 phần TikTok, bìa phần và thumb; đã xem khung đầu, cuối; chờ đăng.

@@ -1,6 +1,6 @@
 {
   "title": "Chồng tăng ca, tôi thấy anh ôm thực tập sinh vào căn hộ đứng tên tôi",
-  "footageTag": "",
+  "footageTag": "acrylic",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,34 +12,44 @@
   },
   "chapters": [
     {
-      "title": "Tăng ca dưới mưa"
+      "title": "Tăng ca dưới mưa",
+      "startSec": 3.99
     },
     {
-      "title": "Sợi tóc nâu và người tên Mỉm Cười"
+      "title": "Sợi tóc nâu và người tên Mỉm Cười",
+      "startSec": 157.97
     },
     {
-      "title": "Tiệc cuối năm và người chú họ"
+      "title": "Tiệc cuối năm và người chú họ",
+      "startSec": 336.86
     },
     {
-      "title": "Chuyến công tác Hải Thành không có thật"
+      "title": "Chuyến công tác Hải Thành không có thật",
+      "startSec": 537.7
     },
     {
-      "title": "Mười hai tờ hóa đơn"
+      "title": "Mười hai tờ hóa đơn",
+      "startSec": 712.21
     },
     {
-      "title": "Người tôi đặt vào đời anh ta"
+      "title": "Người tôi đặt vào đời anh ta",
+      "startSec": 882.46
     },
     {
-      "title": "Lần quỳ thứ hai"
+      "title": "Lần quỳ thứ hai",
+      "startSec": 1068.01
     },
     {
-      "title": "Chiếc váy hồng"
+      "title": "Chiếc váy hồng",
+      "startSec": 1245.56
     },
     {
-      "title": "Màn hình lớn ngày kỷ niệm"
+      "title": "Màn hình lớn ngày kỷ niệm",
+      "startSec": 1454.45
     },
     {
-      "title": "Ăn kem không, tôi mời"
+      "title": "Ăn kem không, tôi mời",
+      "startSec": 1683.28
     }
   ],
   "parts": [
@@ -67,7 +77,11 @@
   ],
   "thumbText": "Chồng tăng ca|tôi thấy anh ôm|*thực tập sinh*|vào nhà tôi",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc010/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 3,
+  "thumbFace": "40% 38%",
+  "coverFace": "42% 38%",
+  "audioSrc": "tc010/audio.mp3",
+  "coverZoom": 1
 }

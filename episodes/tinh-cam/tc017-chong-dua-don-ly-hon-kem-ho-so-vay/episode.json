@@ -1,6 +1,6 @@
 {
   "title": "Chồng bảo tôi ký như mọi năm, nhưng trang cuối ghi tôi bảo lãnh hai nghìn tám trăm vạn",
-  "footageTag": "",
+  "footageTag": "acrylic",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,37 +12,48 @@
   },
   "chapters": [
     {
-      "title": "Ký như mọi năm"
+      "title": "Ký như mọi năm",
+      "startSec": 3.99
     },
     {
-      "title": "Đôi dép màu xám"
+      "title": "Đôi dép màu xám",
+      "startSec": 201.81
     },
     {
-      "title": "Thẻ từ bị khóa"
+      "title": "Thẻ từ bị khóa",
+      "startSec": 390.62
     },
     {
-      "title": "Kho số mười bảy"
+      "title": "Kho số mười bảy",
+      "startSec": 594.7
     },
     {
-      "title": "Hai trăm sáu mươi vạn"
+      "title": "Hai trăm sáu mươi vạn",
+      "startSec": 804.92
     },
     {
-      "title": "Chiếc đèn có dấu tam giác đỏ"
+      "title": "Chiếc đèn có dấu tam giác đỏ",
+      "startSec": 1013
     },
     {
-      "title": "Thứ Sáu ở ngân hàng"
+      "title": "Thứ Sáu ở ngân hàng",
+      "startSec": 1201.1
     },
     {
-      "title": "Bài báo và cuộc gọi của mẹ"
+      "title": "Bài báo và cuộc gọi của mẹ",
+      "startSec": 1406.24
     },
     {
-      "title": "Năm giờ sáng ở xưởng Đông"
+      "title": "Năm giờ sáng ở xưởng Đông",
+      "startSec": 1613.98
     },
     {
-      "title": "Hộp cơm không có gừng"
+      "title": "Hộp cơm không có gừng",
+      "startSec": 1836.62
     },
     {
-      "title": "Ổ khóa mới"
+      "title": "Ổ khóa mới",
+      "startSec": 2019.45
     }
   ],
   "parts": [
@@ -70,7 +81,11 @@
   ],
   "thumbText": "Chồng bảo ký|*như mọi năm*|tên tôi thành|người bảo lãnh",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc017/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 19,
+  "thumbFace": "61% 30%",
+  "coverFace": "58% 30%",
+  "thumbZoom": 0.76,
+  "audioSrc": "tc017/audio.mp3"
 }

@@ -19,8 +19,8 @@
 | Bối cảnh | Trung Quốc hiện đại: Hải Thành, tập đoàn Lương thị, viện làm đẹp, tiệc sinh nhật, công trường; kết ở xưởng sửa xe; tiền là tệ |
 | Độ dài: số chương, phút; cách đủ độ dài | 8 chương, ~7.900 chữ, ~44 phút. Nguồn ~10.200 chữ Hán nhưng thoại ngắn; viết dày cảnh dạy ông tổng, cảnh clip công trường; cắt cảnh người lớn cuối truyện; thêm twist "ngẩng đầu lên" năm mười sáu tuổi; ngày bị đuổi kể hồi tưởng ở ch.4 |
 | Chia phần TikTok | 3 phần: ch.1–2, ch.3, ch.4–5 (~59% chữ, dừng cuối ch.5); chi tiết outline.md |
-| Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
-| Footage: chủ đề, nguồn, tag | |
+| Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | GenMax minimax speech-2.8-hd, giọng d99082f8 (như tc001–tc008), tốc độ 1,2 |
+| Footage: chủ đề, nguồn, tag | `scene`, footageOffset 2: vào ở clip scene-03, khác điểm vào của các tập khác cùng tag |
 | Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
 | Teaser TikTok 60–90 giây | |
 
@@ -30,9 +30,9 @@
 - [x] 2. Dàn ý: `outline.md`
 - [x] 3. Viết chương: `script/chNN.tts.txt`
 - [x] 4. Soát TTS: báo cáo `normalize-vi.mjs` sạch
-- [ ] 5. Giọng: `audio/chNN.mp3`
-- [ ] 6. Footage: `public/footage/<tag>/`
-- [ ] 7. Render: `out/`
+- [x] 5. Giọng: `audio/chNN.mp3`
+- [x] 6. Footage: `public/footage/<tag>/`
+- [x] 7. Render: `out/`
 
 ## Nhật ký
 
@@ -40,3 +40,6 @@
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 8 chương, ~7.900 chữ, ~44 phút; dàn ý và chương chưa duyệt.
 - 2026-11-21: chia TikTok đổi thành 8 phần (mỗi chương một phần) vì ghép hai chương vượt 8 phút.
 - 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3, ch.4–5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.
+- 2026-11-24: chọn footage `scene` offset 2; gen giọng, build-audio, render YouTube và TikTok (chưa bìa) chạy qua đêm.
+- 2026-11-24: thêm ảnh nhân vật bìa (`public/tc020/thumb-bg.jpg`), render thumb.png; bìa TikTok render tự động sau build-audio.
+- 2026-11-24: render xong YouTube, 3 phần TikTok, bìa phần và thumb; đã xem khung đầu, cuối; chờ đăng.

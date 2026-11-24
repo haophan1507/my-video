@@ -1,6 +1,6 @@
 {
   "title": "Bạn trai cho đồng nghiệp ngồi ghế phụ xe tôi mua, tôi tát cô ta rồi bảo: gà phải bỏ vào cốp!",
-  "footageTag": "",
+  "footageTag": "acrylic",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,28 +12,36 @@
   },
   "chapters": [
     {
-      "title": "Gà phải bỏ vào cốp"
+      "title": "Gà phải bỏ vào cốp",
+      "startSec": 3.99
     },
     {
-      "title": "Bảy năm và một bà mẹ chồng tương lai"
+      "title": "Bảy năm và một bà mẹ chồng tương lai",
+      "startSec": 202.86
     },
     {
-      "title": "Tờ giấy trong túi áo"
+      "title": "Tờ giấy trong túi áo",
+      "startSec": 389.34
     },
     {
-      "title": "Thỏ con của anh Phong"
+      "title": "Thỏ con của anh Phong",
+      "startSec": 565.65
     },
     {
-      "title": "Khổ nhục kế ở sảnh công ty"
+      "title": "Khổ nhục kế ở sảnh công ty",
+      "startSec": 759.75
     },
     {
-      "title": "Quà mừng của phu nhân Thạch"
+      "title": "Quà mừng của phu nhân Thạch",
+      "startSec": 945.55
     },
     {
-      "title": "Câu hỏi trên mạng: con của ai"
+      "title": "Câu hỏi trên mạng: con của ai",
+      "startSec": 1146.44
     },
     {
-      "title": "Chiếc dây chuyền vàng"
+      "title": "Chiếc dây chuyền vàng",
+      "startSec": 1348.86
     }
   ],
   "parts": [
@@ -59,7 +67,12 @@
   ],
   "thumbText": "Nhân tình ngồi|*ghế phụ* xe tôi|tôi tát ngay",
   "thumbTag": "Trọn bộ",
-  "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "tc012/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 9,
+  "thumbFace": "61% 50%",
+  "thumbZoom": 0.75,
+  "coverZoom": 0.8,
+  "audioSrc": "tc012/audio.mp3",
+  "coverFace": "61% 40%"
 }

@@ -44,3 +44,4 @@
 - 2026-11-22: ảnh bìa từ ảnh gửi; viết lại chữ bìa và 3 hook phần TikTok cho rõ nghĩa, ngắt dòng tay.
 - 2026-11-22: render xong youtube.mp4 (30:51), tiktok-01..03, bìa YouTube và 3 bìa TikTok; footage `bake` chạy liền.
 - 2026-11-22: đổi footage `bake` → `paint` (bake crop còn 38% diện tích, không rõ chủ thể; đã loại khỏi kho); `paint` bỏ 9 giây đầu có chữ kênh gốc; render lại youtube.mp4, tiktok-01..03 bằng ffmpeg, nền 0,15; bìa giữ nguyên.
+- 2026-11-24: đã đăng.

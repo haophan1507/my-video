@@ -159,26 +159,26 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 
 | Tập | Giọng | Footage | Hồ sơ |
 |---|---|---|---|
-| tc005 | minimax speech-2.8-hd, tốc độ 1,2 | `paint-d` | Base ~13 phút (dưới chuẩn); ngoại lệ vì đang làm tập, dàn ý đã mở lên 39 phút; render xong 2026-11-24 (dim 0,15), chờ đăng |
-| tc001 | chưa chốt | chưa chốt | Base ~18 phút (dưới chuẩn 25–60); sẽ viết dày lên ~30–35 phút |
+| tc005 | minimax speech-2.8-hd, tốc độ 1,2 | `paint-d` | Base ~13 phút (dưới chuẩn); ngoại lệ vì đang làm tập, dàn ý đã mở lên 39 phút; render xong 2026-11-24 (dim 0,15), đã đăng 2026-11-24 |
+| tc001 | chưa chốt | chưa chốt | Base ~18 phút (dưới chuẩn 25–60); sẽ viết dày lên ~30–35 phút; đã đăng 2026-11-24 |
 | tc004 | minimax speech-2.8-hd, tốc độ 1,2 | `sticker-b` | render xong 2026-11-24 (dim 0,15), chờ đăng |
 | tc007 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts003 | voice d99082f8, tốc độ 1,2 | `bake` | đã render 2026-11-22, chờ đăng |
-| tc002 | minimax speech-2.8-hd, tốc độ 1,2 | `sticker-a` | render xong 2026-11-24 (dim 0,15), chờ đăng |
+| ts003 | voice d99082f8, tốc độ 1,2 | `bake` | đã render 2026-11-22, đã đăng 2026-11-24 |
+| tc002 | minimax speech-2.8-hd, tốc độ 1,2 | `sticker-a` | render xong 2026-11-24 (dim 0,15), đã đăng 2026-11-24 |
 | tc006 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc008 | minimax speech-2.8-hd, tốc độ 1,2 | `sticker-c` | render xong 2026-11-24 (dim 0,15), chờ đăng |
-| tc009 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc010 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc011 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc012 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc013 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc014 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc015 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc016 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc017 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc018 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc019 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc020 | chưa chốt | chưa chốt | mở 2026-11-21 |
+| tc009 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), chờ đăng |
+| tc010 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), chờ đăng |
+| tc011 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), chờ đăng |
+| tc012 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), chờ đăng |
+| tc013 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), chờ đăng |
+| tc014 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), chờ đăng |
+| tc015 | minimax speech-2.8-hd, tốc độ 1,2 | `bento` | render xong 2026-11-24 (dim 0,15), chờ đăng |
+| tc016 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), chờ đăng |
+| tc017 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), chờ đăng |
+| tc018 | minimax speech-2.8-hd, tốc độ 1,2 | `anime` | render xong 2026-11-24 (dim 0,15), chờ đăng |
+| tc019 | minimax speech-2.8-hd, tốc độ 1,2 | `night` | render xong 2026-11-24 (dim 0,15), chờ đăng |
+| tc020 | minimax speech-2.8-hd, tốc độ 1,2 | `scene` | render xong 2026-11-24 (dim 0,15), chờ đăng |
 | tc021 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc022 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc023 | chưa chốt | chưa chốt | mở 2026-11-21 |
@@ -193,7 +193,7 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 | tc032 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc033 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc034 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts002 | voice d99082f8, tốc độ 1,2 | `scene` | đã render 2026-11-22, chờ đăng |
+| ts002 | voice d99082f8, tốc độ 1,2 | `scene` | đã render 2026-11-22, đã đăng 2026-11-24 |
 | ts005 | voice d99082f8, tốc độ 1,2 | `anime` | đã render 2026-11-22, chờ đăng |
 | ts006 | voice d99082f8, tốc độ 1,2 | `bento` | đã render 2026-11-22, chờ đăng |
 | ts007 | voice d99082f8, tốc độ 1,2 | `night` | đã render 2026-11-22, chờ đăng |
