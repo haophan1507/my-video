@@ -1,5 +1,27 @@
 # Đăng bài — tc035
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Ẩn hôn 5 năm, tôi sốt 39 độ 8, chồng ảnh đế lên sóng nói: Tôi đang độc thân
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Vợ giấu kín của ảnh đế, tôi sảy thai gọi anh ta, người bắt máy không phải anh
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Biết mang thai 4 tuần, tôi nhắn cho chồng ảnh đế, anh ta chỉ để lại: Đã xem
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

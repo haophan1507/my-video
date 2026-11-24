@@ -1,5 +1,27 @@
 # Đăng bài — tc013
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Chồng tháo nhẫn cưới đi đón bạch nguyệt quang, tôi cầm giấy báo thai dưới mưa
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Chồng giới thiệu tôi là em gái, cưới 3 năm anh vẫn chờ bạch nguyệt quang về
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Bạn thân gửi ảnh chồng ôm tình đầu ở sân bay, nhắn: Cậu đừng làm chuyện dại
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

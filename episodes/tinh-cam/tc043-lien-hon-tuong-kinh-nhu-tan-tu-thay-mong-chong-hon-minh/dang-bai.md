@@ -1,5 +1,27 @@
 # Đăng bài — tc043
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Đưa đơn ly hôn, đầu tôi hiện cảnh chồng đè tôi xuống bàn hôn mất kiểm soát
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Liên hôn 3 năm, tôi nhặt ảnh bạch nguyệt quang chồng giấu trong điện thoại
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Tôi đòi ly hôn vì bạch nguyệt quang, rồi cảnh chồng hôn tôi bỗng thành thật
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

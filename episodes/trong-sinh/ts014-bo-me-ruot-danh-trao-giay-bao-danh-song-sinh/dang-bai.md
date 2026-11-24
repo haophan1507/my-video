@@ -1,5 +1,27 @@
 # Đăng bài — ts014
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Trọng sinh 1 tháng trước kỳ thi, bố mẹ ruột đón tôi về để tráo giấy báo danh
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Chết trên bàn mổ vì em gái song sinh, tôi trọng sinh trên xe về nhà bố mẹ ruột
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Mẹ ruột bắt tôi thi hộ em song sinh, trọng sinh tôi giấu giấy báo danh thật
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

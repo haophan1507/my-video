@@ -1,5 +1,27 @@
 # Đăng bài — tc040
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Bác sĩ báo tôi bệnh tim chỉ còn 3 tháng, mẹ lại đòi tôi hiến tủy cứu chị gái
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Sinh ra để cứu chị gái, tôi nói mình bệnh tim, mẹ không hỏi, tát tôi giữa sảnh
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Tôi nhập viện vì bệnh tim, mẹ không hỏi đau không, chỉ chìa tay: Báo cáo đâu?
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

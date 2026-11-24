@@ -1,5 +1,27 @@
 # Đăng bài — tc051
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Ngày ly hôn, tôi cười chúc vợ mới của chồng sinh con như nhỏ máu nhận thân
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Bác sĩ bảo tôi chỉ còn 3 tháng, tôi hỏi lại: Có tính cả hao hụt không?
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Chồng ngủ với nhân viên mới, cô ta có thai 8 tuần, tôi cười ký đơn ly hôn
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

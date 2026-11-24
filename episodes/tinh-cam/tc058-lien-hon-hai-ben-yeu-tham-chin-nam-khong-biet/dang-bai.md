@@ -1,5 +1,27 @@
 # Đăng bài — tc058
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Thầm thương anh 9 năm, đêm tân hôn chồng chỉ nói: Cô cứ chọn phòng cô thích
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Liên hôn với người tôi thầm thương 9 năm, đêm tân hôn anh chia phòng ngay
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Bố mẹ báo tháng sau tôi cưới người thầm thương 9 năm, mà anh gọi tôi là cô
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

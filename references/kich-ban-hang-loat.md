@@ -42,7 +42,7 @@ Thư mục gốc `/Users/haopv/Documents/my-video`. Chỉ ghi trong thư mục t
 **Bước 4. Soát TTS.** `node scripts/normalize-vi.mjs <mã> --fix`, rồi chạy lại không `--fix`; xử lý tay mọi cảnh báo còn lại (câu dài, tên ngoại, ký tự lạ). `node scripts/status.mjs <mã>` phải báo bước hiện tại là 5.
 
 **Ghi kết quả**
-- `episode.json`: `title` (phương án tiêu đề điểm cao nhất, bỏ phần `[Truyện Audio]` và `| <Tên kênh>`), `chapters[].title`, `parts[]` (chương và hook mỗi phần, khớp bảng TikTok), `thumbText` (3–4 dòng theo `dang-bai.md` mục 2). Giữ nguyên các khóa khác.
+- `episode.json`: `title` (phương án tiêu đề điểm cao nhất, chỉ phần hook, bỏ `Quýt Nhỏ Audio <số> | `), `chapters[].title`, `parts[]` (chương và hook mỗi phần, khớp bảng TikTok), `thumbText` (3–4 dòng theo `dang-bai.md` mục 2). Giữ nguyên các khóa khác.
 - `tap.md`: điền bảng Quyết định (trừ giọng, footage, ảnh bìa ảnh nhân vật, teaser); tick bước 1–4; Bước hiện tại 5; thêm nhật ký: "<ngày>: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; N chương, ~X chữ, ~Y phút; dàn ý và chương chưa duyệt."
 
 **Báo lại** (ngắn, dưới 150 chữ): điểm, số chương, tổng chữ và phút, cách đủ độ dài, hook cả truyện, mọi chỗ đã lệch khỏi khung hoặc còn băn khoăn.

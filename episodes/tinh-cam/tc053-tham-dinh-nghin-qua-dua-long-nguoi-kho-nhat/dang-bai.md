@@ -1,5 +1,27 @@
 # Đăng bài — tc053
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | 1000 lần soi ngoại tình chưa sai, lần này người nhận tiền là bạn thân tôi
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Chồng khách tặng vợ dây chuyền 36.000 tệ, rồi chuyển y số đó cho bạn thân tôi
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Chồng khách tặng vợ quả dưa 800 tệ, tôi lật nhãn lên là biết ruột anh ta
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

@@ -1,5 +1,27 @@
 # Đăng bài — ts040
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Mẹ bạn gái anh họ đòi 880 nghìn tệ sính lễ, tôi nhìn tay mình: tôi đã sống lại
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Anh họ vay đủ sính lễ, bác tôi chậm mổ mà mất; trọng sinh, tôi xin anh 1 tuần
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Trọng sinh, tôi gài máy ghi âm vào áo bà mẹ đòi sính lễ, nghe trọn kế hoạch
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

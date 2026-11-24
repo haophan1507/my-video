@@ -1,5 +1,27 @@
 # Đăng bài — tc039
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Ung thư giai đoạn cuối, chồng đòi ly hôn, bạch nguyệt quang đòi cả chuỗi ngọc
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Tôi giấu bệnh ung thư, chồng đưa đơn ly hôn, tiểu tam cười: Diễn tiếp đi chị
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Tiểu tam đòi chuỗi ngọc 100 triệu tệ, tôi bảo: Muốn ly hôn thì ngọc là của tôi
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

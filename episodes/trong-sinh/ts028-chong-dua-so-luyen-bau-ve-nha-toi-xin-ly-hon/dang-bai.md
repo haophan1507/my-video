@@ -1,5 +1,27 @@
 # Đăng bài — ts028
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Trọng sinh, chồng dắt tình đầu bụng bầu về, tôi nói: Ly hôn, chia tôi một nửa!
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Có bầu 6 tháng, tôi bị chồng đẩy xuống cầu thang; sống lại, tình đầu anh đã về
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Chồng dắt tình đầu bụng bầu về, tôi trọng sinh nên cười, dọn phòng cho cô ta
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

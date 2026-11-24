@@ -1,5 +1,27 @@
 # Đăng bài — ts029
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Trọng sinh ngày 20 ở cữ, tôi thấy lọ nâu trong chăn con, mẹ chồng bước vào
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Con gái tắt thở trong tay tôi; trọng sinh, con đang khóc, trong chăn có lọ lạ
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Mẹ chồng là bà vàng chăm sản phụ đặt quy tắc; trọng sinh, tôi lặng lẽ ghi sổ
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

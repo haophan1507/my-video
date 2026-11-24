@@ -1,5 +1,27 @@
 # Đăng bài — ts008
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Chồng giả chết để tôi gánh 300 triệu tệ nợ, trọng sinh, tôi không gánh nữa
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Trọng sinh ở tiệc đính hôn, bạch nguyệt quang mặc váy y hệt tôi trèo lan can
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Trả nợ 10 năm thay chồng đã chết, tôi bắt gặp anh ta nhai nho bên người cũ
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

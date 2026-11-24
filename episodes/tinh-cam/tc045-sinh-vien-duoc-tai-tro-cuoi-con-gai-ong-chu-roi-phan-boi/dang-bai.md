@@ -1,5 +1,27 @@
 # Đăng bài — tc045
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Ba tôi bị điều tra, chồng đi cứu mối tình đầu rồi bảo tôi: Em hết chỗ dựa rồi
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Chồng bỏ tôi đi cứu bạch nguyệt quang, tôi lặng lẽ đếm ngược 5 ngày ly hôn
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Chồng bảo tôi hết chỗ dựa, anh đâu biết tôi đã thấy đơn ly hôn từ 1 năm trước
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

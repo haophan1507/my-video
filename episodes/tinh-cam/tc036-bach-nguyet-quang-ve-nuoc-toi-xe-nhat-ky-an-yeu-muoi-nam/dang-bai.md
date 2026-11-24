@@ -1,5 +1,27 @@
 # Đăng bài — tc036
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Chồng nói hôn nhân là hợp tác thương mại, tôi xé 7 cuốn nhật ký yêu thầm anh
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Kỷ niệm 3 năm cưới, tôi thấy phiếu siêu âm 8 tuần của bạch nguyệt quang
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Tôi để lại đơn ly hôn, chồng ký ngay không hỏi, anh không biết tôi có thai
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

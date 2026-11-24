@@ -1,5 +1,27 @@
 # Đăng bài — tc054
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Sinh nhật 32 tuổi, thấy chồng nắm tay bạn thân, tôi lặng lẽ tính giá căn nhà
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Chồng ngoại tình với bạn thân, tôi không hét, 2 giờ sáng lặng lẽ tra tín dụng
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | 2 giờ sáng tra tín dụng, tôi thấy chữ ký mình trên khoản vay tôi chưa từng ký
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

@@ -1,5 +1,27 @@
 # Đăng bài — tc050
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Vừa ném đơn ly hôn lên bàn, tôi nghe tiếng lòng chồng: Chết cũng không ly hôn!
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Cưới 3 năm gặp chồng nửa năm, anh lên báo cùng nữ thần, tôi ném đơn ly hôn
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Giao ước ai có người thích thì ly hôn, tôi nộp đơn, chồng đáp: Không đồng ý
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

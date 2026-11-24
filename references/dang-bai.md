@@ -4,13 +4,16 @@ Không còn là bước của quy trình: việc đăng do người làm tay. Fi
 
 ## 1. Tiêu đề YouTube
 
-Công thức: `[Truyện Audio] <hook> | <Tên kênh>`. Các kênh lớn trong ngách đều dùng kiểu này, hook ~35–70 ký tự, ngôi **tôi**, một nghịch lý hoặc đảo vai ("Sếp mới lại chính là crush cũ của tôi", "Gả thay em gái, tôi được mẹ chồng cưng tận nóc").
+Công thức (từ 2026-11-24): `Quýt Nhỏ Audio <số> | <hook>`, `<số>` 4 chữ số điền lúc đăng (`0001`). Phần cố định `Quýt Nhỏ Audio 0001 | ` dài 22 ký tự, nên hook **tối đa 78 ký tự**, nhắm 68–78 để dùng hết chỗ. Ngôi **tôi**, một nghịch lý hoặc đảo vai ("Sếp mới lại chính là crush cũ của tôi", "Gả thay em gái, tôi được mẹ chồng cưng tận nóc"). Ví dụ: `Quýt Nhỏ Audio 0001 | Tôi ngoại tình ba tháng, chồng không hề to tiếng, chỉ nói một câu: Ly hôn đi!` (99 ký tự).
+
+Ghi vào `dang-bai.md` của tập, mục "Tiêu đề YouTube" (đầu file): tiêu đề chính và 2 phương án A/B (mục 3), số để `XXXX`.
 
 Quy tắc:
 - **Xung đột trong ~45 ký tự đầu**: điện thoại cắt tiêu đề, YouTube khuyên đặt chữ quan trọng ở đầu.
+- **Từ khóa tìm kiếm** của thể loại/motif nằm trong hook, càng sớm càng tốt (ngoại tình, ly hôn, mẹ chồng, trọng sinh, bạch nguyệt quang, thiên kim thật giả, tra nam...); không dùng tên nhân vật (không ai tìm), gọi theo vai (chồng, mẹ chồng, bạn thân).
 - Có **tôi** và **một khoảnh khắc hoặc con số cụ thể**; nêu xung đột, **không nêu kết**.
 - **Đúng với truyện**: chữ trong tiêu đề phải có thật ở chương 1–2. YouTube đề xuất theo thời lượng xem, nên tiêu đề hứa quá lời thì CTR cao nhưng bị đề xuất ít.
-- Cả tiêu đề dưới 100 ký tự; hạn chế chữ HOA và emoji.
+- Cả tiêu đề tối đa 100 ký tự (đếm theo ký tự Unicode dựng sẵn NFC); hạn chế chữ HOA và emoji.
 
 Khuôn hook:
 - `<Kẻ xấu> <hành động tệ> ngay trước mặt mọi người, tôi <phản ứng bất ngờ>`

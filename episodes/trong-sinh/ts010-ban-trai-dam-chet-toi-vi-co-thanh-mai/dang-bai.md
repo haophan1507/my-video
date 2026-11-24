@@ -1,5 +1,27 @@
 # Đăng bài — ts010
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Trọng sinh trước giờ thi, bạn trai lấy báo danh hộ thanh mai, tôi cười: Đi đi
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Kiếp trước tôi cản bạn trai lấy báo danh cho thanh mai, cô ta đâm tôi 7 nhát
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Thanh mai quên giấy báo danh, tôi trọng sinh, nói chia tay ngay trước giờ thi
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

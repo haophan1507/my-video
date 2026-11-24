@@ -1,5 +1,27 @@
 # Đăng bài — ts023
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Trọng sinh, chồng quỳ xin 1 quả thận cho mẹ, tôi đáp: Được, sang tên hết đi!
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Tôi vừa nhận hiến thận cho mẹ chồng, trung tâm sinh sản gọi hỏi về cái phôi
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Hiến thận cho mẹ chồng rồi chết; trọng sinh, tôi thấy chồng chuyển đi 80 vạn
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

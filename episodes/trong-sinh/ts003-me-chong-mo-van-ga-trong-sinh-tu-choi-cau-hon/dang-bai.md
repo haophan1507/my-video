@@ -1,5 +1,27 @@
 # Đăng bài — ts003
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Mẹ chồng xả ga giết mẹ con tôi, trọng sinh lúc cầu hôn, tôi hét: Không cưới!
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Chồng bãi nại cho mẹ anh, kẻ mở van ga giết tôi; trọng sinh, anh lại cầu hôn
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Trọng sinh lúc bạn trai quỳ cầu hôn trước chục máy quay, tôi nhớ van ga năm ấy
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

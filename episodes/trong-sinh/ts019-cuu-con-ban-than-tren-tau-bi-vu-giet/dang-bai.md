@@ -1,5 +1,27 @@
 # Đăng bài — ts019
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Cứu con bạn thân xong tôi bị vu giết bé, trọng sinh, cô ta quỳ, tôi đứng im
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Tôi cứu sống con bạn thân trên tàu, nửa tiếng sau cô ta gào lên tôi giết con
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Trọng sinh 1 phút trước khi bạn thân tới cầu cứu, tôi lùi lại: Gọi bác sĩ nhi!
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

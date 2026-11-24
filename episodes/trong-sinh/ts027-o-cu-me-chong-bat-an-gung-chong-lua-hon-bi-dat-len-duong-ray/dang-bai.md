@@ -1,5 +1,27 @@
 # Đăng bài — ts027
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Trọng sinh lúc ở cữ, mẹ chồng bắt ăn toàn gừng, chồng dịu dàng: Em chịu khó!
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Ở cữ bị ép đến điên, bị đặt lên đường ray; sống lại, tôi nói: Con dị ứng gừng.
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Kiếp trước ở cữ ký giấy ủy quyền rồi mất công ty; trọng sinh, tôi đọc từng tờ
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

@@ -1,5 +1,27 @@
 # Đăng bài — ts021
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Mẹ chồng trọng sinh về ngày cưới con trai, con gái báo: Con dâu đòi hủy hôn!
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Làm mẹ chồng ác, tôi chết cô độc; trọng sinh ngày cưới, tôi xin lỗi con dâu
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Mẹ chồng trọng sinh: chị gái xúi tôi đòi sính lễ của con dâu, tôi nói: Không!
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

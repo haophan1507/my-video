@@ -1,5 +1,27 @@
 # Đăng bài — ts035
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Trọng sinh, bạn trai tiến sĩ giới thiệu tiểu sư muội, tôi nói ngay: Chia tay!
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Làm dữ liệu cho bạn trai 3 năm rồi chết; sống lại, tôi gửi nhật ký cho thầy
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Đêm tôi chết, ảnh bạn trai ngủ cạnh tiểu sư muội; mở mắt, họ ở trước mặt tôi
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

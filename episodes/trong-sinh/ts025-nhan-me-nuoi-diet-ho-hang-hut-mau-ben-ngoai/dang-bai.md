@@ -1,5 +1,27 @@
 # Đăng bài — ts025
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Trọng sinh trước thi đại học, bà ngoại xúi mẹ nuôi bỏ tôi, tôi quay lại ôm mẹ
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Mẹ nuôi xé giấy báo nhập học của tôi; trọng sinh, phiếu dự thi lại biến mất
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Sáng thi đại học, phiếu dự thi mất; tôi trọng sinh nên biết ai mang túi rác đi
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

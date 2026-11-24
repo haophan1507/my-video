@@ -1,5 +1,27 @@
 # Đăng bài — tc002
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Tỉnh dậy mất trí nhớ 3 năm, người yêu cũ đã cưới vợ, bạn trai tôi là người lạ
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Bị bạn trai đẩy ngã đập gáy vào bàn, tôi tỉnh dậy mất trí nhớ, quên sạch 3 năm
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Mất trí nhớ, tôi cưới người lạ bên giường bệnh với điều kiện: Ai sống phần nấy
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

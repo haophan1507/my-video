@@ -1,5 +1,27 @@
 # Đăng bài — tc026
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Chồng cũ 2 năm không đưa tiền nuôi con, còn chửi tôi thần kinh: Hẹn anh ở tòa
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Nợ tiền nuôi con, chồng cũ dọa kể vì sao ly hôn, quên tôi mới là người đưa đơn
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Kiện chồng cũ đòi tiền nuôi con, con gái hỏi: Mẹ ơi, thần kinh là gì vậy ạ?
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

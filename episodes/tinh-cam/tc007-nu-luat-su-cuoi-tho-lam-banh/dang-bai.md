@@ -1,5 +1,27 @@
 # Đăng bài — tc007
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Cưới thợ làm bánh nghèo, nửa đêm tôi thấy chồng một tay ghìm côn đồ vào tường
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Tôi là luật sư ly hôn chưa từng thua, cho đến khi cưới anh thợ làm bánh nghèo
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Trả chồng hợp đồng 5.000 tệ một tháng, đêm đó tôi thấy sẹo dao trên lưng anh
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

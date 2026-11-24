@@ -1,5 +1,27 @@
 # Đăng bài — tc001
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Tôi ngoại tình ba tháng, chồng không hề to tiếng, chỉ nói một câu: Ly hôn đi!
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Đêm tôi ngoại tình lần đầu, người chồng ít nói chỉ nhắn đúng một chữ: "Ừ"
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Cưới 5 năm, chồng chỉ biết đáp ừm, tôi ngoại tình chỉ vì một ly cà phê sữa
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

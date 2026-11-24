@@ -1,5 +1,27 @@
 # Đăng bài — ts015
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Bố mẹ cắt thuốc ung thư của tôi để mua xe cho em, sống lại tôi đòi nửa tài sản
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Bố mẹ cưng tôi hơn em trai, hóa ra để tôi trả nợ thay nó; tôi trọng sinh
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Bố mẹ quỳ trước phòng khám của tôi, tôi khóa trái; kiếp trước họ cắt thuốc tôi
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

@@ -1,5 +1,27 @@
 # Đăng bài — tc061
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Gặp lại tình đầu lúc bị vợ cả đánh ghen, mà tôi còn chưa làm tiểu tam của ai
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Bạn thân hẹn tôi phòng 666 khách sạn, vợ cả xông vào đánh tôi như tiểu tam
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Bị đánh oan là tiểu tam, tôi nghe ai đó gọi tên mà chỉ tình đầu từng gọi
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

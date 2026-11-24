@@ -1,5 +1,27 @@
 # Đăng bài — tc048
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Đăng ký liên hôn giữa trời tuyết, câu thứ 3 chồng nói với tôi: Đừng chạm, bẩn
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Bạn trai 7 năm dẫn tiểu tam về nhà, tôi liên hôn, chồng bảo: Đừng chạm, bẩn
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Hợp đồng liên hôn có điều thứ 9 rất lạ: vợ không được chủ động ly hôn
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

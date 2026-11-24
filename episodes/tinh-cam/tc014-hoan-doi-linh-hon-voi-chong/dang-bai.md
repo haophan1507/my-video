@@ -1,5 +1,27 @@
 # Đăng bài — tc014
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Vừa đòi ly hôn, tôi cùng chồng rơi xuống hồ bơi, tỉnh dậy trong thân xác anh
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Hoán đổi linh hồn với chồng, đến lượt anh bị mẹ chồng lôi dậy sớm nấu bữa sáng
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | 3 năm làm dâu chồng bảo đừng chấp nhặt, nay anh mang xác tôi nếm mùi mẹ chồng
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

@@ -1,5 +1,27 @@
 # Đăng bài — tc004
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Bạn trai đá tôi để cưới bạn thân, tối đó tôi cưới chớp nhoáng anh thợ sửa xe
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Tưởng cưới thợ sửa xe, 3 ngày sau cả sảnh tiệc cúi đầu gọi chồng tôi là sếp
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Bị người yêu đá, tôi ngồi trước Cục dân chính, người lạ hỏi: Kết hôn không?
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

@@ -1,5 +1,27 @@
 # Đăng bài — tc029
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Bố tôi thừa kế 800 triệu tệ, vừa dọn vào biệt thự, tôi bị gọi là biến thái
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Dây váy 99 tệ đứt trước mặt nam thần hàng xóm, hôm sau tôi thành biến thái
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Bố mắng luật sư báo thừa kế là lừa đảo, gọi công an, ai ngờ thật: 800 triệu tệ
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

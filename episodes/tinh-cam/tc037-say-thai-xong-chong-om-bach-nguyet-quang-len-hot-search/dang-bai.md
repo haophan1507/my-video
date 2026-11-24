@@ -1,5 +1,27 @@
 # Đăng bài — tc037
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Sảy thai xong, tôi đứng ngoài cửa nghe chồng nói: Con cô ta tự không giữ được
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Tôi nằm trên bàn mổ sảy thai, chồng ôm bạch nguyệt quang lên top tìm kiếm
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Đơn ly hôn ký sẵn 3 tuần, tôi chỉ đặt ra khi nghe chồng gọi tôi là cô ta
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

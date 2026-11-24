@@ -1,5 +1,27 @@
 # Đăng bài — ts034
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Trọng sinh, bố mẹ đòi suất tuyển thẳng của tôi cho chị, tôi nói: Cho chị hết.
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Chị gái cướp hết, từ suất tuyển thẳng đến người tôi yêu; sống lại, tôi nhường
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Bố mẹ thiên vị chỉ cho tôi 2.000 tệ; trọng sinh, tôi lặng lẽ tự thi đại học
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

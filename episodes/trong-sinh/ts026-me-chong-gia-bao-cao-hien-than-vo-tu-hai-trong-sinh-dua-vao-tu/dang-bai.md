@@ -1,5 +1,27 @@
 # Đăng bài — ts026
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Mẹ chồng làm giả báo cáo ép tôi hiến thận; trọng sinh, tôi lấy bản gốc trước
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Trọng sinh, tôi đặt 2 bản báo cáo hợp mô cạnh nhau, mẹ chồng nhìn tôi oán độc
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Em chồng chết sau khi tôi hiến thận; trọng sinh, tôi đòi dữ liệu gốc hợp mô
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->

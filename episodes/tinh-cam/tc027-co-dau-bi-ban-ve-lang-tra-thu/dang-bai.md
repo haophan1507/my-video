@@ -1,5 +1,27 @@
 # Đăng bài — tc027
 
+## Tiêu đề YouTube
+
+<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
+
+Chính:
+
+```
+Quýt Nhỏ Audio XXXX | Bị bán về làng giá 1 vạn tệ, chồng chết vì ăn dưa muối, cả làng khen tôi ngoan
+```
+
+A/B 1:
+
+```
+Quýt Nhỏ Audio XXXX | Đám tang chồng, tôi đập đầu vào quan tài đòi chết theo, không ai biết vì sao
+```
+
+A/B 2:
+
+```
+Quýt Nhỏ Audio XXXX | Kẻ bán tôi về làng giá 1 vạn tệ lại là bạn trai tôi đã nuôi cơm suốt 2 năm
+```
+
 ## Mô tả YouTube
 
 <!-- Copy từ đây đến hết dòng hashtag. -->
