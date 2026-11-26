@@ -92,7 +92,8 @@ export function status(arg) {
   const missing7 = [];
   if (!ep) missing7.push('episode.json');
   else if (!audioBuilt) missing7.push('audio.mp3 (build-audio)');
-  if (!fs.existsSync(path.join(E.out, 'youtube.mp4'))) missing7.push('youtube.mp4');
+  const posted = /đã đăng YouTube/.test(tap ?? ''); // đăng rồi thì youtube.mp4 được dọn
+  if (!posted && !fs.existsSync(path.join(E.out, 'youtube.mp4'))) missing7.push('youtube.mp4');
   if (!nParts || tiktoks < nParts) missing7.push(`tiktok ${tiktoks}/${nParts}`);
   const covers = ls(E.out, /^tiktok-\d+-cover\.png$/).length;
   if (!nParts || covers < nParts) missing7.push(`bìa tiktok ${covers}/${nParts}`);

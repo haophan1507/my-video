@@ -1,6 +1,7 @@
 {
   "title": "Trọng Sinh: Họ Cắt Thuốc Khi Tôi Ung Thư Để Mua Xe Cho Em Trai, Kiếp Này Tôi Cắt Đứt Tất Cả",
-  "footageTag": "",
+  "footageTag": "acrylic",
+  "footageOffset": 22,
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,28 +13,36 @@
   },
   "chapters": [
     {
-      "title": "Cái tên để gọi em trai"
+      "title": "Cái tên để gọi em trai",
+      "startSec": 3.99
     },
     {
-      "title": "Phá cửa vào bữa cơm"
+      "title": "Phá cửa vào bữa cơm",
+      "startSec": 167.37
     },
     {
-      "title": "Con muốn làm bác sĩ"
+      "title": "Con muốn làm bác sĩ",
+      "startSec": 326.03
     },
     {
-      "title": "Món nợ ghi sổ từ búp bê"
+      "title": "Món nợ ghi sổ từ búp bê",
+      "startSec": 491.1
     },
     {
-      "title": "Mười ngày không bật máy"
+      "title": "Mười ngày không bật máy",
+      "startSec": 648.15
     },
     {
-      "title": "Cả đại sảnh gọi tôi là đồ vong ơn"
+      "title": "Cả đại sảnh gọi tôi là đồ vong ơn",
+      "startSec": 798.89
     },
     {
-      "title": "Một trăm vạn và tờ giấy cắt đứt"
+      "title": "Một trăm vạn và tờ giấy cắt đứt",
+      "startSec": 966.26
     },
     {
-      "title": "Ca mổ tôi không được phép làm"
+      "title": "Ca mổ tôi không được phép làm",
+      "startSec": 1137.98
     }
   ],
   "parts": [
@@ -61,6 +70,11 @@
   "thumbText": "Họ *cắt thuốc* khi tôi ung thư|Kiếp này tôi *đóng cửa*|Bố mẹ quỳ cũng không mở",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts015/thumb-bg.jpg",
+  "thumbFace": "47% 32%",
+  "thumbZoom": 0.68,
+  "coverFace": "50% 26%",
+  "coverZoom": 0.62,
+  "introSec": 3.99,
+  "audioSrc": "ts015/audio.mp3"
 }

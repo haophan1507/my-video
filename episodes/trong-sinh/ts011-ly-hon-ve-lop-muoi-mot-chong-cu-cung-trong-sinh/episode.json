@@ -1,6 +1,7 @@
 {
   "title": "Ly hôn xong chết cả hai, mở mắt tôi về lớp mười một và chồng cũ đứng trước bàn",
-  "footageTag": "",
+  "footageTag": "acrylic",
+  "footageOffset": 24,
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,34 +13,44 @@
   },
   "chapters": [
     {
-      "title": "Một chữ được"
+      "title": "Một chữ được",
+      "startSec": 3.99
     },
     {
-      "title": "Căn nhà đã tắt đèn"
+      "title": "Căn nhà đã tắt đèn",
+      "startSec": 229.86
     },
     {
-      "title": "Hộp trái cây mỗi sáng"
+      "title": "Hộp trái cây mỗi sáng",
+      "startSec": 455.95
     },
     {
-      "title": "Người dạy kèm"
+      "title": "Người dạy kèm",
+      "startSec": 664.42
     },
     {
-      "title": "Bài đăng lúc nửa đêm"
+      "title": "Bài đăng lúc nửa đêm",
+      "startSec": 886.45
     },
     {
-      "title": "Cái bóng nghiêng"
+      "title": "Cái bóng nghiêng",
+      "startSec": 1104.09
     },
     {
-      "title": "Cuốn album da xám"
+      "title": "Cuốn album da xám",
+      "startSec": 1306.98
     },
     {
-      "title": "Hạng bốn trăm mười hai"
+      "title": "Hạng bốn trăm mười hai",
+      "startSec": 1532.92
     },
     {
-      "title": "Sinh nhật mười bảy tuổi"
+      "title": "Sinh nhật mười bảy tuổi",
+      "startSec": 1732.91
     },
     {
-      "title": "Lần này em nói thứ tự"
+      "title": "Lần này em nói thứ tự",
+      "startSec": 1959.08
     }
   ],
   "parts": [
@@ -67,6 +78,11 @@
   "thumbText": "Ly hôn xong|chết cả hai|Mở mắt thấy|*chồng cũ*",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts011/thumb-bg.jpg",
+  "thumbFace": "59.5% 31%",
+  "thumbZoom": 0.68,
+  "coverFace": "50% 31%",
+  "coverZoom": 0.62,
+  "introSec": 3.99,
+  "audioSrc": "ts011/audio.mp3"
 }

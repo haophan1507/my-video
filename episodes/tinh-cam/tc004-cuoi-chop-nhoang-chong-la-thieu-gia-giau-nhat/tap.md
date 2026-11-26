@@ -4,8 +4,8 @@
      Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
 
 - **Truyện nguồn**: tc004, stories/tinh-cam/tc004-cuoi-chop-nhoang-chong-la-thieu-gia-giau-nhat.md
-- **Bước hiện tại**: 7 (xong)
-- **Cập nhật**: 2026-11-24
+- **Bước hiện tại**: xong 7, đã đăng YouTube, TikTok chưa đăng
+- **Cập nhật**: 2026-11-25
 
 ## Quyết định
 
@@ -41,3 +41,4 @@
 - 2026-11-21: đổi tên để không trùng tập khác: Giang Ninh → Diệp Khê, Hoắc Cảnh Xuyên → Nghiêm Cảnh Xuyên (Hoắc thị → Nghiêm thị), Giang thị → Diệp thị, Chu Tiểu Đào → Đường Tiểu Đào.
 - 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1, ch.2–3, ch.4–5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.
 - 2026-11-24: render lại YouTube và 3 phần TikTok với tag `sticker-b`, `dim` 0,15; sửa lỗi tràn RAM ffmpeg ở nền footage dọc; thời lượng khớp audio, độ sáng đã kiểm.
+- 2026-11-24: đã đăng YouTube; TikTok chưa đăng.

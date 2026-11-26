@@ -4,8 +4,8 @@
      Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
 
 - **Truyện nguồn**: ts005, stories/trong-sinh/ts005-chi-gai-trong-sinh-gianh-chon-bo.md
-- **Bước hiện tại**: xong (chờ đăng)
-- **Cập nhật**: 2026-11-22
+- **Bước hiện tại**: xong 7, đã đăng YouTube, TikTok chưa đăng
+- **Cập nhật**: 2026-11-25
 
 ## Quyết định
 
@@ -43,3 +43,4 @@
 - 2026-11-22: ảnh bìa từ ảnh gửi; viết lại chữ bìa và 3 hook phần TikTok cho rõ nghĩa, ngắt dòng tay.
 - 2026-11-22: render xong youtube.mp4 (34:16), tiktok-01..03, bìa YouTube và 3 bìa TikTok; footage `anime` chạy liền.
 - 2026-11-22: render lại youtube.mp4, tiktok-01..03 bằng ffmpeg, nền 0,15; bìa giữ nguyên.
+- 2026-11-24: đã đăng YouTube; TikTok chưa đăng.

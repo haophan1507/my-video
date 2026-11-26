@@ -4,8 +4,8 @@
      Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
 
 - **Truyện nguồn**: tc005, stories/tinh-cam/tc005-ban-than-cuop-nguoi-yeu-cha-nuoi.md
-- **Bước hiện tại**: 7 (xong)
-- **Cập nhật**: 2026-11-24
+- **Bước hiện tại**: xong 7, đã đăng YouTube, TikTok chưa đăng
+- **Cập nhật**: 2026-11-25
 
 ## Quyết định
 
@@ -47,4 +47,4 @@
 - 2026-11-21: đổi footage sang chủ đề Sticker (19 clip dọc 576×1024 / 720×1280, 4–13 phút, nguồn `D:\Video Footage\Sticker`), `footageTag` = `sticker`; chuẩn hóa vào `public/footage/sticker/`. Chuẩn bị ảnh bìa từ ảnh người dùng gửi (`prep-thumb`). Còn chờ chốt giọng để gen ch01–ch09.
 - 2026-11-21: chốt TikTok 3 phần (ch.1–6, dừng ở cú treo camera hành lang); `episode.json` `parts` còn 3 phần.
 - 2026-11-24: render lại YouTube và 3 phần TikTok với tag `paint-d`, `dim` 0,15; sửa lỗi tràn RAM ffmpeg ở nền footage dọc; thời lượng khớp audio, độ sáng đã kiểm.
-- 2026-11-24: đã đăng.
+- 2026-11-24: đã đăng YouTube; TikTok chưa đăng.

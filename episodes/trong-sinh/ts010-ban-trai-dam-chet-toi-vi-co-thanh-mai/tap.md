@@ -4,8 +4,8 @@
      Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
 
 - **Truyện nguồn**: ts010, stories/trong-sinh/ts010-ban-trai-dam-chet-toi-vi-co-thanh-mai.md
-- **Bước hiện tại**: 7 (xong)
-- **Cập nhật**: 2026-11-21
+- **Bước hiện tại**: xong 7, đã đăng YouTube, TikTok chưa đăng
+- **Cập nhật**: 2026-11-25
 
 ## Quyết định
 
@@ -42,3 +42,4 @@
 - 2026-11-23: chốt giọng d99082f8 tốc độ 1,2, footage tag `cook`; gen cả tập, audio 26:16; chờ ảnh nhân vật cho bìa.
 - 2026-11-23: ảnh bìa từ ảnh gửi; render thumb.png và 3 bìa TikTok; chờ render video.
 - 2026-11-23: render xong youtube.mp4 (26:17), tiktok-01..03, bìa YouTube và 3 bìa TikTok; đã xem khung đầu và cuối.
+- 2026-11-25: đã đăng YouTube; TikTok chưa đăng.

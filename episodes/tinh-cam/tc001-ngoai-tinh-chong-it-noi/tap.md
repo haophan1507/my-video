@@ -4,8 +4,8 @@
      Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
 
 - **Truyện nguồn**: tc001, stories/tinh-cam/tc001-ngoai-tinh-chong-it-noi.md
-- **Bước hiện tại**: 5
-- **Cập nhật**: 2026-11-21
+- **Bước hiện tại**: xong 7, đã đăng YouTube, TikTok chưa đăng
+- **Cập nhật**: 2026-11-25
 
 ## Quyết định
 
@@ -39,4 +39,4 @@
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 9 chương, ~7.830 chữ, ~43 phút; dàn ý và chương chưa duyệt.
 - 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1, ch.2–3, ch.4–5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.
-- 2026-11-24: đã đăng.
+- 2026-11-24: đã đăng YouTube; TikTok chưa đăng.

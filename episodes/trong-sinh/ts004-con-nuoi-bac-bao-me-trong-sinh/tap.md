@@ -1,8 +1,8 @@
 # ts004: Con nuôi tôi thương như ruột hại chết con gái tôi rồi vứt tôi chết bệnh ở nhà tranh; trọng sinh, tôi bảo vệ con gái trước
 
 - **Truyện nguồn**: ts004, stories/trong-sinh/ts004-con-nuoi-bac-bao-me-trong-sinh.md
-- **Bước hiện tại**: 5 (giọng đọc)
-- **Cập nhật**: 2026-11-23
+- **Bước hiện tại**: xong 7, đã đăng YouTube, TikTok chưa đăng
+- **Cập nhật**: 2026-11-25
 
 ## Quyết định
 
@@ -35,3 +35,4 @@
 
 - 2026-11-23: mở tập.
 - 2026-11-23: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 10 chương, ~8.450 chữ, ~47 phút; dàn ý và chương chưa duyệt. Đổi toàn bộ tên so với nguồn (Lâm Trân Châu → Ngũ Trân Châu, Trần Diệu Dương → Long Vĩ Khang, Chu Húc → Thích Bách Xuyên, lão Dương → Biên Chí Viễn, Cao Đan Đan → Phòng Tiểu Đình, Hiểu Hà → Tố Hà).
+- 2026-11-24: đã đăng YouTube; TikTok chưa đăng.

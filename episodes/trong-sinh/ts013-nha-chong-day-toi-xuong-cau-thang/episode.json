@@ -1,6 +1,7 @@
 {
   "title": "Mẹ chồng đòi giữ hộ sính lễ, tôi nhớ ra kiếp trước chính bà đẩy tôi xuống cầu thang",
-  "footageTag": "",
+  "footageTag": "craft",
+  "footageOffset": 2,
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,28 +13,36 @@
   },
   "chapters": [
     {
-      "title": "Giữ hộ sính lễ"
+      "title": "Giữ hộ sính lễ",
+      "startSec": 3.99
     },
     {
-      "title": "Tờ phiếu khóa ba năm"
+      "title": "Tờ phiếu khóa ba năm",
+      "startSec": 188.54
     },
     {
-      "title": "Tuần trăng mật sáu người"
+      "title": "Tuần trăng mật sáu người",
+      "startSec": 407.64
     },
     {
-      "title": "Hai mươi vạn tệ"
+      "title": "Hai mươi vạn tệ",
+      "startSec": 593.47
     },
     {
-      "title": "Tờ giấy dưới lớp khăn tay"
+      "title": "Tờ giấy dưới lớp khăn tay",
+      "startSec": 804.57
     },
     {
-      "title": "Tờ cam kết"
+      "title": "Tờ cam kết",
+      "startSec": 993.86
     },
     {
-      "title": "Nhà không còn bức tường nào"
+      "title": "Nhà không còn bức tường nào",
+      "startSec": 1161.39
     },
     {
-      "title": "Cánh cửa tối"
+      "title": "Cánh cửa tối",
+      "startSec": 1354.07
     }
   ],
   "parts": [
@@ -60,6 +69,11 @@
   "thumbText": "Mẹ chồng đòi|*giữ hộ* sính lễ|kiếp trước bà đẩy|tôi xuống cầu thang",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts013/thumb-bg.jpg",
+  "thumbFace": "43% 36%",
+  "thumbZoom": 0.62,
+  "coverFace": "50% 36%",
+  "coverZoom": 0.62,
+  "introSec": 3.99,
+  "audioSrc": "ts013/audio.mp3"
 }

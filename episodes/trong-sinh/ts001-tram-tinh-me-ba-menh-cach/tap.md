@@ -4,8 +4,8 @@
      Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
 
 - **Truyện nguồn**: ts001, stories/trong-sinh/ts001-tram-tinh-me-ba-menh-cach.md
-- **Bước hiện tại**: 7
-- **Cập nhật**: 2026-11-22
+- **Bước hiện tại**: xong 7, đã đăng YouTube, TikTok chưa đăng
+- **Cập nhật**: 2026-11-25
 
 ## Quyết định
 
@@ -43,3 +43,4 @@
 - 2026-11-22: render xong youtube.mp4 (23:56, 1920×1080), tiktok-01..03 (4:57, 5:12, 2:29); đã xem khung đầu, giữa, chỗ chuyển clip phút 15 và cuối.
 - 2026-11-22: sửa dấu chồng dòng ở chữ bìa (giãn dòng 1,15 → 1,5 trong `src/Thumbnail.tsx`; 1,3 vẫn chạm khi xem bản gốc), render lại thumb và 3 bìa phần.
 - 2026-11-22: render lại youtube.mp4, tiktok-01..03 bằng ffmpeg: nền 0,15; footage `craft` tốc độ 2, bỏ 86 giây đầu (mở sổ, lục hộp), vào thẳng cảnh dán; bìa giữ nguyên.
+- 2026-11-24: đã đăng YouTube; TikTok chưa đăng.

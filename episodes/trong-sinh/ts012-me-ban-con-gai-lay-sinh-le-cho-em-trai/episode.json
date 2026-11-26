@@ -1,6 +1,7 @@
 {
   "title": "Mẹ ép tôi bỏ học lấy hai mươi vạn tệ cưới vợ cho em trai, trọng sinh tôi gõ cửa nhà hàng xóm",
-  "footageTag": "",
+  "footageTag": "puzzle",
+  "footageOffset": 0,
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,31 +13,40 @@
   },
   "chapters": [
     {
-      "title": "Mẹ quỳ, tôi không quỳ nữa"
+      "title": "Mẹ quỳ, tôi không quỳ nữa",
+      "startSec": 3.99
     },
     {
-      "title": "Cánh cửa nhà họ Chương"
+      "title": "Cánh cửa nhà họ Chương",
+      "startSec": 161.83
     },
     {
-      "title": "Bữa sủi cảo và cái tát"
+      "title": "Bữa sủi cảo và cái tát",
+      "startSec": 332.84
     },
     {
-      "title": "Đôi giày ba nghìn tệ"
+      "title": "Đôi giày ba nghìn tệ",
+      "startSec": 515.1
     },
     {
-      "title": "Lỗ Doanh đứng chờ ở cổng trường"
+      "title": "Lỗ Doanh đứng chờ ở cổng trường",
+      "startSec": 659.48
     },
     {
-      "title": "Chiếc váy đầu tiên"
+      "title": "Chiếc váy đầu tiên",
+      "startSec": 822.74
     },
     {
-      "title": "Hai suất vào Thanh Hoa"
+      "title": "Hai suất vào Thanh Hoa",
+      "startSec": 973.09
     },
     {
-      "title": "Chiếc micro của mẹ tôi"
+      "title": "Chiếc micro của mẹ tôi",
+      "startSec": 1141.24
     },
     {
-      "title": "Cuốn sổ của bố"
+      "title": "Cuốn sổ của bố",
+      "startSec": 1327.11
     }
   ],
   "parts": [
@@ -64,6 +74,11 @@
   "thumbText": "Mẹ ép tôi *bỏ học*|cưới vợ cho em trai|trọng sinh, tôi gõ|*cửa nhà hàng xóm*",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts012/thumb-bg.jpg",
+  "thumbFace": "57% 46%",
+  "thumbZoom": 0.72,
+  "coverFace": "50% 33%",
+  "coverZoom": 0.62,
+  "introSec": 3.99,
+  "audioSrc": "ts012/audio.mp3"
 }

@@ -4,8 +4,8 @@
      Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
 
 - **Truyện nguồn**: tc012, stories/tinh-cam/tc012-dong-nghiep-tra-xanh-ngoi-ghe-phu.md
-- **Bước hiện tại**: 5
-- **Cập nhật**: 2026-11-21
+- **Bước hiện tại**: xong 7, đã đăng YouTube, TikTok chưa đăng
+- **Cập nhật**: 2026-11-26
 
 ## Quyết định
 
@@ -42,3 +42,4 @@
 - 2026-11-24: chọn footage `acrylic` offset 9; gen giọng, build-audio, render YouTube và TikTok (chưa bìa) chạy qua đêm.
 - 2026-11-24: thêm ảnh nhân vật bìa (`public/tc012/thumb-bg.jpg`), render thumb.png; bìa TikTok render tự động sau build-audio.
 - 2026-11-24: render xong YouTube, 3 phần TikTok, bìa phần và thumb; đã xem khung đầu, cuối; chờ đăng.
+- 2026-11-26: đã đăng YouTube; TikTok chưa đăng. Xóa `out/youtube.mp4` khỏi máy (đã chuyển vào Thùng rác).

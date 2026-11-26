@@ -4,8 +4,8 @@
      Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
 
 - **Truyện nguồn**: tc007, stories/tinh-cam/tc007-nu-luat-su-cuoi-tho-lam-banh.md
-- **Bước hiện tại**: 5
-- **Cập nhật**: 2026-11-21
+- **Bước hiện tại**: xong 7, đã đăng YouTube, TikTok chưa đăng
+- **Cập nhật**: 2026-11-25
 
 ## Quyết định
 
@@ -41,3 +41,4 @@
 - 2026-11-21: đổi tên để không trùng tập khác: Giang Ninh → Ôn Lam, Hoắc Diễn → Kỷ Diễn (Hoắc thị → Kỷ thị), Chu Kiều → Lạc Kiều.
 - 2026-11-21: đã duyệt ch.1 (đọc thử, đạt). Các chương còn lại chưa duyệt.
 - 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5–6; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.
+- 2026-11-24: đã đăng YouTube; TikTok chưa đăng.

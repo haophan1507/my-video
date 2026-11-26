@@ -4,8 +4,8 @@
      Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
 
 - **Truyện nguồn**: tc003, stories/tinh-cam/tc003-chong-xe-don-ly-hon-khi-bach-nguyet-quang-ve-nuoc.md
-- **Bước hiện tại**: xong 7, chờ đăng
-- **Cập nhật**: 2026-11-24
+- **Bước hiện tại**: xong 7, đã đăng YouTube, TikTok chưa đăng
+- **Cập nhật**: 2026-11-25
 
 ## Quyết định
 
@@ -40,3 +40,4 @@
 - 2026-11-22: viết kịch bản bước 1–4 (đã đọc toàn văn nguồn); 9 chương, ~6.731 chữ, ~37 phút; dàn ý và chương chưa duyệt.
 - 2026-11-24: chốt giọng (voiceId), footage `painting`, ảnh bìa; gen giọng 9 chương.
 - 2026-11-24: build-audio 23:32 (dưới 25 phút một chút); render YouTube, 3 phần TikTok, bìa phần, thumb; đã xem lướt đầu, giữa, cuối, độ sáng ổn.
+- 2026-11-24: đã đăng YouTube; TikTok chưa đăng.

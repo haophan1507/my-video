@@ -159,26 +159,26 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 
 | Tập | Giọng | Footage | Hồ sơ |
 |---|---|---|---|
-| tc005 | minimax speech-2.8-hd, tốc độ 1,2 | `paint-d` | Base ~13 phút (dưới chuẩn); ngoại lệ vì đang làm tập, dàn ý đã mở lên 39 phút; render xong 2026-11-24 (dim 0,15), đã đăng 2026-11-24 |
-| tc001 | chưa chốt | chưa chốt | Base ~18 phút (dưới chuẩn 25–60); sẽ viết dày lên ~30–35 phút; đã đăng 2026-11-24 |
-| tc004 | minimax speech-2.8-hd, tốc độ 1,2 | `sticker-b` | render xong 2026-11-24 (dim 0,15), chờ đăng |
-| tc007 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts003 | voice d99082f8, tốc độ 1,2 | `bake` | đã render 2026-11-22, đã đăng 2026-11-24 |
-| tc002 | minimax speech-2.8-hd, tốc độ 1,2 | `sticker-a` | render xong 2026-11-24 (dim 0,15), đã đăng 2026-11-24 |
-| tc006 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc008 | minimax speech-2.8-hd, tốc độ 1,2 | `sticker-c` | render xong 2026-11-24 (dim 0,15), chờ đăng |
-| tc009 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), chờ đăng |
-| tc010 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), chờ đăng |
-| tc011 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), chờ đăng |
-| tc012 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), chờ đăng |
-| tc013 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), chờ đăng |
-| tc014 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), chờ đăng |
-| tc015 | minimax speech-2.8-hd, tốc độ 1,2 | `bento` | render xong 2026-11-24 (dim 0,15), chờ đăng |
-| tc016 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), chờ đăng |
-| tc017 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), chờ đăng |
-| tc018 | minimax speech-2.8-hd, tốc độ 1,2 | `anime` | render xong 2026-11-24 (dim 0,15), chờ đăng |
-| tc019 | minimax speech-2.8-hd, tốc độ 1,2 | `night` | render xong 2026-11-24 (dim 0,15), chờ đăng |
-| tc020 | minimax speech-2.8-hd, tốc độ 1,2 | `scene` | render xong 2026-11-24 (dim 0,15), chờ đăng |
+| tc005 | minimax speech-2.8-hd, tốc độ 1,2 | `paint-d` | Base ~13 phút (dưới chuẩn); ngoại lệ vì đang làm tập, dàn ý đã mở lên 39 phút; render xong 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-24, TikTok chưa đăng |
+| tc001 | chưa chốt | chưa chốt | Base ~18 phút (dưới chuẩn 25–60); sẽ viết dày lên ~30–35 phút; đã đăng YouTube 2026-11-24, TikTok chưa đăng |
+| tc004 | minimax speech-2.8-hd, tốc độ 1,2 | `sticker-b` | render xong 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-24, TikTok chưa đăng |
+| tc007 | chưa chốt | chưa chốt | mở 2026-11-21, đã đăng YouTube 2026-11-24, TikTok chưa đăng |
+| ts003 | voice d99082f8, tốc độ 1,2 | `bake` | đã render 2026-11-22, đã đăng YouTube 2026-11-24, TikTok chưa đăng |
+| tc002 | minimax speech-2.8-hd, tốc độ 1,2 | `sticker-a` | render xong 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-24, TikTok chưa đăng |
+| tc006 | chưa chốt | chưa chốt | mở 2026-11-21, đã đăng YouTube 2026-11-24, TikTok chưa đăng |
+| tc008 | minimax speech-2.8-hd, tốc độ 1,2 | `sticker-c` | render xong 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-24, TikTok chưa đăng |
+| tc009 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-25, TikTok chưa đăng |
+| tc010 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-25, TikTok chưa đăng |
+| tc011 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | render xong 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-25, TikTok chưa đăng |
+| tc012 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | đã render 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-26, TikTok chưa đăng |
+| tc013 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | đã render 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-26, TikTok chưa đăng |
+| tc014 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | đã render 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-26, TikTok chưa đăng |
+| tc015 | minimax speech-2.8-hd, tốc độ 1,2 | `bento` | đã render 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-26, TikTok chưa đăng |
+| tc016 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | đã render 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-26, TikTok chưa đăng |
+| tc017 | minimax speech-2.8-hd, tốc độ 1,2 | `acrylic` | đã render 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-26, TikTok chưa đăng |
+| tc018 | minimax speech-2.8-hd, tốc độ 1,2 | `anime` | đã render 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-26, TikTok chưa đăng |
+| tc019 | minimax speech-2.8-hd, tốc độ 1,2 | `night` | đã render 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-26, TikTok chưa đăng |
+| tc020 | minimax speech-2.8-hd, tốc độ 1,2 | `scene` | đã render 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-26, TikTok chưa đăng |
 | tc021 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc022 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc023 | chưa chốt | chưa chốt | mở 2026-11-21 |
@@ -193,17 +193,17 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 | tc032 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc033 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc034 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts002 | voice d99082f8, tốc độ 1,2 | `scene` | đã render 2026-11-22, đã đăng 2026-11-24 |
-| ts005 | voice d99082f8, tốc độ 1,2 | `anime` | đã render 2026-11-22, chờ đăng |
-| ts006 | voice d99082f8, tốc độ 1,2 | `bento` | đã render 2026-11-22, chờ đăng |
-| ts007 | voice d99082f8, tốc độ 1,2 | `night` | đã render 2026-11-22, chờ đăng |
-| ts008 | voice d99082f8, tốc độ 1,2 | `anime` | đã render 2026-11-23, chờ đăng |
-| ts009 | voice d99082f8, tốc độ 1,2 | `paint` | đã render 2026-11-23, chờ đăng |
-| ts010 | voice d99082f8, tốc độ 1,2 | `cook` | đã render 2026-11-23, chờ đăng |
-| ts012 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts013 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts014 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts015 | chưa chốt | chưa chốt | mở 2026-11-21 |
+| ts002 | voice d99082f8, tốc độ 1,2 | `scene` | đã render 2026-11-22, đã đăng YouTube 2026-11-24, TikTok chưa đăng |
+| ts005 | voice d99082f8, tốc độ 1,2 | `anime` | đã render 2026-11-22, đã đăng YouTube 2026-11-24, TikTok chưa đăng |
+| ts006 | voice d99082f8, tốc độ 1,2 | `bento` | đã render 2026-11-22, đã đăng YouTube 2026-11-24, TikTok chưa đăng |
+| ts007 | voice d99082f8, tốc độ 1,2 | `night` | đã render 2026-11-22, đã đăng YouTube 2026-11-24, TikTok chưa đăng |
+| ts008 | voice d99082f8, tốc độ 1,2 | `anime` | đã render 2026-11-23, đã đăng YouTube 2026-11-25, TikTok chưa đăng |
+| ts009 | voice d99082f8, tốc độ 1,2 | `paint` | đã render 2026-11-23, đã đăng YouTube 2026-11-25, TikTok chưa đăng |
+| ts010 | voice d99082f8, tốc độ 1,2 | `cook` | đã render 2026-11-23, đã đăng YouTube 2026-11-25, TikTok chưa đăng |
+| ts012 | voice d99082f8, tốc độ 1,2 | `puzzle` | đã render 2026-11-26, đã đăng YouTube 2026-11-26, TikTok chưa đăng |
+| ts013 | voice d99082f8, tốc độ 1,2 | `craft` | đã render 2026-11-26, đã đăng YouTube 2026-11-26, TikTok chưa đăng |
+| ts014 | voice d99082f8, tốc độ 1,2 | `acrylic` | đã render 2026-11-26, đã đăng YouTube 2026-11-26, TikTok chưa đăng |
+| ts015 | voice d99082f8, tốc độ 1,2 | `acrylic` | đã render 2026-11-26, đã đăng YouTube 2026-11-26, TikTok chưa đăng |
 | tc035 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc036 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc037 | chưa chốt | chưa chốt | mở 2026-11-21 |
@@ -234,10 +234,10 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 | ts022 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | ts023 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | ts024 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc003 | voice d99082f8, tốc độ 1,2 | `painting` | đã render 2026-11-24 (23:32), chờ đăng |
-| ts001 | voice d99082f8, tốc độ 1,2 | `craft` | đã render 2026-11-22, chờ đăng |
-| ts004 | chưa chốt | chưa chốt | mở 2026-11-23; kịch bản bước 1–4 xong, chờ duyệt (10 chương, ~47 phút) |
-| ts011 | chưa chốt | chưa chốt | mở 2026-11-23 |
+| tc003 | voice d99082f8, tốc độ 1,2 | `painting` | đã render 2026-11-24 (23:32), đã đăng YouTube 2026-11-24, TikTok chưa đăng |
+| ts001 | voice d99082f8, tốc độ 1,2 | `craft` | đã render 2026-11-22, đã đăng YouTube 2026-11-24, TikTok chưa đăng |
+| ts004 | chưa chốt | chưa chốt | mở 2026-11-23; kịch bản bước 1–4 xong, chờ duyệt (10 chương, ~47 phút), đã đăng YouTube 2026-11-24, TikTok chưa đăng |
+| ts011 | voice d99082f8, tốc độ 1,2 | `acrylic` | đã render 2026-11-26, đã đăng YouTube 2026-11-26, TikTok chưa đăng |
 | ts016 | chưa chốt | chưa chốt | mở 2026-11-23 |
 | ts017 | chưa chốt | chưa chốt | mở 2026-11-23 |
 | ts018 | chưa chốt | chưa chốt | mở 2026-11-23 |

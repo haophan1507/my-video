@@ -1,6 +1,7 @@
 {
   "title": "Bố mẹ ruột nhận tôi về một tháng trước kỳ thi rồi tráo giấy báo danh cho em gái song sinh",
-  "footageTag": "",
+  "footageTag": "acrylic",
+  "footageOffset": 28,
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
@@ -12,34 +13,44 @@
   },
   "chapters": [
     {
-      "title": "Chết hai lần, sống lại trên xe"
+      "title": "Chết hai lần, sống lại trên xe",
+      "startSec": 3.99
     },
     {
-      "title": "Cái tên bà nội đặt"
+      "title": "Cái tên bà nội đặt",
+      "startSec": 181.33
     },
     {
-      "title": "Ly sữa đêm trước kỳ thi"
+      "title": "Ly sữa đêm trước kỳ thi",
+      "startSec": 359.02
     },
     {
-      "title": "Hai cô thủ khoa"
+      "title": "Hai cô thủ khoa",
+      "startSec": 552.84
     },
     {
-      "title": "Bài thi có chữ của tôi"
+      "title": "Bài thi có chữ của tôi",
+      "startSec": 730.7
     },
     {
-      "title": "Mười vạn tệ không mua được tôi"
+      "title": "Mười vạn tệ không mua được tôi",
+      "startSec": 896.29
     },
     {
-      "title": "Chiếc xe màu đỏ"
+      "title": "Chiếc xe màu đỏ",
+      "startSec": 1055.2
     },
     {
-      "title": "Tờ thư bãi nại"
+      "title": "Tờ thư bãi nại",
+      "startSec": 1226.47
     },
     {
-      "title": "Quả thận của bà nội"
+      "title": "Quả thận của bà nội",
+      "startSec": 1398.41
     },
     {
-      "title": "Tôi không phải đứa con nhặt"
+      "title": "Tôi không phải đứa con nhặt",
+      "startSec": 1597.7
     }
   ],
   "parts": [
@@ -68,6 +79,11 @@
   "thumbText": "Tráo giấy|báo danh cho|*em gái* song sinh",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts014/thumb-bg.jpg",
+  "thumbFace": "51% 39%",
+  "thumbZoom": 0.72,
+  "coverFace": "50% 40%",
+  "coverZoom": 0.62,
+  "introSec": 3.99,
+  "audioSrc": "ts014/audio.mp3"
 }

@@ -4,8 +4,8 @@
      Ô trống = chưa quyết. Ghi "gợi ý: ..." khi đã đề xuất nhưng chưa chốt. -->
 
 - **Truyện nguồn**: tc008, stories/tinh-cam/tc008-chong-nho-lai-tinh-cu-doi-ly-hon.md
-- **Bước hiện tại**: 7 (xong)
-- **Cập nhật**: 2026-11-24
+- **Bước hiện tại**: xong 7, đã đăng YouTube, TikTok chưa đăng
+- **Cập nhật**: 2026-11-25
 
 ## Quyết định
 
@@ -40,3 +40,4 @@
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 11 chương, ~10.900 chữ, ~60 phút; dàn ý và chương chưa duyệt.
 - 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5–6; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.
 - 2026-11-24: render lại YouTube và 3 phần TikTok với tag `sticker-c`, `dim` 0,15; sửa lỗi tràn RAM ffmpeg ở nền footage dọc; thời lượng khớp audio, độ sáng đã kiểm.
+- 2026-11-24: đã đăng YouTube; TikTok chưa đăng.
