@@ -75,7 +75,9 @@
   "thumbBg": "tc004/thumb-bg.jpg",
   "introSec": 3.99,
   "footageOffset": 0,
-  "thumbFace": "38% 28%",
-  "thumbZoom": 1,
-  "audioSrc": "tc004/audio.mp3"
+  "thumbFace": "52% 30%",
+  "thumbZoom": 0.7,
+  "audioSrc": "tc004/audio.mp3",
+  "coverFace": "52% 30%",
+  "coverZoom": 0.62
 }

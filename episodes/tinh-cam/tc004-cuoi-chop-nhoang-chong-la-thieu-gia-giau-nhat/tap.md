@@ -21,7 +21,7 @@
 | Chia phần TikTok | 3 phần: ch.1, ch.2–3, ch.4–5 (~56% chữ, dừng cuối ch.5); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | minimax, speech-2.8-hd, tốc độ 1,2 (chi tiết ở `voice` trong `episode.json`) |
 | Footage: chủ đề, nguồn, tag | tag `sticker-b` (một nguồn, chạy liền), `dim` 0,15, `footageOffset` 0 |
-| Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
+| Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | chữ: `thumbText` trong episode.json; ảnh: do bạn gửi 2026-11-26 (cô gái tóc tết áo len nâu), `raw/tc004-thumb.webp` → `public/tc004/thumb-bg.jpg`; chưa có A/B |
 | Teaser TikTok 60–90 giây | |
 
 ## Tiến độ
@@ -42,3 +42,4 @@
 - 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1, ch.2–3, ch.4–5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.
 - 2026-11-24: render lại YouTube và 3 phần TikTok với tag `sticker-b`, `dim` 0,15; sửa lỗi tràn RAM ffmpeg ở nền footage dọc; thời lượng khớp audio, độ sáng đã kiểm.
 - 2026-11-24: đã đăng YouTube; TikTok chưa đăng.
+- 2026-11-26: thay ảnh bìa (cô gái tóc tết áo len nâu); render lại thumb.png và 3 bìa TikTok.
