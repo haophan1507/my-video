@@ -37,7 +37,7 @@ Khi người dùng nói "làm truyện số N", "tiếp tục tập X", "tập n
 | 3 | Viết chương | `chNN.tts.txt` (một file mỗi chương, viết sẵn dạng máy đọc được: số, tiền, viết tắt thành chữ) | Đủ chương, mỗi chương 900–1.400 chữ, qua bảng soát | Duyệt chương 1 trước khi viết tiếp | `van-phong.md` |
 | 4 | Soát TTS và đọc lướt | 4A báo cáo `normalize-vi.mjs` sạch; 4B báo cáo `soat-doc.mjs` và một lượt đọc lướt bắt lỗi ngớ ngẩn (sửa trực tiếp `chNN.tts.txt`) | Hết chữ số, ngoặc, câu dài; đã đọc lướt hết các chương, không còn lỗi ngớ ngẩn (lẫn tên, sai số, mâu thuẫn rõ, chính tả), `tap.md` ghi nhật ký | — | `san-xuat.md` 1 |
 | 5 | Giọng đọc | `episodes/<thể-loại>/<mã>-*/audio/chNN.mp3` | Mỗi chương một file, cùng giọng và tốc độ; đã nghe thử chương 1 | Dịch vụ, giọng, tốc độ | `san-xuat.md` 2 |
-| 6 | Footage | `public/footage/<tag>/<tag>-NN.mp4`, `sources.txt`, `manifest.json` (kho riêng từng máy, ngoài git) | Tag có trên máy, tổng thời lượng sau tốc độ ≥ độ dài tập, đã chuẩn hóa; clip YouTube/TikTok/nền tảng khác tải bằng `dl-video.mjs` (dự phòng: Claude in Chrome) | Chủ đề, duyệt danh sách clip trước khi tải | `edit-yeu-cau.md`, `san-xuat.md` 4 |
+| 6 | Footage | `public/footage/<tag>/<tag>-NN.mp4`, `sources.txt`, `manifest.json` (kho riêng từng máy, ngoài git) | Tag có trên máy, tổng thời lượng sau tốc độ ≥ độ dài tập, đã chuẩn hóa; clip YouTube/TikTok/nền tảng khác tải bằng `yt-dlp` | Chủ đề, duyệt danh sách clip trước khi tải | `edit-yeu-cau.md`, `san-xuat.md` 4 |
 | 7 | Dựng, render | `episode.json`; `out/` trong thư mục tập | `status` sạch (audio khớp tổng chương, tiêu đề ≤ 100 ký tự, bìa 1280×720 và chữ bìa trùng hook tiêu đề), đã xem lướt đầu và cuối | Ảnh nhân vật và chữ ảnh bìa (duyệt danh sách ảnh trước khi tải), có teaser không | `edit-yeu-cau.md`, `san-xuat.md` 5 |
 
 - Bước 6 làm song song với 3–5 được.
@@ -53,7 +53,7 @@ node scripts/names.mjs [--surnames]                  # 2: tên nhân vật đã 
 node scripts/normalize-vi.mjs tc005 [--fix]           # 4A: báo cáo chNN.tts.txt; --fix tự đổi số, tiền, viết tắt tại chỗ
 node scripts/soat-doc.mjs tc005                      # 4B: hỗ trợ đọc lướt: tên riêng, lỗi hình thức, câu trùng, câu đầu/cuối chương
 node scripts/gen-voice.mjs tc005 [--dry-run]          # 5: GenMax; khóa trong .env, cài đặt giọng ở voice trong episode.json; chỉ gen chương đã đổi
-node scripts/dl-video.mjs <link> --name=craft-01 [--list]   # 6: tải video từ link nền tảng vào raw/ (API gendownload.com)
+yt-dlp -f "bv*[height<=1080]" -S "res,vcodec:h264" -o "raw/craft-01.%(ext)s" <link>   # 6: tải video từ link nền tảng vào raw/
 node scripts/prep-footage.mjs raw cook [--start=giây] [--max=giây] [--crop=top|square]   # 6: chuẩn hóa clip vào public/footage/cook/ + manifest
 node scripts/split-footage.mjs <file> <tag> [--crop=x:y:w:h] [--start=s --end=s]   # 6: cắt video dài thành các đoạn ~15 phút, crop bỏ logo, vào public/footage/<tag>/
 node scripts/footage-scan.mjs [thư-mục]               # 6: quét video mới người dùng tải (mặc định ~/Downloads), tạo ảnh xem trước
@@ -71,7 +71,7 @@ npm run typecheck                                    # kiểm kiểu code
 
 Sheet quản lý video (lịch đăng, trạng thái YouTube/TikTok từng tập): [Quýt nhỏ Audio](https://docs.google.com/spreadsheets/d/13-6eR8dr08mhFfsXRM4NQF05568dqof7rylYLMdVmVY/edit). Cột YouTube tự đồng bộ bằng Apps Script `scripts/apps-script/youtube-sync.gs` (cài: `scripts/apps-script/README.md`); đăng video làm tay trong Studio. Script ghép video với tập theo số `Quýt Nhỏ Audio NNNN` trong tiêu đề, so với cột "Tiêu đề dự kiến (dang-bai)" (chép tiêu đề trong `dang-bai.md`): đổi tiêu đề hoặc điền số trong `dang-bai.md` thì sửa ô đó; tập mới thì thêm dòng vào sheet. Đăng xong một tập: sửa cột Sản xuất, TikTok trong sheet nếu đổi.
 
-Cần ffmpeg, ffprobe trong PATH. Phụ đề đang tắt và đã gỡ whisper (xem `edit-yeu-cau.md`); chỉ còn `rough-captions.mjs` (mốc theo số ký tự). Footage phát liền từng clip ~15 phút; hết tag thì quay lại clip đầu, không cắt vụn.
+Cần ffmpeg, ffprobe, yt-dlp (bước 6) trong PATH. Phụ đề đang tắt và đã gỡ whisper (xem `edit-yeu-cau.md`); chỉ còn `rough-captions.mjs` (mốc theo số ký tự). Footage phát liền từng clip ~15 phút; hết tag thì quay lại clip đầu, không cắt vụn.
 
 Khi tới bước cần công cụ chưa có: nói trong báo cáo, đề xuất dựng một lần cho mọi tập hoặc làm tay. Dựng xong thì sửa mục này.
 

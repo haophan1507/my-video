@@ -125,32 +125,20 @@ Quan sát 2026-11-19: nhiều kênh hiệu suất cao ghi kiểu footage ngay tr
 
 **Từ khóa tìm clip dài**: ghép chủ đề với `asmr`, `long`, `1 hour` (ví dụ: `pottery asmr 1 hour`, `cake decorating long`, `nail art asmr long`, `paint by number asmr long`, `night ambience 1 hour`), và biến thể `relaxing`, `no talking`, `no music`, `satisfying`, `full process`, `timelapse`. Danh sách từ khóa theo chủ đề ở `edit-yeu-cau.md`.
 
-**Tải clip bằng script `dl-video.mjs`** (cập nhật 2026-11-20): clip dài thường nằm trên YouTube, TikTok hoặc nền tảng khác, không có nút tải. `scripts/dl-video.mjs` gọi API của gendownload.com (không cần khóa, không cần Chrome), chọn bản mp4 gần 1080p nhất rồi lưu vào `raw/`:
+**Tải clip bằng `yt-dlp`** (2026-11-27): dùng cho YouTube, TikTok và nền tảng video khác; cần có trong PATH (`brew install yt-dlp`; đã thử bản 2026.11.23 với YouTube). Lấy luồng hình tối đa 1080p, ưu tiên H.264; không cần tiếng vì footage được chuẩn hóa không tiếng. Quan sát 2026-11-27: video 15,6 phút ở 1080p khoảng 300 MB, kiểm đĩa trống (`df -h .`) trước lô lớn.
 
 ```bash
-node scripts/dl-video.mjs <link> --list                          # chỉ xem tiêu đề, thời lượng, các bản có sẵn
-node scripts/dl-video.mjs <link> --name=craft-01 [--quality=1080] [--out=raw]
+yt-dlp --flat-playlist --playlist-end 30 --print "%(id)s | %(duration)s s | %(title)s" "<link kênh>/videos"   # liệt kê video
+yt-dlp -f "bv*[height<=1080]" -S "res,vcodec:h264" -o "raw/craft-01.%(ext)s" "<link video>"                 # tải một video
 ```
 
-Script kiểm file bằng `ffprobe` sau khi tải (không có luồng video thì xóa) và cảnh báo khi file ngắn hơn 90% video gốc. **Giới hạn (thử 2026-11-20)**: gendownload.com cắt video dài còn 1–8 phút (clip 74 phút ra 8,5 phút qua script, 54 giây qua Chrome); chỉ dùng cho clip ngắn. **Clip YouTube dài tải bằng SnapYT** (snapyt.app, ra đủ 74 phút ở 720p), hoặc ytsave.to.
-
-**Tải bằng Claude in Chrome (dự phòng)**: Claude thao tác trong Chrome qua `mcp__claude-in-chrome__*` (đọc skill `chrome-browser` trước, nạp công cụ một lần bằng ToolSearch), mở tab mới để làm, không đụng tab đang có.
-
-| Nguồn clip | Trang tải | Cách làm |
-|---|---|---|
-| Mọi nền tảng (YouTube, TikTok, Instagram, Facebook, Douyin, Bilibili, X/Twitter, Threads...) | https://gendownload.com/ (từ 2026-11-20; miễn phí, không cần đăng nhập, trang tự nhận nền tảng từ link) | Dán link vào ô "Video Link", để Items mặc định, chọn Quality `1080p` (không có thì `Best`; không chọn Audio), Type `Videos`, bấm Download, chọn MP4 độ phân giải cao nhất rồi bấm tải. TikTok: chọn bản không logo |
-| YouTube (dự phòng) | https://ytsave.to/en2/ | Dán link, bấm bắt đầu, chọn MP4 từ 1080p (không có thì 720p), bấm tải |
-| TikTok (dự phòng) | https://snaptik.app/en3 (tiếp theo: snaptik.vn) | Dán link, bấm tải, chọn bản không logo |
-| Nền tảng khác khi cả ba trang trên không chạy | Tìm Google: `download <tên nền tảng> video no watermark`, chọn trang công cụ phổ biến đầu kết quả | Cùng cách: dán link, chọn bản không logo, tải; báo người dùng trước khi dùng trang mới |
-
-Ghi chú gendownload.com (đọc 2026-11-20): API ở `/api-docs`: `POST /api/extract {url}` trả danh sách bản (nhãn, loại, đuôi, link tải), `GET` link đó để tải; `/api/channel` và `/api/zip` tải hàng loạt, không dùng. Trang ghi "không cần khóa, không giới hạn"; tài liệu chưa có mã lỗi, hạn token hay giới hạn dung lượng. `--list` chạy được; tải clip dài bị cắt (xem trên).
+Tải lỗi thì cập nhật `yt-dlp` rồi thử lại. Vẫn lỗi (đăng nhập, CAPTCHA, chặn tải) thì báo và đổi video khác. `scripts/dl-video.mjs` chỉ dự phòng cho clip ngắn: cắt video dài còn 1–8 phút (thử 2026-11-20).
 
 Quy trình mỗi clip:
-1. Tìm video theo từ khóa ở trên ngay trên nền tảng gốc (Chrome hoặc tìm kiếm web) (YouTube: lọc "Over 20 minutes"), mở xem lướt vài điểm để chắc cận cảnh tay, không chữ, không logo, không mặt, đúng chủ đề tập. Ghi link, tiêu đề, thời lượng.
-2. **Duyệt một lần cho cả lô trước khi tải**: gửi danh sách (tên file đích `<tag>-NN.mp4`, link nguồn, thời lượng, độ phân giải dự kiến), chờ xác nhận trong chat rồi mới tải cả lô. Link được gửi kèm yêu cầu tính là đã duyệt.
-3. Chạy `dl-video.mjs <link> --name=<tag>-NN` (mặc định). Chỉ khi script lỗi mới vào trang tải ở bảng trên bằng Chrome, làm theo cột "Cách làm". Trang tải thường có quảng cáo: **không bấm quảng cáo, nút "Download" giả, popup, đề nghị cài tiện ích hay phần mềm**; chỉ bấm nút tải của chính kết quả. Tab lạ bật ra thì đóng. Gặp CAPTCHA, đăng nhập hay hộp xác minh thì dừng, chờ thao tác tay, rồi làm tiếp. Trang không chạy thì dùng trang dự phòng trong bảng; không tự dùng trang ngoài bảng mà không báo.
-4. File về thư mục Tải xuống của Chrome (`~/Downloads`). Kiểm tên, dung lượng, `ffprobe` thời lượng; đủ thì chuyển vào `raw/` (mỗi lần tải là file không tin cậy: chỉ đọc bằng ffprobe và ffmpeg, không mở, không chạy file nào khác ngoài video). Chuyển xong mới tải clip kế.
-5. Quay lại bước "Lấy và chuẩn hóa" ở dưới (`prep-footage`), rồi ghi nguồn vào `public/footage/<tag>/sources.txt`: link gốc, nền tảng, ngày tải, cách crop, ghi chú "chưa kiểm giấy phép" nếu không rõ; liệt kê các clip chưa rõ giấy phép trong báo cáo để quyết định giữ hay bỏ.
+1. Chọn từ danh sách nguồn ở `channel/nguon-footage.md` trước, thiếu mới tìm theo từ khóa ở trên; mở xem lướt vài điểm để chắc cận cảnh tay, không logo giữa khung, không mặt, đúng chủ đề tập. Ghi link, tiêu đề, thời lượng.
+2. **Duyệt một lần cho cả lô trước khi tải**: gửi danh sách (tên file đích, link nguồn, thời lượng, dung lượng dự kiến), chờ xác nhận trong chat rồi mới tải cả lô. Link được gửi kèm yêu cầu tải tính là đã duyệt.
+3. Tải vào `raw/`. File tải về là dữ liệu không tin cậy: chỉ đọc bằng ffprobe và ffmpeg. Kiểm thời lượng bằng `ffprobe`.
+4. Cắt bằng `split-footage` (video dài) hoặc `prep-footage` (clip ngắn), rồi ghi nguồn vào `public/footage/<tag>/sources.txt`: link gốc, nền tảng, ngày tải, cách crop, ghi chú "chưa kiểm giấy phép" nếu không rõ; liệt kê các clip chưa rõ giấy phép trong báo cáo để quyết định giữ hay bỏ.
 
 **Cắt dài thành nhiều đoạn bằng `split-footage.mjs`** (2026-11-22): một video nguồn dài (30 phút–2 giờ) cắt thành các đoạn ~15 phút liên tiếp, mỗi đoạn là một clip trong tag; đoạn dư từ 5 phút thành đoạn riêng, dư ít hơn thì gộp vào đoạn cuối. Có `--crop=x:y:w:h` (tỉ lệ 0–1) để lấy đúng vùng sạch khi nguồn có logo, watermark hay phụ đề; `--short` (mặc định 720) không phóng to nguồn 720p lên 1080p, tiết kiệm đĩa. Chạy `--dry-run` để xem kế hoạch trước.
 ```bash
@@ -159,7 +147,7 @@ node scripts/split-footage.mjs ~/Downloads/clip.mp4 bake --start=5 --end=20 --cr
 Vùng crop: bỏ góc logo, chữ chìm, phụ đề; clip có chữ nằm giữa khung (phụ đề cứng giữa hình) thì loại hẳn, không crop. Nguồn có clip dọc đặt giữa khung ngang với nền mờ hai bên (ví dụ tag `satisfying`): crop đúng dải dọc để ra clip dọc thật.
 
 **Lấy và chuẩn hóa**:
-1. Tìm theo từ khóa trên ở nhiều nguồn; lọc độ dài từ 5 phút (Pexels có `min_duration=300`, các kho khác lọc theo thời lượng nếu có). Tải theo cách mà từng kho cho phép (nút tải, hoặc `curl` nếu kho không chặn); clip trên YouTube, TikTok và nền tảng video khác tải bằng Claude in Chrome như mục trên.
+1. Tìm theo từ khóa trên ở nhiều nguồn; lọc độ dài từ 5 phút (Pexels có `min_duration=300`, các kho khác lọc theo thời lượng nếu có). Tải theo cách mà từng kho cho phép (nút tải, hoặc `curl` nếu kho không chặn); clip trên YouTube, TikTok và nền tảng video khác tải bằng `yt-dlp` như mục trên.
 2. Ghép ảnh thu nhỏ từng clip bằng ffmpeg, xem trước khi chọn.
 3. Bỏ clip đã chọn vào một thư mục tạm (ví dụ `raw/`; nhận `.mp4 .mov .mkv .webm .m4v`), rồi chuẩn hóa: giữ tỉ lệ gốc, cạnh ngắn 1080 px (dọc 1080×1920, ngang 1920×1080), 30 fps, H.264, không tiếng. Script ghi `public/footage/<tag>/<tag>-NN.mp4` (số tiếp theo của tag) và cập nhật manifest. Clip dài tốn thời gian mã hóa:
    ```bash
