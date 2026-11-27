@@ -13,14 +13,24 @@
    - **Bật tự đồng bộ mỗi giờ**: tạo trigger chạy mỗi giờ.
    - **Tắt tự đồng bộ**: xóa trigger.
 
+## Kênh và quyền
+
+Script đọc kênh `CFG.channelHandle` (`@quytnho_audio`). Quyền cấp cho kênh đó thì thấy cả video lên lịch và riêng tư. Quyền cấp cho kênh khác của cùng tài khoản Google thì chỉ đọc được video công khai, và ô "Đồng bộ YouTube lúc" ở tab Tổng quan ghi rõ điều này. Quan sát 2026-11-27: lần cấp quyền đầu gắn với kênh cá nhân của tài khoản, không phải `@quytnho_audio`.
+
+Màn cấp quyền của Apps Script không cho chọn kênh: luôn lấy kênh chính của tài khoản Google đang chạy (kiểm chứng 2026-11-27). Cách đang dùng: sheet chia sẻ quyền Editor cho tài khoản Google gốc của kênh, tài khoản đó mở Apps Script, cấp quyền, chạy `enableHourlySync`. Trigger mỗi giờ thuộc tài khoản đó, nên chạy với đúng quyền chủ kênh. Lần chạy đầu với quyền này: 40 video, ghép 40.
+
+Dán code vào trình soạn thảo bằng clipboard trên macOS: dùng `LANG=en_US.UTF-8 pbcopy < youtube-sync.gs`, thiếu `LANG` thì chữ tiếng Việt bị vỡ và script báo thiếu cột.
+
 ## Cách ghép video với tập
 
 Không cần thêm gì vào video khi tải lên. Theo thứ tự ưu tiên:
 1. ID video đã có trong cột Link YouTube.
-2. Số trong tiêu đề (`Quýt Nhỏ Audio 0009`) khớp cột Số tập trên kênh.
-3. Tiêu đề YouTube gần giống một trong các tiêu đề ở cột **Tiêu đề dự kiến (dang-bai)** (chính + 2 A/B lấy từ mục "Tiêu đề YouTube" trong `dang-bai.md` của tập, mỗi dòng một tiêu đề, bỏ phần `Quýt Nhỏ Audio XXXX |`) hoặc cột Tiêu đề truyện (repo). Chỉ ghép khi một dòng giống rõ rệt hơn các dòng khác. Thử với 9 video công khai ngày 2026-11-27, coi như sheet chưa có link: ghép đúng 9/9.
+2. Số trong tiêu đề YouTube (`... | Quýt Nhỏ Audio 0010`, hoặc dạng cũ `Quýt Nhỏ Audio 0001 | ...`) khớp cột Số tập trên kênh, hoặc khớp số trong cột **Tiêu đề dự kiến (dang-bai)** khi ô Số tập còn trống.
+3. Tiêu đề YouTube gần giống cột Tiêu đề dự kiến (dang-bai) hoặc Tiêu đề truyện (repo). Chỉ ghép khi một dòng giống rõ rệt hơn các dòng khác. Dùng khi `dang-bai.md` còn để `XXXX`.
 
-Tiêu đề trên YouTube khác hẳn cả 3 tiêu đề dự kiến thì video vào tab Chưa ghép. Đổi tiêu đề trong `dang-bai.md` thì sửa cả ô Tiêu đề dự kiến của tập đó trong sheet.
+Cột Tiêu đề dự kiến (dang-bai) chép nguyên tiêu đề ở mục "Tiêu đề YouTube" của `dang-bai.md` (`<hook> | Quýt Nhỏ Audio 0010`). Điền số vào `dang-bai.md` thì sửa luôn ô này. Thử ngày 2026-11-27 với 36 video (9 tiêu đề dạng cũ, 26 dạng mới có số, 1 dạng mới mà `dang-bai.md` còn `XXXX`), coi như sheet chưa có link và số: ghép đúng 36/36.
+
+Video không khớp số và tiêu đề khác hẳn thì vào tab Chưa ghép.
 
 Video không ghép được nằm ở tab **Chưa ghép**. Dán link của nó vào cột Link YouTube ở dòng đúng của tab Video, rồi bấm Đồng bộ YouTube ngay.
 

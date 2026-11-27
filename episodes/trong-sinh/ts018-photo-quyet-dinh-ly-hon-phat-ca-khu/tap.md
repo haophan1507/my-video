@@ -1,7 +1,7 @@
 # ts018: Ly hôn xong bị nhà chồng bôi nhọ, tôi photo hai trăm bản biên bản của tòa phát cho cả khu
 
 - **Truyện nguồn**: ts018, stories/trong-sinh/ts018-photo-quyet-dinh-ly-hon-phat-ca-khu.md
-- **Bước hiện tại**: xong 7, chưa đăng
+- **Bước hiện tại**: xong 7, đã đăng YouTube, TikTok chưa đăng
 - **Cập nhật**: 2026-11-27
 
 ## Quyết định
@@ -37,3 +37,4 @@
 - 2026-11-23: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 10 chương, ~9.316 chữ, ~52 phút; dàn ý và chương chưa duyệt. Đổi toàn bộ tên so với nguồn (Hiểu Hiểu → Thái Tử Lam, Hứa Trường Minh → Từ Dự Châu, Lâm Vi → Túy Nhi, mẹ chồng → Từ Quỳnh, thầy Trần → Mai Dao). Thêm hai vòng đối đầu mới theo dòng "Cần làm ở bước 2" của nguồn: khổ nhục kế và đòi tiền của mẹ chồng (ch.5), tin đồn đến công ty (ch.6), và vòng đối đầu thứ hai với nhân tình ở quán cà phê (ch.7). Trọng sinh giữ nhẹ, không khoe biết trước mọi thứ.
 - 2026-11-23: viết lại toàn bộ outline và 10 chương sau khi soát (bản đầu câu vô nghĩa, lời kể rời rạc). Đổi hook: photo ngay ngày sau khi nhận biên bản hòa giải. `normalize-vi` sạch; chưa nghe thử, chưa duyệt.
 - 2026-11-27: gen giọng, footage `cake` từ clip 07, ảnh bìa; render xong YouTube (30:16), 3 phần TikTok + bìa, thumb; đã xem lướt khung đầu, giữa, cuối.
+- 2026-11-27: đã đăng YouTube (lên lịch); TikTok chưa đăng. Xóa `out/youtube.mp4` khỏi máy (đã chuyển vào Thùng rác).

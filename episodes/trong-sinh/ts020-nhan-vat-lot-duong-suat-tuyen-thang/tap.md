@@ -1,7 +1,7 @@
 # ts020: Tôi là nhân vật lót đường trong truyện thanh xuân: vì suất tuyển thẳng mà bị nam chính thuê côn đồ đánh chết
 
 - **Truyện nguồn**: ts020, stories/trong-sinh/ts020-nhan-vat-lot-duong-suat-tuyen-thang.md
-- **Bước hiện tại**: xong 7, chưa đăng
+- **Bước hiện tại**: xong 7, đã đăng YouTube, TikTok chưa đăng
 - **Cập nhật**: 2026-11-27
 
 ## Quyết định
@@ -37,3 +37,4 @@
 - 2026-11-23: hoàn thiện kịch bản bước 1-4: 9 chương chuẩn 700-1.100 từ, normalize sạch không lỗi số hay ngoặc, sẵn sàng gen giọng bước 5.
 - 2026-11-23: viết lại toàn bộ 8 chương (bỏ ch.9, mạch bằng chứng rõ, giảm bạo lực), normalize sạch, cập nhật outline, episode.json.
 - 2026-11-27: gen giọng, footage `kitchen` từ clip 01, ảnh bìa; render xong YouTube (21:20), 3 phần TikTok + bìa, thumb; đã xem lướt khung đầu, giữa, cuối.
+- 2026-11-27: đã đăng YouTube (lên lịch); TikTok chưa đăng. Xóa `out/youtube.mp4` khỏi máy (đã chuyển vào Thùng rác).

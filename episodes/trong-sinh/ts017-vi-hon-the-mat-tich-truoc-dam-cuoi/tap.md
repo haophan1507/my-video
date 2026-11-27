@@ -1,7 +1,7 @@
 # ts017: Hôn phu mất tích ngay trước đám cưới để đón người cũ về nước; trọng sinh, tôi gõ cửa nhà đối thủ: Anh Cung, anh có hứng liên hôn không?
 
 - **Truyện nguồn**: ts017, stories/trong-sinh/ts017-vi-hon-the-mat-tich-truoc-dam-cuoi.md
-- **Bước hiện tại**: xong 7, chưa đăng
+- **Bước hiện tại**: xong 7, đã đăng YouTube, TikTok chưa đăng
 - **Cập nhật**: 2026-11-27
 
 ## Quyết định
@@ -37,3 +37,4 @@
 - 2026-11-23: hoàn thiện kịch bản bước 1-4: 10 chương chuẩn 700-1.100 từ, normalize sạch không lỗi số hay ngoặc, sẵn sàng gen giọng bước 5.
 - 2026-11-23: viết lại xong toàn bộ outline và 10 chương (đổi ngôi nam sang nữ, sửa nhầm giới tính nhân vật, bỏ cảnh thô, không đẩy hai kẻ cũ sang Đông Nam Á mà để họ tự chọn). `normalize-vi` sạch; chưa nghe thử, chưa duyệt.
 - 2026-11-27: gen giọng, footage `cake` từ clip 04, ảnh bìa; render xong YouTube (33:54), 3 phần TikTok + bìa, thumb; đã xem lướt khung đầu, giữa, cuối.
+- 2026-11-27: đã đăng YouTube (lên lịch); TikTok chưa đăng. Xóa `out/youtube.mp4` khỏi máy (đã chuyển vào Thùng rác).

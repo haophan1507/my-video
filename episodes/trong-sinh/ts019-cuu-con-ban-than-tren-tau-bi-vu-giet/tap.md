@@ -1,7 +1,7 @@
 # ts019: Tôi cứu con của bạn thân trên tàu hỏa, rồi bị vu là ấn gãy xương sườn giết đứa bé, bị ném ra khỏi cửa sổ toa
 
 - **Truyện nguồn**: ts019, stories/trong-sinh/ts019-cuu-con-ban-than-tren-tau-bi-vu-giet.md
-- **Bước hiện tại**: xong 7, chưa đăng
+- **Bước hiện tại**: xong 7, đã đăng YouTube, TikTok chưa đăng
 - **Cập nhật**: 2026-11-27
 
 ## Quyết định
@@ -37,3 +37,4 @@
 - 2026-11-23: hoàn thiện kịch bản bước 1-4: 9 chương chuẩn 700-1.100 từ, normalize sạch không lỗi số hay ngoặc, sẵn sàng gen giọng bước 5.
 - 2026-11-23: viết lại toàn bộ 9 chương (đơn giản hóa văn, logic xương sườn và hộp sữa, Triệt Vĩ lỡ miệng, bé được cứu), normalize sạch, cập nhật outline, episode.json.
 - 2026-11-27: gen giọng, footage `cake` từ clip 02, ảnh bìa; render xong YouTube (23:06), 3 phần TikTok + bìa, thumb; đã xem lướt khung đầu, giữa, cuối.
+- 2026-11-27: đã đăng YouTube (lên lịch); TikTok chưa đăng. Xóa `out/youtube.mp4` khỏi máy (đã chuyển vào Thùng rác).

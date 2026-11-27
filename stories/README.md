@@ -238,11 +238,11 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 | ts001 | voice d99082f8, tốc độ 1,2 | `craft` | đã render 2026-11-22, đã đăng YouTube 2026-11-24, TikTok chưa đăng |
 | ts004 | chưa chốt | chưa chốt | mở 2026-11-23; kịch bản bước 1–4 xong, chờ duyệt (10 chương, ~47 phút), đã đăng YouTube 2026-11-24, TikTok chưa đăng |
 | ts011 | voice d99082f8, tốc độ 1,2 | `acrylic` | đã render 2026-11-26, đã đăng YouTube 2026-11-26, TikTok chưa đăng |
-| ts016 | voice d99082f8, tốc độ 1,2 | `cake` | đã render 2026-11-27 (34:33), chưa đăng |
-| ts017 | voice d99082f8, tốc độ 1,2 | `cake` | đã render 2026-11-27 (33:54), chưa đăng |
-| ts018 | voice d99082f8, tốc độ 1,2 | `cake` | đã render 2026-11-27 (30:16), chưa đăng |
-| ts019 | voice d99082f8, tốc độ 1,2 | `cake` | đã render 2026-11-27 (23:06), chưa đăng |
-| ts020 | voice d99082f8, tốc độ 1,2 | `kitchen` | đã render 2026-11-27 (21:20), chưa đăng |
+| ts016 | voice d99082f8, tốc độ 1,2 | `cake` | đã render 2026-11-27 (34:33), đã đăng YouTube 2026-11-27, TikTok chưa đăng |
+| ts017 | voice d99082f8, tốc độ 1,2 | `cake` | đã render 2026-11-27 (33:54), đã đăng YouTube 2026-11-27, TikTok chưa đăng |
+| ts018 | voice d99082f8, tốc độ 1,2 | `cake` | đã render 2026-11-27 (30:16), đã đăng YouTube 2026-11-27, TikTok chưa đăng |
+| ts019 | voice d99082f8, tốc độ 1,2 | `cake` | đã render 2026-11-27 (23:06), đã đăng YouTube 2026-11-27, TikTok chưa đăng |
+| ts020 | voice d99082f8, tốc độ 1,2 | `kitchen` | đã render 2026-11-27 (21:20), đã đăng YouTube 2026-11-27, TikTok chưa đăng |
 | ts021 | chưa chốt | chưa chốt | mở 2026-11-23 |
 | ts025 | chưa chốt | chưa chốt | mở 2026-11-23 |
 | ts026 | chưa chốt | chưa chốt | mở 2026-11-23 |

@@ -10,14 +10,16 @@
  *
  * Ghép video với dòng theo thứ tự:
  *   1. ID video đã có trong cột Link YouTube
- *   2. Số trong tiêu đề ("Quýt Nhỏ Audio 0009") khớp cột "Số tập trên kênh"
- *   3. Tiêu đề YouTube gần giống một trong các tiêu đề ở cột "Tiêu đề dự kiến (dang-bai)"
- *      (chính + 2 A/B, mỗi dòng một tiêu đề) hoặc cột "Tiêu đề truyện (repo)"
+ *   2. Số trong tiêu đề YouTube ("... | Quýt Nhỏ Audio 0009") khớp cột "Số tập trên kênh",
+ *      hoặc khớp số trong cột "Tiêu đề dự kiến (dang-bai)" khi ô Số tập còn trống
+ *   3. Tiêu đề YouTube gần giống cột "Tiêu đề dự kiến (dang-bai)" (mỗi dòng một tiêu đề)
+ *      hoặc cột "Tiêu đề truyện (repo)"
  * Video không ghép được ghi vào tab "Chưa ghép": dán link của nó vào cột Link YouTube
  * của dòng đúng, lần đồng bộ sau sẽ tự nhận.
  */
 
 const CFG = {
+  channelHandle: '@quytnho_audio', // kênh cần đồng bộ
   sheet: 'Video',
   overview: 'Tổng quan',
   unmatchedSheet: 'Chưa ghép',
@@ -86,7 +88,8 @@ function run_() {
   });
 
   const rows = data.slice(1);
-  const videos = fetchVideos_();
+  const fetched = fetchVideos_();
+  const videos = fetched.videos;
 
   // Dòng đã có link thuộc về video đó.
   const owner = new Map(); // chỉ số dòng -> id video
@@ -98,7 +101,9 @@ function run_() {
       byId[id] = i;
       owner.set(i, id);
     }
-    if (c.no >= 0 && r[c.no] !== '' && r[c.no] !== null) byNo[Number(r[c.no])] = i;
+    let no = c.no >= 0 && r[c.no] !== '' && r[c.no] !== null ? Number(r[c.no]) : null;
+    if (!no && c.planned >= 0) no = episodeNo_(r[c.planned]);
+    if (no) byNo[no] = i;
   });
   const free = (i, id) => i !== undefined && (!owner.has(i) || owner.get(i) === id);
 
@@ -167,6 +172,7 @@ function run_() {
   const n = rows.length;
   if (n) {
     if (c.duration >= 0) sh.getRange(2, c.duration + 1, n, 1).setNumberFormat('@');
+    if (c.time >= 0) sh.getRange(2, c.time + 1, n, 1).setNumberFormat('dd/mm/yyyy hh:mm');
     ['yt', 'no', 'time', 'link', 'views', 'duration', 'ytTitle'].forEach((k) => {
       if (c[k] < 0) return;
       sh.getRange(2, c[k] + 1, n, 1).setValues(rows.map((r) => [r[c[k]]]));
@@ -174,13 +180,24 @@ function run_() {
   }
 
   writeUnmatched_(ss, unmatched);
-  writeSyncTime_(ss, videos.length, matched.size, unmatched.length);
+  writeSyncTime_(ss, videos.length, matched.size, unmatched.length, fetched.note);
 }
 
+// Đọc video của kênh CFG.channelHandle. Tài khoản đã cấp quyền là chủ kênh thì thấy cả video
+// lên lịch và riêng tư; nếu không, chỉ thấy video công khai.
 function fetchVideos_() {
-  const ch = YouTube.Channels.list('contentDetails', { mine: true });
-  if (!ch.items || !ch.items.length) throw new Error('Tài khoản đang đăng nhập không có kênh YouTube');
-  const uploads = ch.items[0].contentDetails.relatedPlaylists.uploads;
+  const want = CFG.channelHandle.toLowerCase();
+  const mine = YouTube.Channels.list('snippet,contentDetails', { mine: true });
+  let ch = (mine.items || []).find((c) => String(c.snippet.customUrl || '').toLowerCase() === want);
+  let note = '';
+  if (!ch) {
+    const pub = YouTube.Channels.list('snippet,contentDetails', { forHandle: CFG.channelHandle });
+    ch = (pub.items || [])[0];
+    if (!ch) throw new Error('Không tìm thấy kênh ' + CFG.channelHandle);
+    const got = (mine.items || []).map((c) => c.snippet.customUrl || c.snippet.title).join(', ') || 'không có kênh';
+    note = 'Chỉ đọc được video công khai: quyền đang cấp cho kênh ' + got + ', không phải ' + CFG.channelHandle;
+  }
+  const uploads = ch.contentDetails.relatedPlaylists.uploads;
 
   const ids = [];
   let token;
@@ -201,7 +218,7 @@ function fetchVideos_() {
     });
     (res.items || []).forEach((v) => out.push(parseVideo_(v)));
   }
-  return out;
+  return { videos: out, note: note };
 }
 
 function parseVideo_(v) {
@@ -219,14 +236,13 @@ function parseVideo_(v) {
     time = '';
   }
   const title = sn.title || '';
-  const no = title.match(/Audio\s*(\d{3,5})/i);
   return {
     id: v.id,
     title: title,
     status: status,
     privacy: s.privacyStatus || '',
     time: time ? new Date(time) : '',
-    no: no ? Number(no[1]) : null,
+    no: episodeNo_(title),
     views: Number((v.statistics || {}).viewCount || 0),
     duration: duration_((v.contentDetails || {}).duration),
   };
@@ -251,7 +267,7 @@ function writeUnmatched_(ss, list) {
   );
 }
 
-function writeSyncTime_(ss, total, matched, unmatched) {
+function writeSyncTime_(ss, total, matched, unmatched, note) {
   const sh = ss.getSheetByName(CFG.overview);
   if (!sh) return;
   const labels = sh.getRange(1, 1, sh.getLastRow() || 1, 1).getValues();
@@ -261,7 +277,15 @@ function writeSyncTime_(ss, total, matched, unmatched) {
     sh.getRange(row, 1).setValue(CFG.syncLabel);
   }
   sh.getRange(row, 2).setValue(new Date()).setNumberFormat('dd/mm/yyyy hh:mm');
-  sh.getRange(row, 3).setValue(total + ' video, ghép ' + matched + ', chưa ghép ' + unmatched);
+  sh.getRange(row, 3).setValue(
+    total + ' video, ghép ' + matched + ', chưa ghép ' + unmatched + (note ? '. ' + note : '')
+  );
+}
+
+// Số tập trong tiêu đề, ở đầu ("Quýt Nhỏ Audio 0009 | ...") hoặc cuối ("... | Quýt Nhỏ Audio 0009").
+function episodeNo_(title) {
+  const m = String(title || '').match(/Audio\s*(\d{3,5})/i);
+  return m ? Number(m[1]) : null;
 }
 
 function videoId_(url) {

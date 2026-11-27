@@ -1,7 +1,7 @@
 # ts016: Trọng sinh về ngày mẹ mất, tôi để chồng ngoại tình tự do rồi một mình mang con đi thật xa
 
 - **Truyện nguồn**: ts016, stories/trong-sinh/ts016-chong-ngoai-tinh-mang-con-ra-nuoc-ngoai.md
-- **Bước hiện tại**: xong 7, chưa đăng
+- **Bước hiện tại**: xong 7, đã đăng YouTube, TikTok chưa đăng
 - **Cập nhật**: 2026-11-27
 
 ## Quyết định
@@ -37,3 +37,4 @@
 - 2026-11-23: hoàn thiện kịch bản bước 1-4: 11 chương chuẩn 700-1.100 từ, normalize sạch không lỗi số hay ngoặc, sẵn sàng gen giọng bước 5.
 - 2026-11-23: viết lại toàn bộ outline và 10 chương sau khi soát (bản đầu nhầm vai, cốt truyện rối, lời kể gián tiếp, 11 chương). Đổi họ con thành Quách (theo cha). `normalize-vi` sạch; chưa nghe thử, chưa duyệt.
 - 2026-11-27: gen giọng, footage `cake` từ clip 01, ảnh bìa; render xong YouTube (34:33), 3 phần TikTok + bìa, thumb; đã xem lướt khung đầu, giữa, cuối.
+- 2026-11-27: đã đăng YouTube (lên lịch); TikTok chưa đăng. Xóa `out/youtube.mp4` khỏi máy (đã chuyển vào Thùng rác).
