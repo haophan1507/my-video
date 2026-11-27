@@ -1,39 +1,47 @@
 {
   "title": "Tôi là nhân vật lót đường trong truyện thanh xuân: vì suất tuyển thẳng mà bị nam chính thuê côn đồ đánh chết",
-  "footageTag": "",
-  "dim": 0.15,
+  "footageTag": "kitchen",
+  "dim": 0.05,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Sáu mươi hai ngày trên bảng đen"
+      "title": "Sáu mươi hai ngày trên bảng đen",
+      "startSec": 3.99
     },
     {
-      "title": "Tiệm thư pháp cuối phố"
+      "title": "Tiệm thư pháp cuối phố",
+      "startSec": 158.36
     },
     {
-      "title": "Ảnh giả trên bảng tin"
+      "title": "Ảnh giả trên bảng tin",
+      "startSec": 316.2
     },
     {
-      "title": "Bà mẹ nhà tài trợ"
+      "title": "Bà mẹ nhà tài trợ",
+      "startSec": 472.41
     },
     {
-      "title": "Con hẻm và chiếc ô"
+      "title": "Con hẻm và chiếc ô",
+      "startSec": 632.93
     },
     {
-      "title": "Ba ngày thi"
+      "title": "Ba ngày thi",
+      "startSec": 789.31
     },
     {
-      "title": "Đứng đầu toàn tỉnh"
+      "title": "Đứng đầu toàn tỉnh",
+      "startSec": 945.04
     },
     {
-      "title": "Sân khấu của Trúc Yên"
+      "title": "Sân khấu của Trúc Yên",
+      "startSec": 1104.43
     }
   ],
   "parts": [
@@ -58,9 +66,14 @@
       "hook": "Ký túc xá của tôi bị lục tung|bốn bóng người chờ trong con hẻm|*tôi đã biết đường này từ kiếp trước*"
     }
   ],
-  "thumbText": "TRỌNG SINH|*VẢ MẶT KẺ ÁC*|LẤY LẠI CÔNG LÝ|*TRẢ CẢ VỐN LẪN LÃI*",
+  "thumbText": "Họ muốn tôi|*biến mất*|trước kỳ thi.|Tôi *đỗ đầu tỉnh*.",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts020/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 0,
+  "thumbFace": "48% 25%",
+  "thumbZoom": 1.05,
+  "coverZoom": 0.65,
+  "audioSrc": "ts020/audio.mp3"
 }

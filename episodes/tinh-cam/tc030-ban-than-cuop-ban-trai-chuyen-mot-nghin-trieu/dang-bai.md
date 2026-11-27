@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Mỗi lần bạn thân cướp bạn trai, tôi lại nhận 10 triệu tệ, lần này tôi nhường
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Bạn thân nhìn bạn trai đi Maserati của tôi như mèo thấy cá, tôi lại mừng thầm
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Bạn thân gửi ảnh hôn bạn trai tôi, tôi gửi địa chỉ khách sạn cho bồ cô ta
+Mỗi lần bạn thân cướp bạn trai, tôi lại nhận 10 triệu tệ, lần này tôi nhường | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

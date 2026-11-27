@@ -17,8 +17,8 @@
   "parts": [
     {"chapters": [1, 2], "hook": "Hook của Phần 1"}
   ],
-  "thumbText": "Hook rút gọn|tối đa 4 dòng|*từ nhấn* tô màu",
-  "thumbTag": "Trọn bộ",
+  "thumbText": "Trùng hook của tiêu đề, *cụm nhấn* tô đỏ",
+  "thumbTag": "Audio Full",
   "thumbFocus": "50% 30%",
   "thumbBg": null,
   "introSec": 0

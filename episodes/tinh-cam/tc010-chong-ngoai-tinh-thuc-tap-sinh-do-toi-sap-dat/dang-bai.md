@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Chồng nói tăng ca, tôi thấy anh hôn trán thực tập sinh, đưa về căn hộ tôi mua
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Chồng ngoại tình với thực tập sinh, anh ta không biết cô gái ấy do tôi sắp đặt
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Cưới 5 năm, chồng ngoại tình ở căn hộ tôi đứng tên, tôi lặng lẽ mở hóa đơn
+Chồng nói tăng ca, tôi thấy anh hôn trán thực tập sinh, đưa về căn hộ tôi mua | Quýt Nhỏ Audio 0018
 ```
 
 ## Mô tả YouTube

@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Trọng sinh lúc bố chồng tát mẹ chồng, bắt chồng tôi tập đánh vợ; tôi ghi âm
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Chịu đòn 9 năm ở nhà chồng; trọng sinh, chồng giơ tay theo lệnh bố, tôi né
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Bố chồng đánh mẹ chồng khi bà bế con tôi; trọng sinh, tôi lén giấu camera
+Trọng sinh lúc bố chồng tát mẹ chồng, bắt chồng tôi tập đánh vợ; tôi ghi âm | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Đòi sính lễ 8 vạn 8, bạn trai chê hám tiền, anh ta đâu biết nhà tôi có mỏ vàng
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Bạn trai hỏi: Cô dựa vào đâu mà nghĩ yêu tôi 8 năm thì đáng giá 8 vạn?
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Ra mắt nhà bạn trai, mẹ anh ta hâm đĩa cải thừa đãi tôi, chê sính lễ 8 vạn 8
+Đòi sính lễ 8 vạn 8, bạn trai chê hám tiền, anh ta đâu biết nhà tôi có mỏ vàng | Quýt Nhỏ Audio 0028
 ```
 
 ## Mô tả YouTube

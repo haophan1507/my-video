@@ -1,42 +1,51 @@
 {
   "title": "Tôi cứu con của bạn thân trên tàu hỏa, rồi bị vu là ấn gãy xương sườn giết đứa bé, bị ném ra khỏi cửa sổ toa",
-  "footageTag": "",
+  "footageTag": "cake",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Một phút trước khi cô ta cầu cứu"
+      "title": "Một phút trước khi cô ta cầu cứu",
+      "startSec": 3.99
     },
     {
-      "title": "Chiêu quỳ gối"
+      "title": "Chiêu quỳ gối",
+      "startSec": 164.19
     },
     {
-      "title": "Cái tát và đoạn video giả"
+      "title": "Cái tát và đoạn video giả",
+      "startSec": 311.55
     },
     {
-      "title": "Xin tàu dừng ở Trấn Giang"
+      "title": "Xin tàu dừng ở Trấn Giang",
+      "startSec": 464.81
     },
     {
-      "title": "Hai xương sườn gãy từ trước"
+      "title": "Hai xương sườn gãy từ trước",
+      "startSec": 620.6
     },
     {
-      "title": "Câu nói hắn không được biết"
+      "title": "Câu nói hắn không được biết",
+      "startSec": 764.49
     },
     {
-      "title": "Người chồng chặn ở cửa toa"
+      "title": "Người chồng chặn ở cửa toa",
+      "startSec": 916.67
     },
     {
-      "title": "Kế hoạch của ba người"
+      "title": "Kế hoạch của ba người",
+      "startSec": 1073.52
     },
     {
-      "title": "Tiếng khóc thay tiếng rơi"
+      "title": "Tiếng khóc thay tiếng rơi",
+      "startSec": 1238.21
     }
   ],
   "parts": [
@@ -61,9 +70,14 @@
       "hook": "Hộp sữa không có vân tay mẹ|bác sĩ phát hiện hai xương sườn gãy|*hắn lỡ miệng nói ra điều không ai biết*"
     }
   ],
-  "thumbText": "CỨU CON BẠN THÂN|*BỊ VU GIẾT NGƯỜI*|CHỒNG MỞ VIDEO GIẢ|*BẮT QUẢ TANG TRÊN TÀU*",
+  "thumbText": "Cứu con bạn thân,|tôi bị cô ta|*vu giết người*|ngay trên tàu",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts019/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 1,
+  "thumbFace": "41% 39%",
+  "thumbZoom": 0.66,
+  "coverZoom": 0.76,
+  "audioSrc": "ts019/audio.mp3"
 }

@@ -39,3 +39,4 @@
 - 2026-11-21: mở tập.
 - 2026-11-21: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 10 chương, ~9.560 chữ, ~53 phút; dàn ý và chương chưa duyệt.
 - 2026-11-21: chia lại TikTok theo chuẩn 3 phần (50–60% truyện): ch.1–2, ch.3–4, ch.5; điểm dừng chọn theo tỉ lệ chữ, cần duyệt theo độ tò mò.
+- 2026-11-27: viết lại mở đầu ch.1 theo chuẩn mới (văn án, câu tên kênh, cảnh hành động); chưa duyệt, chưa nghe thử.

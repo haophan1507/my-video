@@ -36,3 +36,6 @@
 - 2026-11-23: mở tập.
 - 2026-11-23: hoàn thiện bước 1-4, viết 9 chương kịch bản TTS.
 - 2026-11-23: viết lại toàn bộ 8 chương (bỏ ch.9, sửa lỗi "Tỳ Khỏe Đại Học" thành Đại học Chiết Giang, giảm bạo lực), normalize sạch, cập nhật outline, episode.json.
+- 2026-11-27: viết lại mở đầu ch.1 theo chuẩn mới (văn án, câu tên kênh, cảnh hành động); chưa duyệt, chưa nghe thử.
+- 2026-11-27: viết bù độ dài cho đủ 25 phút (thêm đoạn trong các chương ngắn); chưa duyệt, chưa nghe thử.
+- 2026-11-27: soát phần viết bù (dời đoạn chèn sai chỗ, bỏ đoạn trùng, câu thừa); chưa nghe thử.

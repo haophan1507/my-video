@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Sống lại tuổi 15, em trai nằm vạ đòi cắt bánh trước, tôi ném bánh vào mặt nó
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Gánh em trai cả đời, nằm viện bị mẹ đòi sang tên; trọng sinh, tôi thôi nhường
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Bố mẹ đội vương miện của tôi cho em trai; sống lại, tôi khiến cả nhà đứng hình
+Sống lại tuổi 15, em trai nằm vạ đòi cắt bánh trước, tôi ném bánh vào mặt nó | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

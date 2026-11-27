@@ -1,5 +1,5 @@
 {
-  "title": "Trong két sắt của chồng có hợp đồng đẻ thuê năm triệu tệ, bên B là tên tôi",
+  "title": "Két sắt chồng có hợp đồng đẻ thuê 5 triệu tệ, bên A là tình đầu, bên B là tôi",
   "footageTag": "",
   "dim": 0.15,
   "captionsSrc": "",
@@ -58,8 +58,8 @@
       "hook": "Chồng ngồi trong xe bốn mươi phút, không dám bước xuống"
     }
   ],
-  "thumbText": "Hợp đồng *đẻ thuê*|bên B là|tên tôi",
-  "thumbTag": "Trọn bộ",
+  "thumbText": "Két sắt chồng có hợp đồng đẻ thuê 5 triệu tệ, bên A là tình đầu, *bên B là tôi*",
+  "thumbTag": "Audio Full",
   "thumbFocus": "50% 30%",
   "thumbBg": null,
   "introSec": 0

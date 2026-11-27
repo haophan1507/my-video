@@ -36,3 +36,6 @@
 - 2026-11-23: mở tập.
 - 2026-11-23: hoàn thiện kịch bản bước 1-4: 9 chương chuẩn 700-1.100 từ, normalize sạch không lỗi số hay ngoặc, sẵn sàng gen giọng bước 5.
 - 2026-11-23: viết lại toàn bộ 8 chương (bỏ ch.9, bỏ mạch bắt cháu, kể tiết chế), normalize sạch, cập nhật outline, episode.json.
+- 2026-11-27: viết lại mở đầu ch.1 theo chuẩn mới (văn án, câu tên kênh, cảnh hành động); chưa duyệt, chưa nghe thử.
+- 2026-11-27: viết bù độ dài cho đủ 25 phút (thêm đoạn trong các chương ngắn); chưa duyệt, chưa nghe thử.
+- 2026-11-27: soát phần viết bù (dời đoạn chèn sai chỗ, bỏ đoạn trùng, câu thừa); chưa nghe thử.

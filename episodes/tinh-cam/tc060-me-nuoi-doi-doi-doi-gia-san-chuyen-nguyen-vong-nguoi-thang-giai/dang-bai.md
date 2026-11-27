@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Sinh nhật 20 tuổi, tôi nghe mẹ nuôi nói: Con nhỏ này sinh ra để làm bậc thang
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Thức nửa năm làm bản dự thi, tôi nghe mẹ nuôi cười khẩy: Giỏi thì được gì?
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Bị mẹ nuôi tráo đời từ lúc nằm nôi, 20 năm tôi chỉ là bậc thang cho con gái bà
+Sinh nhật 20 tuổi, tôi nghe mẹ nuôi nói: Con nhỏ này sinh ra để làm bậc thang | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

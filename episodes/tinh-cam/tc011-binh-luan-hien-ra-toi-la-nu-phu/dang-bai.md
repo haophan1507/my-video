@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Vừa ôm cổ chồng, trước mắt tôi hiện chữ: Nữ phụ sắp sảy thai, bị chồng đuổi đi
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Biết mình là nữ phụ sắp bị chồng bỏ, sáng hôm sau que thử thai hiện 2 vạch đỏ
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Bình luận hiện ngang mắt: Nhà nữ phụ sắp phá sản, chồng sẽ bỏ. Nữ phụ là tôi
+Vừa ôm cổ chồng, trước mắt tôi hiện chữ: Nữ phụ sắp sảy thai, bị chồng đuổi đi | Quýt Nhỏ Audio 0020
 ```
 
 ## Mô tả YouTube

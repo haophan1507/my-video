@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Chồng ngoại tình đòi ly hôn, xong thủ tục tôi đưa anh giấy khám: Ung thư phổi
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Chồng theo nhân tình 41 tuổi ở tiệm ngâm chân, tôi hỏi: Anh mê cô ta điểm nào?
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Ly hôn xong tôi chúc mừng chồng một câu, nhân tình 41 tuổi lao vào cào mặt tôi
+Chồng ngoại tình đòi ly hôn, xong thủ tục tôi đưa anh giấy khám: Ung thư phổi | Quýt Nhỏ Audio 0036
 ```
 
 ## Mô tả YouTube

@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Chồng ngoại tình nữ streamer, nạp 500 vạn mới được gặp, tôi giật luôn top 1
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Kỷ niệm 3 năm cưới, tôi nhặt được tóc tiểu tam, nhưng vợ bình hoa không ly hôn
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Ly hôn thì ra đi tay trắng, nên khi chồng ngoại tình, tôi kết bạn với tiểu tam
+Chồng ngoại tình nữ streamer, nạp 500 vạn mới được gặp, tôi giật luôn top 1 | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Bạch nguyệt quang hỏi: Ly hôn rồi yêu em nhé? Chồng tôi đồng ý không do dự
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Chồng hỏi ly hôn để yêu bạch nguyệt quang như hỏi đổi món lẩu, tôi đáp: Được
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Sáng nay bạch nguyệt quang của chồng nhắn tôi: Chị cho em mượn chồng chị nhé
+Bạch nguyệt quang hỏi: Ly hôn rồi yêu em nhé? Chồng tôi đồng ý không do dự | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

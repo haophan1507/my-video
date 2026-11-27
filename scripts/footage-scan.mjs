@@ -17,10 +17,10 @@ if (!fs.existsSync(dir)) { console.error(`Không thấy thư mục ${dir}`); pro
 
 const readJ = (f, d) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return d; } };
 const ledger = readJ(path.join(FOOTAGE, 'ingested.json'), []);
-const done = new Set(ledger.map((l) => `${l.file}|${l.size}`));
+const done = new Set(ledger.map((l) => `${l.file.normalize('NFC')}|${l.size}`));
 const files = fs.readdirSync(dir).filter((f) => /\.(mp4|mov|mkv|webm|m4v)$/i.test(f)).sort()
   .map((f) => ({f, size: fs.statSync(path.join(dir, f)).size}))
-  .filter((x) => all || !done.has(`${x.f}|${x.size}`));
+  .filter((x) => all || !done.has(`${x.f.normalize('NFC')}|${x.size}`));
 if (!files.length) { console.log(`Không có video mới trong ${dir} (đã nạp ${ledger.length} file; --all để liệt kê cả file đã nạp).`); process.exit(0); }
 
 const out = path.join(ROOT, '.tmp', 'footage-scan');

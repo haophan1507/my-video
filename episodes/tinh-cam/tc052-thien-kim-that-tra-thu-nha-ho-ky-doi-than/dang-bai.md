@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Thiên kim thật về nhà, em gái giả đánh gãy chân tôi, bố mẹ chỉ cần thận tôi
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Thất lạc từ năm 4 tuổi, bố ruột đón tôi về chỉ để hiến thận cho em trai
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Cả nhà ruột xử tôi như phạm nhân, họ đâu biết tôi vào nhà này để tính sổ
+Thiên kim thật về nhà, em gái giả đánh gãy chân tôi, bố mẹ chỉ cần thận tôi | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Trọng sinh còn 62 ngày thi, cậu ấm ép tôi nhường suất tuyển thẳng, tôi ghi âm
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Bị giết vì suất tuyển thẳng, tôi trọng sinh và đáp nam thần: Có gì nói ở đây
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Tiểu thư nhà tài trợ khóc xin tôi nhường suất tuyển thẳng, tôi trọng sinh rồi
+Trọng sinh còn 62 ngày thi, cậu ấm ép tôi nhường suất tuyển thẳng, tôi ghi âm | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

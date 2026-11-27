@@ -23,10 +23,11 @@ ff('-f', 'lavfi', '-i', 'anullsrc=r=44100:cl=mono', '-t', String(GAP), `${tmp}/g
 
 const epFile = E.json;
 const data = JSON.parse(fs.readFileSync(epFile, 'utf8'));
-const INTRO = path.join(CHANNEL, 'intro.mp3'); // câu chào kênh dùng chung, đặt trước chương 1
+// Mặc định không chào ở giây 0: câu tên kênh nằm trong ch01 sau đoạn văn án. intro: true để chèn câu chào cũ.
+const INTRO = path.join(CHANNEL, 'intro.mp3');
 const list = [], starts = [];
 let t = 0;
-if (data.intro !== false && fs.existsSync(INTRO)) {
+if (data.intro === true && fs.existsSync(INTRO)) {
   ff('-i', INTRO, '-ar', '44100', '-ac', '1', `${tmp}/intro.wav`);
   list.push(`file '${tmp}/intro.wav'`);
   const introDur = dur(`${tmp}/intro.wav`);

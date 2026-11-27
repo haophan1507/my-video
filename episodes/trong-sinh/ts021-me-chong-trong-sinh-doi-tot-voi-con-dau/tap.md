@@ -36,3 +36,6 @@
 - 2026-11-23: mở tập.
 - 2026-11-23: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 8 chương, ~7.467 chữ, ~41,5 phút; dàn ý và chương chưa duyệt. Đổi toàn bộ tên so với nguồn (Hồng Niệm Đệ → Tần Diệu Bích, Hạ Vân → Vi Hoài Vân, Triệu Dật Xuân → Tưởng Thanh Nguyên, Hồng Chiêu Đệ → Tần Chi Loan, Triệu Nghênh Xuân → Tưởng Minh Uyên). Chuyển ngôi ba của bản gốc thành ngôi một nữ của con dâu theo dòng lưu ý ở `stories/README.md`.
 - 2026-11-23: viết lại toàn bộ outline và 8 chương; người kể trả về bà mẹ chồng trọng sinh (bản cũ đổi sang con dâu nên không kể nổi kiếp trước). `normalize-vi` sạch; chưa nghe thử, chưa duyệt.
+- 2026-11-27: sửa theo chuẩn mới (mở ch.1 bằng văn án, cảnh hối hận ch.8, con số ch.5, phong bao đỏ trở lại câu kết, một tiêu đề, bìa trùng tiêu đề); chưa duyệt, chưa nghe thử.
+- 2026-11-27: viết bù độ dài cho đủ 25 phút (thêm đoạn trong các chương ngắn); chưa duyệt, chưa nghe thử.
+- 2026-11-27: soát phần viết bù (dời đoạn chèn sai chỗ, bỏ đoạn trùng, câu thừa); chưa nghe thử.

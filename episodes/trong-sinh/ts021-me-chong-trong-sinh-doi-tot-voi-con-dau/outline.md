@@ -33,7 +33,7 @@ Không đặt tên riêng: chồng tôi (ông Tưởng), cháu gái (Tinh Tinh g
 | 8 | Lần này nhắm mắt thanh thản | 714 |
 
 ### Chương 1. Mở mắt ngày cưới của con trai
-- **Hook mở**: hook cả truyện.
+- **Hook mở**: văn án (xung đột, kiếp trước, quyết định, lời hứa kết cục), rồi câu tên kênh.
 - **Nội dung**: tỉnh dậy trong phòng nghỉ khách sạn, nhớ kiếp trước nằm một mình; vết bầm ở cổ chân; chị Chi Loan xúi đòi sính lễ; bà từ chối; câu chào kênh chèn ngay sau.
 - **Cliffhanger**: Minh Uyên báo con dâu đòi hủy hôn.
 
@@ -78,22 +78,18 @@ Chuẩn 2026-11-21: 3 phần, mỗi phần 1–2 chương, tổng ~50–60% số
 
 | Phần | Chương | Chữ | Phút | Mở bằng | Kết bằng |
 |---|---|---|---|---|---|
-| 1/3 | 1 | 713 | ~4,0 | Kiếp trước tôi là bà mẹ chồng cay nghiệt, chết một mình trong bệnh viện, ống truyền cắm… | Tôi cau mày. Nếu tôi nhớ không nhầm, hôm đó con bé Hoài Vân định bỏ đi, và Minh Uyên là người đổ… |
+| 1/3 | 1 | 713 | ~4,0 | Đúng ngày cưới của con trai, con gái chạy đến báo tôi, con dâu đang đòi hủy hôn. | Tôi cau mày. Nếu tôi nhớ không nhầm, hôm đó con bé Hoài Vân định bỏ đi, và Minh Uyên là người đổ… |
 | 2/3 | 2–3 | 1.682 | ~9,3 | Phòng thay đồ của cô dâu bật đèn sáng trưng, mùi keo xịt tóc nồng nặc. | Tôi quyết định ngay trong đêm tân hôn của con: từ nay, tôi sẽ đối xử tốt với con bé. |
 | 3/3 | 4 | 840 | ~4,7 | Nhà mới của hai đứa vừa sơn xong, mùi sơn còn nồng. Tôi bảo chúng nó dọn về ở với vợ… | Tôi nhìn chiếc vòng lấp lánh, cười không khép được miệng, chỉ ước chạy ra phố khoe với cả thiên hạ. |
 
 Tổng ba phần: 49% số chữ (ch.1–4/8); ch.5–8 (chiếc vòng, giả ốm, ở cữ, cái chết thanh thản) dành cho bản YouTube.
 
-## 5 phương án tiêu đề YouTube
+## Tiêu đề YouTube
 
-Chấm 1–5 theo (xung đột sớm, cụ thể, khoảng trống thông tin, khớp truyện) = tối đa 20; giữ 2–3 cái ≥ 16 để A/B test.
+`Mẹ chồng trọng sinh về ngày cưới con trai, con gái báo: Con dâu đòi hủy hôn! | Quýt Nhỏ Audio XXXX`
 
-| # | Tiêu đề | Khuôn | Điểm |
-|---|---|---|---|
-| A | `[Truyện Audio] Kiếp trước tôi là mẹ chồng cay nghiệt chết một mình, mở mắt ra là ngày cưới của con trai \| Quýt Nhỏ Audio` | trọng sinh, đảo vai | 5+4+4+5 = 18 |
-| B | `[Truyện Audio] Mẹ chồng quỳ xin lỗi con dâu ngay trong phòng thay đồ ngày cưới \| Quýt Nhỏ Audio` | đảo vai | 4+5+4+5 = 18 |
-| C | `[Truyện Audio] Hóa đơn tiệc cưới năm vạn tệ đã được con dâu trả, mẹ chồng đứng sững \| Quýt Nhỏ Audio` | khoảnh khắc cụ thể | 4+5+4+5 = 18 |
-| D | `[Truyện Audio] Con dâu tặng mẹ chồng chiếc vòng vàng, con gái đòi mượn, bà chỉ vào dấu vàng \| Quýt Nhỏ Audio` | khoảnh khắc cụ thể | 4+5+3+5 = 17 |
-| E | `[Truyện Audio] Chị gái xúi tôi giả ốm để ép con dâu, tôi nói em từng làm vậy và chết một mình \| Quýt Nhỏ Audio` | nghịch lý | 4+4+4+5 = 17 |
+## Cảnh tùy chọn đã dùng (`truyen.md` mục 4)
 
-Gợi ý giữ để A/B: **A, B, C**. Chữ đều có thật ở ch.1–6; không nêu kết (bà nằm giữa gia đình khi mất).
+- Cảnh hối hận: ch.8, chị Chi Loan một mình đêm giao thừa (chuyển ngôi ba).
+- Vả mặt có con số: ch.5, câu trả lời được 97 lượt tim, 42 người khen; ch.3, hóa đơn năm vạn tệ.
+- Đồ vật trở lại: phong bao đỏ (ch.1 có 200 tệ; ch.3 thay 5.000 tệ; ch.8 Hoài Vân đặt vào tay lúc bà mất).

@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Chồng hầm súp 2 tiếng cho tình đầu, tối đó tôi tìm luật sư soạn đơn ly hôn
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Cưới 3 năm chưa nhận một đồng sinh hoạt phí, tôi lập bảng quyết toán hôn nhân
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Chồng bảo bạch nguyệt quang dạ dày yếu, còn dạ dày tôi chắc làm bằng thép
+Chồng hầm súp 2 tiếng cho tình đầu, tối đó tôi tìm luật sư soạn đơn ly hôn | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

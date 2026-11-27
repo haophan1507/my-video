@@ -1,5 +1,5 @@
 {
-  "title": "Bố mẹ ly hôn, tôi chọn mẹ rồi bị con riêng của dượng bắt nạt đến chết; trọng sinh về đúng phiên tòa, tôi chọn bố",
+  "title": "Trọng sinh về phiên tòa ly hôn, quan tòa hỏi theo bố hay mẹ, tôi nói: Bố.",
   "footageTag": "",
   "dim": 0.15,
   "captionsSrc": "",
@@ -58,8 +58,8 @@
       "hook": "Nhóm đầu gấu chặn tôi ở cổng sau|lần này tôi đã chuẩn bị|*bố đi họp phụ huynh lần đầu trong đời*"
     }
   ],
-  "thumbText": "Bố mẹ ly hôn|Tôi chọn mẹ thì *bị hại đến chết*|Trọng sinh về đúng phiên tòa|Tôi dứt khoát *chọn bố*",
-  "thumbTag": "Trọn bộ",
+  "thumbText": "Trọng sinh về phiên tòa ly hôn, quan tòa hỏi theo bố hay mẹ, tôi nói: *Bố*.",
+  "thumbTag": "Audio Full",
   "thumbFocus": "50% 30%",
   "thumbBg": null,
   "introSec": 0

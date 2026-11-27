@@ -1,45 +1,55 @@
 {
   "title": "Ly hôn xong bị nhà chồng bôi nhọ, tôi photo hai trăm bản biên bản của tòa phát cho cả khu",
-  "footageTag": "",
+  "footageTag": "cake",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Tiếng gõ cửa buổi chiều"
+      "title": "Tiếng gõ cửa buổi chiều",
+      "startSec": 3.99
     },
     {
-      "title": "Cuộc gọi cho thám tử"
+      "title": "Cuộc gọi cho thám tử",
+      "startSec": 198.91
     },
     {
-      "title": "Cây chổi ở cửa"
+      "title": "Cây chổi ở cửa",
+      "startSec": 399.39
     },
     {
-      "title": "Ba ngày để suy nghĩ"
+      "title": "Ba ngày để suy nghĩ",
+      "startSec": 565.79
     },
     {
-      "title": "Khổ nhục kế"
+      "title": "Khổ nhục kế",
+      "startSec": 760.63
     },
     {
-      "title": "Phòng hòa giải"
+      "title": "Phòng hòa giải",
+      "startSec": 932.65
     },
     {
-      "title": "Hai trăm bản giấy"
+      "title": "Hai trăm bản giấy",
+      "startSec": 1135.93
     },
     {
-      "title": "Bức thêu bách niên hảo hợp"
+      "title": "Bức thêu bách niên hảo hợp",
+      "startSec": 1330.28
     },
     {
-      "title": "Tin từ phố cũ"
+      "title": "Tin từ phố cũ",
+      "startSec": 1488.22
     },
     {
-      "title": "Con đường thứ ba"
+      "title": "Con đường thứ ba",
+      "startSec": 1668.88
     }
   ],
   "parts": [
@@ -64,9 +74,14 @@
       "hook": "Chồng xé đơn ly hôn|mẹ chồng giả đau tim|tôi gọi *xe cấp cứu*"
     }
   ],
-  "thumbText": "Ly hôn xong,|tôi photo *hai trăm bản*|biên bản của tòa|phát cho cả khu",
+  "thumbText": "Chồng ngoại tình,|tôi photo|*hai trăm bản*|phát cả khu phố",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts018/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 6,
+  "thumbFace": "43% 38%",
+  "thumbZoom": 0.66,
+  "coverZoom": 0.73,
+  "audioSrc": "ts018/audio.mp3"
 }

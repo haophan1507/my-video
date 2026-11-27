@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Hôn phu mất tích trước cưới, tôi trọng sinh, gõ cửa đối thủ: Có hứng liên hôn?
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Kiếp trước chết vì bát canh bổ mỗi tối, trọng sinh tôi liên hôn với đối thủ
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Người khóc trước mộ tôi lại là đối thủ một mất một còn, trọng sinh tôi tìm anh
+Hôn phu mất tích trước cưới, tôi trọng sinh, gõ cửa đối thủ: Có hứng liên hôn? | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

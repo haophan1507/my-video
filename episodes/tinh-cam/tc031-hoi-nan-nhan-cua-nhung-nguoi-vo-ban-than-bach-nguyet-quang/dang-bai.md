@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Chồng giả nghèo nhắn tăng ca, bạch nguyệt quang của anh cũng là của 3 bạn thân
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Chồng giả nghèo, tôi biết từ chiếc đồng hồ 300 vạn tệ ở buổi xem mắt mà vẫn im
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Tôi nhắn cho 3 bà vợ lạ, nửa tiếng sau ai cũng hỏi: Bạch nguyệt quang tên gì?
+Chồng giả nghèo nhắn tăng ca, bạch nguyệt quang của anh cũng là của 3 bạn thân | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

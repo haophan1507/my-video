@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Mẹ chồng cho con gái 7 tháng của tôi uống thánh thủy, tôi bóp miệng bà dốc vào
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | 4 giờ sáng, mẹ chồng đập cửa phòng tân hôn vì đại sư, chồng bưng di ảnh bố ra
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Bố chồng chết vì thuốc giả mẹ chồng bán, 5 năm sau bà lén bế con gái tôi đi
+Mẹ chồng cho con gái 7 tháng của tôi uống thánh thủy, tôi bóp miệng bà dốc vào | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

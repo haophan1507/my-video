@@ -39,3 +39,6 @@
 - 2026-11-23: mở tập.
 - 2026-11-23: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 10 chương, ~9.080 chữ, ~50 phút; dàn ý và chương chưa duyệt. Đổi toàn bộ tên so với nguồn (清歌 → Lăng Vân Sương, 刘阿姐 → Ô Lăng, 张翠兰 → Dương Diệu Thúy, 刘轩 → Dương Khiêm). Thêm twist riêng: mẹ nuôi cũng trọng sinh (ch.5), cậu Khiêm là nạn nhân của chính bà ngoại (ch.7–8), không lặp motif mẹ chồng hút máu.
 - 2026-11-23: viết lại toàn bộ outline và 8 chương (xóa 2 chương cũ thừa); bỏ giả định mẹ nuôi cũng trọng sinh; cậu tự sa cờ bạc, nữ chính chỉ ngừng giúp. `normalize-vi` sạch; chưa nghe thử, chưa duyệt.
+- 2026-11-27: viết lại mở đầu ch.1 theo chuẩn mới (văn án, câu tên kênh, cảnh hành động); chưa duyệt, chưa nghe thử.
+- 2026-11-27: viết bù độ dài cho đủ 25 phút (thêm đoạn trong các chương ngắn); chưa duyệt, chưa nghe thử.
+- 2026-11-27: soát phần viết bù (dời đoạn chèn sai chỗ, bỏ đoạn trùng, câu thừa); chưa nghe thử.

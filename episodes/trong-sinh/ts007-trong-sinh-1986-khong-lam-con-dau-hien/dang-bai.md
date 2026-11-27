@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Trọng sinh đêm tân hôn năm 1986, sáng hôm sau tôi đặt đơn ly hôn lên mâm cơm
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Hầu bố mẹ chồng liệt giường 30 năm, chết trên giường đơn; sống lại, tôi ly hôn
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Trọng sinh, tôi đòi ly hôn, chồng cười: Cuối cùng cô cũng biết mình không xứng
+Trọng sinh đêm tân hôn năm 1986, sáng hôm sau tôi đặt đơn ly hôn lên mâm cơm | Quýt Nhỏ Audio 0015
 ```
 
 ## Mô tả YouTube

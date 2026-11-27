@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Trọng sinh ngày cưới, cô dâu thứ hai mặc váy y hệt tôi ôm chú rể, tôi cầm kéo
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Ngày cưới tôi cắt váy, mẹ chồng nắm tay tiểu tam: hóa ra bà cũng trọng sinh
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Nhà tôi góp 300 vạn cho chồng rồi mất trắng; trọng sinh ngày cưới, tôi đòi lại
+Trọng sinh ngày cưới, cô dâu thứ hai mặc váy y hệt tôi ôm chú rể, tôi cầm kéo | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

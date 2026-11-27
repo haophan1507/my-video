@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Vừa ly hôn đã chết cùng chồng cũ, trọng sinh về lớp 11, anh hỏi: Em cũng về à?
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Cưới 7 năm ăn cơm cùng chồng chưa đủ 100 bữa, tôi đòi ly hôn, anh đáp: Được
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Trọng sinh về lớp 11 để tránh chồng cũ, ai ngờ bố tôi thuê đúng anh làm gia sư
+Vừa ly hôn đã chết cùng chồng cũ, trọng sinh về lớp 11, anh hỏi: Em cũng về à? | Quýt Nhỏ Audio 0023
 ```
 
 ## Mô tả YouTube

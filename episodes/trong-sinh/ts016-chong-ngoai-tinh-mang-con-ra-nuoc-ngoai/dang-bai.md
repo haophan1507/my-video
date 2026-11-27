@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Trọng sinh đêm mẹ hấp hối, gọi chồng 5 cuộc rồi thôi, anh đang bên nhân tình
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Nhân tình của chồng quỳ xin thành toàn, tôi trọng sinh rồi nên cười nhạt: Được
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Chồng ngoại tình, mẹ chết một mình trong viện; trọng sinh, tôi tự lo tang lễ
+Nhân tình của chồng quỳ xin thành toàn, tôi trọng sinh rồi nên cười nhạt: Được | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

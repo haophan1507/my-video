@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Thiên kim giả bị đuổi khỏi hào môn, đi xin việc tôi nói: Từng làm tổng tài
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Ngày đầu làm thư ký, tôi ngồi ghế sếp xoay 3 vòng, bắt tổng tài nhường ghế da
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Ôm nhầm con, làm thiên kim 24 năm, tôi kéo vali từ biệt thự về căn hộ 2 phòng
+Thiên kim giả bị đuổi khỏi hào môn, đi xin việc tôi nói: Từng làm tổng tài | Quýt Nhỏ Audio 0038
 ```
 
 ## Mô tả YouTube

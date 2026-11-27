@@ -14,14 +14,14 @@
 | Thể loại | |
 | Điểm: hook / twist / độ dài / dễ nghe / hợp gu (≥ 15/25) | |
 | Hook cả truyện (một câu) | |
-| Tiêu đề YouTube: 5 phương án + điểm, phương án chọn | |
+| Tiêu đề YouTube (một câu) | |
 | Nhân vật: tên → cách gọi cố định | |
 | Bối cảnh | |
 | Độ dài: số chương, phút; cách đủ độ dài | |
 | Chia phần TikTok | |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | |
 | Footage: chủ đề, nguồn, tag | |
-| Ảnh bìa: chữ (3–4 dòng), ảnh nhân vật (link nguồn), phương án A/B | |
+| Ảnh bìa: ảnh nhân vật (link nguồn); chữ trùng tiêu đề | |
 | Teaser TikTok 60–90 giây | |
 
 ## Tiến độ

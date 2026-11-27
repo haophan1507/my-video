@@ -39,3 +39,5 @@
 - 2026-11-23: mở tập.
 - 2026-11-23: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; 10 chương, ~8.281 chữ, ~46 phút; dàn ý và chương chưa duyệt.
 - 2026-11-23: viết lại toàn bộ outline và 9 chương (gộp ch.9–10 cũ); bản đầu nhiều lỗi dùng từ và ngoặc kép. `normalize-vi` sạch; chưa nghe thử, chưa duyệt.
+- 2026-11-27: viết lại mở đầu ch.1 theo chuẩn mới (văn án, câu tên kênh, cảnh hành động); chưa duyệt, chưa nghe thử.
+- 2026-11-27: soát phần viết bù (dời đoạn chèn sai chỗ, bỏ đoạn trùng, câu thừa); chưa nghe thử.

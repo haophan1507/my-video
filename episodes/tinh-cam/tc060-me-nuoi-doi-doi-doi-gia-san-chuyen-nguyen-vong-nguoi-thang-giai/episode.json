@@ -1,5 +1,5 @@
 {
-  "title": "Sinh nhật hai mươi tuổi, tôi nghe mẹ nuôi nói tôi sinh ra để làm bậc thang cho con gái bà ta",
+  "title": "Sinh nhật 20 tuổi, tôi nghe mẹ nuôi nói: Con nhỏ này sinh ra để làm bậc thang",
   "footageTag": "",
   "dim": 0.15,
   "captionsSrc": "",
@@ -62,8 +62,8 @@
       "hook": "Hai giờ sáng trong phòng thí nghiệm, và bà Triển đã chờ ngoài cổng"
     }
   ],
-  "thumbText": "Mẹ nuôi nói tôi|sinh ra để *làm*|*bậc thang*",
-  "thumbTag": "Trọn bộ",
+  "thumbText": "Sinh nhật 20 tuổi, tôi nghe mẹ nuôi nói: Con nhỏ này sinh ra để *làm bậc thang*",
+  "thumbTag": "Audio Full",
   "thumbFocus": "50% 30%",
   "thumbBg": null,
   "introSec": 0

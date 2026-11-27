@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Trà xanh níu tay áo bạn trai tôi, anh hất ra rồi kéo tôi: Vợ ơi, có trà xanh
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Chơi mật thất, trà xanh xô tôi ngã, bạn trai bế tôi đi rồi xin luôn camera
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Trà xanh xúi cả mạng chửi tôi, cô ta không biết tôi có 5 triệu người theo dõi
+Trà xanh níu tay áo bạn trai tôi, anh hất ra rồi kéo tôi: Vợ ơi, có trà xanh | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

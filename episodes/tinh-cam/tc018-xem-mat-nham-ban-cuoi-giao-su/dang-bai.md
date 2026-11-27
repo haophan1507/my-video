@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Xem mắt nhầm bàn, tôi hỏi người lạ: Đi đăng ký kết hôn không? Anh đáp: Được
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Cưới chớp nhoáng giảng viên đẹp trai, chồng ngủ sofa 30 đêm, tôi đòi ly hôn
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Xem mắt 14 lần vẫn ế, tôi ngồi nhầm bàn, hôm sau cầm sổ kết hôn với người lạ
+Xem mắt nhầm bàn, tôi hỏi người lạ: Đi đăng ký kết hôn không? Anh đáp: Được | Quýt Nhỏ Audio 0034
 ```
 
 ## Mô tả YouTube

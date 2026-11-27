@@ -15,8 +15,9 @@ const mtime = (f) => { try { return fs.statSync(f).mtimeMs; } catch { return 0; 
 const words = (s) => (s.match(/[\p{L}\p{N}]+/gu) ?? []).length;
 const vi = (n) => n.toLocaleString('vi-VN');
 
-const CHAPTERS = [6, 12];      // số chương
-const WORDS = [700, 1100];     // chữ mỗi chương
+const CHAPTERS = [6, 12];      // số chương (viết mới nhắm 8–12; 6–7 giữ cho tập cũ)
+const WORDS = [700, 1400];     // chữ mỗi chương (viết mới nhắm 900–1.400; 700 giữ cho tập cũ)
+const MIN_TOTAL = 6900;        // ~24 phút ở giọng 1,2 (~290 chữ/phút); mục tiêu 25 phút, có dung sai
 const MIN_CLIPS = 4;      // clip nền từ 5 phút nên cần ít clip
 const MIN_CLIP_SEC = 300;
 
@@ -59,8 +60,11 @@ export function status(arg) {
   else {
     const okCount = chs.length >= CHAPTERS[0] && chs.length <= CHAPTERS[1];
     const detail = [`${chs.length} chương (cần ${CHAPTERS.join('–')}), ${vi(total)} chữ`];
+    // Tập đã gen giọng hoặc đã đăng thì không xét lại độ dài
+    const short = total < MIN_TOTAL && !ls(E.audio, /^ch\d+\.mp3$/).length && !/đã đăng YouTube/.test(tap ?? '');
+    if (short) detail.push(`thiếu ${vi(MIN_TOTAL - total)} chữ để đạt ngưỡng ~24 phút`);
     if (bad.length) detail.push(`ngoài ${vi(WORDS[0])}–${vi(WORDS[1])} chữ: ${bad.map(([f, c]) => `${f} (${vi(c)})`).join(', ')}`);
-    step('Viết chương', okCount && !bad.length ? 'done' : 'partial', detail.join('; '));
+    step('Viết chương', okCount && !bad.length && !short ? 'done' : 'partial', detail.join('; '));
   }
 
   // 4. Soát TTS: không còn chữ số hay ngoặc (normalize-vi báo thêm tên ngoại, câu dài để người xem)

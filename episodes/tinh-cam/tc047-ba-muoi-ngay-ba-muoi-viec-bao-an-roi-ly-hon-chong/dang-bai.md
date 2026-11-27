@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Kỷ niệm 3 năm cưới, chồng lên hot search với bạch nguyệt quang, tôi ký ly hôn
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Tôi hẹn chồng 30 ngày nữa ly hôn ở cục dân chính, anh nhắn lại: Đừng hối hận
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Trước ly hôn, tôi gửi chồng bàn giao 30 việc, tới điều thứ 9 anh đánh rơi bút
+Kỷ niệm 3 năm cưới, chồng lên hot search với bạch nguyệt quang, tôi ký ly hôn | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

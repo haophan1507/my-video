@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Bạn trai cho trà xanh ngồi ghế phụ xe tôi mua, tôi tát: Gà phải bỏ vào cốp!
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Yêu 7 năm, tôi đọc 53 tin nhắn ngủ ngon trà xanh gửi bạn trai mà không khóc
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Bị tra nam phản bội, 3 tháng sau tôi dự đám cưới anh, trong túi là giấy khám
+Bạn trai cho trà xanh ngồi ghế phụ xe tôi mua, tôi tát: Gà phải bỏ vào cốp! | Quýt Nhỏ Audio 0022
 ```
 
 ## Mô tả YouTube

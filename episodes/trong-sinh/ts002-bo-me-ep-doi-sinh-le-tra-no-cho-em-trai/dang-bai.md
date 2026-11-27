@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Trọng sinh sáng rước dâu, em trai chặn cửa đòi thêm 50 vạn, tôi đá nó một cú
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Bố mẹ ép nhà chồng thêm 50 vạn trả nợ em trai, trọng sinh tôi không gật nữa
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Chết vì nhà mẹ đẻ hút máu, tôi sống lại trong váy cưới, em trai đang chặn cửa
+Ngày rước dâu, mẹ bắt tôi lấy cái thai đòi thêm năm mươi vạn! | Quýt Nhỏ Audio 0003
 ```
 
 ## Mô tả YouTube

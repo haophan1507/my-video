@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Cả nhà trọng sinh trói tôi để cướp vé số 80 triệu tệ, họ quên người hên là tôi
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Bố mẹ và em gái cùng trọng sinh, tôi giả vờ sợ, cọ đứt dây trói, mua vé khác
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Trọng sinh 9 ngày trước quay số, cả nhà vay nặng lãi 3 triệu tệ, tôi đứng nhìn
+Cả nhà trọng sinh trói tôi để cướp vé số 80 triệu tệ, họ quên người hên là tôi | Quýt Nhỏ Audio 0019
 ```
 
 ## Mô tả YouTube

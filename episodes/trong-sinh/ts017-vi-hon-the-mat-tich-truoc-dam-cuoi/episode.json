@@ -1,45 +1,55 @@
 {
   "title": "Hôn phu mất tích trước đám cưới một ngày, tôi gõ cửa nhà đối thủ: Anh có hứng liên hôn không?",
-  "footageTag": "",
+  "footageTag": "cake",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Gõ cửa nhà đối thủ"
+      "title": "Gõ cửa nhà đối thủ",
+      "startSec": 3.99
     },
     {
-      "title": "Người khóc trước mộ tôi"
+      "title": "Người khóc trước mộ tôi",
+      "startSec": 184.2
     },
     {
-      "title": "Mười bộ vest và một chữ đồng ý"
+      "title": "Mười bộ vest và một chữ đồng ý",
+      "startSec": 389.28
     },
     {
-      "title": "Đám cưới sáng hôm sau"
+      "title": "Đám cưới sáng hôm sau",
+      "startSec": 608.23
     },
     {
-      "title": "Chú rể thứ hai"
+      "title": "Chú rể thứ hai",
+      "startSec": 811.78
     },
     {
-      "title": "Hot search"
+      "title": "Hot search",
+      "startSec": 1016.94
     },
     {
-      "title": "Siêu thị và nụ hôn trước mặt kẻ cũ"
+      "title": "Siêu thị và nụ hôn trước mặt kẻ cũ",
+      "startSec": 1238.35
     },
     {
-      "title": "Giọt Lệ Của Vì Sao"
+      "title": "Giọt Lệ Của Vì Sao",
+      "startSec": 1461.77
     },
     {
-      "title": "Hết nguồn tiền"
+      "title": "Hết nguồn tiền",
+      "startSec": 1664.87
     },
     {
-      "title": "Cánh cửa mở đúng người"
+      "title": "Cánh cửa mở đúng người",
+      "startSec": 1861.37
     }
   ],
   "parts": [
@@ -65,9 +75,14 @@
       "hook": "Chú rể cũ xộc vào sảnh cưới|tôi tung *ba đoạn camera*|cả mạng quay ngoắt"
     }
   ],
-  "thumbText": "Hôn phu mất tích|*tôi cưới đối thủ*|ngay hôm sau",
+  "thumbText": "Hôn phu bỏ trốn|trước ngày cưới,|tôi *cưới luôn*|*kẻ thù* của anh ta",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts017/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 3,
+  "thumbFace": "60% 32%",
+  "thumbZoom": 0.7,
+  "coverZoom": 0.78,
+  "audioSrc": "ts017/audio.mp3"
 }

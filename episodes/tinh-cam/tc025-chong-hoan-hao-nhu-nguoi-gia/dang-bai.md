@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Chồng hoàn hảo như người giả, cưới 2 năm chưa ghen lần nào, tôi làm thí nghiệm
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Qua khe cửa, tôi thấy người chồng hoàn hảo vùi mặt vào áo tôi, tay trắng bệch
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Hôn nhân như cốc nước ấm, chồng chưa từng nói không, tôi thử bằng ghế màu cam
+Chồng hoàn hảo như người giả, cưới 2 năm chưa ghen lần nào, tôi làm thí nghiệm | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Bạn thân mặc váy 12 vạn của tôi, gọi mẹ tôi là mẹ, tôi gạt tay: Mẹ chỉ của tôi
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Tôi là con nuôi nhà giàu, bạn thân muốn giành chỗ tôi, giành cả bạn trai tôi
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Đêm mưa, anh trai dẫn bạn thân ướt sũng của tôi về, cô ta ngồi vào ghế tôi
+Bạn thân mặc váy 12 vạn của tôi, gọi mẹ tôi là mẹ, tôi gạt tay: Mẹ chỉ của tôi | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

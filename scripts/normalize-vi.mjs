@@ -12,7 +12,7 @@ import {epPaths, ID_RE} from './lib/paths.mjs';
 // ---- Cấu hình: chỉnh theo giọng đọc của kênh ----
 const LE = 'lẻ';        // 105 = "một trăm lẻ năm"; giọng Bắc hay dùng "linh"
 const NGHIN = 'nghìn';  // giọng Nam hay dùng "ngàn"
-const WORDS_PER_MIN = 180;
+const WORDS_PER_MIN = 290; // giọng 1,2, đo trên 32 tập (2026-11-27)
 const LONG_SENTENCE = 35; // số chữ
 
 // Viết tắt -> cách đọc. So khớp không phân biệt hoa thường, giữ hoa chữ đầu. Bổ sung dần.

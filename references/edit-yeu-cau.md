@@ -8,7 +8,7 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 |---|---|---|
 | Khung YouTube | Ngang 1920×1080, 30 fps | composition `Episode`, `src/Root.tsx` |
 | Khung TikTok | Dọc 1080×1920, 30 fps | composition `Clip`, `src/Root.tsx` |
-| Khớp footage vào khung | Phủ kín nếu cắt ≤ 20% diện tích; ngược lại hiện trọn clip, viền đen | `MAX_CROP`, `src/FootageTrack.tsx` |
+| Khớp footage vào khung | Phủ kín nếu cắt ≤ 20% diện tích; ngược lại hiện trọn clip trên nền kem | `MAX_CROP`, `src/FootageTrack.tsx` |
 | Phụ đề | Tắt | `captionsSrc: ""` |
 | Đổi cảnh footage | Không cắt giữa clip: mỗi clip (~15 phút) phát liền từ đầu đến hết theo thứ tự tên file, hết clip mới chuyển clip sau, mờ chéo 1 giây | `src/FootageTrack.tsx` |
 | Tốc độ, điểm bắt đầu footage | Theo tag: `speed` (mặc định 1) và `start` (giây bỏ ở đầu clip 01, mặc định 0) trong `public/footage/tags.json`, chốt bằng `footage-preview.mjs` | `src/FootageTrack.tsx`, `scripts/lib/ffmpeg-render.mjs` |
@@ -16,15 +16,16 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 | Nền sau footage không phủ kín khung | Nền kem + hình vẽ mờ cùng mẫu ảnh bìa (2026-11-22), thay viền đen: clip dọc trên khung ngang YouTube, clip vuông/ngang trên khung dọc TikTok. Độ tối `dim` chỉ phủ footage, không phủ nền kem | `Backdrop` trong `src/Thumbnail.tsx`, `scripts/lib/ffmpeg-render.mjs` |
 | Thẻ chữ trên hình (thẻ chào, thẻ hook) | Không có: video vào thẳng cảnh footage từ khung đầu; hook nằm ở lời kể và ảnh bìa | `src/Story.tsx`, `src/Clip.tsx` |
 | Nghỉ sau câu chào | 0,8 giây | `scripts/build-audio.mjs` |
+| Độ dài tập | Mục tiêu 25–60 phút, có dung sai: viết mới nhắm ≥ 7.300 chữ (giọng 1,2 ~290 chữ/phút), từ 6.900 chữ (~24 phút) là đạt | `MIN_TOTAL` trong `scripts/status.mjs` |
 | Tốc độ giọng | 1,2 | `voice.speed` trong `episode.json` và `channel/channel.json` |
 | Thứ tự render | Bản YouTube trước, TikTok sau | |
 
 ## Khung hình
 
-- **YouTube: khung ngang 16:9** (2026-11-20). Clip ngang phủ kín khung. Clip dọc hoặc vuông hiện trọn ở giữa, hai bên là viền đen; không phóng to cắt mất tay hay vật chính.
+- **YouTube: khung ngang 16:9** (2026-11-20). Clip ngang phủ kín khung. Clip dọc hoặc vuông hiện trọn ở giữa trên nền kem họa tiết (2026-11-22); không phóng to cắt mất tay hay vật chính.
 - **TikTok: khung dọc 9:16**. Mỗi phần render riêng từ cùng audio và mốc chương, không cắt từ bản YouTube.
 - **TikTok: phạm vi và số phần** (2026-11-21). Chỉ đăng khoảng 50–60% truyện tính theo chữ, theo thứ tự từ đầu; phần còn lại chỉ có ở YouTube. **Điểm dừng quyết định bằng độ tò mò, không bằng con số**: dừng ở cảnh người xem muốn biết ngay diễn biến tiếp (lời hứa lật kèo, bí mật sắp lộ, cánh cửa vừa mở), trước cao trào và lời giải; được lệch tới ~65% nếu cần để kết đúng ở cú treo mạnh nhất. Cuối mỗi phần cũng kết ở một cú treo như vậy, không kết ở lời đe dọa chung chung hay đoạn cảm xúc đã khép. Mặc định **3 phần**, mỗi phần 1–2 chương, ~5–9 phút; không thêm phần thứ 4. Chương ngắn thì chọn 1–2 chương mỗi phần cho khớp 50–60%; truyện dài thì vẫn 3 phần, mỗi phần dài hơn. Phần cuối kết bằng cú treo mạnh nhất trong khoảng 50–60%, caption và bình luận ghim dẫn về YouTube. Khai báo bằng `parts` trong `episode.json` (chỉ liệt kê 3 phần; render và nhãn "Phần n/N" lấy N = số phần đã khai báo).
-- Quy tắc khớp chung cho cả hai khung (`src/FootageTrack.tsx`): clip lệch tỉ lệ ít (phần bị cắt ≤ 20% diện tích) thì phủ kín; lệch nhiều thì hiện trọn, thêm viền đen. Ví dụ khung dọc: clip 9:16 phủ kín, clip vuông có viền đen trên dưới.
+- Quy tắc khớp chung cho cả hai khung (`src/FootageTrack.tsx`): clip lệch tỉ lệ ít (phần bị cắt ≤ 20% diện tích) thì phủ kín; lệch nhiều thì hiện trọn trên nền kem họa tiết. Ví dụ khung dọc: clip 9:16 phủ kín, clip vuông có nền kem trên dưới.
 - Bố cục chữ tự đổi theo hướng khung (`useLayout` trong `src/ui.tsx`): vùng an toàn, cỡ watermark, nhãn góc và vị trí phụ đề.
 
 ## Phụ đề
@@ -45,9 +46,10 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 ## Đoạn mở
 
 - Video vào thẳng footage từ khung đầu, không thẻ chào, không thẻ hook trên hình; chỉ có watermark logo.
-- Bản YouTube mở bằng câu chào ngắn bằng giọng ("Chào mừng bạn đến với <Tên kênh>. Chúc bạn nghe truyện vui vẻ."), không kèm chữ trên hình, nghỉ ~0,8 giây rồi vào truyện. Không nghỉ dài hơn: làm chậm nhịp vào truyện.
+- **Không chào ở giây 0** (2026-11-27): bản YouTube mở thẳng bằng văn án của truyện. `build-audio` chỉ chèn `channel/intro.mp3` khi `episode.json` có `"intro": true`.
+- **Cấu trúc mở chương 1** (2026-11-27): (1) văn án 80–150 chữ (~20–30 giây): câu đầu là xung đột trong tiêu đề, nêu cái giá, quyết định của tôi và lời hứa về kết cục (kẻ làm hại sẽ hối hận hoặc trả giá), không lộ cách làm; (2) một câu "Các bạn đang nghe truyện tại <Tên kênh>, đừng quên đăng ký kênh nha."; (3) vào ngay một cảnh có hành động, lời thoại. Không đọc lý lịch (tuổi, nghề, gia cảnh) trong phút đầu: rải dần theo cảnh.
 - Bản TikTok bỏ câu chào, vào thẳng truyện.
-- Câu kêu gọi đăng ký giữa chương 1 nằm trong lời kể.
+- Câu tên kênh và kêu gọi đăng ký nằm trong lời kể, ngay sau văn án.
 
 ## Footage
 
@@ -63,7 +65,8 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 - **Từ khóa tìm**: ghép chủ đề với `asmr`, `long`, `1 hour` (ví dụ `pottery asmr 1 hour`, `cake decorating long`). Chủ đề: satisfying, handmade craft diy, palette knife paint, pink cream piping, knitting yarn, miniature, pastel, decorating, resin, clay, watercolor, pottery, ceramic, nail art, paint by number, coloring, jigsaw puzzle, sticker diy, night ambience.
 - **Độ dài và nguồn**: mỗi video nền từ 5 phút trở lên; các kho clip miễn phí như Pexels, Pixabay chủ yếu là clip ngắn nên chỉ là hai trong nhiều nguồn. Chỉ lấy clip có giấy phép dùng thương mại; danh sách nhóm nguồn ở `san-xuat.md` mục 4.
 - **Tải tự động bằng Claude in Chrome**: YouTube qua https://ytsave.to/en2/, TikTok qua https://snaptik.app/en3 (bản không logo; dự phòng snaptik.vn), nền tảng khác tìm `download <tên nền tảng> video no watermark`. Trước mỗi lô tải, gửi danh sách clip để duyệt một lần. Quy trình ở `san-xuat.md` mục 4.
-- **Chỉ giữ phần sạch** (cận cảnh tay, không chữ, không logo, không mặt): bỏ intro, outro bằng `--start` và `--max` của `prep-footage`. Clip có logo hoặc chữ ở đáy dùng `--crop=top`; ở góc và đáy dùng `--crop=square`. Kiểm một khung sau khi chuẩn hóa.
+- **Chỉ giữ phần sạch** (cận cảnh tay, không logo, không mặt; chữ của nguồn giữ được, xem mục dưới): bỏ intro, outro bằng `--start` và `--max` của `prep-footage`. Clip có logo hoặc chữ ở đáy dùng `--crop=top`; ở góc và đáy dùng `--crop=square`. Kiểm một khung sau khi chuẩn hóa.
+- **Chữ trên hình và logo** (2026-11-26): tên món, chữ hướng dẫn, phụ đề nguyên liệu của nguồn được giữ, không cần crop. Chỉ bắt buộc bỏ **logo, watermark kênh gốc** (crop góc chứa logo) và **thẻ logo toàn khung** xen giữa video (cắt bỏ đoạn đó). Luôn bỏ intro, outro (thông báo, ảnh ghép cuối, cảnh ăn thử dài). Nguồn là một đoạn lặp nhiều vòng thì chỉ lấy một vòng. Tốc độ mặc định khi nạp tag mới: 1,25–1,5 (đã chốt `cake` 1,5, `kitchen` 1,25).
 - **Thử nhanh một chương**: 1–2 clip, bản 720p, cắt 3–5 phút.
 - **Crop không quá sâu** (2026-11-22): sau crop phải giữ ≥ 60% diện tích khung nguồn và cạnh ngắn ≥ 576 px; thấy trọn tay và vật chính trong khung. Nguồn có logo, chữ chiếm nhiều chỗ đến mức phải crop sâu hơn thì bỏ nguồn, không dùng. Đã loại 2026-11-22: `bake` (giữ 38% diện tích, 792×446, chỉ thấy cận lòng tô, ts003) và `satisfying` (giữ 29%, 416×648); file chuyển sang `.tmp/footage-loai/`.
 - **Nhịp footage** (2026-11-22): footage phải có chuyển động rõ ngay từ đầu để giữ người xem; thao tác chậm thì tăng tốc phát bằng `speed` của tag trong `public/footage/tags.json` (chỉ tăng hình, không đổi giọng; mặc định 1; áp cho cả hai đường render). Khi nạp tag mới hoặc chọn tag cho tập: chạy `node scripts/footage-preview.mjs <tag>`, xem lưới 4 tốc độ (1 | 1,25 | 1,5 | 2) và ảnh lưới khung (soát crop), chốt `speed` trước khi render. Tốc độ cao làm clip hết nhanh hơn: tổng phút của tag chia `speed` vẫn phải ≥ độ dài tập. Quan sát 2026-11-22: `craft` ở tốc độ 1 chậm, người xem dễ bỏ ngay đầu (ts001); chốt `craft` 2x.
@@ -72,6 +75,7 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 
 ## Ảnh bìa
 
+- Chữ bìa trùng nguyên văn hook của tiêu đề; nhãn dưới chữ là "Audio Full"; một bìa mỗi tập, không A/B test (2026-11-27).
 - Mẫu cố định cho mọi tập (2026-11-20): nền kem có hình vẽ mờ (vòng, chấm, nốt nhạc, tai nghe); cột chữ bên trái (~50%) gồm logo kênh trên cùng, hook in hoa font Paytone One một màu nâu đậm (chỉ từ khóa `*...*` đổi đỏ quýt), nhãn phụ, nút đỏ "SUBSCRIBE" có ngón tay bấm; ảnh nhân vật người châu Á trong khung tròn lớn phủ kín mép phải, trên, dưới (~43% bề ngang, nhỏ hơn cột chữ), viền cọ khô cam phía trái khung; hai dải cọ cam nhạt nằm ngang ở mép trên và dưới. Dải cọ ngang là mảng thon dần khoét sọc lông cọ bằng nhiễu kéo dài ngang, hai đầu khô xơ; viền khung tròn vẽ kiểu sợi lông cọ; không dùng hình đặc mép đều hay sợi nét đứt đều. Chi tiết và quy trình chọn ảnh: `dang-bai.md` mục 2.
 - Bìa TikTok cùng mẫu ở khung dọc: logo, nút đỏ "PHẦN n/N", hook phần ở nửa trên; ảnh trong vòm tròn phủ kín phần dưới (đỉnh y ~1.090), viền cọ dọc đỉnh vòm; chữ trong dải 3:4 giữa khung (`dang-bai.md` mục 5).
 - Ảnh bìa là ảnh nhân vật (cặp đôi hoặc nữ chính) chụp giữa hành động hoặc cảm xúc; không dùng khung cắt từ footage.
@@ -103,3 +107,7 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 - 2026-11-22: thêm `footageOffset` theo tập (xoay vòng thứ tự clip) để các tập cùng tag không mở đầu và đi theo cùng một thứ tự footage.
 - 2026-11-22: footage không phủ kín khung (clip dọc trên khung ngang YouTube, clip vuông/ngang trên TikTok) đặt giữa nền kem họa tiết cùng mẫu bìa thay cho viền đen; `dim` chỉ áp cho footage; `dim` mặc định 0,15 (0,4 làm hình tối). Thêm `render-episode --limit=giây` để render thử đoạn đầu.
 - 2026-11-23: thêm quy tắc không trùng footage giữa các tập; kho ít thì đảo điểm vào của từng tập (chưa có trường riêng theo tập trong `episode.json`: đang là `start` theo tag, xem skill `footage-intake`).
+- 2026-11-26: giữ chữ trên hình của nguồn (tên món, hướng dẫn), chỉ crop bỏ logo và cắt thẻ logo toàn khung; nạp tag `cake` (8 clip, 122 phút) và `kitchen` (3 clip, 36 phút, lấy một vòng của nguồn lặp 8 lần).
+- 2026-11-27 (từ phân tích video nhiều lượt xem nhất của 5 kênh cùng loại): tiêu đề `<hook> | Quýt Nhỏ Audio <số>`, một câu mỗi tập; bìa trùng tiêu đề, nhãn "Audio Full"; bỏ A/B test; bỏ câu chào ở giây 0, mở bằng văn án rồi mới đọc tên kênh; cảnh kẻ phản bội hối hận, vả mặt có con số, đồ vật ở chương 1 trở lại câu cuối là tùy chọn theo truyện, phần quan trọng là cấu trúc mở đầu. Giữ tốc độ giọng 1,2. 40 tập đã render (tc001–tc020, ts001–ts020) chỉ đổi tiêu đề.
+- 2026-11-27: độ dài tối thiểu 25 phút tính theo tốc độ đọc đo thật ~290 chữ/phút (trước ghi 180): tổng ≥ 7.300 chữ, 8–12 chương 900–1.400 chữ. Áp cho tập chưa gen giọng.
+- 2026-11-27: độ dài 25–60 phút là mục tiêu có dung sai. Ngưỡng đạt hạ còn 6.900 chữ (~24 phút), không bù chỉ để chạm 7.300; viết mới vẫn nhắm ≥ 7.300.

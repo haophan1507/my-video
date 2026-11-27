@@ -1,45 +1,55 @@
 {
   "title": "Trọng sinh về ngày mẹ mất, tôi để chồng ngoại tình tự do rồi một mình mang con đi thật xa",
-  "footageTag": "",
+  "footageTag": "cake",
   "dim": 0.15,
   "captionsSrc": "",
   "voice": {
     "provider": "minimax",
     "model": "speech-2.8-hd",
-    "voiceId": "",
+    "voiceId": "d99082f8-f71b-44d9-9497-49d4013ce2fe",
     "language": "Vietnamese",
     "speed": 1.2
   },
   "chapters": [
     {
-      "title": "Đêm cánh cửa không đóng"
+      "title": "Đêm cánh cửa không đóng",
+      "startSec": 3.99
     },
     {
-      "title": "Tang lễ không có bố"
+      "title": "Tang lễ không có bố",
+      "startSec": 209.14
     },
     {
-      "title": "Ngọn lửa trong căn nhà cũ"
+      "title": "Ngọn lửa trong căn nhà cũ",
+      "startSec": 422.6
     },
     {
-      "title": "Người quỳ xin thành toàn"
+      "title": "Người quỳ xin thành toàn",
+      "startSec": 619.02
     },
     {
-      "title": "Điều kiện của người mẹ"
+      "title": "Điều kiện của người mẹ",
+      "startSec": 824.51
     },
     {
-      "title": "Tờ đơn trên bàn ăn"
+      "title": "Tờ đơn trên bàn ăn",
+      "startSec": 1021.66
     },
     {
-      "title": "Căn hộ nhỏ ở Phố Đông"
+      "title": "Căn hộ nhỏ ở Phố Đông",
+      "startSec": 1229.57
     },
     {
-      "title": "Người cha đến muộn"
+      "title": "Người cha đến muộn",
+      "startSec": 1439.94
     },
     {
-      "title": "Mùi hương trên áo anh"
+      "title": "Mùi hương trên áo anh",
+      "startSec": 1651.1
     },
     {
-      "title": "Sân bay và nửa tấm ảnh"
+      "title": "Sân bay và nửa tấm ảnh",
+      "startSec": 1878.27
     }
   ],
   "parts": [
@@ -65,9 +75,14 @@
       "hook": "Tôi thành toàn cho cô ta|chỉ với một điều kiện|*quyền nuôi con*"
     }
   ],
-  "thumbText": "TRỌNG SINH|*VẢ MẶT KẺ ÁC*|LẤY LẠI CÔNG LÝ|*TRẢ CẢ VỐN LẪN LÃI*",
+  "thumbText": "Nhân tình quỳ xin|tôi *nhường chồng*.|Tôi gật đầu,|rồi *mang con đi*.",
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
-  "thumbBg": null,
-  "introSec": 0
+  "thumbBg": "ts016/thumb-bg.jpg",
+  "introSec": 3.99,
+  "footageOffset": 0,
+  "thumbFace": "46% 36%",
+  "thumbZoom": 0.75,
+  "coverZoom": 0.68,
+  "audioSrc": "ts016/audio.mp3"
 }

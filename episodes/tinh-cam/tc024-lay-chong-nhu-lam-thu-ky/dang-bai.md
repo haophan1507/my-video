@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Lấy chồng như làm thư ký, chồng chuyển 10 vạn kèm 4 lời dặn, tôi đáp: Đã nhận
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Cưới 3 năm, chồng đưa 10 vạn mỗi tháng làm tiền giữ hộ, tôi chưa tiêu một đồng
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Chồng say lần đầu sau 3 năm cưới, sáng ra xếp vali, máy hiện tên người yêu cũ
+Lấy chồng như làm thư ký, chồng chuyển 10 vạn kèm 4 lời dặn, tôi đáp: Đã nhận | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

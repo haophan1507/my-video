@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Tiểu tam có bầu đến nhà đòi cưới, tôi tát cô ta rồi nhắn tin: Sắp thu lưới rồi
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Chồng ngoại tình, tôi đánh ghen xong lại bật cười: Ván này tôi chuẩn bị 2 năm
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | 6 giờ sáng tiểu tam đập cửa gọi tôi bà già, khoe có bầu, không biết đã vào bẫy
+Tiểu tam có bầu đến nhà đòi cưới, tôi tát cô ta rồi nhắn tin: Sắp thu lưới rồi | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

@@ -28,21 +28,22 @@ Thư mục gốc `/Users/haopv/Documents/my-video`. Chỉ ghi trong thư mục t
 - Dòng Tổng (chương, chữ, phút), Cách đủ độ dài (cắt gì hoặc thêm vòng nào), Hook cả truyện.
 - Bảng tên: đặt tên Hán Việt mới theo `van-phong.md` mục 2, mỗi người một họ và một âm đầu; cột tên bản nguồn; xưng hô cố định. Dùng đúng họ được giao cho nữ chính và nam chính. Mọi nhân vật có tên khác không dùng họ nào trong `node scripts/names.mjs --surnames` (kể cả tên tập đoàn "<họ> thị" và thành phố); tránh tên quen của thể loại khi đặt tên (Giang Ninh, Tô Nhiên, Lâm Vãn, Cố/Hoắc/Lục/Phó/Thẩm cho nam chính).
 - Bảng chương, rồi mỗi chương một mục `### Chương N. Tiêu đề (số chữ)` gồm Hook mở, Nội dung, Cliffhanger.
-- `## Chia phần TikTok`: theo chuẩn mới (2026-11-21, `edit-yeu-cau.md` mục Khung hình): mặc định **3 phần**, mỗi phần 1–2 chương (~5–9 phút), tổng ~50–60% số chữ từ đầu truyện (lệch tới ~65% được), dừng ở cú treo gây tò mò trước cao trào; phần 3 dẫn sang YouTube. Ghi tỉ lệ chữ và cú treo dừng; `episode.json` `parts` khớp bảng này (chỉ 3 phần). Không chia mỗi chương một phần. Và `## 5 phương án tiêu đề YouTube` có điểm.
-- Độ dài theo sức của truyện, 25–60 phút (≈ 4.500–11.000 chữ), lệch nhẹ hai đầu được. Độ dài không phải chỉ tiêu: truyện còn đất sáng tạo (cảnh, vòng, twist, nhân vật phụ) thì cứ viết thêm thoải mái; không thấy chỗ mở hợp lý thì để ~25–30 phút, không cố kéo; truyện dài thì cắt cảnh phụ. Giữ 6–12 chương, 700–1.100 chữ mỗi chương. Không cần gom các tập về cùng một độ dài.
+- `## Chia phần TikTok`: theo chuẩn mới (2026-11-21, `edit-yeu-cau.md` mục Khung hình): mặc định **3 phần**, mỗi phần 1–2 chương (~5–9 phút), tổng ~50–60% số chữ từ đầu truyện (lệch tới ~65% được), dừng ở cú treo gây tò mò trước cao trào; phần 3 dẫn sang YouTube. Ghi tỉ lệ chữ và cú treo dừng; `episode.json` `parts` khớp bảng này (chỉ 3 phần). Không chia mỗi chương một phần. Và `## Tiêu đề YouTube` (một câu) (ba kiểu cảnh ở `truyen.md` mục 4 là tùy chọn).
+- **Tổng nhắm ≥ 7.300 chữ** (25 phút ở ~290 chữ/phút; từ 6.900 là đạt), tới 17.400; 8–12 chương, 900–1.400 chữ mỗi chương. Truyện mỏng thì thêm cảnh, vòng, twist, nhân vật phụ cho đủ, không lặp ý. Không cần gom các tập về cùng một độ dài.
 - Tự do sáng tạo: đổi trình tự, thêm twist, thêm hoặc bỏ nhân vật phụ, sửa kết nếu làm truyện hay hơn; ghi lý do vào dòng "Cách đủ độ dài".
 - Làm theo dòng "Cần làm ở bước 2" của truyện nguồn và cột Lưu ý trong `stories/README.md`.
 
 **Bước 3. Viết chương** `script/chNN.tts.txt` (`ch01`, `ch02`…), lần lượt từ chương 1, theo prompt `van-phong.md` mục 6:
-- 700–1.100 chữ mỗi chương, sát số chữ trong dàn ý. Mở đúng hook chương, kết đúng cliffhanger.
-- Chương 1 mở bằng hook cả truyện, rồi "Chuyện bắt đầu từ…"; trong 150–180 chữ đầu (giây 50–60, ngay sau xung đột đầu) chèn một câu: "Các bạn đang nghe truyện tại Quýt Nhỏ Audio, đừng quên đăng ký kênh nha." Chương cuối kết bằng câu hỏi chia phe và nhắc đăng ký.
+- 900–1.400 chữ mỗi chương, sát số chữ trong dàn ý. Mở đúng hook chương, kết đúng cliffhanger.
+- Chương 1 mở theo `edit-yeu-cau.md` mục Đoạn mở: văn án 80–150 chữ, câu "Các bạn đang nghe truyện tại Quýt Nhỏ Audio, đừng quên đăng ký kênh nha.", rồi cảnh có hành động; lý lịch rải sau. Chương cuối kết bằng câu hỏi chia phe và nhắc đăng ký.
 - Viết từ khung và dàn ý, không dịch câu của bản gốc. Chỉ văn bản thuần: không tiêu đề, không markdown, không ngoặc, không dòng "Lưu ý".
-- Sau mỗi chương, đếm chữ (`node scripts/status.mjs <mã>` hoặc `wc -w`) và tự soát theo `van-phong.md` mục 7; ngoài khoảng 700–1.100 thì sửa trước khi viết chương sau.
+- Sau mỗi chương, đếm chữ (`node scripts/status.mjs <mã>` hoặc `wc -w`) và tự soát theo `van-phong.md` mục 7; ngoài khoảng 900–1.400 thì sửa trước khi viết chương sau.
 
 **Bước 4. Soát TTS.** `node scripts/normalize-vi.mjs <mã> --fix`, rồi chạy lại không `--fix`; xử lý tay mọi cảnh báo còn lại (câu dài, tên ngoại, ký tự lạ). `node scripts/status.mjs <mã>` phải báo bước hiện tại là 5.
 
 **Ghi kết quả**
-- `episode.json`: `title` (phương án tiêu đề điểm cao nhất, chỉ phần hook, bỏ `Quýt Nhỏ Audio <số> | `), `chapters[].title`, `parts[]` (chương và hook mỗi phần, khớp bảng TikTok), `thumbText` (3–4 dòng theo `dang-bai.md` mục 2). Giữ nguyên các khóa khác.
+- `episode.json`: `title` (hook của tiêu đề, bỏ đuôi ` | Quýt Nhỏ Audio <số>`), `chapters[].title`, `parts[]` (chương và hook mỗi phần, khớp bảng TikTok), `thumbText` (trùng `title`, thêm `*cụm*`), `thumbTag` "Audio Full". Giữ nguyên các khóa khác.
+- `dang-bai.md` mục "Tiêu đề YouTube": một dòng `<title> | Quýt Nhỏ Audio XXXX`.
 - `tap.md`: điền bảng Quyết định (trừ giọng, footage, ảnh bìa ảnh nhân vật, teaser); tick bước 1–4; Bước hiện tại 5; thêm nhật ký: "<ngày>: sinh sẵn kịch bản bước 1–4 theo `references/kich-ban-hang-loat.md`; N chương, ~X chữ, ~Y phút; dàn ý và chương chưa duyệt."
 
 **Báo lại** (ngắn, dưới 150 chữ): điểm, số chương, tổng chữ và phút, cách đủ độ dài, hook cả truyện, mọi chỗ đã lệch khỏi khung hoặc còn băn khoăn.

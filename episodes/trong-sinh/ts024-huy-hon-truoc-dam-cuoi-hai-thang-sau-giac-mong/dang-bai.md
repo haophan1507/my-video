@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Trọng sinh 2 tháng trước cưới, hôn phu từng đầu độc tôi, lần này tôi hủy hôn
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Nhà hôn phu sang bàn ngày cưới, tôi hủy hôn, mẹ tôi hắt nước: Rửa miệng đi!
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Hôn phu bỏ thuốc vào sữa tôi; trọng sinh, hắn nhắn hẹn, tôi đáp một chữ: Bận.
+Trọng sinh 2 tháng trước cưới, hôn phu từng đầu độc tôi, lần này tôi hủy hôn | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

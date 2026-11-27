@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Trọng sinh, tôi photo 200 bản biên bản ly hôn, gạch đỏ 1 dòng, phát cho cả khu
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Nhân tình bụng bầu của chồng gõ cửa, trọng sinh lần này tôi thuê thám tử trước
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Ly hôn nhẹ tay, tôi bị đồn không biết đẻ rồi chết; trọng sinh, tôi không nhịn
+Trọng sinh, tôi photo 200 bản biên bản ly hôn, gạch đỏ 1 dòng, phát cho cả khu | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

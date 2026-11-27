@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Bạn thân vu tôi trộm vàng cưới, trọng sinh, tôi gọi mẹ chồng cô ta đến đếm
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Chỉ vì đôi vòng long phụng của bạn thân, kiếp trước tôi chết dưới bánh xe tải
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Bạn thân nhờ cất hộp vàng cưới, kiếp trước tôi gật và mất hết; giờ tôi lắc đầu
+Bạn thân vu tôi trộm vàng cưới, trọng sinh, tôi gọi mẹ chồng cô ta đến đếm | Quýt Nhỏ Audio 0013
 ```
 
 ## Mô tả YouTube

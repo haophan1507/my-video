@@ -36,3 +36,7 @@
 - 2026-11-23: mở tập.
 - 2026-11-23: hoàn thành bước 1 đến 4: viết 9 chương script/chNN.tts.txt chuẩn TTS (700-1100 từ, không số, không ngoặc), câu chào kênh ở ch01, kết truyện có thảo luận và subscribe, đồng bộ hồ sơ tập và danh sách chương.
 - 2026-11-23: viết lại toàn bộ 8 chương (bỏ ch.9, sửa hook, bỏ mạch anh Viễn trọng sinh, giảm bạo lực), normalize sạch, cập nhật outline, episode.json.
+- 2026-11-27: viết lại mở đầu ch.1 theo chuẩn mới (văn án, câu tên kênh, cảnh hành động); chưa duyệt, chưa nghe thử.
+- 2026-11-27: viết bù độ dài cho đủ 25 phút (thêm đoạn trong các chương ngắn); chưa duyệt, chưa nghe thử.
+- 2026-11-27: soát phần viết bù (dời đoạn chèn sai chỗ, bỏ đoạn trùng, câu thừa); chưa nghe thử.
+- 2026-11-27: viết thêm cảnh bù độ dài (ts039: cảnh phòng bệnh ch.3, về nhà cũ ch.6; ts040: bữa cơm, bà Trâm quay lại ch.7, ăn mừng ch.8), bỏ đoạn trùng; chưa duyệt, chưa nghe thử.

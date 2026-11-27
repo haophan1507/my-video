@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Kỷ niệm 3 năm cưới, mẹ chồng đòi 28 vạn cho em chồng, tôi đáp: Cho con một đêm
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Mẹ chồng kéo vali đến đòi 28 vạn, tôi không cãi, chỉ mở sổ sách 3 năm ra đọc
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Tôi đưa chồng 20 vạn đầu tư công ty, 3 năm sau tra lại, người nhận là kẻ khác
+Kỷ niệm 3 năm cưới, mẹ chồng đòi 28 vạn cho em chồng, tôi đáp: Cho con một đêm | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

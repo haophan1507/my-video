@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Két sắt chồng có hợp đồng đẻ thuê 5 triệu tệ, bên A là tình đầu, bên B là tôi
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Hợp đồng đẻ thuê in sẵn giá 5 triệu tệ và tên tôi, chỉ còn chỗ ký là trống
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Mở két sắt, tôi đoán ra vì sao chồng cưới tôi: để đẻ thuê cho mối tình đầu
+Két sắt chồng có hợp đồng đẻ thuê 5 triệu tệ, bên A là tình đầu, bên B là tôi | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

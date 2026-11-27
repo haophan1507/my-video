@@ -69,6 +69,8 @@ node scripts/stories.mjs [--todo|--doing|--done] [--genre=tc]   # kho truyện: 
 npm run typecheck                                    # kiểm kiểu code
 ```
 
+Sheet quản lý video (lịch đăng, trạng thái YouTube/TikTok từng tập): [Quýt nhỏ Audio](https://docs.google.com/spreadsheets/d/13-6eR8dr08mhFfsXRM4NQF05568dqof7rylYLMdVmVY/edit). Cột YouTube tự đồng bộ bằng Apps Script `scripts/apps-script/youtube-sync.gs` (cài: `scripts/apps-script/README.md`); đăng video làm tay trong Studio. Script ghép video với tập theo tiêu đề, so với cột "Tiêu đề dự kiến (dang-bai)" (3 tiêu đề trong `dang-bai.md`): đổi tiêu đề trong `dang-bai.md` thì sửa ô đó; tập mới thì thêm dòng vào sheet. Đăng xong một tập: sửa cột Sản xuất, TikTok trong sheet nếu đổi.
+
 Cần ffmpeg, ffprobe trong PATH. Phụ đề đang tắt và đã gỡ whisper (xem `edit-yeu-cau.md`); chỉ còn `rough-captions.mjs` (mốc theo số ký tự). Chưa có chế độ nền "một cảnh dài liền".
 
 Khi tới bước cần công cụ chưa có: nói trong báo cáo, đề xuất dựng một lần cho mọi tập hoặc làm tay. Dựng xong thì sửa mục này.

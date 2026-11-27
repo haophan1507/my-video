@@ -41,7 +41,7 @@ Rồi đọc lướt một lượt từ chương 1 đến chương cuối, chỉ
 - [ ] Không câu vô nghĩa, câu cụt, từ dùng sai nghĩa; câu đọc lên vấp thì viết lại.
 - [ ] Không sai chính tả lộ liễu, không dính chữ, không thừa chữ.
 - [ ] Không còn pinyin, tên Trung nguyên bản, tiền kiểu Việt.
-- [ ] Có câu chào kênh ở chương 1; chương cuối có câu hỏi người xem và lời nhắc đăng ký kênh.
+- [ ] Chương 1 mở bằng văn án, ngay sau là câu tên kênh; chương cuối có câu hỏi người xem và lời nhắc đăng ký kênh.
 - [ ] Cảnh nặng (bạo lực, tự hại, trẻ nhỏ) đã làm nhẹ.
 
 Sau khi sửa: chạy lại `normalize-vi.mjs` và `soat-doc.mjs`; nếu đã đổi tên chương hoặc hook thì sửa theo ở `outline.md` và `episode.json`; ghi một dòng vào nhật ký `tap.md`. Lỗi mạch chuyện lớn (thiếu cả cảnh) thì quay lại bước 3, không vá bằng một câu.
@@ -63,7 +63,7 @@ node scripts/gen-voice.mjs tc005 [--only 1,3] [--force] [--dry-run]
 
 ## 3. Câu chào kênh
 
-`channel/intro.mp3` dùng chung mọi tập; `build-audio.mjs` tự đặt trước chương 1 (tắt bằng `"intro": false` trong `episode.json`). Đổi tên kênh hoặc giọng thì gen lại:
+Từ 2026-11-27 video **không chào ở giây 0**; tên kênh đọc trong `ch01` sau văn án. `channel/intro.mp3` chỉ được `build-audio.mjs` đặt trước chương 1 khi `episode.json` có `"intro": true`. Cần gen lại câu chào đó:
 
 ```bash
 # sửa name hoặc introText trong channel/channel.json rồi (tự viết intro.tts.txt, ra channel/intro.mp3; tốc độ lấy từ voice.speed trong channel.json):
@@ -196,12 +196,12 @@ Vùng crop: bỏ góc logo, chữ chìm, phụ đề; clip có chữ nằm giữ
 | `footageTag`, `dim` | Tag footage (footage chạy liền từng clip, xem `edit-yeu-cau.md`), độ tối nền |
 | `chapters[].title` | Tên chương (thành timestamp YouTube). `startSec` do script điền |
 | `parts[]` | `{"chapters": [đầu, cuối], "hook": "chữ hook phần"}` theo bảng chia phần trong `outline.md` |
-| `thumbText`, `thumbBg`, `thumbFace`, `thumbFocus`, `thumbTag`, `thumbAlt` | Ảnh bìa: chữ hook (`|` ngắt dòng, `*cụm*` tô màu nhấn), ảnh nhân vật `<mã>/thumb-bg.jpg` (tạo bằng `prep-thumb`), khung ảnh, nhãn phụ, các phương án A/B. Quy tắc ở `dang-bai.md` mục 2 |
+| `thumbText`, `thumbBg`, `thumbFace`, `thumbFocus`, `thumbTag` | Ảnh bìa: chữ trùng hook tiêu đề (`*cụm*` tô màu nhấn, `\|` ngắt dòng khi cần), ảnh nhân vật `<mã>/thumb-bg.jpg` (tạo bằng `prep-thumb`), khung ảnh, nhãn "Audio Full" |
 | `introSec` | Do `build-audio` điền |
 
 **Chạy**:
 ```bash
-node scripts/build-audio.mjs tc005       # ghép intro + chương, điền startSec, ghi out/chapters.txt
+node scripts/build-audio.mjs tc005       # ghép chương, điền startSec, ghi out/chapters.txt
 node scripts/prep-thumb.mjs tc005 raw/anh.jpg   # ảnh nhân vật cho bìa -> public/tc005/thumb-bg.jpg (dang-bai.md mục 2)
 npx remotion studio src/index.ts         # xem trước Episode (ngang) / Clip (dọc) / Thumbnail
 node scripts/render-episode.mjs tc005     # youtube.mp4, tiktok-NN.mp4, thumb.png (thêm --only=, --parts=1,3, --engine=remotion, --out=)
@@ -209,10 +209,10 @@ node scripts/render-episode.mjs tc005     # youtube.mp4, tiktok-NN.mp4, thumb.pn
 
 | Đầu ra | Composition | Khung |
 |---|---|---|
-| `out/youtube.mp4` | `Episode` | Ngang 1920×1080; câu chào bằng giọng, watermark logo |
+| `out/youtube.mp4` | `Episode` | Ngang 1920×1080; watermark logo |
 | `out/tiktok-NN.mp4` | `Clip` | Dọc 1080×1920; watermark logo + nhãn "Phần n/N"; không câu chào |
 | `out/tiktok-NN-cover.png` | `TikTokCover` | 1080×1920; bìa phần (`--only=cover` để render riêng) |
-| `out/thumb.png` (+ `thumb-2.png`... từ `thumbAlt`) | `Thumbnail` | 1280×720 |
+| `out/thumb.png` | `Thumbnail` | 1280×720 |
 
 **Theo dõi tiến độ (2026-11-23)**: render lâu thì chạy nền (Bash `run_in_background`) để xem trong Background tasks. Ở nền script in từng dòng, không ghi đè một dòng: `[giờ] bước n/N file %, đã … còn ~…` (mỗi 30 giây hoặc 5%), `xong <file>` sau mỗi việc, `HOÀN TẤT` ở cuối; đầu lượt in danh sách việc. Terminal thật vẫn hiện một dòng cập nhật tại chỗ. Muốn xem lại: đọc file output của task nền, lệnh `tail`.
 
@@ -244,7 +244,7 @@ Rồi đặt `captionsSrc` thành `<mã>/captions.json`. Khớp từng chữ c�
 |---|---|
 | "Không có footage cho tag" | Kiểm `public/footage/<footageTag>/` có clip; chạy `node scripts/footage-manifest.mjs` |
 | Clip nằm thẳng trong `public/footage/` bị bỏ qua | Chuyển vào thư mục tag rồi chạy lại `footage-manifest.mjs` |
-| Viền đen ở bản YouTube | Đúng thiết kế khi clip dọc hoặc vuông; muốn phủ kín thì thêm clip ngang vào tag |
+| Nền kem hai bên ở bản YouTube | Đúng thiết kế khi clip dọc hoặc vuông; muốn phủ kín thì thêm clip ngang vào tag |
 | Phần TikTok lệch chương | Chạy lại `build-audio.mjs` (startSec còn 0) |
 | Video dài/ngắn sai | Kiểm tra `public/<mã>/audio.mp3`, xem lỗi `calculateMetadata` trong Studio |
 | Hình giật | Footage chưa chuẩn hóa `fps=30` |
@@ -269,4 +269,4 @@ Dùng khi sửa `src/` (nguồn: skill Remotion chính thức `remotion-dev/skil
 
 ## 7. Chi phí
 
-Mỗi tập = giá TTS theo số ký tự (45 phút ≈ 35.000–40.000 ký tự; lần thử đầu tốn ~3.200 credit GenMax cho 700 chữ) + footage (Pexels miễn phí) + thời gian render (45 phút ≈ 81.000 frame). Giữ kịch bản, audio từng chương và `episode.json` của tập để dựng lại hoặc đổi footage nhanh.
+Mỗi tập = giá TTS theo số ký tự (45 phút ≈ 55.000–60.000 ký tự; lần thử đầu tốn ~3.200 credit GenMax cho 700 chữ) + footage (Pexels miễn phí) + thời gian render (45 phút ≈ 81.000 frame). Giữ kịch bản, audio từng chương và `episode.json` của tập để dựng lại hoặc đổi footage nhanh.

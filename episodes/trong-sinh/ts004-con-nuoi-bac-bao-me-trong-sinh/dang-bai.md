@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Con nuôi hại chết con gái, vứt tôi vào nhà tranh; trọng sinh, tôi giật vạt áo
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Trọng sinh ngày con nuôi 12 tuổi đầy vết roi xin ở lại, lần này tôi không nhận
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Nuôi con nuôi lớn, cuối đời bị nó vứt vào nhà tranh; sống lại, tôi rút tay
+Nuôi con nuôi lớn, cuối đời bị nó vứt vào nhà tranh; sống lại, tôi rút tay | Quýt Nhỏ Audio 0009
 ```
 
 ## Mô tả YouTube

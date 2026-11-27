@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Bạch nguyệt quang về nước, tôi đưa đơn ly hôn, chồng xé nát: Cả đời đừng hòng!
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Trước cưới chồng bắt tôi ký 3 điều, ngày bạch nguyệt quang về tôi xin ly hôn
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Tôi xin ly hôn để nhường bạch nguyệt quang, chồng sa sầm: Em thích thằng nào?
+Bạch nguyệt quang về nước, tôi đưa đơn ly hôn, chồng xé nát: Cả đời đừng hòng! | Quýt Nhỏ Audio 0006
 ```
 
 ## Mô tả YouTube

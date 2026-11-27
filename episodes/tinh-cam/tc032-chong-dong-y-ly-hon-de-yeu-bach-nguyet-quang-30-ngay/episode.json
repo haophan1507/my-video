@@ -1,5 +1,5 @@
 {
-  "title": "Bạch nguyệt quang hỏi chồng tôi: Anh ly hôn rồi yêu em nhé? Anh đồng ý không do dự",
+  "title": "Bạch nguyệt quang hỏi: Ly hôn rồi yêu em nhé? Chồng tôi đồng ý không do dự",
   "footageTag": "",
   "dim": 0.15,
   "captionsSrc": "",
@@ -68,8 +68,8 @@
       "hook": "Có người bóc tôm cho tôi, bữa đầu tiên sau bảy ngày"
     }
   ],
-  "thumbText": "Anh *ly hôn*|rồi yêu em|nhé?|*Đồng ý.*",
-  "thumbTag": "Trọn bộ",
+  "thumbText": "Bạch nguyệt quang hỏi: Ly hôn rồi yêu em nhé? Chồng tôi đồng ý *không do dự*",
+  "thumbTag": "Audio Full",
   "thumbFocus": "50% 30%",
   "thumbBg": null,
   "introSec": 0

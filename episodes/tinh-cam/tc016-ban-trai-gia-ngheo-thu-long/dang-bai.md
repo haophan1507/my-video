@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Bạn trai giả nghèo thử lòng tôi 3 năm, gặp lại tôi đang quỳ, anh là nhà đầu tư
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Tôi quỳ đóng nha hoàn, bạn trai cũ giả nghèo đứng trên cao: Cô sẽ hối hận
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Bạn trai giả nghèo có điện thoại thứ hai, tôi chụp 72 tấm ảnh rồi chia tay
+Bạn trai giả nghèo thử lòng tôi 3 năm, gặp lại tôi đang quỳ, anh là nhà đầu tư | Quýt Nhỏ Audio 0030
 ```
 
 ## Mô tả YouTube

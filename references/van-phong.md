@@ -83,8 +83,9 @@ Kể về phản diện dùng "bà ta", "cô ta" để người nghe biết ngư
 Lặp cho chương 1 → N. Lưu `episodes/<thể-loại>/<mã>-*/script/chNN.tts.txt` (file duy nhất của chương, đây là chữ gửi thẳng cho giọng đọc, nên viết sẵn dạng đọc được).
 
 ```
-Viết chương [n]/[N] theo dàn ý dưới đây, ~[700–1.100] chữ.
+Viết chương [n]/[N] theo dàn ý dưới đây, ~[900–1.400] chữ.
 Mở đúng bằng câu hook của chương, kết đúng bằng câu cliffhanger của chương. Không tóm tắt chương trước quá một câu.
+Riêng chương 1: văn án 80–150 chữ, rồi câu tên kênh, rồi cảnh có hành động; không đọc tuổi, nghề, gia cảnh trong ~250 chữ đầu.
 
 VĂN PHONG:
 - Bối cảnh Trung Quốc giữ nguyên. Tên người, họ tộc, địa danh, chức danh theo âm Hán Việt. Không pinyin, không tên hay địa danh Việt. Tiền là tệ / vạn tệ.
@@ -103,10 +104,11 @@ Không đưa các dòng "Lưu ý" trong file nguồn vào `chNN.tts.txt`.
 
 ## 7. Soát mỗi chương
 
-- [ ] 700–1.100 chữ.
+- [ ] 900–1.400 chữ.
 - [ ] Câu đầu đứng một mình được, vào thẳng xung đột.
 - [ ] Không còn tên, địa danh, tiền kiểu Việt; không pinyin. Mỗi nhân vật một cách gọi.
 - [ ] Ít nhất 2 câu nội tâm châm biếm và 1 phản ứng của nhân vật phụ.
 - [ ] Mọi câu thoại rõ ai nói.
 - [ ] Kết bằng chiêu tiếp theo hoặc câu hỏi chưa trả lời.
+- [ ] Chương 1: văn án, câu tên kênh, cảnh hành động theo đúng thứ tự; không có đoạn lý lịch trong ~250 chữ đầu.
 - [ ] So với bản gốc, không còn câu chữ trùng.

@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Chồng đòi ly hôn sau tai nạn để về với tình đầu, tôi đang mang thai 2 tháng
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Tai nạn xong chồng chỉ nhớ tình đầu, nhìn ảnh cưới rồi nói: Cô làm tôi ghê tởm
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Bị chồng ly hôn vì tình đầu, tôi mang thai 2 tháng sang Pháp mời người lạ nhảy
+Chồng đòi ly hôn sau tai nạn để về với tình đầu, tôi đang mang thai 2 tháng | Quýt Nhỏ Audio 0014
 ```
 
 ## Mô tả YouTube

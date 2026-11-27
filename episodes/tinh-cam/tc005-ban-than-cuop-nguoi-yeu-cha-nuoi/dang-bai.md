@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Sinh nhật 22 tuổi, tôi thấy bạn thân hôn người yêu, sau lưng là cha nuôi cô ta
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Bạn thân 7 năm hôn người yêu tôi ngay sinh nhật, còn bảo: Cậu có quá nhiều thứ
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Bạn thân cướp người yêu, cha nuôi cô ta không an ủi mà đưa tôi một lựa chọn
+Bạn thân cướp người yêu ngày sinh nhật, người đứng sau là cha nuôi của cô ta | Quýt Nhỏ Audio 0002
 ```
 
 ## Mô tả YouTube

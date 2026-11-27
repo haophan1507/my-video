@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Chồng đặt đơn ly hôn cạnh hồ sơ vay, trang cuối ghi tôi bảo lãnh 2.834 vạn tệ
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Nhân tình tự bấm mật mã vào nhà tôi, mang dép riêng, đưa tôi tờ bảo lãnh để ký
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Chồng tưởng vợ ở nhà 4 năm sẽ ngoan ngoãn ký, tôi chụp từng trang hồ sơ vay
+Chồng đặt đơn ly hôn cạnh hồ sơ vay, trang cuối ghi tôi bảo lãnh 2.834 vạn tệ | Quýt Nhỏ Audio 0032
 ```
 
 ## Mô tả YouTube

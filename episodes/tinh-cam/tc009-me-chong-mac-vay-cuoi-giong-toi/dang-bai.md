@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Ngày cưới, mẹ chồng mặc váy cưới giống hệt tôi, tôi ngã, tỉnh dậy thành mẹ bà
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Mẹ chồng ép tôi bỏ dạy về đẻ, chồng xô tôi ngã, tôi tỉnh dậy làm bà ngoại anh
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Trọng sinh thành mẹ đẻ của mẹ chồng, đúng ngày người chồng xô ngã tôi chào đời
+Ngày cưới, mẹ chồng mặc váy cưới giống hệt tôi, tôi ngã, tỉnh dậy thành mẹ bà | Quýt Nhỏ Audio 0016
 ```
 
 ## Mô tả YouTube

@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | 3 giờ sáng, tôi nhận có thai thay bạn thân, cậu út của cô ấy ép tôi vào tường
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Cậu út của bạn thân ép tôi vào tường: Bé ngoan, người đàn ông đó là ai?
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Tôi nhận tội thay bạn thân 14 năm, lần này người hỏi tội là cậu út của cô ấy
+3 giờ sáng, tôi nhận có thai thay bạn thân, cậu út của cô ấy ép tôi vào tường | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

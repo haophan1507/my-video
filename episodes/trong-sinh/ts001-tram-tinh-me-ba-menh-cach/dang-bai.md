@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Trọng sinh 3 ngày trước lễ cầu phúc, tôi mang 500 lượng đi tìm kẻ sắp giết tôi
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Em gái, hôn phu và bạn thân chia 3 mệnh cách của tôi; trọng sinh, tôi đòi lại
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Lúc tôi hấp hối, em gái hỏi: Có cần bổ thêm nhát nữa không? Tôi trọng sinh
+Trọng sinh 3 ngày trước lễ cầu phúc, tôi mang 500 lượng đi tìm kẻ sắp giết tôi | Quýt Nhỏ Audio 0007
 ```
 
 ## Mô tả YouTube

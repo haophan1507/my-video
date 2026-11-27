@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Ly hôn, chồng dặn hối hận thì bò về quỳ, anh đâu biết tôi là thiên kim thật
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Bạn chồng ném vỏ đậu phộng vào đầu tôi, họ không biết tôi là con gái nhà này
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Nhà chồng gọi tôi là ký sinh trùng, nhưng bố mẹ chồng là bố mẹ ruột của tôi
+Ly hôn, chồng dặn hối hận thì bò về quỳ, anh đâu biết tôi là thiên kim thật | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

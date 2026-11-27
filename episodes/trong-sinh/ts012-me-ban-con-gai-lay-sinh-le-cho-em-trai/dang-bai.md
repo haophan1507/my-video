@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Trọng sinh lúc mẹ quỳ ép tôi bỏ học lấy sính lễ cưới vợ cho em trai, tôi bỏ đi
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Mẹ bán tôi cho lão ế 40 tuổi lấy 20 vạn cho em trai cưới vợ, tôi trọng sinh
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Đứng đầu khối mà mẹ bắt bỏ học nhường em, trọng sinh, tôi cắt đứt với mẹ ruột
+Mẹ bán tôi cho lão ế 40 tuổi lấy 20 vạn cho em trai cưới vợ, tôi trọng sinh | Quýt Nhỏ Audio 0025
 ```
 
 ## Mô tả YouTube

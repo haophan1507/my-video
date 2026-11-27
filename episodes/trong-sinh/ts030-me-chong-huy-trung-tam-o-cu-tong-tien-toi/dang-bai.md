@@ -2,24 +2,10 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
+<!-- Thay XXXX bằng số tập lúc đăng. -->
 
 ```
-Quýt Nhỏ Audio XXXX | Trọng sinh, trung tâm ở cữ gọi: Mẹ chồng chị ở quầy, xin hủy phòng 8 vạn 8!
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Mẹ chồng hủy phòng ở cữ, tôi băng huyết chết; trọng sinh, tôi cược với chồng
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Chồng bênh mẹ; trọng sinh, tôi cược: mẹ anh tham tiền không, xem thẻ là biết
+Trọng sinh, trung tâm ở cữ gọi: Mẹ chồng chị ở quầy, xin hủy phòng 8 vạn 8! | Quýt Nhỏ Audio XXXX
 ```
 
 ## Mô tả YouTube

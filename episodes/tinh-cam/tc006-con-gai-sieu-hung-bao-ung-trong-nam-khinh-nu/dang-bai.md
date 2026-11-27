@@ -2,24 +2,8 @@
 
 ## Tiêu đề YouTube
 
-<!-- Thay XXXX bằng số tập. Tối đa 100 ký tự. Chính dùng khi đăng; A/B để thử ở Test & Compare. -->
-
-Chính:
-
 ```
-Quýt Nhỏ Audio XXXX | Trọng nam khinh nữ, ông bán tôi 3.000 tệ, người bị dắt đi lại là cháu đích tôn
-```
-
-A/B 1:
-
-```
-Quýt Nhỏ Audio XXXX | Trọng nam khinh nữ, bà định thả tôi xuống sông, ông bảo: Lớn lên bán lấy tiền
-```
-
-A/B 2:
-
-```
-Quýt Nhỏ Audio XXXX | Cả nhà trọng nam khinh nữ chê tôi lỗ vốn, tôi biến cháu đích tôn thành quân cờ
+Trọng nam khinh nữ, ông bán tôi 3.000 tệ, người bị dắt đi lại là cháu đích tôn | Quýt Nhỏ Audio 0010
 ```
 
 ## Mô tả YouTube

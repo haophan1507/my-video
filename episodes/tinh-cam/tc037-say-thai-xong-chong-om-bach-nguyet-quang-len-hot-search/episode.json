@@ -1,5 +1,5 @@
 {
-  "title": "Tôi đứng ngoài cửa nghe chồng nói \"con cô ta tự không giữ được\"",
+  "title": "Sảy thai xong, tôi đứng ngoài cửa nghe chồng nói: Con cô ta tự không giữ được",
   "footageTag": "",
   "dim": 0.15,
   "captionsSrc": "",
@@ -58,8 +58,8 @@
       "hook": "Hòa giải mười hai phút và chiếc chìa khóa trên bàn"
     }
   ],
-  "thumbText": "CON CÔ TA|*TỰ KHÔNG*|GIỮ ĐƯỢC",
-  "thumbTag": "Trọn bộ",
+  "thumbText": "Sảy thai xong, tôi đứng ngoài cửa nghe chồng nói: Con cô ta *tự không giữ được*",
+  "thumbTag": "Audio Full",
   "thumbFocus": "50% 30%",
   "thumbBg": null,
   "introSec": 0
