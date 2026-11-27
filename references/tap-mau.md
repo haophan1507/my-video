@@ -37,3 +37,11 @@
 ## Nhật ký
 
 - <yyyy-mm-dd>: mở tập.
+
+## Hiệu suất
+
+Ghi sau 7 ngày đăng (số lấy từ YouTube Studio; dùng để chọn thể loại và sửa hook/bìa cho tập sau):
+
+| Mốc | Lượt xem | CTR hiển thị | Giữ chân trung bình | Ghi chú |
+|---|---|---|---|---|
+| 7 ngày | | | | |

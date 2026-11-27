@@ -7,7 +7,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
-import {epPaths} from './lib/paths.mjs';
+import {epPaths, channelName} from './lib/paths.mjs';
 
 const E = epPaths(process.argv[2]);
 const files = fs.readdirSync(E.script).filter((f) => /^ch\d+\.tts\.txt$/.test(f)).sort();
@@ -55,6 +55,32 @@ for (const {f, text} of chapters) {
     }
     for (const w of STILTED) if (line.toLowerCase().includes(w)) note(f, `${where}: từ nặng mùi dịch/văn mẫu "${w}"`);
   });
+}
+
+// 3. Cấu trúc mở và kết (theo edit-yeu-cau.md mục Đoạn mở): ch01 mở bằng văn án, rồi câu tên kênh,
+// không đọc lý lịch trong 250 chữ đầu; chương cuối nhắc đăng ký/bình luận.
+if (chapters.length) {
+  const first = chapters[0];
+  const firstText = first.text.split('\n').filter(Boolean).join(' ');
+  const firstWords = firstText.split(/\s+/).filter(Boolean);
+  const opening = firstWords.slice(0, 250).join(' ');
+  if (/^(chào|xin chào|chào mừng)\b/iu.test(firstText)) note(first.f, 'mở bằng lời chào; vào thẳng văn án/xung đột');
+  if (/(tôi tên là|tên tôi là|năm nay .{0,20}tuổi|\b\d{1,2} tuổi\b|làm nghề|gia cảnh)/iu.test(opening)) {
+    note(first.f, 'lý lịch (tên, tuổi, nghề, gia cảnh) trong 250 chữ đầu; rải dần theo cảnh');
+  }
+  const call = (() => {
+    const lower = firstText.toLowerCase();
+    const name = channelName().toLowerCase();
+    const at = [lower.indexOf(name), lower.indexOf('đăng ký kênh')].filter((i) => i >= 0);
+    return at.length ? Math.min(...at) : -1;
+  })();
+  if (call < 0) note(first.f, 'thiếu câu tên kênh + nhắc đăng ký sau văn án');
+  else {
+    const before = firstText.slice(0, call).split(/\s+/).filter(Boolean).length;
+    if (before > 220) note(first.f, `câu tên kênh ở chữ thứ ${before}; văn án nên 80–150 chữ`);
+  }
+  const last = chapters[chapters.length - 1];
+  if (!/đăng ký|bình luận/iu.test(last.text.slice(-1200))) note(last.f, 'cuối truyện thiếu lời nhắc đăng ký hoặc câu hỏi bình luận');
 }
 
 // ---- In báo cáo ----

@@ -26,8 +26,12 @@ console.log('tag          clip  phút  hướng  mô tả');
 for (const t of names) {
   const c = manifest.filter((m) => m.tag === t);
   const v = c.filter((m) => m.width / m.height < 0.8).length;
-  console.log(`${t.padEnd(12)} ${String(c.length).padStart(4)}  ${String(Math.round(c.reduce((s, m) => s + m.sec, 0) / 60)).padStart(4)}  ${(v === c.length ? 'dọc' : v ? 'lẫn' : 'ngang').padEnd(5)}  ${tags[t]?.desc ?? ''}`);
+  const speed = tags[t]?.speed ?? 1, start = tags[t]?.start ?? 0;
+  const first = [...c].sort((a, b) => a.src.localeCompare(b.src))[0]?.src;
+  const usable = c.reduce((s, m) => s + Math.max(0, m.sec - (m.src === first ? start : 0)) / speed, 0);
+  console.log(`${t.padEnd(12)} ${String(c.length).padStart(4)}  ${String(Math.round(usable / 60)).padStart(4)}  ${(v === c.length ? 'dọc' : v ? 'lẫn' : 'ngang').padEnd(5)}  ${tags[t]?.desc ?? ''}`);
 }
+console.log('phút = thời lượng sau speed (đã trừ start của clip 01); tag nên dài ≥ độ dài tập.');
 if (code) {
   let ep = null;
   const root = path.join(ROOT, 'episodes');

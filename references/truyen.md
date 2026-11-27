@@ -74,7 +74,7 @@ Câu đầu tránh: lời chào, giới thiệu kênh, giải thích bối cản
 - Ít nhất một điểm ngoặt nhỏ; cứ 45–60 giây có một nhịp mới (thông tin mới, cảm xúc đổi chiều).
 - Chia theo điểm ngoặt, chấp nhận chương lệch nhau 1–2 phút; không cắt giữa cảnh cho đều.
 
-**Phần TikTok 3–8 phút** (ước đoán từ hướng dẫn nội dung ngắn; số liệu gốc không công bố): giây 0–3 là toàn bộ hook, nên thẻ hook phải nêu thẳng xung đột hoặc cái giá, không chào hỏi, không khoảng lặng đầu; cứ ~30–45 giây có một nhịp mới (thông tin lạ, đổi cảnh, đổi cảm xúc); nối các vế bằng "nhưng / vì vậy", không "rồi thì"; phần kết là cliffhanger dẫn sang phần sau; đừng kéo dài một chương ngắn cho đủ phút.
+**Phần TikTok 5–9 phút** (ước đoán từ hướng dẫn nội dung ngắn; số liệu gốc không công bố): giây 0–3 là toàn bộ hook bằng lời kể, nêu thẳng xung đột hoặc cái giá, không chào hỏi, không khoảng lặng đầu; cứ ~30–45 giây có một nhịp mới (thông tin lạ, đổi cảnh, đổi cảm xúc); nối các vế bằng "nhưng / vì vậy", không "rồi thì"; phần kết là cliffhanger dẫn sang phần sau; đừng kéo dài một chương ngắn cho đủ phút.
 
 **Kéo bình luận**: để nhân vật có một lỗi nhỏ gây tranh cãi; câu thoại đắt viết ngắn để dễ quay màn hình chia sẻ.
 
@@ -90,7 +90,7 @@ Khung: [muốn gì / cản trở / ngoặt 1-2-3 / kết].
 Nếu hợp truyện: cảnh kẻ phản bội hối hận một mình; vả mặt công khai có con số; một đồ vật ở chương 1 trở lại câu kết.
 Nhịp: văn án ở đầu chương 1; điểm ngoặt lớn ở chương giữa; cao trào ở chương áp chót.
 Mỗi chương là một vòng vả mặt. Mỗi chương ghi: tiêu đề ngắn, câu hook mở (đứng một mình được), chiêu của kẻ xấu, cách nữ chính phản đòn, ai phản ứng, câu cliffhanger kết.
-Cuối dàn ý: chia chương thành các phần TikTok (mỗi phần 1–2 chương liền nhau, 3–8 phút).
+Cuối dàn ý: chia chương thành các phần TikTok (mỗi phần 1–2 chương liền nhau, 5–9 phút).
 ```
 
 `outline.md` gồm: tổng chữ và phút dự kiến; bảng tên và cách gọi cố định; từng chương (tiêu đề, số chữ, hook mở, nội dung, cliffhanger); bảng chia phần TikTok; một tiêu đề YouTube (`dang-bai.md` mục 1); nếu dùng kiểu cảnh nào ở mục 4 thì ghi ở chương nào.

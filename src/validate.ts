@@ -8,11 +8,8 @@ export const validateEpisode = (p: Record<string, any>, opts: {needThumb?: boole
   for (const k of ['title', 'audioSrc', 'footageTag']) if (!filled(p[k])) e.push(`"${k}" đang trống${k === 'audioSrc' ? ' (chạy node scripts/build-audio.mjs để điền)' : ''}`);
   if (opts.needThumb) for (const k of ['thumbText', 'thumbBg']) if (!filled(p[k])) e.push(`"${k}" đang trống (ảnh bìa cần cả chữ và ảnh nền)`);
   if (filled(p.thumbText) && p.thumbText.split('|').length > 4) e.push('"thumbText" tối đa 4 dòng (ngắt bằng "|")');
-  if (p.thumbAlt != null && !Array.isArray(p.thumbAlt)) e.push('"thumbAlt" phải là mảng [{thumbText, thumbBg, thumbFocus, thumbTag}]');
-  else (p.thumbAlt ?? []).forEach((v: any, i: number) => {
-    if (typeof v?.thumbText === 'string' && v.thumbText.split('|').length > 4) e.push(`thumbAlt[${i}].thumbText tối đa 4 dòng`);
-  });
   if (p.captionsSrc != null && typeof p.captionsSrc !== 'string') e.push('"captionsSrc" phải là chữ ("" = tắt phụ đề)');
+  if (p.intro != null && typeof p.intro !== 'boolean') e.push('"intro" phải là true hoặc false');
   if (!(num(p.dim) && p.dim >= 0 && p.dim <= 1)) e.push('"dim" phải là số từ 0 đến 1');
   if (!(num(p.introSec) && p.introSec >= 0)) e.push('"introSec" phải là số >= 0 (build-audio điền)');
 

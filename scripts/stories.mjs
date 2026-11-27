@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // Danh mục kho truyện kèm trạng thái, tính từ file thật (không phải ghi tay).
 // Dùng: node scripts/stories.mjs [--todo|--doing|--done] [--genre=tc]
-//   chưa làm = chưa có thư mục tập; đang làm = có tập, chưa xong 7 bước; đã làm = xong cả 7 bước.
+//   chưa làm = chưa có thư mục tập; đang làm = có tập, chưa xong 7 bước; đã làm = xong 7 bước hoặc đã đăng YouTube
+//   (tập đã đăng có thể đã dọn audio/video local, nên "đã đăng" thắng trạng thái file).
 import fs from 'node:fs';
 import path from 'node:path';
 import {ROOT, GENRES, ID_RE} from './lib/paths.mjs';
@@ -24,8 +25,8 @@ for (const [code, g] of Object.entries(GENRES)) {
     let state = 'todo', note = '';
     try {
       const r = status(id);
-      state = r.current ? 'doing' : 'done';
-      note = r.current ? `bước ${r.current}. ${r.currentName}` : '';
+      state = r.posted ? 'done' : r.current ? 'doing' : 'done';
+      note = r.posted ? 'đã đăng YouTube' : r.current ? `bước ${r.current}. ${r.currentName}` : '';
     } catch { /* chưa có thư mục tập */ }
     count[state]++;
     if (!filter || filter === state) rows.push(`  ${id}  ${LABEL[state]}${note ? ` (${note})` : ''}  ${title}`);

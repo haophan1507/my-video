@@ -1,7 +1,7 @@
 // node scripts/prep-footage.mjs <thư mục clip gốc> <tag> [--max=900] [--start=0] [--crop=top|square]
 // Chuẩn hóa mọi clip .mp4 .mov .mkv .webm .m4v trong thư mục: giữ tỉ lệ khung gốc, cạnh ngắn 1080 px, 30 fps,
 // H.264, bỏ tiếng. Ghi public/footage/<tag>/<tag>-NN.mp4 rồi cập nhật manifest.
-// Không ép về 9:16 hay 16:9: Remotion tự khớp clip vào từng khung (src/FootageTrack.tsx), lệch tỉ lệ nhiều thì thêm viền đen.
+// Không ép về 9:16 hay 16:9: lúc render tự khớp clip vào từng khung (src/footagePlan.ts), lệch tỉ lệ nhiều thì hiện trọn trên nền kem họa tiết.
 //   --max=giây    độ dài tối đa mỗi clip (mặc định 900)
 //   --start=giây  bỏ phần đầu (intro, logo); mọi clip trong thư mục dùng chung mốc này
 //   --crop=top    giữ 72% phía trên khung (bỏ watermark, chữ ở đáy)

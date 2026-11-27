@@ -30,7 +30,7 @@ Trong thư mục tập: `tap.md`, `outline.md`, `episode.json`, `dang-bai.md` (m
 
 ## Kho nguyên liệu
 
-Mọi file truyện cùng một cấu trúc: tiêu đề `# <mã>. <tên>`, các dòng Thể loại, Nguồn, Dạng lưu, Độ dài, Nhân vật, Điểm chấm, Hook gợi ý, Cần làm ở bước 2; mục `## Khung truyện` (5 bước + Kết); dưới đường `---` là văn bản truyện (`## Bản dịch sát (tiếng Việt)` với chương là `###`, hoặc `## Nguyên văn (tiếng Trung)`). Chưa truyện nào viết theo văn phong kênh. Hai dạng lưu: **bản dịch sát** (lô L01) và **khung tiếng Việt + nguyên văn tiếng Trung** (từ lô L02: phần đầu file có motif, nguồn, bảng tên, điểm, hook, khung 5 bước; dưới là bản gốc chưa dịch). Bước 2 lập dàn ý từ khung và bản gốc; không cần dịch sát trước. Thêm truyện mới: chọn thể loại, lấy số tiếp theo của thể loại đó, thêm dòng ở đây, ghi lô. Điểm tự chấm theo `references/truyen.md` mục 2. Phút: L01 = số chữ bản dịch / 180; L02 = ước tính nếu dịch sát. Đo 2026-11-20.
+Mọi file truyện cùng một cấu trúc: tiêu đề `# <mã>. <tên>`, các dòng Thể loại, Nguồn, Dạng lưu, Độ dài, Nhân vật, Điểm chấm, Hook gợi ý, Cần làm ở bước 2; mục `## Khung truyện` (5 bước + Kết); dưới đường `---` là văn bản truyện (`## Bản dịch sát (tiếng Việt)` với chương là `###`, hoặc `## Nguyên văn (tiếng Trung)`). Chưa truyện nào viết theo văn phong kênh. Hai dạng lưu: **bản dịch sát** (lô L01) và **khung tiếng Việt + nguyên văn tiếng Trung** (từ lô L02: phần đầu file có motif, nguồn, bảng tên, điểm, hook, khung 5 bước; dưới là bản gốc chưa dịch). Bước 2 lập dàn ý từ khung và bản gốc; không cần dịch sát trước. Thêm truyện mới: chọn thể loại, lấy số tiếp theo của thể loại đó, thêm dòng ở đây, ghi lô. Điểm tự chấm theo `references/truyen.md` mục 2. Phút: L01 = số chữ bản dịch / 180; L02 = ước tính nếu dịch sát (ước 1 chữ Hán ≈ 1,1 chữ Việt, 180 chữ/phút). Đây là ước lượng **bản dịch sát**, không phải độ dài bản cuối: giọng đọc tốc độ 1,2 đọc khoảng 290 chữ/phút, nên độ dài tập tính theo `references/truyen.md`. Đo 2026-11-20.
 
 Lô L01 = 10 truyện Zhihu, đọc qua Chrome 2026-11-19, đều đã đọc toàn văn (có chữ kết "完"). Ngày 2026-11-20 loại 3 truyện ngoài phạm vi thể loại (một cổ trang, hai linh dị) khỏi kho; vẫn còn trong lịch sử git (commit `f91c048`, tên cũ s004, s005, s009).
 
@@ -155,7 +155,7 @@ Lô L05 (2026-11-22): 1 truyện Zhihu (`tc003`), bù chỗ trống mã tc003 đ
 
 ## Các tập
 
-Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ file thật). Bảng này chỉ ghi lựa chọn của từng tập để tập sau tham khảo.
+Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ file thật). Bảng này chỉ ghi lựa chọn của tập đã có quyết định (giọng, footage, ghi chú) để tập sau tham khảo; tập chưa có quyết định không cần dòng. Tag footage ghi theo máy đã render; máy khác có thể không có, chọn lại bằng `footage-pick.mjs`.
 
 | Tập | Giọng | Footage | Hồ sơ |
 |---|---|---|---|
@@ -179,20 +179,6 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 | tc018 | minimax speech-2.8-hd, tốc độ 1,2 | `anime` | đã render 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-26, TikTok chưa đăng |
 | tc019 | minimax speech-2.8-hd, tốc độ 1,2 | `night` | đã render 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-26, TikTok chưa đăng |
 | tc020 | minimax speech-2.8-hd, tốc độ 1,2 | `scene` | đã render 2026-11-24 (dim 0,15), đã đăng YouTube 2026-11-26, TikTok chưa đăng |
-| tc021 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc022 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc023 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc024 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc025 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc026 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc027 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc028 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc029 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc030 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc031 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc032 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc033 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc034 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | ts002 | voice d99082f8, tốc độ 1,2 | `scene` | đã render 2026-11-22, đã đăng YouTube 2026-11-24, TikTok chưa đăng |
 | ts005 | voice d99082f8, tốc độ 1,2 | `anime` | đã render 2026-11-22, đã đăng YouTube 2026-11-24, TikTok chưa đăng |
 | ts006 | voice d99082f8, tốc độ 1,2 | `bento` | đã render 2026-11-22, đã đăng YouTube 2026-11-24, TikTok chưa đăng |
@@ -204,36 +190,6 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 | ts013 | voice d99082f8, tốc độ 1,2 | `craft` | đã render 2026-11-26, đã đăng YouTube 2026-11-26, TikTok chưa đăng |
 | ts014 | voice d99082f8, tốc độ 1,2 | `acrylic` | đã render 2026-11-26, đã đăng YouTube 2026-11-26, TikTok chưa đăng |
 | ts015 | voice d99082f8, tốc độ 1,2 | `acrylic` | đã render 2026-11-26, đã đăng YouTube 2026-11-26, TikTok chưa đăng |
-| tc035 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc036 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc037 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc038 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc039 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc040 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc041 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc042 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc043 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc044 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc045 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc046 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc047 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc048 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc049 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc050 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc051 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc052 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc053 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc054 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc055 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc056 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc057 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc058 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc059 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc060 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| tc061 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts022 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts023 | chưa chốt | chưa chốt | mở 2026-11-21 |
-| ts024 | chưa chốt | chưa chốt | mở 2026-11-21 |
 | tc003 | voice d99082f8, tốc độ 1,2 | `painting` | đã render 2026-11-24 (23:32), đã đăng YouTube 2026-11-24, TikTok chưa đăng |
 | ts001 | voice d99082f8, tốc độ 1,2 | `craft` | đã render 2026-11-22, đã đăng YouTube 2026-11-24, TikTok chưa đăng |
 | ts004 | chưa chốt | chưa chốt | mở 2026-11-23; kịch bản bước 1–4 xong, chờ duyệt (10 chương, ~47 phút), đã đăng YouTube 2026-11-24, TikTok chưa đăng |
@@ -243,22 +199,5 @@ Trạng thái và bước hiện tại: `node scripts/stories.mjs` (tính từ f
 | ts018 | voice d99082f8, tốc độ 1,2 | `cake` | đã render 2026-11-27 (30:16), đã đăng YouTube 2026-11-27, TikTok chưa đăng |
 | ts019 | voice d99082f8, tốc độ 1,2 | `cake` | đã render 2026-11-27 (23:06), đã đăng YouTube 2026-11-27, TikTok chưa đăng |
 | ts020 | voice d99082f8, tốc độ 1,2 | `kitchen` | đã render 2026-11-27 (21:20), đã đăng YouTube 2026-11-27, TikTok chưa đăng |
-| ts021 | chưa chốt | chưa chốt | mở 2026-11-23 |
-| ts025 | chưa chốt | chưa chốt | mở 2026-11-23 |
-| ts026 | chưa chốt | chưa chốt | mở 2026-11-23 |
-| ts027 | chưa chốt | chưa chốt | mở 2026-11-23 |
-| ts028 | chưa chốt | chưa chốt | mở 2026-11-23 |
-| ts029 | chưa chốt | chưa chốt | mở 2026-11-23 |
-| ts030 | chưa chốt | chưa chốt | mở 2026-11-23 |
-| ts031 | chưa chốt | chưa chốt | mở 2026-11-23 |
-| ts032 | chưa chốt | chưa chốt | mở 2026-11-23 |
-| ts033 | chưa chốt | chưa chốt | mở 2026-11-23 |
-| ts034 | chưa chốt | chưa chốt | mở 2026-11-23 |
-| ts035 | chưa chốt | chưa chốt | mở 2026-11-23 |
-| ts036 | chưa chốt | chưa chốt | mở 2026-11-23 |
-| ts037 | chưa chốt | chưa chốt | mở 2026-11-23 |
-| ts038 | chưa chốt | chưa chốt | mở 2026-11-23 |
-| ts039 | chưa chốt | chưa chốt | mở 2026-11-23 |
-| ts040 | chưa chốt | chưa chốt | mở 2026-11-23 |
 
-Mỗi tập mới thêm một dòng.
+Tập đã có quyết định thì thêm một dòng (không thêm dòng chỉ để đánh dấu đã mở).

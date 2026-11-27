@@ -14,7 +14,7 @@
 | Tiêu đề YouTube: 5 phương án + điểm, phương án chọn | 5 phương án ở outline.md: A (khoảnh khắc cụ thể), B (kẻ xấu hành động tệ), C (đảo vai), D (tưởng yếu thế, lật kèo), E (khoảng trống thông tin); chọn phương án A (19/20); episode.json dùng bản A |
 | Nhân vật: tên → cách gọi cố định | Chiêu Tâm (tôi), Kỷ Dịch Minh, Kim Trúc Yên, Tiết Hoài Viễn, Lâm Bích Dao; chi tiết outline.md |
 | Bối cảnh | Trung Quốc hiện đại (trung học rồi đại học), tiền tệ |
-| Độ dài: số chương, phút; cách đủ độ dài | 8 chương, ~5.890 chữ ≈ 33 phút; bỏ "thế giới trong sách", giảm bạo lực (xem outline.md) |
+| Độ dài: số chương, phút; cách đủ độ dài | 8 chương, ~5.890 chữ ≈ 20 phút (audio 21:19; dưới chuẩn 25 phút, đã đăng); bỏ "thế giới trong sách", giảm bạo lực (xem outline.md) |
 | Chia phần TikTok | 3 phần: ch.1–2, ch.3–4, ch.5 (~62% chữ, dừng ở cú treo); chi tiết outline.md |
 | Giọng: dịch vụ, model, giọng, tốc độ (nguồn chính: `voice` trong `episode.json`) | GenMax, minimax speech-2.8-hd, voice d99082f8, Vietnamese, tốc độ 1,2 |
 | Footage: chủ đề, nguồn, tag | tag `kitchen`, `footageOffset` 0 (mở từ clip 01, khác điểm vào các tập cùng tag); dim 0.05 |

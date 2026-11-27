@@ -50,6 +50,6 @@ const sheetFile = path.join(out, `${tag}-khung.png`);
 ff([...inputs, '-filter_complex', tiles.join(';'), '-map', '[out]', '-frames:v', '1', '-update', '1', sheetFile]);
 
 const tags = fs.existsSync(path.join(FOOTAGE, 'tags.json')) ? JSON.parse(fs.readFileSync(path.join(FOOTAGE, 'tags.json'), 'utf8')) : {};
-console.log(`${tag}: tốc độ hiện tại ${tags[tag]?.speed ?? 1}`);
+console.log(`${tag}: tốc độ hiện tại ${tags[tag]?.speed ?? 1}, bỏ ${tags[tag]?.start ?? 0} giây đầu clip 01`);
 console.log(`  ${path.relative(ROOT, speedFile)}  (lưới tốc độ ${speeds.join(' | ')}, ${sec} giây)`);
 console.log(`  ${path.relative(ROOT, sheetFile)}  (khung hình rải đều, soát crop)`);

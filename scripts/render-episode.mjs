@@ -61,9 +61,10 @@ const mediaCacheSizeInBytes = Math.round(Math.min(2048, Math.max(240, os.totalme
 // --encoder=hw: mã hóa H.264 bằng chip phần cứng, CPU dành cho Chrome; cần bitrate cố định. Mac: VideoToolbox (mặc định).
 // Windows/Linux: Remotion chỉ có NVENC, chọn theo hệ điều hành chứ không dò card, máy không có card NVIDIA sẽ lỗi,
 // nên ở đó mặc định sw; chỉ ghi --encoder=hw khi máy có card NVIDIA. --encoder=sw: libx264 crf 18.
+// Bitrate 8 Mbps: mức YouTube khuyến nghị cho 1080p 30 fps (đọc 2026-11-27), khớp đường ffmpeg.
 const encoder = flag('encoder') ?? (process.platform === 'darwin' ? 'hw' : 'sw');
 if (!['hw', 'sw'].includes(encoder)) fail(`--encoder phải là hw hoặc sw (nhận: ${encoder})`);
-const encoding = encoder === 'hw' ? {hardwareAcceleration: 'if-possible', videoBitrate: '5M'} : {crf: 18};
+const encoding = encoder === 'hw' ? {hardwareAcceleration: 'if-possible', videoBitrate: '8M'} : {crf: 18};
 const limitSec = Number(flag('limit')) || 0;
 let engine = flag('engine') ?? 'ffmpeg';
 if (!['ffmpeg', 'remotion'].includes(engine)) fail(`--engine phải là ffmpeg hoặc remotion (nhận: ${engine})`);
@@ -90,7 +91,7 @@ if (!only || ['tiktok', 'clips', 'cover'].includes(only)) {
     if (only !== 'clips') jobs.push(`tiktok-${nn}-cover.png`);
   }
 }
-if (!only || only === 'thumb') for (let i = 0; i <= (base.thumbAlt?.length ?? 0); i++) jobs.push(i === 0 ? 'thumb.png' : `thumb-${i + 1}.png`);
+if (!only || only === 'thumb') jobs.push('thumb.png');
 const runStart = Date.now();
 const done = new Set();
 const step = (file) => `${jobs.indexOf(file) + 1}/${jobs.length}`;
@@ -133,8 +134,18 @@ const video = async (id, inputProps, file) => {
   if (engine === 'ffmpeg') return ffmpegVideo(inputProps, file);
   const composition = await selectComposition({serveUrl, id, inputProps});
   const progress = makeProgress(file);
+  const frameRange = limitSec ? [0, Math.min(composition.durationInFrames - 1, Math.round(limitSec * composition.fps))] : undefined;
   await renderMedia({
     composition, serveUrl, inputProps, codec: 'h264', concurrency, mediaCacheSizeInBytes, ...encoding,
+    gopSize: 60, // GOP 2 giây ở 30 fps, khớp đường ffmpeg
+    audioBitrate: '192k', sampleRate: 48000, frameRange,
+    colorSpace: 'bt709', // khớp đường ffmpeg
+    // Remotion không có tùy chọn level: chèn vào lệnh ffmpeg nào thực sự mã hóa hình (không phải bước chỉ chép luồng)
+    ffmpegOverride: ({args}) => {
+      const codecAt = args.indexOf('-c:v');
+      if (codecAt < 0 || args[codecAt + 1] === 'copy') return args;
+      return [...args.slice(0, -1), '-profile:v', 'high', '-level:v', '4.2', args.at(-1)];
+    },
     outputLocation: `${outDir}/${file}`,
     onProgress: ({progress: p}) => progress(p),
   });
@@ -157,13 +168,8 @@ if (!only || only === 'tiktok' || only === 'clips' || only === 'cover') {
   }
 }
 if (!only || only === 'thumb') {
-  // thumb.png từ thumbText/thumbBg; thumb-2.png, thumb-3.png... từ thumbAlt[] (mỗi mục ghi đè vài trường) để A/B test
-  const variants = [base, ...(base.thumbAlt ?? []).map((v) => ({...base, ...v}))];
-  for (const [i, props] of variants.entries()) {
-    const file = i === 0 ? 'thumb.png' : `thumb-${i + 1}.png`;
-    const composition = await selectComposition({serveUrl, id: 'Thumbnail', inputProps: props});
-    await renderStill({composition, serveUrl, inputProps: props, output: `${outDir}/${file}`});
-    mark(file);
-  }
+  const composition = await selectComposition({serveUrl, id: 'Thumbnail', inputProps: base});
+  await renderStill({composition, serveUrl, inputProps: base, output: `${outDir}/thumb.png`});
+  mark('thumb.png');
 }
 console.log(`[${hhmm()}] HOÀN TẤT ${jobs.length} việc trong ${fmtMin(Date.now() - runStart)}`);

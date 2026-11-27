@@ -22,7 +22,7 @@ export type EpisodeProps = {
   coverFocus?: string; // khung ảnh ở bìa TikTok dọc (mặc định theo thumbFocus)
   // Neo mặt (thắng thumbFocus/coverFocus): vị trí mặt trong ảnh "x% y%"; zoom = bề rộng ảnh / đường kính khung tròn
   thumbFace?: string; thumbZoom?: number; coverFace?: string; coverZoom?: number;
-  thumbAlt?: Partial<Pick<EpisodeProps, 'thumbText' | 'thumbBg' | 'thumbFocus' | 'thumbTag' | 'thumbFace' | 'thumbZoom'>>[]; // phương án A/B: thumb-2.png...
+  intro?: boolean; // chèn channel/intro.mp3 trước chương 1 (build-audio); mặc định không chào ở giây 0
   part: number;
   introSec: number; // build-audio điền: độ dài đoạn chào kênh ở đầu bản dài (0 = không có)
   // calculateMetadata điền:

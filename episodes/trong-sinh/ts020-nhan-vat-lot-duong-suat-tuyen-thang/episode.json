@@ -70,6 +70,7 @@
   "thumbTag": "Trọn bộ",
   "thumbFocus": "50% 30%",
   "thumbBg": "ts020/thumb-bg.jpg",
+  "intro": true,
   "introSec": 3.99,
   "footageOffset": 0,
   "thumbFace": "48% 25%",

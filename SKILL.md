@@ -11,37 +11,37 @@ Mỗi truyện thành **một video dài khung ngang** cho YouTube và **nhiều
 
 | | YouTube (bản dài) | TikTok (theo chương) |
 |---|---|---|
-| Khung | Ngang 1920×1080, 30 fps, H.264; footage lệch tỉ lệ thì viền đen hai bên | Dọc 1080×1920, 30 fps, H.264 |
-| Độ dài | 25–60 phút ≈ 4.500–11.000 chữ (~180 chữ/phút), lệch nhẹ hai đầu được; độ dài theo truyện, không phải chỉ tiêu (2026-11-21); truyện nguồn có base ≥ 15 phút | Chỉ đăng 50–60% truyện, mặc định **3 phần** (mỗi phần 1–2 chương, ~5–9 phút), dừng ở chỗ treo trước cao trào (2026-11-21) |
-| Cấu trúc | 6–12 chương, mỗi chương 700–1.100 chữ | Mở bằng hook chương, kết bằng cliffhanger; phần cuối kết bằng cú treo mạnh, dẫn về YouTube |
-| Chữ trên màn | Câu chào kênh bằng giọng, watermark logo; không thẻ chữ | Watermark logo, nhãn "Phần n/N"; không thẻ chữ |
+| Khung | Ngang 1920×1080, 30 fps, H.264; footage lệch tỉ lệ thì hiện trọn trên nền kem họa tiết | Dọc 1080×1920, 30 fps, H.264 |
+| Độ dài | 25–60 phút ≈ 7.300–17.400 chữ (~290 chữ/phút ở tốc độ 1,2), lệch nhẹ hai đầu được; độ dài theo truyện, không phải chỉ tiêu (2026-11-21); truyện nguồn có base ≥ 15 phút | Chỉ đăng 50–60% truyện, mặc định **3 phần** (mỗi phần 1–2 chương, ~5–9 phút), dừng ở chỗ treo trước cao trào (2026-11-21) |
+| Cấu trúc | 8–12 chương, mỗi chương 900–1.400 chữ | Mở bằng hook chương, kết bằng cliffhanger; phần cuối kết bằng cú treo mạnh, dẫn về YouTube |
+| Chữ trên màn | Tên kênh đọc trong lời kể chương 1 (không chào ở giây 0), watermark logo; không thẻ chữ | Watermark logo, nhãn "Phần n/N"; không thẻ chữ |
 | Ảnh bìa | 1280×720 render từ Remotion: nền kem, logo + hook + nút Subscribe bên trái, ảnh nhân vật khung tròn bên phải (`dang-bai.md` mục 2) | 1080×1920 mỗi phần, cùng mẫu: logo, nút "PHẦN n/N", hook phần ở trên, ảnh tròn ở dưới (`dang-bai.md` mục 5) |
 
-Số trong bảng này thắng số ở file khác.
+Bảng này tóm tắt định dạng; thông số hình, độ tối, footage, giọng lấy theo `references/edit-yeu-cau.md`; độ dài, nhịp và cấu trúc chương lấy theo `references/truyen.md` và `references/van-phong.md`.
 
 ## Làm một tập
 
 Khi người dùng nói "làm truyện số N", "tiếp tục tập X", "tập này còn thiếu gì":
 
-1. **Tìm tập** trong `stories/README.md` (mã truyện như `tc005`; chạy `node scripts/stories.mjs` để xem truyện nào chưa/đang/đã làm). Tập mới: tạo `episodes/<thể-loại>/<mã>-slug/` (cùng mã và slug với truyện nguồn; truyện gộp từ nhiều nguồn đã là một file, một mã), chép `references/tap-mau.md` thành `tap.md` và `references/episode-mau.json` thành `episode.json` trong đó, thêm một dòng vào bảng Các tập. Không rõ truyện nào thì hỏi.
-2. **Tìm bước hiện tại**: chạy `node scripts/status.mjs <mã>` (tính từ file thật: số chương, số chữ, mốc sửa file), rồi đi qua bảng 7 bước, mở file đầu ra và so với cột "Xong khi" những chỗ script không đo được (không chỉ tin dấu tick). Bước đầu tiên chưa xong là bước hiện tại.
+1. **Tìm tập** trong `stories/README.md` (mã truyện như `tc005`; chạy `node scripts/stories.mjs` để xem truyện nào chưa/đang/đã làm). Tập mới: tạo `episodes/<thể-loại>/<mã>-slug/` (cùng mã và slug với truyện nguồn; truyện gộp từ nhiều nguồn đã là một file, một mã), chép `references/tap-mau.md` thành `tap.md` và `references/episode-mau.json` thành `episode.json` trong đó. Bảng "Các tập" chỉ thêm dòng khi đã chốt giọng/footage hoặc có ghi chú, không thêm dòng chỉ để đánh dấu đã mở. Không rõ truyện nào thì hỏi.
+2. **Tìm bước hiện tại**: chạy `node scripts/status.mjs <mã>` (tính từ file thật: số chương, số chữ, mốc sửa file), rồi đi qua bảng 7 bước, mở file đầu ra và so với cột "Xong khi" những chỗ script không đo được (không chỉ tin dấu tick). Bước đầu tiên chưa xong là bước hiện tại. Tập đã đăng YouTube mà audio/video local đã dọn, hoặc máy này không có tag footage, thì `status` vẫn báo thiếu ở bước 5–7: đọc dòng "đã đăng YouTube", không chạy lại các bước đó trừ khi định render lại.
 3. **Báo cáo ngắn**: tập, truyện nguồn, bước hiện tại; đã có gì, thiếu gì (kèm đường dẫn); **Cần bạn quyết**: gom mọi quyết định còn trống của bước này, cộng giọng đọc và footage nếu chưa chốt (cần thời gian chuẩn bị). Mỗi mục một gợi ý mặc định kèm lý do một dòng.
-4. **Làm bước đó.** Chỉ dùng gợi ý mặc định khi người dùng đã đồng ý. Xong thì: ghi file đầu ra; trong `tap.md` tick tiến độ, ghi quyết định, thêm một dòng nhật ký; sửa cột "Bước" ở `stories/README.md`.
+4. **Làm bước đó.** Chỉ dùng gợi ý mặc định khi người dùng đã đồng ý. Xong thì: ghi file đầu ra; trong `tap.md` tick tiến độ, ghi quyết định, thêm một dòng nhật ký; cập nhật dòng của tập ở bảng "Các tập" khi đã chốt giọng/footage hoặc có ghi chú.
 
 ## 7 bước
 
 | # | Bước | Đầu ra | Xong khi | Hỏi người dùng | Đọc |
 |---|---|---|---|---|---|
 | 1 | Chọn truyện | Mục Quyết định trong `tap.md` | Có truyện nguồn, thể loại, điểm ≥ 15/25 | Truyện nào | `truyen.md` 1–2 |
-| 2 | Dàn ý | `episodes/<thể-loại>/<mã>-*/outline.md` | 6–12 chương, mỗi chương có hook mở và cliffhanger; có bảng tên, chia phần TikTok, tổng chữ quanh 4.500–11.000 | Duyệt dàn ý, tên, tiêu đề | `truyen.md` 3–5; `dang-bai.md` 1 |
-| 3 | Viết chương | `chNN.tts.txt` (một file mỗi chương, viết sẵn dạng máy đọc được: số, tiền, viết tắt thành chữ) | Đủ chương, mỗi chương 700–1.100 chữ, qua bảng soát | Duyệt chương 1 trước khi viết tiếp | `van-phong.md` |
+| 2 | Dàn ý | `episodes/<thể-loại>/<mã>-*/outline.md` | 8–12 chương, mỗi chương có hook mở và cliffhanger; có bảng tên, chia phần TikTok, tổng chữ quanh 7.300–17.400 | Duyệt dàn ý, tên, tiêu đề | `truyen.md` 3–5; `dang-bai.md` 1 |
+| 3 | Viết chương | `chNN.tts.txt` (một file mỗi chương, viết sẵn dạng máy đọc được: số, tiền, viết tắt thành chữ) | Đủ chương, mỗi chương 900–1.400 chữ, qua bảng soát | Duyệt chương 1 trước khi viết tiếp | `van-phong.md` |
 | 4 | Soát TTS và đọc lướt | 4A báo cáo `normalize-vi.mjs` sạch; 4B báo cáo `soat-doc.mjs` và một lượt đọc lướt bắt lỗi ngớ ngẩn (sửa trực tiếp `chNN.tts.txt`) | Hết chữ số, ngoặc, câu dài; đã đọc lướt hết các chương, không còn lỗi ngớ ngẩn (lẫn tên, sai số, mâu thuẫn rõ, chính tả), `tap.md` ghi nhật ký | — | `san-xuat.md` 1 |
 | 5 | Giọng đọc | `episodes/<thể-loại>/<mã>-*/audio/chNN.mp3` | Mỗi chương một file, cùng giọng và tốc độ; đã nghe thử chương 1 | Dịch vụ, giọng, tốc độ | `san-xuat.md` 2 |
-| 6 | Footage | `public/footage/<tag>/<tag>-NN.mp4`, `sources.txt`, `manifest.json` (kho riêng từng máy, ngoài git) | Đủ clip, đã chuẩn hóa; clip YouTube/TikTok/nền tảng khác tải bằng `dl-video.mjs` (dự phòng: Claude in Chrome) | Chủ đề, duyệt danh sách clip trước khi tải | `edit-yeu-cau.md`, `san-xuat.md` 4 |
-| 7 | Dựng, render | `episode.json`; `out/` trong thư mục tập | Render xong, đã xem lướt đầu và cuối | Ảnh nhân vật và chữ ảnh bìa (duyệt danh sách ảnh trước khi tải), có teaser không | `edit-yeu-cau.md`, `san-xuat.md` 5 |
+| 6 | Footage | `public/footage/<tag>/<tag>-NN.mp4`, `sources.txt`, `manifest.json` (kho riêng từng máy, ngoài git) | Tag có trên máy, tổng thời lượng sau tốc độ ≥ độ dài tập, đã chuẩn hóa; clip YouTube/TikTok/nền tảng khác tải bằng `dl-video.mjs` (dự phòng: Claude in Chrome) | Chủ đề, duyệt danh sách clip trước khi tải | `edit-yeu-cau.md`, `san-xuat.md` 4 |
+| 7 | Dựng, render | `episode.json`; `out/` trong thư mục tập | `status` sạch (audio khớp tổng chương, tiêu đề ≤ 100 ký tự, bìa 1280×720 và chữ bìa trùng hook tiêu đề), đã xem lướt đầu và cuối | Ảnh nhân vật và chữ ảnh bìa (duyệt danh sách ảnh trước khi tải), có teaser không | `edit-yeu-cau.md`, `san-xuat.md` 5 |
 
 - Bước 6 làm song song với 3–5 được.
-- Truyện trong kho có hai dạng: bản dịch sát (lô L01) hoặc khung tiếng Việt + nguyên văn tiếng Trung (từ lô L02). Mỗi truyện có base ≥ 15 phút. Ở bước 2 gom thành 6–12 chương; độ dài theo sức của truyện: còn đất sáng tạo thì cứ viết thêm cảnh, vòng, twist; không thấy chỗ mở hợp lý thì để 25–30 phút, không cố kéo; truyện dài thì cắt cảnh phụ. Tự do đổi cảnh, thêm twist, sửa kết nếu hay hơn. Không ghép hai truyện khác nhân vật vào một tập.
+- Truyện trong kho có hai dạng: bản dịch sát (lô L01) hoặc khung tiếng Việt + nguyên văn tiếng Trung (từ lô L02). Mỗi truyện có base ≥ 15 phút. Ở bước 2 gom thành 8–12 chương; độ dài theo sức của truyện: còn đất sáng tạo thì cứ viết thêm cảnh, vòng, twist; không thấy chỗ mở hợp lý thì để 25–30 phút, không cố kéo; truyện dài thì cắt cảnh phụ. Tự do đổi cảnh, thêm twist, sửa kết nếu hay hơn. Không ghép hai truyện khác nhân vật vào một tập.
 
 ## Lệnh
 
@@ -63,15 +63,15 @@ node scripts/footage-manifest.mjs                    # 6: quét lại kho footag
 node scripts/build-audio.mjs tc005                    # 7: ghép chương, ghi mốc, out/chapters.txt
 node scripts/prep-thumb.mjs tc005 raw/anh.jpg [--name=thumb-bg-2]   # 7: ảnh nhân vật cho bìa -> public/tc005/
 npx remotion studio src/index.ts                     # 7: xem trước
-node scripts/render-episode.mjs tc005 [--only=youtube|tiktok|clips|cover|thumb] [--parts=1,3] [--engine=ffmpeg|remotion] [--out=dir]   # youtube ngang, tiktok dọc + bìa phần (clips: không bìa), thumb (+ thumbAlt); mặc định ffmpeg (~5 lần thời gian thực), remotion khi bật phụ đề
-node scripts/status.mjs [tc005]                       # bước hiện tại của tập (không tham số: mọi tập)
+node scripts/render-episode.mjs tc005 [--only=youtube|tiktok|clips|cover|thumb] [--parts=1,3] [--engine=ffmpeg|remotion] [--out=dir]   # youtube ngang, tiktok dọc + bìa phần (clips: không bìa), thumb; mặc định ffmpeg (~5 lần thời gian thực), remotion khi bật phụ đề
+node scripts/status.mjs [tc005]                       # bước hiện tại của tập + kiểm tra audio/tiêu đề/bìa (không tham số: mọi tập)
 node scripts/stories.mjs [--todo|--doing|--done] [--genre=tc]   # kho truyện: chưa/đang/đã làm, tính từ file thật
 npm run typecheck                                    # kiểm kiểu code
 ```
 
 Sheet quản lý video (lịch đăng, trạng thái YouTube/TikTok từng tập): [Quýt nhỏ Audio](https://docs.google.com/spreadsheets/d/13-6eR8dr08mhFfsXRM4NQF05568dqof7rylYLMdVmVY/edit). Cột YouTube tự đồng bộ bằng Apps Script `scripts/apps-script/youtube-sync.gs` (cài: `scripts/apps-script/README.md`); đăng video làm tay trong Studio. Script ghép video với tập theo số `Quýt Nhỏ Audio NNNN` trong tiêu đề, so với cột "Tiêu đề dự kiến (dang-bai)" (chép tiêu đề trong `dang-bai.md`): đổi tiêu đề hoặc điền số trong `dang-bai.md` thì sửa ô đó; tập mới thì thêm dòng vào sheet. Đăng xong một tập: sửa cột Sản xuất, TikTok trong sheet nếu đổi.
 
-Cần ffmpeg, ffprobe trong PATH. Phụ đề đang tắt và đã gỡ whisper (xem `edit-yeu-cau.md`); chỉ còn `rough-captions.mjs` (mốc theo số ký tự). Chưa có chế độ nền "một cảnh dài liền".
+Cần ffmpeg, ffprobe trong PATH. Phụ đề đang tắt và đã gỡ whisper (xem `edit-yeu-cau.md`); chỉ còn `rough-captions.mjs` (mốc theo số ký tự). Footage phát liền từng clip ~15 phút; hết tag thì quay lại clip đầu, không cắt vụn.
 
 Khi tới bước cần công cụ chưa có: nói trong báo cáo, đề xuất dựng một lần cho mọi tập hoặc làm tay. Dựng xong thì sửa mục này.
 

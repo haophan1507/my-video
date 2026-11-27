@@ -1,15 +1,13 @@
 // Đường render nhanh: ffmpeg ghép footage + lớp tối + lớp phủ PNG (logo, nhãn) + audio, không qua Chrome.
 // Cho cùng kết quả với composition Episode/Clip khi phụ đề tắt (src/Story.tsx, src/FootageTrack.tsx):
-// footage phát liền từng clip theo thứ tự tên file, mờ chéo 1 giây, quay lại clip đầu khi hết tag;
-// phủ kín nếu phần cắt ≤ 20% diện tích, ngược lại viền đen. Sửa FootageTrack thì sửa cả file này.
+// kế hoạch footage lấy từ src/footagePlan.ts (cùng file với FootageTrack) nên hai đường không lệch nhau.
 import fs from 'node:fs';
 import path from 'node:path';
 import {spawn, spawnSync} from 'node:child_process';
 import {ROOT, FOOTAGE} from './paths.mjs';
+import {FADE_SEC, FPS, planFootage} from '../../src/footagePlan.ts';
 
-export const FPS = 30;
-const FADE_SEC = 1;
-const MAX_CROP = 0.2;
+export {FPS};
 
 const probeSec = (file) => {
   const r = spawnSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', file], {encoding: 'utf8'});
@@ -29,29 +27,15 @@ export function loadFootage(props) {
   const speed = tagInfo.speed ?? 1, start = tagInfo.start ?? 0;
   const footage = manifest.filter((f) => f.tag === tag).map((f) => ({...f, speed, start}));
   if (!footage.length) throw new Error(`Không có footage cho tag "${tag}" trên máy này. Chạy node scripts/footage-pick.mjs <mã tập> <tag>`);
-  return {tag, speed, start, footage, audioSec: probeSec(path.join(ROOT, 'public', props.audioSrc))};
+  const audioSec = probeSec(path.join(ROOT, 'public', props.audioSrc));
+  const lastStart = props.chapters?.at(-1)?.startSec ?? 0;
+  if (audioSec < lastStart) throw new Error(`audio.mp3 dài ${audioSec.toFixed(1)}s nhưng chương cuối bắt đầu ở ${lastStart.toFixed(1)}s: file audio cụt, chạy lại node scripts/build-audio.mjs`);
+  return {tag, speed, start, footage, audioSec};
 }
 
-// Kế hoạch footage cả tập theo khung hình, y như FootageTrack
-const fullPlan = (footage, totalFrames, frameRatio, offset = 0) => {
-  const fade = Math.round(FADE_SEC * FPS);
-  const byName = [...footage].sort((a, b) => a.src.localeCompare(b.src));
-  const k = ((offset % byName.length) + byName.length) % byName.length; // footageOffset (xem FootageTrack)
-  const clips = [...byName.slice(k), ...byName.slice(0, k)];
-  const out = [];
-  let at = 0;
-  for (let i = 0; at < totalFrames; i++) {
-    const c = clips[i % clips.length];
-    const skip = c === byName[0] ? (c.start ?? 0) : 0; // tags.json start: bỏ đoạn đầu clip 01 (intro, chữ kênh gốc)
-    const len = Math.max(fade * 2 + 1, Math.floor(((c.sec - skip) / (c.speed ?? 1)) * FPS)); // speed > 1: clip hết nhanh hơn
-    const from = i === 0 ? 0 : at - fade;
-    const r = c.width && c.height ? c.width / c.height : frameRatio;
-    const fit = 1 - Math.min(r, frameRatio) / Math.max(r, frameRatio) <= MAX_CROP ? 'cover' : 'contain';
-    out.push({src: c.src, from, dur: len, fit, speed: c.speed ?? 1, skip});
-    at = from + len;
-  }
-  return out;
-};
+// Kế hoạch footage cả tập theo khung hình: lấy từ src/footagePlan.ts (dùng chung với FootageTrack)
+const fullPlan = (footage, totalFrames, frameRatio, offset = 0) =>
+  planFootage({footage, totalFrames, frameRatio, fps: FPS, offset});
 
 // Cắt kế hoạch theo cửa sổ [f0, f1) khung (bản TikTok bắt đầu giữa tập). Bỏ đoạn chỉ còn dính phần mờ chéo
 // ở hai mép cửa sổ để xfade luôn đủ 1 giây.
@@ -70,17 +54,19 @@ const windowPlan = (plan, f0, f1) => {
 };
 
 // Bộ mã hóa: Mac VideoToolbox; Windows/Linux dò NVENC, QSV, AMF bằng một lần mã hóa thử; không có thì libx264.
+// Bitrate: YouTube khuyến nghị 8 Mbps cho 1080p 30 fps (khuyến nghị tải lên, đọc 2026-11-27); 5 Mbps trước đây
+// làm YouTube mã hóa lại thấy mờ ở vùng chuyển động. GOP 2 giây (60 khung) giúp YouTube tua và mã hóa lại ổn định.
+const HW_ARGS = ['-b:v', '8M', '-maxrate', '12M', '-bufsize', '16M', '-g', '60', '-profile:v', 'high', '-level:v', '4.2'];
 const tryEncoder = (name) => spawnSync('ffmpeg', ['-v', 'error', '-f', 'lavfi', '-i', 'color=s=256x256:d=0.2',
-  '-c:v', name, '-f', 'null', '-'], {encoding: 'utf8'}).status === 0;
+  '-c:v', name, ...HW_ARGS, '-f', 'null', '-'], {encoding: 'utf8'}).status === 0;
 let cachedEncoder;
 export function pickEncoder(mode) {
-  if (mode === 'sw') return {name: 'libx264', args: ['-c:v', 'libx264', '-preset', 'veryfast', '-crf', '18']};
+  if (mode === 'sw') return {name: 'libx264', args: ['-c:v', 'libx264', '-preset', 'veryfast', '-crf', '18',
+    '-g', '60', '-keyint_min', '60', '-sc_threshold', '0', '-profile:v', 'high', '-level:v', '4.2']};
   if (cachedEncoder) return cachedEncoder;
   const hw = process.platform === 'darwin' ? ['h264_videotoolbox'] : ['h264_nvenc', 'h264_qsv', 'h264_amf'];
   const name = hw.find(tryEncoder);
-  cachedEncoder = name
-    ? {name, args: ['-c:v', name, '-b:v', '5M', '-maxrate', '8M', '-bufsize', '10M']}
-    : pickEncoder('sw');
+  cachedEncoder = name ? {name, args: ['-c:v', name, ...HW_ARGS]} : pickEncoder('sw');
   return cachedEncoder;
 }
 
@@ -90,10 +76,6 @@ const filterFileArgs = (file) => {
   newSyntax ??= !spawnSync('ffmpeg', ['-hide_banner', '-h', 'full'], {encoding: 'utf8', maxBuffer: 64 << 20}).stdout.includes('filter_complex_script');
   return newSyntax ? ['-/filter_complex', file] : ['-filter_complex_script', file];
 };
-
-const fitFilter = (fit, W, H) => fit === 'cover'
-  ? `scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H}`
-  : `scale=${W}:${H}:force_original_aspect_ratio=decrease,pad=${W}:${H}:(ow-iw)/2:(oh-ih)/2:black`;
 
 // props: episode đã có audioSec, footage; part 0 = YouTube 1920×1080, part n = TikTok 1080×1920.
 // overlayPng: ảnh trong suốt cùng khung (logo, nhãn). tmpDir: nơi ghi script bộ lọc.
@@ -128,9 +110,10 @@ export async function renderFfmpeg({props, startSec, endSec, overlayPng, backdro
   let ci = 0;
   segs.forEach((s, i) => {
     const pre = `[${i}:v]setpts=(PTS-STARTPTS)/${s.speed},fps=${FPS}`;
-    if (s.fit === 'cover') f.push(`${pre},scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},setsar=1,format=yuv420p${dim},settb=AVTB[s${i}]`);
+    // flags=lanczos: footage 720p phóng lên 1080p, lấy mẫu lanczos giữ cạnh nét hơn mặc định bicubic
+    if (s.fit === 'cover') f.push(`${pre},scale=${W}:${H}:force_original_aspect_ratio=increase:flags=lanczos,crop=${W}:${H},setsar=1,format=yuv420p${dim},settb=AVTB[s${i}]`);
     else {
-      f.push(`${pre},scale=${W}:${H}:force_original_aspect_ratio=decrease,setsar=1,format=yuv420p${dim}[c${i}]`);
+      f.push(`${pre},scale=${W}:${H}:force_original_aspect_ratio=decrease:flags=lanczos,setsar=1,format=yuv420p${dim}[c${i}]`);
       f.push(`[bd${ci++}][c${i}]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2:shortest=1,format=yuv420p,settb=AVTB[s${i}]`);
     }
   });
@@ -147,7 +130,10 @@ export async function renderFfmpeg({props, startSec, endSec, overlayPng, backdro
   fs.writeFileSync(script, f.join(';\n'));
 
   args.push(...filterFileArgs(script), '-map', '[v]', '-map', '[a]', '-t', outSec.toFixed(3), '-r', String(FPS),
-    ...encoder.args, ...(encoder.name === 'libx264' ? ['-threads', '3'] : []), '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', output);
+    ...encoder.args, ...(encoder.name === 'libx264' ? ['-threads', '3'] : []), '-pix_fmt', 'yuv420p',
+    // Ghi rõ hệ màu BT.709: thiếu metadata, trình phát/YouTube có thể hiểu sai và màu bị nhạt
+    '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-color_range', 'tv',
+    '-c:a', 'aac', '-b:a', '192k', '-ar', '48000', '-movflags', '+faststart', output);
 
   await new Promise((resolve, reject) => {
     const p = spawn('ffmpeg', args, {stdio: ['ignore', 'pipe', 'pipe']});

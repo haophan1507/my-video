@@ -1,6 +1,6 @@
 # ts020: Dàn ý
 
-**Tổng**: 8 chương, ~5.890 chữ ≈ 33 phút (180 chữ/phút). Ngôi thứ nhất nữ, giọng tâm sự, bối cảnh trường trung học Trung Quốc hiện đại, tiền là tệ. Viết lại toàn bộ 2026-11-23.
+**Tổng**: 8 chương, ~5.890 chữ ≈ 20 phút (290 chữ/phút; audio thực tế 21:19, dưới chuẩn 25 phút). Ngôi thứ nhất nữ, giọng tâm sự, bối cảnh trường trung học Trung Quốc hiện đại, tiền là tệ. Viết lại toàn bộ 2026-11-23.
 **Cách đủ độ dài**: bỏ yếu tố "thế giới trong sách"; làm nhẹ cảnh bạo lực (Tâm tránh hẻm, gọi công an); giữ trục: suất tuyển thẳng, ảnh giả, ký túc xá bị lục, thi đỗ đầu tỉnh, đính chính trên sóng, kết nhẹ với Hoài Viễn.
 **Logic đã chốt**: kiếp trước Tâm bị chặn trong hẻm sau trường trước kỳ thi. Kiếp này cô ghi âm mọi lời đe dọa, kiểm tra metadata ảnh ghép, nhờ camera thư viện, đổi đường, đi cùng Hoài Viễn, thi xong đỗ đầu tỉnh.
 **Hook cả truyện** (mở ch.1, đọc trước khi kể từ đầu): "Trước khi chết trong một con hẻm tối, tôi nghe qua điện thoại giọng nam chính lạnh tanh: Chắc chắn Chiêu Tâm không còn là mối đe dọa của Trúc Yên nữa chứ? Lần này tôi sống lại, còn sáu mươi hai ngày trước kỳ thi."

@@ -72,7 +72,7 @@ Kho truyện nguồn có sẵn ở `stories/` (xem bảng trong [stories/README.
 | # | Bước | Kết quả |
 |---|---|---|
 | 1 | Chọn truyện | Quyết định trong `tap.md` |
-| 2 | Dàn ý 6–12 chương | `outline.md` |
+| 2 | Dàn ý 8–12 chương | `outline.md` |
 | 3 | Viết chương | `script/chNN.tts.txt` |
 | 4 | Soát văn bản cho TTS | báo cáo `normalize-vi.mjs` |
 | 5 | Gen giọng | `audio/chNN.mp3` |
@@ -97,7 +97,7 @@ node scripts/build-audio.mjs tc005         # 7: ghép audio, ghi mốc chương
 node scripts/prep-thumb.mjs tc005 raw/anh.jpg   # 7: ảnh nhân vật cho bìa
 npm run studio                             # 7: xem trước
 node scripts/render-episode.mjs tc005      # 7: render youtube.mp4 (ngang), tiktok-NN.mp4 (dọc) + bìa phần, thumb.png (--only=, --parts=1,3)
-node scripts/status.mjs tc005              # bước hiện tại của tập, tính từ file thật
+node scripts/status.mjs tc005              # bước hiện tại + kiểm tra audio/tiêu đề/bìa, tính từ file thật
 node scripts/stories.mjs --todo            # truyện trong kho chưa làm
 ```
 
@@ -122,7 +122,7 @@ Các thư mục sau nặng hoặc dựng lại được nên bị bỏ qua (xem 
 Máy mới clone về cần:
 - **Footage:** tải lại clip theo nguồn ghi ở `public/footage/<tag>/sources.txt`, rồi chạy `prep-footage`.
 - **Audio giọng đọc:** gen lại bằng `gen-voice tc005` (tốn credit GenMax). Nếu cần giữ bản đã gen, sao lưu riêng thư mục `audio/`.
-- **Câu chào kênh:** `channel/intro.mp3` có sẵn trong git; đổi câu chào thì chạy `node scripts/gen-voice.mjs channel`. Thiếu file này thì `build-audio` bỏ qua câu chào.
+- **Câu chào kênh:** `channel/intro.mp3` có sẵn trong git; đổi câu chào thì chạy `node scripts/gen-voice.mjs channel`. Chỉ dùng khi `episode.json` có `"intro": true`; mặc định video mở thẳng bằng văn án, tên kênh đọc trong chương 1.
 
 ## Gặp lỗi
 

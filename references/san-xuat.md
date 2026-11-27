@@ -33,7 +33,7 @@ Mục tiêu: không còn lỗi lộ liễu làm người nghe khựng lại. Kh�
 node scripts/soat-doc.mjs tc005
 ```
 
-Script không sửa gì. Nó in danh sách tên riêng (tên chỉ có 1–2 lần, hoặc hai tên cùng chữ cuối, thường là gõ sai hoặc một người gọi hai cách), chỗ nghi ngờ (hai dấu cách, từ lặp liền, thiếu dấu cách sau dấu câu, câu trùng giữa các chương), và câu đầu, câu cuối từng chương. Câu chữ thường sau dấu hai chấm trong lời thoại và từ láy lặp liền là bình thường.
+Script không sửa gì. Nó in danh sách tên riêng (tên chỉ có 1–2 lần, hoặc hai tên cùng chữ cuối, thường là gõ sai hoặc một người gọi hai cách), chỗ nghi ngờ (hai dấu cách, từ lặp liền, thiếu dấu cách sau dấu câu, câu trùng giữa các chương), cấu trúc mở/kết (lý lịch trong 250 chữ đầu, thiếu câu tên kênh sau văn án, thiếu lời nhắc đăng ký ở cuối), và câu đầu, câu cuối từng chương. Câu chữ thường sau dấu hai chấm trong lời thoại và từ láy lặp liền là bình thường.
 
 Rồi đọc lướt một lượt từ chương 1 đến chương cuối, chỉ để bắt các lỗi sau; thấy thì sửa thẳng ở `chNN.tts.txt`:
 - [ ] Tên, tuổi, số tiền, số ngày, nơi chốn khớp giữa các chương; không lẫn tên cũ.
@@ -76,20 +76,7 @@ Mọi chữ và màu cố định của kênh nằm ở `channel/channel.json`, 
 
 **Kho footage riêng từng máy** (2026-11-22): `public/footage/` nằm ngoài git; mỗi người tự tải video rồi nạp bằng skill `.claude/skills/footage-intake/SKILL.md`, nên tag và số clip khác nhau giữa các máy. Danh sách 10 chủ đề dưới đây chỉ là **gợi ý khi tìm và đặt tên**, không bắt buộc: tag mới tùy ý (`[a-z0-9-]`), mô tả ở `public/footage/tags.json`. Chọn tag cho tập từ kho của máy này (`node scripts/footage-pick.mjs <mã>`), lưu cục bộ ở `public/footage/choices.json`.
 
-**Chọn chủ đề** theo `edit-yeu-cau.md` (kiểu hình dùng và không dùng). Chọn một chủ đề cho cả tập:
-
-1. Nấu ăn cận cảnh
-2. Làm bánh
-3. Trang trí đồ ngọt
-4. Pha chế đồ uống màu
-5. Đồ thủ công pastel
-6. Làm gốm
-7. Vẽ tranh, tô màu, tô số hóa
-8. Ambience đêm
-9. Làm nail
-10. Ghép hình cận cảnh, dán sticker DIY cận cảnh
-
-**Một tập, một chủ đề, một tag**: mỗi tập chỉ dùng footage của đúng một chủ đề ở danh sách trên. Mỗi chủ đề có một tag, dùng làm tên thư mục, tiền tố tên file và `footageTag` trong `episode.json`; clip khác chủ đề không đưa vào tag đó.
+**Chọn chủ đề** theo `edit-yeu-cau.md` (kiểu hình dùng và không dùng) và chỉ dùng **một tag cho cả tập**. Tag là tên thư mục, tiền tố tên file và `footageTag` trong `episode.json`; clip khác nguồn/kiểu hình không đưa vào tag đó.
 
 **Cấu trúc thư mục** (dùng chung mọi tập, không nằm trong thư mục tập):
 
@@ -106,7 +93,7 @@ public/footage/
 
 Kiểm kho: `node scripts/footage-manifest.mjs` quét lại mọi thư mục tag, ghi manifest và in bảng số clip, tổng phút, số clip dọc/ngang/vuông theo từng tag. Cả thư mục `public/footage/` (clip, manifest, sources.txt, tags.json, ingested.json, choices.json) không vào git.
 
-| Chủ đề | Tag |
+| Chủ đề | Tag gợi ý |
 |---|---|
 | Nấu ăn cận cảnh | `cook` |
 | Làm bánh | `bake` |
@@ -119,9 +106,11 @@ Kiểm kho: `node scripts/footage-manifest.mjs` quét lại mọi thư mục tag
 | Làm nail | `nail` |
 | Ghép hình, dán sticker DIY | `puzzle` |
 
+Tag mới đặt tùy ý (`[a-z0-9-]`), mô tả ở `public/footage/tags.json`; bảng trên chỉ để gợi ý tên.
+
 Quan sát 2026-11-19: nhiều kênh hiệu suất cao ghi kiểu footage ngay trong tiêu đề, phổ biến nhất là **tô màu, vẽ tranh, nấu ăn**: cận cảnh tay làm việc chậm, đều, không lộ mặt, quay được hàng giờ. Giữ một chủ đề cho nhiều tập liền để kênh có nhận diện.
 
-**Độ dài và lượng**: mỗi clip nguồn **từ 5 phút trở lên** (ưu tiên 30 phút–1 giờ), vì Pexels, Pixabay và các kho clip ngắn tương tự gần như toàn video vài giây đến vài chục giây, không đủ nền cho tập 35–60 phút mà ít lặp. Clip dài thì cần ít clip hơn: tối thiểu 4 clip, tập 45–60 phút nên 6–10 clip (ước đoán). `FootageTrack` bắt đầu mỗi cảnh ở một điểm ngẫu nhiên trong clip nên clip càng dài càng ít lặp. **Hướng clip**: `prep-footage` giữ tỉ lệ gốc; Remotion khớp clip vào từng khung (phủ kín nếu cắt ≤ 20% diện tích, ngược lại hiện trọn với viền đen). Clip ngang 16:9 phủ kín bản YouTube; ở bản TikTok dọc nó hiện thành dải ngang giữa khung. Clip dọc phủ kín bản TikTok; ở bản YouTube có viền đen hai bên. Tag dùng cho cả hai bản nên có cả hai hướng; chọn cảnh có tay hoặc vật chính nằm giữa khung.
+**Độ dài và lượng**: mỗi clip nguồn **từ 5 phút trở lên** (ưu tiên 30 phút–1 giờ), và tổng thời lượng tag **sau tốc độ** nên dài ≥ độ dài tập để footage không lặp. Không đặt chỉ tiêu số clip: một nguồn dài cắt thành vài đoạn liền mạch tốt hơn nhiều clip ngắn khác kiểu. **Hướng clip**: `prep-footage` giữ tỉ lệ gốc; Remotion khớp clip vào từng khung (phủ kín nếu cắt ≤ 20% diện tích, ngược lại hiện trọn trên nền kem họa tiết). Clip ngang 16:9 phủ kín bản YouTube; ở bản TikTok dọc nó hiện thành dải ngang giữa khung. Clip dọc phủ kín bản TikTok; ở bản YouTube hiện trọn trên nền kem. Tag dùng cho cả hai bản nên có cả hai hướng; chọn cảnh có tay hoặc vật chính nằm giữa khung.
 
 **Tìm clip dài, đa dạng nguồn**: không dựa vào một hai kho. Tiêu chí chung: giấy phép cho phép dùng thương mại và đăng lại mà không cần xin phép từng clip, không dán logo hay chữ lên hình, không có người nổi tiếng hay tác phẩm của người khác lồng trong hình. Ghi nguồn và giấy phép từng clip vào `public/footage/<tag>/sources.txt`.
 
@@ -189,7 +178,7 @@ Vùng crop: bỏ góc logo, chữ chìm, phụ đề; clip có chữ nằm giữ
 
 | Trường | Ý nghĩa |
 |---|---|
-| `title` | Tiêu đề tập (không hiện trên hình; dùng cho đăng bài) |
+| `title` | Tên tập nội bộ (không hiện trên hình, không dùng đăng bài; tiêu đề YouTube ở `dang-bai.md`) |
 | `voice` | Cài đặt giọng của tập cho `gen-voice` (mục 2); Remotion không dùng |
 | `audioSrc` | `<mã>/audio.mp3` (do `build-audio` điền) |
 | `captionsSrc` | `""` = tắt phụ đề; `<mã>/captions.json` khi bật |
@@ -198,6 +187,7 @@ Vùng crop: bỏ góc logo, chữ chìm, phụ đề; clip có chữ nằm giữ
 | `parts[]` | `{"chapters": [đầu, cuối], "hook": "chữ hook phần"}` theo bảng chia phần trong `outline.md` |
 | `thumbText`, `thumbBg`, `thumbFace`, `thumbFocus`, `thumbTag` | Ảnh bìa: chữ trùng hook tiêu đề (`*cụm*` tô màu nhấn, `\|` ngắt dòng khi cần), ảnh nhân vật `<mã>/thumb-bg.jpg` (tạo bằng `prep-thumb`), khung ảnh, nhãn "Audio Full" |
 | `introSec` | Do `build-audio` điền |
+| `intro` | `true` = chèn `channel/intro.mp3` trước chương 1 (mặc định không chào ở giây 0) |
 
 **Chạy**:
 ```bash
@@ -218,13 +208,13 @@ node scripts/render-episode.mjs tc005     # youtube.mp4, tiktok-NN.mp4, thumb.pn
 
 Thử nhanh một đoạn: `npx remotion render src/index.ts Episode .tmp/test.mp4 --props=episodes/<thể-loại>/<mã>-<slug>/episode.json --frames=0-300 --scale=0.5`.
 
-**Kiểm tra trước khi báo xong**: xem lướt đầu (vào thẳng footage, watermark), một chỗ chuyển chương, đoạn cuối; thời lượng khớp tổng audio; mỗi `tiktok-NN.mp4` bắt đầu đúng đầu chương. Xem một khung bất kỳ không cần mở video: `ffmpeg -ss 00:00:05 -i out/youtube.mp4 -frames:v 1 .tmp/khung.png` (hoặc `npx remotion still src/index.ts Episode .tmp/khung.png --frame=150 --props=...`). Ghi `--overwrite` nếu file đã có, để không xem nhầm ảnh cũ.
+**Kiểm tra trước khi báo xong**: chạy `node scripts/status.mjs <mã>` (audio khớp tổng chương, tiêu đề ≤ 100 ký tự, bìa 1280×720, chữ bìa trùng hook tiêu đề); xem lướt đầu (vào thẳng footage, watermark), một chỗ chuyển chương, đoạn cuối; thời lượng khớp tổng audio (dưới 25 phút là dưới chuẩn, trừ tập cũ đã đăng); mỗi `tiktok-NN.mp4` bắt đầu đúng đầu chương. Xem một khung bất kỳ không cần mở video: `ffmpeg -ss 00:00:05 -i out/youtube.mp4 -frames:v 1 .tmp/khung.png` (hoặc `npx remotion still src/index.ts Episode .tmp/khung.png --frame=150 --props=...`). Ghi `--overwrite` nếu file đã có, để không xem nhầm ảnh cũ.
 
 **Hai đường render** (2026-11-22): `--engine=ffmpeg` (mặc định) và `--engine=remotion`.
-- **ffmpeg** (`scripts/lib/ffmpeg-render.mjs`): Remotion chỉ vẽ một ảnh PNG trong suốt (composition `OverlayYoutube` / `OverlayTiktok`: logo, nhãn "Phần n/N"); ffmpeg ghép footage theo đúng quy tắc của `FootageTrack` (clip liền theo tên file, mờ chéo 1 giây, phủ kín hoặc viền đen), làm tối nền theo `dim`, chồng ảnh phủ, ghép audio. Sửa `FootageTrack.tsx` hoặc `Story.tsx` thì sửa cả file này cho khớp. Đã đo (2026-11-22, Apple M2 8 nhân, 16 GB, VideoToolbox): ts001 bản YouTube 24 phút render 4,8 phút (~5 lần thời gian thực), phần TikTok 2,5 phút render 0,4 phút; so với bản Remotion cùng tập: SSIM 0,99, khớp ở đầu, chỗ mờ chéo phút 15, cuối.
+- **ffmpeg** (`scripts/lib/ffmpeg-render.mjs`): Remotion chỉ vẽ một ảnh PNG trong suốt (composition `OverlayYoutube` / `OverlayTiktok`: logo, nhãn "Phần n/N"); ffmpeg ghép footage theo đúng quy tắc của `FootageTrack` (clip liền theo tên file, mờ chéo 1 giây, phủ kín hoặc hiện trọn trên nền kem họa tiết), làm tối nền theo `dim`, chồng ảnh phủ, ghép audio. Kế hoạch footage dùng chung ở `src/footagePlan.ts`; sửa `Story.tsx`/`FootageTrack.tsx` (dim, lớp phủ, nhịp) thì sửa `ffmpeg-render.mjs` cho khớp. Đã đo (2026-11-22, Apple M2 8 nhân, 16 GB, VideoToolbox): ts001 bản YouTube 24 phút render 4,8 phút (~5 lần thời gian thực), phần TikTok 2,5 phút render 0,4 phút; so với bản Remotion cùng tập: SSIM 0,99, khớp ở đầu, chỗ mờ chéo phút 15, cuối.
 - **remotion**: Chrome vẽ từng khung. Tự dùng khi tập bật phụ đề (`captionsSrc`), vì đường ffmpeg chưa vẽ phụ đề. Đã đo (2026-11-22, cùng máy, 4 luồng): bản YouTube 31 phút render ~38 phút (~0,8 lần thời gian thực). Bộ đệm khung hình của `@remotion/media` mặc định 50% RAM cho mỗi tab Chrome làm máy treo khi chạy nhiều tập; script đã chia 40% RAM cho các tab (`mediaCacheSizeInBytes`), bundle trỏ link tới `public/`, tự dọn bundle `my-video-bundle-<pid>` của lượt đã chết.
 - **Hiệu ứng sau này**: hiệu ứng chạy suốt video mà ffmpeg làm được (chỉnh màu, LUT, vignette, lớp phủ video có kênh trong suốt) thêm vào chuỗi lọc của `ffmpeg-render.mjs`; hiệu ứng React ngắn (thẻ chương, intro) nên render riêng từng đoạn thành video trong suốt rồi chồng vào đúng mốc, không render cả tập bằng Remotion (chi phí Remotion theo số khung, không theo độ phức tạp).
-- **Mã hóa**: `--encoder=hw` (mặc định). Đường ffmpeg: Mac dùng VideoToolbox; Windows/Linux tự dò NVENC, QSV (Intel), AMF (AMD) bằng một lần mã hóa thử, không có thì libx264; tất cả 5 Mbps (31 phút ≈ 1,1 GB). Đường remotion: Mac VideoToolbox, Windows/Linux chỉ có NVENC nên mặc định `sw` ở đó. `--encoder=sw`: libx264 crf 18. Windows cần ffmpeg bản đầy đủ (bản "full" của gyan.dev, hoặc `winget install Gyan.FFmpeg`); chưa thử trên Windows.
+- **Mã hóa**: `--encoder=hw` (mặc định). Đường ffmpeg: Mac dùng VideoToolbox; Windows/Linux tự dò NVENC, QSV (Intel), AMF (AMD) bằng một lần mã hóa thử, không có thì libx264; tất cả 8 Mbps, GOP 2 giây (31 phút ≈ 1,8 GB). Đường remotion: Mac VideoToolbox, Windows/Linux chỉ có NVENC nên mặc định `sw` ở đó. `--encoder=sw`: libx264 crf 18. Windows cần ffmpeg bản đầy đủ (bản "full" của gyan.dev, hoặc `winget install Gyan.FFmpeg`); chưa thử trên Windows.
 - `--only=clips` render phần TikTok không kèm bìa (khi chưa có ảnh nhân vật). Render lại vài phần: `--parts=1,3`. Render thử không đè bản cũ: `--out=.tmp/thu`. Không cắt phần TikTok từ `youtube.mp4` (khác hướng khung; tùy chọn `--cut` cũ đã bỏ).
 
 **Bật lại phụ đề**: repo không còn công cụ phiên âm (đã gỡ whisper 2026-11-19). Chỉ còn bản tạm, mốc chia theo số ký tự nên sẽ lệch so với giọng thật:
@@ -237,7 +227,7 @@ Rồi đặt `captionsSrc` thành `<mã>/captions.json`. Khớp từng chữ c�
 
 | Khung | Trên | Dưới | Trái | Phải |
 |---|---|---|---|---|
-| Dọc 1080×1920 (TikTok) | 220 | 520 | 80 | 160 |
+| Dọc 1080×1920 (TikTok) | 180 | 520 | 80 | 160 |
 | Ngang 1920×1080 (YouTube) | 70 | 120 | 100 | 100 |
 
 | Lỗi | Cách xử lý |
@@ -247,6 +237,7 @@ Rồi đặt `captionsSrc` thành `<mã>/captions.json`. Khớp từng chữ c�
 | Nền kem hai bên ở bản YouTube | Đúng thiết kế khi clip dọc hoặc vuông; muốn phủ kín thì thêm clip ngang vào tag |
 | Phần TikTok lệch chương | Chạy lại `build-audio.mjs` (startSec còn 0) |
 | Video dài/ngắn sai | Kiểm tra `public/<mã>/audio.mp3`, xem lỗi `calculateMetadata` trong Studio |
+| `audio.mp3` ngắn hơn tổng chương | `build-audio` bị dừng giữa chừng; chạy lại `node scripts/build-audio.mjs <mã>` (ghi file tạm rồi đổi tên, `status` đối chiếu độ dài) |
 | Hình giật | Footage chưa chuẩn hóa `fps=30` |
 | Mất dấu tiếng Việt | Font thiếu subset `vietnamese` |
 | Lỗi phiên bản gói | `npx remotion versions`, cài mọi `@remotion/*` cùng phiên bản |
@@ -269,4 +260,4 @@ Dùng khi sửa `src/` (nguồn: skill Remotion chính thức `remotion-dev/skil
 
 ## 7. Chi phí
 
-Mỗi tập = giá TTS theo số ký tự (45 phút ≈ 55.000–60.000 ký tự; lần thử đầu tốn ~3.200 credit GenMax cho 700 chữ) + footage (Pexels miễn phí) + thời gian render (45 phút ≈ 81.000 frame). Giữ kịch bản, audio từng chương và `episode.json` của tập để dựng lại hoặc đổi footage nhanh.
+Mỗi tập = giá TTS theo số ký tự (45 phút ≈ 70.000–80.000 ký tự ở ~290 chữ/phút; lần thử đầu tốn ~3.200 credit GenMax cho 700 chữ) + footage (Pexels miễn phí) + thời gian render (45 phút ≈ 81.000 frame). Giữ kịch bản, audio từng chương và `episode.json` của tập để dựng lại hoặc đổi footage nhanh.

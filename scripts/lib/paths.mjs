@@ -5,6 +5,7 @@ import path from 'node:path';
 export const ROOT = path.resolve(import.meta.dirname, '../..');
 export const CHANNEL = path.join(ROOT, 'channel'); // tài sản dùng chung cả kênh (intro.tts.txt, intro.mp3)
 export const FOOTAGE = path.join(ROOT, 'public', 'footage'); // <tag>/<tag>-NN.mp4, <tag>/sources.txt, manifest.json
+export const CHAPTER_GAP = 0.8; // nghỉ giữa hai chương (scripts/build-audio.mjs, scripts/status.mjs)
 export const TAG_RE = /^[a-z0-9-]+$/;
 
 // Thương hiệu và chữ cố định của kênh: nguồn duy nhất là channel/channel.json (src/brand.ts đọc cùng file này).

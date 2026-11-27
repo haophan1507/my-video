@@ -4,9 +4,10 @@
 // Chỉ kiểm được cái đo được (file, số chương, số chữ, mốc sửa file). Việc cần người xem (nghe thử, duyệt dàn ý) vẫn do người quyết.
 import fs from 'node:fs';
 import path from 'node:path';
+import {spawnSync} from 'node:child_process';
 import {pathToFileURL} from 'node:url';
-import {ROOT, GENRES, ID_RE, epPaths} from './lib/paths.mjs';
-import {report} from './normalize-vi.mjs';
+import {ROOT, GENRES, ID_RE, epPaths, channelName, CHAPTER_GAP} from './lib/paths.mjs';
+import {report, WORDS_PER_MIN} from './normalize-vi.mjs';
 
 const read = (f) => { try { return fs.readFileSync(f, 'utf8'); } catch { return null; } };
 const readJson = (f) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return null; } };
@@ -14,12 +15,23 @@ const ls = (dir, re) => { try { return fs.readdirSync(dir).filter((f) => re.test
 const mtime = (f) => { try { return fs.statSync(f).mtimeMs; } catch { return 0; } };
 const words = (s) => (s.match(/[\p{L}\p{N}]+/gu) ?? []).length;
 const vi = (n) => n.toLocaleString('vi-VN');
+const sec = (f) => {
+  try {
+    const r = spawnSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f], {encoding: 'utf8'});
+    return Number(r.stdout.trim()) || 0;
+  } catch { return 0; }
+};
+const mmss = (s) => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, '0')}`;
+const dims = (f) => {
+  try {
+    const r = spawnSync('ffprobe', ['-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height', '-of', 'csv=p=0:s=x', f], {encoding: 'utf8'});
+    return r.stdout.trim();
+  } catch { return ''; }
+};
 
 const CHAPTERS = [6, 12];      // số chương (viết mới nhắm 8–12; 6–7 giữ cho tập cũ)
 const WORDS = [700, 1400];     // chữ mỗi chương (viết mới nhắm 900–1.400; 700 giữ cho tập cũ)
 const MIN_TOTAL = 6900;        // ~24 phút ở giọng 1,2 (~290 chữ/phút); mục tiêu 25 phút, có dung sai
-const MIN_CLIPS = 4;      // clip nền từ 5 phút nên cần ít clip
-const MIN_CLIP_SEC = 300;
 
 export function status(arg) {
   const E = epPaths(arg);
@@ -79,38 +91,79 @@ export function status(arg) {
   step('Giọng đọc', ttsFiles.length ? pct(mp3Ok.length, ttsFiles.length) : 'todo',
     ttsFiles.length ? `${mp3Ok.length}/${ttsFiles.length} chương có mp3 mới nhất${mp3Ok.length && !hasMeta ? ' (chưa có voice-meta.json)' : ''}; nghe thử chương 1 do bạn xác nhận` : 'chưa có .tts.txt');
 
-  // 6. Footage
+  // 6. Footage: tag phải phủ được độ dài tập. Tag ngắn hơn thì vẫn render được nhưng footage lặp lại
+  // (nguồn nên dài ≥ độ dài tập), nên chỉ báo partial; không đặt chỉ tiêu số clip.
   const manifest = readJson(path.join(ROOT, 'public', 'footage', 'manifest.json')) ?? [];
+  const tags = readJson(path.join(ROOT, 'public', 'footage', 'tags.json')) ?? {};
   const code = path.basename(E.dir).split('-')[0];
   const choice = readJson(path.join(ROOT, 'public', 'footage', 'choices.json'))?.[code];
   const tag = choice ?? ep?.footageTag;
   const localTags = [...new Set(manifest.map((f) => f.tag))];
   const clips = !tag ? [] : manifest.filter((f) => f.tag === tag && fs.existsSync(path.join(ROOT, 'public', f.src)));
-  step('Footage', clips.length >= MIN_CLIPS ? 'done' : clips.length ? 'partial' : 'todo',
-    !tag ? `chưa chọn tag footage; tag có trên máy này: ${localTags.join(', ') || '(trống)'}; chọn: node scripts/footage-pick.mjs <mã> <tag>` : !clips.length ? `tag "${tag}" chưa có trên máy này; có: ${localTags.join(', ') || '(trống)'}; chọn: node scripts/footage-pick.mjs <mã> <tag>` : `${clips.length} clip tag "${tag}" (cần ≥ ${MIN_CLIPS})${clips.some((f) => f.sec < MIN_CLIP_SEC) ? `; ${clips.filter((f) => f.sec < MIN_CLIP_SEC).length} clip ngắn hơn 5 phút` : ''}`);
+  const speed = tags[tag]?.speed ?? 1;
+  const firstSrc = [...clips].sort((a, b) => a.src.localeCompare(b.src))[0]?.src;
+  const usableSec = clips.reduce((n, f) => n + Math.max(0, f.sec - (f.src === firstSrc ? tags[tag]?.start ?? 0 : 0)) / speed, 0);
+  const audioDur = ep?.audioSrc ? sec(path.join(ROOT, 'public', ep.audioSrc)) : 0;
+  const needSec = audioDur || Math.max(25 * 60, (total / WORDS_PER_MIN) * 60); // tập chưa có audio: ước từ số chữ, tối thiểu 25 phút
+  const enough = clips.length > 0 && usableSec >= needSec;
+  step('Footage', enough ? 'done' : clips.length ? 'partial' : 'todo',
+    !tag ? `chưa chọn tag footage; tag có trên máy này: ${localTags.join(', ') || '(trống)'}; chọn: node scripts/footage-pick.mjs <mã> <tag>`
+      : !clips.length ? `tag "${tag}" chưa có trên máy này; có: ${localTags.join(', ') || '(trống)'}; chọn: node scripts/footage-pick.mjs <mã> <tag>`
+      : `${clips.length} clip tag "${tag}", ${mmss(usableSec)} sau tốc độ ${speed}${enough ? '' : ` — ngắn hơn tập ${mmss(needSec)}, footage sẽ lặp`}`);
 
   // 7. Dựng, render
   const nParts = ep?.parts?.length ?? 0;
   const tiktoks = ls(E.out, /^tiktok-\d+\.mp4$/).length;
-  const audioBuilt = !!ep?.audioSrc && fs.existsSync(path.join(ROOT, 'public', ep.audioSrc)) && (ep.chapters ?? []).some((c) => c.startSec > 0);
+  const audioBuilt = !!ep?.audioSrc && fs.existsSync(path.join(ROOT, 'public', ep.audioSrc)) && (ep.chapters ?? []).length > 0;
   const missing7 = [];
   if (!ep) missing7.push('episode.json');
   else if (!audioBuilt) missing7.push('audio.mp3 (build-audio)');
+  // Đối chiếu audio đã ghép với tổng audio từng chương: file cụt (build bị dừng) vẫn mở được nhưng thiếu truyện.
+  const chMp3 = ls(E.audio, /^ch\d+\.mp3$/);
+  if (audioBuilt && chMp3.length) {
+    const expect = chMp3.reduce((n, f, i) => n + sec(path.join(E.audio, f)) + (i < chMp3.length - 1 ? CHAPTER_GAP : 0), 0)
+      + (ep.introSec > 0 ? ep.introSec : 0); // introSec = câu chào + nghỉ, nằm trước chương 1
+    if (expect > 0 && Math.abs(audioDur - expect) > 2) missing7.push(`audio.mp3 ${mmss(audioDur)} lệch tổng chương ${mmss(expect)} (chạy lại build-audio)`);
+  }
   const posted = /đã đăng YouTube/.test(tap ?? ''); // đăng rồi thì youtube.mp4 được dọn
   if (!posted && !fs.existsSync(path.join(E.out, 'youtube.mp4'))) missing7.push('youtube.mp4');
   if (!nParts || tiktoks < nParts) missing7.push(`tiktok ${tiktoks}/${nParts}`);
   const covers = ls(E.out, /^tiktok-\d+-cover\.png$/).length;
   if (!nParts || covers < nParts) missing7.push(`bìa tiktok ${covers}/${nParts}`);
-  if (!fs.existsSync(path.join(E.out, 'thumb.png'))) missing7.push('thumb.png');
-  step('Dựng, render', missing7.length === 0 ? 'done' : ep || tiktoks || audioBuilt ? 'partial' : 'todo', missing7.length ? `thiếu: ${missing7.join(', ')}` : '');
+  const thumbFile = path.join(E.out, 'thumb.png');
+  if (!fs.existsSync(thumbFile)) missing7.push('thumb.png');
+  else {
+    const d = dims(thumbFile);
+    if (d && d !== '1280x720') missing7.push(`thumb.png ${d} (cần 1280x720)`);
+    const mb = fs.statSync(thumbFile).size / 2 ** 20;
+    if (mb > 2) missing7.push(`thumb.png ${mb.toFixed(1)} MB (tối đa 2 MB)`);
+  }
+  // Tiêu đề đăng bài: hook đứng đầu, đuôi "| <tên kênh> <số>", tổng ≤100 ký tự.
+  const dangBai = read(path.join(E.dir, 'dang-bai.md'));
+  const title = dangBai?.match(/```\n([^\n]+)\n```/)?.[1]?.trim();
+  if (!title) missing7.push('dang-bai.md (thiếu tiêu đề YouTube)');
+  else {
+    const hook = title.split('|')[0].trim();
+    if ([...title].length > 100) missing7.push(`tiêu đề ${[...title].length} ký tự (tối đa 100)`);
+    if (!title.includes(`| ${channelName()}`)) missing7.push(`tiêu đề thiếu "| ${channelName()} <số>"`);
+    if ([...hook].length > 78) missing7.push(`hook ${[...hook].length} ký tự (tối đa 78)`);
+  }
+  const lengthNote = audioDur && audioDur < 25 * 60 ? `dài ${mmss(audioDur)}, dưới chuẩn 25 phút` : '';
+  // Chuẩn 2026-11-27: chữ bìa trùng hook tiêu đề. Chỉ cảnh báo (không chặn render) vì tập cũ có bìa làm trước chuẩn.
+  const norm = (s) => s.toLowerCase().normalize('NFC').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+  const hookN = title ? norm(title.split('|')[0]) : '', coverN = ep?.thumbText ? norm(ep.thumbText) : '';
+  const coverNote = hookN && coverN && !hookN.includes(coverN) && !coverN.includes(hookN) ? 'bìa chưa trùng hook tiêu đề (chuẩn 2026-11-27)' : '';
+  const detail7 = [missing7.length ? `thiếu: ${missing7.join(', ')}` : '', lengthNote, coverNote].filter(Boolean).join('; ');
+  step('Dựng, render', missing7.length === 0 ? 'done' : ep || tiktoks || audioBuilt ? 'partial' : 'todo', detail7);
 
   const next = steps.find((s) => s.state !== 'done');
-  return {id: E.id, name: E.name, current: next ? next.n : null, currentName: next?.name ?? 'đã xong cả 7 bước', steps};
+  return {id: E.id, name: E.name, current: next ? next.n : null, currentName: next?.name ?? 'đã xong cả 7 bước', posted: /đã đăng YouTube/.test(tap ?? ''), steps};
 }
 
 const print = (r) => {
   const icon = {done: '✓', partial: '◐', todo: '○'};
   console.log(`\n${r.name}: ${r.current ? `bước hiện tại = ${r.current}. ${r.currentName}` : r.currentName}`);
+  if (r.posted) console.log('  (đã đăng YouTube: audio/video local có thể đã dọn và máy này có thể không có tag footage, nên bước 5–7 vẫn có thể báo thiếu)');
   for (const s of r.steps) console.log(`  ${icon[s.state]} ${s.n}. ${s.name}${s.detail ? ` — ${s.detail}` : ''}`);
 };
 

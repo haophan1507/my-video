@@ -1,6 +1,7 @@
 import {Composition, Still, staticFile, type CalculateMetadataFunction} from 'remotion';
 import type {Caption} from '@remotion/captions';
 import {Input, ALL_FORMATS, UrlSource} from 'mediabunny';
+import {FPS} from './footagePlan';
 import {Story} from './Story';
 import {Clip} from './Clip';
 import {Backdrop, Thumbnail, TikTokCover} from './Thumbnail';
@@ -8,7 +9,7 @@ import {Overlay} from './ui';
 import {partRange, type EpisodeProps, type FootageItem} from './types';
 import {validateEpisode} from './validate';
 
-export const FPS = 30;
+export {FPS};
 // YouTube: khung ngang 16:9. TikTok: khung dọc 9:16. Ảnh bìa YouTube 1280×720.
 export const YOUTUBE = {width: 1920, height: 1080};
 export const TIKTOK = {width: 1080, height: 1920};
@@ -36,6 +37,8 @@ const loadEpisode: CalculateMetadataFunction<EpisodeProps> = async ({props}) => 
   const footage = manifest.filter((f) => f.tag === footageTag).map((f) => ({...f, speed: tags[footageTag]?.speed ?? 1, start: tags[footageTag]?.start ?? 0}));
   if (!footage.length) throw new Error(`Không có footage cho tag "${footageTag}" trên máy này. Tag đang có: ${[...new Set(manifest.map((f) => f.tag))].join(', ') || '(trống)'}. Chạy node scripts/footage-pick.mjs <mã tập> <tag>`);
   const full = {...props, footageTag, audioSec, footage, captions};
+  const lastStart = props.chapters?.at(-1)?.startSec ?? 0;
+  if (audioSec < lastStart) throw new Error(`audio.mp3 dài ${audioSec.toFixed(1)}s nhưng chương cuối bắt đầu ở ${lastStart.toFixed(1)}s: file audio cụt, chạy lại node scripts/build-audio.mjs`);
   const {startSec, endSec} = partRange(full);
   const tail = props.part ? 0 : FPS;
   return {props: full, durationInFrames: Math.ceil((endSec - startSec) * FPS) + tail};

@@ -1,6 +1,7 @@
 #!/usr/bin/env node
-// Mở tập mới từ truyện trong kho: tạo episodes/<thể-loại>/<mã>-slug/ (tap.md, episode.json, script/),
-// thêm một dòng vào bảng "Các tập" ở stories/README.md. Tập đã có thì bỏ qua, không ghi đè.
+// Mở tập mới từ truyện trong kho: tạo episodes/<thể-loại>/<mã>-slug/ (tap.md, episode.json, script/).
+// Không thêm dòng vào bảng "Các tập": bảng chỉ ghi tập đã có quyết định (xem stories/README.md).
+// Tập đã có thì bỏ qua, không ghi đè.
 // Dùng: node scripts/new-episode.mjs tc004 [ts003 ...]   |   --all (mọi truyện chưa có tập)   |   --genre=tc kèm --all
 import fs from 'node:fs';
 import path from 'node:path';
@@ -17,7 +18,6 @@ if (!all && !ids.length) {
 
 const d = new Date();
 const today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; // ngày giờ máy
-const README = path.join(ROOT, 'stories', 'README.md');
 
 // Mọi truyện trong kho: {id, genre, name (tên file bỏ .md), file, title}
 const stories = Object.entries(GENRES).flatMap(([code, g]) => {
@@ -50,7 +50,6 @@ else {
 
 const tapTpl = fs.readFileSync(path.join(ROOT, 'references', 'tap-mau.md'), 'utf8');
 const epTpl = fs.readFileSync(path.join(ROOT, 'references', 'episode-mau.json'), 'utf8');
-let readme = fs.readFileSync(README, 'utf8');
 const made = [];
 
 for (const s of targets) {
@@ -67,16 +66,8 @@ for (const s of targets) {
   ep.footageTag = ''; // chọn ở bước 6; để trống thì status.mjs báo chưa có footage
   fs.writeFileSync(path.join(dir, 'episode.json'), JSON.stringify(ep, null, 2) + '\n');
 
-  // Thêm dòng vào bảng Các tập (ngay trước dòng "Mỗi tập mới thêm một dòng.")
-  const epTable = readme.slice(readme.indexOf('## Các tập'));
-  if (!new RegExp(`^\\| ${s.id} \\|`, 'm').test(epTable)) {
-    const row = `| ${s.id} | chưa chốt | chưa chốt | mở ${today} |\n`;
-    // Chèn sau dòng cuối của bảng (bảng bắt đầu bằng tiêu đề "| Tập | Giọng | Footage | Hồ sơ |")
-    readme = readme.replace(/(\| Tập \| Giọng \| Footage \| Hồ sơ \|\n(?:\|.*\|\n)*)/, `$1${row}`);
-  }
   made.push(s.id);
   console.log(`mở ${s.id}: episodes/${s.genre}/${s.name}/`);
 }
 
-fs.writeFileSync(README, readme);
 console.log(`\nĐã mở ${made.length} tập.`);
