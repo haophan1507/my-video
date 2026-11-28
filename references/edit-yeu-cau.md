@@ -18,7 +18,7 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 | Thẻ chữ trên hình (thẻ chào, thẻ hook) | Không có: video vào thẳng cảnh footage từ khung đầu; hook nằm ở lời kể và ảnh bìa | `src/Story.tsx`, `src/Clip.tsx` |
 | Nghỉ sau câu chào | 0,8 giây | `scripts/build-audio.mjs` |
 | Độ dài tập | Mục tiêu 25–60 phút, có dung sai: viết mới nhắm ≥ 7.300 chữ (giọng 1,2 ~290 chữ/phút), từ 6.900 chữ (~24 phút) là đạt | `MIN_TOTAL` trong `scripts/status.mjs` |
-| Tốc độ giọng | 1,2 | `voice.speed` trong `episode.json` và `channel/channel.json` |
+| Tốc độ giọng | 1,2: gen ở 1,0 rồi tăng tốc 1,2 lúc ghép audio (câu chào kênh gen thẳng 1,2) | `voice.speed`, `voice.tempo` trong `episode.json`; `scripts/build-audio.mjs`; `voice.speed` trong `channel/channel.json` |
 | Độ to và file audio | -14 LUFS, đỉnh -1,5 dBTP (`loudnorm` hai lượt); `audio.mp3` 48 kHz mono, 160 kbps (2026-11-27) | `scripts/build-audio.mjs` |
 | Thứ tự render | Bản YouTube trước, TikTok sau | |
 
@@ -86,6 +86,7 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 ## Giọng
 
 - Tốc độ 1,2 (đã thử 0,95, 1,1, 1,2; 0,95 chậm so với nhịp kể). Tập mới bắt đầu từ 1,2.
+- Cách đạt 1,2 (2026-11-27): gen `voice.speed` 1,0, `build-audio` tăng tốc từng chương bằng `atempo` theo `voice.tempo` 1,2 (không đổi cao độ; thêm ~1 giây cho audio 40 phút). Chọn sau khi nghe so với gen thẳng 1,2 trên 2 đoạn. Tập đã gen ở 1,2 giữ `speed` 1,2, không đặt `tempo`.
 
 ## Nhật ký
 
@@ -118,3 +119,4 @@ Thiết lập đang áp dụng cho mọi tập. Đọc trước khi sửa `src/`
 - 2026-11-27: `build-audio` chuẩn hóa độ to về -14 LUFS, đỉnh -1,5 dBTP, xuất `audio.mp3` 48 kHz mono 160 kbps (giọng TTS gốc khoảng -19 LUFS, nhỏ hơn video cùng thể loại). Áp cho tập build audio từ ngày này.
 - 2026-11-27: thêm quy tắc chủ động nạp footage và phân bổ đa dạng cho các tập, ghi vào `tap.md`.
 - 2026-11-27: tải footage bằng `yt-dlp`, thay trang tải trung gian và Claude in Chrome.
+- 2026-11-27: tốc độ giọng 1,2 đạt bằng gen 1,0 rồi tăng tốc lúc ghép audio (`voice.tempo`). Áp cho tập chưa gen giọng (tc021–tc061, ts021–ts040) và tập mới.

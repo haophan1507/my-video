@@ -54,7 +54,8 @@ node scripts/gen-voice.mjs tc005 [--only 1,3] [--force] [--dry-run]
 
 - Đọc `script/chNN.tts.txt`, ghi `audio/chNN.mp3` trong thư mục tập (ghi ra file tạm rồi đổi tên, nên file hỏng không bao giờ mang tên `.mp3`).
 - Dịch vụ GenMax (`GENMAX_API_KEY` trong `.env`), mặc định provider `minimax`, model `speech-2.8-hd`, giọng `VOICE_ID` trong `.env`. Đổi bằng `--provider`, `--model`, `--voice`.
-- **Cài đặt giọng nằm ở `voice` trong `episode.json`** (`provider`, `model`, `voiceId`, `language`, `speed`; mẫu ở `references/episode-mau.json`). Thứ tự ưu tiên: tham số dòng lệnh > `episode.json` > `VOICE_ID` trong `.env` > mặc định. Chưa đặt tốc độ thì script cảnh báo và dùng 1.0, nên chốt `voice.speed` trước khi gen.
+- **Cài đặt giọng nằm ở `voice` trong `episode.json`** (`provider`, `model`, `voiceId`, `language`, `speed`, `tempo`; mẫu ở `references/episode-mau.json`). Thứ tự ưu tiên: tham số dòng lệnh > `episode.json` > `VOICE_ID` trong `.env` > mặc định. Chưa đặt tốc độ thì script cảnh báo và dùng 1.0, nên chốt `voice.speed` trước khi gen.
+- **Tốc độ**: `speed` gửi cho GenMax lúc gen; `tempo` do `build-audio` áp lên từng chương (`atempo`), `gen-voice` bỏ qua nên đổi `tempo` không tốn credit, chỉ cần ghép lại. Nghe duyệt chương 1 ở đúng tốc độ phát: `ffplay -af atempo=1.2 audio/ch01.mp3`.
 - Mọi chương trong một tập dùng đúng một bộ cài đặt; tóm tắt vào `tap.md` cho người đọc. Script ghi chữ + cài đặt từng chương vào `audio/voice-meta.json`: chạy lại chỉ gen chương đã đổi chữ hoặc cài đặt (đỡ tốn credit); `--dry-run` liệt kê việc sẽ làm và số ký tự mà không gọi API; `--force` gen lại hết. Audio đã có mà chưa có meta (gen từ bản cũ) được giữ nguyên.
 - Lỗi mạng, 429, 5xx được thử lại có chờ; riêng lệnh tạo tác vụ (tốn credit) chỉ thử lại khi chắc chưa tạo. Một chương quá 15 phút chưa xong thì dừng và báo, kiểm tra lịch sử trên GenMax trước khi gen lại.
 - Gen chương 1, nghe duyệt, rồi mới gen cả tập.

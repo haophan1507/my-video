@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {execFileSync, spawnSync} from 'node:child_process';
 import {epPaths, CHANNEL, chapterLabel, CHAPTER_GAP} from './lib/paths.mjs';
+import {readVoiceMeta} from './lib/voice.mjs';
 
 const E = epPaths(process.argv[2]);
 const GAP = CHAPTER_GAP;
@@ -40,9 +41,19 @@ data.introSec = Math.round(t * 100) / 100;
 delete data.episodeLabel; delete data.hookSec; // trường cũ, không còn dùng
 data.audioSrc = `${E.pubRel}/audio.mp3`;
 data.thumbBg ??= `${E.pubRel}/thumb-bg.jpg`;
+// voice.tempo: tăng tốc audio chương sau khi gen (giữ cao độ). Mốc chương đo trên file đã tăng tốc nên tự khớp.
+const tempo = data.voice?.tempo ?? 1;
+if (!(tempo >= 0.5 && tempo <= 2)) throw new Error(`voice.tempo phải trong 0,5–2, đang là ${tempo}`);
+if (tempo !== 1) {
+  // mp3 gen ở tốc độ khác voice.speed (ví dụ bản 1,2 cũ) mà tăng tiếp sẽ thành quá nhanh: dừng lại
+  const meta = readVoiceMeta(src);
+  const wrong = files.filter((f) => meta[f]?.speed != null && meta[f].speed !== data.voice.speed);
+  if (wrong.length) throw new Error(`${wrong.join(', ')} gen ở tốc độ khác voice.speed ${data.voice.speed}: chạy lại gen-voice trước khi ghép`);
+}
+const tempoArgs = tempo === 1 ? [] : ['-af', `atempo=${tempo}`];
 files.forEach((f, i) => {
   const wav = `${tmp}/ch${i + 1}.wav`;
-  ff('-i', `${src}/${f}`, '-ar', '44100', '-ac', '1', wav);
+  ff('-i', `${src}/${f}`, ...tempoArgs, '-ar', '44100', '-ac', '1', wav);
   starts.push(Math.round(t * 100) / 100);
   list.push(`file '${wav}'`);
   t += dur(wav);

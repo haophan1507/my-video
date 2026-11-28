@@ -121,7 +121,7 @@ export function status(arg) {
   // Đối chiếu audio đã ghép với tổng audio từng chương: file cụt (build bị dừng) vẫn mở được nhưng thiếu truyện.
   const chMp3 = ls(E.audio, /^ch\d+\.mp3$/);
   if (audioBuilt && chMp3.length) {
-    const expect = chMp3.reduce((n, f, i) => n + sec(path.join(E.audio, f)) + (i < chMp3.length - 1 ? CHAPTER_GAP : 0), 0)
+    const expect = chMp3.reduce((n, f, i) => n + sec(path.join(E.audio, f)) / (ep.voice?.tempo ?? 1) + (i < chMp3.length - 1 ? CHAPTER_GAP : 0), 0)
       + (ep.introSec > 0 ? ep.introSec : 0); // introSec = câu chào + nghỉ, nằm trước chương 1
     if (expect > 0 && Math.abs(audioDur - expect) > 2) missing7.push(`audio.mp3 ${mmss(audioDur)} lệch tổng chương ${mmss(expect)} (chạy lại build-audio)`);
   }

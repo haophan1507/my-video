@@ -7,7 +7,7 @@ export type Chapter = {title: string; startSec: number};
 export type Part = {chapters: number[]; hook: string};
 
 // Cài đặt giọng của tập (scripts/gen-voice.mjs đọc; Remotion không dùng). Ghi ở đây để gen lại y hệt.
-export type VoiceSettings = {provider?: string; model?: string; voiceId?: string; language?: string; speed?: number};
+export type VoiceSettings = {provider?: string; model?: string; voiceId?: string; language?: string; speed?: number; tempo?: number};
 
 export type EpisodeProps = {
   voice?: VoiceSettings;

@@ -38,8 +38,9 @@ export const validateEpisode = (p: Record<string, any>, opts: {needThumb?: boole
   }
 
   if (p.voice != null) {
-    if (typeof p.voice !== 'object') e.push('"voice" phải là object { provider, model, voiceId, language, speed }');
+    if (typeof p.voice !== 'object') e.push('"voice" phải là object { provider, model, voiceId, language, speed, tempo }');
     else if (p.voice.speed != null && !(num(p.voice.speed) && p.voice.speed > 0)) e.push('"voice.speed" phải là số > 0');
+    if (p.voice?.tempo != null && !(num(p.voice.tempo) && p.voice.tempo >= 0.5 && p.voice.tempo <= 2)) e.push('"voice.tempo" phải là số trong 0,5–2');
   }
   return e;
 };
